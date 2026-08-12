@@ -1,0 +1,318 @@
+# Skill Store
+
+**AI Agent Skill 发现引擎 · 兼容性注册表**
+
+Skill 散落在 GitHub 各处、skillhub、mcpmarket 等平台，Skill Store 把它们统一索引。内容留在原地，这里只存元数据——告诉你哪里有、是什么、支持哪个平台、质量怎样。
+
+[![Auto Sync](https://img.shields.io/badge/auto--sync-daily-brightgreen)](/.github/workflows/sync.yml)
+[![Python](https://img.shields.io/badge/python-3.12+-blue)](https://python.org)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+
+---
+
+## 和同类项目的区别
+
+| | 同类（镜像型） | Skill Store |
+|---|---|---|
+| 定位 | 搬运 skill 内容到本地 | 只存索引，指向原始来源 |
+| 数据 | 整份 skill 文件 | 元数据 + 信号 + 兼容性标注 |
+| 扩展 | 加新源要改爬虫代码 | 加新源只需在 `config.yml` 追加一行 |
+| 规范 | 自定义格式 | 遵循 [agentskills.io](https://agentskills.io/specification) 官方规范 |
+| 输出 | 静态页面 | 可查询 Registry JSON + CLI |
+
+---
+
+## 快速开始
+
+```bash
+# 1. 克隆
+git clone https://github.com/your-name/skill-store.git
+cd skill-store
+
+# 2. 安装依赖（使用 uv）
+uv sync
+
+# 3. 配置 GitHub Token（可选，推荐）
+#    不配置时 GitHub API 限速 60 次/小时，配置后 5000 次/小时
+cp .env.example .env
+# 编辑 .env，填入 GITHUB_TOKEN=ghp_xxxxxxxxxxxx
+
+# 4. 首次同步
+uv run skill-store sync
+
+# 5. 查看结果
+uv run skill-store stats
+```
+
+---
+
+## CLI 命令
+
+### `sync` — 采集并更新注册表
+
+```bash
+# 同步所有启用的数据源
+skill-store sync
+
+# 只同步指定数据源
+skill-store sync --source anthropics-skills
+skill-store sync --source anthropics-skills --source voltagent-awesome
+
+# 试运行（不写文件，只看日志）
+skill-store sync --dry-run
+
+# 详细日志
+skill-store -v sync
+```
+
+### `stats` — 查看注册表统计
+
+```bash
+skill-store stats
+```
+
+输出示例：
+
+```
+╭──────────────────────────────────────╮
+│  Skill Store Registry                │
+│  286 skills across 4 sources         │
+│  Last synced: 2026-08-12T10:00:00Z   │
+╰──────────────────────────────────────╯
+
+By Category
+  development   87  ████████████████████████
+  creative      42  ████████████
+  document      31  █████████
+  devops        28  ████████
+  ...
+
+By Source
+  voltagent-awesome    162
+  anthropics-skills     17
+  community-repos       11
+  openai-skills          2
+```
+
+### `list` — 浏览技能列表
+
+```bash
+# 列出所有（默认最多 50 条）
+skill-store list
+
+# 筛选
+skill-store list --category development
+skill-store list --platform kiro
+skill-store list --source anthropics-skills
+skill-store list --min-score 60
+skill-store list --limit 100
+```
+
+### `export` — 导出数据
+
+```bash
+# 导出为 CSV（默认）
+skill-store export skills.csv
+
+# 导出为 JSON
+skill-store export skills.json --format json
+
+# 带筛选
+skill-store export dev-skills.csv --category development --min-score 50
+```
+
+### `daemon` — 定时自动同步
+
+```bash
+# 每 24 小时同步一次（默认）
+skill-store daemon
+
+# 自定义间隔（小时）
+skill-store daemon --interval 12
+
+# 只同步特定数据源
+skill-store daemon --interval 6 --source anthropics-skills
+```
+
+---
+
+## 数据源
+
+| ID | 类型 | 来源 | 说明 |
+|----|------|------|------|
+| `anthropics-skills` | GitHub Repo | [anthropics/skills](https://github.com/anthropics/skills) | Anthropic 官方，Apache-2.0 |
+| `openai-skills` | GitHub Repo | [openai/skills](https://github.com/openai/skills) | OpenAI 官方 |
+| `vercel-agent-skills` | GitHub Repo | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Vercel 官方，支持 76+ agent |
+| `langchain-skills` | GitHub Repo | [langchain-ai/langchain-skills](https://github.com/langchain-ai/langchain-skills) | LangChain 官方，21 个 skill |
+| `voltagent-awesome` | Awesome List | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 社区最大聚合列表，~160 条 |
+| `community-repos` | GitHub Repo List | 精选社区仓库 | 持续维护，加新源改 config.yml 即可 |
+| `skills-sh-signals` | Web 解析（信号层） | [skills.sh](https://skills.sh) | 只丰富安装量信号，不新增条目 |
+| `skillhub-cn` | Web API | skillhub.tencent.com | 待接入 |
+| `mcpmarket-cn` | Web API | mcpmarket.cn | 待接入 |
+
+新增数据源只需在 [`skill_store/adapters/config.yml`](skill_store/adapters/config.yml) 追加一个条目，无需修改代码。
+
+---
+
+## 项目结构
+
+```
+skill-store/
+├── skill_store/
+│   ├── adapters/
+│   │   ├── base.py           # 采集器基类 + 注册表机制
+│   │   ├── github_repo.py    # GitHub 仓库采集器
+│   │   ├── awesome_list.py   # Awesome-list 解析器
+│   │   ├── skills_sh.py      # skills.sh 安装量信号采集器
+│   │   └── config.yml        # 数据源声明（改这里加新源）
+│   ├── pipeline/
+│   │   ├── normalize.py      # 数据规范化 + 分类推断
+│   │   ├── deduplicate.py    # 跨源去重
+│   │   ├── score.py          # 质量评分（0-100）
+│   │   └── run.py            # 管道编排
+│   ├── models.py             # Pydantic v2 数据模型
+│   ├── registry_writer.py    # 输出 registry/ + 变更检测
+│   └── main.py               # CLI 入口
+├── registry/
+│   ├── skills.json           # 完整索引（自动生成）
+│   ├── meta.json             # 统计 + 变更日志（自动生成）
+│   └── by-category/          # 按分类拆分的 JSON（自动生成）
+├── scripts/
+│   └── update_readme.py      # 同步后自动刷新 README 统计区块
+├── docs/
+│   └── DESIGN.md             # 架构设计文档
+├── .github/workflows/
+│   └── sync.yml              # GitHub Actions 定时同步
+├── .env.example
+└── pyproject.toml
+```
+
+---
+
+## 数据模型
+
+每条注册表记录遵循 [agentskills.io 规范](https://agentskills.io/specification)，并扩展了发现层和信号层：
+
+```json
+{
+  "skill_id": "anthropics/skills/mcp-builder",
+  "spec": {
+    "name": "mcp-builder",
+    "description": "Build MCP servers with best practices",
+    "license": "Apache-2.0",
+    "compatibility": "Claude Code, Claude.ai"
+  },
+  "discovery": {
+    "source_id": "anthropics-skills",
+    "source_type": "github_repo",
+    "source_url": "https://github.com/anthropics/skills",
+    "install_url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
+    "last_synced": "2026-08-12T10:00:00Z"
+  },
+  "signals": {
+    "repo_stars": 1200,
+    "last_commit_date": "2026-08-10",
+    "has_scripts": true,
+    "has_references": true,
+    "file_count": 5
+  },
+  "platform": {
+    "claude_code": true,
+    "claude_ai": true,
+    "kiro": false,
+    "codex": false,
+    "universal": false
+  },
+  "category": "development",
+  "tags": ["mcp", "builder", "server"],
+  "score": 84
+}
+```
+
+### 质量评分（0-100）
+
+| 维度 | 权重 |
+|------|------|
+| 有描述 | 20 |
+| 有许可证 | 10 |
+| 有可执行脚本（scripts/） | 15 |
+| 有参考文档（reference/） | 10 |
+| GitHub Stars（对数归一化） | 20 |
+| 更新时效（近期提交加分） | 15 |
+| 字段完整度 | 10 |
+
+---
+
+## 自动同步（GitHub Actions）
+
+推送到 GitHub 后，[`.github/workflows/sync.yml`](.github/workflows/sync.yml) 会：
+
+- 每天 UTC 04:00 自动运行采集管道
+- 将更新的 `registry/` 文件提交回仓库
+- 支持手动触发（`workflow_dispatch`），可指定单个数据源
+
+**需要在仓库 Settings → Secrets 添加：**
+
+```
+SKILL_STORE_GITHUB_TOKEN = ghp_xxxxxxxxxxxx
+```
+
+使用独立的 PAT 而非默认 `GITHUB_TOKEN`，以避免 Actions 触发 API 限速。
+
+---
+
+## 添加新数据源
+
+**方式一：添加单个 GitHub 仓库**（该仓库根目录有 `SKILL.md`）
+
+在 `config.yml` 的 `community-repos` 下追加一行：
+
+```yaml
+- id: community-repos
+  adapter: github_repo_list
+  repos:
+    - antonbabenko/terraform-skill
+    - your-new/skill-repo        # ← 追加这里
+```
+
+**方式二：添加多 skill 结构的仓库**（如 `anthropics/skills`）
+
+```yaml
+- id: my-org-skills
+  adapter: github_repo
+  repo: my-org/skills
+  branch: main
+  skill_root: skills
+  skill_marker: SKILL.md
+```
+
+**方式三：解析 awesome-list**
+
+```yaml
+- id: my-awesome-list
+  adapter: awesome_list
+  repo: my-org/awesome-agent-skills
+  branch: main
+  readme_path: README.md
+```
+
+---
+
+## 贡献
+
+欢迎通过以下方式参与：
+
+- **提交新数据源**：在 `skill_store/adapters/config.yml` 中追加配置，提 PR
+- **改进分类规则**：编辑 `pipeline/normalize.py` 中的 `_CATEGORY_KEYWORDS`
+- **优化评分算法**：编辑 `pipeline/score.py` 中的权重配置
+- **接入新平台**：参照 `adapters/base.py` 的 `BaseAdapter` 接口实现新 adapter
+
+---
+
+## License
+
+MIT
+
+<!-- REGISTRY-STATS-START -->
+<!-- 此区块由 scripts/update_readme.py 在每次同步后自动更新，请勿手动编辑 -->
+<!-- REGISTRY-STATS-END -->

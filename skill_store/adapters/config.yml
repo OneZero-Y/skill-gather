@@ -1,0 +1,119 @@
+# Skill Store — Data Source Configuration
+# ============================================================
+# Adding a new source = append an entry here, zero code changes.
+# adapter types: github_repo | github_repo_list | awesome_list | skills_sh | web_api
+# ============================================================
+
+sources:
+
+  # ──────────────────────────────────────────────────────────
+  # Tier 1: Official organisation repos (multi-skill structure)
+  # skills/{name}/SKILL.md
+  # ──────────────────────────────────────────────────────────
+
+  - id: anthropics-skills
+    adapter: github_repo
+    repo: anthropics/skills
+    branch: main
+    skill_root: skills
+    skill_marker: SKILL.md
+    license_default: Apache-2.0
+
+  - id: openai-skills
+    adapter: github_repo
+    repo: openai/skills
+    branch: main
+    skill_root: skills
+    skill_marker: SKILL.md
+
+  - id: vercel-agent-skills
+    adapter: github_repo
+    repo: vercel-labs/agent-skills
+    branch: main
+    skill_root: skills
+    skill_marker: SKILL.md
+    license_default: MIT
+
+  - id: langchain-skills
+    adapter: github_repo
+    repo: langchain-ai/langchain-skills
+    branch: main
+    skill_root: skills
+    skill_marker: SKILL.md
+    license_default: MIT
+
+  # ──────────────────────────────────────────────────────────
+  # Tier 2: Awesome-list (parse README for skill repo links)
+  # ──────────────────────────────────────────────────────────
+
+  - id: voltagent-awesome
+    adapter: awesome_list
+    repo: VoltAgent/awesome-agent-skills
+    branch: main
+    readme_path: README.md
+
+  # ──────────────────────────────────────────────────────────
+  # Tier 3: Community individual-repo list
+  # Each repo is treated as one skill (root SKILL.md or best-effort)
+  # ──────────────────────────────────────────────────────────
+
+  - id: community-repos
+    adapter: github_repo_list
+    repos:
+      # DevOps / Infrastructure
+      - antonbabenko/terraform-skill
+      # Testing / QA
+      - cypress-io/ai-toolkit
+      - coderabbitai/skills
+      # Security
+      - snyk/agent-scan
+      # Frontend / Design
+      - angular/skills
+      - ibelick/ui-skills
+      - op7418/NanoBanana-PPT-Skills
+      # Data / Backend
+      - qdrant/skills
+      # API / Cloud
+      - google/skills
+      - NVIDIA/skills
+      - resend/resend-skills
+      # Content / Writing
+      - mattpocock/skills
+      # Marketing
+      - BrianRWagner/ai-marketing-skills
+      # iOS / Apple
+      - AvdLee/SwiftUI-Agent-Skill
+      - rudrankriyam/app-store-connect-cli-skills
+      # Misc verified repos
+      - deanpeters/Product-Manager-Skills
+      - LambdaTest/agent-skills
+      - video-db/skills
+
+  # ──────────────────────────────────────────────────────────
+  # Tier 4: skills.sh — install-count signals
+  # Fetches install statistics for known repos to enrich signals layer.
+  # Does NOT discover new skills — only enriches existing ones.
+  # ──────────────────────────────────────────────────────────
+
+  - id: skills-sh-signals
+    adapter: skills_sh
+    # List of repo slugs to fetch install counts for
+    repos:
+      - anthropics/skills
+      - vercel-labs/agent-skills
+      - langchain-ai/langchain-skills
+      - openai/skills
+
+  # ──────────────────────────────────────────────────────────
+  # Tier 5: Web platform adapters (pending API reverse-engineering)
+  # ──────────────────────────────────────────────────────────
+
+  - id: skillhub-cn
+    adapter: web_api
+    base_url: https://skillhub.tencent.com
+    enabled: false
+
+  - id: mcpmarket-cn
+    adapter: web_api
+    base_url: https://mcpmarket.cn
+    enabled: false

@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Registry output (generated, but tracked in git)
+# registry/ is intentionally tracked
+
+# Node (for Phase 2 web frontend)
+node_modules/
+
+# Temp
+.tmp/
