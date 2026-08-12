@@ -13,10 +13,32 @@ from pathlib import Path
 from typing import Any
 
 from skill_store.models import RegistryMeta, SkillIndex
+from skill_store.sync_state import load_source_sync_state, merge_source_sync_state
 
 logger = logging.getLogger(__name__)
 
 REGISTRY_DIR = Path(__file__).parent.parent / "registry"
+
+
+def merge_skills_for_sources(
+    existing: list[SkillIndex],
+    incoming: list[SkillIndex],
+    source_ids: set[str],
+) -> list[SkillIndex]:
+    """Replace skills from given sources while keeping all other registry entries."""
+    kept = [skill for skill in existing if skill.discovery.source_id not in source_ids]
+    merged = kept + incoming
+    merged.sort(key=lambda skill: skill.score, reverse=True)
+    return merged
+
+
+def load_existing_skills(output_dir: Path | None = None) -> list[SkillIndex]:
+    """Load current registry entries as SkillIndex models."""
+    out = output_dir or REGISTRY_DIR
+    existing = _load_json(out / "skills.json")
+    if not existing:
+        return []
+    return [SkillIndex.model_validate(record) for record in existing.get("skills", [])]
 
 
 # ---------------------------------------------------------------------------
@@ -107,6 +129,10 @@ def compute_diff(
 def write_registry(
     skills: list[SkillIndex],
     output_dir: Path | None = None,
+    *,
+    source_fingerprints: dict[str, str] | None = None,
+    skipped_sources: set[str] | None = None,
+    synced_sources: set[str] | None = None,
 ) -> dict[str, Any]:
     """Write skills to registry/ and return a diff changelog.
 
@@ -159,6 +185,16 @@ def write_registry(
                 platform_counts[k] += 1
 
     source_ids = sorted({s.discovery.source_id for s in skills})
+    source_counts_for_state = dict(source_counts)
+    prev_sync_state = load_source_sync_state(out)
+    source_sync_state = merge_source_sync_state(
+        prev_sync_state,
+        fingerprints=source_fingerprints or {},
+        skill_counts=source_counts_for_state,
+        synced_sources=synced_sources or set(),
+        skipped_sources=skipped_sources or set(),
+    )
+
     meta = RegistryMeta(
         total_skills=len(skills),
         sources_count=len(source_ids),
@@ -172,6 +208,7 @@ def write_registry(
         "platform_counts": platform_counts,
         "score_distribution": _score_distribution(skills),
         "changelog": changelog["summary"],
+        "source_sync_state": source_sync_state,
     }
     _write_json(out / "meta.json", meta_payload)
     logger.info("Wrote registry metadata → %s", out / "meta.json")
@@ -233,6 +270,40 @@ def export_csv(skills: list[dict], output_path: Path) -> None:
                 "tags":        ",".join(s.get("tags", [])),
             })
     logger.info("Exported %d skills to CSV: %s", len(skills), output_path)
+
+
+def export_yaml(skills: list[dict], output_path: Path) -> None:
+    """Export a frontend-friendly YAML index (Phase 2 Astro consumer)."""
+    import yaml
+
+    rows = []
+    for skill in skills:
+        spec = skill.get("spec", {})
+        discovery = skill.get("discovery", {})
+        signals = skill.get("signals", {})
+        rows.append({
+            "id": skill.get("skill_id", ""),
+            "name": spec.get("name", ""),
+            "description": spec.get("description", ""),
+            "category": skill.get("category", "other"),
+            "score": skill.get("score", 0),
+            "tags": skill.get("tags", []),
+            "source": discovery.get("source_id", ""),
+            "install_url": discovery.get("install_url", ""),
+            "stars": signals.get("repo_stars", 0),
+            "installs": signals.get("install_count", 0),
+            "platforms": [k for k, v in skill.get("platform", {}).items() if v],
+        })
+
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "total": len(rows),
+        "skills": rows,
+    }
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        yaml.safe_dump(payload, f, allow_unicode=True, sort_keys=False)
+    logger.info("Exported %d skills to YAML: %s", len(skills), output_path)
 
 
 def _score_distribution(skills: list[SkillIndex]) -> dict[str, int]:

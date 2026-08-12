@@ -13,43 +13,42 @@ from skill_store.models import SkillIndex
 
 logger = logging.getLogger(__name__)
 
-# Weight configuration
 _WEIGHTS = {
-    "has_description": 15,
+    "has_description": 12,
+    "description_quality": 10,
     "has_license": 8,
     "has_scripts": 12,
     "has_references": 8,
-    "stars": 15,        # Normalized via log scale
-    "installs": 20,     # skills.sh install count (strongest real-world signal)
-    "recency": 12,      # How recently updated
-    "completeness": 10, # SKILL.md field completeness
+    "structure": 8,
+    "stars": 15,
+    "installs": 18,
+    "recency": 10,
+    "completeness": 9,
 }
+
+_OFFICIAL_SOURCES = frozenset({
+    "anthropics-skills",
+    "openai-skills",
+    "vercel-agent-skills",
+    "langchain-skills",
+})
 
 
 def _stars_score(stars: int) -> float:
-    """Normalize star count to 0-1 using log scale."""
     if stars <= 0:
         return 0.0
     return min(1.0, math.log10(stars + 1) / 3.5)
 
 
 def _installs_score(installs: int) -> float:
-    """Normalize install count from skills.sh to 0-1 using log scale.
-
-    0 = 0, 1K = ~0.43, 100K = ~0.71, 1M = ~0.86
-    """
     if installs <= 0:
         return 0.0
     return min(1.0, math.log10(installs + 1) / 7.0)
 
 
 def _recency_score(last_commit_date: str | None) -> float:
-    """Score based on how recently the skill was updated.
-
-    Updated today = 1.0, 30 days ago = 0.7, 180 days = 0.3, 1 year+ = 0.1
-    """
     if not last_commit_date:
-        return 0.3  # Unknown = neutral
+        return 0.3
 
     try:
         last_dt = datetime.fromisoformat(last_commit_date.replace("Z", "+00:00"))
@@ -58,25 +57,42 @@ def _recency_score(last_commit_date: str | None) -> float:
     except (ValueError, TypeError):
         return 0.3
 
-    now = datetime.now(timezone.utc)
-    days_ago = (now - last_dt).days
-
+    days_ago = (datetime.now(timezone.utc) - last_dt).days
     if days_ago <= 7:
         return 1.0
-    elif days_ago <= 30:
+    if days_ago <= 30:
         return 0.85
-    elif days_ago <= 90:
+    if days_ago <= 90:
         return 0.7
-    elif days_ago <= 180:
+    if days_ago <= 180:
         return 0.5
-    elif days_ago <= 365:
+    if days_ago <= 365:
         return 0.3
-    else:
-        return 0.1
+    return 0.1
+
+
+def _description_quality_score(description: str) -> float:
+    length = len(description.strip())
+    if length >= 120:
+        return 1.0
+    if length >= 40:
+        return 0.65
+    if length >= 10:
+        return 0.35
+    return 0.0
+
+
+def _structure_score(skill: SkillIndex) -> float:
+    if skill.signals.file_count >= 5:
+        return 1.0
+    if skill.signals.file_count >= 2:
+        return 0.7
+    if skill.signals.file_count >= 1:
+        return 0.4
+    return 0.0
 
 
 def _completeness_score(skill: SkillIndex) -> float:
-    """Score based on how many optional fields are filled."""
     filled = 0
     total = 5
 
@@ -98,9 +114,9 @@ def compute_score(skill: SkillIndex) -> int:
     """Compute the quality score (0-100) for a single skill."""
     score = 0.0
 
-    # Binary indicators
     if skill.spec.description:
         score += _WEIGHTS["has_description"]
+        score += _description_quality_score(skill.spec.description) * _WEIGHTS["description_quality"]
     if skill.spec.license:
         score += _WEIGHTS["has_license"]
     if skill.signals.has_scripts:
@@ -108,11 +124,14 @@ def compute_score(skill: SkillIndex) -> int:
     if skill.signals.has_references:
         score += _WEIGHTS["has_references"]
 
-    # Scaled indicators
+    score += _structure_score(skill) * _WEIGHTS["structure"]
     score += _stars_score(skill.signals.repo_stars) * _WEIGHTS["stars"]
     score += _installs_score(skill.signals.install_count) * _WEIGHTS["installs"]
     score += _recency_score(skill.signals.last_commit_date) * _WEIGHTS["recency"]
     score += _completeness_score(skill) * _WEIGHTS["completeness"]
+
+    if skill.discovery.source_id in _OFFICIAL_SOURCES:
+        score += 8
 
     return min(100, max(0, round(score)))
 

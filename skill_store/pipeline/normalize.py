@@ -53,6 +53,14 @@ _SOURCE_PLATFORM_MAP: dict[str, dict[str, bool]] = {
         "claude_code": True, "claude_ai": False,
         "kiro": True, "codex": True, "universal": True,
     },
+    "skillhub-cn": {
+        "claude_code": True, "claude_ai": False,
+        "kiro": True, "codex": True, "universal": True,
+    },
+    "mcpmarket-cn": {
+        "claude_code": True, "claude_ai": False,
+        "kiro": True, "codex": True, "universal": True,
+    },
 }
 
 # Text-level hints that override source defaults
@@ -262,6 +270,8 @@ def normalize_entry(entry: RawSkillEntry) -> SkillIndex:
 
     # Merge skills.sh install count into signals
     install_count = get_install_count(name_normalized)
+    if not install_count:
+        install_count = int(entry.extra.get("install_count") or 0)
 
     signals = SkillSignals(
         repo_stars=entry.repo_stars or 0,
@@ -289,254 +299,6 @@ def normalize_entry(entry: RawSkillEntry) -> SkillIndex:
 
 
 def normalize_all(entries: list[RawSkillEntry]) -> list[SkillIndex]:
-    results = []
-    for entry in entries:
-        try:
-            idx = normalize_entry(entry)
-            results.append(idx)
-        except Exception as e:
-            logger.warning("Failed to normalize entry %s: %s", entry.name, e)
-    logger.info("Normalized %d/%d entries", len(results), len(entries))
-    return results
-
-from __future__ import annotations
-
-import logging
-import re
-from datetime import datetime, timezone
-
-from skill_store.models import (
-    Category,
-    PlatformCompat,
-    RawSkillEntry,
-    SkillDiscovery,
-    SkillIndex,
-    SkillSignals,
-    SkillSpec,
-    SourceType,
-)
-
-logger = logging.getLogger(__name__)
-
-# ---------------------------------------------------------------------------
-# Category inference
-# ---------------------------------------------------------------------------
-
-_CATEGORY_KEYWORDS: dict[Category, list[str]] = {
-    Category.development: [
-        "dev", "code", "programming", "sdk", "cli", "build", "test", "debug",
-        "framework", "library", "api", "typescript", "python", "rust", "go",
-        "frontend", "backend", "fullstack", "web", "mobile",
-    ],
-    Category.creative: [
-        "art", "design", "creative", "music", "video", "image", "animation",
-        "illustration", "theme", "brand", "visual", "canvas", "gif",
-    ],
-    Category.document: [
-        "doc", "document", "pdf", "pptx", "xlsx", "docx", "excel", "word",
-        "powerpoint", "spreadsheet", "writing", "markdown",
-    ],
-    Category.devops: [
-        "devops", "deploy", "ci", "cd", "infrastructure", "terraform", "docker",
-        "kubernetes", "aws", "cloud", "monitoring", "ops",
-    ],
-    Category.security: [
-        "security", "secure", "audit", "vulnerability", "pentest", "crypto",
-        "auth", "permission", "firewall",
-    ],
-    Category.data: [
-        "data", "database", "analytics", "ml", "machine learning", "ai research",
-        "dataset", "model", "training", "science",
-    ],
-    Category.content: [
-        "content", "blog", "seo", "marketing", "social", "publish", "article",
-        "newsletter", "email", "copywrite",
-    ],
-    Category.ecommerce: [
-        "ecommerce", "e-commerce", "shop", "store", "payment", "checkout",
-        "product", "cart", "stripe",
-    ],
-    Category.education: [
-        "education", "tutor", "learn", "course", "teaching", "study",
-    ],
-    Category.productivity: [
-        "productivity", "workflow", "automation", "organize", "task", "project",
-        "management", "notion", "calendar",
-    ],
-}
-
-
-def infer_category(entry: RawSkillEntry) -> Category:
-    """Infer the category from description, name, and extra metadata."""
-    # Check raw category from awesome-list
-    raw_cat = entry.extra.get("category_raw", "")
-    text = f"{entry.name} {entry.description} {raw_cat}".lower()
-
-    best_category = Category.other
-    best_score = 0
-
-    for category, keywords in _CATEGORY_KEYWORDS.items():
-        score = sum(1 for kw in keywords if kw in text)
-        if score > best_score:
-            best_score = score
-            best_category = category
-
-    return best_category
-
-
-# ---------------------------------------------------------------------------
-# Platform compatibility inference
-# ---------------------------------------------------------------------------
-
-
-def infer_platform(entry: RawSkillEntry) -> PlatformCompat:
-    """Infer platform compatibility from available metadata."""
-    compat_text = (entry.compatibility or "").lower()
-    desc_lower = entry.description.lower()
-    name_lower = entry.name.lower()
-    combined = f"{compat_text} {desc_lower} {name_lower}"
-
-    # Source-based inference
-    source_id = entry.source_id.lower()
-
-    claude_code = (
-        "claude code" in combined
-        or "claude-code" in combined
-        or source_id.startswith("anthropics")
-    )
-    claude_ai = (
-        "claude.ai" in combined
-        or "claude ai" in combined
-        or source_id.startswith("anthropics")
-    )
-    kiro = "kiro" in combined
-    codex = "codex" in combined or "openai" in source_id
-
-    # If the skill has a SKILL.md with standard frontmatter, it's likely universal
-    has_skill_md = entry.extra.get("has_skill_md", False) or entry.file_count > 0
-    universal = has_skill_md and not any([claude_code, claude_ai, kiro, codex])
-
-    return PlatformCompat(
-        claude_code=claude_code or universal,
-        claude_ai=claude_ai,
-        kiro=kiro or universal,
-        codex=codex,
-        universal=universal,
-    )
-
-
-# ---------------------------------------------------------------------------
-# Tag extraction
-# ---------------------------------------------------------------------------
-
-
-def extract_tags(entry: RawSkillEntry) -> list[str]:
-    """Extract relevant tags from the skill entry."""
-    tags: set[str] = set()
-
-    # From name: split on hyphens
-    name_parts = entry.name.lower().replace("_", "-").split("-")
-    for part in name_parts:
-        if len(part) >= 3 and part not in ("the", "and", "for", "with"):
-            tags.add(part)
-
-    # From metadata
-    if entry.metadata:
-        for key, value in entry.metadata.items():
-            if key == "tags" and isinstance(value, str):
-                tags.update(t.strip() for t in value.split(","))
-
-    # Limit to 10 tags
-    return sorted(tags)[:10]
-
-
-# ---------------------------------------------------------------------------
-# Skill ID generation
-# ---------------------------------------------------------------------------
-
-
-def generate_skill_id(entry: RawSkillEntry) -> str:
-    """Generate a globally unique skill ID.
-
-    Format: {source_owner}/{skill_name} or {repo_owner}/{repo_name}
-    """
-    # If we have a repo path, use owner/repo format
-    repo = entry.extra.get("repo", "")
-    if repo and "/" in repo:
-        # For skills within a multi-skill repo, append the skill name
-        if entry.source_path and entry.name != repo.split("/")[-1]:
-            return f"{repo}/{entry.name}"
-        return repo
-
-    # Fallback: source_id/name
-    name_slug = re.sub(r"[^a-z0-9-]", "-", entry.name.lower()).strip("-")
-    return f"{entry.source_id}/{name_slug}"
-
-
-# ---------------------------------------------------------------------------
-# Main normalization function
-# ---------------------------------------------------------------------------
-
-
-def normalize_entry(entry: RawSkillEntry) -> SkillIndex:
-    """Convert a RawSkillEntry into a fully structured SkillIndex record."""
-    skill_id = generate_skill_id(entry)
-    now = datetime.now(timezone.utc)
-
-    # Determine source type from source_id
-    source_type = SourceType.github_repo
-    if "awesome" in entry.source_id:
-        source_type = SourceType.awesome_list
-    elif "web" in entry.source_id or "api" in entry.source_id:
-        source_type = SourceType.web_api
-
-    # Build install URL
-    install_url = entry.extra.get("install_url", entry.source_url)
-
-    spec = SkillSpec(
-        name=re.sub(r"[^a-z0-9-]", "-", entry.name.lower()).strip("-") or entry.name,
-        description=entry.description[:1024] if entry.description else "",
-        license=entry.license,
-        compatibility=entry.compatibility,
-        metadata=entry.metadata,
-    )
-
-    discovery = SkillDiscovery(
-        source_id=entry.source_id,
-        source_type=source_type,
-        source_url=entry.source_url,
-        source_path=entry.source_path,
-        install_url=install_url,
-        last_synced=now,
-        upstream_commit=entry.extra.get("upstream_commit", ""),
-    )
-
-    signals = SkillSignals(
-        repo_stars=entry.repo_stars or 0,
-        last_commit_date=entry.last_commit_date,
-        has_scripts=entry.has_scripts,
-        has_references=entry.has_references,
-        file_count=entry.file_count,
-    )
-
-    platform = infer_platform(entry)
-    category = infer_category(entry)
-    tags = extract_tags(entry)
-
-    return SkillIndex(
-        skill_id=skill_id,
-        spec=spec,
-        discovery=discovery,
-        signals=signals,
-        platform=platform,
-        category=category,
-        tags=tags,
-        score=0,  # Score is computed separately
-    )
-
-
-def normalize_all(entries: list[RawSkillEntry]) -> list[SkillIndex]:
-    """Normalize a batch of raw entries."""
     results = []
     for entry in entries:
         try:

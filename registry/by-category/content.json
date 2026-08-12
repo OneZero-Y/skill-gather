@@ -1,0 +1,3578 @@
+{
+  "category": "content",
+  "skills": [
+    {
+      "skill_id": "skillhub-cn/unclecheng-reduce-ai-perception-v2",
+      "spec": {
+        "name": "unclecheng-reduce-ai-perception-v2",
+        "description": "去除文本中的AI写作痕迹，让文字读起来更像人类写作。当用户要求'去AI味'、'降AI味'、'让回复更像人话'、'润色'、'改写得更自然'时使用。检测并修复：AI高频词汇、过度结构化、虚假客观性、机械化连接词、完美主义陷阱、公式化结尾、过度修饰、情感缺失等问题。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception-v2",
+        "source_path": "unclecheng-reduce-ai-perception-v2",
+        "install_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception-v2",
+        "last_synced": "2026-08-12T11:42:35.447036Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 490,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 127076
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "perception",
+        "reduce",
+        "unclecheng"
+      ],
+      "score": 49
+    },
+    {
+      "skill_id": "resend/resend-skills",
+      "spec": {
+        "name": "resend-skills",
+        "description": "Agent Skills for working with Resend to send and receive emails.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/resend/resend-skills",
+        "source_path": "",
+        "install_url": "https://github.com/resend/resend-skills",
+        "last_synced": "2026-08-12T11:42:35.446626Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 162,
+        "last_commit_date": "2026-08-11",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "resend",
+        "skills"
+      ],
+      "score": 48
+    },
+    {
+      "skill_id": "skillhub-cn/g113593",
+      "spec": {
+        "name": "g113593",
+        "description": "|专为番茄小说平台优化的分章节创作助手。支持各种题材（悬疑/言情/奇幻/科幻/历史等），支持长篇创作，每章2200-2800字，结尾设置悬念钩子。强化情绪拉扯、爆点分布、开篇黄金三行、评论区诱导，深度润色去除AI痕迹。 当用户要求：写番茄小说、创作网文、分章节写作、连续剧情、章节悬念、长篇小说时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_634bbcdc/g113593",
+        "source_path": "g113593",
+        "install_url": "https://api.skillhub.cn/user_634bbcdc/g113593",
+        "last_synced": "2026-08-12T11:42:35.448503Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 276,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 26305
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "g113593"
+      ],
+      "score": 46
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-copy-extract",
+      "spec": {
+        "name": "douyin-copy-extract",
+        "description": "粘贴抖音、快手、小红书、视频号公开可访问的短视频分享链接，一键提取标题、简介、口播文案，提供原版、优化朗读版、精简浓缩版，并支持违禁敏感词提醒与口播时长参考，排版整洁纯净，一键复制即用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-copy-extract",
+        "source_path": "douyin-copy-extract",
+        "install_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-copy-extract",
+        "last_synced": "2026-08-12T11:42:35.448306Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 159,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 33594
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "copy",
+        "douyin",
+        "extract"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "skillhub-cn/gzh-explosive-content-detector",
+      "spec": {
+        "name": "gzh-explosive-content-detector",
+        "description": "公众号搜索工具，支持按关键词搜索爆款文章，展示推荐热门文章，助力内容创作者把握趋势与获取灵感；当用户需要搜索公众号文章、查找爆款内容、获取创作灵感时使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-explosive-content-detector",
+        "source_path": "gzh-explosive-content-detector",
+        "install_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-explosive-content-detector",
+        "last_synced": "2026-08-12T11:42:35.448544Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 91,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 29748
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "detector",
+        "explosive",
+        "gzh"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/seedance-prompt-expert",
+      "spec": {
+        "name": "seedance-prompt-expert",
+        "description": "不是提示词模板库，是一套让 Seedance 2.0 听你指挥的导演思维系统。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b26ab084/seedance-prompt-expert",
+        "source_path": "seedance-prompt-expert",
+        "install_url": "https://api.skillhub.cn/user_b26ab084/seedance-prompt-expert",
+        "last_synced": "2026-08-12T11:42:35.450370Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 162,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 14171
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "expert",
+        "prompt",
+        "seedance"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/perfectly-replicate-writing-skills",
+      "spec": {
+        "name": "perfectly-replicate-writing-skills",
+        "description": "完美复刻蒸馏技能——分析某个作者的多篇文章，蒸馏出独特的写作风格特征，\n生成可直接使用的「写作风格提示词」+ 可安装的「写作分身子技能」。\n分身内置14种写作公式（PAS/SCAR/QUEST/AIDA等），适配任意文章类型，\n让任何人用这个分身写出的文章，读起来与原作者一模一样。\n\n适用场景：\n- 你有某个喜欢的作者的多篇文章，想\"复制\"他的写作能力\n- 你想分析为什么某人的文章读起来有辨识度\n- 你想创建一个写作分身来批量生产同风格内容（支持不同文章类型）\n- 素材可以来自：公众号合集、小红书合集、微博合集、小说章节、博客文章等\n\n触发关键词：\n蒸馏写作风格、分析文风、写作分身、克隆写作风格、复制文风、\n风格蒸馏、写作风格分析、模仿XX的写作风格、制作写作分身\n\n输入要求：\n- 单个作者的多篇文章（≥3篇，总计≥2000字）\n- 支持直接粘贴文章文本 或 提供文件路径\n- 文章越多越准，10篇以上效果最佳",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fb9c3efc/perfectly-replicate-writing-skills",
+        "source_path": "perfectly-replicate-writing-skills",
+        "install_url": "https://api.skillhub.cn/user_fb9c3efc/perfectly-replicate-writing-skills",
+        "last_synced": "2026-08-12T11:42:35.450929Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 205,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 10256
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "perfectly",
+        "replicate",
+        "skills",
+        "writing"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/lingyi-wx-viral-script-generator",
+      "spec": {
+        "name": "lingyi-wx-viral-script-generator",
+        "description": "【零一数科·出品】视频号爆款文案生成（体验版）。免费免登录出脚本，给创作目的、行业、受众、选题就按爆款结构（Hook-中段-CTA、节奏标签）产出口播脚本，信息不全也能按爆款潜质兜底。本地运行、无需 Key，零成本上手。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-wx-viral-script-generator",
+        "source_path": "lingyi-wx-viral-script-generator",
+        "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-wx-viral-script-generator",
+        "last_synced": "2026-08-12T11:42:35.447409Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 46,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 41978
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "generator",
+        "lingyi",
+        "script",
+        "viral"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "skillhub-cn/unclecheng-reduce-ai-perception",
+      "spec": {
+        "name": "unclecheng-reduce-ai-perception",
+        "description": "去除文本中的AI写作痕迹，让文字读起来更像人类写作。当用户要求'去AI味'、'降AI味'、'让回复更像人话'、'润色'、'改写得更自然'时使用。检测并修复：AI高频词汇、过度结构化、虚假客观性、机械化连接词、完美主义陷阱、公式化结尾、过度修饰、情感缺失等问题。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception",
+        "source_path": "unclecheng-reduce-ai-perception",
+        "install_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception",
+        "last_synced": "2026-08-12T11:42:35.449575Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 44,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 23421
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "perception",
+        "reduce",
+        "unclecheng"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/weixin-article-writer",
+      "spec": {
+        "name": "weixin-article-writer",
+        "description": "微信公众号财经投资类文章写作。输出不超过2500字财经公众号文章，采用财新网文章风格——以新闻专业主义为根基，独立、理性、客观、中立，以数据驱动深度叙事，用冷静克制的正式书面语体呈现高信息密度的财经分析。先审视选题再写作，优化手机阅读体验，去AI味。核心特性：五条品质底线（真实性/合理性/诚实性/专业性/可读性）、推断纪律、反向验证、财新网文章风格规范。触发词：写公众号、公众号文章、财经文章、微信文章、帮我写文章、深度文章、热点解读、话题分析、公众号排版。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_33ddb46a/weixin-article-writer",
+        "source_path": "weixin-article-writer",
+        "install_url": "https://api.skillhub.cn/user_33ddb46a/weixin-article-writer",
+        "last_synced": "2026-08-12T11:42:35.450449Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 57,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 16104
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "article",
+        "weixin",
+        "writer"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/fiction-crafter",
+      "spec": {
+        "name": "fiction-crafter",
+        "description": "精细化小说创作工具，根据用户提供的内容方向自动生成提示词并创作章节制爽文小说。支持都市、修仙、玄幻、重生、系统流等多种题材。通过记忆系统维护故事连续性，确保角色、地点、情节前后一致。适用场景：用户提供小说方向/题材/关键词，需要生成章节连贯的长篇爽文，需要维护角色、地点、情节的连续性。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_7ca3a4d6/fiction-crafter",
+        "source_path": "fiction-crafter",
+        "install_url": "https://api.skillhub.cn/user_7ca3a4d6/fiction-crafter",
+        "last_synced": "2026-08-12T11:42:35.451633Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 76,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 10092
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "crafter",
+        "fiction"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/lingyi-content-quality-check",
+      "spec": {
+        "name": "lingyi-content-quality-check",
+        "description": "【零一数科·出品】：爆款内容预检。发前先测会不会违规、能不能爆、人群买不买——把发布从赌运气变成心里有底。视频号/公众号文案一键过三关：① 敏感词+广告法违禁词合规检测，命中词直接给替换建议；② 模拟目标人群真实观看反应与评论区原声；③ 爆款概率预测，逐维度打分说清依据。合规要准、爆款看依据，发出去前帮你把最后一道关。触发词：内容质检、敏感词检测、广告法检测、违禁词扫描、发布前审核、爆款预测、人群模拟。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-content-quality-check",
+        "source_path": "lingyi-content-quality-check",
+        "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-content-quality-check",
+        "last_synced": "2026-08-12T11:42:35.448765Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 21,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 29130
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "check",
+        "content",
+        "lingyi",
+        "quality"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/gzh-copywriter",
+      "spec": {
+        "name": "gzh-copywriter",
+        "description": "公众号文案创作工具。基于红狐数据公众号爆款雷达每日收录的热门文章，按关键词检索爆款、分析流量规律、生成可发布的完整文章。当用户写公众号文章、生成公众号文案、查找爆款文章、分析爆款规律时使用。触发词：公众号文案、公众号爆款、爆款文章、公众号写作、公众号文章生成。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-copywriter",
+        "source_path": "gzh-copywriter",
+        "install_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-copywriter",
+        "last_synced": "2026-08-12T11:42:35.450718Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 28,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 15727
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "copywriter",
+        "gzh"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-mp-suite",
+      "spec": {
+        "name": "wechat-mp-suite",
+        "description": "微信公众号终极工作台 — 集成搜索、爬虫、写作（刘润风格/爆款推文/真人写作）、洗稿、AI配图、专业排版、发布（本地/远程MCP）八大模块。当用户需要公众号全流程创作时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f1de10d1/wechat-mp-suite",
+        "source_path": "wechat-mp-suite",
+        "install_url": "https://api.skillhub.cn/user_f1de10d1/wechat-mp-suite",
+        "last_synced": "2026-08-12T11:42:35.451573Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 49,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 10993
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "suite",
+        "wechat"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/douyindashi",
+      "spec": {
+        "name": "douyindashi",
+        "description": "一站式抖音运营工具，融合文案生成、选题灵感、视频创作、数据分析、直播运营五大模块，共100项核心功能。支持爆款标题生成、热点选题、分镜脚本、粉丝画像分析、直播话术等，覆盖抖音运营全链路。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ef64daef/douyindashi",
+        "source_path": "douyindashi",
+        "install_url": "https://api.skillhub.cn/user_ef64daef/douyindashi",
+        "last_synced": "2026-08-12T11:42:35.452474Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 42,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 7759
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "douyindashi"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-ai-publisher",
+      "spec": {
+        "name": "wechat-ai-publisher",
+        "description": "|微信公众号AI内容创作与自动发布全链路技能。支持：多维度新闻采集→四维选题决策→AI风格文章撰写→去AI润色→标题优化→配图生成→Markdown转公众号HTML→自动创建草稿。内置4套写作模板（资讯速递/深度解读/工具实测/观点专栏）、去AI味润色清单、6种标题模式、质量检查12项。附带自包含发布脚本publish.py，一行命令完成从文章到草稿的全流程。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_57af6244/wechat-ai-publisher",
+        "source_path": "wechat-ai-publisher",
+        "install_url": "https://api.skillhub.cn/user_57af6244/wechat-ai-publisher",
+        "last_synced": "2026-08-12T11:42:35.452111Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 23,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 9676
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "publisher",
+        "wechat"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/humanizer-zh-pro",
+      "spec": {
+        "name": "humanizer-zh-pro",
+        "description": "中文AI文本去痕Skill。去除文本中的AI生成痕迹，让内容听起来更自然、更像人类书写。\n基于维基百科\"AI写作特征\"指南，检测并修复24种AI写作模式。\n\n**触发场景**（满足任一即触发）：\n1. 用户需要编辑或审阅文本，去除AI写作痕迹\n2. 文本包含夸大的象征意义、宣传性语言\n3. 文本有破折号过度使用、三段式法则等AI特征\n4. 用户希望让AI生成的中文内容更口语化\n5. 用户需要优化公众号文章、博客内容的可读性\n\n**识别信号**：\n- \"去除AI痕迹\"、\"去AI味\"\n- \"让这段文字更自然\"\n- 文本含AI词汇：此外、至关重要、深入探讨、织锦\n- 文本有过度修饰、模糊归因、否定式排比\n- \"编辑这段文字\"、\"审阅这篇文章\"\n\n**不用于**：\n- 已经自然流畅的人工写作\n- 用户明确要求保持AI风格的情况\n- 正式公文、法律文件（需保持严谨）\n- 学术论文（需保持学术规范）\n\n**核心能力**：\n1. 24种AI写作模式识别（内容/语言/语法/风格/交流模式）\n2. 填充词和过度限定修正\n3. 个性与灵魂注入（避免干净但无灵魂的写作）\n4. 质量评分（5维度50分制）\n5. 改写前后对比与修改说明",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_00c9b356/humanizer-zh-pro",
+        "source_path": "humanizer-zh-pro",
+        "install_url": "https://api.skillhub.cn/user_00c9b356/humanizer-zh-pro",
+        "last_synced": "2026-08-12T11:42:35.452206Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 31,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 9197
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "humanizer",
+        "pro"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/paperdown",
+      "spec": {
+        "name": "paperdown",
+        "description": "当用户提供中文论文或学术写作，并要求在保持原意、术语、数据、引用和大致长度的前提下进行深度润色、重组或自然学术改写时，请使用此技能。此技能可提升可读性、逻辑性和非模板化表达，但不得承诺或以规避AIGC/AI检测为目标。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_0bead322/paperdown",
+        "source_path": "paperdown",
+        "install_url": "https://api.skillhub.cn/user_0bead322/paperdown",
+        "last_synced": "2026-08-12T11:42:35.452884Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 25,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 7704
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "paperdown"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/yijian-shengcheng-douyin-baokuan-koubo-wenan",
+      "spec": {
+        "name": "yijian-shengcheng-douyin-baokuan-koubo-wenan",
+        "description": "基于抖音流量算法与爆款文案底层逻辑，输入话题、书籍、个人经历或场景，自动生成高完播、高互动、高转化的口播文案。支持多风格、多人设、多赛道智能适配，自带黄金钩子、情绪递进、干货方法论、故事化表达、评论引导与关注闭环，可直接拍摄发布。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a41ae6c8/yijian-shengcheng-douyin-baokuan-koubo-wenan",
+        "source_path": "yijian-shengcheng-douyin-baokuan-koubo-wenan",
+        "install_url": "https://api.skillhub.cn/user_a41ae6c8/yijian-shengcheng-douyin-baokuan-koubo-wenan",
+        "last_synced": "2026-08-12T11:42:35.454434Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 38,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 5428
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "baokuan",
+        "douyin",
+        "koubo",
+        "shengcheng",
+        "wenan",
+        "yijian"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-article-pro-plus",
+      "spec": {
+        "name": "wechat-article-pro-plus",
+        "description": "从0到1生产公众号爆款内容的“全链路系统”，从选题 → 构思 → 爆款拆解 → 写作 → 去AI味 → 排版 → 配图 → 封面 → 发布，全链路覆盖。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d82fedf3/wechat-article-pro-plus",
+        "source_path": "wechat-article-pro-plus",
+        "install_url": "https://api.skillhub.cn/user_d82fedf3/wechat-article-pro-plus",
+        "last_synced": "2026-08-12T11:42:35.454770Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 33,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4990
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "article",
+        "plus",
+        "pro",
+        "wechat"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/ark-novel-to-tuiwen",
+      "spec": {
+        "name": "ark-novel-to-tuiwen",
+        "description": "30秒上手：把小说原文丢过来→自动出推文。输出：标题+人物卡+场景卡+口播叙事+逐段分镜。支持6种风格自定义，内置输入校验+抖音合规+爆点节奏。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c5e5dc86/ark-novel-to-tuiwen",
+        "source_path": "ark-novel-to-tuiwen",
+        "install_url": "https://api.skillhub.cn/user_c5e5dc86/ark-novel-to-tuiwen",
+        "last_synced": "2026-08-12T11:42:35.455145Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 42,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4403
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "ark",
+        "novel",
+        "tuiwen"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/one-person-mcn",
+      "spec": {
+        "name": "one-person-mcn",
+        "description": "10个AI模块=1支MCN团队，覆盖选题策划、标题优化、内容写手、SEO优化、视频导演、封面设计、社群运营、数据分析、商务报价、多平台排期，一个人完成从选题到变现的全链路。说\"帮我想选题\"\"怎么拍视频\"\"接广告多少钱\"等自然语言即可触发。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_0542fab7/one-person-mcn",
+        "source_path": "one-person-mcn",
+        "install_url": "https://api.skillhub.cn/user_0542fab7/one-person-mcn",
+        "last_synced": "2026-08-12T11:42:35.458693Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 74,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2083
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "mcn",
+        "one",
+        "person"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/cross-border-copywriter",
+      "spec": {
+        "name": "cross-border-copywriter",
+        "description": "基于Amazon（亚马逊）/Shopee/Temu/TikTok等进行爆款商品文案输出并进行SEO关键词优化，支持多语种，输出内容包含商品标题、短描述、详细描述、卖点列表、标签等",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_29dc410e/cross-border-copywriter",
+        "source_path": "cross-border-copywriter",
+        "install_url": "https://api.skillhub.cn/user_29dc410e/cross-border-copywriter",
+        "last_synced": "2026-08-12T11:42:35.453523Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 19,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 6801
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "border",
+        "copywriter",
+        "cross"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-high-comment-generator",
+      "spec": {
+        "name": "douyin-high-comment-generator",
+        "description": "用户输入抖音视频链接，AI自动拆解视频爆点与评论区风向，实时匹配抖音热梗，生成10条差异化高赞评论（幽默/犀利/情感/专业/神回复五维覆盖），每条附带策略拆解与风险评估，支持迭代优化。不只是话术生成，而是抖音评论区流量获取全链路解决方案——从情报分析到精准占位，帮助用户低成本蹭热门、涨曝光、引流变现、立稳人设。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-high-comment-generator",
+        "source_path": "douyin-high-comment-generator",
+        "install_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-high-comment-generator",
+        "last_synced": "2026-08-12T11:42:35.454653Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 23,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 5352
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "comment",
+        "douyin",
+        "generator",
+        "high"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/onkos",
+      "spec": {
+        "name": "onkos",
+        "description": "支持2000章规模的AI长篇小说创作伙伴，通过6级分层摘要、SQLite事实相关性引擎、本地语义检索和多角色协作实现600万字级连贯性保证；当用户需要创作小说、管理长篇创作项目、检查情节连贯性、构建角色心理模型、追踪伏笔回收时使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c0f1d332/onkos",
+        "source_path": "onkos",
+        "install_url": "https://api.skillhub.cn/user_c0f1d332/onkos",
+        "last_synced": "2026-08-12T11:42:35.455687Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 24,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4451
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "onkos"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/lsp-novel-writer",
+      "spec": {
+        "name": "lsp-novel-writer",
+        "description": "小说写作助手。触发词：写小说/创作小说/生成小说/帮我写个小说/小说大纲/网文创作。工作流：需求收集（类型/风格/字数）→ AI生成大纲（世界观/人物/剧情/章节规划）→ 用户确认 → 自动逐章生成 → 一章一个文件保存。支持玄幻、仙侠、都市、科幻、历史、武侠、网游、灵异、军事、竞技等主流网文类型，面向新手作者。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_9aa92135/lsp-novel-writer",
+        "source_path": "lsp-novel-writer",
+        "install_url": "https://api.skillhub.cn/user_9aa92135/lsp-novel-writer",
+        "last_synced": "2026-08-12T11:42:35.456016Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 21,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4159
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "lsp",
+        "novel",
+        "writer"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/hotspot-radar",
+      "spec": {
+        "name": "hotspot-radar",
+        "description": "全网热榜追踪器，聚合微博/知乎/抖音/B站/小红书热搜榜单，支持趋势分析、话题监控和定时推送",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_681a3211/hotspot-radar",
+        "source_path": "hotspot-radar",
+        "install_url": "https://api.skillhub.cn/user_681a3211/hotspot-radar",
+        "last_synced": "2026-08-12T11:42:35.456300Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 30,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3890
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "hotspot",
+        "radar"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/novel-to-storyboard",
+      "spec": {
+        "name": "novel-to-storyboard",
+        "description": "将小说/剧本文案自动转换为分镜脚本，并提取角色特征卡与场景特征卡，辅助影视/漫画/短视频制作。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5b12983f/novel-to-storyboard",
+        "source_path": "novel-to-storyboard",
+        "install_url": "https://api.skillhub.cn/user_5b12983f/novel-to-storyboard",
+        "last_synced": "2026-08-12T11:42:35.456796Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 34,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3548
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "novel",
+        "storyboard"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/novel-to-drama",
+      "spec": {
+        "name": "novel-to-drama",
+        "description": "小说转红果短剧剧本生成器。将网络小说片段转换为符合红果短剧平台标准的高密度、强情绪、强钩子的短剧拍摄剧本。支持14种剧本类别，内置剧本审核功能。适用场景：用户粘贴小说原文，希望生成短剧分镜脚本；或用户想了解如何把小说改编成短剧。触发词：小说转剧本、转成短剧、小说改编、把这段改成剧本、剧本审核、审核剧本。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f0835403/novel-to-drama",
+        "source_path": "novel-to-drama",
+        "install_url": "https://api.skillhub.cn/user_f0835403/novel-to-drama",
+        "last_synced": "2026-08-12T11:42:35.458133Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 20,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3283
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "drama",
+        "novel"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/aishipin",
+      "spec": {
+        "name": "aishipin",
+        "description": "从灵感到成片的全流程AI视频创作助手。支持灵感裂变、专业分镜脚本、剧本诊断优化、爆款公式、多平台适配（即梦/可灵/Sora/Pika/Runway）、角色一致性方案。解决AI视频创作痛点：角色变脸、平台单一、不会写爆款、不知道问题在哪。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ef64daef/aishipin",
+        "source_path": "aishipin",
+        "install_url": "https://api.skillhub.cn/user_ef64daef/aishipin",
+        "last_synced": "2026-08-12T11:42:35.458543Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 18,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3227
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "aishipin"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/solo-media-matrix",
+      "spec": {
+        "name": "solo-media-matrix",
+        "description": "一人公司自媒体增长与变现作战台。当用户询问一人公司或自媒体内容运营、自媒体矩阵、多平台内容分发、内容日历、一鱼多吃、选题评分、账号规划、数据复盘、涨粉诊断、变现路径、商单或知识付费或私域引流规划，或希望将一个核心创意、文章或视频转化为可执行的周度媒体计划，覆盖B站、知乎、小红书、视频号、公众号、抖音、微博时触发。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_9ff555dd/solo-media-matrix",
+        "source_path": "solo-media-matrix",
+        "install_url": "https://api.skillhub.cn/user_9ff555dd/solo-media-matrix",
+        "last_synced": "2026-08-12T11:42:35.466256Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 30,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1441
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "matrix",
+        "media",
+        "solo"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "ComposioHQ/awesome-claude-skills/content-research-writer",
+      "spec": {
+        "name": "content-research-writer",
+        "description": "通过进行研究、添加引文、改进钩子、迭代大纲以及提供关于每个部分的实时反馈，来协助编写高质量的内容。将您的写作过程从单人努力转变为协作伙伴关系。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "source_path": "skills/content-research-writer",
+        "install_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/main/skills/content-research-writer",
+        "last_synced": "2026-08-12T11:42:35.468633Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 57713,
+        "last_commit_date": "2026-05-02",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "research",
+        "writer"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/adhx",
+      "spec": {
+        "name": "adhx",
+        "description": "Fetch any X/Twitter post as clean LLM-friendly JSON. Converts x.com, twitter.com, or adhx.com links into structured data with full article content, author info, and engagement metrics. No scraping or browser required.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/adhx",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/adhx",
+        "last_synced": "2026-08-12T11:42:35.469719Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "adhx",
+        "llm"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/ai-seo",
+      "spec": {
+        "name": "ai-seo",
+        "description": "Optimize content for AI search and LLM citations across AI Overviews, ChatGPT, Perplexity, Claude, Gemini, and similar systems. Use when improving AI visibility, answer engine optimization, or citation readiness.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/ai-seo",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/ai-seo",
+        "last_synced": "2026-08-12T11:42:35.470634Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "llm",
+        "seo"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/avoid-ai-writing",
+      "spec": {
+        "name": "avoid-ai-writing",
+        "description": "Audit and rewrite content to remove 21 categories of AI writing patterns with a 43-entry replacement table",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/avoid-ai-writing",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/avoid-ai-writing",
+        "last_synced": "2026-08-12T11:42:35.472933Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "avoid",
+        "writing"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/blog-writing-guide",
+      "spec": {
+        "name": "blog-writing-guide",
+        "description": "This skill enforces Sentry's blog writing standards across every post — whether you're helping an engineer write their first blog post or a marketer draft a product announcement.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/blog-writing-guide",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/blog-writing-guide",
+        "last_synced": "2026-08-12T11:42:35.478344Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "blog",
+        "guide",
+        "writing"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/brevo-automation",
+      "spec": {
+        "name": "brevo-automation",
+        "description": "Automate Brevo (formerly Sendinblue) email marketing operations through Composio's Brevo toolkit via Rube MCP.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/brevo-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/brevo-automation",
+        "last_synced": "2026-08-12T11:42:35.478565Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "automation",
+        "brevo",
+        "mcp"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/cold-email",
+      "spec": {
+        "name": "cold-email",
+        "description": "Write B2B cold emails and follow-up sequences that earn replies. Use when creating outbound prospecting emails, SDR outreach, personalized opening lines, subject lines, CTAs, and multi-touch follow-up sequences.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/cold-email",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/cold-email",
+        "last_synced": "2026-08-12T11:42:35.481486Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "cold",
+        "email"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/competitor-alternatives",
+      "spec": {
+        "name": "competitor-alternatives",
+        "description": "当用户想要创建用于 SEO 和销售赋能的竞品对比或替代页面时，可以使用此工具。同样，当用户提到“替代页面”、“vs 页面”、“竞品对比”、“对比页面”、“[产品] vs [产品]”、“[产品] 替代品”或“竞争性着陆页”时，也可以使用此工具。涵盖四种格式：单一替代品、多个替代品、你 vs 竞品，以及竞品 vs 竞品。强调深入研究、模块化内容架构以及超越功能表的各种部分类型。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/competitor-alternatives",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/competitor-alternatives",
+        "last_synced": "2026-08-12T11:42:35.481652Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "alternatives",
+        "competitor"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/content-creator",
+      "spec": {
+        "name": "content-creator",
+        "description": "创建 SEO 优化的营销内容，并保持一致的品牌声音。包括品牌声音分析器、SEO 优化器、内容框架和社交媒体模板。适用于撰写博客文章、创建社交媒体内容、分析品牌声音、优化 SEO、规划内容日历，或当用户提及内容创建、品牌声音、SEO 优化、社交媒体营销或内容策略时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/content-creator",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/content-creator",
+        "last_synced": "2026-08-12T11:42:35.482043Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "creator"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/content-marketer",
+      "spec": {
+        "name": "content-marketer",
+        "description": "Elite content marketing strategist specializing in AI-powered content creation, omnichannel distribution, SEO optimization, and data-driven performance marketing.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/content-marketer",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/content-marketer",
+        "last_synced": "2026-08-12T11:42:35.482067Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "marketer"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/content-strategy",
+      "spec": {
+        "name": "content-strategy",
+        "description": "Plan a content strategy, topic clusters, editorial roadmap, and content mix for traffic, authority, and lead generation. Use when deciding what to publish, what topics to prioritize, or how to structure a content program.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/content-strategy",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/content-strategy",
+        "last_synced": "2026-08-12T11:42:35.482105Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "strategy"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/copywriting",
+      "spec": {
+        "name": "copywriting",
+        "description": "当用户想要为任何页面编写、重写或改进营销文案时，包括首页、落地页、定价页、功能页、关于页面或产品页面。也适用于当用户说“为...编写文案”、“改进此文案”、“重写此页面”、“营销文案”、“标题帮助”或“CTA 文案”时。对于电子邮件文案，请参阅 email-sequence。对于弹出窗口文案，请参阅 popup-cro。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/copywriting",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/copywriting",
+        "last_synced": "2026-08-12T11:42:35.482667Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "copywriting"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/aijiance",
+      "spec": {
+        "name": "aijiance",
+        "description": "AI检测，免费AI率检测，AI率",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_34343d1f/aijiance",
+        "source_path": "aijiance",
+        "install_url": "https://api.skillhub.cn/user_34343d1f/aijiance",
+        "last_synced": "2026-08-12T11:42:35.454727Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 5,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 5574
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "aijiance"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/full-length-novel-writer",
+      "spec": {
+        "name": "full-length-novel-writer",
+        "description": "网络小说创作助手。当用户想要创作新小说、继续写作或讨论小说相关创作工作时调用此技能。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_6d3be094/full-length-novel-writer",
+        "source_path": "full-length-novel-writer",
+        "install_url": "https://api.skillhub.cn/user_6d3be094/full-length-novel-writer",
+        "last_synced": "2026-08-12T11:42:35.459465Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3062
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "full",
+        "length",
+        "novel",
+        "writer"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/novelist",
+      "spec": {
+        "name": "novelist",
+        "description": "小说创作助手。根据用户提供的主线或故事梗概，引导用户完成完整的小说创作。触发场景：(1) 用户说\"写小说\"、\"帮我写个故事\"、\"创作一篇小说\"；(2) 用户提供故事大纲、主线、人物设定等要求创作；(3) 用户说\"续写\"、\"扩写\"已有故事；(4) 用户提到\"章节\"、\"剧情\"、\"人物\"、\"背景\"等小说相关元素并意图创作。工作流程：收集创作信息 → 确认章节大纲 → 逐章写作（每章前确认内容走向）。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f0835403/novelist",
+        "source_path": "novelist",
+        "install_url": "https://api.skillhub.cn/user_f0835403/novelist",
+        "last_synced": "2026-08-12T11:42:35.460260Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 10,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2852
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "novelist"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/qingxi-skill-03",
+      "spec": {
+        "name": "qingxi-skill-03",
+        "description": "用于用户想测试恋爱消费倾向、了解恋爱中花钱是否容易失去判断、查看感情对消费决策的影响，或明确要求生成该测试页面时；页面内置15道题、确定性计分、五档结果解析。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/qingxi/qingxi-skill-03",
+        "source_path": "qingxi-skill-03",
+        "install_url": "https://api.skillhub.cn/qingxi/qingxi-skill-03",
+        "last_synced": "2026-08-12T11:42:35.460497Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 10,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2770
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "qingxi",
+        "skill"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/writing-expert-team-pro-sl",
+      "spec": {
+        "name": "writing-expert-team-pro-sl",
+        "description": "写作全流程助手（AI编辑部）：把想法/素材/授权知识库转为可发布内容。用于写文章、公众号、选题大纲、润色、风格参考、事实核查、多平台改写。不要用于法律/医疗/投资终稿、伪造来源、未授权复制原文、无样本强复刻风格、纯翻译或非写作任务。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_cae83fba/writing-expert-team-pro-sl",
+        "source_path": "writing-expert-team-pro-sl",
+        "install_url": "https://api.skillhub.cn/user_cae83fba/writing-expert-team-pro-sl",
+        "last_synced": "2026-08-12T11:42:35.462719Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 9,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2353
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "expert",
+        "pro",
+        "team",
+        "writing"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/cjskill",
+      "spec": {
+        "name": "cjskill",
+        "description": "短视频爆款文案创作技能包。整合薛辉新媒体运营方法论（八大爆款元素+标题公式+16种开篇钩子+四类脚本结构）、埃德蒙文案技巧（情绪钩子+正文技巧+价值升华+结尾技巧）、B端工厂开头公式、内容创作底层哲学（好故事才是最大流量密码），以及完整创作流程和质量验收标准。适用于短视频口播文案、B端工厂文案、个人IP文案等场景。触发词：短视频文案、口播文案、爆款文案、视频脚本文案、钩子、爆款元素。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_52f18fe1/cjskill",
+        "source_path": "cjskill",
+        "install_url": "https://api.skillhub.cn/user_52f18fe1/cjskill",
+        "last_synced": "2026-08-12T11:42:35.462845Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 16,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2195
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "cjskill"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/walrus03",
+      "spec": {
+        "name": "walrus03",
+        "description": "短剧剧本创作技能。从创意大纲到多轮审查的完整流程，包含剧情大纲构思、完整剧本生成、多维度AI审查（3轮）、去AI味处理、最终输出。支持多集连续剧本生成、人物关系图谱管理、爆款元素植入、人设定义管理。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_7290fc8d/walrus03",
+        "source_path": "walrus03",
+        "install_url": "https://api.skillhub.cn/user_7290fc8d/walrus03",
+        "last_synced": "2026-08-12T11:42:35.464431Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 14,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1945
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "walrus03"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/dy-hot-trend",
+      "spec": {
+        "name": "dy-hot-trend",
+        "description": "每小时追踪抖音热榜，抖音实时热点榜从创作者视角拆爆款、挖选题、预判趋势。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ebee0fcc/dy-hot-trend",
+        "source_path": "dy-hot-trend",
+        "install_url": "https://api.skillhub.cn/user_ebee0fcc/dy-hot-trend",
+        "last_synced": "2026-08-12T11:42:35.464453Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 15,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1924
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "hot",
+        "trend"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-script-zh",
+      "spec": {
+        "name": "douyin-script-zh",
+        "description": "针对抖音平台特性写的爆款短视频脚本生成器——3 秒钩子 + 痛点共鸣 + 解决方案 + 行动召唤四段式。区分信息流广告、直播间话术、带货脚本三种用途。含违禁词清单与 DOU+ 投放优化建议。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_36c7efa2/douyin-script-zh",
+        "source_path": "douyin-script-zh",
+        "install_url": "https://api.skillhub.cn/user_36c7efa2/douyin-script-zh",
+        "last_synced": "2026-08-12T11:42:35.465851Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1886
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "douyin",
+        "script"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/seedance-director",
+      "spec": {
+        "name": "seedance-director",
+        "description": "引导用户在Seedance（即梦）平台上完成AI视频制作——从创意构思与素材准备，到分镜设计，直至生成可执行的制作提示。激活关键词包括Seedance、即梦、AI视频、分镜、运镜、视频延长、一镜到底。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d5c3472c/seedance-director",
+        "source_path": "seedance-director",
+        "install_url": "https://api.skillhub.cn/user_d5c3472c/seedance-director",
+        "last_synced": "2026-08-12T11:42:35.466186Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 17,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1709
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "director",
+        "seedance"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/fanqie-story-writer",
+      "spec": {
+        "name": "fanqie-story-writer",
+        "description": "番茄小说热门短篇创作助手。联网搜索当前热门题材，按平台规则生成1-3万字爆款短故事。涵盖选题调研、大纲生成、正文撰写全流程，适配番茄小说平台节奏和爽点密度要求。触发词：写小说、写短篇、番茄小说、写故事、热门短篇、小说创作、短篇创作、爽文、网文写作、写网文、热门题材、小说大纲、故事创作。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fcba917f/fanqie-story-writer",
+        "source_path": "fanqie-story-writer",
+        "install_url": "https://api.skillhub.cn/user_fcba917f/fanqie-story-writer",
+        "last_synced": "2026-08-12T11:42:35.466537Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 13,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1754
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "fanqie",
+        "story",
+        "writer"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/gongwen-writing",
+      "spec": {
+        "name": "gongwen-writing",
+        "description": "中国体制内（政府口径）公文写作助手。覆盖法定公文（通知/请示/报告/批复/函/意见/通报/纪要/决定/命令/公告/通告/公报/议案/决议）与事务性材料（领导讲话稿/工作总结/工作方案/汇报材料/调研报告/政务信息/述职报告）。默认流程：取料→先出大纲框架→用户确认→逐段填成稿→GB/T 9704 版式与行文规则校验。触发场景：\"帮我写一份通知/请示/报告/批复/函\"\"起草领导讲话稿/工作总结/工作方案/汇报材料/调研报告\"\"把这些要点写成公文\"\"公文格式/行文规则怎么弄\"\"改稿/润色公文\"。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_3f5cf929/gongwen-writing",
+        "source_path": "gongwen-writing",
+        "install_url": "https://api.skillhub.cn/user_3f5cf929/gongwen-writing",
+        "last_synced": "2026-08-12T11:42:35.459797Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3062
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "gongwen",
+        "writing"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/humanizer-lite",
+      "spec": {
+        "name": "humanizer-lite",
+        "description": "Lightweight AI writing decontaminator. Detects and rewrites the most common\nAI-generated writing patterns in one pass: inflated language, AI vocabulary,\nstructural cliches, filler, sycophancy, and formatting overuse. Use when\nediting or reviewing text to make it sound more natural and human-written,\nor when the user asks to \"humanize\", \"de-AI\", or clean up AI-generated content.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_e417e4c8/humanizer-lite",
+        "source_path": "humanizer-lite",
+        "install_url": "https://api.skillhub.cn/user_e417e4c8/humanizer-lite",
+        "last_synced": "2026-08-12T11:42:35.461752Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2528
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "humanizer",
+        "lite"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-typeset-pro",
+      "spec": {
+        "name": "wechat-typeset-pro",
+        "description": "wechat-typeset-pro",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5dda6a29/wechat-typeset-pro",
+        "source_path": "wechat-typeset-pro",
+        "install_url": "https://api.skillhub.cn/user_5dda6a29/wechat-typeset-pro",
+        "last_synced": "2026-08-12T11:42:35.462312Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2432
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "pro",
+        "typeset",
+        "wechat"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-hotlist-overall",
+      "spec": {
+        "name": "douyin-hotlist-overall",
+        "description": "抖音全网实时热点适合内容创作者、运营、电商、营销在用户想知道现在最热门的抖音热点时使用，帮助基于输入材料生成实时热点、当前热榜内容、值得即时跟进的话题。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-hotlist-overall",
+        "source_path": "douyin-hotlist-overall",
+        "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-hotlist-overall",
+        "last_synced": "2026-08-12T11:42:35.463169Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2333
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "douyin",
+        "hotlist",
+        "overall"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-realtime-hot-rise",
+      "spec": {
+        "name": "douyin-realtime-hot-rise",
+        "description": "抖音上升热点选题助手适合内容创作者、运营、电商、营销在用户想知道接下来拍什么、写什么更可能有流量。爆款选题，竞品分析，热点追踪。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-realtime-hot-rise",
+        "source_path": "douyin-realtime-hot-rise",
+        "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-realtime-hot-rise",
+        "last_synced": "2026-08-12T11:42:35.465746Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1979
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "douyin",
+        "hot",
+        "realtime",
+        "rise"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/humanizer-zh-enhanced",
+      "spec": {
+        "name": "humanizer-zh-enhanced",
+        "description": "去除文本中的AI生成痕迹，使文字听起来更自然、更像人类书写——中文专精增强版。\n基于维基百科的\"AI写作特征\"综合指南，覆盖27种AI写作模式。\n当用户要求\"去AI味\"\"改写得更自然\"\"太像AI了\"\"人性化\"\"去掉模板感\"时使用。\n适用于论文、公众号文章、博客、报告等所有需要人类化处理的中文文本。\n附带原版独有的声音校准（风格匹配）、最终反AI自检、质量评分体系。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5724919f/humanizer-zh-enhanced",
+        "source_path": "humanizer-zh-enhanced",
+        "install_url": "https://api.skillhub.cn/user_5724919f/humanizer-zh-enhanced",
+        "last_synced": "2026-08-12T11:42:35.465768Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1978
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "enhanced",
+        "humanizer"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-viral-writer",
+      "spec": {
+        "name": "wechat-viral-writer",
+        "description": "生成公众号爆款文章，支持选题、洗稿、改写、带货转化",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d82fedf3/wechat-viral-writer",
+        "source_path": "wechat-viral-writer",
+        "install_url": "https://api.skillhub.cn/user_d82fedf3/wechat-viral-writer",
+        "last_synced": "2026-08-12T11:42:35.465911Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1977
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "viral",
+        "wechat",
+        "writer"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/lingyi-article-generation-plus",
+      "spec": {
+        "name": "lingyi-article-generation-plus",
+        "description": "【零一数科·出品】：输入选题、产品卖点、目标受众，一键生成可直接发布的贴图号/公众号爆款图文（封面图+内文配图+正文+候选标题，渲染成 Markdown）。贴图号生成、公众号图文生成、爆款图文生成。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-article-generation-plus",
+        "source_path": "lingyi-article-generation-plus",
+        "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-article-generation-plus",
+        "last_synced": "2026-08-12T11:42:35.456083Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4531
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "article",
+        "generation",
+        "lingyi",
+        "plus"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-article-gen",
+      "spec": {
+        "name": "wechat-article-gen",
+        "description": "微信公众号智能配图 + 一键发布。基于 wenyan-cli，支持本地图片自动上传到微信 CDN。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d369ea45/wechat-article-gen",
+        "source_path": "wechat-article-gen",
+        "install_url": "https://api.skillhub.cn/user_d369ea45/wechat-article-gen",
+        "last_synced": "2026-08-12T11:42:35.457603Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3882
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "article",
+        "cli",
+        "gen",
+        "wechat"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/ailv-aijiance",
+      "spec": {
+        "name": "ailv-aijiance",
+        "description": "AI率检测、AI检测、AI率、中文AI免费检测",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_34343d1f/ailv-aijiance",
+        "source_path": "ailv-aijiance",
+        "install_url": "https://api.skillhub.cn/user_34343d1f/ailv-aijiance",
+        "last_synced": "2026-08-12T11:42:35.459519Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3191
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "aijiance",
+        "ailv"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/paper-deweight-fd",
+      "spec": {
+        "name": "paper-deweight-fd",
+        "description": "论文降重工具。用于降低论文重复率和 AIGC 检测率，通过同义词替换、句式变换、文献综述模板等方法对论文进行改写降重。当用户需要修改论文、降低查重率、改写文献综述、去除 AI 痕迹、改百科定义时使用。仅提供降重改写功能，不具备查重检测能力。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_09cf1a59/paper-deweight-fd",
+        "source_path": "paper-deweight-fd",
+        "install_url": "https://api.skillhub.cn/user_09cf1a59/paper-deweight-fd",
+        "last_synced": "2026-08-12T11:42:35.462279Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2495
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "deweight",
+        "paper"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-content-studio",
+      "spec": {
+        "name": "wechat-content-studio",
+        "description": "微信公众号内容工作室 — 支持多来源权威搜索、多站点文章抓取、AI 改写、封面生成、智能排版发布的一站式工具",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5dda6a29/wechat-content-studio",
+        "source_path": "wechat-content-studio",
+        "install_url": "https://api.skillhub.cn/user_5dda6a29/wechat-content-studio",
+        "last_synced": "2026-08-12T11:42:35.463208Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2401
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "studio",
+        "wechat"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/hit-preview",
+      "spec": {
+        "name": "hit-preview",
+        "description": "短剧爆款预演器 v2.1.5 - 即下载即用版本！基于OpenClaw配置的AI模型进行真实分析，修复了AI模型连接和JSON解析问题。包含前10秒钩子强度评分、每集结尾悬念评分、对标已爆款短剧相似度分析、爆款潜力预测、弹幕模拟、情绪热力图。支持抖音、B站、快手、小红书等平台。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c660debd/hit-preview",
+        "source_path": "hit-preview",
+        "install_url": "https://api.skillhub.cn/user_c660debd/hit-preview",
+        "last_synced": "2026-08-12T11:42:35.467038Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 5,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1859
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "hit",
+        "preview"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-viral-operator",
+      "spec": {
+        "name": "wechat-viral-operator",
+        "description": "wechat-viral-operator",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_1002ca6a/wechat-viral-operator",
+        "source_path": "wechat-viral-operator",
+        "install_url": "https://api.skillhub.cn/user_1002ca6a/wechat-viral-operator",
+        "last_synced": "2026-08-12T11:42:35.467124Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1885
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "operator",
+        "viral",
+        "wechat"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/resume-optimizer-king",
+      "spec": {
+        "name": "resume-optimizer-king",
+        "description": "简历优化专家：基于「四步法」方法论——明确目标、筛选经历、包装经历、格式优化，将用户的原始经历转化为精准匹配目标岗位的高质量简历。聚焦简历内容本身，不涉及岗位搜索、投递、模拟面试等延伸功能。纯方法论驱动，无环境依赖，即装即用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ba7c4de9/resume-optimizer-king",
+        "source_path": "resume-optimizer-king",
+        "install_url": "https://api.skillhub.cn/user_ba7c4de9/resume-optimizer-king",
+        "last_synced": "2026-08-12T11:42:35.467191Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1856
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "king",
+        "optimizer",
+        "resume"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-content-research",
+      "spec": {
+        "name": "douyin-content-research",
+        "description": "当用户需要做抖音内容研究、抖音选题、热点观察、竞品内容对比、趋势判断或素材整理时使用。面向内容运营、品牌调研和创作者。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-content-research",
+        "source_path": "douyin-content-research",
+        "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-content-research",
+        "last_synced": "2026-08-12T11:42:35.467583Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1854
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "douyin",
+        "research"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "coreyhaines31/marketingskills",
+      "spec": {
+        "name": "coreyhaines31-ai-seo",
+        "description": "Optimize content to appear in AI-generated answers and LLM search results",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
+        "source_path": "",
+        "install_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo",
+        "last_synced": "2026-08-12T11:42:35.405914Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "coreyhaines31/ai",
+        "llm",
+        "seo"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "coreyhaines31/marketingskills",
+      "spec": {
+        "name": "coreyhaines31-copywriting",
+        "description": "Write and rewrite marketing copy for landing pages, homepages, and ads",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
+        "source_path": "",
+        "install_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting",
+        "last_synced": "2026-08-12T11:42:35.406323Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "coreyhaines31/copywriting"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "coreyhaines31/marketingskills",
+      "spec": {
+        "name": "coreyhaines31-social-content",
+        "description": "Create and schedule social media content for LinkedIn, Twitter/X, and Instagram",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content",
+        "source_path": "",
+        "install_url": "https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content",
+        "last_synced": "2026-08-12T11:42:35.407520Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "content",
+        "coreyhaines31/social"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "wshuyi/x-article-publisher-skill",
+      "spec": {
+        "name": "wshuyi-x-article-publisher-skill",
+        "description": "Publish articles to X/Twitter",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/wshuyi/x-article-publisher-skill",
+        "source_path": "",
+        "install_url": "https://github.com/wshuyi/x-article-publisher-skill",
+        "last_synced": "2026-08-12T11:42:35.439863Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "article",
+        "publisher",
+        "skill",
+        "wshuyi/x"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "CosmoBlk/email-marketing-bible",
+      "spec": {
+        "name": "cosmoblk-email-marketing-bible",
+        "description": "55K-word email marketing guide as an AI skill",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/CosmoBlk/email-marketing-bible",
+        "source_path": "",
+        "install_url": "https://github.com/CosmoBlk/email-marketing-bible",
+        "last_synced": "2026-08-12T11:42:35.439895Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "bible",
+        "cosmoblk/email",
+        "marketing"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "indranilbanerjee/digital-marketing-pro",
+      "spec": {
+        "name": "indranilbanerjee-digital-marketing-pro",
+        "description": "150-skill engagement methodology — 12-Part Strategy Flow, 25 specialist agents, EU AI Act Article 50 ready (C2PA signing), 6-platform AEO/GEO incl. Google AI Mode",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/indranilbanerjee/digital-marketing-pro",
+        "source_path": "",
+        "install_url": "https://github.com/indranilbanerjee/digital-marketing-pro",
+        "last_synced": "2026-08-12T11:42:35.440289Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "indranilbanerjee/digital",
+        "marketing",
+        "pro"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "aaron-he-zhu/aaron-marketing-skills",
+      "spec": {
+        "name": "aaron-he-zhu-aaron-marketing-skills",
+        "description": "69 marketing skills across SEO/GEO, influencer, paid ads, and email on one shared contract, with 5 benchmark-driven auditor gates (CORE-EEAT, CITE, C³, ROAS, SEND) and keyless data connectors",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "source_path": "",
+        "install_url": "https://github.com/aaron-he-zhu/aaron-marketing-skills",
+        "last_synced": "2026-08-12T11:42:35.440408Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "aaron",
+        "marketing",
+        "skills",
+        "zhu/aaron"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "Bomx/distribb-skill",
+      "spec": {
+        "name": "bomx-distribb-skill",
+        "description": "SEO articles, keyword research, CMS publishing, high-DR backlink exchange",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/Bomx/distribb-skill",
+        "source_path": "",
+        "install_url": "https://github.com/Bomx/distribb-skill",
+        "last_synced": "2026-08-12T11:42:35.440491Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "bomx/distribb",
+        "skill"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "Sendmux/skills",
+      "spec": {
+        "name": "sendmux-skills",
+        "description": "Sendmux email and mailbox workflows for agents",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/Sendmux/skills",
+        "source_path": "",
+        "install_url": "https://github.com/Sendmux/skills",
+        "last_synced": "2026-08-12T11:42:35.441715Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "sendmux/skills"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "Shpigford/skills",
+      "spec": {
+        "name": "shpigford-screenshots",
+        "description": "Generate marketing screenshots with Playwright",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/Shpigford/skills/tree/main/screenshots",
+        "source_path": "",
+        "install_url": "https://github.com/Shpigford/skills/tree/main/screenshots",
+        "last_synced": "2026-08-12T11:42:35.441843Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "shpigford/screenshots"
+      ],
+      "score": 21
+    }
+  ],
+  "total": 80
+}

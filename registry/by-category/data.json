@@ -1,0 +1,4175 @@
+{
+  "category": "data",
+  "skills": [
+    {
+      "skill_id": "langchain-ai/langchain-skills/langsmith-online-eval-engineering",
+      "spec": {
+        "name": "langsmith-online-eval-engineering",
+        "description": "Iteratively inspect traces, interview the user, and create LangSmith online evaluators one at a time. Use specifically for creating online evaluators for use within LangSmith -- use \"eval-engineering\" for Harbor-style online evaluations.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langsmith-online-eval-engineering",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langsmith-online-eval-engineering",
+        "last_synced": "2026-08-12T11:42:35.400997Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1130,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "engineering",
+        "eval",
+        "langsmith",
+        "online"
+      ],
+      "score": 54
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langchain-rag",
+      "spec": {
+        "name": "langchain-rag",
+        "description": "INVOKE THIS SKILL when building ANY retrieval-augmented generation (RAG) system. Covers document loaders, RecursiveCharacterTextSplitter, embeddings (OpenAI), and vector stores (Chroma, FAISS, Pinecone).",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langchain-rag",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-rag",
+        "last_synced": "2026-08-12T11:42:35.400169Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1130,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "langchain",
+        "rag"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/westock-data",
+      "spec": {
+        "name": "westock-data",
+        "description": "金融市场结构化数据查询的权威入口。支持股票（A股/港股/美股）、ETF、指数、板块、期货、外汇、可转债的 K 线、技术指标、筹码、财报、研报、公告、风险事件、股东、分红、ETF 持仓、新股/投资日历、龙虎榜等数据查询(不同标的与市场支持的维度不同)；同时支持行业经营数据、申万行业估值/盈利预测/财务、全球宏观经济等数据查询；微信搜索\"腾讯微证券\"小程序，获取更多专业服务～",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/tencent-adm/westock-data",
+        "source_path": "westock-data",
+        "install_url": "https://api.skillhub.cn/tencent-adm/westock-data",
+        "last_synced": "2026-08-12T11:42:35.449610Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 150,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 21145
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "westock"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/aistockresearcher",
+      "spec": {
+        "name": "aistockresearcher",
+        "description": "全球智能投研工具 v8.0 — 全资产量化分析 + 投资涨跌预测 + 真实数据源。\n覆盖 12 个全球市场，支持股票/基金/指数/板块/商品/期货/债券/货币基金/可转债，\n零依赖核心（纯 stdlib）。\n\n🆕 v8.0 全面升级：\n- 数据准确性修复：PE/PB 真实历史分位激活、财务时效校验、资金流真实化、\nDCF 债务/利息断链修复、多源管理器真接线、港美股分页\n- 组合优化：Markowitz MVO / 最大Sharpe / 风险平价 / 组合 VaR-ES（纯 stdlib）\n- 蒙特卡洛增强：跳跃扩散 + 肥尾 t 分布\n- ML 接入主预测链路（短期叠加）+ 进化闭环 track\n- 统一全资产量化入口 quant_analyze_asset + 债券/货币基金/可转债量化模块\n- akshare 可选数据源（基金净值/债券/可转债/宏观/港美股财务，未装自动降级）\n\n数据源：腾讯 + 东方财富（免费无 Key）+ akshare（可选）。测试 ~310。\n\n触发词：股票、基金、行情、分析、预测、涨跌、指数、板块、商品、黄金、债券、可转债、\n货币基金、全球市场、量化、技术指标、组合优化、风险平价、夏普、回测、价值投资、\n蒙特卡洛、VaR、Sharpe、涨跌预测、量化分析、全资产、因子库、策略回测、数据质量",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
+        "source_path": "aistockresearcher",
+        "install_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
+        "last_synced": "2026-08-12T11:42:35.449493Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 78,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 23137
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aistockresearcher"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "skillhub-cn/smart-charts",
+      "spec": {
+        "name": "smart-charts",
+        "description": "3 步生成图表：\n1.上传数据 — 将 CSV / Excel / JSON 文件拖入对话框;\n2.确认分析方向 — 查看数据摘要，确认推荐的图表类型;\n3.查看结果 — 交互式图表（HTML），可保存图表为图片.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
+        "source_path": "smart-charts",
+        "install_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
+        "last_synced": "2026-08-12T11:42:35.448162Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 29,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 38928
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "charts",
+        "smart"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/data-analysis-plus",
+      "spec": {
+        "name": "data-analysis-plus",
+        "description": "全球跨区域数据分析专家，精通多平台数据采集、整合与解读，擅长市场调研数据处理、跨区域舆情监控、全链路ROI分析。当用户需要数据报告、舆情监控、竞品数据调研、ROI分析、市场趋势可视化时触发。适用场景：品牌数据报告、社交媒体舆情监控、营销ROI分析、市场趋势预测、用户反馈分析。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
+        "source_path": "data-analysis-plus",
+        "install_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
+        "last_synced": "2026-08-12T11:42:35.450749Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 25,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 15580
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "data",
+        "plus"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/generate-chart",
+      "spec": {
+        "name": "generate-chart",
+        "description": "AI智能数据可视化；支持多种图表类型（柱状图、折线图、饼图、散点图、直方图、箱线图、小提琴图、面积图、热力图、平行坐标图、旭日图等），根据数据特征自动分析并推荐最佳图表组合，生成精美交互式HTML仪表板",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
+        "source_path": "generate-chart",
+        "install_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
+        "last_synced": "2026-08-12T11:42:35.451246Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 48,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 12011
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "chart",
+        "generate"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/tianji-business-search",
+      "spec": {
+        "name": "tianji-business-search",
+        "description": "天机商查，一款完全免费的商查技能。通过收集企业相关情报，包括企业工商信息、股东结构、经营状态、司法风险、新闻动态、融资上市信息等。适用于投融资尽职调查、竞品分析、市场调研、商业合作背景核验等场景。业务方向有查企业、查老板、查关系、查股东、查投资、查融资、查招标、查资质、查证书、查产权、查舆情等。相关专业商业平台-企查查、天眼查、启信宝、爱企查、企知道、牛企查、亿企查、企查猫、剑鱼标讯、知了标讯、招采网等，以及官方权威渠道-国家企业信用信息公示系统，以及新闻资讯-百度新闻、新浪财经，以及官方监管平台-证监会、交易所官网(上交所、深交所、北交所)、中国裁判文书网。所有数据来源于公示的数据，及供参考。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
+        "source_path": "tianji-business-search",
+        "install_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
+        "last_synced": "2026-08-12T11:42:35.453328Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 52,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 6398
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "business",
+        "search",
+        "tianji"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/wechatanalyzer",
+      "spec": {
+        "name": "wechatanalyzer",
+        "description": "微信聊天分析助手 v2.3.0 — 完全本地运行的隐私保护工具。 分析聊天记录，推断 MBTI 与大五人格，检测情感趋势，生成可视化报告。 支持 jieba 精准分词、否定识别、反讽检测、风险预警。 内置 RAG 检索增强预测和多智能体博弈模拟，完全本地化、零数据外传。 可选 MiroFish 群体智能引擎增强对话预测。 v2.3.0 新增时间感知对话预测：根据最后消息距今时间、时间段、周末/工作日、 密集对话节奏自动调整回复候选与“回复时机”提示，提升及时性。 v2.2.0 新增「推演」（5大子能力）+「信息解读」（4大子能力），更智能更易用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
+        "source_path": "wechatanalyzer",
+        "install_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
+        "last_synced": "2026-08-12T11:42:35.453470Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 30,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 6638
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "rag",
+        "wechatanalyzer"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/lingyi-copy-de-ai-human-eval",
+      "spec": {
+        "name": "lingyi-copy-de-ai-human-eval",
+        "description": "【零一数科·出品】：文案去AI味·真人评估（付费版）。把小红书/视频号/公众号/抖音文案改写得像真人写、消除 AI 痕迹降 AI 率，并模拟真实人群画像的读者逐段评估「哪里还像 AI、哪里不像人写」，给出人味打分与残留痕迹定位。别人只改不验，本品改完让真人评估把关。触发词：文案去AI味、社媒文案去AI、去AI味、降AI率、AI去痕、过AI检测、人味改写、真人评估、读者验收、真人试读。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
+        "source_path": "lingyi-copy-de-ai-human-eval",
+        "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
+        "last_synced": "2026-08-12T11:42:35.450135Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 9,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 17970
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "copy",
+        "eval",
+        "human",
+        "lingyi"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/equal-data-skill",
+      "spec": {
+        "name": "equal-data-skill",
+        "description": "equal-data-skill 金融数据服务- 提供覆盖A股5000+家上市公司的行情、财报、基本面、重大事件追踪(高管增减持, 重大合同, 股东变动,大宗交易, 限售解禁,定向增发,分红送转, 业绩预告)等多维度数据、股东分析、基金持仓与变动统计、知名机构动向追踪(包含 国家队,外资,私募基金,公募基金,信托,保险,证券等)、知名牛散持仓数据、资讯、公告、等多形态结构化专业金融数据",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
+        "source_path": "equal-data-skill",
+        "install_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
+        "last_synced": "2026-08-12T11:42:35.453970Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 19,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 6303
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "equal",
+        "skill"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/qclaw-data-analyst-pro",
+      "spec": {
+        "name": "qclaw-data-analyst-pro",
+        "description": "表格数据不会挖？10 大场景一键分析，自动清洗+出图+给结论，揪出异常和趋势——不用你写公式。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
+        "source_path": "qclaw-data-analyst-pro",
+        "install_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
+        "last_synced": "2026-08-12T11:42:35.455299Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 16,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4871
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyst",
+        "data",
+        "pro",
+        "qclaw"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/fund-realtime-scraper",
+      "spec": {
+        "name": "fund-realtime-scraper",
+        "description": "此 skill 应在用户需要查询基金实时估值/预计涨跌幅度时使用。\n通过 Playwright 自动化访问同花顺爱基金 (fund.10jqka.com.cn)，抓取基金重仓持股的实时数据，并基于持仓加权计算基金的预计涨跌幅。\n支持单只查询和批量查询多只基金。触发场景包括：「查一下XX基金的涨跌」、「看看这几只基金今天的估值」、「抓取基金实时数据」等。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
+        "source_path": "fund-realtime-scraper",
+        "install_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
+        "last_synced": "2026-08-12T11:42:35.456177Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4319
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "fund",
+        "realtime",
+        "scraper"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/academic-knowledge-base",
+      "spec": {
+        "name": "academic-knowledge-base",
+        "description": "面向学术研究者的个人知识中枢。整合 Karpathy LLM Wiki 知识编译能力 + SmartLib 海量文献检索能力，形成私有知识库与外部文献库双轨联动的研究助手。\n支持4类数据入库（文献检索结果、用户上传文献、资讯报道、个人学术数据）、研究专题（文献子集+智能命名+笔记+AI分析+导出）、向量化语义检索、分词匹配检索、参考文献管理、Wiki知识层自动维护。\n✨ 亮点：入库文献自动保留原始数据库来源链接（覆盖300+数据库，如Scopus/WoS/EI/PubMed等，覆盖率100%），支持多源交叉验证。\n采用懒加载引导式初始化，无需前置配置即可使用。配额管理复用 global-biblio-base 的 gateway 凭证和计次规则（v3.9.0：5接口，每次调用计1次），配额耗尽后暂停外部检索请求。\n适用场景：文献管理、知识积累、论文写作辅助、研究调研。触发词：保存到知识库、知识库统计、我的知识库、给这篇打标签、列出我的专题、文献管理、论文管理、我的论文库、文献收藏、研究笔记、知识整理、学术知识库、论文知识库、文献整理、学术笔记、研究知识管理、收藏这篇文章、加入知识库、文献综述工具。\nA personal knowledge hub for academic researchers — integrating Karpathy LLM Wiki + SmartLib literature search + vectorized semantic retrieval. Ingested literature automatically preserves original database source links (300+ databases, 100% coverage) for cross-verification. Quota managed via global-biblio-base gateway with v3.9.0 billing rules (5 interfaces, 1 quota per successful call), restricted display when quota exhausted.\nProduction URL: read from global-biblio-base/config.json → SMARTLIB_GATEWAY_URL (Smar",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
+        "source_path": "academic-knowledge-base",
+        "install_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
+        "last_synced": "2026-08-12T11:42:35.458378Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 13,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3337
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "academic",
+        "base",
+        "knowledge",
+        "llm"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/yuqing",
+      "spec": {
+        "name": "yuqing",
+        "description": "**全网多平台舆情分析与可视化报告生成工具**\n\n---\n\n## 一、Skill 简介\n\nSentiment Analyzer 是一款 AI 驱动的舆情分析 Skill，能够根据用户输入的关键词，自动在全网多平台进行信息采集，完成情感分析、趋势研判、风险评估等多维度分析，并生成带有交互式图表的可视化 HTML 报告。\n\n适用于品牌公关、市场营销、娱乐宣发、产品运营、危机预警等多种场景。\n\n---\n\n## 二、核心能力\n\n| 能力 | 说明 |\n|------|------|\n| **多平台采集** | 覆盖腾讯新闻、微博、抖音、小红书、知乎、百度资讯等主流平台 |\n| **情感分析** | 自动将信息分类为正面 / 中性 / 负面，计算综合情感得分 |\n| **趋势追踪** | 按时间线呈现舆情走势变化 |\n| **关键词提取** | 提取 Top 15-20 高频关键词及权重 |\n| **热点话题排行** | 按热度排序展示当前最受关注的讨论话题 |\n| **KOL 观点追踪** | 识别关键意见领袖及其立场和影响力 |\n| **风险评估** | 自动判定风险等级（低/中/高），给出风险因素和应对建议 |\n| **可视化报告** | 生成交互式 HTML 报告，包含 6 类 ECharts 图表 |\n\n---\n\n## 三、目录结构\n\n```\nsentiment-analyzer/\n├── SKILL.md                    # 核心指令文件（AI 执行流程）\n├── scripts/\n│   └── generate_report.py      # 报告生成脚本\n└── assets/\n    └── report_template.html    # 交互式 HTML 报告模板\n```\n\n| 文件 | 作用 |\n|------|------|\n| `SKILL.md` | 定义 AI 的完整工作流程：搜索策略、分析维度、数据结构、报告生成步骤 |\n| `generate_report.py` | 将结构化 JSON 数据注入 HTML 模板，生成最终报告 |\n| `report_template.html` | 基于 ECharts 的响应式报告模板，包含所有可视化组件 |\n\n---\n\n## 四、工作流程\n\n```\n用户输入关键词\n       │\n       ▼\n┌─────────",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_59252579/yuqing",
+        "source_path": "yuqing",
+        "install_url": "https://api.skillhub.cn/user_59252579/yuqing",
+        "last_synced": "2026-08-12T11:42:35.461464Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 21,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2261
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "yuqing"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/advanced-evaluation",
+      "spec": {
+        "name": "advanced-evaluation",
+        "description": "This skill should be used when the user asks to \"implement LLM-as-judge\", \"compare model outputs\", \"create evaluation rubrics\", \"mitigate evaluation bias\", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/advanced-evaluation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/advanced-evaluation",
+        "last_synced": "2026-08-12T11:42:35.469754Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "advanced",
+        "evaluation",
+        "llm"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/agent-evaluation",
+      "spec": {
+        "name": "agent-evaluation",
+        "description": "测试和评估 LLM 代理，包括行为测试、能力评估、可靠性指标和生产监控——即使是顶级代理，在真实世界的基准测试中也只能达到不到 50% 的准确率。使用场景：代理测试、代理评估、基准代理、代理可靠性、测试代理。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/agent-evaluation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/agent-evaluation",
+        "last_synced": "2026-08-12T11:42:35.469891Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "agent",
+        "evaluation",
+        "llm"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/ai-engineer",
+      "spec": {
+        "name": "ai-engineer",
+        "description": "Build production-ready LLM applications, advanced RAG systems, and intelligent agents. Implements vector search, multimodal AI, agent orchestration, and enterprise AI integrations.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/ai-engineer",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/ai-engineer",
+        "last_synced": "2026-08-12T11:42:35.470468Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "engineer",
+        "llm",
+        "rag"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/ai-ml",
+      "spec": {
+        "name": "ai-ml",
+        "description": "AI and machine learning workflow covering LLM application development, RAG implementation, agent architecture, ML pipelines, and AI-powered features.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/ai-ml",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/ai-ml",
+        "last_synced": "2026-08-12T11:42:35.470570Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "llm",
+        "rag"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/analytics-product",
+      "spec": {
+        "name": "analytics-product",
+        "description": "Analytics de produto — PostHog, Mixpanel, eventos, funnels, cohorts, retencao, north star metric, OKRs e dashboards de produto.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/analytics-product",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/analytics-product",
+        "last_synced": "2026-08-12T11:42:35.470972Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analytics",
+        "product"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/avalonia-layout-zafiro",
+      "spec": {
+        "name": "avalonia-layout-zafiro",
+        "description": "使用 Zafiro.Avalonia 构建现代 Avalonia UI 布局的指南，重点介绍共享样式、通用组件以及避免 XAML 冗余。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/avalonia-layout-zafiro",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/avalonia-layout-zafiro",
+        "last_synced": "2026-08-12T11:42:35.472869Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "avalonia",
+        "layout",
+        "zafiro"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-ai-ml-py",
+      "spec": {
+        "name": "azure-ai-ml-py",
+        "description": "Azure Machine Learning SDK v2 for Python. Use for ML workspaces, jobs, models, datasets, compute, and pipelines.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-ai-ml-py",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-ai-ml-py",
+        "last_synced": "2026-08-12T11:42:35.473712Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "azure",
+        "python",
+        "sdk"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-ai-projects-dotnet",
+      "spec": {
+        "name": "azure-ai-projects-dotnet",
+        "description": "Azure AI Projects SDK for .NET. High-level client for Azure AI Foundry projects including agents, connections, datasets, deployments, evaluations, and indexes.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-ai-projects-dotnet",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-ai-projects-dotnet",
+        "last_synced": "2026-08-12T11:42:35.473768Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "azure",
+        "dotnet",
+        "projects",
+        "sdk"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-ai-projects-java",
+      "spec": {
+        "name": "azure-ai-projects-java",
+        "description": "Azure AI Projects SDK for Java. High-level SDK for Azure AI Foundry project management including connections, datasets, indexes, and evaluations.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-ai-projects-java",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-ai-projects-java",
+        "last_synced": "2026-08-12T11:42:35.473798Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "azure",
+        "java",
+        "projects",
+        "sdk"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-cosmos-java",
+      "spec": {
+        "name": "azure-cosmos-java",
+        "description": "Azure Cosmos DB SDK for Java. NoSQL database operations with global distribution, multi-model support, and reactive patterns.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-cosmos-java",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-cosmos-java",
+        "last_synced": "2026-08-12T11:42:35.474595Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "azure",
+        "cosmos",
+        "java",
+        "sdk"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-eventhub-ts",
+      "spec": {
+        "name": "azure-eventhub-ts",
+        "description": "High-throughput event streaming and real-time data ingestion.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-eventhub-ts",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-eventhub-ts",
+        "last_synced": "2026-08-12T11:42:35.475112Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "azure",
+        "eventhub"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-mgmt-weightsandbiases-dotnet",
+      "spec": {
+        "name": "azure-mgmt-weightsandbiases-dotnet",
+        "description": "Azure Weights & Biases SDK for .NET. ML experiment tracking and model management via Azure Marketplace. Use for creating W&B instances, managing SSO, marketplace integration, and ML observability.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-mgmt-weightsandbiases-dotnet",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-mgmt-weightsandbiases-dotnet",
+        "last_synced": "2026-08-12T11:42:35.475889Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "azure",
+        "dotnet",
+        "mgmt",
+        "sdk",
+        "weightsandbiases"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-postgres-ts",
+      "spec": {
+        "name": "azure-postgres-ts",
+        "description": "Connect to Azure Database for PostgreSQL Flexible Server from Node.js/TypeScript using the pg (node-postgres) package.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-postgres-ts",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-postgres-ts",
+        "last_synced": "2026-08-12T11:42:35.476209Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "azure",
+        "postgres",
+        "typescript"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/base",
+      "spec": {
+        "name": "base",
+        "description": "Database management, forms, reports, and data operations with LibreOffice Base.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/base",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/base",
+        "last_synced": "2026-08-12T11:42:35.477531Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "base"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/biopython",
+      "spec": {
+        "name": "biopython",
+        "description": "Biopython is a comprehensive set of freely available Python tools for biological computation. It provides functionality for sequence manipulation, file I/O, database access, structural bioinformatics, phylogenetics, and many other bioinformatics tasks.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/biopython",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/biopython",
+        "last_synced": "2026-08-12T11:42:35.478210Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "biopython",
+        "python"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/cc-skill-clickhouse-io",
+      "spec": {
+        "name": "cc-skill-clickhouse-io",
+        "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/cc-skill-clickhouse-io",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/cc-skill-clickhouse-io",
+        "last_synced": "2026-08-12T11:42:35.479545Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "clickhouse",
+        "skill"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/claimable-postgres",
+      "spec": {
+        "name": "claimable-postgres",
+        "description": "Provision instant temporary Postgres databases via Claimable Postgres by Neon (pg.new). No login or credit card required. Use for quick Postgres environments and throwaway DATABASE_URL for prototyping.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/claimable-postgres",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/claimable-postgres",
+        "last_synced": "2026-08-12T11:42:35.480024Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "claimable",
+        "postgres"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/context-manager",
+      "spec": {
+        "name": "context-manager",
+        "description": "Elite AI context engineering specialist mastering dynamic context management, vector databases, knowledge graphs, and intelligent memory systems.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/context-manager",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/context-manager",
+        "last_synced": "2026-08-12T11:42:35.482394Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "context",
+        "manager"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/data-scientist",
+      "spec": {
+        "name": "data-scientist",
+        "description": "Expert data scientist for advanced analytics, machine learning, and statistical modeling. Handles complex data analysis, predictive modeling, and business intelligence.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/data-scientist",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/data-scientist",
+        "last_synced": "2026-08-12T11:42:35.483383Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "scientist"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/database",
+      "spec": {
+        "name": "database",
+        "description": "Database development and operations workflow covering SQL, NoSQL, database design, migrations, optimization, and data engineering.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/database",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/database",
+        "last_synced": "2026-08-12T11:42:35.483470Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "database"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/database-architect",
+      "spec": {
+        "name": "database-architect",
+        "description": "Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/database-architect",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/database-architect",
+        "last_synced": "2026-08-12T11:42:35.483530Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "architect",
+        "database"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/database-design",
+      "spec": {
+        "name": "database-design",
+        "description": "数据库设计原则与决策。模式设计、索引策略、ORM选择、无服务器数据库。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/database-design",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/database-design",
+        "last_synced": "2026-08-12T11:42:35.483607Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "database",
+        "design"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/qingxi-skill-01",
+      "spec": {
+        "name": "qingxi-skill-01",
+        "description": "提供完整的 MBTI 16 型金钱人格测试网页。当用户想测试自己的金钱人格、消费性格、储蓄倾向、财务规划风格或需要运行 36 道金钱行为测试时使用此技能。技能会交付一个无需联网、可直接打开的单页 HTML 测试，并根据安稳与机会、分析与价值、规划与灵活、独立与关系四个维度生成 16 种结果。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
+        "source_path": "qingxi-skill-01",
+        "install_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
+        "last_synced": "2026-08-12T11:42:35.457281Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 9,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3867
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "qingxi",
+        "skill"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/competitor-analysis-pro",
+      "spec": {
+        "name": "competitor-analysis-pro",
+        "description": "全自动竞品分析工具，支持市场、产品、价格、渠道、营销全维度分析",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
+        "source_path": "competitor-analysis-pro",
+        "install_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
+        "last_synced": "2026-08-12T11:42:35.459446Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3070
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "competitor",
+        "pro"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-traffic-dashboard",
+      "spec": {
+        "name": "douyin-traffic-dashboard",
+        "description": "抖音流量分配大盘适合内容创作者、运营、电商、营销在用户想知道抖音流量正在流向哪些方向时使用，帮助基于输入材料生成流量分布、分类层级结构、可用于内容布局的平台方向信号。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
+        "source_path": "douyin-traffic-dashboard",
+        "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
+        "last_synced": "2026-08-12T11:42:35.461105Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 12,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2555
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "dashboard",
+        "douyin",
+        "traffic"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/drawio-generator-pro",
+      "spec": {
+        "name": "drawio-generator-pro",
+        "description": "将自然语言流程描述或文档转换为 draw.io 可编辑 XML 图表（.drawio 文件）。使用场景：(1) 用户描述业务流程需要生成流程图，(2) 用户上传文档需要提取流程并生成图表，(3) 用户要求画架构图/时序图/网络拓扑图。生成后必须告知用户：用 draw.io 网页版（app.diagrams.net）或桌面版打开 .drawio 文件进行查看和手动微调。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
+        "source_path": "drawio-generator-pro",
+        "install_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
+        "last_synced": "2026-08-12T11:42:35.462334Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 9,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2383
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "drawio",
+        "generator",
+        "pro"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/scrapling-article-fetch",
+      "spec": {
+        "name": "scrapling-article-fetch",
+        "description": "使用 Scrapling + html2text 从 URL 抓取可读正文（含图片），按优先级选择器提取并按字符数截断；随后自动写入飞书文档并返回文档链接。适用于用户发送文章/博客/新闻链接（尤其是微信公众号 mp.weixin.qq.com）并希望快速验收正文内容的场景。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
+        "source_path": "scrapling-article-fetch",
+        "install_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
+        "last_synced": "2026-08-12T11:42:35.463473Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 10,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2234
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "article",
+        "fetch",
+        "scrapling"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/financial-report-minesweeper",
+      "spec": {
+        "name": "financial-report-minesweeper",
+        "description": "财报排雷 v1.4.0 — A股（A股已稳定测试，港股和美股还在制作）非金融类上市公司财务报表深度排雷分析（50项核心指标）。所有财务数据统一通过 WeStock Data 获取。一键执行：run_minesweeper.py 自动完成 WeStock Data 取数→计算→报告(MD+HTML)。覆盖偿债能力、经营类资产质量、长期生产类资产、负债与权益结构、利润表收入与盈利质量、现金流量表质量六大排雷维度，含舞弊红线规则与五级风险判定（正常→谨慎关注→关注→规避→坚决回避）。注意：不适用于银行、保险、证券等金融企业。触发词：财报排雷、财务排雷、排雷分析、财务报表分析、财务造假识别。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
+        "source_path": "financial-report-minesweeper",
+        "install_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
+        "last_synced": "2026-08-12T11:42:35.463980Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 13,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2016
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "financial",
+        "minesweeper",
+        "report"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-rewrite",
+      "spec": {
+        "name": "wechat-rewrite",
+        "description": "微信公众号文章深度改写工具 — 输入文章URL，自动抓取原文、AI深度改写去除AI痕迹、生成可直接粘贴到微信公众号编辑器的富文本HTML。当用户说「改写公众号文章」「洗稿」「把这篇文章原创化」「生成公众号版本」时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
+        "source_path": "wechat-rewrite",
+        "install_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
+        "last_synced": "2026-08-12T11:42:35.465884Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1878
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "rewrite",
+        "wechat"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/xinwen",
+      "spec": {
+        "name": "xinwen",
+        "description": "新闻情报雷达 —— 专为信息过载场景设计的新闻分级决策工具。自动将海量新闻分为四级（关键/关注/一般/噪音），语义去重合并重复报道，根据用户画像自适应排序，输出带影响判断和行动建议的决策简报。支持话题追踪联动，零配置开箱即用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
+        "source_path": "xinwen",
+        "install_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
+        "last_synced": "2026-08-12T11:42:35.466212Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 16,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1727
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "xinwen"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/volumetop20",
+      "spec": {
+        "name": "volumetop20",
+        "description": "分析A股股票主力资金和赛道：成交额从大到小排序前20，涨跌幅，成交额，同花顺行业，现价，代码",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
+        "source_path": "volumetop20",
+        "install_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
+        "last_synced": "2026-08-12T11:42:35.457377Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3901
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "volumetop20"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/football-match-analysis",
+      "spec": {
+        "name": "football-match-analysis",
+        "description": "基于Elo评级+泊松分布+蒙特卡洛模拟的足球量化分析预测引擎。当用户要求分析足球比赛、预测比赛结果、查看晋级概率、对比球队实力、检测赔率价值、查看世界杯赛程和赔率、或提到足球/世界杯/欧冠/英超等赛事分析需求时使用此技能。核心能力包括：单场比赛预测（Elo+泊松+修正因子）、晋级概率蒙特卡洛模拟、赔率差检测与价值发现、球队攻防对比分析。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
+        "source_path": "football-match-analysis",
+        "install_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
+        "last_synced": "2026-08-12T11:42:35.459191Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3270
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "football",
+        "match"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/stock-cyq-analyzer",
+      "spec": {
+        "name": "stock-cyq-analyzer",
+        "description": ">该Skill为轻量化筹码分布分析专用工具，分析结果与主流股票软件相差无几。自带A股股票历史数据缓存功能，使用akshare免费数据接口。分析时直接调用本地缓存数据无需重复联网进行数据获取。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
+        "source_path": "stock-cyq-analyzer",
+        "install_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
+        "last_synced": "2026-08-12T11:42:35.462129Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2478
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "cyq",
+        "stock"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/liuye-legal-intelligent-search",
+      "spec": {
+        "name": "liuye-legal-intelligent-search",
+        "description": "法律事务处理的标准RAG（检索增强生成）策略与完整流程。包含：①并行检索策略（北大法宝+IMA知识库）②标准流程（问题识别→RAG检索→Legal技能分析→输出）③北大法宝MCP工具完整映射 ④输出格式规范（法律依据/分析/风险评估/建议/免责）。适用法规查询、案例分析、合同审查、法律风险分析。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
+        "source_path": "liuye-legal-intelligent-search",
+        "install_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
+        "last_synced": "2026-08-12T11:42:35.463747Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2189
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "intelligent",
+        "legal",
+        "liuye",
+        "search"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/stock-mtl-v5",
+      "spec": {
+        "name": "stock-mtl-v5",
+        "description": "股票实时监测助手，A股盯盘利器，内置股票分析专家。\n触发词：监测股票、股票提醒、实时盯盘、盯盘助手、帮我监测、帮我盯盘、\n股票异动提醒、涨停提醒、大跌提醒、股价提醒、实时监控股票、\nstock monitor、监测行情、开始监测、停止监测、\n查股票、看大盘、股票查询、查茅台、查指数、\n涨停榜、跌停榜、板块涨幅、行业板块、\n分析股票、股票分析、分析一下、诊断股票、点评股票、\n企微通知、智能推送、涨停推送、跌停预警、压力位突破、支撑位跌破、\n大单异动、竞价报告、午间盘点、尾盘异动、每日复盘",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
+        "source_path": "stock-mtl-v5",
+        "install_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
+        "last_synced": "2026-08-12T11:42:35.465115Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 8,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2031
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "mtl",
+        "stock"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/science-figures",
+      "spec": {
+        "name": "science-figures",
+        "description": ">还在为论文配图熬夜肝格式？Science Figures 一键搞定科研绘图。17 种图表类型全覆盖 —— 柱状图、热力图、散点图、折线图、箱线图、小提琴图、森林图、直方图、密度图、饼图、雷达图、3D 曲面、等高线、3D 散点、子图组合，只有你想不到没有它画不了。8 种顶刊风格（Nature / Science / IEEE / Lancet / ACS 等）即切换，PNG / SVG / PDF 三格式任选，中文自动识别无乱码。给数据就出图，纯本地运行，数据不上传不外泄。写论文、投期刊、做海报，一个 skill 就够了。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
+        "source_path": "science-figures",
+        "install_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
+        "last_synced": "2026-08-12T11:42:35.465679Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 8,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1974
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "figures",
+        "pdf",
+        "science"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/excel-chart",
+      "spec": {
+        "name": "excel-chart",
+        "description": "从 Excel 文件读取数据并生成统计图表，支持柱状图、折线图、饼图、散点图、箱线图、热力图等多种图表类型，输出 HTML 交互图表或静态图片。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
+        "source_path": "excel-chart",
+        "install_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
+        "last_synced": "2026-08-12T11:42:35.458802Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3446
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "chart",
+        "excel"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/investoday-finance-data-v2",
+      "spec": {
+        "name": "investoday-finance-data-v2",
+        "description": "获取中国市场金融数据与投研信息，覆盖 A股、港股、基金、指数、财务、公告、研报和宏观经济等 200+ 接口。Use when: 用户要查股票走势、基金净值、指数行情、财务报表、估值指标、公告研报、机构观点、宏观数据、板块主题、产业链、市场统计，或要拉取、导出、对比结构化金融数据。Do not use when: 用户要直接买卖建议、自动下单、交易执行、非金融数据查询、系统运维排查，或在无数据时要求编造结论。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
+        "source_path": "investoday-finance-data-v2",
+        "install_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
+        "last_synced": "2026-08-12T11:42:35.460193Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3035
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "finance",
+        "investoday"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/voicescope-voc-insight",
+      "spec": {
+        "name": "voicescope-voc-insight",
+        "description": "将海量评论、工单、问卷和访谈，快速转化为可行动的客户体验洞察。VoiceScope 能自动生成标签体系、批量智能打标，并持续发现标签缺口、重复和粒度问题，辅助智能优化标签口径；通过 AI 语义聚类，自动识别高频痛点、产品亮点和真实用户观点。分析结果可呈现 NSS 四象限、正负向分布及 KEI/KEP × 用户旅程热力图，支持逐层下钻到观点簇和用户原声，并沉淀为可分享的洞察报告。帮助产品、CX、客服和用户研究团队统一判断标准、定位体验问题并确定改进优先级。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
+        "source_path": "voicescope-voc-insight",
+        "install_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
+        "last_synced": "2026-08-12T11:42:35.461920Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2581
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "insight",
+        "voc",
+        "voicescope"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/bsk-browser-launcher",
+      "spec": {
+        "name": "bsk-browser-launcher",
+        "description": "在自动化/抓取任务中自动拉起本机 Edge + BrowserSkill 扩展并确保 daemon 已连接，供 BrowserSkill（bsk）类抓取任务复用。包含连接自检、自动启动、退出码约定与会话创建辅助。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
+        "source_path": "bsk-browser-launcher",
+        "install_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
+        "last_synced": "2026-08-12T11:42:35.463409Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2423
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "browser",
+        "bsk",
+        "launcher"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "veniceai/skills",
+      "spec": {
+        "name": "veniceai-venice-embeddings",
+        "description": "Embeddings models, dimensions, and encoding formats",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/veniceai/skills/tree/main/skills/venice-embeddings",
+        "source_path": "",
+        "install_url": "https://github.com/veniceai/skills/tree/main/skills/venice-embeddings",
+        "last_synced": "2026-08-12T11:42:35.405059Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "embeddings",
+        "veniceai/venice"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "phuryn/pm-skills",
+      "spec": {
+        "name": "phuryn-dummy-dataset",
+        "description": "Generate realistic dummy datasets in CSV, JSON, or SQL",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset",
+        "source_path": "",
+        "install_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset",
+        "last_synced": "2026-08-12T11:42:35.430049Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "dataset",
+        "phuryn/dummy"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-adding-model-support",
+        "description": "Guide for adding support for new LLM or VLM models in Megatron-Bridge.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/adding-model-support",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/adding-model-support",
+        "last_synced": "2026-08-12T11:42:35.432337Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/adding",
+        "llm",
+        "model",
+        "nvidia/megatron",
+        "support"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-mlm-bridge-training",
+        "description": "Run Megatron-LM (MLM) and Megatron Bridge training with mock or real data.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/mlm-bridge-training",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/mlm-bridge-training",
+        "last_synced": "2026-08-12T11:42:35.432582Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge",
+        "bridge/mlm",
+        "nvidia/megatron",
+        "training"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-perf-cuda-graphs",
+        "description": "Validate and use CUDA graph capture in Megatron Bridge, including local full-iteration graphs and Transformer Engine scoped graphs for attention, MLP, and MoE modules.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cuda-graphs",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cuda-graphs",
+        "last_synced": "2026-08-12T11:42:35.432852Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/perf",
+        "cuda",
+        "graphs",
+        "nvidia/megatron"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-perf-moe-hardware-configs",
+        "description": "Representative MoE training playbooks by hardware platform and model family.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-hardware-configs",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-hardware-configs",
+        "last_synced": "2026-08-12T11:42:35.433213Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/perf",
+        "configs",
+        "hardware",
+        "moe",
+        "nvidia/megatron"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-perf-moe-long-context",
+        "description": "Long-context MoE training guidance for Megatron Bridge.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-long-context",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-long-context",
+        "last_synced": "2026-08-12T11:42:35.433248Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/perf",
+        "context",
+        "long",
+        "moe",
+        "nvidia/megatron"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-perf-moe-optimization-workflow",
+        "description": "Systematic workflow for MoE training optimization in Megatron Bridge, based on the Megatron-Core MoE paper.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-optimization-workflow",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-optimization-workflow",
+        "last_synced": "2026-08-12T11:42:35.433279Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/perf",
+        "moe",
+        "nvidia/megatron",
+        "optimization",
+        "workflow"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-perf-moe-vlm-training",
+        "description": "Practical guidance for training MoE VLMs in Megatron Bridge.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-vlm-training",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-vlm-training",
+        "last_synced": "2026-08-12T11:42:35.433319Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/perf",
+        "moe",
+        "nvidia/megatron",
+        "training",
+        "vlm"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-perf-sequence-packing",
+        "description": "Validate and use packed sequences and long-context training in Megatron-Bridge, distinguishing offline packed SFT for LLMs from in-batch packing for VLMs, and applying the right CP...",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-sequence-packing",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-sequence-packing",
+        "last_synced": "2026-08-12T11:42:35.433422Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/perf",
+        "nvidia/megatron",
+        "packing",
+        "sequence"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-bridge-recipe-recommender",
+        "description": "Recommend and customize Megatron Bridge recipes for a user's model, GPU count, and training goal.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/recipe-recommender",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/recipe-recommender",
+        "last_synced": "2026-08-12T11:42:35.433517Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bridge/recipe",
+        "nvidia/megatron",
+        "recommender"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-megatron-core-run-on-slurm",
+        "description": "How to launch distributed Megatron-LM training jobs on a SLURM cluster.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/run-on-slurm",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/run-on-slurm",
+        "last_synced": "2026-08-12T11:42:35.433987Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "core/run",
+        "nvidia/megatron",
+        "slurm"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-model-optimizer-accessing-mlflow",
+        "description": "Query and browse evaluation results stored in MLflow.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/accessing-mlflow",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/accessing-mlflow",
+        "last_synced": "2026-08-12T11:42:35.434123Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "mlflow",
+        "nvidia/model",
+        "optimizer/accessing"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-model-optimizer-evaluation",
+        "description": "Evaluates accuracy of quantized or unquantized LLMs using NeMo Evaluator Launcher (NEL).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/evaluation",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/evaluation",
+        "last_synced": "2026-08-12T11:42:35.434236Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "nvidia/model",
+        "optimizer/evaluation"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-model-optimizer-launching-evals",
+        "description": "Run, monitor, analyze, and debug LLM evaluations via nemo-evaluator-launcher.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/launching-evals",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/launching-evals",
+        "last_synced": "2026-08-12T11:42:35.434280Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "evals",
+        "llm",
+        "nvidia/model",
+        "optimizer/launching"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-model-optimizer-ptq",
+        "description": "This skill should be used when the user asks to \"quantize a model\", \"run PTQ\", \"post-training quantization\", \"NVFP4 quantization\", \"FP8 quantization\", \"INT8 quantization\", \"INT4 AW...",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/ptq",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/ptq",
+        "last_synced": "2026-08-12T11:42:35.434344Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "nvidia/model",
+        "optimizer/ptq"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-model-optimizer-release-cherry-pick",
+        "description": "Cherry-pick merged PRs labeled for a release branch into that branch, then open a PR and apply the cherry-pick-done label.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/release-cherry-pick",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/release-cherry-pick",
+        "last_synced": "2026-08-12T11:42:35.434398Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "cherry",
+        "nvidia/model",
+        "optimizer/release",
+        "pick"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-nemo-evaluator-launcher-accessing-mlflow",
+        "description": "Query and browse evaluation results stored in MLflow.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/accessing-mlflow",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/accessing-mlflow",
+        "last_synced": "2026-08-12T11:42:35.434478Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "evaluator",
+        "launcher/accessing",
+        "mlflow",
+        "nvidia/nemo"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-nemo-evaluator-launcher-nel-assistant",
+        "description": "Interactive config wizard for NeMo Evaluator Launcher (NEL).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/nel-assistant",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/nel-assistant",
+        "last_synced": "2026-08-12T11:42:35.434552Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "assistant",
+        "evaluator",
+        "launcher/nel",
+        "nvidia/nemo"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-nemo-gym-add-benchmark",
+        "description": "> Guide for adding a new benchmark or training environment to NeMo-Gym.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/add-benchmark",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/add-benchmark",
+        "last_synced": "2026-08-12T11:42:35.434585Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "benchmark",
+        "gym/add",
+        "nvidia/nemo"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-cuopt-routing-formulation",
+        "description": "Vehicle routing (VRP, TSP, PDP) — problem types and data requirements.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/routing-formulation",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/routing-formulation",
+        "last_synced": "2026-08-12T11:42:35.437958Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "formulation",
+        "nvidia/cuopt/routing"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-video-search-and-summarization-video-analytics",
+        "description": "Query video analytics data and metrics from Elastic search via the VA-MCP server (port 9901).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-analytics",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-analytics",
+        "last_synced": "2026-08-12T11:42:35.438407Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analytics",
+        "mcp",
+        "nvidia/video",
+        "search",
+        "summarization/video"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-video-search-and-summarization-vss-frag",
+        "description": "Generate video summary reports using the VSS video_search_frag extension with Long Video Summarization (LVS), Enterprise RAG knowledge retrieval, and human-in-the-loop parameter co...",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vss-frag",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vss-frag",
+        "last_synced": "2026-08-12T11:42:35.438636Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "frag",
+        "nvidia/video",
+        "rag",
+        "search",
+        "summarization/vss"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "google/skills",
+      "spec": {
+        "name": "google-cloud-alloydb-basics",
+        "description": "Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and integrates with AlloyDB model context protocol (MCP) tools for automated database operations.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/google/skills/tree/main/skills/cloud/alloydb-basics",
+        "source_path": "",
+        "install_url": "https://github.com/google/skills/tree/main/skills/cloud/alloydb-basics",
+        "last_synced": "2026-08-12T11:42:35.438734Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "basics",
+        "google/cloud/alloydb",
+        "mcp"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "google/skills",
+      "spec": {
+        "name": "google-cloud-bigquery-basics",
+        "description": "Manages datasets, tables, and jobs in BigQuery, and integrates with BigQuery ML and Gemini for advanced data analytics and AI-driven insights.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-basics",
+        "source_path": "",
+        "install_url": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-basics",
+        "last_synced": "2026-08-12T11:42:35.438775Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "basics",
+        "google/cloud/bigquery"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "obra/superpowers",
+      "spec": {
+        "name": "obra-using-superpowers",
+        "description": "Leverage core platform capabilities",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
+        "source_path": "",
+        "install_url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
+        "last_synced": "2026-08-12T11:42:35.440964Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "obra/using",
+        "superpowers"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "sanjay3290/ai-skills",
+      "spec": {
+        "name": "sanjay3290-postgres",
+        "description": "Execute safe read-only SQL queries against PostgreSQL databases",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
+        "source_path": "",
+        "install_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
+        "last_synced": "2026-08-12T11:42:35.442098Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "sanjay3290/postgres"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "massimodeluisa/recursive-decomposition-skill",
+      "spec": {
+        "name": "massimodeluisa-recursive-decomposition-skill",
+        "description": "Handle long-context tasks (100+ files, 50k+ tokens) through recursive decomposition strategies based on RLM research",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
+        "source_path": "",
+        "install_url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
+        "last_synced": "2026-08-12T11:42:35.442884Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "decomposition",
+        "massimodeluisa/recursive",
+        "skill"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "zscole/model-hierarchy-skill",
+      "spec": {
+        "name": "zscole-model-hierarchy-skill",
+        "description": "Cost-optimized model routing based on task complexity",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/zscole/model-hierarchy-skill",
+        "source_path": "",
+        "install_url": "https://github.com/zscole/model-hierarchy-skill",
+        "last_synced": "2026-08-12T11:42:35.443064Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "hierarchy",
+        "skill",
+        "zscole/model"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "hamelsmu/prompts",
+      "spec": {
+        "name": "hamelsmu-generate-synthetic-data",
+        "description": "Create diverse synthetic test inputs for LLM evals",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
+        "source_path": "",
+        "install_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
+        "last_synced": "2026-08-12T11:42:35.443459Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "hamelsmu/generate",
+        "llm",
+        "synthetic"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "hamelsmu/prompts",
+      "spec": {
+        "name": "hamelsmu-validate-evaluator",
+        "description": "Calibrate LLM judges against human labels",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
+        "source_path": "",
+        "install_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
+        "last_synced": "2026-08-12T11:42:35.443508Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "evaluator",
+        "hamelsmu/validate",
+        "llm"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "hamelsmu/prompts",
+      "spec": {
+        "name": "hamelsmu-evaluate-rag",
+        "description": "Evaluate RAG retrieval and generation quality",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
+        "source_path": "",
+        "install_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
+        "last_synced": "2026-08-12T11:42:35.443547Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "hamelsmu/evaluate",
+        "rag"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "csthink/dashmotion",
+      "spec": {
+        "name": "csthink-dashmotion",
+        "description": "Animated technical diagrams from plain English or Mermaid, self-contained HTML/SVG",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
+        "source_path": "",
+        "install_url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
+        "last_synced": "2026-08-12T11:42:35.444192Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "csthink/dashmotion"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "sametbrr/llm-wiki-manager",
+      "spec": {
+        "name": "sametbrr-llm-wiki-manager",
+        "description": "Persistent LLM-managed personal wiki — the model writes, cross-references, and maintains the knowledge base while you curate sources. Implements Karpathy's LLM Wiki pattern with 8 operating modes.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/sametbrr/llm-wiki-manager",
+        "source_path": "",
+        "install_url": "https://github.com/sametbrr/llm-wiki-manager",
+        "last_synced": "2026-08-12T11:42:35.444698Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "llm",
+        "manager",
+        "sametbrr/llm",
+        "wiki"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "zilliztech/mfs",
+      "spec": {
+        "name": "zilliztech-mfs",
+        "description": "`mfs-find` / `mfs-ingest` skills that search, grep and read across your code, docs, chat (Slack/Gmail/Jira), databases and object stores as one file-like, searchable namespace; self-hosted with local ONNX embeddings",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/zilliztech/mfs",
+        "source_path": "",
+        "install_url": "https://github.com/zilliztech/mfs",
+        "last_synced": "2026-08-12T11:42:35.444782Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "zilliztech/mfs"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+      "spec": {
+        "name": "honeydew-ai-honeydew-ai-coding-agents-plugins",
+        "description": "11 skills for the Honeydew semantic layer over Snowflake, Databricks, and BigQuery: model exploration, entity/relation/attribute/metric/context/domain creation, validation, query, filtering, and workspace branching",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
+        "source_path": "",
+        "install_url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
+        "last_synced": "2026-08-12T11:42:35.445029Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "agents",
+        "ai/honeydew",
+        "coding",
+        "honeydew",
+        "plugins"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "frmoretto/clarity-gate",
+      "spec": {
+        "name": "frmoretto-clarity-gate",
+        "description": "Epistemic quality verification for RAG systems",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/frmoretto/clarity-gate",
+        "source_path": "",
+        "install_url": "https://github.com/frmoretto/clarity-gate",
+        "last_synced": "2026-08-12T11:42:35.445339Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "frmoretto/clarity",
+        "gate",
+        "rag"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "zechenzhangAGI/AI-research-SKILLs",
+      "spec": {
+        "name": "zechenzhangagi-ai-research-skills",
+        "description": "77 AI research skills for model training, inference, and MLOps",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
+        "source_path": "",
+        "install_url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
+        "last_synced": "2026-08-12T11:42:35.445400Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "research",
+        "skills",
+        "zechenzhangagi/ai"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "Orchestra-Research/AI-research-SKILLs",
+      "spec": {
+        "name": "orchestra-research-ai-research-skills",
+        "description": "20-module AI research skill library for model architecture, training, and ML paper writing",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
+        "source_path": "",
+        "install_url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
+        "last_synced": "2026-08-12T11:42:35.445432Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "orchestra",
+        "research",
+        "research/ai",
+        "skills"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "czlonkowski/n8n-skills",
+      "spec": {
+        "name": "czlonkowski-n8n-workflow-patterns",
+        "description": "Workflow patterns for webhook, HTTP, database, and AI tasks",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-workflow-patterns",
+        "source_path": "",
+        "install_url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-workflow-patterns",
+        "last_synced": "2026-08-12T11:42:35.446281Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "czlonkowski/n8n",
+        "patterns",
+        "workflow"
+      ],
+      "score": 21
+    }
+  ],
+  "total": 95
+}

@@ -4,6 +4,9 @@ Commands:
     sync    — crawl all (or specific) sources and update registry/
     stats   — print registry statistics
     list    — browse skills in a table
+    show    — display one skill in detail
+    search  — keyword search across the registry
+    install — install a skill into a local agent directory
     export  — export registry to CSV or JSON
     daemon  — run sync on a schedule (blocking)
 """
@@ -23,8 +26,17 @@ from rich.logging import RichHandler
 from rich.panel import Panel
 from rich.table import Table
 
+from skill_store.installer import DEFAULT_TARGETS, install_skill, resolve_target
 from skill_store.pipeline.run import run_pipeline
-from skill_store.registry_writer import REGISTRY_DIR, export_csv, write_registry
+from skill_store.registry_reader import find_skills, load_skills, search_skills
+from skill_store.registry_writer import (
+    REGISTRY_DIR,
+    export_csv,
+    export_yaml,
+    load_existing_skills,
+    merge_skills_for_sources,
+    write_registry,
+)
 
 console = Console()
 
@@ -55,12 +67,11 @@ def _load_env() -> None:
 
 def _load_registry() -> list[dict]:
     """Load skills from registry/skills.json. Exits if not found."""
-    path = REGISTRY_DIR / "skills.json"
-    if not path.exists():
+    try:
+        return load_skills()
+    except FileNotFoundError:
         console.print("[red]Registry not found — run [bold]skill-store sync[/bold] first.[/red]")
         sys.exit(1)
-    with open(path, encoding="utf-8") as f:
-        return json.load(f)["skills"]
 
 
 def _print_changelog(changelog: dict) -> None:
@@ -113,19 +124,57 @@ def cli(ctx: click.Context, verbose: bool) -> None:
     help="Sync only specific source IDs (repeatable).",
 )
 @click.option("--dry-run", is_flag=True, help="Run pipeline without writing files.")
+@click.option("--force", is_flag=True, help="Re-sync all sources even if upstream is unchanged.")
+@click.option(
+    "--no-incremental",
+    is_flag=True,
+    help="Disable upstream fingerprint skip (always crawl every source).",
+)
 @click.pass_context
-def sync(ctx: click.Context, source: tuple[str, ...], dry_run: bool) -> None:
+def sync(
+    ctx: click.Context,
+    source: tuple[str, ...],
+    dry_run: bool,
+    force: bool,
+    no_incremental: bool,
+) -> None:
     """Fetch skills from sources and update the registry."""
     source_ids = list(source) or None
     label = ", ".join(source_ids) if source_ids else "all enabled sources"
     console.print(f"[bold]Syncing:[/bold] {label}")
 
     started = datetime.now(timezone.utc)
-    skills = run_pipeline(source_ids=source_ids)
+    existing = load_existing_skills()
+    result = run_pipeline(
+        source_ids=source_ids,
+        existing_skills=existing or None,
+        force=force,
+        incremental=not no_incremental,
+    )
+    skills = result.skills
 
     if not skills:
+        if existing and result.skipped_sources:
+            console.print(
+                "[green]✓[/green] All sources unchanged — registry is up to date."
+            )
+            return
         console.print("[yellow]No skills collected — check logs above.[/yellow]")
         sys.exit(1)
+
+    if result.skipped_sources:
+        console.print(
+            f"[dim]Incremental skip ({len(result.skipped_sources)}): "
+            f"{', '.join(result.skipped_sources)}[/dim]"
+        )
+
+    if source_ids:
+        existing = load_existing_skills()
+        if existing:
+            skills = merge_skills_for_sources(existing, skills, set(source_ids))
+            console.print(
+                f"[dim]Merged partial sync → [bold]{len(skills)}[/bold] total skills in registry[/dim]"
+            )
 
     elapsed = (datetime.now(timezone.utc) - started).total_seconds()
     console.print(
@@ -137,7 +186,12 @@ def sync(ctx: click.Context, source: tuple[str, ...], dry_run: bool) -> None:
         console.print("[yellow]Dry-run — skipping registry write.[/yellow]")
         return
 
-    changelog = write_registry(skills)
+    changelog = write_registry(
+        skills,
+        source_fingerprints=result.source_fingerprints,
+        skipped_sources=set(result.skipped_sources),
+        synced_sources=set(result.synced_sources),
+    )
     _print_changelog(changelog)
     console.print(f"[green]✓[/green] Registry updated at [bold]{REGISTRY_DIR}[/bold]")
 
@@ -275,6 +329,188 @@ def list_skills(
 
 
 # ---------------------------------------------------------------------------
+# show
+# ---------------------------------------------------------------------------
+
+def _format_platforms(platform: dict) -> str:
+    return ", ".join(name for name, enabled in platform.items() if enabled) or "—"
+
+
+def _print_skill_detail(skill: dict) -> None:
+    spec = skill.get("spec", {})
+    discovery = skill.get("discovery", {})
+    signals = skill.get("signals", {})
+    platform = skill.get("platform", {})
+
+    console.print()
+    console.print(Panel(
+        f"[bold green]{skill['skill_id']}[/bold green]\n"
+        f"[cyan]{spec.get('name', '')}[/cyan]  ·  score [bold]{skill.get('score', 0)}[/bold]  ·  "
+        f"{skill.get('category', 'other')}",
+        title="Skill",
+        border_style="green",
+    ))
+
+    table = Table(show_header=False, box=None, padding=(0, 2))
+    table.add_column("Field", style="dim", width=16)
+    table.add_column("Value")
+    table.add_row("Description", spec.get("description") or "—")
+    table.add_row("License", spec.get("license") or "—")
+    table.add_row("Compatibility", spec.get("compatibility") or "—")
+    table.add_row("Source", discovery.get("source_id", "—"))
+    table.add_row("Source URL", discovery.get("source_url", "—"))
+    table.add_row("Install URL", discovery.get("install_url", "—"))
+    table.add_row("Path", discovery.get("source_path") or "—")
+    table.add_row("Platforms", _format_platforms(platform))
+    table.add_row("Stars", str(signals.get("repo_stars", 0)))
+    table.add_row("Installs", str(signals.get("install_count", 0)))
+    table.add_row("Scripts", "yes" if signals.get("has_scripts") else "no")
+    table.add_row("References", "yes" if signals.get("has_references") else "no")
+    table.add_row("Tags", ", ".join(skill.get("tags", [])) or "—")
+    console.print(table)
+    console.print()
+
+
+@cli.command()
+@click.argument("query")
+@click.option("--json", "as_json", is_flag=True, help="Output raw JSON.")
+def show(query: str, as_json: bool) -> None:
+    """Show full details for a skill (by skill_id or name)."""
+    matches = find_skills(query)
+    if not matches:
+        console.print(f"[red]No skill found matching[/red] [bold]{query}[/bold]")
+        sys.exit(1)
+
+    if len(matches) > 1 and not as_json:
+        console.print(f"[yellow]{len(matches)} matches for[/yellow] [bold]{query}[/bold]:")
+        for skill in matches:
+            console.print(f"  [green]{skill['skill_id']}[/green]  [dim]score={skill.get('score', 0)}[/dim]")
+        console.print("\n[dim]Be more specific, e.g. skill-store show anthropics/skills/mcp-builder[/dim]")
+        sys.exit(1)
+
+    skill = matches[0]
+    if as_json:
+        console.print(json.dumps(skill, ensure_ascii=False, indent=2))
+        return
+    _print_skill_detail(skill)
+
+
+# ---------------------------------------------------------------------------
+# search
+# ---------------------------------------------------------------------------
+
+@cli.command()
+@click.argument("query", default="")
+@click.option("--source", "-s", default=None, help="Filter by source ID.")
+@click.option("--category", "-c", default=None, help="Filter by category.")
+@click.option("--platform", "-p",
+              type=click.Choice(["claude_code", "claude_ai", "kiro", "codex", "universal"]),
+              default=None, help="Filter by platform compatibility.")
+@click.option("--min-score", default=0, help="Minimum quality score (0-100).")
+@click.option("--limit", "-n", default=20, show_default=True, help="Max rows to show.")
+def search(
+    query: str,
+    source: str | None,
+    category: str | None,
+    platform: str | None,
+    min_score: int,
+    limit: int,
+) -> None:
+    """Search skills by keywords (name, description, tags)."""
+    skills = search_skills(
+        query,
+        source=source,
+        category=category,
+        platform=platform,
+        min_score=min_score,
+        limit=limit,
+    )
+
+    if not skills:
+        console.print("[yellow]No skills matched your query.[/yellow]")
+        sys.exit(1)
+
+    table = Table(show_header=True, header_style="bold magenta", box=None, padding=(0, 1))
+    table.add_column("#", style="dim", width=4)
+    table.add_column("Skill ID", style="green", max_width=42)
+    table.add_column("Score", justify="right", width=6)
+    table.add_column("Source", width=18)
+    table.add_column("Description", max_width=50)
+
+    for i, skill in enumerate(skills, start=1):
+        table.add_row(
+            str(i),
+            skill["skill_id"],
+            str(skill.get("score", 0)),
+            skill.get("discovery", {}).get("source_id", ""),
+            (skill.get("spec", {}).get("description") or "")[:80],
+        )
+
+    console.print(table)
+    console.print(f"\n[dim]{len(skills)} result(s)[/dim]\n")
+
+
+# ---------------------------------------------------------------------------
+# install
+# ---------------------------------------------------------------------------
+
+@cli.command()
+@click.argument("query")
+@click.option(
+    "--target", "-t",
+    default=None,
+    help="Destination directory (default: ~/.cursor/skills).",
+)
+@click.option(
+    "--preset", "-p",
+    type=click.Choice(sorted(DEFAULT_TARGETS.keys())),
+    default="cursor",
+    show_default=True,
+    help="Built-in install target preset.",
+)
+@click.option("--force", is_flag=True, help="Overwrite an existing installation.")
+def install(query: str, target: str | None, preset: str, force: bool) -> None:
+    """Install a skill from its registry install_url.
+
+    Requires git. Supports GitHub tree URLs such as:
+    https://github.com/owner/repo/tree/main/skills/my-skill
+    """
+    matches = find_skills(query)
+    if not matches:
+        console.print(f"[red]No skill found matching[/red] [bold]{query}[/bold]")
+        sys.exit(1)
+    if len(matches) > 1:
+        console.print(f"[yellow]{len(matches)} matches for[/yellow] [bold]{query}[/bold]:")
+        for skill in matches:
+            console.print(f"  [green]{skill['skill_id']}[/green]")
+        console.print("\n[dim]Be more specific before installing.[/dim]")
+        sys.exit(1)
+
+    skill = matches[0]
+    dest_root = resolve_target(target, preset=None if target else preset)
+
+    console.print(
+        f"[bold]Installing[/bold] [green]{skill['skill_id']}[/green]\n"
+        f"  → [dim]{dest_root}[/dim]"
+    )
+
+    try:
+        dest = install_skill(skill, dest_root, force=force)
+    except FileExistsError as exc:
+        console.print(f"[yellow]{exc}[/yellow]")
+        sys.exit(1)
+    except (ValueError, RuntimeError, FileNotFoundError) as exc:
+        console.print(f"[red]Install failed:[/red] {exc}")
+        install_url = skill.get("discovery", {}).get("install_url", "")
+        if install_url:
+            console.print(f"[dim]Manual install URL: {install_url}[/dim]")
+        sys.exit(1)
+
+    console.print(f"[green]✓[/green] Installed to [bold]{dest}[/bold]")
+    console.print("[dim]Restart your agent session to pick up the new skill.[/dim]")
+
+
+# ---------------------------------------------------------------------------
 # export
 # ---------------------------------------------------------------------------
 
@@ -283,7 +519,7 @@ def list_skills(
 @click.option(
     "--format", "-f",
     "fmt",
-    type=click.Choice(["csv", "json"]),
+    type=click.Choice(["csv", "json", "yaml"]),
     default="csv",
     show_default=True,
     help="Output format.",
@@ -318,6 +554,8 @@ def export(
 
     if fmt == "csv":
         export_csv(skills, out_path)
+    elif fmt == "yaml":
+        export_yaml(skills, out_path)
     else:
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(
@@ -368,14 +606,28 @@ def daemon(interval: int, source: tuple[str, ...]) -> None:
         console.print(f"\n[dim][Run #{run_count} — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}][/dim]")
 
         try:
-            skills = run_pipeline(source_ids=source_ids)
+            existing = load_existing_skills()
+            result = run_pipeline(
+                source_ids=source_ids,
+                existing_skills=existing or None,
+            )
+            skills = result.skills
             if skills:
-                changelog = write_registry(skills)
+                if source_ids and existing:
+                    skills = merge_skills_for_sources(existing, skills, set(source_ids))
+                changelog = write_registry(
+                    skills,
+                    source_fingerprints=result.source_fingerprints,
+                    skipped_sources=set(result.skipped_sources),
+                    synced_sources=set(result.synced_sources),
+                )
                 _print_changelog(changelog)
                 console.print(
                     f"[green]✓[/green] Sync complete — "
                     f"[bold]{len(skills)}[/bold] skills in registry."
                 )
+            elif existing and result.skipped_sources:
+                console.print("[dim]All sources unchanged this run.[/dim]")
             else:
                 console.print("[yellow]Warning: no skills collected this run.[/yellow]")
         except Exception as e:

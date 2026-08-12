@@ -15,22 +15,43 @@ from skill_store.models import SkillIndex
 logger = logging.getLogger(__name__)
 
 
-def _normalize_url(url: str) -> str:
-    """Normalize a GitHub URL to a canonical form for comparison."""
+def _normalize_repo_url(url: str) -> str:
+    """Normalize a GitHub URL to owner/repo form."""
     parsed = urlparse(url)
-    path = parsed.path.rstrip("/")
-    # Remove /tree/main, /tree/master suffixes
-    path = path.split("/tree/")[0]
-    # Remove /blob/ references
-    path = path.split("/blob/")[0]
-    return f"{parsed.netloc}{path}".lower()
+    path = parsed.path.rstrip("/").split("/tree/")[0].split("/blob/")[0]
+    parts = [p for p in path.split("/") if p]
+    if len(parts) >= 2:
+        return f"{parsed.netloc.lower()}/{parts[0]}/{parts[1]}"
+    return f"{parsed.netloc.lower()}{path}".lower()
+
+
+def _normalize_skill_location(url: str) -> str:
+    """Normalize a skill URL while preserving its path within the repo."""
+    parsed = urlparse(url)
+    parts = [p for p in parsed.path.strip("/").split("/") if p]
+    if len(parts) >= 4 and parts[2] in ("tree", "blob"):
+        owner, repo = parts[0], parts[1]
+        rest = parts[4:]
+        if rest:
+            return f"{parsed.netloc.lower()}/{owner}/{repo}/{'/'.join(rest)}"
+    return _normalize_repo_url(url)
+
+
+def _dedup_key(skill: SkillIndex) -> str:
+    """Build a stable dedup key for a single skill entry."""
+    install_url = skill.discovery.install_url.strip()
+    if install_url:
+        return _normalize_skill_location(install_url)
+    if skill.discovery.source_path:
+        return f"{_normalize_repo_url(skill.discovery.source_url)}/{skill.discovery.source_path}".lower()
+    return skill.skill_id.lower()
 
 
 def _richness_score(skill: SkillIndex) -> int:
     """Score how rich/complete a skill entry is (higher = better to keep)."""
     score = 0
     if skill.spec.description:
-        score += len(skill.spec.description[:200])  # Longer description = better
+        score += len(skill.spec.description[:200])
     if skill.spec.license:
         score += 20
     if skill.signals.has_scripts:
@@ -47,27 +68,17 @@ def _richness_score(skill: SkillIndex) -> int:
 
 
 def deduplicate(skills: list[SkillIndex]) -> list[SkillIndex]:
-    """Remove duplicate skills, keeping the richest entry for each unique skill.
-
-    Deduplication keys (in priority order):
-    1. Normalized source URL (catches same repo appearing in multiple lists)
-    2. Spec name (catches renamed forks with same skill name)
-    """
-    # Group by normalized URL
-    url_groups: dict[str, list[SkillIndex]] = {}
+    """Remove duplicate skills, keeping the richest entry for each unique skill."""
+    groups: dict[str, list[SkillIndex]] = {}
     for skill in skills:
-        key = _normalize_url(skill.discovery.source_url)
-        url_groups.setdefault(key, []).append(skill)
+        groups.setdefault(_dedup_key(skill), []).append(skill)
 
-    # For each group, pick the best entry
     deduped: list[SkillIndex] = []
-    for url_key, group in url_groups.items():
+    for key, group in groups.items():
         if len(group) == 1:
             deduped.append(group[0])
         else:
-            # Pick the richest entry
             best = max(group, key=_richness_score)
-            # Merge signals: take the highest stars count from any source
             max_stars = max(s.signals.repo_stars for s in group)
             if max_stars > best.signals.repo_stars:
                 best.signals.repo_stars = max_stars
@@ -75,7 +86,7 @@ def deduplicate(skills: list[SkillIndex]) -> list[SkillIndex]:
             logger.debug(
                 "Deduped %d entries for %s, kept %s",
                 len(group),
-                url_key,
+                key,
                 best.skill_id,
             )
 

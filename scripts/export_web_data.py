@@ -1,0 +1,109 @@
+#!/usr/bin/env python3
+"""Export registry/skills.json → web/data/skills.yml for Astro frontend."""
+
+from __future__ import annotations
+
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+
+import yaml
+
+ROOT = Path(__file__).resolve().parent.parent
+REGISTRY = ROOT / "registry" / "skills.json"
+META = ROOT / "registry" / "meta.json"
+OUTPUT = ROOT / "web" / "data" / "skills.yml"
+
+CATEGORY_LABELS = {
+    "development": "开发",
+    "creative": "创意",
+    "document": "文档",
+    "devops": "DevOps",
+    "security": "安全",
+    "data": "数据",
+    "content": "内容",
+    "ecommerce": "电商",
+    "education": "教育",
+    "productivity": "效率",
+    "other": "其他",
+}
+
+
+def _row(skill: dict) -> dict:
+    spec = skill.get("spec", {})
+    discovery = skill.get("discovery", {})
+    signals = skill.get("signals", {})
+    platform = skill.get("platform", {})
+    return {
+        "id": skill.get("skill_id", ""),
+        "name": spec.get("name", ""),
+        "description": (spec.get("description") or "")[:500],
+        "category": skill.get("category", "other"),
+        "score": skill.get("score", 0),
+        "tags": skill.get("tags", [])[:8],
+        "source": discovery.get("source_id", ""),
+        "install_url": discovery.get("install_url", ""),
+        "stars": signals.get("repo_stars", 0),
+        "installs": signals.get("install_count", 0),
+        "platforms": [k for k, v in platform.items() if v],
+        "license": spec.get("license") or "",
+    }
+
+
+def main() -> None:
+    if not REGISTRY.exists():
+        raise SystemExit(f"Registry not found: {REGISTRY} — run skill-store sync first.")
+
+    with open(REGISTRY, encoding="utf-8") as f:
+        skills_raw = json.load(f)["skills"]
+
+    meta = {}
+    if META.exists():
+        with open(META, encoding="utf-8") as f:
+            meta = json.load(f)
+
+    rows = [_row(s) for s in skills_raw]
+    rows.sort(key=lambda r: r["score"], reverse=True)
+
+    categories = meta.get("categories", {})
+    category_list = [
+        {
+            "id": cat_id,
+            "name": CATEGORY_LABELS.get(cat_id, cat_id),
+            "count": count,
+        }
+        for cat_id, count in sorted(categories.items(), key=lambda x: -x[1])
+    ]
+
+    source_counts = meta.get("source_counts", {})
+    source_list = [
+        {"id": src_id, "count": count}
+        for src_id, count in sorted(source_counts.items(), key=lambda x: -x[1])
+    ]
+
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "total": len(rows),
+        "site": {
+            "title": "Skill Store",
+            "description": "AI Agent Skill 发现引擎 · 兼容性注册表",
+        },
+        "meta": {
+            "last_synced": meta.get("last_synced"),
+            "sources_count": meta.get("sources_count", 0),
+        },
+        "categories": category_list,
+        "sources": source_list,
+        "featured": rows[:12],
+        "skills": rows,
+    }
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    with open(OUTPUT, "w", encoding="utf-8") as f:
+        yaml.safe_dump(payload, f, allow_unicode=True, sort_keys=False)
+
+    print(f"✓ Exported {len(rows)} skills → {OUTPUT}")
+
+
+if __name__ == "__main__":
+    main()

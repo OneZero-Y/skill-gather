@@ -1,0 +1,60 @@
+{
+  "total_skills": 1692,
+  "sources_count": 8,
+  "last_synced": "2026-08-12T11:42:35.552736Z",
+  "version": "1",
+  "categories": {
+    "development": 811,
+    "other": 161,
+    "document": 138,
+    "creative": 133,
+    "productivity": 55,
+    "education": 10,
+    "data": 95,
+    "security": 28,
+    "devops": 173,
+    "content": 80,
+    "ecommerce": 8
+  },
+  "sources": [
+    "anthropics-skills",
+    "community-repos",
+    "langchain-skills",
+    "mcpmarket-cn",
+    "openai-skills",
+    "skillhub-cn",
+    "vercel-agent-skills",
+    "voltagent-awesome"
+  ],
+  "source_counts": {
+    "vercel-agent-skills": 9,
+    "anthropics-skills": 17,
+    "langchain-skills": 22,
+    "openai-skills": 44,
+    "community-repos": 12,
+    "skillhub-cn": 500,
+    "mcpmarket-cn": 484,
+    "voltagent-awesome": 604
+  },
+  "platform_counts": {
+    "claude_code": 1648,
+    "claude_ai": 18,
+    "kiro": 1631,
+    "codex": 1675,
+    "universal": 1675
+  },
+  "score_distribution": {
+    "0-20": 0,
+    "21-40": 1514,
+    "41-60": 175,
+    "61-80": 3,
+    "81-100": 0
+  },
+  "changelog": {
+    "added": 0,
+    "removed": 0,
+    "modified": 18,
+    "total_old": 1234,
+    "total_new": 1234
+  }
+}

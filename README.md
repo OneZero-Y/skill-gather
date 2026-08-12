@@ -54,7 +54,7 @@ uv run skill-store stats
 # 同步所有启用的数据源
 skill-store sync
 
-# 只同步指定数据源
+# 只同步指定数据源（会合并进现有 registry，不覆盖其他源）
 skill-store sync --source anthropics-skills
 skill-store sync --source anthropics-skills --source voltagent-awesome
 
@@ -108,6 +108,44 @@ skill-store list --min-score 60
 skill-store list --limit 100
 ```
 
+### `search` — 关键词搜索
+
+```bash
+skill-store search "mcp server"
+skill-store search react --category development --min-score 50
+skill-store search terraform --platform claude_code
+```
+
+### `show` — 查看 skill 详情
+
+```bash
+# 按 skill_id 或名称（支持部分匹配）
+skill-store show anthropics/skills/mcp-builder
+skill-store show mcp-builder
+
+# 输出 JSON
+skill-store show mcp-builder --json
+```
+
+### `install` — 安装 skill 到本地
+
+需要本机已安装 `git`。默认安装到 `~/.cursor/skills/`。
+
+```bash
+# 安装到 Cursor 全局目录（默认）
+skill-store install mcp-builder
+
+# 安装到 Claude Code 全局目录
+skill-store install mcp-builder --preset claude
+
+# 安装到当前项目的 .cursor/skills/
+skill-store install mcp-builder --preset project-cursor
+
+# 自定义目录 / 覆盖已有安装
+skill-store install mcp-builder --target ~/my-skills
+skill-store install mcp-builder --force
+```
+
 ### `export` — 导出数据
 
 ```bash
@@ -116,6 +154,9 @@ skill-store export skills.csv
 
 # 导出为 JSON
 skill-store export skills.json --format json
+
+# 导出为 YAML（供 Astro 前端消费）
+skill-store export data/skills.yml --format yaml
 
 # 带筛选
 skill-store export dev-skills.csv --category development --min-score 50
@@ -136,6 +177,22 @@ skill-store daemon --interval 6 --source anthropics-skills
 
 ---
 
+## Web 前端（Phase 2）
+
+技术栈与 [compass-nav](https://github.com/OneZero-Y/compass-nav) 一致：Astro 5 + React 19 + Tailwind v4 + Zod。
+
+```bash
+# 导出 registry → web/data/skills.yml
+uv run python scripts/export_web_data.py
+
+# 本地预览
+cd web && npm install && npm run dev
+```
+
+部署到 Cloudflare Pages 时，Root directory 设为 `web`，Build command 为 `npm run build`，Output 为 `dist`。详见 [`web/README.md`](web/README.md)。
+
+---
+
 ## 数据源
 
 | ID | 类型 | 来源 | 说明 |
@@ -145,10 +202,10 @@ skill-store daemon --interval 6 --source anthropics-skills
 | `vercel-agent-skills` | GitHub Repo | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Vercel 官方，支持 76+ agent |
 | `langchain-skills` | GitHub Repo | [langchain-ai/langchain-skills](https://github.com/langchain-ai/langchain-skills) | LangChain 官方，21 个 skill |
 | `voltagent-awesome` | Awesome List | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 社区最大聚合列表，~160 条 |
-| `community-repos` | GitHub Repo List | 精选社区仓库 | 持续维护，加新源改 config.yml 即可 |
-| `skills-sh-signals` | Web 解析（信号层） | [skills.sh](https://skills.sh) | 只丰富安装量信号，不新增条目 |
-| `skillhub-cn` | Web API | skillhub.tencent.com | 待接入 |
-| `mcpmarket-cn` | Web API | mcpmarket.cn | 待接入 |
+| `community-repos` | GitHub Repo List | 精选社区仓库 | 已实现；与 awesome-list 重叠时会去重 |
+| `skills-sh-signals` | Web 解析（信号层） | [skills.sh](https://skills.sh) | 已实现；只丰富安装量信号，不新增条目 |
+| `skillhub-cn` | Web API | [skillhub.cn](https://skillhub.cn) | 已实现；分页采集 Top 500（按 score 排序） |
+| `mcpmarket-cn` | Web API | [mcpmarket.cn/skills](https://mcpmarket.cn/skills) | 已实现；分页采集前 500 条（与 GitHub 源去重） |
 
 新增数据源只需在 [`skill_store/adapters/config.yml`](skill_store/adapters/config.yml) 追加一个条目，无需修改代码。
 
@@ -178,7 +235,12 @@ skill-store/
 │   ├── meta.json             # 统计 + 变更日志（自动生成）
 │   └── by-category/          # 按分类拆分的 JSON（自动生成）
 ├── scripts/
-│   └── update_readme.py      # 同步后自动刷新 README 统计区块
+│   ├── update_readme.py      # 同步后自动刷新 README 统计区块
+│   └── export_web_data.py    # registry → web/data/skills.yml
+├── web/                      # Astro 前端（Phase 2）
+│   ├── data/skills.yml       # 前端数据（自动生成）
+│   ├── src/components/react/ # SkillCard / SearchCommand / SkillApp
+│   └── README.md             # 前端开发与部署说明
 ├── docs/
 │   └── DESIGN.md             # 架构设计文档
 ├── .github/workflows/

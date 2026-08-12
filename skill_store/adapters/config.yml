@@ -38,7 +38,7 @@ sources:
     adapter: github_repo
     repo: langchain-ai/langchain-skills
     branch: main
-    skill_root: skills
+    skill_root: config/skills
     skill_marker: SKILL.md
     license_default: MIT
 
@@ -110,10 +110,18 @@ sources:
 
   - id: skillhub-cn
     adapter: web_api
-    base_url: https://skillhub.tencent.com
-    enabled: false
+    platform: skillhub
+    base_url: https://api.skillhub.cn
+    api_path: /api/skills
+    page_size: 50
+    max_pages: 10
+    sort_by: score
+    order: desc
 
   - id: mcpmarket-cn
     adapter: web_api
+    platform: mcpmarket
     base_url: https://mcpmarket.cn
-    enabled: false
+    api_path: /skills/api/list
+    page_size: 100
+    max_pages: 5

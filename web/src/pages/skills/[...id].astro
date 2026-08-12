@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { SkillDetail } from '../../components/react/SkillDetail';
+import { loadSkillsData } from '../../lib/config';
+
+export function getStaticPaths() {
+  const data = loadSkillsData();
+  return data.skills.map((skill) => ({
+    params: { id: skill.id },
+    props: { skill },
+  }));
+}
+
+const { skill } = Astro.props;
+const pageTitle = `${skill.name} · Skill Store`;
+---
+
+<Layout title={pageTitle} description={skill.description.slice(0, 160)}>
+  <SkillDetail client:load skill={skill} />
+</Layout>

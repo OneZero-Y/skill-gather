@@ -1,0 +1,1224 @@
+{
+  "category": "security",
+  "skills": [
+    {
+      "skill_id": "snyk/agent-scan",
+      "spec": {
+        "name": "agent-scan",
+        "description": "Security scanner for AI agents, MCP servers and agent skills.",
+        "license": "Apache-2.0",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/snyk/agent-scan",
+        "source_path": "",
+        "install_url": "https://github.com/snyk/agent-scan",
+        "last_synced": "2026-08-12T11:42:35.446397Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2905,
+        "last_commit_date": "2026-08-12",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "agent",
+        "mcp",
+        "scan"
+      ],
+      "score": 54
+    },
+    {
+      "skill_id": "skillhub-cn/audit-new",
+      "spec": {
+        "name": "audit-new",
+        "description": "合同风险识别与条款分析 - 智能合同审查工具，自动识别风险条款、补充缺失条款、对比差异条款",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
+        "source_path": "audit-new",
+        "install_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
+        "last_synced": "2026-08-12T11:42:35.451664Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 44,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 10693
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "new"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/ai-engineering-toolkit",
+      "spec": {
+        "name": "ai-engineering-toolkit",
+        "description": "6 production-ready AI engineering workflows: prompt evaluation (8-dimension scoring), context budget planning, RAG pipeline design, agent security audit (65-point checklist), eval harness building, and product sense coaching.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/ai-engineering-toolkit",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/ai-engineering-toolkit",
+        "last_synced": "2026-08-12T11:42:35.470505Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "engineering",
+        "rag",
+        "toolkit"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/anti-reversing-techniques",
+      "spec": {
+        "name": "anti-reversing-techniques",
+        "description": "AUTHORIZED USE ONLY: This skill contains dual-use security techniques. Before proceeding with any bypass or analysis: > 1.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/anti-reversing-techniques",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/anti-reversing-techniques",
+        "last_synced": "2026-08-12T11:42:35.471347Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "anti",
+        "reversing",
+        "techniques"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/antigravity-workflows",
+      "spec": {
+        "name": "antigravity-workflows",
+        "description": "Orchestrate multiple Antigravity skills through guided workflows for SaaS MVP delivery, security audits, AI agent builds, and browser QA.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/antigravity-workflows",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/antigravity-workflows",
+        "last_synced": "2026-08-12T11:42:35.471441Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "antigravity",
+        "workflows"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/audit-skills",
+      "spec": {
+        "name": "audit-skills",
+        "description": "Expert security auditor for AI Skills and Bundles. Performs non-intrusive static analysis to identify malicious patterns, data leaks, system stability risks, and obfuscated payloads across Windows, macOS, Linux/Unix, and Mobile (Android/iOS).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/audit-skills",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/audit-skills",
+        "last_synced": "2026-08-12T11:42:35.472707Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "skills"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/aws-security-audit",
+      "spec": {
+        "name": "aws-security-audit",
+        "description": "Comprehensive AWS security posture assessment using AWS CLI and security best practices",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/aws-security-audit",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/aws-security-audit",
+        "last_synced": "2026-08-12T11:42:35.473166Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "aws",
+        "cli",
+        "security"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-communication-common-java",
+      "spec": {
+        "name": "azure-communication-common-java",
+        "description": "Azure Communication Services common utilities for Java. Use when working with CommunicationTokenCredential, user identifiers, token refresh, or shared authentication across ACS services.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-communication-common-java",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-communication-common-java",
+        "last_synced": "2026-08-12T11:42:35.474374Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "azure",
+        "common",
+        "communication",
+        "java"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-identity-java",
+      "spec": {
+        "name": "azure-identity-java",
+        "description": "Authenticate Java applications with Azure services using Microsoft Entra ID (Azure AD).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-identity-java",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-identity-java",
+        "last_synced": "2026-08-12T11:42:35.475200Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "azure",
+        "identity",
+        "java"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-identity-ts",
+      "spec": {
+        "name": "azure-identity-ts",
+        "description": "Authenticate to Azure services with various credential types.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-identity-ts",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-identity-ts",
+        "last_synced": "2026-08-12T11:42:35.475286Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "azure",
+        "identity"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-security-keyvault-keys-java",
+      "spec": {
+        "name": "azure-security-keyvault-keys-java",
+        "description": "Azure Key Vault Keys Java SDK for cryptographic key management. Use when creating, managing, or using RSA/EC keys, performing encrypt/decrypt/sign/verify operations, or working with HSM-backed keys.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-security-keyvault-keys-java",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-security-keyvault-keys-java",
+        "last_synced": "2026-08-12T11:42:35.476590Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "azure",
+        "java",
+        "keys",
+        "keyvault",
+        "sdk",
+        "security"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/burp-suite-testing",
+      "spec": {
+        "name": "burp-suite-testing",
+        "description": "Execute comprehensive web application security testing using Burp Suite's integrated toolset, including HTTP traffic interception and modification, request analysis and replay, automated vulnerability scanning, and manual testing workflows.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/burp-suite-testing",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/burp-suite-testing",
+        "last_synced": "2026-08-12T11:42:35.479010Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "burp",
+        "suite",
+        "testing"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/burpsuite-project-parser",
+      "spec": {
+        "name": "burpsuite-project-parser",
+        "description": "Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/burpsuite-project-parser",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/burpsuite-project-parser",
+        "last_synced": "2026-08-12T11:42:35.479061Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "burpsuite",
+        "parser",
+        "project"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/codebase-audit-pre-push",
+      "spec": {
+        "name": "codebase-audit-pre-push",
+        "description": "Deep audit before GitHub push: removes junk files, dead code, security holes, and optimization issues. Checks every file line-by-line for production readiness.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/codebase-audit-pre-push",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/codebase-audit-pre-push",
+        "last_synced": "2026-08-12T11:42:35.481242Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "codebase",
+        "github",
+        "pre",
+        "push"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/codebase-cleanup-deps-audit",
+      "spec": {
+        "name": "codebase-cleanup-deps-audit",
+        "description": "You are a dependency security expert specializing in vulnerability scanning, license compliance, and supply chain security. Analyze project dependencies for known vulnerabilities, licensing issues, outdated packages, and provide actionable remediation strategies.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/codebase-cleanup-deps-audit",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/codebase-cleanup-deps-audit",
+        "last_synced": "2026-08-12T11:42:35.481273Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "cleanup",
+        "codebase",
+        "deps"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/skill-assistant-pro",
+      "spec": {
+        "name": "skill-assistant-pro",
+        "description": "skill-assistant 是 Agent Skill 全生命周期管理助手——发现、推荐、安装、创建、质检、 诊断优化一站式完成。当用户提到任何 skill 技能市场（skills.sh / SkillHub / ClawHub / SkillsMP / GitHub skill 仓库），想要找 / 搜索 / 安装 / 创建 / 更新一个 skill，问\"有没有 skill 能做 xxx\"，想要诊断 / 优化 / 审查 / 体检 / 评分 / 改进 一个已有 skill，想跑静态 / 动态 / 混合 / 盲评测试，想优化 skill description 提升触发率，或想扫描所有已安装 skill 出优化优先级排行榜时，必须使用本 skill。 英文触发词同样适用：find / search / install / create / update / diagnose / optimize / inspect / audit / score / evaluate skill。 不要用于：通用包管理（npm / pip / brew）、IDE 插件/扩展的搜索与安装。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
+        "source_path": "skill-assistant-pro",
+        "install_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
+        "last_synced": "2026-08-12T11:42:35.462026Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 14,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2340
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "assistant",
+        "github",
+        "pro",
+        "skill"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/skillscan",
+      "spec": {
+        "name": "skillscan",
+        "description": "SkillScan 是skill的安全防护措施。它可以自动检测已安装和新添加skill中的安全风险，并在高危/严重风险对您的环境造成损害之前将其拦截。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_0db42586/skillscan",
+        "source_path": "skillscan",
+        "install_url": "https://api.skillhub.cn/user_0db42586/skillscan",
+        "last_synced": "2026-08-12T11:42:35.458848Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3349
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "skillscan"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/compliance-audit-pro",
+      "spec": {
+        "name": "compliance-audit-pro",
+        "description": "面向法律/财务/采购场景的合规审计引擎，自动提取风险条款、映射法规基线、生成审计底稿与澄清模板",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
+        "source_path": "compliance-audit-pro",
+        "install_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
+        "last_synced": "2026-08-12T11:42:35.466289Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2001
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "compliance",
+        "pro"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "NVIDIA/skills",
+      "spec": {
+        "name": "nvidia-nemoclaw-nemoclaw-maintainer-find-review-pr",
+        "description": "Finds open GitHub PRs with security and priority-high labels, links each to its issue, detects duplicates (multiple PRs fixing the same issue), and presents a table of review candi...",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-find-review-pr",
+        "source_path": "",
+        "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-find-review-pr",
+        "last_synced": "2026-08-12T11:42:35.435523Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "find",
+        "github",
+        "maintainer",
+        "nvidia/nemoclaw/nemoclaw",
+        "review"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "ramzesenok/iOS-Accessibility-Audit-Skill",
+      "spec": {
+        "name": "ramzesenok-ios-accessibility-audit-skill",
+        "description": "Audit iOS App against Accessibility norms",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
+        "source_path": "",
+        "install_url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
+        "last_synced": "2026-08-12T11:42:35.441998Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "accessibility",
+        "audit",
+        "ramzesenok/ios",
+        "skill"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "truongduy2611/app-store-preflight-skills",
+      "spec": {
+        "name": "truongduy2611-app-store-preflight-skills",
+        "description": "Scan iOS/macOS projects to catch common mistakes that lead to App Store rejection before submission",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/truongduy2611/app-store-preflight-skills",
+        "source_path": "",
+        "install_url": "https://github.com/truongduy2611/app-store-preflight-skills",
+        "last_synced": "2026-08-12T11:42:35.442040Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "preflight",
+        "skills",
+        "store",
+        "truongduy2611/app"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "mukul975/Anthropic-Cybersecurity-Skills",
+      "spec": {
+        "name": "mukul975-anthropic-cybersecurity-skills",
+        "description": "753 cybersecurity skills across 38 domains: cloud security, pentesting, red teaming, DFIR, malware analysis, threat intel, and more (MITRE ATT&CK mapped)",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "source_path": "",
+        "install_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+        "last_synced": "2026-08-12T11:42:35.443649Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "cybersecurity",
+        "mukul975/anthropic",
+        "skills"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "wrsmith108/varlock-claude-skill",
+      "spec": {
+        "name": "wrsmith108-varlock-claude-skill",
+        "description": "Secure environment variable management ensuring secrets are never exposed in Claude sessions, terminals, logs, or git commits",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/wrsmith108/varlock-claude-skill",
+        "source_path": "",
+        "install_url": "https://github.com/wrsmith108/varlock-claude-skill",
+        "last_synced": "2026-08-12T11:42:35.443692Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "claude",
+        "skill",
+        "wrsmith108/varlock"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "browser-act/skills",
+      "spec": {
+        "name": "browser-act-browser-act",
+        "description": "Automate authenticated browsers with extraction and human handoff",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/browser-act/skills/tree/main/browser-act",
+        "source_path": "",
+        "install_url": "https://github.com/browser-act/skills/tree/main/browser-act",
+        "last_synced": "2026-08-12T11:42:35.444264Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "act",
+        "act/browser",
+        "browser"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "khendzel/skills-janitor",
+      "spec": {
+        "name": "khendzel-skills-janitor",
+        "description": "Token audit, usage tracking, and swipe-to-delete skill pruning.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/khendzel/skills-janitor",
+        "source_path": "",
+        "install_url": "https://github.com/khendzel/skills-janitor",
+        "last_synced": "2026-08-12T11:42:35.444898Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "janitor",
+        "khendzel/skills"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "obra/superpowers",
+      "spec": {
+        "name": "obra-defense-in-depth",
+        "description": "Multi-layered security approaches",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
+        "source_path": "",
+        "install_url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
+        "last_synced": "2026-08-12T11:42:35.445287Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "depth",
+        "obra/defense"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "prompt-security/clawsec",
+      "spec": {
+        "name": "prompt-security-clawsec",
+        "description": "Security skill suite with drift detection, automated audits, and skill integrity verification",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/prompt-security/clawsec",
+        "source_path": "",
+        "install_url": "https://github.com/prompt-security/clawsec",
+        "last_synced": "2026-08-12T11:42:35.445560Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "prompt",
+        "security/clawsec"
+      ],
+      "score": 21
+    },
+    {
+      "skill_id": "BehiSecc/VibeSec-Skill",
+      "spec": {
+        "name": "behisecc-vibesec",
+        "description": "Helps write secure code by preventing common vulnerabilities including IDOR, XSS, SQL injection, SSRF, and weak authentication, approaching code from a bug hunter's perspective",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/BehiSecc/VibeSec-Skill",
+        "source_path": "",
+        "install_url": "https://github.com/BehiSecc/VibeSec-Skill",
+        "last_synced": "2026-08-12T11:42:35.445596Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "behisecc/vibesec"
+      ],
+      "score": 21
+    }
+  ],
+  "total": 28
+}

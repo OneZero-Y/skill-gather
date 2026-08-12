@@ -288,31 +288,33 @@ GitHub Actions 定时触发
 
 ## 7. 实施路线
 
-### Phase 1：核心引擎（当前优先）
+### Phase 1：核心引擎
 
-- [ ] 项目初始化（Python 环境、目录结构）
-- [ ] 采集器基类 + github_repo adapter
-- [ ] 同步 anthropics/skills（作为第一个数据源验证流程）
-- [ ] awesome_list adapter（同步 VoltAgent）
-- [ ] 数据规范化 + 去重
-- [ ] 输出 registry/skills.json
-- [ ] GitHub Actions 自动化
+- [x] 项目初始化（Python 环境、目录结构）
+- [x] 采集器基类 + github_repo adapter
+- [x] 同步 anthropics/skills（作为第一个数据源验证流程）
+- [x] awesome_list adapter（同步 VoltAgent）
+- [x] 数据规范化 + 去重
+- [x] 输出 registry/skills.json
+- [x] GitHub Actions 自动化
 
 ### Phase 2：前端展示
 
-- [ ] Astro 项目初始化（同导航站模式）
-- [ ] skills.yml 数据加载 + Zod 校验
-- [ ] SkillCard 组件
-- [ ] 分类侧栏 + 搜索
-- [ ] 兼容性/来源标签过滤
-- [ ] Cloudflare Pages 部署
+- [x] Astro 项目初始化（同导航站模式）
+- [x] skills.yml 数据加载 + Zod 校验
+- [x] SkillCard 组件
+- [x] 分类侧栏 + 搜索
+- [x] 兼容性/来源标签过滤
+- [x] Cloudflare Pages 部署
+- [x] Skill 详情页 + 中英文切换
 
 ### Phase 3：扩展
 
-- [ ] 逆向 skillhub.cn API，接入 web_api adapter
-- [ ] 逆向 mcpmarket.cn API
-- [ ] CLI 安装工具
-- [ ] 质量评分算法优化
+- [x] 逆向 skillhub.cn API，接入 web_api adapter
+- [x] 逆向 mcpmarket.cn API
+- [x] CLI 安装工具（GitHub + SkillHub CLI）
+- [x] 质量评分算法优化
+- [x] 增量 sync（upstream fingerprint 跳过未变源）
 - [ ] 社区贡献流程（提交新 skill 来源）
 
 ---

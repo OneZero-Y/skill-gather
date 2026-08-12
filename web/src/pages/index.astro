@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { SkillApp } from '../components/react/SkillApp';
+import { loadSkillsData } from '../lib/config';
+
+const data = loadSkillsData();
+---
+
+<Layout title={data.site.title} description={data.site.description}>
+  <SkillApp client:load data={data} />
+</Layout>

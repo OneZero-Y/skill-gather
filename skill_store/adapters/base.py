@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import logging
 import os
+import time
 from abc import ABC, abstractmethod
 from pathlib import Path
 from typing import Any
@@ -42,6 +43,41 @@ def github_client() -> httpx.Client:
         timeout=30.0,
         follow_redirects=True,
     )
+
+
+def github_get(client: httpx.Client, path: str, *, retries: int = 3) -> httpx.Response:
+    """GET with retry and rate-limit logging for GitHub API."""
+    last_resp: httpx.Response | None = None
+    for attempt in range(retries):
+        resp = client.get(path)
+        last_resp = resp
+
+        if resp.status_code not in (403, 429):
+            return resp
+
+        remaining = resp.headers.get("X-RateLimit-Remaining")
+        if remaining == "0":
+            reset = resp.headers.get("X-RateLimit-Reset", "?")
+            logger.warning(
+                "GitHub rate limit exceeded (reset epoch %s). "
+                "Set GITHUB_TOKEN in .env for 5000 req/h.",
+                reset,
+            )
+        elif not os.environ.get("GITHUB_TOKEN"):
+            logger.warning(
+                "GitHub API returned %d for %s — configure GITHUB_TOKEN to avoid limits.",
+                resp.status_code,
+                path,
+            )
+
+        if attempt + 1 >= retries:
+            break
+
+        retry_after = int(resp.headers.get("Retry-After", "2"))
+        time.sleep(min(retry_after, 10))
+
+    assert last_resp is not None
+    return last_resp
 
 
 # ---------------------------------------------------------------------------
@@ -85,6 +121,10 @@ class BaseAdapter(ABC):
     def discover(self) -> list[RawSkillEntry]:
         """Discover skills from the source. Returns raw entries."""
         ...
+
+    def peek_fingerprint(self) -> str | None:
+        """Return a cheap upstream fingerprint for incremental sync, or None."""
+        return None
 
     def sync(self) -> list[RawSkillEntry]:
         """Full sync flow: discover + validate + return."""

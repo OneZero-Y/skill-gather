@@ -1,0 +1,363 @@
+{
+  "category": "ecommerce",
+  "skills": [
+    {
+      "skill_id": "skillhub-cn/ecommerce-product-selector",
+      "spec": {
+        "name": "ecommerce-product-selector",
+        "description": "电商平台爆款产品筛选分析 - 基于数据分析的智能选品工具，支持淘宝、京东、拼多多、抖音、亚马逊等平台",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
+        "source_path": "ecommerce-product-selector",
+        "install_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
+        "last_synced": "2026-08-12T11:42:35.450825Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 63,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 14495
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "product",
+        "selector"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/cross-border-ecommerce-product-analysis",
+      "spec": {
+        "name": "cross-border-ecommerce-product-analysis",
+        "description": "自动爬取跨境电商平台榜单、智能计算利润、排查侵权风险、分析竞品与市场机会，一键生成专业完整的选品决策报告",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
+        "source_path": "cross-border-ecommerce-product-analysis",
+        "install_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
+        "last_synced": "2026-08-12T11:42:35.452675Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 21,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 8019
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "analysis",
+        "border",
+        "cross",
+        "ecommerce",
+        "product"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/apify-ecommerce",
+      "spec": {
+        "name": "apify-ecommerce",
+        "description": "Extract product data, prices, reviews, and seller information from any e-commerce platform using Apify's E-commerce Scraping Tool.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/apify-ecommerce",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/apify-ecommerce",
+        "last_synced": "2026-08-12T11:42:35.471993Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "apify",
+        "ecommerce"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/buywhere-product-catalog",
+      "spec": {
+        "name": "buywhere-product-catalog",
+        "description": "Use BuyWhere's MCP and API surfaces to add product search, price comparison, and deal discovery to AI shopping agents.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/buywhere-product-catalog",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/buywhere-product-catalog",
+        "last_synced": "2026-08-12T11:42:35.479172Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "api",
+        "buywhere",
+        "catalog",
+        "mcp",
+        "product"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/context-management-context-restore",
+      "spec": {
+        "name": "context-management-context-restore",
+        "description": "Use when working with context management context restore",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/context-management-context-restore",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/context-management-context-restore",
+        "last_synced": "2026-08-12T11:42:35.482347Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "context",
+        "management",
+        "restore"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/ecommerce-platform-rules",
+      "spec": {
+        "name": "ecommerce-platform-rules",
+        "description": "覆盖平台：淘宝/天猫、京东、拼多多、抖音电商、快手电商、小红书电商、视频号电商 核心能力： \n1. 规则查询 - 商品发布、交易、广告、直播规则 \n2. 违规识别 - 高/中/低风险分级 \n3. 处罚标准 - 扣分、降权、封店标准 \n4. 申诉指导 - 材料清单、流程说明\n\n触发示例 当你问以下问题时，技能会自动激活：\n • “淘宝虚假交易规则” \n• “抖音直播违禁词有哪些” \n• “刷单会被怎么处罚” \n• “这个行为违规吗” \n• “被误判怎么申诉”",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
+        "source_path": "ecommerce-platform-rules",
+        "install_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
+        "last_synced": "2026-08-12T11:42:35.466646Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 9,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1815
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "platform",
+        "rules"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/ecommerce-data-zh",
+      "spec": {
+        "name": "ecommerce-data-zh",
+        "description": "把淘宝、天猫、抖店、快手小店、视频号小店的经营数据整理成运营看板和诊断结论。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
+        "source_path": "ecommerce-data-zh",
+        "install_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
+        "last_synced": "2026-08-12T11:42:35.467534Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1761
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "data",
+        "ecommerce"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "takechanman1228/claude-ecom",
+      "spec": {
+        "name": "takechanman1228-claude-ecom",
+        "description": "Ecommerce CSV to business review with KPI decomposition",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/takechanman1228/claude-ecom",
+        "source_path": "",
+        "install_url": "https://github.com/takechanman1228/claude-ecom",
+        "last_synced": "2026-08-12T11:42:35.445836Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecom",
+        "takechanman1228/claude"
+      ],
+      "score": 21
+    }
+  ],
+  "total": 8
+}

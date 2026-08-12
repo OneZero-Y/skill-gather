@@ -33,8 +33,10 @@ Thumbs.db
 # Registry output (generated, but tracked in git)
 # registry/ is intentionally tracked
 
-# Node (for Phase 2 web frontend)
+# Node (Phase 2 web frontend)
 node_modules/
+web/dist/
+web/.astro/
 
 # Temp
 .tmp/

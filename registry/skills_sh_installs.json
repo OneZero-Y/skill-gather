@@ -1,0 +1,34 @@
+{
+  "anthropics/skills": {
+    "m6": 6,
+    "a1": 1,
+    "zm5": 4,
+    "a2": 2,
+    "m12": 4,
+    "a5": 5
+  },
+  "vercel-labs/agent-skills": {
+    "m6": 6,
+    "a1": 1,
+    "zm5": 4,
+    "a2": 2,
+    "m12": 4,
+    "a5": 5
+  },
+  "langchain-ai/langchain-skills": {
+    "m6": 6,
+    "a1": 1,
+    "zm5": 4,
+    "a2": 2,
+    "m12": 4,
+    "a5": 5
+  },
+  "openai/skills": {
+    "m6": 6,
+    "a1": 1,
+    "zm5": 4,
+    "a2": 2,
+    "m12": 4,
+    "a5": 5
+  }
+}

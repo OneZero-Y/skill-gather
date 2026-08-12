@@ -9,7 +9,7 @@ from __future__ import annotations
 import base64
 import re
 
-from skill_store.adapters.base import BaseAdapter, SourceConfig, github_client, register_adapter
+from skill_store.adapters.base import BaseAdapter, SourceConfig, github_client, github_get, register_adapter
 from skill_store.models import RawSkillEntry
 
 # Pattern: - [name](url) - description
@@ -65,6 +65,18 @@ class AwesomeListAdapter(BaseAdapter):
         self.branch: str = config.get("branch", "main")
         self.readme_path: str = config.get("readme_path", "README.md")
 
+    def peek_fingerprint(self) -> str | None:
+        with github_client() as client:
+            sha = self._fetch_branch_sha(client)
+            return f"{self.repo}@{self.branch}:{sha}" if sha else None
+
+    def _fetch_branch_sha(self, client) -> str:
+        resp = github_get(client, f"/repos/{self.repo}/git/ref/heads/{self.branch}")
+        if resp.status_code != 200:
+            return ""
+        sha = resp.json().get("object", {}).get("sha", "")
+        return sha[:12] if sha else ""
+
     def discover(self) -> list[RawSkillEntry]:
         """Fetch the README and parse all skill links."""
         with github_client() as client:
@@ -86,7 +98,7 @@ class AwesomeListAdapter(BaseAdapter):
     def _fetch_readme(self, client) -> str | None:
         """Fetch the README file content."""
         url = f"/repos/{self.repo}/contents/{self.readme_path}?ref={self.branch}"
-        resp = client.get(url)
+        resp = github_get(client, url)
         if resp.status_code != 200:
             self.logger.error(
                 "Failed to fetch README from %s: %d", self.repo, resp.status_code

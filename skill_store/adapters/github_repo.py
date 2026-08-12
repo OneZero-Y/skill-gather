@@ -12,7 +12,7 @@ from typing import Any
 
 import yaml
 
-from skill_store.adapters.base import BaseAdapter, SourceConfig, github_client, register_adapter
+from skill_store.adapters.base import BaseAdapter, SourceConfig, github_client, github_get, register_adapter
 from skill_store.models import RawSkillEntry
 
 
@@ -45,6 +45,11 @@ class GitHubRepoAdapter(BaseAdapter):
         self.skill_marker: str = config.get("skill_marker", "SKILL.md")
         self.license_default: str = config.get("license_default", "")
 
+    def peek_fingerprint(self) -> str | None:
+        with github_client() as client:
+            sha = self._fetch_branch_sha(client)
+            return f"{self.repo}@{self.branch}:{sha}" if sha else None
+
     def discover(self) -> list[RawSkillEntry]:
         """Use Git Trees API to find all SKILL.md files, then fetch each."""
         with github_client() as client:
@@ -58,9 +63,10 @@ class GitHubRepoAdapter(BaseAdapter):
             self.logger.info("Found %d skill directories in %s", len(skill_dirs), self.repo)
 
             # Step 3: For each skill, fetch SKILL.md and collect metadata
+            commit_sha = self._fetch_branch_sha(client)
             entries = []
             for skill_name, skill_files in skill_dirs.items():
-                entry = self._process_skill(client, skill_name, skill_files)
+                entry = self._process_skill(client, skill_name, skill_files, commit_sha)
                 if entry:
                     entries.append(entry)
 
@@ -74,49 +80,52 @@ class GitHubRepoAdapter(BaseAdapter):
     def _fetch_tree(self, client) -> list[dict[str, Any]]:
         """Fetch the complete repo tree recursively."""
         url = f"/repos/{self.repo}/git/trees/{self.branch}?recursive=1"
-        resp = client.get(url)
+        resp = github_get(client, url)
         if resp.status_code != 200:
             self.logger.error("Failed to fetch tree for %s: %d", self.repo, resp.status_code)
             return []
         data = resp.json()
         return data.get("tree", [])
 
+    def _fetch_branch_sha(self, client) -> str:
+        """Return the current branch HEAD commit SHA (short)."""
+        resp = github_get(client, f"/repos/{self.repo}/git/ref/heads/{self.branch}")
+        if resp.status_code != 200:
+            return ""
+        sha = resp.json().get("object", {}).get("sha", "")
+        return sha[:12] if sha else ""
+
     def _find_skill_dirs(self, tree: list[dict[str, Any]]) -> dict[str, list[dict[str, Any]]]:
         """Group tree entries by skill directory.
 
-        Returns a dict: skill_name -> list of file entries in that skill dir.
+        Supports nested layouts such as skills/.curated/{name}/SKILL.md as well as
+        the flat skills/{name}/SKILL.md pattern.
+
+        Returns a dict: skill_relative_path -> list of file entries in that skill dir.
         """
-        prefix = f"{self.skill_root}/"
+        prefix = f"{self.skill_root.rstrip('/')}/"
+        marker_suffix = f"/{self.skill_marker}"
         skill_dirs: dict[str, list[dict[str, Any]]] = {}
 
         for item in tree:
             path: str = item.get("path", "")
-            if not path.startswith(prefix):
+            if not path.startswith(prefix) or not path.endswith(marker_suffix):
                 continue
 
-            # Extract skill name (first level under skill_root)
-            relative = path[len(prefix):]
-            parts = relative.split("/")
-            if len(parts) < 1:
+            skill_dir = path[: -len(marker_suffix)]
+            skill_name = skill_dir[len(prefix):]
+            if not skill_name:
                 continue
 
-            skill_name = parts[0]
-            if skill_name not in skill_dirs:
-                skill_dirs[skill_name] = []
-            skill_dirs[skill_name].append(item)
+            skill_dirs[skill_name] = [
+                f for f in tree
+                if f.get("path") == path or f.get("path", "").startswith(f"{skill_dir}/")
+            ]
 
-        # Filter: only keep dirs that actually have the marker file
-        return {
-            name: files
-            for name, files in skill_dirs.items()
-            if any(
-                f["path"] == f"{self.skill_root}/{name}/{self.skill_marker}"
-                for f in files
-            )
-        }
+        return skill_dirs
 
     def _process_skill(
-        self, client, skill_name: str, skill_files: list[dict[str, Any]]
+        self, client, skill_name: str, skill_files: list[dict[str, Any]], commit_sha: str = ""
     ) -> RawSkillEntry | None:
         """Fetch SKILL.md content and build a RawSkillEntry."""
         marker_path = f"{self.skill_root}/{skill_name}/{self.skill_marker}"
@@ -156,6 +165,7 @@ class GitHubRepoAdapter(BaseAdapter):
                 "repo": self.repo,
                 "branch": self.branch,
                 "install_url": install_url,
+                "upstream_commit": commit_sha,
                 "frontmatter": frontmatter,
             },
         )
@@ -163,7 +173,7 @@ class GitHubRepoAdapter(BaseAdapter):
     def _fetch_file_content(self, client, path: str) -> str | None:
         """Fetch a single file's content via Contents API."""
         url = f"/repos/{self.repo}/contents/{path}?ref={self.branch}"
-        resp = client.get(url)
+        resp = github_get(client, url)
         if resp.status_code != 200:
             return None
         data = resp.json()
@@ -179,7 +189,7 @@ class GitHubRepoAdapter(BaseAdapter):
     def _fetch_repo_stars(self, client) -> int:
         """Get the star count for the repo."""
         url = f"/repos/{self.repo}"
-        resp = client.get(url)
+        resp = github_get(client, url)
         if resp.status_code != 200:
             return 0
         return resp.json().get("stargazers_count", 0)
@@ -201,6 +211,17 @@ class GitHubRepoListAdapter(BaseAdapter):
     def __init__(self, config: SourceConfig) -> None:
         super().__init__(config)
         self.repos: list[str] = config.get("repos", [])
+
+    def peek_fingerprint(self) -> str | None:
+        parts: list[str] = []
+        with github_client() as client:
+            for repo in sorted(self.repos):
+                resp = github_get(client, f"/repos/{repo}")
+                if resp.status_code != 200:
+                    return None
+                pushed = resp.json().get("pushed_at") or ""
+                parts.append(f"{repo}:{pushed}")
+        return "|".join(parts) if parts else None
 
     def discover(self) -> list[RawSkillEntry]:
         entries = []
@@ -235,6 +256,7 @@ class GitHubRepoListAdapter(BaseAdapter):
         description = repo_info.get("description", "") or ""
         stars = repo_info.get("stargazers_count", 0)
         last_push = repo_info.get("pushed_at", "")
+        default_branch = repo_info.get("default_branch", "main")
 
         # If we found a SKILL.md, parse its frontmatter
         frontmatter: dict[str, Any] = {}
@@ -249,7 +271,7 @@ class GitHubRepoListAdapter(BaseAdapter):
             source_id=self.config.id,
             source_url=f"https://github.com/{repo}",
             source_path=skill_path,
-            license=frontmatter.get("license") or repo_info.get("license", {}).get("spdx_id"),
+            license=frontmatter.get("license") or (repo_info.get("license") or {}).get("spdx_id"),
             compatibility=frontmatter.get("compatibility"),
             metadata=frontmatter.get("metadata") or {},
             repo_stars=stars,
@@ -260,6 +282,11 @@ class GitHubRepoListAdapter(BaseAdapter):
             extra={
                 "repo": repo,
                 "has_skill_md": skill_content is not None,
+                "install_url": (
+                    f"https://github.com/{repo}/tree/{default_branch}/{skill_path}".rstrip("/")
+                    if skill_path
+                    else f"https://github.com/{repo}/tree/{default_branch}"
+                ),
                 "frontmatter": frontmatter,
             },
         )
@@ -267,7 +294,7 @@ class GitHubRepoListAdapter(BaseAdapter):
     def _fetch_file(self, client, repo: str, path: str) -> str | None:
         """Attempt to fetch a file from a repo."""
         url = f"/repos/{repo}/contents/{path}"
-        resp = client.get(url)
+        resp = github_get(client, url)
         if resp.status_code != 200:
             return None
         data = resp.json()
@@ -281,7 +308,7 @@ class GitHubRepoListAdapter(BaseAdapter):
 
     def _fetch_repo_info(self, client, repo: str) -> dict[str, Any] | None:
         """Fetch basic repo info (stars, description, license)."""
-        resp = client.get(f"/repos/{repo}")
+        resp = github_get(client, f"/repos/{repo}")
         if resp.status_code != 200:
             return None
         return resp.json()
