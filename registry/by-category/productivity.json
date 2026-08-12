@@ -17,11 +17,11 @@
         "source_url": "https://github.com/openai/skills",
         "source_path": "skills/.curated/figma-create-design-system-rules",
         "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules",
-        "last_synced": "2026-08-12T11:42:35.394644Z",
-        "upstream_commit": ""
+        "last_synced": "2026-08-12T22:31:55.648523Z",
+        "upstream_commit": "49f948faa925"
       },
       "signals": {
-        "repo_stars": 24856,
+        "repo_stars": 24867,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -45,52 +45,7 @@
         "rules",
         "system"
       ],
-      "score": 58
-    },
-    {
-      "skill_id": "skillhub-cn/ima-skills",
-      "spec": {
-        "name": "ima-skills",
-        "description": "ima skills，支持对笔记、知识库的读取、写入和检索等操作，可以帮你随时记录，收入ima智能管理，随时调用，龙虾输出精准懂你，友好的接入了OpenClaw生态，构建你的第二大脑。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "enterprise"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/tencent-adm/ima-skills",
-        "source_path": "ima-skills",
-        "install_url": "https://api.skillhub.cn/tencent-adm/ima-skills",
-        "last_synced": "2026-08-12T11:42:35.446838Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 462,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 215888
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "ima",
-        "skills"
-      ],
-      "score": 49
+      "score": 80
     },
     {
       "skill_id": "openai/skills/notion-spec-to-implementation",
@@ -110,11 +65,11 @@
         "source_url": "https://github.com/openai/skills",
         "source_path": "skills/.curated/notion-spec-to-implementation",
         "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
-        "last_synced": "2026-08-12T11:42:35.396419Z",
-        "upstream_commit": ""
+        "last_synced": "2026-08-12T22:31:55.649882Z",
+        "upstream_commit": "49f948faa925"
       },
       "signals": {
-        "repo_stars": 24856,
+        "repo_stars": 24867,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -135,7 +90,50 @@
         "notion",
         "spec"
       ],
-      "score": 48
+      "score": 69
+    },
+    {
+      "skill_id": "openai/skills/linear",
+      "spec": {
+        "name": "linear",
+        "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Manage Linear issues in Codex"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/linear",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/linear",
+        "last_synced": "2026-08-12T22:31:55.649538Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24867,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "linear"
+      ],
+      "score": 61
     },
     {
       "skill_id": "langchain-ai/langchain-skills/deep-agents-orchestration",
@@ -153,11 +151,11 @@
         "source_url": "https://github.com/langchain-ai/langchain-skills",
         "source_path": "config/skills/deep-agents-orchestration",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-orchestration",
-        "last_synced": "2026-08-12T11:42:35.399435Z",
-        "upstream_commit": ""
+        "last_synced": "2026-08-12T22:31:55.653267Z",
+        "upstream_commit": "92e4f3b494c0"
       },
       "signals": {
-        "repo_stars": 1130,
+        "repo_stars": 1132,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -178,13 +176,13 @@
         "deep",
         "orchestration"
       ],
-      "score": 44
+      "score": 61
     },
     {
-      "skill_id": "skillhub-cn/tencent-news",
+      "skill_id": "skillhub-cn/ima-skills",
       "spec": {
-        "name": "tencent-news",
-        "description": "7×24 新闻资讯搜索工具，聚焦中国国内信息和国际热点。支持新闻搜索，包括热点新闻、早报晚报、实时资讯、领域新闻和天气信息查询。当用户需要搜索新闻、新闻热榜、新闻早晚报、订阅新闻推送、获取相关新闻资讯和查询天气信息时使用。",
+        "name": "ima-skills",
+        "description": "ima skills，支持对笔记、知识库的读取、写入和检索等操作，可以帮你随时记录，收入ima智能管理，随时调用，龙虾输出精准懂你，友好的接入了OpenClaw生态，构建你的第二大脑。",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -196,20 +194,20 @@
       "discovery": {
         "source_id": "skillhub-cn",
         "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/tencent-adm/tencent-news",
-        "source_path": "tencent-news",
-        "install_url": "https://api.skillhub.cn/tencent-adm/tencent-news",
-        "last_synced": "2026-08-12T11:42:35.451769Z",
+        "source_url": "https://api.skillhub.cn/tencent-adm/ima-skills",
+        "source_path": "ima-skills",
+        "install_url": "https://api.skillhub.cn/tencent-adm/ima-skills",
+        "last_synced": "2026-08-12T22:31:55.688007Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 37,
+        "repo_stars": 463,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 10557
+        "install_count": 216805
       },
       "platform": {
         "claude_code": true,
@@ -220,227 +218,10 @@
       },
       "category": "productivity",
       "tags": [
-        "news",
-        "tencent"
+        "ima",
+        "skills"
       ],
-      "score": 41
-    },
-    {
-      "skill_id": "openai/skills/linear",
-      "spec": {
-        "name": "linear",
-        "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "short-description": "Manage Linear issues in Codex"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "openai-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/openai/skills",
-        "source_path": "skills/.curated/linear",
-        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/linear",
-        "last_synced": "2026-08-12T11:42:35.395974Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 24856,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 7,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": false,
-        "claude_ai": false,
-        "kiro": false,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "linear"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "ComposioHQ/awesome-claude-skills/file-organizer",
-      "spec": {
-        "name": "file-organizer",
-        "description": "通过理解上下文、查找重复项、建议更好的结构和自动化清理任务，智能地组织您计算机上的文件和文件夹。减少认知负荷，并在无需手动操作的情况下保持您的数字工作区整洁。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ComposioHQ/awesome-claude-skills",
-        "source_path": "skills/file-organizer",
-        "install_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/main/skills/file-organizer",
-        "last_synced": "2026-08-12T11:42:35.468121Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 57713,
-        "last_commit_date": "2026-05-02",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "file",
-        "organizer"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "skillhub-cn/jimeng-cli-text2image",
-      "spec": {
-        "name": "jimeng-cli-text2image",
-        "description": "Provides comprehensive guidance for executing text-to-image generation via the dreamina CLI for 即梦 (Dreamina/Jimeng). The dreamina CLI is ByteDance's command-line tool for submitting image generation tasks to 即梦 models (3.0 through 5.0), supporting credit management, synchronous and asynchronous task submission, result polling, and session-based project organization. Use when the user wants to run an approved prompt through the CLI to generate an image; mentions \"dreamina\", \"即梦CLI\", \"命令行生图\", \"生成图片\"; asks to run, submit, or execute a prompt; or needs credit checking, task status querying, session management, or result downloading. This skill covers installation verification, authentication, parameter mapping from prompt specifications, 4 standard execution workflows, and 6 error handling patterns from official documentation. Always use this skill when the user wants to generate images via the dreamina command line.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-text2image",
-        "source_path": "jimeng-cli-text2image",
-        "install_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-text2image",
-        "last_synced": "2026-08-12T11:42:35.452539Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 8,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 8313
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "cli",
-        "jimeng",
-        "text2image"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "skillhub-cn/bookbone",
-      "spec": {
-        "name": "bookbone",
-        "description": "书骨：将一本书的内容蒸馏为可运行的思维框架Skill。\n  输入书名，自动完成阅读→框架提取→方法清单→构建验证全流程。\n  触发词：「蒸馏《XX》」「用《XX》的框架分析」「把这本书做成skill」「书骨」。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_a005da05/bookbone",
-        "source_path": "bookbone",
-        "install_url": "https://api.skillhub.cn/user_a005da05/bookbone",
-        "last_synced": "2026-08-12T11:42:35.459836Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 20,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 2784
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "bookbone"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "ComposioHQ/awesome-claude-skills/invoice-organizer",
-      "spec": {
-        "name": "invoice-organizer",
-        "description": "自动整理发票和收据，以便进行税务申报，具体方法是读取混乱的文件，提取关键信息，以一致的方式重命名文件，并将它们排序到逻辑文件夹中。将数小时的手动簿记工作变成几分钟的自动整理。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ComposioHQ/awesome-claude-skills",
-        "source_path": "skills/invoice-organizer",
-        "install_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/main/skills/invoice-organizer",
-        "last_synced": "2026-08-12T11:42:35.468708Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 57713,
-        "last_commit_date": "2026-05-02",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "invoice",
-        "organizer"
-      ],
-      "score": 38
+      "score": 50
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/activecampaign-automation",
@@ -458,7 +239,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/activecampaign-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/activecampaign-automation",
-        "last_synced": "2026-08-12T11:42:35.469621Z",
+        "last_synced": "2026-08-12T22:31:55.723674Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -483,7 +264,7 @@
         "automation",
         "mcp"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/agent-orchestrator",
@@ -501,7 +282,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/agent-orchestrator",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/agent-orchestrator",
-        "last_synced": "2026-08-12T11:42:35.470070Z",
+        "last_synced": "2026-08-12T22:31:55.724565Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -525,7 +306,7 @@
         "agent",
         "orchestrator"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/agentflow",
@@ -543,7 +324,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/agentflow",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/agentflow",
-        "last_synced": "2026-08-12T11:42:35.470130Z",
+        "last_synced": "2026-08-12T22:31:55.724683Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -568,7 +349,7 @@
         "github",
         "linear"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/airtable-automation",
@@ -586,7 +367,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/airtable-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/airtable-automation",
-        "last_synced": "2026-08-12T11:42:35.470756Z",
+        "last_synced": "2026-08-12T22:31:55.726662Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -611,7 +392,7 @@
         "automation",
         "mcp"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/amplitude-automation",
@@ -629,7 +410,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/amplitude-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/amplitude-automation",
-        "last_synced": "2026-08-12T11:42:35.470941Z",
+        "last_synced": "2026-08-12T22:31:55.726973Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -654,7 +435,7 @@
         "automation",
         "mcp"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/analyze-project",
@@ -672,7 +453,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/analyze-project",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/analyze-project",
-        "last_synced": "2026-08-12T11:42:35.471047Z",
+        "last_synced": "2026-08-12T22:31:55.727191Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -696,7 +477,7 @@
         "analyze",
         "project"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/asana-automation",
@@ -714,7 +495,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/asana-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/asana-automation",
-        "last_synced": "2026-08-12T11:42:35.472476Z",
+        "last_synced": "2026-08-12T22:31:55.730055Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -739,49 +520,7 @@
         "automation",
         "mcp"
       ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/azure-appconfiguration-ts",
-      "spec": {
-        "name": "azure-appconfiguration-ts",
-        "description": "Centralized configuration management with feature flags and dynamic refresh.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/azure-appconfiguration-ts",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-appconfiguration-ts",
-        "last_synced": "2026-08-12T11:42:35.474262Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "appconfiguration",
-        "azure"
-      ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/bamboohr-automation",
@@ -799,7 +538,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/bamboohr-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/bamboohr-automation",
-        "last_synced": "2026-08-12T11:42:35.477496Z",
+        "last_synced": "2026-08-12T22:31:55.739199Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -824,7 +563,7 @@
         "bamboohr",
         "mcp"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/basecamp-automation",
@@ -842,7 +581,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/basecamp-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/basecamp-automation",
-        "last_synced": "2026-08-12T11:42:35.477558Z",
+        "last_synced": "2026-08-12T22:31:55.739309Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -867,7 +606,7 @@
         "basecamp",
         "mcp"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/billing-automation",
@@ -885,7 +624,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/billing-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/billing-automation",
-        "last_synced": "2026-08-12T11:42:35.478144Z",
+        "last_synced": "2026-08-12T22:31:55.740254Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -909,7 +648,7 @@
         "automation",
         "billing"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/bitbucket-automation",
@@ -927,7 +666,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/bitbucket-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/bitbucket-automation",
-        "last_synced": "2026-08-12T11:42:35.478251Z",
+        "last_synced": "2026-08-12T22:31:55.740443Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -952,7 +691,7 @@
         "bitbucket",
         "mcp"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/box-automation",
@@ -970,7 +709,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/box-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/box-automation",
-        "last_synced": "2026-08-12T11:42:35.478427Z",
+        "last_synced": "2026-08-12T22:31:55.740761Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -994,7 +733,7 @@
         "automation",
         "box"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/cal-com-automation",
@@ -1012,7 +751,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/cal-com-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/cal-com-automation",
-        "last_synced": "2026-08-12T11:42:35.479372Z",
+        "last_synced": "2026-08-12T22:31:55.742516Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1038,7 +777,7 @@
         "com",
         "mcp"
       ],
-      "score": 38
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/calendly-automation",
@@ -1056,7 +795,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/calendly-automation",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/calendly-automation",
-        "last_synced": "2026-08-12T11:42:35.479425Z",
+        "last_synced": "2026-08-12T22:31:55.742623Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1081,7 +820,966 @@
         "calendly",
         "mcp"
       ],
-      "score": 38
+      "score": 44
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/changelog-automation",
+      "spec": {
+        "name": "changelog-automation",
+        "description": "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/changelog-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/changelog-automation",
+        "last_synced": "2026-08-12T22:31:55.743335Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "changelog"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/circleci-automation",
+      "spec": {
+        "name": "circleci-automation",
+        "description": "Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/circleci-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/circleci-automation",
+        "last_synced": "2026-08-12T22:31:55.743672Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "circleci",
+        "mcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/clickup-automation",
+      "spec": {
+        "name": "clickup-automation",
+        "description": "Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/clickup-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/clickup-automation",
+        "last_synced": "2026-08-12T22:31:55.744930Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "clickup",
+        "mcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/close-automation",
+      "spec": {
+        "name": "close-automation",
+        "description": "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/close-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/close-automation",
+        "last_synced": "2026-08-12T22:31:55.744999Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "close",
+        "mcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/coda-automation",
+      "spec": {
+        "name": "coda-automation",
+        "description": "Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/coda-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/coda-automation",
+        "last_synced": "2026-08-12T22:31:55.745534Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "coda",
+        "mcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/confluence-automation",
+      "spec": {
+        "name": "confluence-automation",
+        "description": "Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/confluence-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/confluence-automation",
+        "last_synced": "2026-08-12T22:31:55.747790Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "confluence",
+        "mcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/convertkit-automation",
+      "spec": {
+        "name": "convertkit-automation",
+        "description": "Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/convertkit-automation",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/convertkit-automation",
+        "last_synced": "2026-08-12T22:31:55.748886Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "automation",
+        "convertkit",
+        "mcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/jimeng-cli-text2image",
+      "spec": {
+        "name": "jimeng-cli-text2image",
+        "description": "Provides comprehensive guidance for executing text-to-image generation via the dreamina CLI for 即梦 (Dreamina/Jimeng). The dreamina CLI is ByteDance's command-line tool for submitting image generation tasks to 即梦 models (3.0 through 5.0), supporting credit management, synchronous and asynchronous task submission, result polling, and session-based project organization. Use when the user wants to run an approved prompt through the CLI to generate an image; mentions \"dreamina\", \"即梦CLI\", \"命令行生图\", \"生成图片\"; asks to run, submit, or execute a prompt; or needs credit checking, task status querying, session management, or result downloading. This skill covers installation verification, authentication, parameter mapping from prompt specifications, 4 standard execution workflows, and 6 error handling patterns from official documentation. Always use this skill when the user wants to generate images via the dreamina command line.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-text2image",
+        "source_path": "jimeng-cli-text2image",
+        "install_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-text2image",
+        "last_synced": "2026-08-12T22:31:55.694809Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 8,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 8389
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "cli",
+        "jimeng",
+        "text2image"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "skillhub-cn/tencent-news",
+      "spec": {
+        "name": "tencent-news",
+        "description": "7×24 新闻资讯搜索工具，聚焦中国国内信息和国际热点。支持新闻搜索，包括热点新闻、早报晚报、实时资讯、领域新闻和天气信息查询。当用户需要搜索新闻、新闻热榜、新闻早晚报、订阅新闻推送、获取相关新闻资讯和查询天气信息时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/tencent-adm/tencent-news",
+        "source_path": "tencent-news",
+        "install_url": "https://api.skillhub.cn/tencent-adm/tencent-news",
+        "last_synced": "2026-08-12T22:31:55.693743Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 37,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 10576
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "news",
+        "tencent"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/hot-news-summary",
+      "spec": {
+        "name": "hot-news-summary",
+        "description": "聚合8大平台热榜数据（微博/知乎/B站/抖音/百度/36氪/少数派/贴吧），通过结构化评分模型智能筛选10条热点，生成三层洞察点评（What/So What/Now What），支持四种点评风格（严肃分析/毒舌吐槽/投资视角/吃瓜八卦），输出群聊/知识库/可视化看板/语音播报四种格式；当用户需要了解今日热点、生成每日资讯摘要或追踪热门话题时使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fd308b11/hot-news-summary",
+        "source_path": "hot-news-summary",
+        "install_url": "https://api.skillhub.cn/user_fd308b11/hot-news-summary",
+        "last_synced": "2026-08-12T22:31:55.710946Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2448
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "hot",
+        "news",
+        "summary"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/destiny",
+      "spec": {
+        "name": "destiny",
+        "description": "中国传统术数大师 v1.1。精通命（八字/紫微/七政四余）+卜（六爻/奇门/梅花），辅以山医相五术，引用《滴天髓》《渊海子平》《增删卜易》《葬经》等经典，融合古籍流派理论与现代应用。新增「行动指引」输出。触发：八字命理、流年运势、占卜起卦、六爻、奇门遁甲、梅花易数、风水堪舆、择日问事吉凶。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ad872d55/destiny",
+        "source_path": "destiny",
+        "install_url": "https://api.skillhub.cn/user_ad872d55/destiny",
+        "last_synced": "2026-08-12T22:31:55.716743Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 16,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1838
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "destiny"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/lunwenxiugaiquanweiduyibiaopan",
+      "spec": {
+        "name": "lunwenxiugaiquanweiduyibiaopan",
+        "description": "学术论文润色修改全流程SOP。从审稿意见解析、论文全息诊断、可视化批注生成、分级改写执行到终审自检的完整闭环。当用户需要根据期刊审稿意见修改论文、需要论文润色、需要去AI味、需要学术写作规范检查时触发。典型触发：\"修改这篇论文\"\"根据审稿意见润色\"\"去AI味\"\"按期刊要求压缩字数\"\"帮我看看这篇论文能不能通过\"。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
+        "source_path": "lunwenxiugaiquanweiduyibiaopan",
+        "install_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
+        "last_synced": "2026-08-12T22:31:55.708831Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2944
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "lunwenxiugaiquanweiduyibiaopan"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "ComposioHQ/awesome-claude-skills/file-organizer",
+      "spec": {
+        "name": "file-organizer",
+        "description": "通过理解上下文、查找重复项、建议更好的结构和自动化清理任务，智能地组织您计算机上的文件和文件夹。减少认知负荷，并在无需手动操作的情况下保持您的数字工作区整洁。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "source_path": "skills/file-organizer",
+        "install_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/main/skills/file-organizer",
+        "last_synced": "2026-08-12T22:31:55.721351Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 57713,
+        "last_commit_date": "2026-05-02",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "file",
+        "organizer"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/bookbone",
+      "spec": {
+        "name": "bookbone",
+        "description": "书骨：将一本书的内容蒸馏为可运行的思维框架Skill。\n  输入书名，自动完成阅读→框架提取→方法清单→构建验证全流程。\n  触发词：「蒸馏《XX》」「用《XX》的框架分析」「把这本书做成skill」「书骨」。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a005da05/bookbone",
+        "source_path": "bookbone",
+        "install_url": "https://api.skillhub.cn/user_a005da05/bookbone",
+        "last_synced": "2026-08-12T22:31:55.707775Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 21,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2805
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "bookbone"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ComposioHQ/awesome-claude-skills/invoice-organizer",
+      "spec": {
+        "name": "invoice-organizer",
+        "description": "自动整理发票和收据，以便进行税务申报，具体方法是读取混乱的文件，提取关键信息，以一致的方式重命名文件，并将它们排序到逻辑文件夹中。将数小时的手动簿记工作变成几分钟的自动整理。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "source_path": "skills/invoice-organizer",
+        "install_url": "https://github.com/ComposioHQ/awesome-claude-skills/tree/main/skills/invoice-organizer",
+        "last_synced": "2026-08-12T22:31:55.721813Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 57713,
+        "last_commit_date": "2026-05-02",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "invoice",
+        "organizer"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/azure-appconfiguration-ts",
+      "spec": {
+        "name": "azure-appconfiguration-ts",
+        "description": "Centralized configuration management with feature flags and dynamic refresh.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/azure-appconfiguration-ts",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/azure-appconfiguration-ts",
+        "last_synced": "2026-08-12T22:31:55.733632Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "appconfiguration",
+        "azure"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/conductor-implement",
+      "spec": {
+        "name": "conductor-implement",
+        "description": "Execute tasks from a track's implementation plan following TDD workflow",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/conductor-implement",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/conductor-implement",
+        "last_synced": "2026-08-12T22:31:55.747439Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "conductor",
+        "implement"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/context-management-context-save",
+      "spec": {
+        "name": "context-management-context-save",
+        "description": "Use when working with context management context save",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/context-management-context-save",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/context-management-context-save",
+        "last_synced": "2026-08-12T22:31:55.748544Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "context",
+        "management",
+        "save"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "sickn33/antigravity-awesome-skills/context-window-management",
+      "spec": {
+        "name": "context-window-management",
+        "description": "管理 LLM 上下文窗口的策略，包括总结、修剪、路由和避免上下文腐烂。\n\n使用场景：上下文窗口、token 限制、上下文管理、上下文工程、长上下文。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
+        "source_path": "skills/context-window-management",
+        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/context-window-management",
+        "last_synced": "2026-08-12T22:31:55.748722Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 36183,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "context",
+        "llm",
+        "management",
+        "window"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/deep-research",
+      "spec": {
+        "name": "deep-research",
+        "description": "每次用户提问时，自动从本地知识库和互联网多平台搜索相关内容，整合分析后推送完整、专业、有深度的回答。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8e810118/deep-research",
+        "source_path": "deep-research",
+        "install_url": "https://api.skillhub.cn/user_8e810118/deep-research",
+        "last_synced": "2026-08-12T22:31:55.704123Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 10,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3674
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "deep",
+        "research"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/shifenxiyin-perspective",
+      "spec": {
+        "name": "shifenxiyin-perspective",
+        "description": "基于《十分吸引》播客逐字稿提炼，用石磊的复杂系统 × 反脆弱 × 钱货框架，帮你分析投资、宏观和人生选择",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_490244d4/shifenxiyin-perspective",
+        "source_path": "shifenxiyin-perspective",
+        "install_url": "https://api.skillhub.cn/user_490244d4/shifenxiyin-perspective",
+        "last_synced": "2026-08-12T22:31:55.716573Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 18,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1819
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "perspective",
+        "shifenxiyin"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/literature-mining",
+      "spec": {
+        "name": "literature-mining",
+        "description": "文献读了就忘？帮你用结构化笔记+文献矩阵+Gap识别读透文献，而非只\"搜到\"一堆。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
+        "source_path": "literature-mining",
+        "install_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
+        "last_synced": "2026-08-12T22:31:55.717770Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1918
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "literature",
+        "mining"
+      ],
+      "score": 37
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/cc-skill-project-guidelines-example",
@@ -1099,7 +1797,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/cc-skill-project-guidelines-example",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/cc-skill-project-guidelines-example",
-        "last_synced": "2026-08-12T11:42:35.479653Z",
+        "last_synced": "2026-08-12T22:31:55.743117Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1125,92 +1823,7 @@
         "project",
         "skill"
       ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/changelog-automation",
-      "spec": {
-        "name": "changelog-automation",
-        "description": "Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up release workflows, generating release notes, or standardizing commit conventions.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/changelog-automation",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/changelog-automation",
-        "last_synced": "2026-08-12T11:42:35.479758Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "automation",
-        "changelog"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/circleci-automation",
-      "spec": {
-        "name": "circleci-automation",
-        "description": "Automate CircleCI tasks via Rube MCP (Composio): trigger pipelines, monitor workflows/jobs, retrieve artifacts and test metadata. Always search tools first for current schemas.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/circleci-automation",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/circleci-automation",
-        "last_synced": "2026-08-12T11:42:35.479944Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "automation",
-        "circleci",
-        "mcp"
-      ],
-      "score": 38
+      "score": 37
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/claude-win11-speckit-update-skill",
@@ -1228,7 +1841,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/claude-win11-speckit-update-skill",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/claude-win11-speckit-update-skill",
-        "last_synced": "2026-08-12T11:42:35.480488Z",
+        "last_synced": "2026-08-12T22:31:55.744763Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1255,620 +1868,7 @@
         "update",
         "win11"
       ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/clickup-automation",
-      "spec": {
-        "name": "clickup-automation",
-        "description": "Automate ClickUp project management including tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio). Always search tools first for current schemas.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/clickup-automation",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/clickup-automation",
-        "last_synced": "2026-08-12T11:42:35.480578Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "automation",
-        "clickup",
-        "mcp"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/close-automation",
-      "spec": {
-        "name": "close-automation",
-        "description": "Automate Close CRM tasks via Rube MCP (Composio): create leads, manage calls/SMS, handle tasks, and track notes. Always search tools first for current schemas.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/close-automation",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/close-automation",
-        "last_synced": "2026-08-12T11:42:35.480609Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "automation",
-        "close",
-        "mcp"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/coda-automation",
-      "spec": {
-        "name": "coda-automation",
-        "description": "Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing. Always search tools first for current schemas.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/coda-automation",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/coda-automation",
-        "last_synced": "2026-08-12T11:42:35.480871Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "automation",
-        "coda",
-        "mcp"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/conductor-implement",
-      "spec": {
-        "name": "conductor-implement",
-        "description": "Execute tasks from a track's implementation plan following TDD workflow",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/conductor-implement",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/conductor-implement",
-        "last_synced": "2026-08-12T11:42:35.481828Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "conductor",
-        "implement"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/confluence-automation",
-      "spec": {
-        "name": "confluence-automation",
-        "description": "Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio). Always search tools first for current schemas.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/confluence-automation",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/confluence-automation",
-        "last_synced": "2026-08-12T11:42:35.481986Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "automation",
-        "confluence",
-        "mcp"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/context-management-context-save",
-      "spec": {
-        "name": "context-management-context-save",
-        "description": "Use when working with context management context save",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/context-management-context-save",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/context-management-context-save",
-        "last_synced": "2026-08-12T11:42:35.482369Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "context",
-        "management",
-        "save"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/context-window-management",
-      "spec": {
-        "name": "context-window-management",
-        "description": "管理 LLM 上下文窗口的策略，包括总结、修剪、路由和避免上下文腐烂。\n\n使用场景：上下文窗口、token 限制、上下文管理、上下文工程、长上下文。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/context-window-management",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/context-window-management",
-        "last_synced": "2026-08-12T11:42:35.482463Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "context",
-        "llm",
-        "management",
-        "window"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "sickn33/antigravity-awesome-skills/convertkit-automation",
-      "spec": {
-        "name": "convertkit-automation",
-        "description": "Automate ConvertKit (Kit) tasks via Rube MCP (Composio): manage subscribers, tags, broadcasts, and broadcast stats. Always search tools first for current schemas.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
-        "source_path": "skills/convertkit-automation",
-        "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/convertkit-automation",
-        "last_synced": "2026-08-12T11:42:35.482547Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 36183,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "automation",
-        "convertkit",
-        "mcp"
-      ],
-      "score": 38
-    },
-    {
-      "skill_id": "skillhub-cn/deep-research",
-      "spec": {
-        "name": "deep-research",
-        "description": "每次用户提问时，自动从本地知识库和互联网多平台搜索相关内容，整合分析后推送完整、专业、有深度的回答。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_8e810118/deep-research",
-        "source_path": "deep-research",
-        "install_url": "https://api.skillhub.cn/user_8e810118/deep-research",
-        "last_synced": "2026-08-12T11:42:35.457778Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 10,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 3654
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "deep",
-        "research"
-      ],
       "score": 37
-    },
-    {
-      "skill_id": "skillhub-cn/hot-news-summary",
-      "spec": {
-        "name": "hot-news-summary",
-        "description": "聚合8大平台热榜数据（微博/知乎/B站/抖音/百度/36氪/少数派/贴吧），通过结构化评分模型智能筛选10条热点，生成三层洞察点评（What/So What/Now What），支持四种点评风格（严肃分析/毒舌吐槽/投资视角/吃瓜八卦），输出群聊/知识库/可视化看板/语音播报四种格式；当用户需要了解今日热点、生成每日资讯摘要或追踪热门话题时使用",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_fd308b11/hot-news-summary",
-        "source_path": "hot-news-summary",
-        "install_url": "https://api.skillhub.cn/user_fd308b11/hot-news-summary",
-        "last_synced": "2026-08-12T11:42:35.461711Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 11,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 2439
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "hot",
-        "news",
-        "summary"
-      ],
-      "score": 37
-    },
-    {
-      "skill_id": "skillhub-cn/shifenxiyin-perspective",
-      "spec": {
-        "name": "shifenxiyin-perspective",
-        "description": "基于《十分吸引》播客逐字稿提炼，用石磊的复杂系统 × 反脆弱 × 钱货框架，帮你分析投资、宏观和人生选择",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_490244d4/shifenxiyin-perspective",
-        "source_path": "shifenxiyin-perspective",
-        "install_url": "https://api.skillhub.cn/user_490244d4/shifenxiyin-perspective",
-        "last_synced": "2026-08-12T11:42:35.465418Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 18,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1809
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "perspective",
-        "shifenxiyin"
-      ],
-      "score": 37
-    },
-    {
-      "skill_id": "skillhub-cn/destiny",
-      "spec": {
-        "name": "destiny",
-        "description": "中国传统术数大师 v1.1。精通命（八字/紫微/七政四余）+卜（六爻/奇门/梅花），辅以山医相五术，引用《滴天髓》《渊海子平》《增删卜易》《葬经》等经典，融合古籍流派理论与现代应用。新增「行动指引」输出。触发：八字命理、流年运势、占卜起卦、六爻、奇门遁甲、梅花易数、风水堪舆、择日问事吉凶。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_ad872d55/destiny",
-        "source_path": "destiny",
-        "install_url": "https://api.skillhub.cn/user_ad872d55/destiny",
-        "last_synced": "2026-08-12T11:42:35.465608Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 16,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1826
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "destiny"
-      ],
-      "score": 37
-    },
-    {
-      "skill_id": "skillhub-cn/literature-mining",
-      "spec": {
-        "name": "literature-mining",
-        "description": "文献读了就忘？帮你用结构化笔记+文献矩阵+Gap识别读透文献，而非只\"搜到\"一堆。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
-        "source_path": "literature-mining",
-        "install_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
-        "last_synced": "2026-08-12T11:42:35.466236Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 7,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1902
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "literature",
-        "mining"
-      ],
-      "score": 36
-    },
-    {
-      "skill_id": "skillhub-cn/lunwenxiugaiquanweiduyibiaopan",
-      "spec": {
-        "name": "lunwenxiugaiquanweiduyibiaopan",
-        "description": "学术论文润色修改全流程SOP。从审稿意见解析、论文全息诊断、可视化批注生成、分级改写执行到终审自检的完整闭环。当用户需要根据期刊审稿意见修改论文、需要论文润色、需要去AI味、需要学术写作规范检查时触发。典型触发：\"修改这篇论文\"\"根据审稿意见润色\"\"去AI味\"\"按期刊要求压缩字数\"\"帮我看看这篇论文能不能通过\"。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
-        "source_path": "lunwenxiugaiquanweiduyibiaopan",
-        "install_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
-        "last_synced": "2026-08-12T11:42:35.460431Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 4,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 2909
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "lunwenxiugaiquanweiduyibiaopan"
-      ],
-      "score": 35
     },
     {
       "skill_id": "skillhub-cn/legalkb",
@@ -1889,7 +1889,7 @@
         "source_url": "https://api.skillhub.cn/user_b096d7e1/legalkb",
         "source_path": "legalkb",
         "install_url": "https://api.skillhub.cn/user_b096d7e1/legalkb",
-        "last_synced": "2026-08-12T11:42:35.460816Z",
+        "last_synced": "2026-08-12T22:31:55.709511Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1899,7 +1899,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2854
+        "install_count": 2862
       },
       "platform": {
         "claude_code": true,
@@ -1912,53 +1912,7 @@
       "tags": [
         "legalkb"
       ],
-      "score": 35
-    },
-    {
-      "skill_id": "skillhub-cn/workbuddy-newbie-guide",
-      "spec": {
-        "name": "workbuddy-newbie-guide",
-        "description": "workbuddy-newbie-guide",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_57af6244/workbuddy-newbie-guide",
-        "source_path": "workbuddy-newbie-guide",
-        "install_url": "https://api.skillhub.cn/user_57af6244/workbuddy-newbie-guide",
-        "last_synced": "2026-08-12T11:42:35.463513Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 3,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 2361
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "guide",
-        "newbie",
-        "workbuddy"
-      ],
-      "score": 35
+      "score": 36
     },
     {
       "skill_id": "skillhub-cn/paper-review-methodology",
@@ -1979,7 +1933,7 @@
         "source_url": "https://api.skillhub.cn/user_8d26dabd/paper-review-methodology",
         "source_path": "paper-review-methodology",
         "install_url": "https://api.skillhub.cn/user_8d26dabd/paper-review-methodology",
-        "last_synced": "2026-08-12T11:42:35.463698Z",
+        "last_synced": "2026-08-12T22:31:55.713933Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1989,7 +1943,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2321
+        "install_count": 2339
       },
       "platform": {
         "claude_code": true,
@@ -2004,7 +1958,53 @@
         "paper",
         "review"
       ],
-      "score": 32
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/workbuddy-newbie-guide",
+      "spec": {
+        "name": "workbuddy-newbie-guide",
+        "description": "workbuddy-newbie-guide",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_57af6244/workbuddy-newbie-guide",
+        "source_path": "workbuddy-newbie-guide",
+        "install_url": "https://api.skillhub.cn/user_57af6244/workbuddy-newbie-guide",
+        "last_synced": "2026-08-12T22:31:55.713649Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2373
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "guide",
+        "newbie",
+        "workbuddy"
+      ],
+      "score": 33
     },
     {
       "skill_id": "deanpeters/Product-Manager-Skills",
@@ -2022,7 +2022,7 @@
         "source_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping",
         "source_path": "",
         "install_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main/skills/user-story-mapping",
-        "last_synced": "2026-08-12T11:42:35.410933Z",
+        "last_synced": "2026-08-12T22:31:55.661001Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2047,7 +2047,7 @@
         "mapping",
         "story"
       ],
-      "score": 21
+      "score": 23
     },
     {
       "skill_id": "NVIDIA/skills",
@@ -2065,7 +2065,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-analysis",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/TensorRT-LLM/perf-analysis",
-        "last_synced": "2026-08-12T11:42:35.436717Z",
+        "last_synced": "2026-08-12T22:31:55.673096Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2090,7 +2090,7 @@
         "llm/perf",
         "nvidia/tensorrt"
       ],
-      "score": 21
+      "score": 23
     },
     {
       "skill_id": "wrsmith108/linear-claude-skill",
@@ -2108,7 +2108,7 @@
         "source_url": "https://github.com/wrsmith108/linear-claude-skill",
         "source_path": "",
         "install_url": "https://github.com/wrsmith108/linear-claude-skill",
-        "last_synced": "2026-08-12T11:42:35.441102Z",
+        "last_synced": "2026-08-12T22:31:55.679024Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2134,49 +2134,7 @@
         "skill",
         "wrsmith108/linear"
       ],
-      "score": 21
-    },
-    {
-      "skill_id": "lackeyjb/playwright-skill",
-      "spec": {
-        "name": "lackeyjb-playwright-skill",
-        "description": "Browser automation with Playwright",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "voltagent-awesome",
-        "source_type": "awesome_list",
-        "source_url": "https://github.com/lackeyjb/playwright-skill",
-        "source_path": "",
-        "install_url": "https://github.com/lackeyjb/playwright-skill",
-        "last_synced": "2026-08-12T11:42:35.442171Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 0,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "lackeyjb/playwright",
-        "skill"
-      ],
-      "score": 21
+      "score": 23
     },
     {
       "skill_id": "ShunsukeHayashi/agent-skill-bus",
@@ -2194,7 +2152,7 @@
         "source_url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
         "source_path": "",
         "install_url": "https://github.com/ShunsukeHayashi/agent-skill-bus",
-        "last_synced": "2026-08-12T11:42:35.443866Z",
+        "last_synced": "2026-08-12T22:31:55.683299Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2219,7 +2177,7 @@
         "shunsukehayashi/agent",
         "skill"
       ],
-      "score": 21
+      "score": 23
     },
     {
       "skill_id": "awrshift/claude-memory-kit",
@@ -2237,7 +2195,7 @@
         "source_url": "https://github.com/awrshift/claude-memory-kit",
         "source_path": "",
         "install_url": "https://github.com/awrshift/claude-memory-kit",
-        "last_synced": "2026-08-12T11:42:35.444637Z",
+        "last_synced": "2026-08-12T22:31:55.684498Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2262,7 +2220,136 @@
         "kit",
         "memory"
       ],
-      "score": 21
+      "score": 23
+    },
+    {
+      "skill_id": "komal-SkyNET/claude-skill-homeassistant",
+      "spec": {
+        "name": "komal-skynet-claude-skill-homeassistant",
+        "description": "Supercharge and manage Home Assistant workflows",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+        "source_path": "",
+        "install_url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
+        "last_synced": "2026-08-12T22:31:55.685804Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "homeassistant",
+        "komal",
+        "skill",
+        "skynet/claude"
+      ],
+      "score": 23
+    },
+    {
+      "skill_id": "lawvable/awesome-legal-skills",
+      "spec": {
+        "name": "lawvable-awesome-legal-skills",
+        "description": "Curated agent skills for automating legal workflows",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/lawvable/awesome-legal-skills",
+        "source_path": "",
+        "install_url": "https://github.com/lawvable/awesome-legal-skills",
+        "last_synced": "2026-08-12T22:31:55.686081Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "lawvable/awesome",
+        "legal",
+        "skills"
+      ],
+      "score": 23
+    },
+    {
+      "skill_id": "lackeyjb/playwright-skill",
+      "spec": {
+        "name": "lackeyjb-playwright-skill",
+        "description": "Browser automation with Playwright",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/lackeyjb/playwright-skill",
+        "source_path": "",
+        "install_url": "https://github.com/lackeyjb/playwright-skill",
+        "last_synced": "2026-08-12T22:31:55.680555Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "lackeyjb/playwright",
+        "skill"
+      ],
+      "score": 20
     },
     {
       "skill_id": "NotMyself/claude-win11-speckit-update-skill",
@@ -2280,7 +2367,7 @@
         "source_url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
         "source_path": "",
         "install_url": "https://github.com/NotMyself/claude-win11-speckit-update-skill",
-        "last_synced": "2026-08-12T11:42:35.445162Z",
+        "last_synced": "2026-08-12T22:31:55.685357Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2307,94 +2394,7 @@
         "update",
         "win11"
       ],
-      "score": 21
-    },
-    {
-      "skill_id": "komal-SkyNET/claude-skill-homeassistant",
-      "spec": {
-        "name": "komal-skynet-claude-skill-homeassistant",
-        "description": "Supercharge and manage Home Assistant workflows",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "voltagent-awesome",
-        "source_type": "awesome_list",
-        "source_url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
-        "source_path": "",
-        "install_url": "https://github.com/komal-SkyNET/claude-skill-homeassistant",
-        "last_synced": "2026-08-12T11:42:35.445464Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 0,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "homeassistant",
-        "komal",
-        "skill",
-        "skynet/claude"
-      ],
-      "score": 21
-    },
-    {
-      "skill_id": "lawvable/awesome-legal-skills",
-      "spec": {
-        "name": "lawvable-awesome-legal-skills",
-        "description": "Curated agent skills for automating legal workflows",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "voltagent-awesome",
-        "source_type": "awesome_list",
-        "source_url": "https://github.com/lawvable/awesome-legal-skills",
-        "source_path": "",
-        "install_url": "https://github.com/lawvable/awesome-legal-skills",
-        "last_synced": "2026-08-12T11:42:35.445634Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 0,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "lawvable/awesome",
-        "legal",
-        "skills"
-      ],
-      "score": 21
+      "score": 20
     }
   ],
   "total": 55

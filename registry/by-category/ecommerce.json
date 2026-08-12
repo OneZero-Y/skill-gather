@@ -20,7 +20,7 @@
         "source_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
         "source_path": "ecommerce-product-selector",
         "install_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
-        "last_synced": "2026-08-12T11:42:35.450825Z",
+        "last_synced": "2026-08-12T22:31:55.692202Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -30,7 +30,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 14495
+        "install_count": 14543
       },
       "platform": {
         "claude_code": true,
@@ -45,55 +45,7 @@
         "product",
         "selector"
       ],
-      "score": 42
-    },
-    {
-      "skill_id": "skillhub-cn/cross-border-ecommerce-product-analysis",
-      "spec": {
-        "name": "cross-border-ecommerce-product-analysis",
-        "description": "自动爬取跨境电商平台榜单、智能计算利润、排查侵权风险、分析竞品与市场机会，一键生成专业完整的选品决策报告",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
-        "source_path": "cross-border-ecommerce-product-analysis",
-        "install_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
-        "last_synced": "2026-08-12T11:42:35.452675Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 21,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 8019
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "ecommerce",
-      "tags": [
-        "analysis",
-        "border",
-        "cross",
-        "ecommerce",
-        "product"
-      ],
-      "score": 40
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/apify-ecommerce",
@@ -111,7 +63,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/apify-ecommerce",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/apify-ecommerce",
-        "last_synced": "2026-08-12T11:42:35.471993Z",
+        "last_synced": "2026-08-12T22:31:55.729102Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -135,7 +87,101 @@
         "apify",
         "ecommerce"
       ],
-      "score": 38
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/cross-border-ecommerce-product-analysis",
+      "spec": {
+        "name": "cross-border-ecommerce-product-analysis",
+        "description": "自动爬取跨境电商平台榜单、智能计算利润、排查侵权风险、分析竞品与市场机会，一键生成专业完整的选品决策报告",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
+        "source_path": "cross-border-ecommerce-product-analysis",
+        "install_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
+        "last_synced": "2026-08-12T22:31:55.695833Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 21,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 8040
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "analysis",
+        "border",
+        "cross",
+        "ecommerce",
+        "product"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/ecommerce-platform-rules",
+      "spec": {
+        "name": "ecommerce-platform-rules",
+        "description": "覆盖平台：淘宝/天猫、京东、拼多多、抖音电商、快手电商、小红书电商、视频号电商 核心能力： \n1. 规则查询 - 商品发布、交易、广告、直播规则 \n2. 违规识别 - 高/中/低风险分级 \n3. 处罚标准 - 扣分、降权、封店标准 \n4. 申诉指导 - 材料清单、流程说明\n\n触发示例 当你问以下问题时，技能会自动激活：\n • “淘宝虚假交易规则” \n• “抖音直播违禁词有哪些” \n• “刷单会被怎么处罚” \n• “这个行为违规吗” \n• “被误判怎么申诉”",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
+        "source_path": "ecommerce-platform-rules",
+        "install_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
+        "last_synced": "2026-08-12T22:31:55.718476Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 9,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1825
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "platform",
+        "rules"
+      ],
+      "score": 41
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/buywhere-product-catalog",
@@ -153,7 +199,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/buywhere-product-catalog",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/buywhere-product-catalog",
-        "last_synced": "2026-08-12T11:42:35.479172Z",
+        "last_synced": "2026-08-12T22:31:55.742113Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -180,7 +226,7 @@
         "mcp",
         "product"
       ],
-      "score": 38
+      "score": 40
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/context-management-context-restore",
@@ -198,7 +244,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/context-management-context-restore",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/context-management-context-restore",
-        "last_synced": "2026-08-12T11:42:35.482347Z",
+        "last_synced": "2026-08-12T22:31:55.748495Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -223,53 +269,7 @@
         "management",
         "restore"
       ],
-      "score": 38
-    },
-    {
-      "skill_id": "skillhub-cn/ecommerce-platform-rules",
-      "spec": {
-        "name": "ecommerce-platform-rules",
-        "description": "覆盖平台：淘宝/天猫、京东、拼多多、抖音电商、快手电商、小红书电商、视频号电商 核心能力： \n1. 规则查询 - 商品发布、交易、广告、直播规则 \n2. 违规识别 - 高/中/低风险分级 \n3. 处罚标准 - 扣分、降权、封店标准 \n4. 申诉指导 - 材料清单、流程说明\n\n触发示例 当你问以下问题时，技能会自动激活：\n • “淘宝虚假交易规则” \n• “抖音直播违禁词有哪些” \n• “刷单会被怎么处罚” \n• “这个行为违规吗” \n• “被误判怎么申诉”",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
-        "source_path": "ecommerce-platform-rules",
-        "install_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
-        "last_synced": "2026-08-12T11:42:35.466646Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 9,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1815
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "ecommerce",
-      "tags": [
-        "ecommerce",
-        "platform",
-        "rules"
-      ],
-      "score": 36
+      "score": 40
     },
     {
       "skill_id": "skillhub-cn/ecommerce-data-zh",
@@ -290,7 +290,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
         "source_path": "ecommerce-data-zh",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
-        "last_synced": "2026-08-12T11:42:35.467534Z",
+        "last_synced": "2026-08-12T22:31:55.720112Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -300,7 +300,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1761
+        "install_count": 1769
       },
       "platform": {
         "claude_code": true,
@@ -314,7 +314,7 @@
         "data",
         "ecommerce"
       ],
-      "score": 36
+      "score": 34
     },
     {
       "skill_id": "takechanman1228/claude-ecom",
@@ -332,7 +332,7 @@
         "source_url": "https://github.com/takechanman1228/claude-ecom",
         "source_path": "",
         "install_url": "https://github.com/takechanman1228/claude-ecom",
-        "last_synced": "2026-08-12T11:42:35.445836Z",
+        "last_synced": "2026-08-12T22:31:55.686367Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -356,7 +356,7 @@
         "ecom",
         "takechanman1228/claude"
       ],
-      "score": 21
+      "score": 23
     }
   ],
   "total": 8

@@ -1,7 +1,7 @@
 {
-  "total_skills": 1692,
+  "total_skills": 1693,
   "sources_count": 8,
-  "last_synced": "2026-08-12T11:42:35.552736Z",
+  "last_synced": "2026-08-12T22:31:55.898718Z",
   "version": "1",
   "categories": {
     "development": 811,
@@ -11,9 +11,9 @@
     "productivity": 55,
     "education": 10,
     "data": 95,
-    "security": 28,
     "devops": 173,
-    "content": 80,
+    "security": 28,
+    "content": 81,
     "ecommerce": 8
   },
   "sources": [
@@ -34,27 +34,77 @@
     "community-repos": 12,
     "skillhub-cn": 500,
     "mcpmarket-cn": 484,
-    "voltagent-awesome": 604
+    "voltagent-awesome": 605
   },
   "platform_counts": {
-    "claude_code": 1648,
+    "claude_code": 1649,
     "claude_ai": 18,
-    "kiro": 1631,
-    "codex": 1675,
-    "universal": 1675
+    "kiro": 1632,
+    "codex": 1676,
+    "universal": 1676
   },
   "score_distribution": {
-    "0-20": 0,
-    "21-40": 1514,
-    "41-60": 175,
-    "61-80": 3,
-    "81-100": 0
+    "0-20": 47,
+    "21-40": 940,
+    "41-60": 623,
+    "61-80": 73,
+    "81-100": 10
   },
   "changelog": {
     "added": 0,
     "removed": 0,
-    "modified": 18,
+    "modified": 138,
     "total_old": 1234,
     "total_new": 1234
+  },
+  "source_sync_state": {
+    "mcpmarket-cn": {
+      "fingerprint": "mcpmarket:165721:2026-05-03T13:58:42Z:xlsx",
+      "skill_count": 484,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    },
+    "openai-skills": {
+      "fingerprint": "openai/skills@main:49f948faa925",
+      "skill_count": 44,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    },
+    "langchain-skills": {
+      "fingerprint": "langchain-ai/langchain-skills@main:92e4f3b494c0",
+      "skill_count": 22,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    },
+    "anthropics-skills": {
+      "fingerprint": "anthropics/skills@main:f17010c9bb48",
+      "skill_count": 17,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    },
+    "community-repos": {
+      "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-07-24T15:13:07Z|NVIDIA/skills:2026-08-12T21:19:51Z|angular/skills:2026-08-12T18:21:42Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|coderabbitai/skills:2026-08-12T21:28:07Z|cypress-io/ai-toolkit:2026-07-06T02:09:40Z|deanpeters/Product-Manager-Skills:2026-08-10T16:15:52Z|google/skills:2026-08-12T18:27:18Z|ibelick/ui-skills:2026-08-11T11:20:13Z|mattpocock/skills:2026-08-07T15:50:46Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-08-12T10:16:36Z|resend/resend-skills:2026-08-11T18:06:11Z|rudrankriyam/app-store-connect-cli-skills:2026-08-12T11:29:41Z|snyk/agent-scan:2026-08-12T22:14:48Z|video-db/skills:2026-07-25T04:49:04Z",
+      "skill_count": 12,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    },
+    "voltagent-awesome": {
+      "fingerprint": "VoltAgent/awesome-agent-skills@main:bb272b65c816",
+      "skill_count": 605,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    },
+    "vercel-agent-skills": {
+      "fingerprint": "vercel-labs/agent-skills@main:b8caa260a420",
+      "skill_count": 9,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    },
+    "skillhub-cn": {
+      "fingerprint": "skillhub:112530:1786573431599:ima-skills",
+      "skill_count": 500,
+      "synced_at": "2026-08-12T22:31:55.898698+00:00",
+      "skipped": false
+    }
   }
 }

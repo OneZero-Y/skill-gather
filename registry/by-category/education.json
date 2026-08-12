@@ -17,11 +17,11 @@
         "source_url": "https://github.com/openai/skills",
         "source_path": "skills/.curated/jupyter-notebook",
         "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook",
-        "last_synced": "2026-08-12T11:42:35.395896Z",
-        "upstream_commit": ""
+        "last_synced": "2026-08-12T22:31:55.649475Z",
+        "upstream_commit": "49f948faa925"
       },
       "signals": {
-        "repo_stars": 24856,
+        "repo_stars": 24867,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -41,97 +41,7 @@
         "jupyter",
         "notebook"
       ],
-      "score": 58
-    },
-    {
-      "skill_id": "skillhub-cn/learning-feynman",
-      "spec": {
-        "name": "learning-feynman",
-        "description": "基于费曼学习法，构建高效学习与清晰表达的框架。包含7个核心心智模型和10条决策启发式，帮助你快速掌握新知识、深入理解复杂概念、教会他人。适用场景：学习新技能、知识内化、教学分享、复杂概念简化。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_863b76c8/learning-feynman",
-        "source_path": "learning-feynman",
-        "install_url": "https://api.skillhub.cn/user_863b76c8/learning-feynman",
-        "last_synced": "2026-08-12T11:42:35.456534Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 38,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 3580
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "feynman",
-        "learning"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "skillhub-cn/all-translate",
-      "spec": {
-        "name": "all-translate",
-        "description": "英语翻译，日语翻译，韩语翻译，法语翻译，德语翻译，阿拉伯语翻译，西班牙语翻译，俄语翻译，葡萄牙语翻译，意大利语翻译，泰语翻译，越南语翻译，印地语翻译，印尼语翻译，荷兰语翻译，希腊语翻译，瑞典语翻译，捷克语翻译，波兰语翻译，波斯语翻译，马来语翻译，哈萨克语翻译，高棉语翻译，老挝语翻译，蒙古语翻译，维吾尔语翻译等",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_29dc410e/all-translate",
-        "source_path": "all-translate",
-        "install_url": "https://api.skillhub.cn/user_29dc410e/all-translate",
-        "last_synced": "2026-08-12T11:42:35.455169Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 13,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 4974
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "all",
-        "translate"
-      ],
-      "score": 38
+      "score": 80
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/andrej-karpathy",
@@ -149,7 +59,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/andrej-karpathy",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/andrej-karpathy",
-        "last_synced": "2026-08-12T11:42:35.471083Z",
+        "last_synced": "2026-08-12T22:31:55.727255Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -173,6 +83,234 @@
         "andrej",
         "karpathy"
       ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/all-translate",
+      "spec": {
+        "name": "all-translate",
+        "description": "英语翻译，日语翻译，韩语翻译，法语翻译，德语翻译，阿拉伯语翻译，西班牙语翻译，俄语翻译，葡萄牙语翻译，意大利语翻译，泰语翻译，越南语翻译，印地语翻译，印尼语翻译，荷兰语翻译，希腊语翻译，瑞典语翻译，捷克语翻译，波兰语翻译，波斯语翻译，马来语翻译，哈萨克语翻译，高棉语翻译，老挝语翻译，蒙古语翻译，维吾尔语翻译等",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_29dc410e/all-translate",
+        "source_path": "all-translate",
+        "install_url": "https://api.skillhub.cn/user_29dc410e/all-translate",
+        "last_synced": "2026-08-12T22:31:55.699739Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 13,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4992
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "all",
+        "translate"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "skillhub-cn/academic-learning-assistant",
+      "spec": {
+        "name": "academic-learning-assistant",
+        "description": "全流程个性化学习智能体。覆盖小初高、大学及职业培训全学段16个学科，以\"大脑映射+私有财产+学习伴侣\"为核心定位，实现连续学习场景的智能陪伴。\n系统通过教育专属Skill链动态生成个性化学习路径，自动沉淀错题、思维偏好等认知资产，越用越懂用户。支持语音、拍照、文字多模态交互，7×24小时提供知识点讲解、作业批改、薄弱点靶向辅导。新增情感计算机制，可根据用户情绪状态调整沟通策略，在学业支持之外提供心理陪伴与动力激发。\n搭载学科专属知识库，覆盖近7万道经典习题解析，通过三重验证机制确保知识准确性。支持自定义技能组合与定时任务提醒，适配全平台多部署方式，兼容30+主流大模型提供商，真正实现\"千人千策\"的精准教学。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fd308b11/academic-learning-assistant",
+        "source_path": "academic-learning-assistant",
+        "install_url": "https://api.skillhub.cn/user_fd308b11/academic-learning-assistant",
+        "last_synced": "2026-08-12T22:31:55.716067Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 18,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1841
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "academic",
+        "assistant",
+        "learning"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/learning-feynman",
+      "spec": {
+        "name": "learning-feynman",
+        "description": "基于费曼学习法，构建高效学习与清晰表达的框架。包含7个核心心智模型和10条决策启发式，帮助你快速掌握新知识、深入理解复杂概念、教会他人。适用场景：学习新技能、知识内化、教学分享、复杂概念简化。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_863b76c8/learning-feynman",
+        "source_path": "learning-feynman",
+        "install_url": "https://api.skillhub.cn/user_863b76c8/learning-feynman",
+        "last_synced": "2026-08-12T22:31:55.702078Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 38,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3600
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "feynman",
+        "learning"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/gaokao-volunteer-advisor-new",
+      "spec": {
+        "name": "gaokao-volunteer-advisor-new",
+        "description": "高考志愿填报智能助手。支持全国31省高考政策适配、分数/位次精准定位、院校与专业深度解析、职业前景评估、冲稳保方案生成、风险提醒与填报避坑。触发词：高考志愿、志愿填报、选大学、报考、专业选择、志愿方案、大学推荐、冲稳保、录取分数线、位次、高考报考。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f0835403/gaokao-volunteer-advisor-new",
+        "source_path": "gaokao-volunteer-advisor-new",
+        "install_url": "https://api.skillhub.cn/user_f0835403/gaokao-volunteer-advisor-new",
+        "last_synced": "2026-08-12T22:31:55.718915Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1858
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "advisor",
+        "gaokao",
+        "new",
+        "volunteer"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/subject-hyn",
+      "spec": {
+        "name": "subject-hyn",
+        "description": "辅助教师完成高质量课题申请评审书；当用户需要修改优化课题申请、提升申请材料质量、规范课题申报内容时使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_cfa3e422/subject-hyn",
+        "source_path": "subject-hyn",
+        "install_url": "https://api.skillhub.cn/user_cfa3e422/subject-hyn",
+        "last_synced": "2026-08-12T22:31:55.715428Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2007
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "hyn",
+        "subject"
+      ],
       "score": 38
     },
     {
@@ -191,7 +329,7 @@
         "source_url": "https://github.com/sickn33/antigravity-awesome-skills",
         "source_path": "skills/cc-skill-continuous-learning",
         "install_url": "https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/cc-skill-continuous-learning",
-        "last_synced": "2026-08-12T11:42:35.479610Z",
+        "last_synced": "2026-08-12T22:31:55.742995Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -216,145 +354,7 @@
         "learning",
         "skill"
       ],
-      "score": 38
-    },
-    {
-      "skill_id": "skillhub-cn/subject-hyn",
-      "spec": {
-        "name": "subject-hyn",
-        "description": "辅助教师完成高质量课题申请评审书；当用户需要修改优化课题申请、提升申请材料质量、规范课题申报内容时使用",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_cfa3e422/subject-hyn",
-        "source_path": "subject-hyn",
-        "install_url": "https://api.skillhub.cn/user_cfa3e422/subject-hyn",
-        "last_synced": "2026-08-12T11:42:35.464522Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 11,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1998
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "hyn",
-        "subject"
-      ],
       "score": 37
-    },
-    {
-      "skill_id": "skillhub-cn/academic-learning-assistant",
-      "spec": {
-        "name": "academic-learning-assistant",
-        "description": "全流程个性化学习智能体。覆盖小初高、大学及职业培训全学段16个学科，以\"大脑映射+私有财产+学习伴侣\"为核心定位，实现连续学习场景的智能陪伴。\n系统通过教育专属Skill链动态生成个性化学习路径，自动沉淀错题、思维偏好等认知资产，越用越懂用户。支持语音、拍照、文字多模态交互，7×24小时提供知识点讲解、作业批改、薄弱点靶向辅导。新增情感计算机制，可根据用户情绪状态调整沟通策略，在学业支持之外提供心理陪伴与动力激发。\n搭载学科专属知识库，覆盖近7万道经典习题解析，通过三重验证机制确保知识准确性。支持自定义技能组合与定时任务提醒，适配全平台多部署方式，兼容30+主流大模型提供商，真正实现\"千人千策\"的精准教学。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_fd308b11/academic-learning-assistant",
-        "source_path": "academic-learning-assistant",
-        "install_url": "https://api.skillhub.cn/user_fd308b11/academic-learning-assistant",
-        "last_synced": "2026-08-12T11:42:35.465059Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 18,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1833
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "academic",
-        "assistant",
-        "learning"
-      ],
-      "score": 37
-    },
-    {
-      "skill_id": "skillhub-cn/gaokao-volunteer-advisor-new",
-      "spec": {
-        "name": "gaokao-volunteer-advisor-new",
-        "description": "高考志愿填报智能助手。支持全国31省高考政策适配、分数/位次精准定位、院校与专业深度解析、职业前景评估、冲稳保方案生成、风险提醒与填报避坑。触发词：高考志愿、志愿填报、选大学、报考、专业选择、志愿方案、大学推荐、冲稳保、录取分数线、位次、高考报考。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_f0835403/gaokao-volunteer-advisor-new",
-        "source_path": "gaokao-volunteer-advisor-new",
-        "install_url": "https://api.skillhub.cn/user_f0835403/gaokao-volunteer-advisor-new",
-        "last_synced": "2026-08-12T11:42:35.466857Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 6,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1854
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "advisor",
-        "gaokao",
-        "new",
-        "volunteer"
-      ],
-      "score": 36
     },
     {
       "skill_id": "NVIDIA/skills",
@@ -372,7 +372,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/skill-evolution",
-        "last_synced": "2026-08-12T11:42:35.437994Z",
+        "last_synced": "2026-08-12T22:31:55.674828Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -396,7 +396,7 @@
         "evolution",
         "nvidia/cuopt/skill"
       ],
-      "score": 21
+      "score": 27
     },
     {
       "skill_id": "RoundTable02/tutor-skills",
@@ -414,7 +414,7 @@
         "source_url": "https://github.com/RoundTable02/tutor-skills",
         "source_path": "",
         "install_url": "https://github.com/RoundTable02/tutor-skills",
-        "last_synced": "2026-08-12T11:42:35.441301Z",
+        "last_synced": "2026-08-12T22:31:55.679311Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -438,7 +438,7 @@
         "roundtable02/tutor",
         "skills"
       ],
-      "score": 21
+      "score": 23
     }
   ],
   "total": 10
