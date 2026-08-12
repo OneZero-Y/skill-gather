@@ -112,3 +112,10 @@
   background: var(--color-border);
   border-radius: 999px;
 }
+
+.hero-grid {
+  background-image:
+    linear-gradient(to right, var(--color-border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--color-border) 1px, transparent 1px);
+  background-size: 28px 28px;
+}

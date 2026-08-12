@@ -91,6 +91,7 @@ def main() -> None:
         "meta": {
             "last_synced": meta.get("last_synced"),
             "sources_count": meta.get("sources_count", 0),
+            "changelog": meta.get("changelog"),
         },
         "categories": category_list,
         "sources": source_list,

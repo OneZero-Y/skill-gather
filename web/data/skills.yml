@@ -1,4 +1,4 @@
-generated_at: '2026-08-12T11:57:48.300392+00:00'
+generated_at: '2026-08-12T13:52:48.935338+00:00'
 total: 1692
 site:
   title: Skill Store
@@ -6,6 +6,12 @@ site:
 meta:
   last_synced: '2026-08-12T11:42:35.552736Z'
   sources_count: 8
+  changelog:
+    added: 0
+    removed: 0
+    modified: 18
+    total_old: 1234
+    total_new: 1234
 categories:
 - id: development
   name: 开发

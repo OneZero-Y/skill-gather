@@ -6,9 +6,10 @@ import { cn, formatNumber, skillDetailPath } from '@/lib/utils';
 interface SkillCardProps {
   skill: Skill;
   index?: number;
+  variant?: 'grid' | 'row';
 }
 
-export function SkillCard({ skill, index = 0 }: SkillCardProps) {
+export function SkillCard({ skill, index = 0, variant = 'grid' }: SkillCardProps) {
   return (
     <a
       href={skillDetailPath(skill.id)}
@@ -16,9 +17,10 @@ export function SkillCard({ skill, index = 0 }: SkillCardProps) {
         'group relative flex flex-col gap-3 rounded-2xl border border-border bg-card p-4',
         'transition-all duration-300 hover:-translate-y-0.5 hover:border-accent/40',
         'hover:bg-card-hover hover:shadow-lg hover:shadow-accent/5',
-        'animate-fade-up',
+        variant === 'grid' && 'animate-fade-up',
+        variant === 'row' && 'w-[280px] shrink-0 sm:w-[300px]',
       )}
-      style={{ animationDelay: `${index * 35}ms` }}
+      style={variant === 'grid' ? { animationDelay: `${index * 35}ms` } : undefined}
     >
       <div className="flex items-start justify-between gap-2">
         <div className="min-w-0 flex-1">

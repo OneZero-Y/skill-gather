@@ -26,6 +26,14 @@ export const SourceSchema = z.object({
   count: z.number(),
 });
 
+export const ChangelogSchema = z.object({
+  added: z.number(),
+  removed: z.number(),
+  modified: z.number().optional(),
+  total_old: z.number().optional(),
+  total_new: z.number().optional(),
+});
+
 export const SkillsFileSchema = z.object({
   generated_at: z.string(),
   total: z.number(),
@@ -37,6 +45,7 @@ export const SkillsFileSchema = z.object({
     .object({
       last_synced: z.string().nullable().optional(),
       sources_count: z.number().optional(),
+      changelog: ChangelogSchema.nullable().optional(),
     })
     .optional(),
   categories: z.array(CategorySchema),
@@ -47,6 +56,7 @@ export const SkillsFileSchema = z.object({
 
 export type Skill = z.infer<typeof SkillSchema>;
 export type SkillsFile = z.infer<typeof SkillsFileSchema>;
+export type Changelog = z.infer<typeof ChangelogSchema>;
 
 export const PLATFORM_LABELS: Record<string, string> = {
   claude_code: 'Claude Code',

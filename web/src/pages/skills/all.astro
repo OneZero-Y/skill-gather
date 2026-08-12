@@ -1,0 +1,12 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { SkillBrowse } from '../../components/react/SkillBrowse';
+import { loadSkillsData } from '../../lib/config';
+
+const data = loadSkillsData();
+const pageTitle = `All Skills · ${data.site.title}`;
+---
+
+<Layout title={pageTitle} description={data.site.description}>
+  <SkillBrowse client:load data={data} />
+</Layout>
