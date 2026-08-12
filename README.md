@@ -182,10 +182,6 @@ skill-store daemon --interval 6 --source anthropics-skills
 
 ---
 
-Web 前端开发与部署见 [`web/README.md`](web/README.md)。
-
----
-
 ## 数据源
 
 | ID | 类型 | 来源 | 说明 |
@@ -232,8 +228,7 @@ skill-store/
 │   └── export_web_data.py    # registry → web/data/skills.yml
 ├── web/                      # Astro 前端
 │   ├── data/skills.yml       # 前端数据（自动生成）
-│   ├── src/components/react/ # SkillCard / SearchCommand / SkillApp
-│   └── README.md             # 前端开发与部署说明
+│   └── src/components/react/ # SkillCard / SearchCommand / SkillApp
 ├── docs/
 │   └── DESIGN.md             # 架构设计文档
 ├── .github/workflows/
