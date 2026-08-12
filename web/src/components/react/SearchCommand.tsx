@@ -7,9 +7,10 @@ import { useI18n } from './LocaleProvider';
 
 interface SearchCommandProps {
   skills: Skill[];
+  className?: string;
 }
 
-export function SearchCommand({ skills }: SearchCommandProps) {
+export function SearchCommand({ skills, className }: SearchCommandProps) {
   const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');
@@ -52,9 +53,10 @@ export function SearchCommand({ skills }: SearchCommandProps) {
         type="button"
         onClick={() => setOpen(true)}
         className={cn(
-          'flex h-10 flex-1 items-center gap-2 rounded-xl border border-border bg-card px-3',
+          'flex h-10 items-center gap-2 rounded-xl border border-border bg-card px-3',
           'text-sm text-muted transition-all hover:border-accent/30 hover:text-foreground',
-          'md:max-w-md',
+          'w-full sm:max-w-md',
+          className,
         )}
       >
         <Search className="h-4 w-4 shrink-0" />

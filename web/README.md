@@ -1,6 +1,6 @@
 # Skill Store Web
 
-Astro 前端，风格对齐 [compass-nav](https://github.com/OneZero-Y/compass-nav)。
+Skill Store 的 Astro 静态站点前端。
 
 ## 本地开发
 
@@ -25,8 +25,6 @@ npm run preview
 ```
 
 ## 部署到 Cloudflare Pages
-
-与 compass-nav 相同流程：
 
 | 配置项 | 值 |
 |--------|-----|

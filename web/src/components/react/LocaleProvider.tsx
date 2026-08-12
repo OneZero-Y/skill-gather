@@ -22,7 +22,7 @@ interface I18nContextValue {
 const I18nContext = createContext<I18nContextValue | null>(null);
 
 function readInitialLocale(): Locale {
-  if (typeof window === 'undefined') return 'zh';
+  if (typeof window === 'undefined') return 'en';
   return resolveLocale(localStorage.getItem(LOCALE_STORAGE_KEY), navigator.language);
 }
 

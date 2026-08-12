@@ -1,13 +1,15 @@
 export type Locale = 'zh' | 'en';
 
 export const LOCALE_STORAGE_KEY = 'skill-store-locale';
+export const SIDEBAR_COLLAPSED_KEY = 'skill-store-sidebar-collapsed';
+export const CATEGORY_GROUPS_COLLAPSED_KEY = 'skill-store-category-groups-collapsed';
 
 const CATEGORY_LABELS: Record<Locale, Record<string, string>> = {
   zh: {
-    development: '开发',
+    development: '软件开发',
     creative: '创意',
     document: '文档',
-    devops: 'DevOps',
+    devops: '部署运维',
     security: '安全',
     data: '数据',
     content: '内容',
@@ -17,7 +19,7 @@ const CATEGORY_LABELS: Record<Locale, Record<string, string>> = {
     other: '其他',
   },
   en: {
-    development: 'Development',
+    development: 'Software Dev',
     creative: 'Creative',
     document: 'Document',
     devops: 'DevOps',
@@ -27,6 +29,21 @@ const CATEGORY_LABELS: Record<Locale, Record<string, string>> = {
     ecommerce: 'E-commerce',
     education: 'Education',
     productivity: 'Productivity',
+    other: 'Other',
+  },
+};
+
+const CATEGORY_GROUP_LABELS: Record<Locale, Record<string, string>> = {
+  zh: {
+    engineering: '开发与工程',
+    content: '内容与创意',
+    business: '效率与商业',
+    other: '其他',
+  },
+  en: {
+    engineering: 'Engineering',
+    content: 'Content',
+    business: 'Business',
     other: 'Other',
   },
 };
@@ -42,6 +59,16 @@ const MESSAGES = {
     featured: '精选高分',
     allSkills: '全部 Skill',
     showingCount: '显示 {shown} / {total} 条',
+    pageRange: '第 {start}–{end} 条，共 {total} 条 · 第 {page}/{pages} 页',
+    prev: '上一页',
+    next: '下一页',
+    sortBy: '排序',
+    sortScore: '评分最高',
+    sortStars: 'Stars 最多',
+    sortName: '名称 A–Z',
+    filters: '筛选',
+    clearAll: '清除筛选',
+    noResults: '没有匹配的 skill，请调整筛选条件',
     loadMore: '加载更多',
     footerUpdated: '数据更新于 {date}',
     searchPlaceholder: '搜索 skill…',
@@ -55,9 +82,20 @@ const MESSAGES = {
     compatiblePlatforms: '兼容平台',
     tags: '标签',
     viewSource: '查看来源',
-    copyInstall: '复制安装命令',
+    copyAria: '复制',
+    copySuccess: '已复制到剪贴板',
+    installGuide: '安装到本地',
+    installCliTitle: 'CLI 一键安装',
+    installCliPrereqBefore: '需先安装 ',
+    installCliPrereqAfter: ' CLI 和 git，不同平台命令不同。',
+    installSourceHint: 'GitHub 源地址 — 打开查看 skill 文件，或 clone 后复制到下方对应目录。',
+    installManualNote: '各 Agent 的 skills 目录（手动安装时复制到此）：',
+    openOnGithub: '在 GitHub 打开',
+    installSourceUnavailable: '暂无可用安装源地址。',
     toggleTheme: '切换主题',
     toggleLocale: '切换语言',
+    collapseSidebar: '收起分类',
+    expandSidebar: '展开分类',
   },
   en: {
     siteDescription: 'AI Agent Skill discovery engine · compatibility registry',
@@ -69,6 +107,16 @@ const MESSAGES = {
     featured: 'Featured',
     allSkills: 'All Skills',
     showingCount: 'Showing {shown} / {total}',
+    pageRange: '{start}–{end} of {total} · Page {page}/{pages}',
+    prev: 'Previous',
+    next: 'Next',
+    sortBy: 'Sort',
+    sortScore: 'Top score',
+    sortStars: 'Most stars',
+    sortName: 'Name A–Z',
+    filters: 'Filters',
+    clearAll: 'Clear filters',
+    noResults: 'No skills match your filters',
     loadMore: 'Load more',
     footerUpdated: 'Updated {date}',
     searchPlaceholder: 'Search skills…',
@@ -82,17 +130,28 @@ const MESSAGES = {
     compatiblePlatforms: 'Compatible platforms',
     tags: 'Tags',
     viewSource: 'View source',
-    copyInstall: 'Copy install command',
+    copyAria: 'Copy',
+    copySuccess: 'Copied to clipboard',
+    installGuide: 'Install locally',
+    installCliTitle: 'CLI install',
+    installCliPrereqBefore: 'Install ',
+    installCliPrereqAfter: ' CLI and git first. Commands differ by platform.',
+    installSourceHint: 'GitHub source — open to browse the skill files, or clone and copy into a directory below.',
+    installManualNote: 'Agent skills directories (for manual install):',
+    openOnGithub: 'Open on GitHub',
+    installSourceUnavailable: 'No install source URL available.',
     toggleTheme: 'Toggle theme',
     toggleLocale: 'Switch language',
+    collapseSidebar: 'Collapse categories',
+    expandSidebar: 'Expand categories',
   },
 } as const;
 
 export type MessageKey = keyof typeof MESSAGES.zh;
 
-export function resolveLocale(stored: string | null, browserLang: string): Locale {
+export function resolveLocale(stored: string | null, _browserLang?: string): Locale {
   if (stored === 'zh' || stored === 'en') return stored;
-  return browserLang.toLowerCase().startsWith('zh') ? 'zh' : 'en';
+  return 'en';
 }
 
 export function localeToHtmlLang(locale: Locale): string {
@@ -101,6 +160,10 @@ export function localeToHtmlLang(locale: Locale): string {
 
 export function getCategoryLabel(locale: Locale, id: string): string {
   return CATEGORY_LABELS[locale][id] ?? id;
+}
+
+export function getCategoryGroupLabel(locale: Locale, groupId: string): string {
+  return CATEGORY_GROUP_LABELS[locale][groupId] ?? groupId;
 }
 
 export function translate(locale: Locale, key: MessageKey, vars?: Record<string, string | number>): string {

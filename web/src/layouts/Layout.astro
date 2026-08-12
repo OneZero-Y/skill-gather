@@ -6,11 +6,11 @@ interface Props {
   description?: string;
 }
 
-const { title, description = 'AI Agent Skill 发现引擎' } = Astro.props;
+const { title, description = 'AI Agent Skill discovery engine' } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,11 +33,7 @@ const { title, description = 'AI Agent Skill 发现引擎' } = Astro.props;
 
         const storedLocale = localStorage.getItem('skill-store-locale');
         const locale =
-          storedLocale === 'en' || storedLocale === 'zh'
-            ? storedLocale
-            : navigator.language.toLowerCase().startsWith('zh')
-              ? 'zh'
-              : 'en';
+          storedLocale === 'en' || storedLocale === 'zh' ? storedLocale : 'en';
         document.documentElement.lang = locale === 'en' ? 'en' : 'zh-CN';
       })();
     </script>

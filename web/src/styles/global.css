@@ -98,3 +98,17 @@
 .animate-pulse-glow {
   animation: pulse-glow 6s ease-in-out infinite;
 }
+
+.chip-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+.chip-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.chip-scroll::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+}

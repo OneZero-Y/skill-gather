@@ -138,6 +138,11 @@ skill-store install mcp-builder
 # 安装到 Claude Code 全局目录
 skill-store install mcp-builder --preset claude
 
+# Kiro / OpenClaw / Hermes
+skill-store install mcp-builder --preset kiro
+skill-store install mcp-builder --preset openclaw
+skill-store install mcp-builder --preset hermes
+
 # 安装到当前项目的 .cursor/skills/
 skill-store install mcp-builder --preset project-cursor
 
@@ -177,19 +182,7 @@ skill-store daemon --interval 6 --source anthropics-skills
 
 ---
 
-## Web 前端（Phase 2）
-
-技术栈与 [compass-nav](https://github.com/OneZero-Y/compass-nav) 一致：Astro 5 + React 19 + Tailwind v4 + Zod。
-
-```bash
-# 导出 registry → web/data/skills.yml
-uv run python scripts/export_web_data.py
-
-# 本地预览
-cd web && npm install && npm run dev
-```
-
-部署到 Cloudflare Pages 时，Root directory 设为 `web`，Build command 为 `npm run build`，Output 为 `dist`。详见 [`web/README.md`](web/README.md)。
+Web 前端开发与部署见 [`web/README.md`](web/README.md)。
 
 ---
 
@@ -237,7 +230,7 @@ skill-store/
 ├── scripts/
 │   ├── update_readme.py      # 同步后自动刷新 README 统计区块
 │   └── export_web_data.py    # registry → web/data/skills.yml
-├── web/                      # Astro 前端（Phase 2）
+├── web/                      # Astro 前端
 │   ├── data/skills.yml       # 前端数据（自动生成）
 │   ├── src/components/react/ # SkillCard / SearchCommand / SkillApp
 │   └── README.md             # 前端开发与部署说明

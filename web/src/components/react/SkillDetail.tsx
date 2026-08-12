@@ -1,9 +1,10 @@
 import { type ReactNode } from 'react';
-import { ArrowLeft, ArrowUpRight, Copy, Star } from 'lucide-react';
+import { ArrowLeft, Star } from 'lucide-react';
 import type { Skill } from '@/lib/types';
 import { PLATFORM_LABELS } from '@/lib/types';
-import { cn, formatNumber, isSafeUrl } from '@/lib/utils';
+import { formatNumber, isSafeUrl } from '@/lib/utils';
 import { HeaderControls } from './HeaderControls';
+import { InstallSection } from './InstallSection';
 import { LocaleProvider, useI18n } from './LocaleProvider';
 
 interface SkillDetailProps {
@@ -21,11 +22,6 @@ export function SkillDetail({ skill }: SkillDetailProps) {
 function SkillDetailContent({ skill }: SkillDetailProps) {
   const { t, categoryLabel } = useI18n();
   const safeInstall = isSafeUrl(skill.install_url);
-
-  const copyInstallCommand = () => {
-    const cmd = `skill-store install ${skill.id}`;
-    void navigator.clipboard.writeText(cmd);
-  };
 
   return (
     <div className="relative min-h-screen">
@@ -110,28 +106,11 @@ function SkillDetailContent({ skill }: SkillDetailProps) {
             </div>
           )}
 
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a
-              href={safeInstall ? skill.install_url : '#'}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={cn(
-                'inline-flex items-center gap-2 rounded-xl bg-accent px-4 py-2.5 text-sm font-medium text-accent-foreground transition hover:opacity-90',
-                !safeInstall && 'pointer-events-none opacity-50',
-              )}
-            >
-              {t('viewSource')}
-              <ArrowUpRight className="h-4 w-4" />
-            </a>
-            <button
-              type="button"
-              onClick={copyInstallCommand}
-              className="inline-flex items-center gap-2 rounded-xl border border-border bg-background px-4 py-2.5 text-sm text-muted transition hover:border-accent/40 hover:text-foreground"
-            >
-              <Copy className="h-4 w-4" />
-              {t('copyInstall')}
-            </button>
-          </div>
+          <InstallSection skillId={skill.id} installUrl={skill.install_url} />
+
+          {!safeInstall && (
+            <p className="mt-4 text-xs text-muted">{t('installSourceUnavailable')}</p>
+          )}
         </article>
       </main>
     </div>

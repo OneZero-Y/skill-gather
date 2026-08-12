@@ -26,8 +26,12 @@ _SKILLHUB_API_RE = re.compile(
 DEFAULT_TARGETS = {
     "cursor": Path.home() / ".cursor" / "skills",
     "claude": Path.home() / ".claude" / "skills",
+    "kiro": Path.home() / ".kiro" / "skills",
+    "openclaw": Path.home() / ".openclaw" / "skills",
+    "hermes": Path.home() / ".hermes" / "skills",
     "project-cursor": Path.cwd() / ".cursor" / "skills",
     "project-claude": Path.cwd() / ".claude" / "skills",
+    "project-kiro": Path.cwd() / ".kiro" / "skills",
 }
 
 
