@@ -85,6 +85,21 @@ def run_pipeline(
 
         try:
             entries = adapter.sync()
+            # Guard: if sync returned 0 entries but we have existing data,
+            # treat it as a soft failure — keep old data rather than silently
+            # wiping the source from the registry.
+            if not entries and existing_by_source.get(source_id):
+                reused = existing_by_source[source_id]
+                reused_skills.extend(reused)
+                skipped_sources.append(source_id)
+                logger.warning(
+                    "  [%s] returned 0 entries but registry has %d existing skills "
+                    "— keeping existing data (possible API/upstream issue)",
+                    source_id,
+                    len(reused),
+                )
+                continue
+
             all_raw.extend(entries)
             synced_sources.append(source_id)
             fingerprint = adapter.peek_fingerprint()

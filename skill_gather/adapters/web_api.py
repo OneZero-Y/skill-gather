@@ -125,15 +125,16 @@ class WebApiAdapter(BaseAdapter):
 
                 resp = client.get(f"{api_base}{path}", params=params)
                 if resp.status_code != 200:
-                    self.logger.error(
-                        "SkillHub API returned %d on page %d", resp.status_code, page
+                    raise RuntimeError(
+                        f"SkillHub API returned HTTP {resp.status_code} on page {page} "
+                        f"(body: {resp.text[:200]})"
                     )
-                    break
 
                 payload = resp.json()
                 if payload.get("code") != 0:
-                    self.logger.error("SkillHub API error: %s", payload.get("message"))
-                    break
+                    raise RuntimeError(
+                        f"SkillHub API error code {payload.get('code')}: {payload.get('message')}"
+                    )
 
                 skills = payload.get("data", {}).get("skills") or []
                 if not skills:
@@ -211,10 +212,10 @@ class WebApiAdapter(BaseAdapter):
 
                 resp = client.get(f"{site_base}{path}", params=params)
                 if resp.status_code != 200:
-                    self.logger.error(
-                        "MCP Market API returned %d on page %d", resp.status_code, page
+                    raise RuntimeError(
+                        f"MCP Market API returned HTTP {resp.status_code} on page {page} "
+                        f"(body: {resp.text[:200]})"
                     )
-                    break
 
                 payload = resp.json()
                 skills = payload.get("skills") or []
