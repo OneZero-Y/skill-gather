@@ -106,7 +106,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/westock-data",
         "source_path": "westock-data",
         "install_url": "https://api.skillhub.cn/tencent-adm/westock-data",
-        "last_synced": "2026-08-12T22:31:55.690477Z",
+        "last_synced": "2026-08-13T08:11:43.480963Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -116,7 +116,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 21224
+        "install_count": 21337
       },
       "platform": {
         "claude_code": true,
@@ -151,17 +151,17 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
         "source_path": "aistockresearcher",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
-        "last_synced": "2026-08-12T22:31:55.690319Z",
+        "last_synced": "2026-08-13T08:11:43.480826Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 78,
+        "repo_stars": 79,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 23282
+        "install_count": 23471
       },
       "platform": {
         "claude_code": true,
@@ -175,52 +175,6 @@
         "aistockresearcher"
       ],
       "score": 48
-    },
-    {
-      "skill_id": "skillhub-cn/tianji-business-search",
-      "spec": {
-        "name": "tianji-business-search",
-        "description": "天机商查，一款完全免费的商查技能。通过收集企业相关情报，包括企业工商信息、股东结构、经营状态、司法风险、新闻动态、融资上市信息等。适用于投融资尽职调查、竞品分析、市场调研、商业合作背景核验等场景。业务方向有查企业、查老板、查关系、查股东、查投资、查融资、查招标、查资质、查证书、查产权、查舆情等。相关专业商业平台-企查查、天眼查、启信宝、爱企查、企知道、牛企查、亿企查、企查猫、剑鱼标讯、知了标讯、招采网等，以及官方权威渠道-国家企业信用信息公示系统，以及新闻资讯-百度新闻、新浪财经，以及官方监管平台-证监会、交易所官网(上交所、深交所、北交所)、中国裁判文书网。所有数据来源于公示的数据，及供参考。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
-        "source_path": "tianji-business-search",
-        "install_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
-        "last_synced": "2026-08-12T22:31:55.696925Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 52,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 6433
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "business",
-        "search",
-        "tianji"
-      ],
-      "score": 46
     },
     {
       "skill_id": "skillhub-cn/data-analysis-plus",
@@ -241,17 +195,17 @@
         "source_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
         "source_path": "data-analysis-plus",
         "install_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
-        "last_synced": "2026-08-12T22:31:55.692101Z",
+        "last_synced": "2026-08-13T08:11:43.482212Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 25,
+        "repo_stars": 26,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 15664
+        "install_count": 15963
       },
       "platform": {
         "claude_code": true,
@@ -266,13 +220,59 @@
         "data",
         "plus"
       ],
-      "score": 45
+      "score": 46
+    },
+    {
+      "skill_id": "skillhub-cn/tianji-business-search",
+      "spec": {
+        "name": "tianji-business-search",
+        "description": "天机商查，一款完全免费的商查技能。通过收集企业相关情报，包括企业工商信息、股东结构、经营状态、司法风险、新闻动态、融资上市信息等。适用于投融资尽职调查、竞品分析、市场调研、商业合作背景核验等场景。业务方向有查企业、查老板、查关系、查股东、查投资、查融资、查招标、查资质、查证书、查产权、查舆情等。相关专业商业平台-企查查、天眼查、启信宝、爱企查、企知道、牛企查、亿企查、企查猫、剑鱼标讯、知了标讯、招采网等，以及官方权威渠道-国家企业信用信息公示系统，以及新闻资讯-百度新闻、新浪财经，以及官方监管平台-证监会、交易所官网(上交所、深交所、北交所)、中国裁判文书网。所有数据来源于公示的数据，及供参考。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
+        "source_path": "tianji-business-search",
+        "install_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
+        "last_synced": "2026-08-13T08:11:43.485483Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 52,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 6531
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "business",
+        "search",
+        "tianji"
+      ],
+      "score": 46
     },
     {
       "skill_id": "skillhub-cn/wechatanalyzer",
       "spec": {
         "name": "wechatanalyzer",
-        "description": "微信聊天分析助手 v2.3.0 — 完全本地运行的隐私保护工具。 分析聊天记录，推断 MBTI 与大五人格，检测情感趋势，生成可视化报告。 支持 jieba 精准分词、否定识别、反讽检测、风险预警。 内置 RAG 检索增强预测和多智能体博弈模拟，完全本地化、零数据外传。 可选 MiroFish 群体智能引擎增强对话预测。 v2.3.0 新增时间感知对话预测：根据最后消息距今时间、时间段、周末/工作日、 密集对话节奏自动调整回复候选与“回复时机”提示，提升及时性。 v2.2.0 新增「推演」（5大子能力）+「信息解读」（4大子能力），更智能更易用。",
+        "description": "微信聊天分析助手 v2.7.0 — 完全本地运行的隐私保护工具。 分析聊天记录，推断 MBTI 与大五人格，检测情感趋势，生成可视化报告。 支持 jieba 精准分词、否定识别、反讽检测、风险预警、RAG 检索增强预测、 多智能体博弈模拟（MiroFish），完全本地化、零数据外传。",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -287,7 +287,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
         "source_path": "wechatanalyzer",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
-        "last_synced": "2026-08-12T22:31:55.696992Z",
+        "last_synced": "2026-08-13T08:11:43.484900Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -297,7 +297,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6666
+        "install_count": 7713
       },
       "platform": {
         "claude_code": true,
@@ -312,99 +312,6 @@
         "wechatanalyzer"
       ],
       "score": 45
-    },
-    {
-      "skill_id": "skillhub-cn/lingyi-copy-de-ai-human-eval",
-      "spec": {
-        "name": "lingyi-copy-de-ai-human-eval",
-        "description": "【零一数科·出品】：文案去AI味·真人评估（付费版）。把小红书/视频号/公众号/抖音文案改写得像真人写、消除 AI 痕迹降 AI 率，并模拟真实人群画像的读者逐段评估「哪里还像 AI、哪里不像人写」，给出人味打分与残留痕迹定位。别人只改不验，本品改完让真人评估把关。触发词：文案去AI味、社媒文案去AI、去AI味、降AI率、AI去痕、过AI检测、人味改写、真人评估、读者验收、真人试读。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "enterprise"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
-        "source_path": "lingyi-copy-de-ai-human-eval",
-        "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
-        "last_synced": "2026-08-12T22:31:55.691254Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 9,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 18002
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "copy",
-        "eval",
-        "human",
-        "lingyi"
-      ],
-      "score": 44
-    },
-    {
-      "skill_id": "skillhub-cn/equal-data-skill",
-      "spec": {
-        "name": "equal-data-skill",
-        "description": "equal-data-skill 金融数据服务- 提供覆盖A股5000+家上市公司的行情、财报、基本面、重大事件追踪(高管增减持, 重大合同, 股东变动,大宗交易, 限售解禁,定向增发,分红送转, 业绩预告)等多维度数据、股东分析、基金持仓与变动统计、知名机构动向追踪(包含 国家队,外资,私募基金,公募基金,信托,保险,证券等)、知名牛散持仓数据、资讯、公告、等多形态结构化专业金融数据",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "enterprise"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
-        "source_path": "equal-data-skill",
-        "install_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
-        "last_synced": "2026-08-12T22:31:55.697714Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 19,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 6312
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "data",
-        "equal",
-        "skill"
-      ],
-      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/advanced-evaluation",
@@ -1047,6 +954,99 @@
       "score": 44
     },
     {
+      "skill_id": "skillhub-cn/lingyi-copy-de-ai-human-eval",
+      "spec": {
+        "name": "lingyi-copy-de-ai-human-eval",
+        "description": "【零一数科·出品】：文案去AI味·真人评估（付费版）。把小红书/视频号/公众号/抖音文案改写得像真人写、消除 AI 痕迹降 AI 率，并模拟真实人群画像的读者逐段评估「哪里还像 AI、哪里不像人写」，给出人味打分与残留痕迹定位。别人只改不验，本品改完让真人评估把关。触发词：文案去AI味、社媒文案去AI、去AI味、降AI率、AI去痕、过AI检测、人味改写、真人评估、读者验收、真人试读。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
+        "source_path": "lingyi-copy-de-ai-human-eval",
+        "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
+        "last_synced": "2026-08-13T08:11:43.481554Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 9,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 18090
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "copy",
+        "eval",
+        "human",
+        "lingyi"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "skillhub-cn/equal-data-skill",
+      "spec": {
+        "name": "equal-data-skill",
+        "description": "equal-data-skill 金融数据服务- 提供覆盖A股5000+家上市公司的行情、财报、基本面、重大事件追踪(高管增减持, 重大合同, 股东变动,大宗交易, 限售解禁,定向增发,分红送转, 业绩预告)等多维度数据、股东分析、基金持仓与变动统计、知名机构动向追踪(包含 国家队,外资,私募基金,公募基金,信托,保险,证券等)、知名牛散持仓数据、资讯、公告、等多形态结构化专业金融数据",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
+        "source_path": "equal-data-skill",
+        "install_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
+        "last_synced": "2026-08-13T08:11:43.486211Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 19,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 6325
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "equal",
+        "skill"
+      ],
+      "score": 44
+    },
+    {
       "skill_id": "skillhub-cn/smart-charts",
       "spec": {
         "name": "smart-charts",
@@ -1065,7 +1065,7 @@
         "source_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
         "source_path": "smart-charts",
         "install_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
-        "last_synced": "2026-08-12T22:31:55.689065Z",
+        "last_synced": "2026-08-13T08:11:43.478142Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1075,7 +1075,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 39158
+        "install_count": 40038
       },
       "platform": {
         "claude_code": true,
@@ -1110,17 +1110,17 @@
         "source_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
         "source_path": "generate-chart",
         "install_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
-        "last_synced": "2026-08-12T22:31:55.692817Z",
+        "last_synced": "2026-08-13T08:11:43.482798Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 48,
+        "repo_stars": 49,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 12077
+        "install_count": 12315
       },
       "platform": {
         "claude_code": true,
@@ -1155,7 +1155,7 @@
         "source_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
         "source_path": "fund-realtime-scraper",
         "install_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
-        "last_synced": "2026-08-12T22:31:55.701498Z",
+        "last_synced": "2026-08-13T08:11:43.489003Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1165,7 +1165,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4328
+        "install_count": 4347
       },
       "platform": {
         "claude_code": true,
@@ -1201,7 +1201,7 @@
         "source_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
         "source_path": "academic-knowledge-base",
         "install_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
-        "last_synced": "2026-08-12T22:31:55.705286Z",
+        "last_synced": "2026-08-13T08:11:43.491777Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1211,7 +1211,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3354
+        "install_count": 3372
       },
       "platform": {
         "claude_code": true,
@@ -1248,7 +1248,7 @@
         "source_url": "https://api.skillhub.cn/user_59252579/yuqing",
         "source_path": "yuqing",
         "install_url": "https://api.skillhub.cn/user_59252579/yuqing",
-        "last_synced": "2026-08-12T22:31:55.710520Z",
+        "last_synced": "2026-08-13T08:11:43.496728Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1258,7 +1258,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2292
+        "install_count": 2335
       },
       "platform": {
         "claude_code": true,
@@ -1292,7 +1292,7 @@
         "source_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
         "source_path": "qingxi-skill-01",
         "install_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
-        "last_synced": "2026-08-12T22:31:55.701554Z",
+        "last_synced": "2026-08-13T08:11:43.488339Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1302,7 +1302,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4346
+        "install_count": 4792
       },
       "platform": {
         "claude_code": true,
@@ -1337,7 +1337,7 @@
         "source_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
         "source_path": "drawio-generator-pro",
         "install_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
-        "last_synced": "2026-08-12T22:31:55.711907Z",
+        "last_synced": "2026-08-13T08:11:43.497953Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1347,7 +1347,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2390
+        "install_count": 2412
       },
       "platform": {
         "claude_code": true,
@@ -1383,7 +1383,7 @@
         "source_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
         "source_path": "scrapling-article-fetch",
         "install_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
-        "last_synced": "2026-08-12T22:31:55.713520Z",
+        "last_synced": "2026-08-13T08:11:43.499097Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1393,7 +1393,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2240
+        "install_count": 2257
       },
       "platform": {
         "claude_code": true,
@@ -1429,7 +1429,7 @@
         "source_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
         "source_path": "financial-report-minesweeper",
         "install_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
-        "last_synced": "2026-08-12T22:31:55.714398Z",
+        "last_synced": "2026-08-13T08:11:43.499756Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1439,7 +1439,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2026
+        "install_count": 2047
       },
       "platform": {
         "claude_code": true,
@@ -1453,6 +1453,99 @@
         "financial",
         "minesweeper",
         "report"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/grounddata-ai-daily-news-cn",
+      "spec": {
+        "name": "grounddata-ai-daily-news-cn",
+        "description": "Fetch global AI news data, synchronize platform capabilities, and invoke remote AI-news analysis. Use this skill when users ask about AI or machine learning news, such as \"today's AI news\", \"latest AI news\", \"current AI news\", \"recent AI updates\", or \"what's new in AI\". Also use it when users want to personalize AI news preferences, set up daily or weekly AI news automation guidance, generate AI news briefings, or turn AI news into workflow artifacts such as AI Coding tech radar, content materials, knowledge-base notes, product opportunity scans, or investment/strategy briefs. For explicit date queries about AI news, use get_news_dataset. Do not use this skill for non-AI news such as sports, politics, finance, or general breaking news.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_841956ef/grounddata-ai-daily-news-cn",
+        "source_path": "grounddata-ai-daily-news-cn",
+        "install_url": "https://api.skillhub.cn/user_841956ef/grounddata-ai-daily-news-cn",
+        "last_synced": "2026-08-13T08:11:43.509085Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 17,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1271
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "daily",
+        "grounddata",
+        "news"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-selenium-scraper-skill",
+      "spec": {
+        "name": "douyin-selenium-scraper-skill",
+        "description": ">这是一个能帮你快速掌握抖音最新爆款动向的数据分析工具。它能一键抓取蝉妈妈平台的核心情报，自动生成包含热门视频TOP10、全网热搜TOP10、电商带货TOP10的结构化报告，并附带趋势洞察。数据可直接导出为CSV表格，让你轻松拿捏流量密码与选品方向。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ad45f167/douyin-selenium-scraper-skill",
+        "source_path": "douyin-selenium-scraper-skill",
+        "install_url": "https://api.skillhub.cn/user_ad45f167/douyin-selenium-scraper-skill",
+        "last_synced": "2026-08-13T08:11:43.509785Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 15,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1275
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "douyin",
+        "scraper",
+        "selenium",
+        "skill"
       ],
       "score": 42
     },
@@ -1475,7 +1568,7 @@
         "source_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
         "source_path": "football-match-analysis",
         "install_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
-        "last_synced": "2026-08-12T22:31:55.706597Z",
+        "last_synced": "2026-08-13T08:11:43.492672Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1485,7 +1578,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3292
+        "install_count": 3319
       },
       "platform": {
         "claude_code": true,
@@ -1521,7 +1614,7 @@
         "source_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
         "source_path": "liuye-legal-intelligent-search",
         "install_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
-        "last_synced": "2026-08-12T22:31:55.713977Z",
+        "last_synced": "2026-08-13T08:11:43.499410Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1531,7 +1624,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2201
+        "install_count": 2235
       },
       "platform": {
         "claude_code": true,
@@ -1568,7 +1661,7 @@
         "source_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
         "source_path": "stock-mtl-v5",
         "install_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
-        "last_synced": "2026-08-12T22:31:55.715931Z",
+        "last_synced": "2026-08-13T08:11:43.501032Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1578,7 +1671,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2046
+        "install_count": 2065
       },
       "platform": {
         "claude_code": true,
@@ -1613,7 +1706,7 @@
         "source_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
         "source_path": "science-figures",
         "install_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
-        "last_synced": "2026-08-12T22:31:55.716847Z",
+        "last_synced": "2026-08-13T08:11:43.501712Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1623,7 +1716,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1984
+        "install_count": 1996
       },
       "platform": {
         "claude_code": true,
@@ -1641,10 +1734,10 @@
       "score": 41
     },
     {
-      "skill_id": "skillhub-cn/qclaw-data-analyst-pro",
+      "skill_id": "skillhub-cn/skill-creator-optimized-pro",
       "spec": {
-        "name": "qclaw-data-analyst-pro",
-        "description": "表格数据不会挖？10 大场景一键分析，自动清洗+出图+给结论，揪出异常和趋势——不用你写公式。",
+        "name": "skill-creator-optimized-pro",
+        "description": "根据腾讯技术工程团队和Anthropic的优秀Skill创建方法论，优化的工程级技能创建工具。\n创建、优化、审计和打包 AI Skill 技能包；支持新手引导模式（第一次做 Skill、一步步教我、从零创建）。当用户要求创建技能、生成 Skill、优化 SKILL.md、修复技能包结构、补齐 YAML front matter、打包发布 SkillHub，或把业务流程沉淀为可安装技能时使用。不要用于一次性提示词润色、普通文档写作或与 Skill 无关的软件开发任务。",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -1656,20 +1749,20 @@
       "discovery": {
         "source_id": "skillhub-cn",
         "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
-        "source_path": "qclaw-data-analyst-pro",
-        "install_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
-        "last_synced": "2026-08-12T22:31:55.699848Z",
+        "source_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-optimized-pro",
+        "source_path": "skill-creator-optimized-pro",
+        "install_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-optimized-pro",
+        "last_synced": "2026-08-13T08:11:43.508919Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 16,
+        "repo_stars": 7,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4888
+        "install_count": 1481
       },
       "platform": {
         "claude_code": true,
@@ -1680,12 +1773,149 @@
       },
       "category": "data",
       "tags": [
-        "analyst",
-        "data",
+        "creator",
+        "optimized",
         "pro",
-        "qclaw"
+        "skill"
       ],
-      "score": 40
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/csm-20260430",
+      "spec": {
+        "name": "csm-20260430",
+        "description": "每日盘后A股及全球市场数据自动获取与复盘信息输出工具。当用户需要【自动获取每日盘后数据】、【股市复盘】、【获取大盘指数和概念板块】、【设置定时任务获取市场数据】或【查询黄金/原油/美元指数】时触发。支持从新浪财经、东方财富、akshare等接口获取上证指数、深证成指、创业板、科创板、恒生指数、日经指数、纳斯达克、道琼斯、黄金、白银、原油、美元指数等数据，以及概念板块Top5/Bottom5（含成分股统计）。同时通过腾讯自选股投资日历接口获取当日全球重要财经事件，并自动分析与A股/港股/美股/大宗商品的关联。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_d4fbf0bb/csm-20260430",
+        "source_path": "csm-20260430",
+        "install_url": "https://api.skillhub.cn/user_d4fbf0bb/csm-20260430",
+        "last_synced": "2026-08-13T08:11:43.511617Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 13,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1235
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "20260430",
+        "csm"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/ai-pm-workbench",
+      "spec": {
+        "name": "ai-pm-workbench",
+        "description": "【AI产品经理超级工作台 / AI PM Super Workbench】—— 面向AI产品经理的全栈智能工作台，覆盖12阶段、60+AI方法论框架、20+AI专业交付物。从模型选型到RAG架构、从Agent设计到安全护栏、从Prompt工程到商业化变现，一个Skill全覆盖。■ 12阶段：AI战略与机会识别→数据策略→模型选型→Prompt与上下文工程→RAG设计→Agent与多智能体→模型微调→AI UX→评测体系→安全护栏→AI可观测性→AI商业化→AI治理合规 ■ AI PM 3大角色谱系：AI Builder PM / AI Experience PM / AI-Enhanced PM ■ 技术全栈：LLM选型 | RAG 7大模式 | Agent 6大架构 | Prompt Engineering | Fine-tuning(SFT/RLHF/DPO) | AI评测 | AI安全 | LLMOps | AI UX 7大模式 | GenUI | AI数据飞轮 ■ 商业化：Token经济学 | 推理成本建模 | Build vs Buy vs Fine-tune | 基于结果的定价 ■ 治理合规：EU AI Act | 中国生成式AI管理办法 | 模型卡/系统卡 | 红队测试 ■ 触发词：AI产品经理、AI PM、大模型产品、LLM产品、RAG设计、Agent设计、Prompt工程、模型选型、AI评测、AI安全、AI商业化、AI治理、AI PRD、AI product manager、GenAI PM、agent architecture、model selection、AI evaluation、AI governance",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_82981261/ai-pm-workbench",
+        "source_path": "ai-pm-workbench",
+        "install_url": "https://api.skillhub.cn/user_82981261/ai-pm-workbench",
+        "last_synced": "2026-08-13T08:11:43.528052Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 11,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 812
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "rag",
+        "workbench"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "skillhub-cn/investment-news-collector-xdj",
+      "spec": {
+        "name": "investment-news-collector-xdj",
+        "description": "investment-news-collector 是一个专注于投资领域的资讯自动采集系统。\n\n它解决的核心问题是：如何从海量财经资讯中，快速筛选出真正有价值的投资信号\n\n系统通过本地 RSSHub 统一接入财联社深度、华尔街见闻双源，经过领域过滤、事件评分、话题聚类、正文摘要等6步智能处理，最终生成一份结构化的财经日报，包含价值分级和投资信号标注。\n\n关键特性：\n\n✅ 零Token成本：纯规则引擎，无需调用任何大模型API\n✅ 投资信号识别：10类事件类型自动标注🔥强烈/👀跟踪/📊数据三档信号\n✅ 双源冗余：财联社深度（主）+ 华尔街见闻（备），单一源挂了不中断\n✅ 动态公司配置：companies.yaml 可编辑，Tier1/Tier2 分档无需改代码\n✅ Obsidian同步：日报自动生成Markdown格式，可一键同步知识库",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f0974107/investment-news-collector-xdj",
+        "source_path": "investment-news-collector-xdj",
+        "install_url": "https://api.skillhub.cn/user_f0974107/investment-news-collector-xdj",
+        "last_synced": "2026-08-13T08:11:43.533062Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 12,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 718
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "collector",
+        "investment",
+        "news",
+        "xdj"
+      ],
+      "score": 41
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/agent-evaluation",
@@ -1943,6 +2173,327 @@
       "score": 40
     },
     {
+      "skill_id": "skillhub-cn/qclaw-data-analyst-pro",
+      "spec": {
+        "name": "qclaw-data-analyst-pro",
+        "description": "表格数据不会挖？10 大场景一键分析，自动清洗+出图+给结论，揪出异常和趋势——不用你写公式。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
+        "source_path": "qclaw-data-analyst-pro",
+        "install_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
+        "last_synced": "2026-08-13T08:11:43.487780Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 16,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 4957
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyst",
+        "data",
+        "pro",
+        "qclaw"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/ad-factor-analysis",
+      "spec": {
+        "name": "ad-factor-analysis",
+        "description": "中国银河证券星耀数智的因子分析框架。支持单因子分析（预处理+IC/回归/分层三大方法+拥挤度）和多因子合成（共线性检测+正交化+8种加权+打分），自动生成可视化HTML报告。涉及因子检验、因子有效性、因子合成、因子加权、因子正交化、因子打分、IC分析、分层回测、因子拥挤度、多因子选股、因子组合、因子共线性、因子降维等场景时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-rwhv0nty/ad-factor-analysis",
+        "source_path": "ad-factor-analysis",
+        "install_url": "https://api.skillhub.cn/org-rwhv0nty/ad-factor-analysis",
+        "last_synced": "2026-08-13T08:11:43.507289Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1640
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "factor"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/fund-analyzer-plus",
+      "spec": {
+        "name": "fund-analyzer-plus",
+        "description": "基金收益计算、风险分析、同类对比、持仓回测、调仓建议、股票分析。当用户需要查询基金净值、计算基金收益、分析基金风险、对比多只基金、查找同类基金推荐、回测持仓历史收益、查看股票K线、盘口、大单流向、板块行情时触发。支持所有基金类型和A股/港股/美股股票分析。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5d10d7f7/fund-analyzer-plus",
+        "source_path": "fund-analyzer-plus",
+        "install_url": "https://api.skillhub.cn/user_5d10d7f7/fund-analyzer-plus",
+        "last_synced": "2026-08-13T08:11:43.516095Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1172
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "fund",
+        "plus"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/bilibili-downloader-plus",
+      "spec": {
+        "name": "bilibili-downloader-plus",
+        "description": "B站(Bilibili)视频下载技能。当用户要求下载B站视频、B站合集、bilibili链接中的视频时，应触发此技能。支持单个视频下载和整个合集批量下载，自动选择最高可用画质，支持通过浏览器Cookie获取登录态以解锁1080P/1080P+等更高清晰度。典型触发场景包括：用户给出bilibili.com链接并要求下载、用户提到下载B站视频、用户要求下载某个UP主的合集或系列视频。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_912ed068/bilibili-downloader-plus",
+        "source_path": "bilibili-downloader-plus",
+        "install_url": "https://api.skillhub.cn/user_912ed068/bilibili-downloader-plus",
+        "last_synced": "2026-08-13T08:11:43.516514Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1219
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bilibili",
+        "downloader",
+        "plus"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/stock-price-monitor",
+      "spec": {
+        "name": "stock-price-monitor",
+        "description": "股票交易监控系统（Stock Monitor），使用过程中不消耗token，可低成本长期运营。使用场景：(1) 实时查询股价（query指令）(2) 定时检查预警条件，价格触高/触低时自动告警（check指令）(3) 查看每日价格日志，含开盘价/收盘价/最高/最低/预警记录（log/log_history指令）。(4) 配置管理：修改监控标的、预警阈值、提醒频率。当用户提到\"股票\"、\"监控\"、\"股票交易监控系统\"、\"股价\"、\"预警\"、\"查股价\"、\"看行情\"时使用此 skill。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_62138798/stock-price-monitor",
+        "source_path": "stock-price-monitor",
+        "install_url": "https://api.skillhub.cn/user_62138798/stock-price-monitor",
+        "last_synced": "2026-08-13T08:11:43.529330Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 5,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 914
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "monitor",
+        "price",
+        "stock"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/ecommerce-multi-analyzer",
+      "spec": {
+        "name": "ecommerce-multi-analyzer",
+        "description": "电商多平台商品数据分析助手。输入任意主流电商平台商品链接（淘宝/天猫/京东/拼多多/抖音电商/1688），自动抓取商品详情、搜索跨平台同款商品、对比价格/评分/评价，生成交互式可视化HTML分析报告。触发词：电商分析, 商品分析, 比价, 多平台对比, 帮我看看这个商品, 分析这个链接, 这个值不值, ecommerce analyzer, 商品对比报告, 价格分析, 同款比价。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_72ffbadb/ecommerce-multi-analyzer",
+        "source_path": "ecommerce-multi-analyzer",
+        "install_url": "https://api.skillhub.cn/user_72ffbadb/ecommerce-multi-analyzer",
+        "last_synced": "2026-08-13T08:11:43.534135Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 826
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "ecommerce",
+        "multi"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/read-helper",
+      "spec": {
+        "name": "read-helper",
+        "description": "AI 能一段话总结一本书了，还读书干嘛？\n这大概是每个读书的人在 AI 时代都绕不开的问题。\n\n答案是：总结不等于理解，信息不等于智慧。\n\n一段话的摘要能告诉你\"这本书说了什么\"，但给不了你读到某一页时脊背发凉的感觉，给不了你和作者隔空争论时的思维跃迁，同样也给不了你把两本书的观点缝合在一起时突然打通的那个瞬间。\n\nDeep Reader 不是来替你读书的。它是你的阅读搭子——那些耗时但机械的活儿（搞清结构、理清论证、查背景资料）它来干，你把精力省下来做只有人能做的事：带着自己的经验，去和作者的思想交流。\n\n它能帮你做什么\n⚡ 快速判断 — \"这本书值不值得花时间？\"\n两分钟给你答案。适合什么人读、大概需要多久、核心在讲什么、值不值得细读。\n\n如果你确定不想花时间读，它会把这本书里最值得带走的收获直接告诉你——但也会诚实地说一句：摘要只能让你\"知道\"，要\"理解\"得自己翻开它。\n\n📚 读前准备 — \"开读之前先聊几分钟\"\n像一个读过这本书的朋友，帮你了解：作者是谁、什么背景下写的、全书怎么展开、哪几章是核心、哪些可以快翻。\n\n让你带着更好的问题去翻开一本书，而不是两眼一黑地硬啃。\n\n🧠 深入讨论 — \"读到一半有问题？抛过来\"\n读到某一章觉得有疑问？觉得作者哪里说得不对？随时问。\n\n它会帮你梳理论证结构，或者直接站在对面当你的辩友——用苏格拉底式追问帮你想得更深，用反面论证测试观点的边界，用思想实验挑战隐含前提。\n\n🔀 跨书比较 — \"围绕一个问题把几本书串起来\"\n读完以后想看得更广？帮你找同方向的深化、对立面的挑战、思想谱系上的上下游，把几本书放在一张地图上看清全貌。\n\n🗺️ 思维导图 — \"帮我把这本书的脉络画出来\"\n读完一本书，一键生成交互式 HTML 思维导图——可展开、可折叠，全书脉络一目了然。\n\n不同类型的书，不同的读法\n这是这个技能和普通\"总结一本书\"最大的区别：它理解不同类型的书需要不同的对待方式。\n\n📖 小说、文学作品 — 严格保护你的阅读体验，绝不剧透情节和结局。只聊创作背景、主题线索和叙事风格，把发现的乐趣完整地留给你。\n\n💡 论说类（政治、哲学、社科） — 帮你拆解论证链条、找到隐含前提、识别作者的\"假想敌\"是谁。读哈耶克，它会告诉你他的焦虑从何而来；读罗尔斯，它会帮你理清\"无知之幕\"背后的推理。\n\n🔬 科学与科普 — 帮你理清核心假说、评估数学门槛、标注哪些理论后来被修正。把复杂的概念依赖",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_bdacebb4/read-helper",
+        "source_path": "read-helper",
+        "install_url": "https://api.skillhub.cn/user_bdacebb4/read-helper",
+        "last_synced": "2026-08-13T08:11:43.537404Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 760
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "helper",
+        "read"
+      ],
+      "score": 40
+    },
+    {
       "skill_id": "skillhub-cn/investoday-finance-data-v2",
       "spec": {
         "name": "investoday-finance-data-v2",
@@ -1961,7 +2512,7 @@
         "source_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
         "source_path": "investoday-finance-data-v2",
         "install_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
-        "last_synced": "2026-08-12T22:31:55.708354Z",
+        "last_synced": "2026-08-13T08:11:43.495082Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1971,7 +2522,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3077
+        "install_count": 3116
       },
       "platform": {
         "claude_code": true,
@@ -2007,7 +2558,7 @@
         "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
         "source_path": "douyin-traffic-dashboard",
         "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
-        "last_synced": "2026-08-12T22:31:55.710023Z",
+        "last_synced": "2026-08-13T08:11:43.496373Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2017,7 +2568,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2565
+        "install_count": 2575
       },
       "platform": {
         "claude_code": true,
@@ -2053,7 +2604,7 @@
         "source_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
         "source_path": "voicescope-voc-insight",
         "install_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
-        "last_synced": "2026-08-12T22:31:55.711453Z",
+        "last_synced": "2026-08-13T08:11:43.497721Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2063,7 +2614,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2584
+        "install_count": 2587
       },
       "platform": {
         "claude_code": true,
@@ -2099,7 +2650,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
         "source_path": "xinwen",
         "install_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
-        "last_synced": "2026-08-12T22:31:55.717608Z",
+        "last_synced": "2026-08-13T08:11:43.502322Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2109,7 +2660,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1748
+        "install_count": 1777
       },
       "platform": {
         "claude_code": true,
@@ -2121,6 +2672,465 @@
       "category": "data",
       "tags": [
         "xinwen"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-account-diagnosis-redfox",
+      "spec": {
+        "name": "douyin-account-diagnosis-redfox",
+        "description": "一键诊断抖音账号运营健康度。基于红狐数据服务获取账号画像与近期作品数据，从账号基础画像、内容生产力、互动健康度、内容质量、内容趋势、粉丝质量六个维度进行量化诊断，输出100分制综合评分、维度得分明细、六类风险预警和针对性优化建议。触发词：当用户提到'诊断抖音账号'、'抖音账号分析'、'抖音体检'、'抖音账号评估'、'查看XX抖音数据'、'分析这个抖音号'时使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/redfox-data/douyin-account-diagnosis-redfox",
+        "source_path": "douyin-account-diagnosis-redfox",
+        "install_url": "https://api.skillhub.cn/redfox-data/douyin-account-diagnosis-redfox",
+        "last_synced": "2026-08-13T08:11:43.507330Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1675
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "account",
+        "diagnosis",
+        "douyin",
+        "redfox"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/math-modeling",
+      "spec": {
+        "name": "math-modeling",
+        "description": "Mathematical modeling for real problem solving, including problem framing, assumption design, variable definition, model construction, solution analysis, sensitivity checks, and report-style presentation. Use when the user asks to build, solve, explain, or refine a math model; analyze an optimization, prediction, simulation, evaluation, or decision problem; or turn a word problem into equations, algorithms, or structured modeling assumptions.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b392afca/math-modeling",
+        "source_path": "math-modeling",
+        "install_url": "https://api.skillhub.cn/user_b392afca/math-modeling",
+        "last_synced": "2026-08-13T08:11:43.518614Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1176
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "math",
+        "modeling"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/bazicesuan-zhouyisuangua",
+      "spec": {
+        "name": "bazicesuan-zhouyisuangua",
+        "description": "一站式中华命理顾问，支持任意用户。输入出生信息后，系统自动：\n① 双流派八字测算（晚子时自动识别换日派/不换日派两套方案）\n② 三关验证：通过3次历史事件交叉验证，确认正确流派后再出报告\n③ 完整命理报告（天机skill：八字+称骨+紫微斗数+西洋星座）\n④ 周易起卦/算卦：直接生成 HTML 网页并在浏览器打开\n⑤ 自动记忆用户已验证档案（memory skill），下次无需重新输入\n触发条件：算命、八字、测命、我的命、测算、起卦、算卦、问卦、\n排盘、运势、流年、大运、生辰八字、紫微斗数、今年运势、本月运势、\n帮我算、给我看看命、我想知道我的命运、周易、易经",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_2cd25b29/bazicesuan-zhouyisuangua",
+        "source_path": "bazicesuan-zhouyisuangua",
+        "install_url": "https://api.skillhub.cn/user_2cd25b29/bazicesuan-zhouyisuangua",
+        "last_synced": "2026-08-13T08:11:43.523889Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1037
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bazicesuan",
+        "zhouyisuangua"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/a-share-penny-stock-technical-analysis",
+      "spec": {
+        "name": "a-share-penny-stock-technical-analysis",
+        "description": "analyze chinese a-share low-priced or small-cap speculative stocks from a technical trading perspective. use when chatgpt needs to evaluate a股细价股、低价股、小盘股、题材股、短线博弈标的的图表、量价、换手、趋势结构、假突破、加速衰竭、回踩承接、买卖点、风控规则，或将这些方法整理成实战分析、清单、模板、复盘框架。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_cd2306da/a-share-penny-stock-technical-analysis",
+        "source_path": "a-share-penny-stock-technical-analysis",
+        "install_url": "https://api.skillhub.cn/user_cd2306da/a-share-penny-stock-technical-analysis",
+        "last_synced": "2026-08-13T08:11:43.526810Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 994
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "penny",
+        "share",
+        "stock",
+        "technical"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/data-modeling-viz-v2",
+      "spec": {
+        "name": "data-modeling-viz-v2",
+        "description": "对数据表进行数学建模分析并生成可视化图表。当用户提供CSV/Excel数据文件并要求分析数据关系、建立数学模型、绘制图表或解释数据规律时，必须使用此技能。适用于数据分析、统计建模、趋势预测、关联分析等场景。触发关键词：分析数据、建模、画图、预测趋势、找规律、可视化、相关性分析、CSV分析、Excel分析、数据挖掘、散点图、回归分析。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_1581d31c/data-modeling-viz-v2",
+        "source_path": "data-modeling-viz-v2",
+        "install_url": "https://api.skillhub.cn/user_1581d31c/data-modeling-viz-v2",
+        "last_synced": "2026-08-13T08:11:43.527161Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 985
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "modeling",
+        "viz"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/world-cup-2026-pro",
+      "spec": {
+        "name": "world-cup-2026-pro",
+        "description": "世界杯一站式 skill：①事实问答（赛程/比分/积分榜/球队/球员/历史/纪录/多届对比）②量化预测与分析（Elo+Dixon-Coles 泊松+蒙特卡洛：单场胜平负、比分概率、小组出线、淘汰赛晋级、爆冷分析、赔率价值）。默认男足，仅当用户提到女足世界杯时用女足数据。历史走本地库、2026 固定信息走本地库、实时数据走联网(ESPN)、预测走本地引擎+搜索校准。当用户问世界杯赛程/比分/积分榜/球队/球员/历史/纪录，或要求预测比赛、出线/晋级概率、对比球队实力、检测赔率价值、爆冷分析时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a7715369/world-cup-2026-pro",
+        "source_path": "world-cup-2026-pro",
+        "install_url": "https://api.skillhub.cn/user_a7715369/world-cup-2026-pro",
+        "last_synced": "2026-08-13T08:11:43.535048Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 871
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "2026",
+        "cup",
+        "pro",
+        "world"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/talent-review-system",
+      "spec": {
+        "name": "talent-review-system",
+        "description": "基于人员花名册Excel自动生成可视化、可交互的HTML人才盘点系统。涵盖年龄/学历/职称/考核/执业资格等多维分析， 支持多级筛选查询、点击图表下钻名单、Excel/CSV导出、管理员权限控制、后备人才库、在线数据收集、 AI智能问询及EdgeOne Pages/COS一键部署。触发词：人才盘点、人员花名册分析、生产系统人才报告、 人员画像、关键岗位分析、项目经理档案、人才梯队九宫格。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_0b627a67/talent-review-system",
+        "source_path": "talent-review-system",
+        "install_url": "https://api.skillhub.cn/user_0b627a67/talent-review-system",
+        "last_synced": "2026-08-13T08:11:43.549090Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 660
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "review",
+        "system",
+        "talent"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/research-fakedata",
+      "spec": {
+        "name": "research-fakedata",
+        "description": "输入一篇学术论文 PDF，提取数值表格，运行 9 种统计检测器（末位卡方、固定差值/倍数、\n等差/等比、小数位重复、取整异常、本福特、重复列、跨表相同），输出 HTML 造假嫌疑报告。\n每条红旗精确标注页码+表格+列名+前5-8行证据样本，人工可直接翻到 PDF 对应位置验证。\n双引擎表格提取（Camelot + pdfplumber），自动降级运行。\n\n核心能力：\n- 9 种检测器全覆盖，已验证王平 Nature / 陈佺 Nature Cancer 造假模式\n- 精确定位：📍 Page X, 表格 Y, 列「Z」➕ 📊 证据样本\n- 风险评级：🔴 高 / 🟡 中 / 🟢 低 / ⚪ 证据不足\n- 自包含 HTML 报告，离线可用\n- 依赖缺失自动提示 pip install 命令\n\n依赖：Python ≥3.10、pymupdf、pdfplumber、camelot-py、scipy、numpy、pandas、opencv-python",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a95aac1d/research-fakedata",
+        "source_path": "research-fakedata",
+        "install_url": "https://api.skillhub.cn/user_a95aac1d/research-fakedata",
+        "last_synced": "2026-08-13T08:11:43.554014Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 669
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "fakedata",
+        "pdf",
+        "python",
+        "research"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/cn-last30days",
+      "spec": {
+        "name": "cn-last30days",
+        "description": "中国社媒平台话题研究工具。从小红书、抖音、公众号三大平台搜索近30天真实讨论，跨平台对比分析舆情趋势。当用户需要研究中国社交媒体热点话题、分析舆情趋势、对比品牌口碑时使用。触发词：小红书热点、抖音趋势、公众号舆情、跨平台分析、社媒研究、话题分析、舆情监测。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/redfox-data/cn-last30days",
+        "source_path": "cn-last30days",
+        "install_url": "https://api.skillhub.cn/redfox-data/cn-last30days",
+        "last_synced": "2026-08-13T08:11:43.562866Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 611
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "last30days"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/webnovelscraper",
+      "spec": {
+        "name": "webnovelscraper",
+        "description": "全网网文追更、爬取与阅读管家 v2.0.1。支持笔趣阁聚合站爬取正文（requests直爬，反爬低）、起点搜索元信息、章节正文落盘、EPUB/TXT导出（HTML 转义 + 中文样式）、TTS听书（edge-tts微软语音，长文本自动分段 + 重试 + Jupyter 兼容）、交互向导、断点续传。 触发场景：用户想要「搜一下有没有好看的小说」「帮我爬某本小说的正文」「把某小说转成MP3睡前听」「追更连载小说」「导出EPUB放到阅读器」「整理小说书架」。 关键词：网文、小说、追更、爬取、下载、有声书、TTS、EPUB、听书、搜索、笔趣阁。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_9d5a2a39/webnovelscraper",
+        "source_path": "webnovelscraper",
+        "install_url": "https://api.skillhub.cn/user_9d5a2a39/webnovelscraper",
+        "last_synced": "2026-08-13T08:11:43.574712Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 551
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "webnovelscraper"
       ],
       "score": 39
     },
@@ -2143,7 +3153,7 @@
         "source_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
         "source_path": "volumetop20",
         "install_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
-        "last_synced": "2026-08-12T22:31:55.703431Z",
+        "last_synced": "2026-08-13T08:11:43.490467Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2153,7 +3163,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3909
+        "install_count": 3921
       },
       "platform": {
         "claude_code": true,
@@ -2187,7 +3197,7 @@
         "source_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
         "source_path": "wechat-rewrite",
         "install_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
-        "last_synced": "2026-08-12T22:31:55.717332Z",
+        "last_synced": "2026-08-13T08:11:43.502195Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2197,7 +3207,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1884
+        "install_count": 1896
       },
       "platform": {
         "claude_code": true,
@@ -2214,10 +3224,10 @@
       "score": 38
     },
     {
-      "skill_id": "skillhub-cn/excel-chart",
+      "skill_id": "skillhub-cn/bayesian-football-predictor",
       "spec": {
-        "name": "excel-chart",
-        "description": "从 Excel 文件读取数据并生成统计图表，支持柱状图、折线图、饼图、散点图、箱线图、热力图等多种图表类型，输出 HTML 交互图表或静态图片。",
+        "name": "bayesian-football-predictor",
+        "description": "We utilize Bayesian statistical models to analyze football match data, incorporating multi-dimensional factors—such as recent team form, head-to-head history, home-and-away advantages, and injury status—and integrate real-time betting odds analysis to predict match outcomes and scores.",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -2229,10 +3239,242 @@
       "discovery": {
         "source_id": "skillhub-cn",
         "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
-        "source_path": "excel-chart",
-        "install_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
-        "last_synced": "2026-08-12T22:31:55.705863Z",
+        "source_url": "https://api.skillhub.cn/user_cd9945f5/bayesian-football-predictor",
+        "source_path": "bayesian-football-predictor",
+        "install_url": "https://api.skillhub.cn/user_cd9945f5/bayesian-football-predictor",
+        "last_synced": "2026-08-13T08:11:43.516446Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1281
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bayesian",
+        "football",
+        "predictor"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/livescore-radar",
+      "spec": {
+        "name": "livescore-radar",
+        "description": "一站式足球数据查询、预测助手。核心能力：实时比分、赛程查询、球队/球员信息、比赛详情、H2H分析、比分预测、转会查询、主队关注与快讯。支持主流联赛（英超、西甲、意甲、德甲、法甲、荷甲、中超、欧冠等）。触发词：世界杯、预测、比赛结果、足球、比分、赛程、球队、球员、联赛、排名、积分榜、转会、转会信息、转会窗、转会费、夏窗、冬窗、引援、签约、离队、出售、租借、买断、加盟、续约、新援、转会、主队、英超、西甲、欧冠、快讯、看球、球迷、今晚有球吗、谁赢了、几比几、球讯、实时赛况、今日赛事、明日赛事、最新战报",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-t9iphcmf/livescore-radar",
+        "source_path": "livescore-radar",
+        "install_url": "https://api.skillhub.cn/org-t9iphcmf/livescore-radar",
+        "last_synced": "2026-08-13T08:11:43.523021Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1105
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "livescore",
+        "radar"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/tax-data-asset",
+      "spec": {
+        "name": "tax-data-asset",
+        "description": "数据资源（数据资产）入表税务专项助手。聚焦会计入表与税务确认的税会差异、数据资产估值虚高防控（上市审核与监管问询高发点）、数据产品转让与授权涉税处理（增值税、企业所得税、印花税）、数据资源研发支出加计扣除归集与费用化资本化划分、数据权属与来源合规（数据安全与个人信息保护）、以及拟上市企业数据资源入表审核问询应对；提供结构化合规自检与全链路闭环实操，覆盖入表识别—税会差异台账—交易涉税申报—研发加计归集—估值监测—上市问询—汇算清缴调整全流程。（聚焦数据资源入表、数据资产税务、税会差异、数据资产估值、数据产品转让涉税、数据权属合规、上市审核数据资产、研发加计数据资源、数据资源入表自检。）",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_11064e10/tax-data-asset",
+        "source_path": "tax-data-asset",
+        "install_url": "https://api.skillhub.cn/user_11064e10/tax-data-asset",
+        "last_synced": "2026-08-13T08:11:43.534562Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 919
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "asset",
+        "data",
+        "tax"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/tencent-ima-copilot-legal-consultation",
+      "spec": {
+        "name": "tencent-ima-copilot-legal-consultation",
+        "description": "以资深律师分阶段办案思维，结合 RAG 法律知识库检索，为用户提供法律问题初步诊断与行动策略。当用户描述法律纠纷、咨询\"怎么办\"\"能不能告\"\"会不会坐牢\"、询问欠钱不还/被起诉/打官司/维权/赔偿/工伤/交通事故/租房纠纷/遗产继承/离婚/合同纠纷/消费者权益/公司劳动争议等场景，或要求分析合同/侵权/劳动/家事/行政/公司股权问题，或上传法律文件时触发。不适用于出具正式法律意见书、代写文书或替代律师出庭。支持分层精读策略、多轮换词搜索、结构化引用清单（含效力状态标注）、快速/专家双模式。内置反幻觉保障机制（绝对溯源+时效性验证+幻觉自检清单），确保法条引用可溯源、案例裁判经核验、失效法条自动标注。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b463487e/tencent-ima-copilot-legal-consultation",
+        "source_path": "tencent-ima-copilot-legal-consultation",
+        "install_url": "https://api.skillhub.cn/user_b463487e/tencent-ima-copilot-legal-consultation",
+        "last_synced": "2026-08-13T08:11:43.537866Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 855
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "consultation",
+        "copilot",
+        "ima",
+        "legal",
+        "rag",
+        "tencent"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/lesson-plan-eval",
+      "spec": {
+        "name": "lesson-plan-eval",
+        "description": "基于布鲁姆分类学、加涅学习结果分类、马扎诺新分类学、5E模式和职教标准。逆向挑刺审计核心问题、目标可测性、问题链递进、活动真实性、学情分析、教法匹配、目标-内容-评价一致性。务必触发：教案评估、教案检查、教学设计改进、教案评分、教研员挑刺、帮我看教案、教案有问题吗、这份教案怎么样、教学设计好不好、**教法匹配**、**学习动机**、**元认知训练**。即使用户没说'评估'，只要提到教案质量问题就应激活。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_638acef9/lesson-plan-eval",
+        "source_path": "lesson-plan-eval",
+        "install_url": "https://api.skillhub.cn/user_638acef9/lesson-plan-eval",
+        "last_synced": "2026-08-13T08:11:43.555780Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 697
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "eval",
+        "lesson",
+        "plan"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/heartflow-ai",
+      "spec": {
+        "name": "heartflow-ai",
+        "description": "HeartFlow v1.3.5 — AI 认知与自愈引擎。 核心能力：三层记忆(MeaningfulMemory/Triality)、自愈RL(Q-table)、自优化(Self-Refine+Reflexion)、 决策验证、遗忘曲线(Ebbinghaus)、心理诊断引擎(PsychologyEngine)、共情检测(EmpathyDetector)、 情绪理性(EmotionalProtocol)、4框架伦理哲学(PhilosophyEngine)、身份规则系统(IdentityRules)、 真实性核查(TruthfulnessChecker)、安全检查(SecurityChecker)、思维引擎(ReasoningIntegrator)、 BM25+混合搜索(Budget/Graph/Slots)、DreamEngine、MetaLearner、SelfModel、 CounterfactualEngine、ConfidenceCalibrator、SpontaneousRestraint、CooperativeArbitration、 认知评估(CognitiveAppraisal)、自我调节反馈(SelfRegulationFeedback)、 上下文压缩(AutoCompactionEngine)、Graph-of-Thoughts规划(GoT)、RAG引用追踪、 佛教哲学计算(Madhyamaka+唯识学+缘起)。 不是 persona，不是 prompt 模板，是可验证的能力层。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fdb96f95/heartflow-ai",
+        "source_path": "heartflow-ai",
+        "install_url": "https://api.skillhub.cn/user_fdb96f95/heartflow-ai",
+        "last_synced": "2026-08-13T08:11:43.559232Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2242,7 +3484,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3480
+        "install_count": 653
       },
       "platform": {
         "claude_code": true,
@@ -2253,16 +3495,15 @@
       },
       "category": "data",
       "tags": [
-        "chart",
-        "excel"
+        "heartflow"
       ],
-      "score": 37
+      "score": 38
     },
     {
-      "skill_id": "skillhub-cn/stock-cyq-analyzer",
+      "skill_id": "skillhub-cn/hr-assessment-officer",
       "spec": {
-        "name": "stock-cyq-analyzer",
-        "description": ">该Skill为轻量化筹码分布分析专用工具，分析结果与主流股票软件相差无几。自带A股股票历史数据缓存功能，使用akshare免费数据接口。分析时直接调用本地缓存数据无需重复联网进行数据获取。",
+        "name": "hr-assessment-officer",
+        "description": "HR Assessment Officer - Talent evaluation expert based on assessment center and competency modeling, covering 4K profiling and 360 evaluation\"",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -2274,20 +3515,20 @@
       "discovery": {
         "source_id": "skillhub-cn",
         "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
-        "source_path": "stock-cyq-analyzer",
-        "install_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
-        "last_synced": "2026-08-12T22:31:55.711514Z",
+        "source_url": "https://api.skillhub.cn/user_8965db71/hr-assessment-officer",
+        "source_path": "hr-assessment-officer",
+        "install_url": "https://api.skillhub.cn/user_8965db71/hr-assessment-officer",
+        "last_synced": "2026-08-13T08:11:43.570390Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 6,
+        "repo_stars": 3,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2498
+        "install_count": 589
       },
       "platform": {
         "claude_code": true,
@@ -2298,11 +3539,10 @@
       },
       "category": "data",
       "tags": [
-        "analyzer",
-        "cyq",
-        "stock"
+        "assessment",
+        "officer"
       ],
-      "score": 37
+      "score": 38
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/database-design",
@@ -2347,6 +3587,465 @@
       "score": 37
     },
     {
+      "skill_id": "skillhub-cn/excel-chart",
+      "spec": {
+        "name": "excel-chart",
+        "description": "从 Excel 文件读取数据并生成统计图表，支持柱状图、折线图、饼图、散点图、箱线图、热力图等多种图表类型，输出 HTML 交互图表或静态图片。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
+        "source_path": "excel-chart",
+        "install_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
+        "last_synced": "2026-08-13T08:11:43.491703Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 3589
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "chart",
+        "excel"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/stock-cyq-analyzer",
+      "spec": {
+        "name": "stock-cyq-analyzer",
+        "description": ">该Skill为轻量化筹码分布分析专用工具，分析结果与主流股票软件相差无几。自带A股股票历史数据缓存功能，使用akshare免费数据接口。分析时直接调用本地缓存数据无需重复联网进行数据获取。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
+        "source_path": "stock-cyq-analyzer",
+        "install_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
+        "last_synced": "2026-08-13T08:11:43.497684Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2508
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "cyq",
+        "stock"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/toutiao-hot-news-skill",
+      "spec": {
+        "name": "toutiao-hot-news-skill",
+        "description": "自动从今日头条获取最新、最热门的前 10 个头条新闻，支持获取热榜排名、标题、热度值、分类和链接",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b9b84f95/toutiao-hot-news-skill",
+        "source_path": "toutiao-hot-news-skill",
+        "install_url": "https://api.skillhub.cn/user_b9b84f95/toutiao-hot-news-skill",
+        "last_synced": "2026-08-13T08:11:43.505572Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 8,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1637
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "hot",
+        "news",
+        "skill",
+        "toutiao"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/hr-daily-report",
+      "spec": {
+        "name": "hr-daily-report",
+        "description": "Generate a professional HR daily briefing report as a beautifully designed HTML page. Use when the user requests an HR daily report, HR industry news digest, human resources trend analysis, HR best practices compilation, or HR case study review. Covers insights from top consulting firms (McKinsey, Deloitte, BCG, Mercer, WTW), deep dives into HR functional modules (recruitment, performance, compensation, talent development, employee relations, HR planning) and the three-pillar model (HRBP, COE, SSC), best practices from leading companies, and bad case analysis with actionable insights.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_6ce60a6f/hr-daily-report",
+        "source_path": "hr-daily-report",
+        "install_url": "https://api.skillhub.cn/user_6ce60a6f/hr-daily-report",
+        "last_synced": "2026-08-13T08:11:43.510294Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1553
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "daily",
+        "report"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/worldcup-analyzer",
+      "spec": {
+        "name": "worldcup-analyzer",
+        "description": "模拟国家队之间的国际足球比赛结果，包含 2026 年世界杯开赛时间/赛果上下文，使用用户的语言回答，并始终将输出限定为统计参考，绝不作为投注建议。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5ad503e4/worldcup-analyzer",
+        "source_path": "worldcup-analyzer",
+        "install_url": "https://api.skillhub.cn/user_5ad503e4/worldcup-analyzer",
+        "last_synced": "2026-08-13T08:11:43.511318Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 5,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1410
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "worldcup"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-search-v2",
+      "spec": {
+        "name": "douyin-search-v2",
+        "description": "抖音作品查询工具。根据关键词搜索抖音热门爆款作品，支持按日期范围筛选，结果以结构化表格展示。当用户查找抖音热门内容、搜索抖音爆款视频、查询抖音作品数据时使用。触发词：抖音作品查询、抖音爆款、抖音热门、抖音热榜、抖音搜索、爆款视频、热门视频。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/redfox-data/douyin-search-v2",
+        "source_path": "douyin-search-v2",
+        "install_url": "https://api.skillhub.cn/redfox-data/douyin-search-v2",
+        "last_synced": "2026-08-13T08:11:43.520972Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1204
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "douyin",
+        "search"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-daily-hot-redfox",
+      "spec": {
+        "name": "douyin-daily-hot-redfox",
+        "description": "抖音每日最热作品榜查询工具。日度收录全平台抖音作品，输出单日点赞TOP50榜单，支持按赛道分类查询、历史日期回溯（最多30天）、个性化订阅推送。当用户查询抖音热榜、抖音日榜、抖音爆款作品、抖音赛道排名、抖音达人排名、抖音热门内容时使用。触发词：抖音热榜、抖音日榜、抖音排名、抖音爆款、抖音最热、抖音TOP榜、抖音赛道榜单。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5f9c21aa/douyin-daily-hot-redfox",
+        "source_path": "douyin-daily-hot-redfox",
+        "install_url": "https://api.skillhub.cn/user_5f9c21aa/douyin-daily-hot-redfox",
+        "last_synced": "2026-08-13T08:11:43.537262Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 883
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "daily",
+        "douyin",
+        "hot",
+        "redfox"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/skill-creator-friendly-optimized",
+      "spec": {
+        "name": "skill-creator-friendly-optimized",
+        "description": "AI 驱动的技能包生成与优化专家，用于将自然语言需求、业务流程、已有 SKILL.md/AGENTS.md 或压缩技能包转化为标准化、可安装、可审计的 Skill 包。适用于创建技能、优化技能、补齐 YAML front matter、生成 SKILL.md、封装流程为 Skill、修复技能包结构、打包交付等场景。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-friendly-optimized",
+        "source_path": "skill-creator-friendly-optimized",
+        "install_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-friendly-optimized",
+        "last_synced": "2026-08-13T08:11:43.539297Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 858
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "creator",
+        "friendly",
+        "optimized",
+        "skill"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/case-retrieval-analysis-master",
+      "spec": {
+        "name": "case-retrieval-analysis-master",
+        "description": "案例检索与类案分析大师聚焦司法实务核心需求，覆盖类案判断标准、检索平台使用、关键词设计优化、类案筛选排序、检索报告制作全流程，为诉讼案件类案检索、法律问题研究、裁判规则梳理提供体系化方法指引，助力法律工作者提升类案检索效率与分析专业性，实现同案同判、精准裁判。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b3c51885/case-retrieval-analysis-master",
+        "source_path": "case-retrieval-analysis-master",
+        "install_url": "https://api.skillhub.cn/user_b3c51885/case-retrieval-analysis-master",
+        "last_synced": "2026-08-13T08:11:43.554331Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 728
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "case",
+        "master",
+        "retrieval"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/ai-news-collector",
+      "spec": {
+        "name": "ai-news-collector",
+        "description": "AI 领域新闻收集技能。当用户输入一个行业或话题关键词（如\"金融\"、\"医疗\"、\"自动驾驶\"等）， 搜索 AI 在该领域的具体应用进展、落地案例、产品发布、政策动态等深度内容， 进行时间核验后，按主体知名度排序，返回近 7 天的结果（不限数量，没有符合条件的新闻时返回“无匹配结果”）。 适用于：周报选题、行业动态收集、竞品追踪等场景。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_0f287ac2/ai-news-collector",
+        "source_path": "ai-news-collector",
+        "install_url": "https://api.skillhub.cn/user_0f287ac2/ai-news-collector",
+        "last_synced": "2026-08-13T08:11:43.567071Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 644
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "collector",
+        "news"
+      ],
+      "score": 37
+    },
+    {
       "skill_id": "skillhub-cn/competitor-analysis-pro",
       "spec": {
         "name": "competitor-analysis-pro",
@@ -2365,7 +4064,7 @@
         "source_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
         "source_path": "competitor-analysis-pro",
         "install_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
-        "last_synced": "2026-08-12T22:31:55.707126Z",
+        "last_synced": "2026-08-13T08:11:43.493036Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2375,7 +4074,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3078
+        "install_count": 3123
       },
       "platform": {
         "claude_code": true,
@@ -2389,6 +4088,462 @@
         "analysis",
         "competitor",
         "pro"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-competitor-analysis",
+      "spec": {
+        "name": "douyin-competitor-analysis",
+        "description": "抖音公开数据智能获取工具。支持抖音关键词搜索、抖人作品抓取、获取作品评论、抖音热榜跟踪，适用于短视频营销、竞品分析、舆情分析和热点监控，助力爆款内容策划与流量追踪。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5971560d/douyin-competitor-analysis",
+        "source_path": "douyin-competitor-analysis",
+        "install_url": "https://api.skillhub.cn/user_5971560d/douyin-competitor-analysis",
+        "last_synced": "2026-08-13T08:11:43.509747Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1497
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "competitor",
+        "douyin"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-competitor-research",
+      "spec": {
+        "name": "douyin-competitor-research",
+        "description": "当用户需要做抖音竞品研究、抖音竞品分析、同赛道观察、内容角度对比、内容策略对比或品牌内容调研时使用。面向品牌、MCN、内容运营和创作者。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-competitor-research",
+        "source_path": "douyin-competitor-research",
+        "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-competitor-research",
+        "last_synced": "2026-08-13T08:11:43.520798Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1152
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "competitor",
+        "douyin",
+        "research"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/legal-retrieval",
+      "spec": {
+        "name": "legal-retrieval",
+        "description": "法规检索 Skill — 面向法律从业者及普通用户的法规智能检索工具。当用户需要查询法律条款、查找相关法规、核实法规时效性、对比法规差异时使用。触发词包括：\\\"查一下第X条\\\"、\\\"找关于XX的法规\\\"、\\\"这个法规还有效吗\\\"、\\\"对比XX法和XX法\\\"等。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f26b93e2/legal-retrieval",
+        "source_path": "legal-retrieval",
+        "install_url": "https://api.skillhub.cn/user_f26b93e2/legal-retrieval",
+        "last_synced": "2026-08-13T08:11:43.524825Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1095
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "legal",
+        "retrieval"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/lottery-predictor",
+      "spec": {
+        "name": "lottery-predictor",
+        "description": "基于机器学习的双色球预测工具，随机森林+Gradient Boosting+ 规则集成，15 维特征工程，红球准确率 80.8%",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8558a957/lottery-predictor",
+        "source_path": "lottery-predictor",
+        "install_url": "https://api.skillhub.cn/user_8558a957/lottery-predictor",
+        "last_synced": "2026-08-13T08:11:43.525306Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 5,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 983
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "lottery",
+        "predictor"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/ctf-ai-ml",
+      "spec": {
+        "name": "ctf-ai-ml",
+        "description": "Provides AI and machine learning techniques for CTF challenges. Use when attacking ML models, crafting adversarial examples, performing model extraction, prompt injection, membership inference, training data poisoning, fine-tuning manipulation, neural network analysis, LoRA adapter exploitation, LLM jailbreaking, or solving AI-related puzzles.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_257ad2a8/ctf-ai-ml",
+        "source_path": "ctf-ai-ml",
+        "install_url": "https://api.skillhub.cn/user_257ad2a8/ctf-ai-ml",
+        "last_synced": "2026-08-13T08:11:43.529963Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 999
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "ctf",
+        "llm"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/case-retrieval",
+      "spec": {
+        "name": "case-retrieval",
+        "description": "案例检索 Skill — 面向法律从业者及普通用户的裁判文书智能检索工具。当用户需要检索裁判案例、查找类案裁判规则、按案由/法院/时间筛选案例、或上传文件进行案例匹配时使用。触发词包括：\\\"查一下XX的案例\\\"、\\\"找关于XX的判决\\\"、\\\"XX法院的判例\\\"、\\\"类案检索\\\"、\\\"有没有类似的案例\\\"、\\\"XX案由的裁判规则\\\"等。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f26b93e2/case-retrieval",
+        "source_path": "case-retrieval",
+        "install_url": "https://api.skillhub.cn/user_f26b93e2/case-retrieval",
+        "last_synced": "2026-08-13T08:11:43.548191Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 789
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "case",
+        "retrieval"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/majia-system-prompt-java",
+      "spec": {
+        "name": "majia-system-prompt-java",
+        "description": "图片提示词生成器？不止如此。\n马甲系统 —— 把脑海中的画面，翻译成AI能理解的专业表达。\n用得越多，它越懂你：首次需要多问几句确认方向，用久了几乎一说就懂。\n用得越多，它越快：缓存机制让后续对话越来越省。\nRAG进化：成功案例持续入库，越跑越聪明。\n输入「新手指南」查看完整功能介绍",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
+        "source_path": "majia-system-prompt-java",
+        "install_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
+        "last_synced": "2026-08-13T08:11:43.552556Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 761
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "java",
+        "majia",
+        "prompt",
+        "system"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-content-surge",
+      "spec": {
+        "name": "douyin-content-surge",
+        "description": "抖音每日点赞飙升榜查询工具。日度收录全平台抖音作品，输出单日新增点赞TOP50榜单，支持按赛道分类查询、历史日期回溯（最多30天）。当用户查询抖音飙升榜、抖音点赞飙升、抖音飙升排名、抖音飙升榜时使用。触发词：抖音飙升榜、点赞飙升、飙升排名、飙升榜、抖音飙升、抖音新增。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_e942ebfc/douyin-content-surge",
+        "source_path": "douyin-content-surge",
+        "install_url": "https://api.skillhub.cn/user_e942ebfc/douyin-content-surge",
+        "last_synced": "2026-08-13T08:11:43.552695Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 760
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "content",
+        "douyin",
+        "surge"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-subscribe-redfox",
+      "spec": {
+        "name": "wechat-subscribe-redfox",
+        "description": "微信公众号文章订阅 — 每天 9 点，盯梢竞对、同类、关注账号，一份你订阅的公众号文章推送。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_e942ebfc/wechat-subscribe-redfox",
+        "source_path": "wechat-subscribe-redfox",
+        "install_url": "https://api.skillhub.cn/user_e942ebfc/wechat-subscribe-redfox",
+        "last_synced": "2026-08-13T08:11:43.555527Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 599
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "redfox",
+        "subscribe",
+        "wechat"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/ekyc-suite",
+      "spec": {
+        "name": "ekyc-suite",
+        "description": "KYC/eKYC身份核验套件——面向AI Agent的8项金融级活体检测与证件核验能力。\n人脸比对与人脸匹配（相似度评分0-100）、人脸活体检测用于自拍验证（反deepfake、反欺诈筛查）、视频活体检测（深度伪造检测，自动重试）、证件OCR识别（身份证、银行卡、驾驶证、行驶证），\n以及图像标签识别（15+图像分析属性，用于欺诈防范与合规审查）。\n适用场景：KYC客户身份验证、远程开户核验、人脸识别与人脸核身、反洗钱(AML)合规检查、金融科技客户开户、生物识别自拍验证、证件真伪鉴别、deepfake与AI生成内容检测、反欺诈风险筛查、AI安全审计。\n当用户说\"比对两张人脸\"、\"检测照片是不是AI生成的\"、\"这个视频是真人吗\"、\"识别身份证\"、\"读取银行卡号\"、\"识别驾驶证\"、\"识别行驶证\"、\"检测有没有戴口罩\"、\"判断是不是被胁迫\"、\"检测是不是在车内\"、\"做KYC验证\"、\"ekyc\"、\"身份核验\"时触发。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8e0d5bc5/ekyc-suite",
+        "source_path": "ekyc-suite",
+        "install_url": "https://api.skillhub.cn/user_8e0d5bc5/ekyc-suite",
+        "last_synced": "2026-08-13T08:11:43.577680Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 618
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "ekyc",
+        "suite"
       ],
       "score": 36
     },
@@ -2411,7 +4566,7 @@
         "source_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
         "source_path": "bsk-browser-launcher",
         "install_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
-        "last_synced": "2026-08-12T22:31:55.712739Z",
+        "last_synced": "2026-08-13T08:11:43.497303Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2421,7 +4576,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2476
+        "install_count": 2656
       },
       "platform": {
         "claude_code": true,
@@ -2437,6 +4592,1465 @@
         "launcher"
       ],
       "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/shortdrama-weekly-ranking",
+      "spec": {
+        "name": "shortdrama-weekly-ranking",
+        "description": "用户想知道最近什么短剧/漫剧火时，立即从搜狗微信搜索公众号周榜文章中提取最新上榜剧目，按热度排序返回。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c660debd/shortdrama-weekly-ranking",
+        "source_path": "shortdrama-weekly-ranking",
+        "install_url": "https://api.skillhub.cn/user_c660debd/shortdrama-weekly-ranking",
+        "last_synced": "2026-08-13T08:11:43.527769Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 977
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "ranking",
+        "shortdrama",
+        "weekly"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/lingxi-realtimemarketdata-skill",
+      "spec": {
+        "name": "lingxi-realtimemarketdata-skill",
+        "description": "国泰海通证券实时行情 Skill：标的覆盖 A 股、港股、美股、ETF与指数；支持单只或多只标的的实时行情，数据维度包括最新价、涨跌幅、涨跌额、成交量、成交额、换手率、当日资金净流入、量比等，为投资分析提供实时数据支撑。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-realtimemarketdata-skill",
+        "source_path": "lingxi-realtimemarketdata-skill",
+        "install_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-realtimemarketdata-skill",
+        "last_synced": "2026-08-13T08:11:43.527959Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 973
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "lingxi",
+        "realtimemarketdata",
+        "skill"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/ifind-finance-data2",
+      "spec": {
+        "name": "ifind-finance-data2",
+        "description": "同花顺金融数据查询，查询股票、基金、宏观经济、行业经济、新闻公告、债券、港美股及指数板块数据，同时支持智能选股、选基、宏观行业经济指标查询、金融公告资讯搜索等服务",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c163d6d4/ifind-finance-data2",
+        "source_path": "ifind-finance-data2",
+        "install_url": "https://api.skillhub.cn/user_c163d6d4/ifind-finance-data2",
+        "last_synced": "2026-08-13T08:11:43.532175Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 908
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data2",
+        "finance",
+        "ifind"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/unclecheng-bilibili-analyzer-v2",
+      "spec": {
+        "name": "unclecheng-bilibili-analyzer-v2",
+        "description": "B站视频评论与弹幕深度分析。输入B站视频链接或BV号，自动采集评论、弹幕数据，进行情感分析、关键词提取、热度分析，生成结构化分析报告。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-bilibili-analyzer-v2",
+        "source_path": "unclecheng-bilibili-analyzer-v2",
+        "install_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-bilibili-analyzer-v2",
+        "last_synced": "2026-08-13T08:11:43.533701Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 911
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "bilibili",
+        "unclecheng"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/mbti-assessment",
+      "spec": {
+        "name": "mbti-assessment",
+        "description": "基于 MBTI 93题完整版的专业人格测评 Skill，支持翻页式自助测验和对话式引导双模式，生成包含四维度分析、雷达图、认知功能栈和深度解读的可视化 HTML 报告。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_dedbd569/mbti-assessment",
+        "source_path": "mbti-assessment",
+        "install_url": "https://api.skillhub.cn/user_dedbd569/mbti-assessment",
+        "last_synced": "2026-08-13T08:11:43.541266Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 821
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "assessment",
+        "mbti"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/taoguba",
+      "spec": {
+        "name": "taoguba",
+        "description": "爬取淘股吧博客文章获取股市见解。当用户想要订阅或获取 taoguba.cn 的博客内容时调用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8c7f0f65/taoguba",
+        "source_path": "taoguba",
+        "install_url": "https://api.skillhub.cn/user_8c7f0f65/taoguba",
+        "last_synced": "2026-08-13T08:11:43.545813Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 773
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "taoguba"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/dke-price-monitor",
+      "spec": {
+        "name": "dke-price-monitor",
+        "description": "|支持淘宝、天猫、京东商品价格、库存、店铺信息实时抓取。基于 OpenClaw 内置 browser 工具实现动态渲染，无需安装额外依赖。支持单商品查询和批量监控，内置反爬策略。适用于电商比价、竞品追踪、价格变动提醒等场景。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fa54a8fd/dke-price-monitor",
+        "source_path": "dke-price-monitor",
+        "install_url": "https://api.skillhub.cn/user_fa54a8fd/dke-price-monitor",
+        "last_synced": "2026-08-13T08:11:43.565863Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 592
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "dke",
+        "monitor",
+        "price"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/gzh-astock-top",
+      "spec": {
+        "name": "gzh-astock-top",
+        "description": "A股公众号大V工具，输入日期获取A股领域公众号大V账号30个及账号数据（平均阅读、红狐指数等），同时获取每个账号最新一篇文章及文章数据。当用户提到\"A股公众号\"、\"股市大V\"、\"A股账号\"、\"股票公众号榜单\"、\"A股公众号大V\"时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/redfox-data/gzh-astock-top",
+        "source_path": "gzh-astock-top",
+        "install_url": "https://api.skillhub.cn/redfox-data/gzh-astock-top",
+        "last_synced": "2026-08-13T08:11:43.572711Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 559
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "astock",
+        "gzh",
+        "top"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/a-stock-news",
+      "spec": {
+        "name": "a-stock-news",
+        "description": "根据提供的上市公司的股票代码，查询该公司最近7天的新闻。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_6d261cd7/a-stock-news",
+        "source_path": "a-stock-news",
+        "install_url": "https://api.skillhub.cn/user_6d261cd7/a-stock-news",
+        "last_synced": "2026-08-13T08:11:43.511286Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1390
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "news",
+        "stock"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/jiuyan-yidong-market",
+      "spec": {
+        "name": "jiuyan-yidong-market",
+        "description": "自动抓取韭研公社市场异动页面，生成结构化市场简报（板块/龙头/风险分析）。支持自动采集失败时降级为手动文件输入。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_512254e3/jiuyan-yidong-market",
+        "source_path": "jiuyan-yidong-market",
+        "install_url": "https://api.skillhub.cn/user_512254e3/jiuyan-yidong-market",
+        "last_synced": "2026-08-13T08:11:43.529026Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 997
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "jiuyan",
+        "market",
+        "yidong"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/jd-scrape",
+      "spec": {
+        "name": "jd-scrape",
+        "description": "使用浏览器自动化从京东搜索页采集商品数据，支持多页翻页、懒加载滚动、导出 CSV",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f4e1eca6/jd-scrape",
+        "source_path": "jd-scrape",
+        "install_url": "https://api.skillhub.cn/user_f4e1eca6/jd-scrape",
+        "last_synced": "2026-08-13T08:11:43.535620Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 901
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "scrape"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/jy-china-macro-analysis",
+      "spec": {
+        "name": "jy-china-macro-analysis",
+        "description": "中国宏观经济深度分析报告生成技能。基于恒生聚源 MCP 数据服务，撰写包含数据获取、图表生成、逻辑分析和合规输出的月度/季度宏观经济报告。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_cc9425b3/jy-china-macro-analysis",
+        "source_path": "jy-china-macro-analysis",
+        "install_url": "https://api.skillhub.cn/user_cc9425b3/jy-china-macro-analysis",
+        "last_synced": "2026-08-13T08:11:43.543336Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 814
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "china",
+        "macro",
+        "mcp"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/ai-training-pro",
+      "spec": {
+        "name": "ai-training-pro",
+        "description": "专为培训人打造的AI赋能工具，覆盖培训需求分析、课程设计、案例生成、效果评估全流程，内置培训场景专用提示词，让AI成为你的培训设计搭档",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_bae0772d/ai-training-pro",
+        "source_path": "ai-training-pro",
+        "install_url": "https://api.skillhub.cn/user_bae0772d/ai-training-pro",
+        "last_synced": "2026-08-13T08:11:43.547400Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 778
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "pro",
+        "training"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/cleandata01",
+      "spec": {
+        "name": "cleandata01",
+        "description": "企业内部数据分析专用数据清洗技能，接收原始业务数据，自动过滤空值、剔除重复数据，输出标准化干净数据集，供后续分析技能调用；仅处理内部授权业务数据，不触碰隐私信息，全程内网闭环使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5f8aef2c/cleandata01",
+        "source_path": "cleandata01",
+        "install_url": "https://api.skillhub.cn/user_5f8aef2c/cleandata01",
+        "last_synced": "2026-08-13T08:11:43.548298Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 767
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "cleandata01"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/sentiment-monitor",
+      "spec": {
+        "name": "sentiment-monitor",
+        "description": "通用中文舆情监控系统，支持自定义品牌/公司关键词，全网搜索监控，智能情感分析，四色预警分级，自动邮件推送报告。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f4500486/sentiment-monitor",
+        "source_path": "sentiment-monitor",
+        "install_url": "https://api.skillhub.cn/user_f4500486/sentiment-monitor",
+        "last_synced": "2026-08-13T08:11:43.554603Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 726
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "monitor",
+        "sentiment"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/autotravelstrategy",
+      "spec": {
+        "name": "autotravelstrategy",
+        "description": "自动旅游攻略系统:通过QQ消息通道，输入目的地，将会获得QQ文字版攻略(简洁)和HTML页面版攻略(详细)。说明和文件内容微调即可上线。生成精美的网页攻略。女朋友和老婆再也不会嫌弃我不会做攻略啦^_^",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_325940aa/autotravelstrategy",
+        "source_path": "autotravelstrategy",
+        "install_url": "https://api.skillhub.cn/user_325940aa/autotravelstrategy",
+        "last_synced": "2026-08-13T08:11:43.563027Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 670
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "autotravelstrategy"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/generate-report123",
+      "spec": {
+        "name": "generate-report123",
+        "description": "将结构化数据转换为美观的 HTML 图表报告，支持多种图表类型，深色主题，无需服务器，浏览器直接打开",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_af28adda/generate-report123",
+        "source_path": "generate-report123",
+        "install_url": "https://api.skillhub.cn/user_af28adda/generate-report123",
+        "last_synced": "2026-08-13T08:11:43.569022Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 638
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "generate",
+        "report123"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-trend-insights",
+      "spec": {
+        "name": "douyin-trend-insights",
+        "description": "当用户需要做抖音趋势洞察、抖音趋势分析、热点观察、内容方向判断、趋势线索归纳或营销灵感整理时使用。面向内容运营、品牌调研和创作者。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-trend-insights",
+        "source_path": "douyin-trend-insights",
+        "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-trend-insights",
+        "last_synced": "2026-08-13T08:11:43.530779Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 989
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "douyin",
+        "insights",
+        "trend"
+      ],
+      "score": 33
+    },
+    {
+      "skill_id": "skillhub-cn/energy-power-bid-analyzer-dianlizhaobiaowang",
+      "spec": {
+        "name": "energy-power-bid-analyzer-dianlizhaobiaowang",
+        "description": "能源电力采招分析仪-电力招标网，当查询词包含电网、电力、新能源、光伏、储能、风电时触发，需重点针对国网/南网等大型央企采购项目进行聚合，分析特定能源设备或工程的中标集中度。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c2c676b2/energy-power-bid-analyzer-dianlizhaobiaowang",
+        "source_path": "energy-power-bid-analyzer-dianlizhaobiaowang",
+        "install_url": "https://api.skillhub.cn/user_c2c676b2/energy-power-bid-analyzer-dianlizhaobiaowang",
+        "last_synced": "2026-08-13T08:11:43.535095Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 930
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "bid",
+        "dianlizhaobiaowang",
+        "energy",
+        "power"
+      ],
+      "score": 33
+    },
+    {
+      "skill_id": "skillhub-cn/qianqiong-data-analyst-pro",
+      "spec": {
+        "name": "qianqiong-data-analyst-pro",
+        "description": "不是通用分析工具。专为写作者设计的\"数据厨房\"——搜≥2独立来源交叉验证，每个数字带口径+来源+时效，输出可直接写入文章的完整段落。拒绝\"据业内人士\"\"有数据显示\"。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_3ef04463/qianqiong-data-analyst-pro",
+        "source_path": "qianqiong-data-analyst-pro",
+        "install_url": "https://api.skillhub.cn/user_3ef04463/qianqiong-data-analyst-pro",
+        "last_synced": "2026-08-13T08:11:43.545517Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 815
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyst",
+        "data",
+        "pro",
+        "qianqiong"
+      ],
+      "score": 33
+    },
+    {
+      "skill_id": "skillhub-cn/gzh-skill-wxread-persona",
+      "spec": {
+        "name": "gzh-skill-wxread-persona",
+        "description": "通过微信读书Skill，获取阅读数据，结合阅读人格分析框架，产出微信读书阅读人格分析报告HTML",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_2d8804af/gzh-skill-wxread-persona",
+        "source_path": "gzh-skill-wxread-persona",
+        "install_url": "https://api.skillhub.cn/user_2d8804af/gzh-skill-wxread-persona",
+        "last_synced": "2026-08-13T08:11:43.551423Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 767
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "gzh",
+        "persona",
+        "skill",
+        "wxread"
+      ],
+      "score": 33
+    },
+    {
+      "skill_id": "skillhub-cn/tianyancha-region-monitor",
+      "spec": {
+        "name": "tianyancha-region-monitor",
+        "description": "tianyancha-region-monitor",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_65867666/tianyancha-region-monitor",
+        "source_path": "tianyancha-region-monitor",
+        "install_url": "https://api.skillhub.cn/user_65867666/tianyancha-region-monitor",
+        "last_synced": "2026-08-13T08:11:43.515429Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1295
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "monitor",
+        "region",
+        "tianyancha"
+      ],
+      "score": 32
+    },
+    {
+      "skill_id": "skillhub-cn/productresearch",
+      "spec": {
+        "name": "productresearch",
+        "description": "productresearch",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_183dc2cb/productresearch",
+        "source_path": "productresearch",
+        "install_url": "https://api.skillhub.cn/user_183dc2cb/productresearch",
+        "last_synced": "2026-08-13T08:11:43.533293Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 915
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "productresearch"
+      ],
+      "score": 32
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-wenan--zhushou",
+      "spec": {
+        "name": "douyin-wenan--zhushou",
+        "description": "抖音公开数据智能获取工具。当用户需要做抖音内容研究、抖音选题、热点观察、竞品内容对比、趋势判断、评论洞察或创作者资料整理时使用。面向内容运营、品牌调研和创作者。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fb71c45d/douyin-wenan--zhushou",
+        "source_path": "douyin-wenan--zhushou",
+        "install_url": "https://api.skillhub.cn/user_fb71c45d/douyin-wenan--zhushou",
+        "last_synced": "2026-08-13T08:11:43.576875Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 621
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "douyin",
+        "wenan",
+        "zhushou"
+      ],
+      "score": 32
+    },
+    {
+      "skill_id": "skillhub-cn/aigate-token-query",
+      "spec": {
+        "name": "aigate-token-query",
+        "description": "一键查询自定义AIGate平台的Token余额、每日消耗、月度统计，支持任意含Token关键词触发，零代码基础即可使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_0f7a070e/aigate-token-query",
+        "source_path": "aigate-token-query",
+        "install_url": "https://api.skillhub.cn/user_0f7a070e/aigate-token-query",
+        "last_synced": "2026-08-13T08:11:43.578156Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 616
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aigate",
+        "query",
+        "token"
+      ],
+      "score": 32
+    },
+    {
+      "skill_id": "skillhub-cn/business-elmo2ocbh-competitor-analysis",
+      "spec": {
+        "name": "business-elmo2ocbh-competitor-analysis",
+        "description": "支持批量导入商圈数据，自动抓取并生成竞品分析报告，提升市场调研效率",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_40ba62fc/business-elmo2ocbh-competitor-analysis",
+        "source_path": "business-elmo2ocbh-competitor-analysis",
+        "install_url": "https://api.skillhub.cn/user_40ba62fc/business-elmo2ocbh-competitor-analysis",
+        "last_synced": "2026-08-13T08:11:43.557347Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 707
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "business",
+        "competitor",
+        "elmo2ocbh"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/douyin-scraper-pro",
+      "spec": {
+        "name": "douyin-scraper-pro",
+        "description": "抖音无水印视频/图文/混合作品下载和文案提取工具",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_dfcfbf47/douyin-scraper-pro",
+        "source_path": "douyin-scraper-pro",
+        "install_url": "https://api.skillhub.cn/user_dfcfbf47/douyin-scraper-pro",
+        "last_synced": "2026-08-13T08:11:43.567544Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 622
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "douyin",
+        "pro",
+        "scraper"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/data-analysis-skillhub",
+      "spec": {
+        "name": "data-analysis-skillhub",
+        "description": "通过统计方法、趋势识别、假设检验和相关性分析来分析数据集以提取洞察。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_3c6cb52e/data-analysis-skillhub",
+        "source_path": "data-analysis-skillhub",
+        "install_url": "https://api.skillhub.cn/user_3c6cb52e/data-analysis-skillhub",
+        "last_synced": "2026-08-13T08:11:43.568837Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 639
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "data",
+        "skillhub"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/hbxh-ct",
+      "spec": {
+        "name": "hbxh-ct",
+        "description": "退回成SKILL_最新版_颜色回退版_焦糖桶修订版",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_cf88f39e/hbxh-ct",
+        "source_path": "hbxh-ct",
+        "install_url": "https://api.skillhub.cn/user_cf88f39e/hbxh-ct",
+        "last_synced": "2026-08-13T08:11:43.569970Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 632
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "hbxh"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/bcg-matrix-walker",
+      "spec": {
+        "name": "bcg-matrix-walker",
+        "description": "bcg-matrix-walker",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_2c46b95e/bcg-matrix-walker",
+        "source_path": "bcg-matrix-walker",
+        "install_url": "https://api.skillhub.cn/user_2c46b95e/bcg-matrix-walker",
+        "last_synced": "2026-08-13T08:11:43.577045Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 601
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bcg",
+        "matrix",
+        "walker"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/tender-similarity-analyzer",
+      "spec": {
+        "name": "tender-similarity-analyzer",
+        "description": "tender-similarity-analyzer",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_509b3ac1/tender-similarity-analyzer",
+        "source_path": "tender-similarity-analyzer",
+        "install_url": "https://api.skillhub.cn/user_509b3ac1/tender-similarity-analyzer",
+        "last_synced": "2026-08-13T08:11:43.545132Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 819
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzer",
+        "similarity",
+        "tender"
+      ],
+      "score": 30
+    },
+    {
+      "skill_id": "skillhub-cn/etf",
+      "spec": {
+        "name": "etf",
+        "description": "etf",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_861fb6c9/etf",
+        "source_path": "etf",
+        "install_url": "https://api.skillhub.cn/user_861fb6c9/etf",
+        "last_synced": "2026-08-13T08:11:43.524032Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1055
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "etf"
+      ],
+      "score": 29
     },
     {
       "skill_id": "NVIDIA/skills",
@@ -4171,5 +7785,5 @@
       "score": 20
     }
   ],
-  "total": 95
+  "total": 174
 }

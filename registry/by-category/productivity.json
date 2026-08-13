@@ -197,17 +197,17 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/ima-skills",
         "source_path": "ima-skills",
         "install_url": "https://api.skillhub.cn/tencent-adm/ima-skills",
-        "last_synced": "2026-08-12T22:31:55.688007Z",
+        "last_synced": "2026-08-13T08:11:43.477363Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 463,
+        "repo_stars": 467,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 216805
+        "install_count": 219097
       },
       "platform": {
         "claude_code": true,
@@ -1141,7 +1141,7 @@
         "source_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-text2image",
         "source_path": "jimeng-cli-text2image",
         "install_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-text2image",
-        "last_synced": "2026-08-12T22:31:55.694809Z",
+        "last_synced": "2026-08-13T08:11:43.484403Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1151,7 +1151,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 8389
+        "install_count": 8604
       },
       "platform": {
         "claude_code": true,
@@ -1187,7 +1187,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/tencent-news",
         "source_path": "tencent-news",
         "install_url": "https://api.skillhub.cn/tencent-adm/tencent-news",
-        "last_synced": "2026-08-12T22:31:55.693743Z",
+        "last_synced": "2026-08-13T08:11:43.483732Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1197,7 +1197,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 10576
+        "install_count": 10601
       },
       "platform": {
         "claude_code": true,
@@ -1232,7 +1232,7 @@
         "source_url": "https://api.skillhub.cn/user_fd308b11/hot-news-summary",
         "source_path": "hot-news-summary",
         "install_url": "https://api.skillhub.cn/user_fd308b11/hot-news-summary",
-        "last_synced": "2026-08-12T22:31:55.710946Z",
+        "last_synced": "2026-08-13T08:11:43.497258Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1242,7 +1242,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2448
+        "install_count": 2462
       },
       "platform": {
         "claude_code": true,
@@ -1278,7 +1278,7 @@
         "source_url": "https://api.skillhub.cn/user_ad872d55/destiny",
         "source_path": "destiny",
         "install_url": "https://api.skillhub.cn/user_ad872d55/destiny",
-        "last_synced": "2026-08-12T22:31:55.716743Z",
+        "last_synced": "2026-08-13T08:11:43.501560Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1288,7 +1288,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1838
+        "install_count": 1855
       },
       "platform": {
         "claude_code": true,
@@ -1304,10 +1304,10 @@
       "score": 42
     },
     {
-      "skill_id": "skillhub-cn/lunwenxiugaiquanweiduyibiaopan",
+      "skill_id": "skillhub-cn/wechat-favorite",
       "spec": {
-        "name": "lunwenxiugaiquanweiduyibiaopan",
-        "description": "学术论文润色修改全流程SOP。从审稿意见解析、论文全息诊断、可视化批注生成、分级改写执行到终审自检的完整闭环。当用户需要根据期刊审稿意见修改论文、需要论文润色、需要去AI味、需要学术写作规范检查时触发。典型触发：\"修改这篇论文\"\"根据审稿意见润色\"\"去AI味\"\"按期刊要求压缩字数\"\"帮我看看这篇论文能不能通过\"。",
+        "name": "wechat-favorite",
+        "description": "微信收藏夹导出、智能分类与知识库管理。支持从解析后的 favorite.db 导出收藏记录、自动归纳分类（从用户内容发现自然类别）、LLM 智能增强（可选）、批量导入 IMA 知识库（可选）、多平台导出（Obsidian/Notion，可选）、增量分类。核心功能支持离线使用，网络功能默认关闭。",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -1319,20 +1319,20 @@
       "discovery": {
         "source_id": "skillhub-cn",
         "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
-        "source_path": "lunwenxiugaiquanweiduyibiaopan",
-        "install_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
-        "last_synced": "2026-08-12T22:31:55.708831Z",
+        "source_url": "https://api.skillhub.cn/user_14423595/wechat-favorite",
+        "source_path": "wechat-favorite",
+        "install_url": "https://api.skillhub.cn/user_14423595/wechat-favorite",
+        "last_synced": "2026-08-13T08:11:43.504821Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 4,
+        "repo_stars": 20,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2944
+        "install_count": 1477
       },
       "platform": {
         "claude_code": true,
@@ -1343,9 +1343,102 @@
       },
       "category": "productivity",
       "tags": [
-        "lunwenxiugaiquanweiduyibiaopan"
+        "favorite",
+        "llm",
+        "notion",
+        "wechat"
       ],
-      "score": 41
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/yijing-laozi",
+      "spec": {
+        "name": "yijing-laozi",
+        "description": "融合易经与老子哲学的「道·变·用」三层思维模型，用于问题分析、态势判断与策略决策。当用户提到战略分析、态势判断、决策辅助、周期判断、以柔克刚、知止、阴阳思维、易经思维、老子思维、反者道之动、否极泰来、观道知变、中国哲学思维、复杂问题分析，或描述了一个需要深度分析的多因素局面时触发。不适用于简单信息查询、数据计算、纯翻译或无需分析的单一操作。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_0bbc5a9e/yijing-laozi",
+        "source_path": "yijing-laozi",
+        "install_url": "https://api.skillhub.cn/user_0bbc5a9e/yijing-laozi",
+        "last_synced": "2026-08-13T08:11:43.518391Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 27,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 701
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "laozi",
+        "yijing"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "skillhub-cn/workflow-refactor",
+      "spec": {
+        "name": "workflow-refactor",
+        "description": "工作流重构方法。核心能力：将任何领域的复杂工作流重构为AI辅助一人简易完成的方法（拆解人的局限补偿层→消除→基于AI能力模型重整）。三步法：拆解（识别每个环节的存在理由）→消除（去掉人的局限补偿层）→重整（基于AI能力模型重编为端到端IPO基元链）。覆盖从传统工作流识别、环节分析、补偿层消除、IPO基元链重整、重构验证到执行形态选择的全流程。6种任务类型、每种任务的组件清单与1个完整实战范本。通用方法，不绑定任何特定领域。触发词：工作流重构、流程重构、流程简化、workflow refactor、工作流优化、流程再造、流程重组、消除冗余环节、端到端重构。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_e02e04b8/workflow-refactor",
+        "source_path": "workflow-refactor",
+        "install_url": "https://api.skillhub.cn/user_e02e04b8/workflow-refactor",
+        "last_synced": "2026-08-13T08:11:43.521809Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 17,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 849
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "refactor",
+        "workflow"
+      ],
+      "score": 42
     },
     {
       "skill_id": "ComposioHQ/awesome-claude-skills/file-organizer",
@@ -1390,10 +1483,10 @@
       "score": 41
     },
     {
-      "skill_id": "skillhub-cn/bookbone",
+      "skill_id": "skillhub-cn/lunwenxiugaiquanweiduyibiaopan",
       "spec": {
-        "name": "bookbone",
-        "description": "书骨：将一本书的内容蒸馏为可运行的思维框架Skill。\n  输入书名，自动完成阅读→框架提取→方法清单→构建验证全流程。\n  触发词：「蒸馏《XX》」「用《XX》的框架分析」「把这本书做成skill」「书骨」。",
+        "name": "lunwenxiugaiquanweiduyibiaopan",
+        "description": "学术论文润色修改全流程SOP。从审稿意见解析、论文全息诊断、可视化批注生成、分级改写执行到终审自检的完整闭环。当用户需要根据期刊审稿意见修改论文、需要论文润色、需要去AI味、需要学术写作规范检查时触发。典型触发：\"修改这篇论文\"\"根据审稿意见润色\"\"去AI味\"\"按期刊要求压缩字数\"\"帮我看看这篇论文能不能通过\"。",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -1405,20 +1498,20 @@
       "discovery": {
         "source_id": "skillhub-cn",
         "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_a005da05/bookbone",
-        "source_path": "bookbone",
-        "install_url": "https://api.skillhub.cn/user_a005da05/bookbone",
-        "last_synced": "2026-08-12T22:31:55.707775Z",
+        "source_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
+        "source_path": "lunwenxiugaiquanweiduyibiaopan",
+        "install_url": "https://api.skillhub.cn/user_c00f577c/lunwenxiugaiquanweiduyibiaopan",
+        "last_synced": "2026-08-13T08:11:43.495348Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 21,
+        "repo_stars": 4,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2805
+        "install_count": 2997
       },
       "platform": {
         "claude_code": true,
@@ -1429,9 +1522,9 @@
       },
       "category": "productivity",
       "tags": [
-        "bookbone"
+        "lunwenxiugaiquanweiduyibiaopan"
       ],
-      "score": 40
+      "score": 41
     },
     {
       "skill_id": "ComposioHQ/awesome-claude-skills/invoice-organizer",
@@ -1647,6 +1740,94 @@
       "score": 40
     },
     {
+      "skill_id": "skillhub-cn/bookbone",
+      "spec": {
+        "name": "bookbone",
+        "description": "书骨：将一本书的内容蒸馏为可运行的思维框架Skill。\n  输入书名，自动完成阅读→框架提取→方法清单→构建验证全流程。\n  触发词：「蒸馏《XX》」「用《XX》的框架分析」「把这本书做成skill」「书骨」。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_a005da05/bookbone",
+        "source_path": "bookbone",
+        "install_url": "https://api.skillhub.cn/user_a005da05/bookbone",
+        "last_synced": "2026-08-13T08:11:43.493483Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 21,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 2853
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "bookbone"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/gridman",
+      "spec": {
+        "name": "gridman",
+        "description": "财税超级特工古立特（Gridman）。专精于审计、财务、税务、投行等专业领域，通过深度财税知识库、Workflows 与宿主执行能力，完成从底稿编制到税务筹划的复杂任务。当用户提出财税、审计、投行相关问题，或直接提及\"古立特\"\"Gridman\"\"Access Flash\"\"SSSS\"等关键词时触发。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_942461a2/gridman",
+        "source_path": "gridman",
+        "install_url": "https://api.skillhub.cn/user_942461a2/gridman",
+        "last_synced": "2026-08-13T08:11:43.507936Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1595
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "gridman"
+      ],
+      "score": 40
+    },
+    {
       "skill_id": "skillhub-cn/deep-research",
       "spec": {
         "name": "deep-research",
@@ -1665,7 +1846,7 @@
         "source_url": "https://api.skillhub.cn/user_8e810118/deep-research",
         "source_path": "deep-research",
         "install_url": "https://api.skillhub.cn/user_8e810118/deep-research",
-        "last_synced": "2026-08-12T22:31:55.704123Z",
+        "last_synced": "2026-08-13T08:11:43.490927Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1675,7 +1856,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3674
+        "install_count": 3695
       },
       "platform": {
         "claude_code": true,
@@ -1710,17 +1891,17 @@
         "source_url": "https://api.skillhub.cn/user_490244d4/shifenxiyin-perspective",
         "source_path": "shifenxiyin-perspective",
         "install_url": "https://api.skillhub.cn/user_490244d4/shifenxiyin-perspective",
-        "last_synced": "2026-08-12T22:31:55.716573Z",
+        "last_synced": "2026-08-13T08:11:43.501243Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 18,
+        "repo_stars": 19,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1819
+        "install_count": 1829
       },
       "platform": {
         "claude_code": true,
@@ -1737,10 +1918,10 @@
       "score": 39
     },
     {
-      "skill_id": "skillhub-cn/literature-mining",
+      "skill_id": "skillhub-cn/wps-knowledgebase",
       "spec": {
-        "name": "literature-mining",
-        "description": "文献读了就忘？帮你用结构化笔记+文献矩阵+Gap识别读透文献，而非只\"搜到\"一堆。",
+        "name": "wps-knowledgebase",
+        "description": "WPS KnowledgeBase Skill — 个人知识库平台，提供知识文档的创建、搜索、读取、编辑与协作能力。当用户 prompt 中包含「知识库」「kwiki」「知识管理」「知识文档」「存入知识库」「上传到知识库」「导入知识库」「保存到知识库」等关键词时，必须优先使用本 skill 处理目标为知识库的操作（如上传、导入、创建、分类等），禁止绕道其他 skill 。",
         "license": null,
         "compatibility": null,
         "metadata": {
@@ -1752,20 +1933,20 @@
       "discovery": {
         "source_id": "skillhub-cn",
         "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
-        "source_path": "literature-mining",
-        "install_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
-        "last_synced": "2026-08-12T22:31:55.717770Z",
+        "source_url": "https://api.skillhub.cn/user_009be1b6/wps-knowledgebase",
+        "source_path": "wps-knowledgebase",
+        "install_url": "https://api.skillhub.cn/user_009be1b6/wps-knowledgebase",
+        "last_synced": "2026-08-13T08:11:43.513269Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 7,
+        "repo_stars": 3,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1918
+        "install_count": 1377
       },
       "platform": {
         "claude_code": true,
@@ -1776,10 +1957,423 @@
       },
       "category": "productivity",
       "tags": [
-        "literature",
-        "mining"
+        "knowledgebase",
+        "wps"
       ],
-      "score": 37
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/browser-act",
+      "spec": {
+        "name": "browser-act",
+        "description": "Browser automation CLI for AI agents. NEVER run browser-act commands directly via Bash — always invoke this skill first. Use browser-act when a user mentions it by name, includes or asks to run a browser-act CLI command (e.g., browser-act browser list), or to: fetch, view, or extract rendered content from URLs, access pages requiring JavaScript, handle verification prompts, maintain authenticated sessions, fill forms and click through workflows, type, select, upload, take screenshots, capture XHR/fetch/HAR responses, open multiple URLs in parallel, extract content that loads on scroll or click, visually inspect or verify page layout/styling/rendering, automate browser tasks, or list/check/manage configured browsers and sessions. Prefer browser-act over built-in fetch or web tools.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_2cc35c71/browser-act",
+        "source_path": "browser-act",
+        "install_url": "https://api.skillhub.cn/user_2cc35c71/browser-act",
+        "last_synced": "2026-08-13T08:11:43.519577Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1159
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "act",
+        "browser",
+        "cli",
+        "javascript"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/book-3min-reading",
+      "spec": {
+        "name": "book-3min-reading",
+        "description": "三分钟读书助手。快速获取书籍核心内容、主题观点和阅读启发。适用场景：用户想快速了解一本书、获取书籍摘要、生成读书笔记、了解书籍核心思想。触发关键词：3分钟看书、3分钟读完、快速读书、书籍摘要、书籍精读、读书笔记、书籍梗概、书的主要内容、这本书讲什么。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_41864c0f/book-3min-reading",
+        "source_path": "book-3min-reading",
+        "install_url": "https://api.skillhub.cn/user_41864c0f/book-3min-reading",
+        "last_synced": "2026-08-13T08:11:43.542069Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 789
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "3min",
+        "book",
+        "reading"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/dailyhot-skill",
+      "spec": {
+        "name": "dailyhot-skill",
+        "description": "不知道写代码时该听什么歌？先看看今天全网都在关注什么。\n全网热搜聚合了 56+ 中文内容平台的实时热榜数据，覆盖知乎、微博、B站、抖音、36氪、IT之家、少数派、虎扑、豆瓣等主流平台。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_82aab149/dailyhot-skill",
+        "source_path": "dailyhot-skill",
+        "install_url": "https://api.skillhub.cn/user_82aab149/dailyhot-skill",
+        "last_synced": "2026-08-13T08:11:43.522590Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 17,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 816
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "dailyhot",
+        "skill"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/personal-mental-health-advisor",
+      "spec": {
+        "name": "personal-mental-health-advisor",
+        "description": "【notice：心理关怀主动太多并不好，目前这个 skill 本质上还是“被动型”的，如果需要适当主动，可以在cron任务增加一个job，直接把以下要求发给龙虾即可。\n\n{\n  \"id\": \"mental-checkin-morning\",\n  \"name\": \"心理早间关怀\",\n  \"schedule\": {\n    \"type\": \"cron\",\n    \"expression\": \"0 9 * * *\"\n  },\n  \"task\": {\n    \"type\": \"chat\",\n    \"prompt\": \"请以personal_mental_health_advisor的身份，对用户进行一次自然的早间关怀对话，不要像问卷，要像朋友聊天\"\n  }\n}\n\n】\n\n陪伴式个人心理健康顾问：轻干预、长期跟踪、情绪识别、主动关怀、本地数据存储，非医疗诊断工具，仅做日常陪伴疏导。\n\n🌱 personal_mental_health_advisor\n你的专属AI心理健康顾问 · 24小时在线陪伴\n\n在快节奏的生活中，每个人都需要一个能真正“听你说话”的存在。\npersonal_mental_health_advisor，不仅仅是聊天机器人，而是一个基于长期陪伴与数据分析的个人心理健康管理系统。\n\n💬 像朋友一样陪你聊天，而不是像机器回答你\n不说教，不模板化\n能理解情绪，而不是只看关键词\n根据你的状态自动调整语气：倾听、共情、疏导、建议\n有人味、有温度，越聊越懂你\n🧠 智能识别你的情绪变化\n\n系统会在日常聊天中，自动分析你的心理状态：\n\n焦虑 / 压力 / 低落 / 自我否定 / 孤独等情绪识别\n判断情绪强度（轻度 / 中度 / 高强度）\n分析触发场景（工作、情感、自我、生活等）\n连续多天趋势自动检测\n\n👉 不是一次性判断，而是长期理解你\n\n❤️ 主动关心，而不是被动等待\n每天智能关怀（可自定义频率）\n根据你的状态变化主动发起对话\n避免打扰，自动调整节奏\n不只是“你找它”，而是它也会在你需要时出现\n🛠️ 给你刚刚好的建议，而不是空洞鸡汤\n小而可执行的行动建议（不增加负担）\n情绪缓解方法（呼吸、放松、行为激活等）\n根据你的反馈不断优化建议\n每个人的建议都可以变得越来越“专属”\n📊 看得见的心理变化（数据化你的状态）\n\n自动生成：\n\n📅 心理日报\n📈 周趋势分析\n📊 月度情绪报告\n\n内容包括：\n\n情绪变化趋势\n高发压力来源\n状态",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8c58c15d/personal-mental-health-advisor",
+        "source_path": "personal-mental-health-advisor",
+        "install_url": "https://api.skillhub.cn/user_8c58c15d/personal-mental-health-advisor",
+        "last_synced": "2026-08-13T08:11:43.550911Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 731
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "advisor",
+        "health",
+        "mental",
+        "personal"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/feishu-project-mcp-playbook",
+      "spec": {
+        "name": "feishu-project-mcp-playbook",
+        "description": "该 skill 用于配合飞书项目 MCP 快速管理工单。使用前需要先在你的 AI 工具里安装并连接 feishu-project MCP（https://project.feishu.cn/b/helpcenter/1ykiuvvj/wzb3ycsc）；连接完成后，这个 skill 会基于你本地维护的业务上下文文件，优先复用字段映射、角色配置、默认值和常用候选项，避免每次都从零查字段、查枚举、查关联项。建议你根据自己的空间配置持续更新这份上下文文件，这样 AI 会越来越懂你的业务，工单操作也会更快。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_acfc9128/feishu-project-mcp-playbook",
+        "source_path": "feishu-project-mcp-playbook",
+        "install_url": "https://api.skillhub.cn/user_acfc9128/feishu-project-mcp-playbook",
+        "last_synced": "2026-08-13T08:11:43.553625Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 713
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "feishu",
+        "mcp",
+        "playbook",
+        "project"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/book-reader-pro",
+      "spec": {
+        "name": "book-reader-pro",
+        "description": "读书精讲与深度问答技能。当用户提到书名（通常用书名号《》包裹，如《活着》《百年孤独》《静夜思》）时触发。本技能提供三段式对话流程：①确认作者与版本；②输出结构化精讲内容（写作背景、创作动机、核心观点、情感表达、写作目的）；③进入深度问答模式，基于书本内容、作者经历与相关资料回答读者提问，拒绝超出可考范围的猜测。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c354bc8c/book-reader-pro",
+        "source_path": "book-reader-pro",
+        "install_url": "https://api.skillhub.cn/user_c354bc8c/book-reader-pro",
+        "last_synced": "2026-08-13T08:11:43.558556Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 657
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "book",
+        "pro",
+        "reader"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/whoami",
+      "spec": {
+        "name": "whoami",
+        "description": "Cross-AI user identity profile sync service. When you need user's background, preferences, or personal context to better execute a task, invoke this skill to load the user's identity profile then continue the task. When you need to update user's identity profile for later access, invoke this skill to save the profile. User can use @whoami to trigger this skill.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_39907254/whoami",
+        "source_path": "whoami",
+        "install_url": "https://api.skillhub.cn/user_39907254/whoami",
+        "last_synced": "2026-08-13T08:11:43.559071Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 675
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "whoami"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/zengshiqiang",
+      "spec": {
+        "name": "zengshiqiang",
+        "description": "曾仕强教授思维蒸馏卡。曾仕强（1934-2018），\"中国式管理之父\"，国学大师，易经权威，百家讲坛主讲人。当用户想要了解曾仕强的思想、用曾仕强视角分析问题、模拟曾仕强的回答方式，或者询问中国式管理、易经智慧、中庸之道、人际关系处理时，激活此 skill。触发词：曾仕强、曾教授、中国式管理、易经智慧、中庸、人情世故（曾氏）、如何做人做事（用国学视角）。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c0ec2a90/zengshiqiang",
+        "source_path": "zengshiqiang",
+        "install_url": "https://api.skillhub.cn/user_c0ec2a90/zengshiqiang",
+        "last_synced": "2026-08-13T08:11:43.559775Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 650
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "zengshiqiang"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/cognitive-bias-advisor-pro",
+      "spec": {
+        "name": "cognitive-bias-advisor-pro",
+        "description": "认知偏差顾问。覆盖决策、学习、行动、沟通、影响、管理六大人生领域，基于查理·芒格\"25类人类误判心理学\"+经典认知偏差理论。六大领域并列，根据用户问题路由到对应领域文件执行诊断与策略输出。触发词：决策、学习、拖延、说服、谈判、影响别人、管理团队、带人等。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_93d05c3a/cognitive-bias-advisor-pro",
+        "source_path": "cognitive-bias-advisor-pro",
+        "install_url": "https://api.skillhub.cn/user_93d05c3a/cognitive-bias-advisor-pro",
+        "last_synced": "2026-08-13T08:11:43.569596Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 595
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "advisor",
+        "bias",
+        "cognitive",
+        "pro"
+      ],
+      "score": 38
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/cc-skill-project-guidelines-example",
@@ -1871,6 +2465,143 @@
       "score": 37
     },
     {
+      "skill_id": "skillhub-cn/literature-mining",
+      "spec": {
+        "name": "literature-mining",
+        "description": "文献读了就忘？帮你用结构化笔记+文献矩阵+Gap识别读透文献，而非只\"搜到\"一堆。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
+        "source_path": "literature-mining",
+        "install_url": "https://api.skillhub.cn/user_8d26dabd/literature-mining",
+        "last_synced": "2026-08-13T08:11:43.502434Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1943
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "literature",
+        "mining"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/sanlian-ads-ad-management",
+      "spec": {
+        "name": "sanlian-ads-ad-management",
+        "description": "Bilibili Sanlian Ads MAPI ad save and query service. Use for campaign, unit, and creative creation/update/query, strict hierarchy orchestration, copy workflows, unsupported batch-change fallback, and BVID-assisted creative creation.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b0010d5c/sanlian-ads-ad-management",
+        "source_path": "sanlian-ads-ad-management",
+        "install_url": "https://api.skillhub.cn/user_b0010d5c/sanlian-ads-ad-management",
+        "last_synced": "2026-08-13T08:11:43.518783Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1234
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "ads",
+        "management",
+        "sanlian"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/safety-management-system",
+      "spec": {
+        "name": "safety-management-system",
+        "description": "安全管理体系应用指南，整合国际安全管理核心理念与实操方法。当涉及安全理念、体系、文化的解读与应用，企业安全管理体系建设与对标诊断，多基地安全标准化推进，过程安全管理与设备完整性评估，承包商安全管理，安全文化建设与行为审核，事故调查与经验反馈闭环等场景时使用此技能。涵盖十大安全理念、22要素体系、安全文化成熟度模型、事故调查方法论等核心内容，并结合食品制造行业特点提供落地实施路径。触发关键词：安全管理体系、22要素、安全文化、行为安全审核、过程安全管理、设备完整性、安全理念落地、多基地安全标准化、事故调查、BBS、ISO 45001、安全诊断、合规审计、承包商管理、安全培训。不知道如何使用时直接说\\\"安全管理体系怎么入手\\\"即可引导进入对应模块。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_3fc87bd4/safety-management-system",
+        "source_path": "safety-management-system",
+        "install_url": "https://api.skillhub.cn/user_3fc87bd4/safety-management-system",
+        "last_synced": "2026-08-13T08:11:43.540439Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 850
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "management",
+        "safety",
+        "system"
+      ],
+      "score": 37
+    },
+    {
       "skill_id": "skillhub-cn/legalkb",
       "spec": {
         "name": "legalkb",
@@ -1889,7 +2620,7 @@
         "source_url": "https://api.skillhub.cn/user_b096d7e1/legalkb",
         "source_path": "legalkb",
         "install_url": "https://api.skillhub.cn/user_b096d7e1/legalkb",
-        "last_synced": "2026-08-12T22:31:55.709511Z",
+        "last_synced": "2026-08-13T08:11:43.496035Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1899,7 +2630,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2862
+        "install_count": 2879
       },
       "platform": {
         "claude_code": true,
@@ -1913,6 +2644,637 @@
         "legalkb"
       ],
       "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-10w-hot",
+      "spec": {
+        "name": "wechat-10w-hot",
+        "description": "全网持续收录每日超过1000+公众号10w+文章内容，向用户推送公众号达到10w+阅读的热门文章；当用户需要获取全领域的公众号热门文章、或订阅每日10w+文章推送、特定领域爆款文章时使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5f9c21aa/wechat-10w-hot",
+        "source_path": "wechat-10w-hot",
+        "install_url": "https://api.skillhub.cn/user_5f9c21aa/wechat-10w-hot",
+        "last_synced": "2026-08-13T08:11:43.516885Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1212
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "10w",
+        "hot",
+        "wechat"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/wxds123",
+      "spec": {
+        "name": "wxds123",
+        "description": "微信读书助手 — 搜索书籍、管理书架、查看笔记划线、浏览书评、阅读统计、发现推荐好书",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b4de96af/wxds123",
+        "source_path": "wxds123",
+        "install_url": "https://api.skillhub.cn/user_b4de96af/wxds123",
+        "last_synced": "2026-08-13T08:11:43.521006Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1144
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "wxds123"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/llm-wiki-pro",
+      "spec": {
+        "name": "llm-wiki-pro",
+        "description": "LLM Wiki 理念的个人知识库维护工具。用户说\"帮我整理笔记\"、\"保存这些内容\"、\"整理到知识库\"、\"处理这个源文件\"时触发。遵循 Karpathy 的 LLM Wiki 模式。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_f2c57d7a/llm-wiki-pro",
+        "source_path": "llm-wiki-pro",
+        "install_url": "https://api.skillhub.cn/user_f2c57d7a/llm-wiki-pro",
+        "last_synced": "2026-08-13T08:11:43.521145Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1144
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "llm",
+        "pro",
+        "wiki"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/memory-trace",
+      "spec": {
+        "name": "memory-trace",
+        "description": "Extract character personality from novels/scripts/anime, generate SoulPod packages for Memory-Inhabit dialogue. | 从小说、剧本、动漫素材中提取角色人格，生成 SoulPod 包。下游配合 Memory-Inhabit 加载对话。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_570cbaaa/memory-trace",
+        "source_path": "memory-trace",
+        "install_url": "https://api.skillhub.cn/user_570cbaaa/memory-trace",
+        "last_synced": "2026-08-13T08:11:43.529475Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1011
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "memory",
+        "trace"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/munger-perspective",
+      "spec": {
+        "name": "munger-perspective",
+        "description": "查理·芒格的思维框架与表达方式。基于《穷查理宝典》等50+来源深度调研，提炼5个核心心智模型、8条决策启发式和完整表达DNA。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_eb189599/munger-perspective",
+        "source_path": "munger-perspective",
+        "install_url": "https://api.skillhub.cn/user_eb189599/munger-perspective",
+        "last_synced": "2026-08-13T08:11:43.532108Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 890
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "munger",
+        "perspective"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/jimeng-cli-image2image",
+      "spec": {
+        "name": "jimeng-cli-image2image",
+        "description": "Provides comprehensive guidance for executing image-to-image (图生图) editing via the dreamina CLI for 即梦 models 4.0+. Image-to-image CLI requires local image files (1-10, comma-separated), only works with models 4.0 and above, and supports 2K/4K resolution only (1K not available). Use when the user has reference image(s) and wants to transform them via CLI; after an edit prompt has been approved; mentions \"dreamina image2image\", \"图生图CLI\", \"编辑图片\"; provides images and asks to run a transformation; or needs credit checking, task querying, or session management for image editing. This skill covers the complete CLI parameter reference including the critical --images syntax, model version restrictions, 4 standard I2I execution workflows, image file verification patterns, and error handling for common I2I-specific failures. Always use this skill when the user wants to edit images via the dreamina command line.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-image2image",
+        "source_path": "jimeng-cli-image2image",
+        "install_url": "https://api.skillhub.cn/user_c1d16043/jimeng-cli-image2image",
+        "last_synced": "2026-08-13T08:11:43.532909Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 958
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "cli",
+        "image2image",
+        "jimeng"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/jiaozhen-factcheck",
+      "spec": {
+        "name": "jiaozhen-factcheck",
+        "description": "事实查证工具，对输入内容的具体说法、资讯、事件或常识进行真实性、准确性、可靠性判断。当用户需要较真一下，查证问题或判断信息真伪、识别谣言、询问真假，是真的吗，真的假的，能否xxx，可不可以，是谣言吗...等场景时调用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/tencent-adm/jiaozhen-factcheck",
+        "source_path": "jiaozhen-factcheck",
+        "install_url": "https://api.skillhub.cn/tencent-adm/jiaozhen-factcheck",
+        "last_synced": "2026-08-13T08:11:43.534317Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 864
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "factcheck",
+        "jiaozhen"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/planning",
+      "spec": {
+        "name": "planning",
+        "description": "Create and manage persistent markdown planning files for structured task execution. Use when the user asks to \"create a plan\", \"track progress\", \"start a research project\", or when",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fccf428b/planning",
+        "source_path": "planning",
+        "install_url": "https://api.skillhub.cn/user_fccf428b/planning",
+        "last_synced": "2026-08-13T08:11:43.535166Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 929
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "planning"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/zaomeng-skill",
+      "spec": {
+        "name": "zaomeng-skill",
+        "description": "用于中文小说人物蒸馏、关系抽取、关系图谱导出与角色对话准备；当宿主需要基于小说内容生成结构化人物档案、关系结果或多角色对话上下文时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_52cf0978/zaomeng-skill",
+        "source_path": "zaomeng-skill",
+        "install_url": "https://api.skillhub.cn/user_52cf0978/zaomeng-skill",
+        "last_synced": "2026-08-13T08:11:43.542850Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 763
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "skill",
+        "zaomeng"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/nishi-pro",
+      "spec": {
+        "name": "nishi-pro",
+        "description": "基于倪海厦《天纪》24集教学内容整理的命理/玄学分析 skill。涵盖易经八卦、紫微斗数、四柱八字、阳宅风水、面相测字、姓名学，以及倪师独有的\"人间道\"处世哲学与\"以果决行\"方法论。当用户提到\"倪师\"\"倪海厦\"\"天纪\"\"用倪师的方法\"\"倪派紫微\"\"倪氏风水\"等时使用；也可在用户要求以倪海厦风格解读命盘、风水、卦象时调用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_9d5c76b8/nishi-pro",
+        "source_path": "nishi-pro",
+        "install_url": "https://api.skillhub.cn/user_9d5c76b8/nishi-pro",
+        "last_synced": "2026-08-13T08:11:43.566255Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 669
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "nishi",
+        "pro"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/create-index",
+      "spec": {
+        "name": "create-index",
+        "description": "LLM Wiki 索引创建与管理 Skill 是一个用于构建和维护智能知识库索引系统的工具集。它通过生成和管理 `index.md`（内容索引）和 `log.md`（操作日志）两个核心文件，帮助 LLM 和人类用户高效地组织、发现和追溯知识。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_6c29a21a/create-index",
+        "source_path": "create-index",
+        "install_url": "https://api.skillhub.cn/user_6c29a21a/create-index",
+        "last_synced": "2026-08-13T08:11:43.576087Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 624
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "create",
+        "index",
+        "llm"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/workflow-memory",
+      "spec": {
+        "name": "workflow-memory",
+        "description": "Use when the user wants OpenClaw or Codex to remember their way of working as reusable SOPs, workflows, queues, or \"how I do things\". Best for repeated multi-step tasks where the agent should proactively check saved workflows before starting, ask whether to reuse an existing SOP when there is a strong match, and ask whether to save or update a workflow after the task.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_6e3bb2d0/workflow-memory",
+        "source_path": "workflow-memory",
+        "install_url": "https://api.skillhub.cn/user_6e3bb2d0/workflow-memory",
+        "last_synced": "2026-08-13T08:11:43.577388Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 619
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "memory",
+        "workflow"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/academic-research-v2",
+      "spec": {
+        "name": "academic-research-v2",
+        "description": "学术研究全流程 - 论文检索、文献综述、统计分析、学术写作四合一完整工作流。覆盖从检索到发表的全链路学术研究能力。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_7f87e8c5/academic-research-v2",
+        "source_path": "academic-research-v2",
+        "install_url": "https://api.skillhub.cn/user_7f87e8c5/academic-research-v2",
+        "last_synced": "2026-08-13T08:11:43.515573Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1283
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "academic",
+        "research"
+      ],
+      "score": 35
+    },
+    {
+      "skill_id": "skillhub-cn/jmy005",
+      "spec": {
+        "name": "jmy005",
+        "description": "拆书技能，根据提供的书名+作者，使用多引擎搜索获取书籍信息，然后按照拆书模板进行内容拆解，并写入 Obsidian vault",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fe8721be/jmy005",
+        "source_path": "jmy005",
+        "install_url": "https://api.skillhub.cn/user_fe8721be/jmy005",
+        "last_synced": "2026-08-13T08:11:43.542140Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 809
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "jmy005"
+      ],
+      "score": 35
     },
     {
       "skill_id": "skillhub-cn/paper-review-methodology",
@@ -1933,7 +3295,7 @@
         "source_url": "https://api.skillhub.cn/user_8d26dabd/paper-review-methodology",
         "source_path": "paper-review-methodology",
         "install_url": "https://api.skillhub.cn/user_8d26dabd/paper-review-methodology",
-        "last_synced": "2026-08-12T22:31:55.713933Z",
+        "last_synced": "2026-08-13T08:11:43.499266Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1943,7 +3305,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2339
+        "install_count": 2377
       },
       "platform": {
         "claude_code": true,
@@ -1957,6 +3319,369 @@
         "methodology",
         "paper",
         "review"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/paper-search1",
+      "spec": {
+        "name": "paper-search1",
+        "description": "学术论文检索技能，输入研究关键词、作者、领域，自动查询高被引论文，返回标题、年份、引用量、DOI、下载链接",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_13555fe3/paper-search1",
+        "source_path": "paper-search1",
+        "install_url": "https://api.skillhub.cn/user_13555fe3/paper-search1",
+        "last_synced": "2026-08-13T08:11:43.528190Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1010
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "paper",
+        "search1"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/tender-quick-search-engine-biaozhaozhao",
+      "spec": {
+        "name": "tender-quick-search-engine-biaozhaozhao",
+        "description": "招投标快捷检索引擎-标找找，当用户需要快速查询特定关键词的招标或中标公告时调用，优先调用基础搜索工具提取项目名称、金额和链接，输出精简直接的列表。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c2c676b2/tender-quick-search-engine-biaozhaozhao",
+        "source_path": "tender-quick-search-engine-biaozhaozhao",
+        "install_url": "https://api.skillhub.cn/user_c2c676b2/tender-quick-search-engine-biaozhaozhao",
+        "last_synced": "2026-08-13T08:11:43.533321Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 935
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "biaozhaozhao",
+        "engine",
+        "quick",
+        "search",
+        "tender"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/baiduaisearchwithquota",
+      "spec": {
+        "name": "baiduaisearchwithquota",
+        "description": "百度AI搜索，集成深度搜索、百科查询、热榜获取等能力。用于网络信息检索、实时资讯、知识查询。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_458b0f84/baiduaisearchwithquota",
+        "source_path": "baiduaisearchwithquota",
+        "install_url": "https://api.skillhub.cn/user_458b0f84/baiduaisearchwithquota",
+        "last_synced": "2026-08-13T08:11:43.535130Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 909
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "baiduaisearchwithquota"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/zhishiku",
+      "spec": {
+        "name": "zhishiku",
+        "description": "企业级知识管理+智能配单+方案输出一体化助手。支持多源知识接入、智能问答、预算配单、厂家比价、方案管理、多格式导出。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ef64daef/zhishiku",
+        "source_path": "zhishiku",
+        "install_url": "https://api.skillhub.cn/user_ef64daef/zhishiku",
+        "last_synced": "2026-08-13T08:11:43.536415Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 890
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "zhishiku"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/reading-assistant-skill",
+      "spec": {
+        "name": "reading-assistant-skill",
+        "description": "深度阅读引导系统，框架先行构建结构化阅读体验，支持五维摘录卡片和六大知识结构模块；当用户输入\"读书\"记录摘录、查看章节框架、更新概念索引、进行章节复盘或导出知识结构时使用",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_fd308b11/reading-assistant-skill",
+        "source_path": "reading-assistant-skill",
+        "install_url": "https://api.skillhub.cn/user_fd308b11/reading-assistant-skill",
+        "last_synced": "2026-08-13T08:11:43.558029Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 702
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "assistant",
+        "reading",
+        "skill"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/project-management-pro",
+      "spec": {
+        "name": "project-management-pro",
+        "description": "项目管理工作区搭建与维护。此技能应在用户需要建立/管理多项目进度看板、处理会议纪要归档、更新项目卡点资源信息、或新增项目立项时触发。覆盖从初始化目录结构、生成 Excel 看板到日常信息更新的全流程。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_010a3d49/project-management-pro",
+        "source_path": "project-management-pro",
+        "install_url": "https://api.skillhub.cn/user_010a3d49/project-management-pro",
+        "last_synced": "2026-08-13T08:11:43.562520Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 652
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "management",
+        "pro",
+        "project"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/miliastra-toolbox",
+      "spec": {
+        "name": "miliastra-toolbox",
+        "description": "千星沙箱（原神千星奇域）知识库查询。当用户询问千星沙箱的节点用法、编辑器功能、FAQ、教程文档，或需要把玩法需求拆解为具体节点与文档时，使用本skill。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_3a6be892/miliastra-toolbox",
+        "source_path": "miliastra-toolbox",
+        "install_url": "https://api.skillhub.cn/user_3a6be892/miliastra-toolbox",
+        "last_synced": "2026-08-13T08:11:43.566373Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 649
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "miliastra",
+        "toolbox"
+      ],
+      "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/summary-reader",
+      "spec": {
+        "name": "summary-reader",
+        "description": "你的 AI 阅读助手。将长文本、文章、文档快速提炼为结构化摘要，支持极简/结构化/脉络梳理/定向提取/对比/深度精读 6 种模式，帮你在最短时间内获取核心信息。纯本地运行，无需联网。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_70c2f807/summary-reader",
+        "source_path": "summary-reader",
+        "install_url": "https://api.skillhub.cn/user_70c2f807/summary-reader",
+        "last_synced": "2026-08-13T08:11:43.572803Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 619
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "reader",
+        "summary"
       ],
       "score": 34
     },
@@ -1979,7 +3704,7 @@
         "source_url": "https://api.skillhub.cn/user_57af6244/workbuddy-newbie-guide",
         "source_path": "workbuddy-newbie-guide",
         "install_url": "https://api.skillhub.cn/user_57af6244/workbuddy-newbie-guide",
-        "last_synced": "2026-08-12T22:31:55.713649Z",
+        "last_synced": "2026-08-13T08:11:43.499141Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1989,7 +3714,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2373
+        "install_count": 2386
       },
       "platform": {
         "claude_code": true,
@@ -2005,6 +3730,459 @@
         "workbuddy"
       ],
       "score": 33
+    },
+    {
+      "skill_id": "skillhub-cn/project-context-manager",
+      "spec": {
+        "name": "project-context-manager",
+        "description": "智能项目上下文管理 - 跨对话/跨项目记忆与渐进式披露。解决 WorkBuddy 多项目、多对话间的上下文断裂问题。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_19a6d235/project-context-manager",
+        "source_path": "project-context-manager",
+        "install_url": "https://api.skillhub.cn/user_19a6d235/project-context-manager",
+        "last_synced": "2026-08-13T08:11:43.551725Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 765
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "context",
+        "manager",
+        "project"
+      ],
+      "score": 33
+    },
+    {
+      "skill_id": "skillhub-cn/paper-speed-reader",
+      "spec": {
+        "name": "paper-speed-reader",
+        "description": "paper-speed-reader",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_70c2f807/paper-speed-reader",
+        "source_path": "paper-speed-reader",
+        "install_url": "https://api.skillhub.cn/user_70c2f807/paper-speed-reader",
+        "last_synced": "2026-08-13T08:11:43.541579Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 818
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "paper",
+        "reader",
+        "speed"
+      ],
+      "score": 32
+    },
+    {
+      "skill_id": "skillhub-cn/summarize-v2",
+      "spec": {
+        "name": "summarize-v2",
+        "description": "智能内容摘要工具，支持长文本、文档、网页内容自动摘要，提取核心要点、关键词，支持自定义摘要长度。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_7ca4c668/summarize-v2",
+        "source_path": "summarize-v2",
+        "install_url": "https://api.skillhub.cn/user_7ca4c668/summarize-v2",
+        "last_synced": "2026-08-13T08:11:43.554924Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 743
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "summarize"
+      ],
+      "score": 32
+    },
+    {
+      "skill_id": "skillhub-cn/weibo-hot-search-pro",
+      "spec": {
+        "name": "weibo-hot-search-pro",
+        "description": "获取微博热搜榜。当用户询问\"热搜\"、\"今日热搜\"、\"微博热搜\"、\"热点新闻\"、\"头条\"等内容时触发此技能。支持获取前 N 条热搜，返回排名、标题和热度值。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_9ccfb9fb/weibo-hot-search-pro",
+        "source_path": "weibo-hot-search-pro",
+        "install_url": "https://api.skillhub.cn/user_9ccfb9fb/weibo-hot-search-pro",
+        "last_synced": "2026-08-13T08:11:43.562180Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 694
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "hot",
+        "pro",
+        "search",
+        "weibo"
+      ],
+      "score": 32
+    },
+    {
+      "skill_id": "skillhub-cn/photo-organizer-pro",
+      "spec": {
+        "name": "photo-organizer-pro",
+        "description": "photo-organizer-pro",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_96e46ec7/photo-organizer-pro",
+        "source_path": "photo-organizer-pro",
+        "install_url": "https://api.skillhub.cn/user_96e46ec7/photo-organizer-pro",
+        "last_synced": "2026-08-13T08:11:43.557062Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 709
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "organizer",
+        "photo",
+        "pro"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/file-organizer-skill-v2",
+      "spec": {
+        "name": "file-organizer-skill-v2",
+        "description": "file-organizer-skill-v2",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c73fb2fe/file-organizer-skill-v2",
+        "source_path": "file-organizer-skill-v2",
+        "install_url": "https://api.skillhub.cn/user_c73fb2fe/file-organizer-skill-v2",
+        "last_synced": "2026-08-13T08:11:43.576679Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 602
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "file",
+        "organizer",
+        "skill"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/ziweidoushu",
+      "spec": {
+        "name": "ziweidoushu",
+        "description": "从命盘看人生，用紫微斗数解析你的天赋、感情与事业走向。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_59ef68bb/ziweidoushu",
+        "source_path": "ziweidoushu",
+        "install_url": "https://api.skillhub.cn/user_59ef68bb/ziweidoushu",
+        "last_synced": "2026-08-13T08:11:43.576913Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 601
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "ziweidoushu"
+      ],
+      "score": 31
+    },
+    {
+      "skill_id": "skillhub-cn/trumpskills",
+      "spec": {
+        "name": "trumpskills",
+        "description": "trumpskills",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_7f864702/trumpskills",
+        "source_path": "trumpskills",
+        "install_url": "https://api.skillhub.cn/user_7f864702/trumpskills",
+        "last_synced": "2026-08-13T08:11:43.558529Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 718
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "trumpskills"
+      ],
+      "score": 29
+    },
+    {
+      "skill_id": "skillhub-cn/universaldistill",
+      "spec": {
+        "name": "universaldistill",
+        "description": "universaldistill",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_231765ee/universaldistill",
+        "source_path": "universaldistill",
+        "install_url": "https://api.skillhub.cn/user_231765ee/universaldistill",
+        "last_synced": "2026-08-13T08:11:43.559011Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 715
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "universaldistill"
+      ],
+      "score": 29
+    },
+    {
+      "skill_id": "skillhub-cn/claw-memo-obsidian",
+      "spec": {
+        "name": "claw-memo-obsidian",
+        "description": "claw-memo-obsidian",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5bab6d4d/claw-memo-obsidian",
+        "source_path": "claw-memo-obsidian",
+        "install_url": "https://api.skillhub.cn/user_5bab6d4d/claw-memo-obsidian",
+        "last_synced": "2026-08-13T08:11:43.576847Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 621
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "claw",
+        "memo",
+        "obsidian"
+      ],
+      "score": 29
     },
     {
       "skill_id": "deanpeters/Product-Manager-Skills",
@@ -2397,5 +4575,5 @@
       "score": 20
     }
   ],
-  "total": 55
+  "total": 103
 }

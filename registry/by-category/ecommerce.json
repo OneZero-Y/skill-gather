@@ -2,52 +2,6 @@
   "category": "ecommerce",
   "skills": [
     {
-      "skill_id": "skillhub-cn/ecommerce-product-selector",
-      "spec": {
-        "name": "ecommerce-product-selector",
-        "description": "电商平台爆款产品筛选分析 - 基于数据分析的智能选品工具，支持淘宝、京东、拼多多、抖音、亚马逊等平台",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
-        "source_path": "ecommerce-product-selector",
-        "install_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
-        "last_synced": "2026-08-12T22:31:55.692202Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 63,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 14543
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "ecommerce",
-      "tags": [
-        "ecommerce",
-        "product",
-        "selector"
-      ],
-      "score": 44
-    },
-    {
       "skill_id": "sickn33/antigravity-awesome-skills/apify-ecommerce",
       "spec": {
         "name": "apify-ecommerce",
@@ -90,6 +44,52 @@
       "score": 44
     },
     {
+      "skill_id": "skillhub-cn/ecommerce-product-selector",
+      "spec": {
+        "name": "ecommerce-product-selector",
+        "description": "电商平台爆款产品筛选分析 - 基于数据分析的智能选品工具，支持淘宝、京东、拼多多、抖音、亚马逊等平台",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
+        "source_path": "ecommerce-product-selector",
+        "install_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
+        "last_synced": "2026-08-13T08:11:43.482291Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 63,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 14651
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "product",
+        "selector"
+      ],
+      "score": 44
+    },
+    {
       "skill_id": "skillhub-cn/cross-border-ecommerce-product-analysis",
       "spec": {
         "name": "cross-border-ecommerce-product-analysis",
@@ -108,17 +108,17 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
         "source_path": "cross-border-ecommerce-product-analysis",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
-        "last_synced": "2026-08-12T22:31:55.695833Z",
+        "last_synced": "2026-08-13T08:11:43.484698Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 21,
+        "repo_stars": 22,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 8040
+        "install_count": 8095
       },
       "platform": {
         "claude_code": true,
@@ -156,7 +156,7 @@
         "source_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
         "source_path": "ecommerce-platform-rules",
         "install_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
-        "last_synced": "2026-08-12T22:31:55.718476Z",
+        "last_synced": "2026-08-13T08:11:43.503242Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -166,7 +166,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1825
+        "install_count": 1850
       },
       "platform": {
         "claude_code": true,
@@ -272,6 +272,369 @@
       "score": 40
     },
     {
+      "skill_id": "skillhub-cn/amazon-review-insights",
+      "spec": {
+        "name": "amazon-review-insights",
+        "description": "Amazon product review intelligence analysis tool for global e-commerce sellers. Core capabilities:fetch Amazon reviews, AI-powered negative review analysis, quantify high-frequency issues, discover hidden negative feedback in 5-star reviews, generate improvement suggestions, track review trends, incremental updates.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ad1cad5b/amazon-review-insights",
+        "source_path": "amazon-review-insights",
+        "install_url": "https://api.skillhub.cn/user_ad1cad5b/amazon-review-insights",
+        "last_synced": "2026-08-13T08:11:43.514319Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1310
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "amazon",
+        "insights",
+        "review"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/crossborder-ecommerce-v1",
+      "spec": {
+        "name": "crossborder-ecommerce-v1",
+        "description": "我是你的跨境电商运营助手，帮助中国卖家在海外平台（亚马逊、独立站、速卖通等）降低运营成本、提升销售效率。从选品分析、Listing优化、多语言客服回复、广告投放建议到库存预警，一站式覆盖跨境卖家的日常运营需求。让你\"一个人管多个站点\"成为可能。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_70c2f807/crossborder-ecommerce-v1",
+        "source_path": "crossborder-ecommerce-v1",
+        "install_url": "https://api.skillhub.cn/user_70c2f807/crossborder-ecommerce-v1",
+        "last_synced": "2026-08-13T08:11:43.515387Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1216
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "crossborder",
+        "ecommerce"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/wechat-gyj20010114",
+      "spec": {
+        "name": "wechat-gyj20010114",
+        "description": "电商直播贴片生成器 / 电商直播视觉包装工具。 适用于淘宝直播、抖音直播带货、拼多多直播、快手直播等电商直播场景。 输入品牌、产品、促销信息或产品照片，自动生成完整电商直播视觉包装： 背景、标题栏、主播形象、价格卡、产品货架、福利条、促销贴片。 支持绿幕抠图、自动合成预览、打包交付。 E-commerce livestream overlay generator for Taobao, Douyin, PDD, Kuaishou streaming. Generate background, title banner, host persona, pricing card, product shelf, benefits bar. Supports green screen removal, auto-composite preview, and packaged delivery.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b3227686/wechat-gyj20010114",
+        "source_path": "wechat-gyj20010114",
+        "install_url": "https://api.skillhub.cn/user_b3227686/wechat-gyj20010114",
+        "last_synced": "2026-08-13T08:11:43.558178Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 7,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 581
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "gyj20010114",
+        "wechat"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/ecommerce-price-radar",
+      "spec": {
+        "name": "ecommerce-price-radar",
+        "description": "面向一人电商卖家和小团队运营的价格监控与调价决策 Skill。支持基于用户提供的竞品价格表、截图描述、每日数据，或在联网与代码执行环境可用时读取少量公开 URL 页面可见文本，识别价格/优惠/库存/发货/评价变化；不是简单总结竞品变化，而是输出风险等级、跟价建议、非价格防守策略和今日行动清单。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_2b384f75/ecommerce-price-radar",
+        "source_path": "ecommerce-price-radar",
+        "install_url": "https://api.skillhub.cn/user_2b384f75/ecommerce-price-radar",
+        "last_synced": "2026-08-13T08:11:43.558250Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 14,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 441
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "price",
+        "radar"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/tax-ecommerce",
+      "spec": {
+        "name": "tax-ecommerce",
+        "description": "国内电商平台（淘宝/拼多多/京东/抖音）、直播带货、MCN、网红主播、平台报送等财税政策、收入确认、虚开发票、私户收款风险、真实案例、报告模板与实操指引专题助手。覆盖店铺经营、直播佣金、个体工商户与平台数据报送等全链路合规要点；含2025年互联网平台涉税信息报送规定（国务院相关法规）、渝税函〔2025〕82号直播税收监管、电商平台收入报送口径、跨境电商平台数据报送、直播行业税务合规实务等最新内容。（聚焦电商直播、MCN、平台报送、个体工商户与私户收款合规、订单取消与退货重发财税处理、平台经济税务稽查应对。）",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_11064e10/tax-ecommerce",
+        "source_path": "tax-ecommerce",
+        "install_url": "https://api.skillhub.cn/user_11064e10/tax-ecommerce",
+        "last_synced": "2026-08-13T08:11:43.517129Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1242
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "tax"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/screen-ecommerce-products",
+      "spec": {
+        "name": "screen-ecommerce-products",
+        "description": "跨平台电商商品研究与筛选助手。支持从公开网页、商品链接、截图、表格或文字资料中收集证据，分析商品需求、竞争、利润、供应、退货及合规风险，计算单件利润、净利率和盈亏平衡获客成本，并生成中文选品报告和小额测试方案。适用于抖音、淘宝、拼多多、Amazon、TikTok Shop、Shopee 等平台。不保证商品成为爆款，不编造销量和市场数据。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_6558ceff/screen-ecommerce-products",
+        "source_path": "screen-ecommerce-products",
+        "install_url": "https://api.skillhub.cn/user_6558ceff/screen-ecommerce-products",
+        "last_synced": "2026-08-13T08:11:43.571306Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 566
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "products",
+        "screen"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/12138",
+      "spec": {
+        "name": "12138",
+        "description": "Search products across 8 Chinese e-commerce platforms: Taobao, Tmall, JD, PDD, 1688, AliExpress, Douyin, XHS. Zero-config — no API keys needed. Powered by Shopme unified product database. Use when the user asks to find products, get product info by URL or ID, search Chinese suppliers, or compare prices.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b3227686/12138",
+        "source_path": "12138",
+        "install_url": "https://api.skillhub.cn/user_b3227686/12138",
+        "last_synced": "2026-08-13T08:11:43.570133Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 631
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "12138",
+        "api"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "skillhub-cn/nwi-ecommerce",
+      "spec": {
+        "name": "nwi-ecommerce",
+        "description": "NWi诺舟智数提供的跨境电商数据洞察（Amazon/Shopee/Lazada/TikTok/Ozon）。触发词：电商数据、销量、销额、品类分布、品牌排行、店铺排行、东南亚市场、俄罗斯电商",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_c5ca7468/nwi-ecommerce",
+        "source_path": "nwi-ecommerce",
+        "install_url": "https://api.skillhub.cn/user_c5ca7468/nwi-ecommerce",
+        "last_synced": "2026-08-13T08:11:43.523446Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1070
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "ecommerce",
+        "nwi"
+      ],
+      "score": 35
+    },
+    {
       "skill_id": "skillhub-cn/ecommerce-data-zh",
       "spec": {
         "name": "ecommerce-data-zh",
@@ -290,7 +653,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
         "source_path": "ecommerce-data-zh",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
-        "last_synced": "2026-08-12T22:31:55.720112Z",
+        "last_synced": "2026-08-13T08:11:43.504092Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -300,7 +663,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1769
+        "install_count": 1813
       },
       "platform": {
         "claude_code": true,
@@ -315,6 +678,52 @@
         "ecommerce"
       ],
       "score": 34
+    },
+    {
+      "skill_id": "skillhub-cn/academic-paper-workshop",
+      "spec": {
+        "name": "academic-paper-workshop",
+        "description": "写论文要一堆工具？帮你一键安装14个学术技能并自动检测缺失补全，省去逐个翻找。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8d26dabd/academic-paper-workshop",
+        "source_path": "academic-paper-workshop",
+        "install_url": "https://api.skillhub.cn/user_8d26dabd/academic-paper-workshop",
+        "last_synced": "2026-08-13T08:11:43.511663Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1474
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "academic",
+        "paper",
+        "workshop"
+      ],
+      "score": 32
     },
     {
       "skill_id": "takechanman1228/claude-ecom",
@@ -359,5 +768,5 @@
       "score": 23
     }
   ],
-  "total": 8
+  "total": 17
 }

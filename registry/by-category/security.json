@@ -17,12 +17,12 @@
         "source_url": "https://github.com/snyk/agent-scan",
         "source_path": "",
         "install_url": "https://github.com/snyk/agent-scan/tree/main",
-        "last_synced": "2026-08-12T22:31:55.687317Z",
+        "last_synced": "2026-08-13T08:11:43.476769Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 2906,
-        "last_commit_date": "2026-08-12",
+        "repo_stars": 2908,
+        "last_commit_date": "2026-08-13",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -498,7 +498,7 @@
         "source_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
         "source_path": "audit-new",
         "install_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
-        "last_synced": "2026-08-12T22:31:55.693576Z",
+        "last_synced": "2026-08-13T08:11:43.483490Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -508,7 +508,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 10715
+        "install_count": 10820
       },
       "platform": {
         "claude_code": true,
@@ -543,7 +543,7 @@
         "source_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
         "source_path": "skill-assistant-pro",
         "install_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
-        "last_synced": "2026-08-12T22:31:55.711290Z",
+        "last_synced": "2026-08-13T08:11:43.497554Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -553,7 +553,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2345
+        "install_count": 2356
       },
       "platform": {
         "claude_code": true,
@@ -701,6 +701,189 @@
       "score": 40
     },
     {
+      "skill_id": "skillhub-cn/wang-paper-ct",
+      "spec": {
+        "name": "wang-paper-ct",
+        "description": "论文CT、论文检测、论文漏洞扫描、论文审校、论文体检、学术鉴真、论文真实性检测、论文可行性分析、 论文AI检测、论文排版检查、论文格式审查、学术论文质检、期刊论文审核、论文内容真伪鉴别、 论文参考文献核查、论文数据验证、国家级刊物论文检测、省级论文审核、论文发表前自检、 论文查重预检、论文学术规范检查、论文质量评估、paper CT scan、论文全方位检测",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_8c3c5215/wang-paper-ct",
+        "source_path": "wang-paper-ct",
+        "install_url": "https://api.skillhub.cn/user_8c3c5215/wang-paper-ct",
+        "last_synced": "2026-08-13T08:11:43.532869Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 6,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 838
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "paper",
+        "wang"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "skillhub-cn/tax-risk-scanner",
+      "spec": {
+        "name": "tax-risk-scanner",
+        "description": "财税风险扫描与合规自查技能。帮助企业与个人快速排查增值税、企业所得税、发票、社保、个税等税务风险，内置电商直播、跨境电商、灵活用工、平台经济、医美、黄金珠宝、钢铁等新业态专属模板，支持问卷式闭环扫描、本地个性化三级预警（红/橙/黄）、历史趋势跟踪、政策依据与整改动作同步展示；敏感账务不出本地、离线也能用。当用户需要税务风险排查、发票合规检查、金税四期自查、新业态税务评估、财税健康体检时触发。使用问题可联系 QQ 1817694478 / 微信 jacky_zhouxj。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_11064e10/tax-risk-scanner",
+        "source_path": "tax-risk-scanner",
+        "install_url": "https://api.skillhub.cn/user_11064e10/tax-risk-scanner",
+        "last_synced": "2026-08-13T08:11:43.525446Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 3,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1020
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "risk",
+        "scanner",
+        "tax"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/construction-scheme-ai-review",
+      "spec": {
+        "name": "construction-scheme-ai-review",
+        "description": "对建筑施工专项方案（含危大工程方案）进行系统性智能审核，覆盖 文本符合性 / 方案完整性 / 方案合规性 / 方案针对性与合理性 四个维度；逐条对标建办质〔2024〕63号《危险性较大的分部分项工程专项施工方案严重缺陷清单（试行）》刚性筛查，不符合即 ⛔ 重大、一票否决。内置「计算书联动协议」，自动下沉计算书子技能复算，输出结构化评审报告。同时支持问答模式：针对方案编制/审核要点提问，先查知识库后答、有依有据。\n⚠️ 依赖要求（必读，安装前请先备好）\n本技能的计算书审核能力依赖子技能 calculation-audit v1.0.9，使用前请先安装该子技能",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_1598e354/construction-scheme-ai-review",
+        "source_path": "construction-scheme-ai-review",
+        "install_url": "https://api.skillhub.cn/user_1598e354/construction-scheme-ai-review",
+        "last_synced": "2026-08-13T08:11:43.544857Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 4,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 742
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "construction",
+        "review",
+        "scheme"
+      ],
+      "score": 39
+    },
+    {
+      "skill_id": "skillhub-cn/construction-project-audit",
+      "spec": {
+        "name": "construction-project-audit",
+        "description": "基于《第3201号内部审计实务指南——建设项目审计》提供专业审计指导。涵盖前期决策、内部控制、采购、工程管理、造价、财务、绩效等全流程审计内容。Invoke when user asks about construction project audit, internal audit of construction projects, or needs guidance on audit procedures, objectives, and methods for construction projects.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_b818ef37/construction-project-audit",
+        "source_path": "construction-project-audit",
+        "install_url": "https://api.skillhub.cn/user_b818ef37/construction-project-audit",
+        "last_synced": "2026-08-13T08:11:43.561796Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 5,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 595
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "construction",
+        "project"
+      ],
+      "score": 39
+    },
+    {
       "skill_id": "skillhub-cn/skillscan",
       "spec": {
         "name": "skillscan",
@@ -719,7 +902,7 @@
         "source_url": "https://api.skillhub.cn/user_0db42586/skillscan",
         "source_path": "skillscan",
         "install_url": "https://api.skillhub.cn/user_0db42586/skillscan",
-        "last_synced": "2026-08-12T22:31:55.705997Z",
+        "last_synced": "2026-08-13T08:11:43.492549Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -729,7 +912,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3361
+        "install_count": 3383
       },
       "platform": {
         "claude_code": true,
@@ -743,6 +926,50 @@
         "skillscan"
       ],
       "score": 38
+    },
+    {
+      "skill_id": "skillhub-cn/sofagent",
+      "spec": {
+        "name": "sofagent",
+        "description": "FDE Skill——帮 FDE（前线部署工程师）更好完成企业 AI 落地的方法论 Skill。约束 Agent 行为、审计每次变更、沉淀经验。 底层实现叫约束层（Harness）——一个层四种能力：注入·审计·回溯·进化。FORGE 自迭代工具链是内部开发工具。 内置持续优化模式（sustain），自动读 audit 报告趋势生成优化报告。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_e71c0c4e/sofagent",
+        "source_path": "sofagent",
+        "install_url": "https://api.skillhub.cn/user_e71c0c4e/sofagent",
+        "last_synced": "2026-08-13T08:11:43.574809Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 610
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "sofagent"
+      ],
+      "score": 37
     },
     {
       "skill_id": "skillhub-cn/compliance-audit-pro",
@@ -763,7 +990,7 @@
         "source_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
         "source_path": "compliance-audit-pro",
         "install_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
-        "last_synced": "2026-08-12T22:31:55.717872Z",
+        "last_synced": "2026-08-13T08:11:43.502921Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -773,7 +1000,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2003
+        "install_count": 2006
       },
       "platform": {
         "claude_code": true,
@@ -787,6 +1014,98 @@
         "audit",
         "compliance",
         "pro"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/foundation-transparency-auditor",
+      "spec": {
+        "name": "foundation-transparency-auditor",
+        "description": "基金会透明审计师 v2.0 - 中国公益基金会信息公开合规性审计工具（多源加权评分版，HTML报告输出）。输入基金会名称，自动检索分析后生成HTML格式审计评估报告。基于《慈善法修订版》《基金会管理条例》《社会组织等级评估指南》《慈善组织信息公开办法》《关于慈善组织开展慈善活动年度支出、管理费用和募捐成本的规定》（2026年）等法规，采用\"慈善中国50%+官网30%+公众号20%\"的多源信息权重体系，重点审查财务信息披露时效性（超3个月负分），并通过百度搜索引擎评估负面新闻与行政处罚记录。触发场景：审计基金会透明度和合规性、公益组织信息披露综合评价、基金会年度检查准备、捐赠透明度审查、慈善组织资质风险评估、基金会审计报告生成。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
+        "source_path": "foundation-transparency-auditor",
+        "install_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
+        "last_synced": "2026-08-13T08:11:43.541149Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 862
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "auditor",
+        "foundation",
+        "transparency"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/shenji-audit-team",
+      "spec": {
+        "name": "shenji-audit-team",
+        "description": "工程造价审计AI助手——含结算清、审计明、索赔通、清单准、指标衡 5 个角色，可单独调用或协同。当用户需要工程造价审计AI助手全流程（工程量清单计价、竣工结算审核、工程造价审计、工程索赔、指标与数据库、全过程造价控制）相关分析、计算、编制、答疑时调用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "enterprise"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/hongnan/shenji-audit-team",
+        "source_path": "shenji-audit-team",
+        "install_url": "https://api.skillhub.cn/hongnan/shenji-audit-team",
+        "last_synced": "2026-08-13T08:11:43.541464Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 859
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "audit",
+        "shenji",
+        "team"
       ],
       "score": 36
     },
@@ -1220,5 +1539,5 @@
       "score": 20
     }
   ],
-  "total": 28
+  "total": 35
 }
