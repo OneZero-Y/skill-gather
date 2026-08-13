@@ -15,6 +15,8 @@ export const SkillSchema = z.object({
   installs: z.number(),
   platforms: z.array(z.string()),
   license: z.string().optional().default(''),
+  // 中文搜索关键词，由 export_web_data.py 在导出时根据词典自动生成
+  zh_keywords: z.string().optional().default(''),
 });
 
 export const CategorySchema = z.object({

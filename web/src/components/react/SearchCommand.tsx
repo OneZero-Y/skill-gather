@@ -44,8 +44,10 @@ export function SearchCommand({ skills, className, variant = 'default' }: Search
           skill.name.toLowerCase().includes(q) ||
           skill.id.toLowerCase().includes(q) ||
           skill.description.toLowerCase().includes(q) ||
-          skill.tags.some((tag) => tag.includes(q)) ||
-          skill.source.toLowerCase().includes(q)
+          skill.tags.some((tag) => tag.toLowerCase().includes(q)) ||
+          skill.source.toLowerCase().includes(q) ||
+          // 中文搜索：匹配由 export 阶段注入的中文关键词字段
+          (skill.zh_keywords ? skill.zh_keywords.includes(query.trim()) : false)
         );
       })
       .slice(0, 50);
