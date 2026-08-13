@@ -6,7 +6,7 @@ import json
 import re
 from pathlib import Path
 
-from skill_store.registry_writer import REGISTRY_DIR
+from skill_gather.registry_writer import REGISTRY_DIR
 
 _REGISTRY_PATH = REGISTRY_DIR / "skills.json"
 

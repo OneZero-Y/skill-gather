@@ -9,7 +9,7 @@ import logging
 import math
 from datetime import datetime, timezone
 
-from skill_store.models import SkillIndex
+from skill_gather.models import SkillIndex
 
 logger = logging.getLogger(__name__)
 

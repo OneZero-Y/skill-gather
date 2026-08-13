@@ -12,8 +12,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from skill_store.models import RegistryMeta, SkillIndex
-from skill_store.sync_state import load_source_sync_state, merge_source_sync_state
+from skill_gather.models import RegistryMeta, SkillIndex
+from skill_gather.sync_state import load_source_sync_state, merge_source_sync_state
 
 logger = logging.getLogger(__name__)
 

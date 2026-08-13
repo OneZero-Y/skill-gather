@@ -6,14 +6,14 @@ import logging
 
 from dataclasses import dataclass, field
 
-import skill_store.adapters  # noqa: F401 — triggers adapter self-registration via __init__.py
-from skill_store.adapters.base import get_all_adapters, load_sources_config
-from skill_store.models import RawSkillEntry, SkillIndex
-from skill_store.pipeline.deduplicate import deduplicate
-from skill_store.pipeline.normalize import normalize_all
-from skill_store.pipeline.score import score_all
-from skill_store.registry_writer import REGISTRY_DIR, load_existing_skills
-from skill_store.sync_state import load_source_sync_state
+import skill_gather.adapters  # noqa: F401 — triggers adapter self-registration via __init__.py
+from skill_gather.adapters.base import get_all_adapters, load_sources_config
+from skill_gather.models import RawSkillEntry, SkillIndex
+from skill_gather.pipeline.deduplicate import deduplicate
+from skill_gather.pipeline.normalize import normalize_all
+from skill_gather.pipeline.score import score_all
+from skill_gather.registry_writer import REGISTRY_DIR, load_existing_skills
+from skill_gather.sync_state import load_source_sync_state
 
 logger = logging.getLogger(__name__)
 

@@ -10,7 +10,7 @@ from __future__ import annotations
 import logging
 from urllib.parse import urlparse
 
-from skill_store.models import SkillIndex
+from skill_gather.models import SkillIndex
 
 logger = logging.getLogger(__name__)
 

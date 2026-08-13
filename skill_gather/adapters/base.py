@@ -12,7 +12,7 @@ from typing import Any
 import httpx
 import yaml
 
-from skill_store.models import RawSkillEntry
+from skill_gather.models import RawSkillEntry
 
 logger = logging.getLogger(__name__)
 

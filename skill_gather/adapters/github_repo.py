@@ -12,8 +12,8 @@ from typing import Any
 
 import yaml
 
-from skill_store.adapters.base import BaseAdapter, SourceConfig, github_client, github_get, register_adapter
-from skill_store.models import RawSkillEntry
+from skill_gather.adapters.base import BaseAdapter, SourceConfig, github_client, github_get, register_adapter
+from skill_gather.models import RawSkillEntry
 
 
 def _parse_frontmatter(content: str) -> dict[str, Any]:

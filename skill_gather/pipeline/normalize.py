@@ -6,7 +6,7 @@ import logging
 import re
 from datetime import datetime, timezone
 
-from skill_store.models import (
+from skill_gather.models import (
     Category,
     PlatformCompat,
     RawSkillEntry,
@@ -236,7 +236,7 @@ def generate_skill_id(entry: RawSkillEntry) -> str:
 # ---------------------------------------------------------------------------
 
 def normalize_entry(entry: RawSkillEntry) -> SkillIndex:
-    from skill_store.adapters.skills_sh import get_install_count
+    from skill_gather.adapters.skills_sh import get_install_count
 
     skill_id = generate_skill_id(entry)
     now = datetime.now(timezone.utc)

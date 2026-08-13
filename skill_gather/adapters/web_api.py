@@ -7,8 +7,8 @@ from typing import Any
 
 import httpx
 
-from skill_store.adapters.base import BaseAdapter, SourceConfig, register_adapter
-from skill_store.models import RawSkillEntry
+from skill_gather.adapters.base import BaseAdapter, SourceConfig, register_adapter
+from skill_gather.models import RawSkillEntry
 
 _GITHUB_REPO_RE = re.compile(r"github\.com/([^/\s]+/[^/\s#?]+)")
 

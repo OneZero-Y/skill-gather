@@ -26,10 +26,10 @@ from rich.logging import RichHandler
 from rich.panel import Panel
 from rich.table import Table
 
-from skill_store.installer import DEFAULT_TARGETS, install_skill, resolve_target
-from skill_store.pipeline.run import run_pipeline
-from skill_store.registry_reader import find_skills, load_skills, search_skills
-from skill_store.registry_writer import (
+from skill_gather.installer import DEFAULT_TARGETS, install_skill, resolve_target
+from skill_gather.pipeline.run import run_pipeline
+from skill_gather.registry_reader import find_skills, load_skills, search_skills
+from skill_gather.registry_writer import (
     REGISTRY_DIR,
     export_csv,
     export_yaml,
