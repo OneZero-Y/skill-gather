@@ -42,6 +42,62 @@ sources:
     skill_marker: SKILL.md
     license_default: MIT
 
+  # AWS 官方 Agent Toolkit（aws-iam, aws-cdk, aws-auth, aws-networking 等）
+  - id: aws-agent-toolkit
+    adapter: github_repo
+    repo: aws/agent-toolkit-for-aws
+    branch: main
+    skill_root: skills
+    skill_marker: SKILL.md
+
+  # GitHub 官方 Copilot skill 集合（refactor, code-review, git-flow 等）
+  - id: github-awesome-copilot
+    adapter: github_repo
+    repo: github/awesome-copilot
+    branch: main
+    skill_root: skills
+    skill_marker: SKILL.md
+
+  # Microsoft VSCode 内置 skills（commit, fix-ci, code-review, merge 等）
+  - id: microsoft-vscode-skills
+    adapter: github_repo
+    repo: microsoft/vscode
+    branch: main
+    skill_root: src/vs/sessions/skills
+    skill_marker: SKILL.md
+
+  # Supabase 官方内置 skills（studio-error-handling, react-hook-form, copywriting 等）
+  - id: supabase-skills
+    adapter: github_repo
+    repo: supabase/supabase
+    branch: master
+    skill_root: .claude/skills
+    skill_marker: SKILL.md
+
+  # 字节跳动 DeerFlow 框架内置 skills
+  - id: bytedance-deerflow
+    adapter: github_repo
+    repo: bytedance/deer-flow
+    branch: main
+    skill_root: skills/public
+    skill_marker: SKILL.md
+
+  # 158 个科学研究 skill（生物/化学/医学/药物发现）
+  - id: scientific-agent-skills
+    adapter: github_repo
+    repo: K-Dense-AI/scientific-agent-skills
+    branch: main
+    skill_root: skills
+    skill_marker: SKILL.md
+
+  # AI 研究工程 skill（RAG、向量数据库等）
+  - id: orchestra-ai-research-skills
+    adapter: github_repo
+    repo: Orchestra-Research/AI-Research-SKILLs
+    branch: main
+    skill_root: .
+    skill_marker: SKILL.md
+
   # ──────────────────────────────────────────────────────────
   # Tier 2: Awesome-list (parse README for skill repo links)
   # ──────────────────────────────────────────────────────────
@@ -52,9 +108,21 @@ sources:
     branch: main
     readme_path: README.md
 
+  # 更大的聚合列表（1000+ skills）
+  - id: voltagent-awesome-claude
+    adapter: awesome_list
+    repo: VoltAgent/awesome-claude-skills
+    branch: main
+    readme_path: README.md
+
+  - id: heilcheng-awesome
+    adapter: awesome_list
+    repo: heilcheng/awesome-agent-skills
+    branch: main
+    readme_path: README.md
+
   # ──────────────────────────────────────────────────────────
   # Tier 3: Community individual-repo list
-  # Each repo is treated as one skill (root SKILL.md or best-effort)
   # ──────────────────────────────────────────────────────────
 
   - id: community-repos
@@ -71,12 +139,15 @@ sources:
       - angular/skills
       - ibelick/ui-skills
       - op7418/NanoBanana-PPT-Skills
+      - bergside/awesome-design-skills      # 67 个设计 skill
       # Data / Backend
       - qdrant/skills
       # API / Cloud
       - google/skills
       - NVIDIA/skills
       - resend/resend-skills
+      - veniceai/skills                     # Venice.ai API skills
+      - alpacahq/alpaca-skills              # Alpaca 交易 API skills
       # Content / Writing
       - mattpocock/skills
       # Marketing
@@ -84,10 +155,16 @@ sources:
       # iOS / Apple
       - AvdLee/SwiftUI-Agent-Skill
       - rudrankriyam/app-store-connect-cli-skills
-      # Misc verified repos
+      # Misc
       - deanpeters/Product-Manager-Skills
       - LambdaTest/agent-skills
       - video-db/skills
+      - TerminalSkills/skills               # 开源 skill 库
+      - seb1n/awesome-ai-agent-skills       # 103 个现成 skill
+      - gamedev-skills/awesome-gamedev-agent-skills  # 67 个游戏开发 skill
+      - machina-sports/sports-skills        # 体育数据 + 预测市场 skill
+      - arpitg1304/robotics-agent-skills    # ROS1/ROS2 机器人 skill
+      - ajhcs/healthcare-agents             # 51 个医疗行政 skill
 
   # ──────────────────────────────────────────────────────────
   # Tier 4: skills.sh — install-count signals
@@ -103,6 +180,8 @@ sources:
       - vercel-labs/agent-skills
       - langchain-ai/langchain-skills
       - openai/skills
+      - aws/agent-toolkit-for-aws
+      - K-Dense-AI/scientific-agent-skills
 
   # ──────────────────────────────────────────────────────────
   # Tier 5: Web platform adapters (pending API reverse-engineering)

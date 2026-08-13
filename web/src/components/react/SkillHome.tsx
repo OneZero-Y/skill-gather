@@ -6,12 +6,18 @@ import { CategoryGrid } from './CategoryGrid';
 import { HomeHero } from './HomeHero';
 import { useI18n } from './LocaleProvider';
 import { SkillSection } from './SkillSection';
+import { SourceGrid } from './SourceGrid';
+import { SourcesMarquee } from './SourcesMarquee';
 
 const OFFICIAL_SOURCES = [
   'anthropics-skills',
   'openai-skills',
   'vercel-agent-skills',
   'langchain-skills',
+  'aws-agent-toolkit',
+  'github-awesome-copilot',
+  'microsoft-vscode-skills',
+  'supabase-skills',
 ] as const;
 
 interface SkillHomeProps {
@@ -29,7 +35,7 @@ export function SkillHome({ data }: SkillHomeProps) {
 }
 
 function SkillHomeContent({ data }: SkillHomeProps) {
-  const { t, categoryLabel } = useI18n();
+  const { t, categoryLabel, locale } = useI18n();
 
   const categoryOptions = useMemo(
     () =>
@@ -63,6 +69,10 @@ function SkillHomeContent({ data }: SkillHomeProps) {
     document.getElementById('categories')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const scrollToSources = () => {
+    document.getElementById('sources')?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
       <HomeHero
@@ -70,7 +80,11 @@ function SkillHomeContent({ data }: SkillHomeProps) {
         total={data.total}
         lastSynced={data.meta?.last_synced}
         onBrowseCategories={scrollToCategories}
+        onBrowseSources={scrollToSources}
       />
+
+      {/* Sources marquee — fills the empty strip below hero */}
+      <SourcesMarquee sources={data.sources} />
 
       <div className="mx-auto max-w-7xl space-y-10 px-4 py-8 md:space-y-12 md:px-6 md:py-10">
         <SkillSection
@@ -90,6 +104,12 @@ function SkillHomeContent({ data }: SkillHomeProps) {
         )}
 
         <CategoryGrid categories={categoryOptions} />
+
+        {/* Source grid — browse by origin */}
+        <SourceGrid
+          sources={data.sources}
+          title={locale === 'zh' ? '数据来源' : 'Data Sources'}
+        />
 
         {popularSkills.length > 0 && (
           <SkillSection

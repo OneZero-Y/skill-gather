@@ -9,6 +9,7 @@ interface HomeHeroProps {
   total: number;
   lastSynced?: string | null;
   onBrowseCategories: () => void;
+  onBrowseSources?: () => void;
 }
 
 const PLATFORM_BADGES = [
@@ -43,7 +44,7 @@ function AnimatedCounter({ target }: { target: number }) {
   return <>{value.toLocaleString()}</>;
 }
 
-export function HomeHero({ skills, total, lastSynced: _lastSynced, onBrowseCategories }: HomeHeroProps) {
+export function HomeHero({ skills, total, lastSynced: _lastSynced, onBrowseCategories, onBrowseSources }: HomeHeroProps) {
   const { t, locale } = useI18n();
 
   return (
@@ -137,6 +138,16 @@ export function HomeHero({ skills, total, lastSynced: _lastSynced, onBrowseCateg
             {t('heroBrowseCategories')}
             <span aria-hidden="true">↓</span>
           </button>
+          {onBrowseSources && (
+            <button
+              type="button"
+              onClick={onBrowseSources}
+              className="inline-flex items-center gap-1 rounded-xl border border-border bg-card px-5 py-2.5 text-sm font-medium text-muted transition hover:border-accent/30 hover:text-foreground active:scale-95"
+            >
+              {locale === 'zh' ? '查看来源' : 'View Sources'}
+              <span aria-hidden="true">↓</span>
+            </button>
+          )}
         </div>
       </div>
     </section>

@@ -6,7 +6,7 @@ export const SkillSchema = z.object({
   description: z.string(),
   category: z.string(),
   score: z.number(),
-  tags: z.array(z.string()),
+  tags: z.array(z.coerce.string()),
   source: z.string(),
   install_url: z.string(),
   stars: z.number(),

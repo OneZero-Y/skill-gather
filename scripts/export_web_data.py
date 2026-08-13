@@ -9,6 +9,25 @@ from pathlib import Path
 
 import yaml
 
+# PyYAML will write strings like '096' without quotes, which js-yaml then
+# parses back as the integer 96.  Register a representer that forces quoting
+# whenever yaml.safe_load would not give back the same string.
+class _SafeDumperWithQuotedStrings(yaml.SafeDumper):
+    pass
+
+def _str_representer(dumper: yaml.Dumper, data: str) -> yaml.ScalarNode:
+    # If round-tripping through YAML would lose the string, force single-quote style.
+    try:
+        reloaded = yaml.safe_load(data)
+    except Exception:
+        reloaded = None
+    if not isinstance(reloaded, str) or reloaded != data:
+        return dumper.represent_scalar("tag:yaml.org,2002:str", data, style="'")
+    return dumper.represent_scalar("tag:yaml.org,2002:str", data)
+
+_SafeDumperWithQuotedStrings.add_representer(str, _str_representer)
+
+
 ROOT = Path(__file__).resolve().parent.parent
 REGISTRY = ROOT / "registry" / "skills.json"
 META = ROOT / "registry" / "meta.json"
@@ -35,18 +54,18 @@ def _row(skill: dict) -> dict:
     signals = skill.get("signals", {})
     platform = skill.get("platform", {})
     return {
-        "id": skill.get("skill_id", ""),
-        "name": spec.get("name", ""),
-        "description": (spec.get("description") or "")[:500],
-        "category": skill.get("category", "other"),
-        "score": skill.get("score", 0),
-        "tags": skill.get("tags", [])[:8],
-        "source": discovery.get("source_id", ""),
-        "install_url": discovery.get("install_url", ""),
-        "stars": signals.get("repo_stars", 0),
-        "installs": signals.get("install_count", 0),
-        "platforms": [k for k, v in platform.items() if v],
-        "license": spec.get("license") or "",
+        "id": str(skill.get("skill_id", "")),
+        "name": str(spec.get("name", "")),
+        "description": str((spec.get("description") or ""))[:500],
+        "category": str(skill.get("category", "other")),
+        "score": int(skill.get("score", 0)),
+        "tags": [str(t) for t in skill.get("tags", [])][:8],
+        "source": str(discovery.get("source_id", "")),
+        "install_url": str(discovery.get("install_url", "")),
+        "stars": int(signals.get("repo_stars", 0)),
+        "installs": int(signals.get("install_count", 0)),
+        "platforms": [str(k) for k, v in platform.items() if v],
+        "license": str(spec.get("license") or ""),
     }
 
 
@@ -124,7 +143,7 @@ def main() -> None:
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     with open(OUTPUT, "w", encoding="utf-8") as f:
-        yaml.safe_dump(payload, f, allow_unicode=True, sort_keys=False)
+        yaml.dump(payload, f, Dumper=_SafeDumperWithQuotedStrings, allow_unicode=True, sort_keys=False)
 
     print(f"✓ Exported {len(rows)} skills → {OUTPUT}")
 
