@@ -1,6 +1,7 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Command } from 'cmdk';
 import { ExternalLink, Search, X } from 'lucide-react';
+import MiniSearch from 'minisearch';
 import type { Skill } from '@/lib/types';
 import { cn, skillDetailPath } from '@/lib/utils';
 import { useI18n } from './LocaleProvider';
@@ -11,15 +12,50 @@ interface SearchCommandProps {
   variant?: 'default' | 'hero';
 }
 
+/** 构建 MiniSearch 索引（懒初始化，只建一次） */
+function buildIndex(skills: Skill[]): MiniSearch<Skill> {
+  const ms = new MiniSearch<Skill>({
+    idField: 'id',
+    fields: ['name', 'description', 'tags_str', 'source', 'zh_keywords'],
+    storeFields: ['id', 'name', 'description', 'score', 'source'],
+    searchOptions: {
+      // 前缀匹配：输入 "doc" 可匹配 "docker"
+      prefix: true,
+      // 模糊匹配：允许 20% 编辑距离（如 "databse" → "database"）
+      fuzzy: 0.2,
+      // 各字段权重：name 最重要，中文关键词次之
+      boost: { name: 3, zh_keywords: 2, description: 1, tags_str: 1.5 },
+    },
+  });
+
+  // minisearch 需要扁平对象，tags 是数组要先转字符串
+  const docs = skills.map((s) => ({
+    ...s,
+    tags_str: s.tags.join(' '),
+    zh_keywords: s.zh_keywords ?? '',
+  }));
+  ms.addAll(docs);
+  return ms;
+}
+
 export function SearchCommand({ skills, className, variant = 'default' }: SearchCommandProps) {
   const { t } = useI18n();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState('');
+  // 索引懒建：第一次打开时才初始化，之后复用
+  const indexRef = useRef<MiniSearch<Skill> | null>(null);
 
   const close = useCallback(() => {
     setOpen(false);
     setQuery('');
   }, []);
+
+  // 打开时初始化索引（避免页面加载时阻塞）
+  useEffect(() => {
+    if (open && !indexRef.current) {
+      indexRef.current = buildIndex(skills);
+    }
+  }, [open, skills]);
 
   useEffect(() => {
     const onKeyDown = (e: KeyboardEvent) => {
@@ -35,23 +71,36 @@ export function SearchCommand({ skills, className, variant = 'default' }: Search
     return () => document.removeEventListener('keydown', onKeyDown);
   }, [close]);
 
+  const skillById = useMemo(() => {
+    const map = new Map<string, Skill>();
+    for (const s of skills) map.set(s.id, s);
+    return map;
+  }, [skills]);
+
   const filtered = useMemo(() => {
-    if (!query.trim()) return skills.slice(0, 10);
-    const q = query.toLowerCase();
-    return skills
-      .filter((skill) => {
-        return (
-          skill.name.toLowerCase().includes(q) ||
-          skill.id.toLowerCase().includes(q) ||
-          skill.description.toLowerCase().includes(q) ||
-          skill.tags.some((tag) => tag.toLowerCase().includes(q)) ||
-          skill.source.toLowerCase().includes(q) ||
-          // 中文搜索：匹配由 export 阶段注入的中文关键词字段
-          (skill.zh_keywords ? skill.zh_keywords.includes(query.trim()) : false)
-        );
-      })
-      .slice(0, 50);
-  }, [query, skills]);
+    const q = query.trim();
+    if (!q) return skills.slice(0, 10);
+
+    const index = indexRef.current;
+    if (!index) {
+      // 索引还未就绪，降级到 includes
+      const ql = q.toLowerCase();
+      return skills
+        .filter(
+          (s) =>
+            s.name.toLowerCase().includes(ql) ||
+            s.description.toLowerCase().includes(ql) ||
+            (s.zh_keywords ? s.zh_keywords.includes(q) : false),
+        )
+        .slice(0, 50);
+    }
+
+    const results = index.search(q);
+    return results
+      .slice(0, 50)
+      .map((r) => skillById.get(r.id))
+      .filter((s): s is Skill => s !== undefined);
+  }, [query, skills, skillById]);
 
   if (!open) {
     return (
