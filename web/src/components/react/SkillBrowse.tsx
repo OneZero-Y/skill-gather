@@ -43,11 +43,15 @@ export function SkillBrowse({ data }: SkillBrowseProps) {
 
 function SkillBrowseContent({ data }: SkillBrowseProps) {
   const { t, categoryLabel, locale } = useI18n();
-  const [category, setCategory] = useState(() => readInitialBrowseState().category);
-  const [source, setSource] = useState(() => readInitialBrowseState().source);
-  const [platform, setPlatform] = useState(() => readInitialBrowseState().platform);
-  const [sort, setSort] = useState<SortKey>(() => readInitialBrowseState().sort);
-  const [page, setPage] = useState(() => readInitialBrowseState().page);
+
+  // Parse URL state once at mount — single call, destructure into individual states
+  const [{ category: initCategory, source: initSource, platform: initPlatform, sort: initSort, page: initPage }] =
+    useState(readInitialBrowseState);
+  const [category, setCategory] = useState(initCategory);
+  const [source, setSource] = useState(initSource);
+  const [platform, setPlatform] = useState(initPlatform);
+  const [sort, setSort] = useState<SortKey>(initSort);
+  const [page, setPage] = useState(initPage);
 
   const categoryOptions = useMemo(
     () =>
@@ -104,7 +108,7 @@ function SkillBrowseContent({ data }: SkillBrowseProps) {
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   const safePage = Math.min(page, totalPages);
   const pageItems = filtered.slice((safePage - 1) * PAGE_SIZE, safePage * PAGE_SIZE);
-  const hasActiveFilters = source !== 'all' || platform !== 'all';
+  const hasActiveFilters = category !== 'all' || source !== 'all' || platform !== 'all';
 
   useEffect(() => {
     setPage(1);

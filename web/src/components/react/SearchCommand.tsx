@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Command } from 'cmdk';
 import { ExternalLink, Search, X } from 'lucide-react';
 import type { Skill } from '@/lib/types';
@@ -35,9 +35,11 @@ export function SearchCommand({ skills, className, variant = 'default' }: Search
     return () => document.removeEventListener('keydown', onKeyDown);
   }, [close]);
 
-  const filtered = query.trim()
-    ? skills.filter((skill) => {
-        const q = query.toLowerCase();
+  const filtered = useMemo(() => {
+    if (!query.trim()) return skills.slice(0, 10);
+    const q = query.toLowerCase();
+    return skills
+      .filter((skill) => {
         return (
           skill.name.toLowerCase().includes(q) ||
           skill.id.toLowerCase().includes(q) ||
@@ -46,7 +48,8 @@ export function SearchCommand({ skills, className, variant = 'default' }: Search
           skill.source.toLowerCase().includes(q)
         );
       })
-    : skills.slice(0, 10);
+      .slice(0, 50);
+  }, [query, skills]);
 
   if (!open) {
     return (

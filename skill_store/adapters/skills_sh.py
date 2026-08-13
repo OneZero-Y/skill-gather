@@ -69,7 +69,7 @@ class SkillsShAdapter(BaseAdapter):
         all_installs: dict[str, dict[str, int]] = {}
 
         with httpx.Client(
-            headers={"User-Agent": "skill-store/0.1"},
+            headers={"User-Agent": "skill-gather/0.1"},
             timeout=20.0,
             follow_redirects=True,
         ) as client:

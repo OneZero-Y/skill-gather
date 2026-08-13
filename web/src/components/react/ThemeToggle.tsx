@@ -17,7 +17,7 @@ export function ThemeToggle() {
     const next = !dark;
     setDark(next);
     document.documentElement.classList.toggle('dark', next);
-    localStorage.setItem('skill-store-theme', next ? 'dark' : 'light');
+    localStorage.setItem('skill-gather-theme', next ? 'dark' : 'light');
   };
 
   if (!mounted) {

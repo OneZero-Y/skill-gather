@@ -77,7 +77,24 @@ def parse_github_install_url(url: str) -> GitHubInstallSpec | None:
     return None
 
 
-def parse_skillhub_slug(skill: dict) -> str | None:
+def _validate_skill_path(skill_path: str) -> None:
+    """Raise ValueError if skill_path contains path-traversal sequences."""
+    if not skill_path:
+        return
+    # Reject absolute paths and any component that is ".."
+    p = Path(skill_path)
+    if p.is_absolute():
+        raise ValueError(f"skill_path must be relative, got: {skill_path!r}")
+    if ".." in p.parts:
+        raise ValueError(f"skill_path contains path-traversal sequence: {skill_path!r}")
+
+
+def _sanitize_skill_name(name: str) -> str:
+    """Return a safe filesystem name derived from a skill name."""
+    cleaned = re.sub(r"[^a-z0-9_.\-]", "-", name.lower()).strip("-.")
+    if not cleaned:
+        raise ValueError(f"Cannot derive safe name from: {name!r}")
+    return cleaned
     """Extract SkillHub slug from a registry skill record."""
     discovery = skill.get("discovery") or {}
     source_id = discovery.get("source_id", "")
@@ -117,7 +134,8 @@ def install_skill(
 ) -> Path:
     """Install a registry skill into target_dir. Returns destination path."""
     install_url = skill.get("discovery", {}).get("install_url", "")
-    skill_name = skill.get("spec", {}).get("name") or skill["skill_id"].split("/")[-1]
+    raw_name = skill.get("spec", {}).get("name") or skill["skill_id"].split("/")[-1]
+    skill_name = _sanitize_skill_name(raw_name)
     dest = target_dir / skill_name
 
     if dest.exists():
@@ -145,9 +163,12 @@ def install_skill(
 
 
 def _install_from_github(spec: GitHubInstallSpec, dest: Path) -> None:
+    # Validate skill_path before any filesystem or git operations
+    _validate_skill_path(spec.skill_path)
+
     repo_url = f"https://github.com/{spec.owner}/{spec.repo}.git"
 
-    with tempfile.TemporaryDirectory(prefix="skill-store-") as tmp:
+    with tempfile.TemporaryDirectory(prefix="skill-gather-") as tmp:
         tmp_path = Path(tmp)
         repo_dir = tmp_path / "repo"
         env = {**subprocess.os.environ, "GIT_TERMINAL_PROMPT": "0"}

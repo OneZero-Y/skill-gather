@@ -139,9 +139,9 @@ class AwesomeListAdapter(BaseAdapter):
             # Check for skill link
             link_match = _LINK_PATTERN.match(line)
             if link_match:
-                name = link_match.group(1).strip()
+                name = link_match.group(1).strip()[:64]    # agentskills spec: name max 64
                 url = link_match.group(2).strip()
-                description = link_match.group(3).strip()
+                description = link_match.group(3).strip()[:512]  # guard against runaway descriptions
 
                 # Only process GitHub links
                 if not _is_github_url(url):

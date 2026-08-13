@@ -50,9 +50,29 @@ def _row(skill: dict) -> dict:
     }
 
 
-def main() -> None:
+def _pick_featured(rows: list[dict], n: int = 12) -> list[dict]:
+    """Pick featured skills with source diversity (not just top-N by score)."""
+    seen_sources: set[str] = set()
+    featured: list[dict] = []
+    # First pass: one skill per source (highest score)
+    for row in rows:
+        src = row["source"]
+        if src not in seen_sources:
+            seen_sources.add(src)
+            featured.append(row)
+        if len(featured) >= n:
+            break
+    # Second pass: fill remaining slots from top-scored regardless of source
+    if len(featured) < n:
+        existing_ids = {r["id"] for r in featured}
+        for row in rows:
+            if row["id"] not in existing_ids:
+                featured.append(row)
+                if len(featured) >= n:
+                    break
+    return featured
     if not REGISTRY.exists():
-        raise SystemExit(f"Registry not found: {REGISTRY} — run skill-store sync first.")
+        raise SystemExit(f"Registry not found: {REGISTRY} — run skill-gather sync first.")
 
     with open(REGISTRY, encoding="utf-8") as f:
         skills_raw = json.load(f)["skills"]
@@ -95,7 +115,7 @@ def main() -> None:
         },
         "categories": category_list,
         "sources": source_list,
-        "featured": rows[:12],
+        "featured": _pick_featured(rows, n=12),
         "skills": rows,
     }
 

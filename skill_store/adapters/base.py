@@ -27,7 +27,7 @@ def github_headers() -> dict[str, str]:
     """Build GitHub API request headers, using token if available."""
     headers = {
         "Accept": "application/vnd.github.v3+json",
-        "User-Agent": "skill-store/0.1",
+        "User-Agent": "skill-gather/0.1",
     }
     token = os.environ.get("GITHUB_TOKEN", "")
     if token:

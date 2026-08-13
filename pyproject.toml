@@ -1,5 +1,5 @@
 [project]
-name = "skill-store"
+name = "skill-gather"
 version = "0.1.0"
 description = "AI Agent Skill discovery engine and registry"
 requires-python = ">=3.12"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-skill-store = "skill_store.main:cli"
+skill-gather = "skill_store.main:cli"
 
 [tool.ruff]
 target-version = "py312"

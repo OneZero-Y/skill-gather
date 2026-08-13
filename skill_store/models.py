@@ -6,7 +6,7 @@ extended with discovery, signals, and platform layers.
 
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime, timezone
 from enum import Enum
 from typing import Any
 
@@ -105,7 +105,7 @@ class SkillDiscovery(BaseModel):
     source_url: str
     source_path: str = ""
     install_url: str = ""
-    last_synced: datetime = Field(default_factory=datetime.utcnow)
+    last_synced: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     upstream_commit: str = ""
 
 
@@ -171,6 +171,6 @@ class RegistryMeta(BaseModel):
 
     total_skills: int = 0
     sources_count: int = 0
-    last_synced: datetime = Field(default_factory=datetime.utcnow)
+    last_synced: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     version: str = "1"
     categories: dict[str, int] = Field(default_factory=dict)

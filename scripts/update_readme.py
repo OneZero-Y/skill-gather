@@ -25,7 +25,7 @@ MARKER_END = "<!-- REGISTRY-STATS-END -->"
 
 def load_meta() -> dict:
     if not META_PATH.exists():
-        print(f"ERROR: {META_PATH} not found — run skill-store sync first", file=sys.stderr)
+        print(f"ERROR: {META_PATH} not found — run skill-gather sync first", file=sys.stderr)
         sys.exit(1)
     with open(META_PATH, encoding="utf-8") as f:
         return json.load(f)

@@ -74,7 +74,7 @@ function CliInstall({ skillId }: { skillId: string }) {
           rel="noopener noreferrer"
           className="mx-0.5 text-accent hover:underline"
         >
-          skill-store
+          skill-gather
         </a>
         {t('installCliPrereqAfter')}
       </p>

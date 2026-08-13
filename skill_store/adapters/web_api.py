@@ -102,7 +102,7 @@ class WebApiAdapter(BaseAdapter):
 
     def _client(self) -> httpx.Client:
         return httpx.Client(
-            headers={"User-Agent": "skill-store/0.1", "Accept": "application/json"},
+            headers={"User-Agent": "skill-gather/0.1", "Accept": "application/json"},
             timeout=30.0,
             follow_redirects=True,
         )

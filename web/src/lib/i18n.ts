@@ -1,8 +1,8 @@
 export type Locale = 'zh' | 'en';
 
-export const LOCALE_STORAGE_KEY = 'skill-store-locale';
-export const SIDEBAR_COLLAPSED_KEY = 'skill-store-sidebar-collapsed';
-export const CATEGORY_GROUPS_COLLAPSED_KEY = 'skill-store-category-groups-collapsed';
+export const LOCALE_STORAGE_KEY = 'skill-gather-locale';
+export const SIDEBAR_COLLAPSED_KEY = 'skill-gather-sidebar-collapsed';
+export const CATEGORY_GROUPS_COLLAPSED_KEY = 'skill-gather-category-groups-collapsed';
 
 const CATEGORY_LABELS: Record<Locale, Record<string, string>> = {
   zh: {

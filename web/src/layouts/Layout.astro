@@ -10,6 +10,8 @@ const { title, description = 'AI Agent Skill discovery engine' } = Astro.props;
 ---
 
 <!doctype html>
+<!-- lang defaults to "en"; the inline script below overrides it at runtime based on localStorage.
+     Static HTML will always show "en" to crawlers — acceptable for a primarily English UI. -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -26,12 +28,12 @@ const { title, description = 'AI Agent Skill discovery engine' } = Astro.props;
     <title>{title}</title>
     <script is:inline>
       (function () {
-        const storedTheme = localStorage.getItem('skill-store-theme');
+        const storedTheme = localStorage.getItem('skill-gather-theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         const dark = storedTheme === 'dark' || (storedTheme !== 'light' && prefersDark);
         if (dark) document.documentElement.classList.add('dark');
 
-        const storedLocale = localStorage.getItem('skill-store-locale');
+        const storedLocale = localStorage.getItem('skill-gather-locale');
         const locale =
           storedLocale === 'en' || storedLocale === 'zh' ? storedLocale : 'en';
         document.documentElement.lang = locale === 'en' ? 'en' : 'zh-CN';

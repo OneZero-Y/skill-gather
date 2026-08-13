@@ -34,13 +34,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SKILL_STORE_GITHUB_TOKEN }}
         run: |
           if [ -n "${{ github.event.inputs.source }}" ]; then
-            uv run skill-store sync --source "${{ github.event.inputs.source }}"
+            uv run skill-gather sync --source "${{ github.event.inputs.source }}"
           else
-            uv run skill-store sync
+            uv run skill-gather sync
           fi
 
       - name: Print stats
-        run: uv run skill-store stats
+        run: uv run skill-gather stats
 
       - name: Update README stats
         run: uv run python scripts/update_readme.py

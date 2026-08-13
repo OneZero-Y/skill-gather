@@ -171,9 +171,10 @@ def infer_platform(entry: RawSkillEntry) -> PlatformCompat:
     has_skill_md = entry.extra.get("has_skill_md", False) or entry.file_count > 0
     if has_skill_md and not result.get("universal"):
         # Only mark universal if no single platform is exclusively targeted
-        exclusively_one = (
-            result.get("claude_code") and not result.get("kiro") and not result.get("codex")
-        )
+        compat_flags = [result.get("claude_code"), result.get("kiro"),
+                        result.get("codex"), result.get("claude_ai")]
+        true_count = sum(1 for f in compat_flags if f)
+        exclusively_one = true_count == 1
         if not exclusively_one:
             result["universal"] = True
 

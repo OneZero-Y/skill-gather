@@ -26,8 +26,8 @@ Skill 散落在 GitHub 各处、skillhub、mcpmarket 等平台，Skill Store 把
 
 ```bash
 # 1. 克隆
-git clone https://github.com/your-name/skill-store.git
-cd skill-store
+git clone https://github.com/OneZero-Y/skill-gather.git
+cd skill-gather
 
 # 2. 安装依赖（使用 uv）
 uv sync
@@ -38,10 +38,10 @@ cp .env.example .env
 # 编辑 .env，填入 GITHUB_TOKEN=ghp_xxxxxxxxxxxx
 
 # 4. 首次同步
-uv run skill-store sync
+uv run skill-gather sync
 
 # 5. 查看结果
-uv run skill-store stats
+uv run skill-gather stats
 ```
 
 ---
@@ -52,23 +52,23 @@ uv run skill-store stats
 
 ```bash
 # 同步所有启用的数据源
-skill-store sync
+skill-gather sync
 
 # 只同步指定数据源（会合并进现有 registry，不覆盖其他源）
-skill-store sync --source anthropics-skills
-skill-store sync --source anthropics-skills --source voltagent-awesome
+skill-gather sync --source anthropics-skills
+skill-gather sync --source anthropics-skills --source voltagent-awesome
 
 # 试运行（不写文件，只看日志）
-skill-store sync --dry-run
+skill-gather sync --dry-run
 
 # 详细日志
-skill-store -v sync
+skill-gather -v sync
 ```
 
 ### `stats` — 查看注册表统计
 
 ```bash
-skill-store stats
+skill-gather stats
 ```
 
 输出示例：
@@ -98,33 +98,33 @@ By Source
 
 ```bash
 # 列出所有（默认最多 50 条）
-skill-store list
+skill-gather list
 
 # 筛选
-skill-store list --category development
-skill-store list --platform kiro
-skill-store list --source anthropics-skills
-skill-store list --min-score 60
-skill-store list --limit 100
+skill-gather list --category development
+skill-gather list --platform kiro
+skill-gather list --source anthropics-skills
+skill-gather list --min-score 60
+skill-gather list --limit 100
 ```
 
 ### `search` — 关键词搜索
 
 ```bash
-skill-store search "mcp server"
-skill-store search react --category development --min-score 50
-skill-store search terraform --platform claude_code
+skill-gather search "mcp server"
+skill-gather search react --category development --min-score 50
+skill-gather search terraform --platform claude_code
 ```
 
 ### `show` — 查看 skill 详情
 
 ```bash
 # 按 skill_id 或名称（支持部分匹配）
-skill-store show anthropics/skills/mcp-builder
-skill-store show mcp-builder
+skill-gather show anthropics/skills/mcp-builder
+skill-gather show mcp-builder
 
 # 输出 JSON
-skill-store show mcp-builder --json
+skill-gather show mcp-builder --json
 ```
 
 ### `install` — 安装 skill 到本地
@@ -133,51 +133,51 @@ skill-store show mcp-builder --json
 
 ```bash
 # 安装到 Cursor 全局目录（默认）
-skill-store install mcp-builder
+skill-gather install mcp-builder
 
 # 安装到 Claude Code 全局目录
-skill-store install mcp-builder --preset claude
+skill-gather install mcp-builder --preset claude
 
 # Kiro / OpenClaw / Hermes
-skill-store install mcp-builder --preset kiro
-skill-store install mcp-builder --preset openclaw
-skill-store install mcp-builder --preset hermes
+skill-gather install mcp-builder --preset kiro
+skill-gather install mcp-builder --preset openclaw
+skill-gather install mcp-builder --preset hermes
 
 # 安装到当前项目的 .cursor/skills/
-skill-store install mcp-builder --preset project-cursor
+skill-gather install mcp-builder --preset project-cursor
 
 # 自定义目录 / 覆盖已有安装
-skill-store install mcp-builder --target ~/my-skills
-skill-store install mcp-builder --force
+skill-gather install mcp-builder --target ~/my-skills
+skill-gather install mcp-builder --force
 ```
 
 ### `export` — 导出数据
 
 ```bash
 # 导出为 CSV（默认）
-skill-store export skills.csv
+skill-gather export skills.csv
 
 # 导出为 JSON
-skill-store export skills.json --format json
+skill-gather export skills.json --format json
 
 # 导出为 YAML（供 Astro 前端消费）
-skill-store export data/skills.yml --format yaml
+skill-gather export data/skills.yml --format yaml
 
 # 带筛选
-skill-store export dev-skills.csv --category development --min-score 50
+skill-gather export dev-skills.csv --category development --min-score 50
 ```
 
 ### `daemon` — 定时自动同步
 
 ```bash
 # 每 24 小时同步一次（默认）
-skill-store daemon
+skill-gather daemon
 
 # 自定义间隔（小时）
-skill-store daemon --interval 12
+skill-gather daemon --interval 12
 
 # 只同步特定数据源
-skill-store daemon --interval 6 --source anthropics-skills
+skill-gather daemon --interval 6 --source anthropics-skills
 ```
 
 ---
@@ -203,7 +203,7 @@ skill-store daemon --interval 6 --source anthropics-skills
 ## 项目结构
 
 ```
-skill-store/
+skill-gather/
 ├── skill_store/
 │   ├── adapters/
 │   │   ├── base.py           # 采集器基类 + 注册表机制

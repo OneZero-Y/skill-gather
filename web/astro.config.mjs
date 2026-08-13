@@ -10,7 +10,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 /** @type {import('astro').AstroUserConfig} */
 export default defineConfig({
   integrations: [react()],
-  site: process.env.SITE_URL || 'https://skill-store.pages.dev',
+  site: process.env.SITE_URL || 'https://skill-gather.pages.dev',
   base: '/',
   vite: {
     plugins: [tailwindcss()],

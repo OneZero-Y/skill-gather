@@ -1,12 +1,12 @@
-/** Official skill-store repository — used in install instructions */
-export const SKILL_STORE_GITHUB = 'https://github.com/OneZero-Y/skill-store';
+/** Official skill-gather repository — used in install instructions */
+export const SKILL_STORE_GITHUB = 'https://github.com/OneZero-Y/skill-gather';
 
 
 export interface InstallPreset {
   id: string;
   label: { zh: string; en: string };
   path: string;
-  /** CLI args after `skill-store install <id>` */
+  /** CLI args after `skill-gather install <id>` */
   args: string;
 }
 
@@ -50,5 +50,5 @@ export const INSTALL_PRESETS: InstallPreset[] = [
 ];
 
 export function buildInstallCommand(skillId: string, preset: InstallPreset): string {
-  return `skill-store install ${skillId} ${preset.args}`.trim();
+  return `skill-gather install ${skillId} ${preset.args}`.trim();
 }

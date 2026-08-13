@@ -43,7 +43,7 @@
 ## 3. 核心架构
 
 ```
-skill-store/
+skill-gather/
 ├── adapters/                  # 采集器插件体系
 │   ├── base.py                    # 插件基类接口
 │   ├── github_repo.py             # "仓库里多个 skill 目录"模式
@@ -259,7 +259,7 @@ description: Replace with description of the skill and when Claude should use it
 | 数据源 | `data/skills.yml`（由采集器自动生成） |
 | 构建时读取 | `js-yaml` + Zod parse |
 | 部署 | Cloudflare Pages |
-| 域名 | skill-store.pages.dev（或自定义） |
+| 域名 | skill-gather.pages.dev（或自定义） |
 
 ### 前端与导航站的对应关系
 

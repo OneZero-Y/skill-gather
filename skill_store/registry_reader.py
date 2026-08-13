@@ -14,7 +14,7 @@ _REGISTRY_PATH = REGISTRY_DIR / "skills.json"
 def load_skills() -> list[dict]:
     if not _REGISTRY_PATH.exists():
         raise FileNotFoundError(
-            f"Registry not found at {_REGISTRY_PATH} — run `skill-store sync` first."
+            f"Registry not found at {_REGISTRY_PATH} — run `skill-gather sync` first."
         )
     with open(_REGISTRY_PATH, encoding="utf-8") as f:
         return json.load(f)["skills"]

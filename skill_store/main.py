@@ -70,7 +70,7 @@ def _load_registry() -> list[dict]:
     try:
         return load_skills()
     except FileNotFoundError:
-        console.print("[red]Registry not found — run [bold]skill-store sync[/bold] first.[/red]")
+        console.print("[red]Registry not found — run [bold]skill-gather sync[/bold] first.[/red]")
         sys.exit(1)
 
 
@@ -205,7 +205,7 @@ def stats() -> None:
     """Print statistics from the current registry."""
     meta_path = REGISTRY_DIR / "meta.json"
     if not meta_path.exists():
-        console.print("[red]Registry not found — run [bold]skill-store sync[/bold] first.[/red]")
+        console.print("[red]Registry not found — run [bold]skill-gather sync[/bold] first.[/red]")
         sys.exit(1)
 
     with open(meta_path, encoding="utf-8") as f:
@@ -385,7 +385,7 @@ def show(query: str, as_json: bool) -> None:
         console.print(f"[yellow]{len(matches)} matches for[/yellow] [bold]{query}[/bold]:")
         for skill in matches:
             console.print(f"  [green]{skill['skill_id']}[/green]  [dim]score={skill.get('score', 0)}[/dim]")
-        console.print("\n[dim]Be more specific, e.g. skill-store show anthropics/skills/mcp-builder[/dim]")
+        console.print("\n[dim]Be more specific, e.g. skill-gather show anthropics/skills/mcp-builder[/dim]")
         sys.exit(1)
 
     skill = matches[0]
@@ -537,9 +537,9 @@ def export(
     """Export registry to CSV or JSON.
 
     Examples:\n
-        skill-store export skills.csv\n
-        skill-store export skills.json --format json\n
-        skill-store export dev.csv --category development
+        skill-gather export skills.csv\n
+        skill-gather export skills.json --format json\n
+        skill-gather export dev.csv --category development
     """
     skills = _load_registry()
 
@@ -590,10 +590,21 @@ def daemon(interval: int, source: tuple[str, ...]) -> None:
     """Run sync on a recurring schedule (blocking).
 
     Executes an immediate sync on startup, then repeats every INTERVAL hours.
-    Send SIGINT (Ctrl-C) to stop.
+    Send SIGINT (Ctrl-C) or SIGTERM to stop.
     """
+    import signal
+
     source_ids = list(source) or None
     interval_secs = interval * 3600
+    _stop = False
+
+    def _handle_signal(signum: int, frame: object) -> None:
+        nonlocal _stop
+        console.print(f"\n[bold]Received signal {signum} — stopping after current run.[/bold]")
+        _stop = True
+
+    signal.signal(signal.SIGTERM, _handle_signal)
+    signal.signal(signal.SIGINT, _handle_signal)
 
     console.print(
         f"[bold]Daemon started[/bold] — syncing every [bold]{interval}h[/bold]. "
@@ -601,7 +612,7 @@ def daemon(interval: int, source: tuple[str, ...]) -> None:
     )
 
     run_count = 0
-    while True:
+    while not _stop:
         run_count += 1
         console.print(f"\n[dim][Run #{run_count} — {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}][/dim]")
 
@@ -634,6 +645,9 @@ def daemon(interval: int, source: tuple[str, ...]) -> None:
             console.print(f"[red]Sync failed: {e}[/red]")
             logging.getLogger(__name__).exception("Daemon sync error")
 
+        if _stop:
+            break
+
         next_run = datetime.now()
         next_ts = next_run.timestamp() + interval_secs
         console.print(
@@ -641,11 +655,15 @@ def daemon(interval: int, source: tuple[str, ...]) -> None:
             f"{datetime.fromtimestamp(next_ts).strftime('%Y-%m-%d %H:%M:%S')}[/dim]"
         )
 
+        # Sleep in small chunks so SIGTERM/SIGINT wakes us promptly
+        deadline = time.monotonic() + interval_secs
         try:
-            time.sleep(interval_secs)
+            while not _stop and time.monotonic() < deadline:
+                time.sleep(min(5.0, deadline - time.monotonic()))
         except KeyboardInterrupt:
-            console.print("\n[bold]Daemon stopped.[/bold]")
-            break
+            _stop = True
+
+    console.print("[bold]Daemon stopped.[/bold]")
 
 
 # ---------------------------------------------------------------------------

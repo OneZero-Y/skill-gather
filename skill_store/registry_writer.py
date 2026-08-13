@@ -52,9 +52,21 @@ def _json_default(obj: Any) -> Any:
 
 
 def _write_json(path: Path, data: Any) -> None:
+    """Write JSON atomically: write to a temp file then rename."""
+    import os
+    import tempfile
     path.parent.mkdir(parents=True, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2, default=_json_default)
+    fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(data, f, ensure_ascii=False, indent=2, default=_json_default)
+        os.replace(tmp, path)
+    except Exception:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
 
 
 def _load_json(path: Path) -> Any | None:

@@ -116,11 +116,11 @@ def run_pipeline(
         logger.warning("No entries collected from any source")
         return PipelineResult()
 
-    # Step 2–4: Process newly crawled entries
+    # Step 2: Process newly crawled entries (normalize only, no score here)
     new_skills: list[SkillIndex] = []
     if all_raw:
         normalized = normalize_all(all_raw)
-        new_skills = score_all(deduplicate(normalized))
+        new_skills = list(normalized)
 
     combined = reused_skills + new_skills
     if not combined:

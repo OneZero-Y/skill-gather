@@ -1,4 +1,4 @@
-import { type ReactNode } from 'react';
+import { type ReactNode, useMemo } from 'react';
 import { ArrowLeft, Star } from 'lucide-react';
 import type { Skill } from '@/lib/types';
 import { PLATFORM_LABELS } from '@/lib/types';
@@ -23,13 +23,31 @@ function SkillDetailContent({ skill }: SkillDetailProps) {
   const { t, categoryLabel } = useI18n();
   const safeInstall = isSafeUrl(skill.install_url);
 
+  const backHref = useMemo(() => {
+    if (typeof document === 'undefined') return '/';
+    const ref = document.referrer;
+    if (ref) {
+      try {
+        const refUrl = new URL(ref);
+        // Stay on same origin; accept browse pages (root or /skills/all)
+        if (refUrl.origin === window.location.origin &&
+            (refUrl.pathname === '/' || refUrl.pathname.startsWith('/skills'))) {
+          return ref;
+        }
+      } catch {
+        // ignore invalid referrer
+      }
+    }
+    return '/';
+  }, []);
+
   return (
     <div className="relative min-h-screen">
       <div className="pointer-events-none fixed inset-0 mesh-bg" aria-hidden="true" />
 
       <header className="glass sticky top-0 z-20 flex items-center gap-3 border-b px-4 py-3 md:px-6">
         <a
-          href="/"
+          href={backHref}
           className="inline-flex items-center gap-1.5 rounded-xl px-2 py-1.5 text-sm text-muted transition hover:bg-card hover:text-foreground"
         >
           <ArrowLeft className="h-4 w-4" />
