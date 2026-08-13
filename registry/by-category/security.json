@@ -2,6 +2,96 @@
   "category": "security",
   "skills": [
     {
+      "skill_id": "aws/agent-toolkit-for-aws/securing-s3-buckets",
+      "spec": {
+        "name": "securing-s3-buckets",
+        "description": "Create and secure S3 buckets following AWS best practices for access control, encryption, monitoring, and remediation of misconfigurations. Use when the user wants to secure a new bucket, audit an existing bucket, fix a security finding, configure encryption, or enable logging and monitoring. Do NOT use for general S3 data operations, S3 Tables setup, or discovering existing data assets.\n",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/storage-skills/securing-s3-buckets",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/securing-s3-buckets",
+        "last_synced": "2026-08-13T10:08:59.993723Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "aws",
+        "buckets",
+        "securing"
+      ],
+      "score": 59
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/configuring-vpc-endpoints-for-private-aws-service-access",
+      "spec": {
+        "name": "configuring-vpc-endpoints-for-private-aws-service-access",
+        "description": "Configures VPC endpoints (interface and gateway) for private AWS service access using AWS PrivateLink. Use when setting up secure private connectivity to S3, DynamoDB, and other AWS services without internet gateway, NAT device, or public IP addresses. Covers endpoint creation, security groups, route tables, and DNS configuration.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/configuring-vpc-endpoints-for-private-aws-service-access",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/configuring-vpc-endpoints-for-private-aws-service-access",
+        "last_synced": "2026-08-13T10:08:59.990644Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "access",
+        "aws",
+        "configuring",
+        "endpoints",
+        "private",
+        "service",
+        "vpc"
+      ],
+      "score": 57
+    },
+    {
       "skill_id": "snyk/agent-scan",
       "spec": {
         "name": "agent-scan",
@@ -17,7 +107,7 @@
         "source_url": "https://github.com/snyk/agent-scan",
         "source_path": "",
         "install_url": "https://github.com/snyk/agent-scan/tree/main",
-        "last_synced": "2026-08-13T08:11:43.476769Z",
+        "last_synced": "2026-08-13T10:09:00.045808Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -480,6 +570,48 @@
       "score": 44
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/troubleshooting-efs",
+      "spec": {
+        "name": "troubleshooting-efs",
+        "description": "Diagnoses and resolves Amazon EFS issues including mount failures, NFS timeouts, permission errors, throughput problems, and burst credit exhaustion. Use when the user has an EFS file system that is not mounting, returning errors, performing slowly, or showing access denied.\n",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/storage-skills/troubleshooting-efs",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-efs",
+        "last_synced": "2026-08-13T10:08:59.993865Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "efs",
+        "troubleshooting"
+      ],
+      "score": 44
+    },
+    {
       "skill_id": "skillhub-cn/audit-new",
       "spec": {
         "name": "audit-new",
@@ -498,7 +630,7 @@
         "source_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
         "source_path": "audit-new",
         "install_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
-        "last_synced": "2026-08-13T08:11:43.483490Z",
+        "last_synced": "2026-08-13T10:09:00.050898Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -508,7 +640,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 10820
+        "install_count": 10846
       },
       "platform": {
         "claude_code": true,
@@ -543,7 +675,7 @@
         "source_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
         "source_path": "skill-assistant-pro",
         "install_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
-        "last_synced": "2026-08-13T08:11:43.497554Z",
+        "last_synced": "2026-08-13T10:09:00.093518Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -553,7 +685,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2356
+        "install_count": 2361
       },
       "platform": {
         "claude_code": true,
@@ -719,7 +851,7 @@
         "source_url": "https://api.skillhub.cn/user_8c3c5215/wang-paper-ct",
         "source_path": "wang-paper-ct",
         "install_url": "https://api.skillhub.cn/user_8c3c5215/wang-paper-ct",
-        "last_synced": "2026-08-13T08:11:43.532869Z",
+        "last_synced": "2026-08-13T10:09:00.127371Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -729,7 +861,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 838
+        "install_count": 839
       },
       "platform": {
         "claude_code": true,
@@ -764,7 +896,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-risk-scanner",
         "source_path": "tax-risk-scanner",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-risk-scanner",
-        "last_synced": "2026-08-13T08:11:43.525446Z",
+        "last_synced": "2026-08-13T10:09:00.119954Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -774,7 +906,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1020
+        "install_count": 1025
       },
       "platform": {
         "claude_code": true,
@@ -810,7 +942,7 @@
         "source_url": "https://api.skillhub.cn/user_1598e354/construction-scheme-ai-review",
         "source_path": "construction-scheme-ai-review",
         "install_url": "https://api.skillhub.cn/user_1598e354/construction-scheme-ai-review",
-        "last_synced": "2026-08-13T08:11:43.544857Z",
+        "last_synced": "2026-08-13T10:09:00.138377Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -820,7 +952,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 742
+        "install_count": 745
       },
       "platform": {
         "claude_code": true,
@@ -856,7 +988,7 @@
         "source_url": "https://api.skillhub.cn/user_b818ef37/construction-project-audit",
         "source_path": "construction-project-audit",
         "install_url": "https://api.skillhub.cn/user_b818ef37/construction-project-audit",
-        "last_synced": "2026-08-13T08:11:43.561796Z",
+        "last_synced": "2026-08-13T10:09:00.153789Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -866,7 +998,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 595
+        "install_count": 598
       },
       "platform": {
         "claude_code": true,
@@ -902,7 +1034,7 @@
         "source_url": "https://api.skillhub.cn/user_0db42586/skillscan",
         "source_path": "skillscan",
         "install_url": "https://api.skillhub.cn/user_0db42586/skillscan",
-        "last_synced": "2026-08-13T08:11:43.492549Z",
+        "last_synced": "2026-08-13T10:09:00.089473Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -912,7 +1044,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3383
+        "install_count": 3388
       },
       "platform": {
         "claude_code": true,
@@ -946,7 +1078,7 @@
         "source_url": "https://api.skillhub.cn/user_e71c0c4e/sofagent",
         "source_path": "sofagent",
         "install_url": "https://api.skillhub.cn/user_e71c0c4e/sofagent",
-        "last_synced": "2026-08-13T08:11:43.574809Z",
+        "last_synced": "2026-08-13T10:09:00.165560Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -956,7 +1088,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 610
+        "install_count": 614
       },
       "platform": {
         "claude_code": true,
@@ -990,7 +1122,7 @@
         "source_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
         "source_path": "compliance-audit-pro",
         "install_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
-        "last_synced": "2026-08-13T08:11:43.502921Z",
+        "last_synced": "2026-08-13T10:09:00.098591Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1000,7 +1132,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2006
+        "install_count": 2007
       },
       "platform": {
         "claude_code": true,
@@ -1014,52 +1146,6 @@
         "audit",
         "compliance",
         "pro"
-      ],
-      "score": 36
-    },
-    {
-      "skill_id": "skillhub-cn/foundation-transparency-auditor",
-      "spec": {
-        "name": "foundation-transparency-auditor",
-        "description": "基金会透明审计师 v2.0 - 中国公益基金会信息公开合规性审计工具（多源加权评分版，HTML报告输出）。输入基金会名称，自动检索分析后生成HTML格式审计评估报告。基于《慈善法修订版》《基金会管理条例》《社会组织等级评估指南》《慈善组织信息公开办法》《关于慈善组织开展慈善活动年度支出、管理费用和募捐成本的规定》（2026年）等法规，采用\"慈善中国50%+官网30%+公众号20%\"的多源信息权重体系，重点审查财务信息披露时效性（超3个月负分），并通过百度搜索引擎评估负面新闻与行政处罚记录。触发场景：审计基金会透明度和合规性、公益组织信息披露综合评价、基金会年度检查准备、捐赠透明度审查、慈善组织资质风险评估、基金会审计报告生成。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
-        "source_path": "foundation-transparency-auditor",
-        "install_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
-        "last_synced": "2026-08-13T08:11:43.541149Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 0,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 862
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "security",
-      "tags": [
-        "auditor",
-        "foundation",
-        "transparency"
       ],
       "score": 36
     },
@@ -1082,7 +1168,7 @@
         "source_url": "https://api.skillhub.cn/hongnan/shenji-audit-team",
         "source_path": "shenji-audit-team",
         "install_url": "https://api.skillhub.cn/hongnan/shenji-audit-team",
-        "last_synced": "2026-08-13T08:11:43.541464Z",
+        "last_synced": "2026-08-13T10:09:00.134769Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1092,7 +1178,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 859
+        "install_count": 870
       },
       "platform": {
         "claude_code": true,
@@ -1106,6 +1192,52 @@
         "audit",
         "shenji",
         "team"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/foundation-transparency-auditor",
+      "spec": {
+        "name": "foundation-transparency-auditor",
+        "description": "基金会透明审计师 v2.0 - 中国公益基金会信息公开合规性审计工具（多源加权评分版，HTML报告输出）。输入基金会名称，自动检索分析后生成HTML格式审计评估报告。基于《慈善法修订版》《基金会管理条例》《社会组织等级评估指南》《慈善组织信息公开办法》《关于慈善组织开展慈善活动年度支出、管理费用和募捐成本的规定》（2026年）等法规，采用\"慈善中国50%+官网30%+公众号20%\"的多源信息权重体系，重点审查财务信息披露时效性（超3个月负分），并通过百度搜索引擎评估负面新闻与行政处罚记录。触发场景：审计基金会透明度和合规性、公益组织信息披露综合评价、基金会年度检查准备、捐赠透明度审查、慈善组织资质风险评估、基金会审计报告生成。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
+        "source_path": "foundation-transparency-auditor",
+        "install_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
+        "last_synced": "2026-08-13T10:09:00.134980Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 864
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "auditor",
+        "foundation",
+        "transparency"
       ],
       "score": 36
     },
@@ -1125,7 +1257,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-find-review-pr",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NemoClaw/nemoclaw-maintainer-find-review-pr",
-        "last_synced": "2026-08-12T22:31:55.671552Z",
+        "last_synced": "2026-08-13T10:09:00.007954Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1170,7 +1302,7 @@
         "source_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
         "source_path": "",
         "install_url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-        "last_synced": "2026-08-12T22:31:55.682927Z",
+        "last_synced": "2026-08-13T10:09:00.016370Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1213,7 +1345,7 @@
         "source_url": "https://github.com/wrsmith108/varlock-claude-skill",
         "source_path": "",
         "install_url": "https://github.com/wrsmith108/varlock-claude-skill",
-        "last_synced": "2026-08-12T22:31:55.682992Z",
+        "last_synced": "2026-08-13T10:09:00.016414Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1256,7 +1388,7 @@
         "source_url": "https://github.com/BehiSecc/VibeSec-Skill",
         "source_path": "",
         "install_url": "https://github.com/BehiSecc/VibeSec-Skill",
-        "last_synced": "2026-08-12T22:31:55.686006Z",
+        "last_synced": "2026-08-13T10:09:00.019781Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1297,7 +1429,7 @@
         "source_url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
         "source_path": "",
         "install_url": "https://github.com/ramzesenok/iOS-Accessibility-Audit-Skill",
-        "last_synced": "2026-08-12T22:31:55.680288Z",
+        "last_synced": "2026-08-13T10:09:00.014489Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1341,7 +1473,7 @@
         "source_url": "https://github.com/truongduy2611/app-store-preflight-skills",
         "source_path": "",
         "install_url": "https://github.com/truongduy2611/app-store-preflight-skills",
-        "last_synced": "2026-08-12T22:31:55.680332Z",
+        "last_synced": "2026-08-13T10:09:00.014531Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1370,6 +1502,47 @@
       "score": 23
     },
     {
+      "skill_id": "squirrelscan/squirrelscan",
+      "spec": {
+        "name": "squirrelscan-squirrelscan",
+        "description": "Audits websites for SEO, performance, security, accessibility and returns fixes",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
+        "source_path": "",
+        "install_url": "https://github.com/squirrelscan/squirrelscan/tree/main/skills",
+        "last_synced": "2026-08-13T10:09:00.018053Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "squirrelscan/squirrelscan"
+      ],
+      "score": 23
+    },
+    {
       "skill_id": "browser-act/skills",
       "spec": {
         "name": "browser-act-browser-act",
@@ -1385,7 +1558,7 @@
         "source_url": "https://github.com/browser-act/skills/tree/main/browser-act",
         "source_path": "",
         "install_url": "https://github.com/browser-act/skills/tree/main/browser-act",
-        "last_synced": "2026-08-12T22:31:55.683890Z",
+        "last_synced": "2026-08-13T10:09:00.018209Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1428,7 +1601,7 @@
         "source_url": "https://github.com/khendzel/skills-janitor",
         "source_path": "",
         "install_url": "https://github.com/khendzel/skills-janitor",
-        "last_synced": "2026-08-12T22:31:55.684911Z",
+        "last_synced": "2026-08-13T10:09:00.018973Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1470,7 +1643,7 @@
         "source_url": "https://github.com/prompt-security/clawsec",
         "source_path": "",
         "install_url": "https://github.com/prompt-security/clawsec",
-        "last_synced": "2026-08-12T22:31:55.685960Z",
+        "last_synced": "2026-08-13T10:09:00.019746Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1512,7 +1685,7 @@
         "source_url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
         "source_path": "",
         "install_url": "https://github.com/obra/superpowers/blob/main/skills/defense-in-depth/SKILL.md",
-        "last_synced": "2026-08-12T22:31:55.685522Z",
+        "last_synced": "2026-08-13T10:09:00.019417Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1539,5 +1712,5 @@
       "score": 20
     }
   ],
-  "total": 35
+  "total": 39
 }

@@ -46,6 +46,272 @@
       "score": 75
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/amazon-bedrock",
+      "spec": {
+        "name": "amazon-bedrock",
+        "description": "Builds generative AI applications on Amazon Bedrock. Covers model invocation (Converse API, InvokeModel), RAG with Knowledge Bases, Bedrock Agents, Guardrails, and AgentCore (including the Harness managed agent loop). Use when invoking models, setting up Knowledge Bases, creating agents, applying guardrails, deploying to AgentCore, migrating/porting/converting a Bedrock Agent (including inline agents) to an AgentCore Harness, troubleshooting Bedrock errors (ThrottlingException, AccessDeniedException), or choosing models (Claude, Llama, Nova, Titan). ALSO USE for prompt caching, quota health checks and throttling diagnosis, cost attribution, migrating between Claude model generations, chunking strategies, API selection (Converse vs InvokeModel), and model selection. Also covers AgentCore Payments setup (x402, microtransactions, Payment Manager, Coinbase CDP, Stripe Privy, 402 Payment Required, paid endpoint). NOT for custom model training, Rekognition, or Comprehend.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "3"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/core-skills/amazon-bedrock",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/amazon-bedrock",
+        "last_synced": "2026-08-13T10:08:59.982524Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 38,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "amazon",
+        "api",
+        "bedrock",
+        "rag",
+        "stripe"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/aws-ai-ml",
+      "spec": {
+        "name": "aws-ai-ml",
+        "description": "Selects, deploys, and customizes AI models on Amazon SageMaker. Fine-tuning (SFT, DPO, RLVR, RLAIF), model selection, dataset preparation, evaluation, deployment to SageMaker endpoints or Bedrock, and endpoint diagnostics. Covers the full lifecycle from planning through production. Use when fine-tuning models on SageMaker, selecting base models from SageMaker Hub, finding a model to deploy without fine-tuning, transforming datasets for training, checking data readiness, evaluating model quality, deploying to endpoints, setting up IAM roles and S3 buckets for training jobs, or managing a SageMaker Managed MLflow app. Also use to check endpoint health, diagnose failures, debug latency or errors, or view container logs and CloudWatch metrics. Covers Serverless Model Customization, Nova and OSS deployment paths, and PySDK v3 usage. NOT for Ground Truth labeling, Feature Store, or general-purpose AWS infrastructure.\n",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/core-skills/aws-ai-ml",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-ai-ml",
+        "last_synced": "2026-08-13T10:08:59.983005Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 132,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aws"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/amazon-aurora-postgresql",
+      "spec": {
+        "name": "amazon-aurora-postgresql",
+        "description": "Amazon Aurora PostgreSQL — creates, modifies, and advises on Aurora PostgreSQL clusters specifically (PostgreSQL-compatible engine, Aurora serverless, express configuration, pgvector, Babelfish). Trigger for Aurora PostgreSQL cluster operations, express-configuration quick-start, ACU sizing, I/O-Optimized storage, commitment pricing, or PostgreSQL upgrade planning. For Aurora MySQL, use amazon-aurora-mysql instead. Contains safety guardrails, express-first routing, and response templates that override defaults.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/database-skills/amazon-aurora-postgresql",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-aurora-postgresql",
+        "last_synced": "2026-08-13T10:08:59.986957Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 44,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "amazon",
+        "aurora",
+        "postgresql"
+      ],
+      "score": 71
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/amazon-documentdb",
+      "spec": {
+        "name": "amazon-documentdb",
+        "description": "Manages Amazon DocumentDB end-to-end — serverless-on-8.0 cluster setup, TLS/VPC/driver config, flexible-schema and vector-search data modeling, MongoDB compatibility assessment, DMS-based migration, slow-query diagnosis, major version upgrades (4.0→5.0→8.0), Well-Architected reviews (41-check wa_review.py), cost estimation, and security hardening. Retrieve for every DocumentDB question and when the user asks to set up or migrate MongoDB to AWS — DocumentDB is AWS's MongoDB-compatible managed database. Triggers: JSON document store, document database, MongoDB on AWS, Nested fields, Lambda cannot connect, TLS handshake, VPC port 27017, IAM auth, Secrets Manager, encryption at rest, $graphLookup, flexible schema, COLLSCAN, compound index, DMS migration, CDC cutover, $vectorSearch, RAG, Global Clusters, DR replication, cost sizing, audit, health check, production-readiness.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/database-skills/amazon-documentdb",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-documentdb",
+        "last_synced": "2026-08-13T10:08:59.987052Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 13,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "amazon",
+        "aws",
+        "documentdb",
+        "rag"
+      ],
+      "score": 71
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/amazon-elasticache",
+      "spec": {
+        "name": "amazon-elasticache",
+        "description": "Activate when developers have latent caching needs: slow API responses, database read bottlenecks, DynamoDB throttling or cost, RDS/Aurora scaling pressure, Bedrock latency or cost, or adding a cache; activate when working with Redis, Valkey, Memcached, or any in-memory data store, cache-aside patterns, session stores, rate limiting, leaderboards, counters, streams, queues, pub/sub, distributed locks, feature flags, shopping carts, or other caching strategies. Activate for GenAI and ML retrieval: vector similarity search for low-latency retrieval, semantic caching, RAG, LLM response caching, embedding stores, AI agent memory, recommendation, personalization. Activate for ElastiCache lifecycle: provisioning (serverless or node-based), engine selection, CloudFormation/CDK/Terraform IaC, VPC connectivity, TLS, RBAC, IAM auth, Global Datastore, monitoring, troubleshooting, cost optimization, and migration from self-managed Redis. Do not trigger for browser caches, CDN/CloudFront, HTTP Cache-Control, CPU caches.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/database-skills/amazon-elasticache",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-elasticache",
+        "last_synced": "2026-08-13T10:08:59.988920Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 94,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "amazon",
+        "api",
+        "elasticache",
+        "llm",
+        "rag",
+        "terraform"
+      ],
+      "score": 71
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/timestream-influxdb",
+      "spec": {
+        "name": "timestream-influxdb",
+        "description": "Retrieves authoritative guidance on Amazon Timestream for InfluxDB (managed InfluxDB 2, InfluxDB 2 Read Replica Clusters, InfluxDB 3 Core and Enterprise). Applicable to any InfluxDB-on-AWS request including engine selection, provisioning (Marketplace + AmazonTimestreamInfluxDBFullAccess/ConsoleFullAccess IAM), schema design (tags vs fields, cardinality, HTTP/sensor/metric data modeling), migration from LiveAnalytics, Processing Engine plugins, connectivity (port 8086 V2, port 8181 V3, VPC-only by default), and write/query errors.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/database-skills/timestream-influxdb",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/timestream-influxdb",
+        "last_synced": "2026-08-13T10:08:59.989909Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 22,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aws",
+        "influxdb",
+        "timestream"
+      ],
+      "score": 71
+    },
+    {
       "skill_id": "langchain-ai/langchain-skills/langchain-rag",
       "spec": {
         "name": "langchain-rag",
@@ -88,6 +354,455 @@
       "score": 61
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/aws-database",
+      "spec": {
+        "name": "aws-database",
+        "description": "Routes any task involving AWS databases — choosing, comparing, recommending, getting started with, or operating a database — to the correct service-specific skill. Supersedes general training-data knowledge with post-training service updates, corrected limitations, and decision procedures for relational (Aurora, DSQL, RDS), key-value (DynamoDB), wide-column (Keyspaces), document (DocumentDB), graph (Neptune), time-series (Timestream), and in-memory/caching (ElastiCache, MemoryDB) workloads. Activates when a user describes building an application on AWS that will store, retrieve, or manage data, even if they do not mention 'database' explicitly.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/core-skills/aws-database",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-database",
+        "last_synced": "2026-08-13T10:08:59.984061Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 23,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aws",
+        "database"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/amazon-opensearch-service",
+      "spec": {
+        "name": "amazon-opensearch-service",
+        "description": "Amazon OpenSearch Service and Serverless across five capabilities — migration (Solr/ES/self-managed OpenSearch into AOS/AOSS, schema/query translation, sizing, cutover); provisioning (domain + AOSS lifecycle, upgrades, storage tiers, FGAC, monitoring); search (vector / semantic / hybrid / RAG with Bedrock connectors); log-analytics (PPL, OSI ingestion, anomaly detection, OpenSearch Dashboards, Splunk/Datadog alternatives); trace-analytics (OTel spans, service maps, Data Prepper). Triggers on OpenSearch, AOS, AOSS, Elasticsearch, ELK, Solr, Lucene, vector / k-NN / semantic / hybrid / neural search, RAG, ELSER, log analytics, observability, Kibana, OSI, OCU, PPL, trace analytics, BM25, eDisMax, schema.xml, ILM, ISM, FAISS, HNSW, Migration Assistant for Amazon OpenSearch Service, Historical Data Migration, Live Traffic Migration, UltraWarm, OR1, Splunk/Datadog alternative, moving off Solr. Picks ONE capability per ask, names instance class + count + shard math, ships query DSL examples.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/analytics-skills/amazon-opensearch-service",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/amazon-opensearch-service",
+        "last_synced": "2026-08-13T10:08:59.985438Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 57,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "amazon",
+        "opensearch",
+        "rag",
+        "service"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/creating-data-lake-table",
+      "spec": {
+        "name": "creating-data-lake-table",
+        "description": "Create managed Iceberg tables using Amazon S3 Tables (s3tables API namespace) with automatic compaction and snapshot management. Sets up table bucket, namespace, table, schema, Glue catalog registration, partitioning, IAM access control. Triggers on: create table, data lake table, analytics table, structured data storage, S3 Tables, Iceberg, Athena table, partitioning strategy, access permissions. Do NOT use  for: importing files (use ingesting-into-data-lake), vector storage (use storing-and-querying-vectors), querying existing tables (use querying-data-lake), or locating existing table (use finding-data-lake-assets).",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1",
+          "argument-hint": "'[table-description|schema-spec]'"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/storage-skills/creating-data-lake-table",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/creating-data-lake-table",
+        "last_synced": "2026-08-13T10:08:59.993627Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 6,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "api",
+        "creating",
+        "data",
+        "lake",
+        "table"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/redshift-guide",
+      "spec": {
+        "name": "redshift-guide",
+        "description": "Amazon Redshift is NOT PostgreSQL — corrects PostgreSQL-derived LLM mistakes; covers Redshift-specific SQL, DDL, COPY/UNLOAD, system views, metadata discovery, and operational patterns. Applies ONLY when the task is about Redshift itself (cluster, Serverless workgroup, or Redshift SQL). Pushes back on: CREATE INDEX, string_agg, pg_catalog, text type, SERIAL, stl_query, LATERAL, RETURNING. Triggers on: Redshift SQL, Redshift CREATE TABLE, Redshift COPY/UNLOAD, slow Redshift query, Redshift permission denied, Redshift disk full, Redshift system views, QUALIFY, PIVOT, MERGE, Redshift Data API, Redshift WLM, concurrency scaling, Redshift resize, Redshift Spectrum external tables. Does NOT apply to (defer to that service's own skill): Amazon S3 storage/bucket policies, Athena or Glue queries/catalogs, data-lake or Iceberg work outside Redshift, Aurora, RDS, or DynamoDB — but S3/Glue ARE in scope for Redshift COPY, UNLOAD, or data-lake queries (external schemas/tables on S3).",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/analytics-skills/redshift-guide",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide",
+        "last_synced": "2026-08-13T10:08:59.986711Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "api",
+        "guide",
+        "llm",
+        "redshift"
+      ],
+      "score": 59
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/dms-schema-conversion",
+      "spec": {
+        "name": "dms-schema-conversion",
+        "description": "Handles the full DMS Schema Conversion lifecycle including creating migration projects, converting database schemas to a target engine, running compatibility assessments, navigating metadata trees, exporting converted DDL to S3, applying schema changes to a target database, and converting SQL statements between database engines.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/migration-and-modernization-skills/dms-schema-conversion",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/migration-and-modernization-skills/dms-schema-conversion",
+        "last_synced": "2026-08-13T10:08:59.990441Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "conversion",
+        "dms",
+        "schema"
+      ],
+      "score": 59
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/finding-data-lake-assets",
+      "spec": {
+        "name": "finding-data-lake-assets",
+        "description": "Resolve data lake and lakehouse asset references across Glue Data Catalog, S3, S3 Tables, and Redshift. Triggers on: find the table, where is our data, which table has, locate dataset, find data for, search catalog, what tables match, Redshift table, lakehouse table, data lake table, warehouse table, reverse lookup S3 path. Do NOT use for: full catalog audits (use exploring-data-catalog), running queries (use querying-data-lake), creating tables (use creating-data-lake-table).",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "2",
+          "argument-hint": "'[table-name|keyword|column-name|s3://path]'"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/analytics-skills/finding-data-lake-assets",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/finding-data-lake-assets",
+        "last_synced": "2026-08-13T10:08:59.985976Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "assets",
+        "data",
+        "finding",
+        "lake"
+      ],
+      "score": 58
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/storing-and-querying-vectors",
+      "spec": {
+        "name": "storing-and-querying-vectors",
+        "description": "Store and query vector embeddings using Amazon S3 Vectors, a cost-effective long-term vector storage service with its own API namespace (s3vectors). Triggers on: create S3 vector bucket, vector index, store embeddings, semantic search, RAG vector storage, similarity search, vector database, migrate from other vector databases. Do NOT use for: querying tabular data (use querying-data-lake), S3 object storage, or hundreds/thousands of sustained QPS (use OpenSearch).",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/storage-skills/storing-and-querying-vectors",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/storing-and-querying-vectors",
+        "last_synced": "2026-08-13T10:08:59.993790Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "api",
+        "querying",
+        "rag",
+        "storing",
+        "vectors"
+      ],
+      "score": 58
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/creating-amazon-aurora-db-cluster-with-instances",
+      "spec": {
+        "name": "creating-amazon-aurora-db-cluster-with-instances",
+        "description": "Creates a complete Amazon Aurora database cluster with instances, handling cluster creation, instance provisioning, and Secrets Manager password management in the proper sequence. Use when setting up new Aurora MySQL or PostgreSQL clusters with production-ready configuration.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/database-skills/creating-amazon-aurora-db-cluster-with-instances",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/creating-amazon-aurora-db-cluster-with-instances",
+        "last_synced": "2026-08-13T10:08:59.989303Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "amazon",
+        "aurora",
+        "cluster",
+        "creating",
+        "instances"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/exporting-rds-to-s3",
+      "spec": {
+        "name": "exporting-rds-to-s3",
+        "description": "Exports Amazon RDS or Aurora database snapshots to Amazon S3 in Apache Parquet format for analytics, backup, or data migration. Handles snapshot selection or creation, IAM role setup, KMS encryption, S3 bucket preparation, export task execution, progress monitoring, and data verification. Use when exporting RDS/Aurora data to S3 for Athena, Glue, or Redshift Spectrum consumption.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/database-skills/exporting-rds-to-s3",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/exporting-rds-to-s3",
+        "last_synced": "2026-08-13T10:08:59.989368Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "exporting",
+        "rds"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "supabase/supabase/clickhouse-logs-queries",
+      "spec": {
+        "name": "clickhouse-logs-queries",
+        "description": "Write, review, and migrate Supabase logs queries against the ClickHouse-backed `logs` table (the `logs.all.otel` analytics endpoint). Use this whenever a task involves Logs Explorer SQL, the `log_attributes` map, querying a log `source` (edge_logs, postgres_logs, auth_logs, etc.), translating an old BigQuery `cross join unnest(metadata)` logs query to ClickHouse, or wiring analytics log SQL in `apps/studio/data/logs` and `apps/studio/components/interfaces/Settings/Logs`. Reach for it even when the user just says \"logs query\", \"Logs Explorer\", or pastes a BigQuery logs query to convert, not only when they name ClickHouse.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/clickhouse-logs-queries",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/clickhouse-logs-queries",
+        "last_synced": "2026-08-13T10:08:59.994989Z",
+        "upstream_commit": "cc6fe2100a72"
+      },
+      "signals": {
+        "repo_stars": 107926,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "clickhouse",
+        "logs",
+        "queries"
+      ],
+      "score": 57
+    },
+    {
       "skill_id": "skillhub-cn/westock-data",
       "spec": {
         "name": "westock-data",
@@ -106,7 +821,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/westock-data",
         "source_path": "westock-data",
         "install_url": "https://api.skillhub.cn/tencent-adm/westock-data",
-        "last_synced": "2026-08-13T08:11:43.480963Z",
+        "last_synced": "2026-08-13T10:09:00.048541Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -116,7 +831,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 21337
+        "install_count": 21378
       },
       "platform": {
         "claude_code": true,
@@ -131,50 +846,6 @@
         "westock"
       ],
       "score": 49
-    },
-    {
-      "skill_id": "skillhub-cn/aistockresearcher",
-      "spec": {
-        "name": "aistockresearcher",
-        "description": "全球智能投研工具 v8.0 — 全资产量化分析 + 投资涨跌预测 + 真实数据源。\n覆盖 12 个全球市场，支持股票/基金/指数/板块/商品/期货/债券/货币基金/可转债，\n零依赖核心（纯 stdlib）。\n\n🆕 v8.0 全面升级：\n- 数据准确性修复：PE/PB 真实历史分位激活、财务时效校验、资金流真实化、\nDCF 债务/利息断链修复、多源管理器真接线、港美股分页\n- 组合优化：Markowitz MVO / 最大Sharpe / 风险平价 / 组合 VaR-ES（纯 stdlib）\n- 蒙特卡洛增强：跳跃扩散 + 肥尾 t 分布\n- ML 接入主预测链路（短期叠加）+ 进化闭环 track\n- 统一全资产量化入口 quant_analyze_asset + 债券/货币基金/可转债量化模块\n- akshare 可选数据源（基金净值/债券/可转债/宏观/港美股财务，未装自动降级）\n\n数据源：腾讯 + 东方财富（免费无 Key）+ akshare（可选）。测试 ~310。\n\n触发词：股票、基金、行情、分析、预测、涨跌、指数、板块、商品、黄金、债券、可转债、\n货币基金、全球市场、量化、技术指标、组合优化、风险平价、夏普、回测、价值投资、\n蒙特卡洛、VaR、Sharpe、涨跌预测、量化分析、全资产、因子库、策略回测、数据质量",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
-        "source_path": "aistockresearcher",
-        "install_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
-        "last_synced": "2026-08-13T08:11:43.480826Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 79,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 23471
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "aistockresearcher"
-      ],
-      "score": 48
     },
     {
       "skill_id": "skillhub-cn/data-analysis-plus",
@@ -195,7 +866,7 @@
         "source_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
         "source_path": "data-analysis-plus",
         "install_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
-        "last_synced": "2026-08-13T08:11:43.482212Z",
+        "last_synced": "2026-08-13T10:09:00.049711Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -205,7 +876,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 15963
+        "install_count": 16030
       },
       "platform": {
         "claude_code": true,
@@ -241,7 +912,7 @@
         "source_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
         "source_path": "tianji-business-search",
         "install_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
-        "last_synced": "2026-08-13T08:11:43.485483Z",
+        "last_synced": "2026-08-13T10:09:00.052782Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -251,7 +922,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6531
+        "install_count": 6555
       },
       "platform": {
         "claude_code": true,
@@ -267,6 +938,49 @@
         "tianji"
       ],
       "score": 46
+    },
+    {
+      "skill_id": "supabase/supabase/safe-sql-execution",
+      "spec": {
+        "name": "safe-sql-execution",
+        "description": "Use whenever code will build, return, fetch, or execute SQL that runs against a user's real Postgres database — even when the request reads like an ordinary feature or bug fix and never says \"security,\" \"injection,\" or \"SafeSqlFragment.\" This covers: writing or editing any pg-meta function, query builder, or endpoint that builds/returns SQL for database objects (tables, views, functions, DB triggers, indexes, RLS policies); interpolating a schema/table/column/search/route-param value into SQL text; storing, fetching, or re-running SQL that round-trips from the database (a policy's definition, a function/view definition, a snippet's saved content); and any \"Run\"/\"Apply\"/\"Execute\" action that sends SQL to a project's database (SQL editor run-selection, policy editor apply, snippet runner). Load this BEFORE writing such code, not only when reviewing a finished diff. Skip only for changes that never touch SQL text or execution — styling, unrelated data hooks, non-SQL form validation, or UI layout work.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/safe-sql-execution",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/safe-sql-execution",
+        "last_synced": "2026-08-13T10:08:59.995374Z",
+        "upstream_commit": "cc6fe2100a72"
+      },
+      "signals": {
+        "repo_stars": 107926,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "execution",
+        "safe",
+        "sql"
+      ],
+      "score": 45
     },
     {
       "skill_id": "skillhub-cn/wechatanalyzer",
@@ -287,7 +1001,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
         "source_path": "wechatanalyzer",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
-        "last_synced": "2026-08-13T08:11:43.484900Z",
+        "last_synced": "2026-08-13T10:09:00.052166Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -297,7 +1011,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 7713
+        "install_count": 7782
       },
       "platform": {
         "claude_code": true,
@@ -954,6 +1668,92 @@
       "score": 44
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/querying-aws-s3",
+      "spec": {
+        "name": "querying-aws-s3",
+        "description": "Queries S3 object metadata, tracks bucket activity, audits object changes, searches annotations, and analyzes storage metrics using S3 Metadata system tables (journal, inventory, annotation) and S3 Storage Lens tables via Athena SQL. Applies when counting objects, finding recent uploads or deletions, identifying who wrote to a prefix, breaking down storage classes, finding objects by tag, searching annotation content, analyzing storage lens metrics, or enabling S3 Metadata tracking. Prefers system tables over raw S3 APIs (list-objects-v2, head-object) at scale. Trigger phrases: bucket activity, object count, who uploaded, track deletions, storage class breakdown, find by tag, search annotations, storage lens metrics, audit bucket changes.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/system-table-skills/querying-aws-s3",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-s3",
+        "last_synced": "2026-08-13T10:08:59.994095Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aws",
+        "querying"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/querying-aws-sagemaker-catalog",
+      "spec": {
+        "name": "querying-aws-sagemaker-catalog",
+        "description": "Runs SQL analytics on SageMaker Catalog asset metadata tables exported as Apache Iceberg in S3 Tables. Covers governance queries, asset growth tracking, ownership audits, time-travel over catalog state, and metadata quality analysis. Applies when querying catalog inventory, finding assets without descriptions, comparing catalog snapshots, or auditing data ownership. Trigger phrases: catalog inventory SQL, how many assets, assets without descriptions, asset growth over time, who owns this data, catalog governance, data quality audit, catalog analytics.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/system-table-skills/querying-aws-sagemaker-catalog",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-sagemaker-catalog",
+        "last_synced": "2026-08-13T10:08:59.994199Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aws",
+        "catalog",
+        "querying",
+        "sagemaker"
+      ],
+      "score": 44
+    },
+    {
       "skill_id": "skillhub-cn/lingyi-copy-de-ai-human-eval",
       "spec": {
         "name": "lingyi-copy-de-ai-human-eval",
@@ -972,7 +1772,7 @@
         "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
         "source_path": "lingyi-copy-de-ai-human-eval",
         "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
-        "last_synced": "2026-08-13T08:11:43.481554Z",
+        "last_synced": "2026-08-13T10:09:00.049140Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -982,7 +1782,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 18090
+        "install_count": 18108
       },
       "platform": {
         "claude_code": true,
@@ -1019,7 +1819,7 @@
         "source_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
         "source_path": "equal-data-skill",
         "install_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
-        "last_synced": "2026-08-13T08:11:43.486211Z",
+        "last_synced": "2026-08-13T10:09:00.053479Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1029,7 +1829,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6325
+        "install_count": 6330
       },
       "platform": {
         "claude_code": true,
@@ -1065,7 +1865,7 @@
         "source_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
         "source_path": "smart-charts",
         "install_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
-        "last_synced": "2026-08-13T08:11:43.478142Z",
+        "last_synced": "2026-08-13T10:09:00.047546Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1075,7 +1875,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 40038
+        "install_count": 40316
       },
       "platform": {
         "claude_code": true,
@@ -1110,7 +1910,7 @@
         "source_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
         "source_path": "generate-chart",
         "install_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
-        "last_synced": "2026-08-13T08:11:43.482798Z",
+        "last_synced": "2026-08-13T10:09:00.050258Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1120,7 +1920,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 12315
+        "install_count": 12360
       },
       "platform": {
         "claude_code": true,
@@ -1155,7 +1955,7 @@
         "source_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
         "source_path": "fund-realtime-scraper",
         "install_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
-        "last_synced": "2026-08-13T08:11:43.489003Z",
+        "last_synced": "2026-08-13T10:09:00.056080Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1165,7 +1965,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4347
+        "install_count": 4353
       },
       "platform": {
         "claude_code": true,
@@ -1201,7 +2001,7 @@
         "source_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
         "source_path": "academic-knowledge-base",
         "install_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
-        "last_synced": "2026-08-13T08:11:43.491777Z",
+        "last_synced": "2026-08-13T10:09:00.088743Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1211,7 +2011,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3372
+        "install_count": 3375
       },
       "platform": {
         "claude_code": true,
@@ -1248,7 +2048,7 @@
         "source_url": "https://api.skillhub.cn/user_59252579/yuqing",
         "source_path": "yuqing",
         "install_url": "https://api.skillhub.cn/user_59252579/yuqing",
-        "last_synced": "2026-08-13T08:11:43.496728Z",
+        "last_synced": "2026-08-13T10:09:00.092745Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1258,7 +2058,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2335
+        "install_count": 2345
       },
       "platform": {
         "claude_code": true,
@@ -1292,7 +2092,7 @@
         "source_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
         "source_path": "qingxi-skill-01",
         "install_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
-        "last_synced": "2026-08-13T08:11:43.488339Z",
+        "last_synced": "2026-08-13T10:09:00.055102Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1302,7 +2102,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4792
+        "install_count": 4980
       },
       "platform": {
         "claude_code": true,
@@ -1337,7 +2137,7 @@
         "source_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
         "source_path": "drawio-generator-pro",
         "install_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
-        "last_synced": "2026-08-13T08:11:43.497953Z",
+        "last_synced": "2026-08-13T10:09:00.093871Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1347,7 +2147,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2412
+        "install_count": 2421
       },
       "platform": {
         "claude_code": true,
@@ -1383,7 +2183,7 @@
         "source_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
         "source_path": "scrapling-article-fetch",
         "install_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
-        "last_synced": "2026-08-13T08:11:43.499097Z",
+        "last_synced": "2026-08-13T10:09:00.094990Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1393,7 +2193,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2257
+        "install_count": 2261
       },
       "platform": {
         "claude_code": true,
@@ -1429,7 +2229,7 @@
         "source_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
         "source_path": "financial-report-minesweeper",
         "install_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
-        "last_synced": "2026-08-13T08:11:43.499756Z",
+        "last_synced": "2026-08-13T10:09:00.095750Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1439,7 +2239,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2047
+        "install_count": 2050
       },
       "platform": {
         "claude_code": true,
@@ -1475,7 +2275,7 @@
         "source_url": "https://api.skillhub.cn/user_841956ef/grounddata-ai-daily-news-cn",
         "source_path": "grounddata-ai-daily-news-cn",
         "install_url": "https://api.skillhub.cn/user_841956ef/grounddata-ai-daily-news-cn",
-        "last_synced": "2026-08-13T08:11:43.509085Z",
+        "last_synced": "2026-08-13T10:09:00.104307Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1485,7 +2285,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1271
+        "install_count": 1272
       },
       "platform": {
         "claude_code": true,
@@ -1521,7 +2321,7 @@
         "source_url": "https://api.skillhub.cn/user_ad45f167/douyin-selenium-scraper-skill",
         "source_path": "douyin-selenium-scraper-skill",
         "install_url": "https://api.skillhub.cn/user_ad45f167/douyin-selenium-scraper-skill",
-        "last_synced": "2026-08-13T08:11:43.509785Z",
+        "last_synced": "2026-08-13T10:09:00.104955Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1531,7 +2331,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1275
+        "install_count": 1279
       },
       "platform": {
         "claude_code": true,
@@ -1568,7 +2368,7 @@
         "source_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
         "source_path": "football-match-analysis",
         "install_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
-        "last_synced": "2026-08-13T08:11:43.492672Z",
+        "last_synced": "2026-08-13T10:09:00.089575Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1578,7 +2378,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3319
+        "install_count": 3328
       },
       "platform": {
         "claude_code": true,
@@ -1614,7 +2414,7 @@
         "source_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
         "source_path": "liuye-legal-intelligent-search",
         "install_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
-        "last_synced": "2026-08-13T08:11:43.499410Z",
+        "last_synced": "2026-08-13T10:09:00.095382Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1624,7 +2424,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2235
+        "install_count": 2243
       },
       "platform": {
         "claude_code": true,
@@ -1661,7 +2461,7 @@
         "source_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
         "source_path": "stock-mtl-v5",
         "install_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
-        "last_synced": "2026-08-13T08:11:43.501032Z",
+        "last_synced": "2026-08-13T10:09:00.096829Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1671,7 +2471,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2065
+        "install_count": 2073
       },
       "platform": {
         "claude_code": true,
@@ -1706,7 +2506,7 @@
         "source_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
         "source_path": "science-figures",
         "install_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
-        "last_synced": "2026-08-13T08:11:43.501712Z",
+        "last_synced": "2026-08-13T10:09:00.097478Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1716,7 +2516,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1996
+        "install_count": 2003
       },
       "platform": {
         "claude_code": true,
@@ -1752,17 +2552,17 @@
         "source_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-optimized-pro",
         "source_path": "skill-creator-optimized-pro",
         "install_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-optimized-pro",
-        "last_synced": "2026-08-13T08:11:43.508919Z",
+        "last_synced": "2026-08-13T10:09:00.103811Z",
         "upstream_commit": ""
       },
       "signals": {
-        "repo_stars": 7,
+        "repo_stars": 8,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1481
+        "install_count": 1484
       },
       "platform": {
         "claude_code": true,
@@ -1799,7 +2599,7 @@
         "source_url": "https://api.skillhub.cn/user_d4fbf0bb/csm-20260430",
         "source_path": "csm-20260430",
         "install_url": "https://api.skillhub.cn/user_d4fbf0bb/csm-20260430",
-        "last_synced": "2026-08-13T08:11:43.511617Z",
+        "last_synced": "2026-08-13T10:09:00.106564Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1809,7 +2609,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1235
+        "install_count": 1244
       },
       "platform": {
         "claude_code": true,
@@ -1844,7 +2644,7 @@
         "source_url": "https://api.skillhub.cn/user_82981261/ai-pm-workbench",
         "source_path": "ai-pm-workbench",
         "install_url": "https://api.skillhub.cn/user_82981261/ai-pm-workbench",
-        "last_synced": "2026-08-13T08:11:43.528052Z",
+        "last_synced": "2026-08-13T10:09:00.122472Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1854,7 +2654,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 812
+        "install_count": 815
       },
       "platform": {
         "claude_code": true,
@@ -1889,7 +2689,7 @@
         "source_url": "https://api.skillhub.cn/user_f0974107/investment-news-collector-xdj",
         "source_path": "investment-news-collector-xdj",
         "install_url": "https://api.skillhub.cn/user_f0974107/investment-news-collector-xdj",
-        "last_synced": "2026-08-13T08:11:43.533062Z",
+        "last_synced": "2026-08-13T10:09:00.127307Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1899,7 +2699,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 718
+        "install_count": 719
       },
       "platform": {
         "claude_code": true,
@@ -2191,7 +2991,7 @@
         "source_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
         "source_path": "qclaw-data-analyst-pro",
         "install_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
-        "last_synced": "2026-08-13T08:11:43.487780Z",
+        "last_synced": "2026-08-13T10:09:00.055043Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2201,7 +3001,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4957
+        "install_count": 4975
       },
       "platform": {
         "claude_code": true,
@@ -2238,7 +3038,7 @@
         "source_url": "https://api.skillhub.cn/org-rwhv0nty/ad-factor-analysis",
         "source_path": "ad-factor-analysis",
         "install_url": "https://api.skillhub.cn/org-rwhv0nty/ad-factor-analysis",
-        "last_synced": "2026-08-13T08:11:43.507289Z",
+        "last_synced": "2026-08-13T10:09:00.102570Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2248,7 +3048,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1640
+        "install_count": 1642
       },
       "platform": {
         "claude_code": true,
@@ -2283,7 +3083,7 @@
         "source_url": "https://api.skillhub.cn/user_5d10d7f7/fund-analyzer-plus",
         "source_path": "fund-analyzer-plus",
         "install_url": "https://api.skillhub.cn/user_5d10d7f7/fund-analyzer-plus",
-        "last_synced": "2026-08-13T08:11:43.516095Z",
+        "last_synced": "2026-08-13T10:09:00.110746Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2293,7 +3093,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1172
+        "install_count": 1178
       },
       "platform": {
         "claude_code": true,
@@ -2329,7 +3129,7 @@
         "source_url": "https://api.skillhub.cn/user_912ed068/bilibili-downloader-plus",
         "source_path": "bilibili-downloader-plus",
         "install_url": "https://api.skillhub.cn/user_912ed068/bilibili-downloader-plus",
-        "last_synced": "2026-08-13T08:11:43.516514Z",
+        "last_synced": "2026-08-13T10:09:00.111583Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2339,7 +3139,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1219
+        "install_count": 1220
       },
       "platform": {
         "claude_code": true,
@@ -2375,7 +3175,7 @@
         "source_url": "https://api.skillhub.cn/user_62138798/stock-price-monitor",
         "source_path": "stock-price-monitor",
         "install_url": "https://api.skillhub.cn/user_62138798/stock-price-monitor",
-        "last_synced": "2026-08-13T08:11:43.529330Z",
+        "last_synced": "2026-08-13T10:09:00.123587Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2385,7 +3185,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 914
+        "install_count": 918
       },
       "platform": {
         "claude_code": true,
@@ -2421,7 +3221,7 @@
         "source_url": "https://api.skillhub.cn/user_72ffbadb/ecommerce-multi-analyzer",
         "source_path": "ecommerce-multi-analyzer",
         "install_url": "https://api.skillhub.cn/user_72ffbadb/ecommerce-multi-analyzer",
-        "last_synced": "2026-08-13T08:11:43.534135Z",
+        "last_synced": "2026-08-13T10:09:00.128212Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2431,7 +3231,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 826
+        "install_count": 830
       },
       "platform": {
         "claude_code": true,
@@ -2467,7 +3267,7 @@
         "source_url": "https://api.skillhub.cn/user_bdacebb4/read-helper",
         "source_path": "read-helper",
         "install_url": "https://api.skillhub.cn/user_bdacebb4/read-helper",
-        "last_synced": "2026-08-13T08:11:43.537404Z",
+        "last_synced": "2026-08-13T10:09:00.131377Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2477,7 +3277,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 760
+        "install_count": 762
       },
       "platform": {
         "claude_code": true,
@@ -2512,7 +3312,7 @@
         "source_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
         "source_path": "investoday-finance-data-v2",
         "install_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
-        "last_synced": "2026-08-13T08:11:43.495082Z",
+        "last_synced": "2026-08-13T10:09:00.090835Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2522,7 +3322,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3116
+        "install_count": 3161
       },
       "platform": {
         "claude_code": true,
@@ -2558,7 +3358,7 @@
         "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
         "source_path": "douyin-traffic-dashboard",
         "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
-        "last_synced": "2026-08-13T08:11:43.496373Z",
+        "last_synced": "2026-08-13T10:09:00.092401Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2568,7 +3368,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2575
+        "install_count": 2579
       },
       "platform": {
         "claude_code": true,
@@ -2604,7 +3404,7 @@
         "source_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
         "source_path": "voicescope-voc-insight",
         "install_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
-        "last_synced": "2026-08-13T08:11:43.497721Z",
+        "last_synced": "2026-08-13T10:09:00.093720Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2614,7 +3414,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2587
+        "install_count": 2589
       },
       "platform": {
         "claude_code": true,
@@ -2650,7 +3450,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
         "source_path": "xinwen",
         "install_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
-        "last_synced": "2026-08-13T08:11:43.502322Z",
+        "last_synced": "2026-08-13T10:09:00.097833Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2660,7 +3460,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1777
+        "install_count": 1782
       },
       "platform": {
         "claude_code": true,
@@ -2694,7 +3494,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/douyin-account-diagnosis-redfox",
         "source_path": "douyin-account-diagnosis-redfox",
         "install_url": "https://api.skillhub.cn/redfox-data/douyin-account-diagnosis-redfox",
-        "last_synced": "2026-08-13T08:11:43.507330Z",
+        "last_synced": "2026-08-13T10:09:00.102614Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2704,7 +3504,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1675
+        "install_count": 1681
       },
       "platform": {
         "claude_code": true,
@@ -2741,7 +3541,7 @@
         "source_url": "https://api.skillhub.cn/user_b392afca/math-modeling",
         "source_path": "math-modeling",
         "install_url": "https://api.skillhub.cn/user_b392afca/math-modeling",
-        "last_synced": "2026-08-13T08:11:43.518614Z",
+        "last_synced": "2026-08-13T10:09:00.114444Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2751,7 +3551,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1176
+        "install_count": 1180
       },
       "platform": {
         "claude_code": true,
@@ -2786,7 +3586,7 @@
         "source_url": "https://api.skillhub.cn/user_2cd25b29/bazicesuan-zhouyisuangua",
         "source_path": "bazicesuan-zhouyisuangua",
         "install_url": "https://api.skillhub.cn/user_2cd25b29/bazicesuan-zhouyisuangua",
-        "last_synced": "2026-08-13T08:11:43.523889Z",
+        "last_synced": "2026-08-13T10:09:00.118612Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2796,7 +3596,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1037
+        "install_count": 1038
       },
       "platform": {
         "claude_code": true,
@@ -2831,7 +3631,7 @@
         "source_url": "https://api.skillhub.cn/user_cd2306da/a-share-penny-stock-technical-analysis",
         "source_path": "a-share-penny-stock-technical-analysis",
         "install_url": "https://api.skillhub.cn/user_cd2306da/a-share-penny-stock-technical-analysis",
-        "last_synced": "2026-08-13T08:11:43.526810Z",
+        "last_synced": "2026-08-13T10:09:00.121259Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2841,7 +3641,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 994
+        "install_count": 998
       },
       "platform": {
         "claude_code": true,
@@ -2879,7 +3679,7 @@
         "source_url": "https://api.skillhub.cn/user_1581d31c/data-modeling-viz-v2",
         "source_path": "data-modeling-viz-v2",
         "install_url": "https://api.skillhub.cn/user_1581d31c/data-modeling-viz-v2",
-        "last_synced": "2026-08-13T08:11:43.527161Z",
+        "last_synced": "2026-08-13T10:09:00.121415Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2889,7 +3689,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 985
+        "install_count": 994
       },
       "platform": {
         "claude_code": true,
@@ -2925,7 +3725,7 @@
         "source_url": "https://api.skillhub.cn/user_a7715369/world-cup-2026-pro",
         "source_path": "world-cup-2026-pro",
         "install_url": "https://api.skillhub.cn/user_a7715369/world-cup-2026-pro",
-        "last_synced": "2026-08-13T08:11:43.535048Z",
+        "last_synced": "2026-08-13T10:09:00.129116Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2935,7 +3735,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 871
+        "install_count": 873
       },
       "platform": {
         "claude_code": true,
@@ -2972,7 +3772,7 @@
         "source_url": "https://api.skillhub.cn/user_0b627a67/talent-review-system",
         "source_path": "talent-review-system",
         "install_url": "https://api.skillhub.cn/user_0b627a67/talent-review-system",
-        "last_synced": "2026-08-13T08:11:43.549090Z",
+        "last_synced": "2026-08-13T10:09:00.142251Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2982,7 +3782,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 660
+        "install_count": 662
       },
       "platform": {
         "claude_code": true,
@@ -3018,7 +3818,7 @@
         "source_url": "https://api.skillhub.cn/user_a95aac1d/research-fakedata",
         "source_path": "research-fakedata",
         "install_url": "https://api.skillhub.cn/user_a95aac1d/research-fakedata",
-        "last_synced": "2026-08-13T08:11:43.554014Z",
+        "last_synced": "2026-08-13T10:09:00.146704Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3028,7 +3828,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 669
+        "install_count": 673
       },
       "platform": {
         "claude_code": true,
@@ -3065,7 +3865,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/cn-last30days",
         "source_path": "cn-last30days",
         "install_url": "https://api.skillhub.cn/redfox-data/cn-last30days",
-        "last_synced": "2026-08-13T08:11:43.562866Z",
+        "last_synced": "2026-08-13T10:09:00.154805Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3075,7 +3875,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 611
+        "install_count": 612
       },
       "platform": {
         "claude_code": true,
@@ -3109,7 +3909,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/webnovelscraper",
         "source_path": "webnovelscraper",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/webnovelscraper",
-        "last_synced": "2026-08-13T08:11:43.574712Z",
+        "last_synced": "2026-08-13T10:09:00.165669Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3119,7 +3919,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 551
+        "install_count": 554
       },
       "platform": {
         "claude_code": true,
@@ -3153,7 +3953,7 @@
         "source_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
         "source_path": "volumetop20",
         "install_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
-        "last_synced": "2026-08-13T08:11:43.490467Z",
+        "last_synced": "2026-08-13T10:09:00.058375Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3163,7 +3963,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3921
+        "install_count": 3925
       },
       "platform": {
         "claude_code": true,
@@ -3197,7 +3997,7 @@
         "source_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
         "source_path": "wechat-rewrite",
         "install_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
-        "last_synced": "2026-08-13T08:11:43.502195Z",
+        "last_synced": "2026-08-13T10:09:00.097797Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3207,7 +4007,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1896
+        "install_count": 1899
       },
       "platform": {
         "claude_code": true,
@@ -3242,7 +4042,7 @@
         "source_url": "https://api.skillhub.cn/user_cd9945f5/bayesian-football-predictor",
         "source_path": "bayesian-football-predictor",
         "install_url": "https://api.skillhub.cn/user_cd9945f5/bayesian-football-predictor",
-        "last_synced": "2026-08-13T08:11:43.516446Z",
+        "last_synced": "2026-08-13T10:09:00.111374Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3252,7 +4052,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1281
+        "install_count": 1282
       },
       "platform": {
         "claude_code": true,
@@ -3288,7 +4088,7 @@
         "source_url": "https://api.skillhub.cn/org-t9iphcmf/livescore-radar",
         "source_path": "livescore-radar",
         "install_url": "https://api.skillhub.cn/org-t9iphcmf/livescore-radar",
-        "last_synced": "2026-08-13T08:11:43.523021Z",
+        "last_synced": "2026-08-13T10:09:00.117651Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3298,7 +4098,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1105
+        "install_count": 1109
       },
       "platform": {
         "claude_code": true,
@@ -3333,7 +4133,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-data-asset",
         "source_path": "tax-data-asset",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-data-asset",
-        "last_synced": "2026-08-13T08:11:43.534562Z",
+        "last_synced": "2026-08-13T10:09:00.128670Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3343,7 +4143,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 919
+        "install_count": 924
       },
       "platform": {
         "claude_code": true,
@@ -3379,7 +4179,7 @@
         "source_url": "https://api.skillhub.cn/user_b463487e/tencent-ima-copilot-legal-consultation",
         "source_path": "tencent-ima-copilot-legal-consultation",
         "install_url": "https://api.skillhub.cn/user_b463487e/tencent-ima-copilot-legal-consultation",
-        "last_synced": "2026-08-13T08:11:43.537866Z",
+        "last_synced": "2026-08-13T10:09:00.131574Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3389,7 +4189,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 855
+        "install_count": 859
       },
       "platform": {
         "claude_code": true,
@@ -3428,7 +4228,7 @@
         "source_url": "https://api.skillhub.cn/user_638acef9/lesson-plan-eval",
         "source_path": "lesson-plan-eval",
         "install_url": "https://api.skillhub.cn/user_638acef9/lesson-plan-eval",
-        "last_synced": "2026-08-13T08:11:43.555780Z",
+        "last_synced": "2026-08-13T10:09:00.148245Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3438,7 +4238,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 697
+        "install_count": 698
       },
       "platform": {
         "claude_code": true,
@@ -3474,7 +4274,7 @@
         "source_url": "https://api.skillhub.cn/user_fdb96f95/heartflow-ai",
         "source_path": "heartflow-ai",
         "install_url": "https://api.skillhub.cn/user_fdb96f95/heartflow-ai",
-        "last_synced": "2026-08-13T08:11:43.559232Z",
+        "last_synced": "2026-08-13T10:09:00.151619Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3518,7 +4318,7 @@
         "source_url": "https://api.skillhub.cn/user_8965db71/hr-assessment-officer",
         "source_path": "hr-assessment-officer",
         "install_url": "https://api.skillhub.cn/user_8965db71/hr-assessment-officer",
-        "last_synced": "2026-08-13T08:11:43.570390Z",
+        "last_synced": "2026-08-13T10:09:00.161861Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3528,7 +4328,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 589
+        "install_count": 591
       },
       "platform": {
         "claude_code": true,
@@ -3605,7 +4405,7 @@
         "source_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
         "source_path": "excel-chart",
         "install_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
-        "last_synced": "2026-08-13T08:11:43.491703Z",
+        "last_synced": "2026-08-13T10:09:00.088558Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3615,7 +4415,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3589
+        "install_count": 3619
       },
       "platform": {
         "claude_code": true,
@@ -3650,7 +4450,7 @@
         "source_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
         "source_path": "stock-cyq-analyzer",
         "install_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
-        "last_synced": "2026-08-13T08:11:43.497684Z",
+        "last_synced": "2026-08-13T10:09:00.093685Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3660,7 +4460,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2508
+        "install_count": 2517
       },
       "platform": {
         "claude_code": true,
@@ -3696,7 +4496,7 @@
         "source_url": "https://api.skillhub.cn/user_b9b84f95/toutiao-hot-news-skill",
         "source_path": "toutiao-hot-news-skill",
         "install_url": "https://api.skillhub.cn/user_b9b84f95/toutiao-hot-news-skill",
-        "last_synced": "2026-08-13T08:11:43.505572Z",
+        "last_synced": "2026-08-13T10:09:00.100860Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3706,7 +4506,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1637
+        "install_count": 1642
       },
       "platform": {
         "claude_code": true,
@@ -3743,7 +4543,7 @@
         "source_url": "https://api.skillhub.cn/user_6ce60a6f/hr-daily-report",
         "source_path": "hr-daily-report",
         "install_url": "https://api.skillhub.cn/user_6ce60a6f/hr-daily-report",
-        "last_synced": "2026-08-13T08:11:43.510294Z",
+        "last_synced": "2026-08-13T10:09:00.105413Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3753,7 +4553,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1553
+        "install_count": 1558
       },
       "platform": {
         "claude_code": true,
@@ -3788,7 +4588,7 @@
         "source_url": "https://api.skillhub.cn/user_5ad503e4/worldcup-analyzer",
         "source_path": "worldcup-analyzer",
         "install_url": "https://api.skillhub.cn/user_5ad503e4/worldcup-analyzer",
-        "last_synced": "2026-08-13T08:11:43.511318Z",
+        "last_synced": "2026-08-13T10:09:00.106472Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3833,7 +4633,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/douyin-search-v2",
         "source_path": "douyin-search-v2",
         "install_url": "https://api.skillhub.cn/redfox-data/douyin-search-v2",
-        "last_synced": "2026-08-13T08:11:43.520972Z",
+        "last_synced": "2026-08-13T10:09:00.115773Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3843,7 +4643,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1204
+        "install_count": 1208
       },
       "platform": {
         "claude_code": true,
@@ -3878,7 +4678,7 @@
         "source_url": "https://api.skillhub.cn/user_5f9c21aa/douyin-daily-hot-redfox",
         "source_path": "douyin-daily-hot-redfox",
         "install_url": "https://api.skillhub.cn/user_5f9c21aa/douyin-daily-hot-redfox",
-        "last_synced": "2026-08-13T08:11:43.537262Z",
+        "last_synced": "2026-08-13T10:09:00.130413Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3888,7 +4688,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 883
+        "install_count": 892
       },
       "platform": {
         "claude_code": true,
@@ -3925,7 +4725,7 @@
         "source_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-friendly-optimized",
         "source_path": "skill-creator-friendly-optimized",
         "install_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-friendly-optimized",
-        "last_synced": "2026-08-13T08:11:43.539297Z",
+        "last_synced": "2026-08-13T10:09:00.133572Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3935,7 +4735,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 858
+        "install_count": 860
       },
       "platform": {
         "claude_code": true,
@@ -3972,7 +4772,7 @@
         "source_url": "https://api.skillhub.cn/user_b3c51885/case-retrieval-analysis-master",
         "source_path": "case-retrieval-analysis-master",
         "install_url": "https://api.skillhub.cn/user_b3c51885/case-retrieval-analysis-master",
-        "last_synced": "2026-08-13T08:11:43.554331Z",
+        "last_synced": "2026-08-13T10:09:00.147090Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3982,7 +4782,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 728
+        "install_count": 730
       },
       "platform": {
         "claude_code": true,
@@ -4019,7 +4819,7 @@
         "source_url": "https://api.skillhub.cn/user_0f287ac2/ai-news-collector",
         "source_path": "ai-news-collector",
         "install_url": "https://api.skillhub.cn/user_0f287ac2/ai-news-collector",
-        "last_synced": "2026-08-13T08:11:43.567071Z",
+        "last_synced": "2026-08-13T10:09:00.159813Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4029,7 +4829,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 644
+        "install_count": 645
       },
       "platform": {
         "claude_code": true,
@@ -4064,7 +4864,7 @@
         "source_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
         "source_path": "competitor-analysis-pro",
         "install_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
-        "last_synced": "2026-08-13T08:11:43.493036Z",
+        "last_synced": "2026-08-13T10:09:00.089987Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4074,7 +4874,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3123
+        "install_count": 3140
       },
       "platform": {
         "claude_code": true,
@@ -4110,7 +4910,7 @@
         "source_url": "https://api.skillhub.cn/user_5971560d/douyin-competitor-analysis",
         "source_path": "douyin-competitor-analysis",
         "install_url": "https://api.skillhub.cn/user_5971560d/douyin-competitor-analysis",
-        "last_synced": "2026-08-13T08:11:43.509747Z",
+        "last_synced": "2026-08-13T10:09:00.104808Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4120,7 +4920,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1497
+        "install_count": 1501
       },
       "platform": {
         "claude_code": true,
@@ -4156,7 +4956,7 @@
         "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-competitor-research",
         "source_path": "douyin-competitor-research",
         "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-competitor-research",
-        "last_synced": "2026-08-13T08:11:43.520798Z",
+        "last_synced": "2026-08-13T10:09:00.115622Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4202,7 +5002,7 @@
         "source_url": "https://api.skillhub.cn/user_f26b93e2/legal-retrieval",
         "source_path": "legal-retrieval",
         "install_url": "https://api.skillhub.cn/user_f26b93e2/legal-retrieval",
-        "last_synced": "2026-08-13T08:11:43.524825Z",
+        "last_synced": "2026-08-13T10:09:00.119168Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4212,7 +5012,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1095
+        "install_count": 1104
       },
       "platform": {
         "claude_code": true,
@@ -4247,7 +5047,7 @@
         "source_url": "https://api.skillhub.cn/user_8558a957/lottery-predictor",
         "source_path": "lottery-predictor",
         "install_url": "https://api.skillhub.cn/user_8558a957/lottery-predictor",
-        "last_synced": "2026-08-13T08:11:43.525306Z",
+        "last_synced": "2026-08-13T10:09:00.119846Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4257,7 +5057,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 983
+        "install_count": 986
       },
       "platform": {
         "claude_code": true,
@@ -4292,7 +5092,7 @@
         "source_url": "https://api.skillhub.cn/user_257ad2a8/ctf-ai-ml",
         "source_path": "ctf-ai-ml",
         "install_url": "https://api.skillhub.cn/user_257ad2a8/ctf-ai-ml",
-        "last_synced": "2026-08-13T08:11:43.529963Z",
+        "last_synced": "2026-08-13T10:09:00.124350Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4302,7 +5102,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 999
+        "install_count": 1003
       },
       "platform": {
         "claude_code": true,
@@ -4337,7 +5137,7 @@
         "source_url": "https://api.skillhub.cn/user_f26b93e2/case-retrieval",
         "source_path": "case-retrieval",
         "install_url": "https://api.skillhub.cn/user_f26b93e2/case-retrieval",
-        "last_synced": "2026-08-13T08:11:43.548191Z",
+        "last_synced": "2026-08-13T10:09:00.141221Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4347,7 +5147,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 789
+        "install_count": 797
       },
       "platform": {
         "claude_code": true,
@@ -4360,53 +5160,6 @@
       "tags": [
         "case",
         "retrieval"
-      ],
-      "score": 36
-    },
-    {
-      "skill_id": "skillhub-cn/majia-system-prompt-java",
-      "spec": {
-        "name": "majia-system-prompt-java",
-        "description": "图片提示词生成器？不止如此。\n马甲系统 —— 把脑海中的画面，翻译成AI能理解的专业表达。\n用得越多，它越懂你：首次需要多问几句确认方向，用久了几乎一说就懂。\n用得越多，它越快：缓存机制让后续对话越来越省。\nRAG进化：成功案例持续入库，越跑越聪明。\n输入「新手指南」查看完整功能介绍",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
-        "source_path": "majia-system-prompt-java",
-        "install_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
-        "last_synced": "2026-08-13T08:11:43.552556Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 0,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 761
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "java",
-        "majia",
-        "prompt",
-        "system"
       ],
       "score": 36
     },
@@ -4429,7 +5182,7 @@
         "source_url": "https://api.skillhub.cn/user_e942ebfc/douyin-content-surge",
         "source_path": "douyin-content-surge",
         "install_url": "https://api.skillhub.cn/user_e942ebfc/douyin-content-surge",
-        "last_synced": "2026-08-13T08:11:43.552695Z",
+        "last_synced": "2026-08-13T10:09:00.144937Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4439,7 +5192,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 760
+        "install_count": 765
       },
       "platform": {
         "claude_code": true,
@@ -4453,6 +5206,53 @@
         "content",
         "douyin",
         "surge"
+      ],
+      "score": 36
+    },
+    {
+      "skill_id": "skillhub-cn/majia-system-prompt-java",
+      "spec": {
+        "name": "majia-system-prompt-java",
+        "description": "图片提示词生成器？不止如此。\n马甲系统 —— 把脑海中的画面，翻译成AI能理解的专业表达。\n用得越多，它越懂你：首次需要多问几句确认方向，用久了几乎一说就懂。\n用得越多，它越快：缓存机制让后续对话越来越省。\nRAG进化：成功案例持续入库，越跑越聪明。\n输入「新手指南」查看完整功能介绍",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
+        "source_path": "majia-system-prompt-java",
+        "install_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
+        "last_synced": "2026-08-13T10:09:00.145355Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 762
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "java",
+        "majia",
+        "prompt",
+        "system"
       ],
       "score": 36
     },
@@ -4475,7 +5275,7 @@
         "source_url": "https://api.skillhub.cn/user_e942ebfc/wechat-subscribe-redfox",
         "source_path": "wechat-subscribe-redfox",
         "install_url": "https://api.skillhub.cn/user_e942ebfc/wechat-subscribe-redfox",
-        "last_synced": "2026-08-13T08:11:43.555527Z",
+        "last_synced": "2026-08-13T10:09:00.148025Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4485,7 +5285,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 599
+        "install_count": 600
       },
       "platform": {
         "claude_code": true,
@@ -4521,7 +5321,7 @@
         "source_url": "https://api.skillhub.cn/user_8e0d5bc5/ekyc-suite",
         "source_path": "ekyc-suite",
         "install_url": "https://api.skillhub.cn/user_8e0d5bc5/ekyc-suite",
-        "last_synced": "2026-08-13T08:11:43.577680Z",
+        "last_synced": "2026-08-13T10:09:00.168506Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4531,7 +5331,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 618
+        "install_count": 619
       },
       "platform": {
         "claude_code": true,
@@ -4566,7 +5366,7 @@
         "source_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
         "source_path": "bsk-browser-launcher",
         "install_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
-        "last_synced": "2026-08-13T08:11:43.497303Z",
+        "last_synced": "2026-08-13T10:09:00.093090Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4576,7 +5376,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2656
+        "install_count": 2728
       },
       "platform": {
         "claude_code": true,
@@ -4612,7 +5412,7 @@
         "source_url": "https://api.skillhub.cn/user_c660debd/shortdrama-weekly-ranking",
         "source_path": "shortdrama-weekly-ranking",
         "install_url": "https://api.skillhub.cn/user_c660debd/shortdrama-weekly-ranking",
-        "last_synced": "2026-08-13T08:11:43.527769Z",
+        "last_synced": "2026-08-13T10:09:00.122340Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4622,7 +5422,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 977
+        "install_count": 979
       },
       "platform": {
         "claude_code": true,
@@ -4658,7 +5458,7 @@
         "source_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-realtimemarketdata-skill",
         "source_path": "lingxi-realtimemarketdata-skill",
         "install_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-realtimemarketdata-skill",
-        "last_synced": "2026-08-13T08:11:43.527959Z",
+        "last_synced": "2026-08-13T10:09:00.122577Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4668,7 +5468,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 973
+        "install_count": 974
       },
       "platform": {
         "claude_code": true,
@@ -4704,7 +5504,7 @@
         "source_url": "https://api.skillhub.cn/user_c163d6d4/ifind-finance-data2",
         "source_path": "ifind-finance-data2",
         "install_url": "https://api.skillhub.cn/user_c163d6d4/ifind-finance-data2",
-        "last_synced": "2026-08-13T08:11:43.532175Z",
+        "last_synced": "2026-08-13T10:09:00.126738Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4750,7 +5550,7 @@
         "source_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-bilibili-analyzer-v2",
         "source_path": "unclecheng-bilibili-analyzer-v2",
         "install_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-bilibili-analyzer-v2",
-        "last_synced": "2026-08-13T08:11:43.533701Z",
+        "last_synced": "2026-08-13T10:09:00.128085Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4760,7 +5560,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 911
+        "install_count": 912
       },
       "platform": {
         "claude_code": true,
@@ -4796,7 +5596,7 @@
         "source_url": "https://api.skillhub.cn/user_dedbd569/mbti-assessment",
         "source_path": "mbti-assessment",
         "install_url": "https://api.skillhub.cn/user_dedbd569/mbti-assessment",
-        "last_synced": "2026-08-13T08:11:43.541266Z",
+        "last_synced": "2026-08-13T10:09:00.135130Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4841,7 +5641,7 @@
         "source_url": "https://api.skillhub.cn/user_8c7f0f65/taoguba",
         "source_path": "taoguba",
         "install_url": "https://api.skillhub.cn/user_8c7f0f65/taoguba",
-        "last_synced": "2026-08-13T08:11:43.545813Z",
+        "last_synced": "2026-08-13T10:09:00.139318Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4851,7 +5651,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 773
+        "install_count": 774
       },
       "platform": {
         "claude_code": true,
@@ -4885,7 +5685,7 @@
         "source_url": "https://api.skillhub.cn/user_fa54a8fd/dke-price-monitor",
         "source_path": "dke-price-monitor",
         "install_url": "https://api.skillhub.cn/user_fa54a8fd/dke-price-monitor",
-        "last_synced": "2026-08-13T08:11:43.565863Z",
+        "last_synced": "2026-08-13T10:09:00.158309Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4895,7 +5695,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 592
+        "install_count": 596
       },
       "platform": {
         "claude_code": true,
@@ -4931,7 +5731,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/gzh-astock-top",
         "source_path": "gzh-astock-top",
         "install_url": "https://api.skillhub.cn/redfox-data/gzh-astock-top",
-        "last_synced": "2026-08-13T08:11:43.572711Z",
+        "last_synced": "2026-08-13T10:09:00.164193Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4941,7 +5741,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 559
+        "install_count": 560
       },
       "platform": {
         "claude_code": true,
@@ -4977,7 +5777,7 @@
         "source_url": "https://api.skillhub.cn/user_6d261cd7/a-stock-news",
         "source_path": "a-stock-news",
         "install_url": "https://api.skillhub.cn/user_6d261cd7/a-stock-news",
-        "last_synced": "2026-08-13T08:11:43.511286Z",
+        "last_synced": "2026-08-13T10:09:00.106349Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4987,7 +5787,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1390
+        "install_count": 1394
       },
       "platform": {
         "claude_code": true,
@@ -5022,7 +5822,7 @@
         "source_url": "https://api.skillhub.cn/user_512254e3/jiuyan-yidong-market",
         "source_path": "jiuyan-yidong-market",
         "install_url": "https://api.skillhub.cn/user_512254e3/jiuyan-yidong-market",
-        "last_synced": "2026-08-13T08:11:43.529026Z",
+        "last_synced": "2026-08-13T10:09:00.123660Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5032,7 +5832,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 997
+        "install_count": 998
       },
       "platform": {
         "claude_code": true,
@@ -5068,7 +5868,7 @@
         "source_url": "https://api.skillhub.cn/user_f4e1eca6/jd-scrape",
         "source_path": "jd-scrape",
         "install_url": "https://api.skillhub.cn/user_f4e1eca6/jd-scrape",
-        "last_synced": "2026-08-13T08:11:43.535620Z",
+        "last_synced": "2026-08-13T10:09:00.129335Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5078,7 +5878,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 901
+        "install_count": 909
       },
       "platform": {
         "claude_code": true,
@@ -5112,7 +5912,7 @@
         "source_url": "https://api.skillhub.cn/user_cc9425b3/jy-china-macro-analysis",
         "source_path": "jy-china-macro-analysis",
         "install_url": "https://api.skillhub.cn/user_cc9425b3/jy-china-macro-analysis",
-        "last_synced": "2026-08-13T08:11:43.543336Z",
+        "last_synced": "2026-08-13T10:09:00.137736Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5122,7 +5922,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 814
+        "install_count": 815
       },
       "platform": {
         "claude_code": true,
@@ -5159,7 +5959,7 @@
         "source_url": "https://api.skillhub.cn/user_bae0772d/ai-training-pro",
         "source_path": "ai-training-pro",
         "install_url": "https://api.skillhub.cn/user_bae0772d/ai-training-pro",
-        "last_synced": "2026-08-13T08:11:43.547400Z",
+        "last_synced": "2026-08-13T10:09:00.140012Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5169,7 +5969,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 778
+        "install_count": 787
       },
       "platform": {
         "claude_code": true,
@@ -5204,7 +6004,7 @@
         "source_url": "https://api.skillhub.cn/user_5f8aef2c/cleandata01",
         "source_path": "cleandata01",
         "install_url": "https://api.skillhub.cn/user_5f8aef2c/cleandata01",
-        "last_synced": "2026-08-13T08:11:43.548298Z",
+        "last_synced": "2026-08-13T10:09:00.141623Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5214,7 +6014,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 767
+        "install_count": 771
       },
       "platform": {
         "claude_code": true,
@@ -5248,7 +6048,7 @@
         "source_url": "https://api.skillhub.cn/user_f4500486/sentiment-monitor",
         "source_path": "sentiment-monitor",
         "install_url": "https://api.skillhub.cn/user_f4500486/sentiment-monitor",
-        "last_synced": "2026-08-13T08:11:43.554603Z",
+        "last_synced": "2026-08-13T10:09:00.147253Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5258,7 +6058,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 726
+        "install_count": 728
       },
       "platform": {
         "claude_code": true,
@@ -5293,7 +6093,7 @@
         "source_url": "https://api.skillhub.cn/user_325940aa/autotravelstrategy",
         "source_path": "autotravelstrategy",
         "install_url": "https://api.skillhub.cn/user_325940aa/autotravelstrategy",
-        "last_synced": "2026-08-13T08:11:43.563027Z",
+        "last_synced": "2026-08-13T10:09:00.154868Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5303,7 +6103,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 670
+        "install_count": 672
       },
       "platform": {
         "claude_code": true,
@@ -5337,7 +6137,7 @@
         "source_url": "https://api.skillhub.cn/user_af28adda/generate-report123",
         "source_path": "generate-report123",
         "install_url": "https://api.skillhub.cn/user_af28adda/generate-report123",
-        "last_synced": "2026-08-13T08:11:43.569022Z",
+        "last_synced": "2026-08-13T10:09:00.160566Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5347,7 +6147,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 638
+        "install_count": 640
       },
       "platform": {
         "claude_code": true,
@@ -5382,7 +6182,7 @@
         "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-trend-insights",
         "source_path": "douyin-trend-insights",
         "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-trend-insights",
-        "last_synced": "2026-08-13T08:11:43.530779Z",
+        "last_synced": "2026-08-13T10:09:00.125116Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5392,7 +6192,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 989
+        "install_count": 991
       },
       "platform": {
         "claude_code": true,
@@ -5428,7 +6228,7 @@
         "source_url": "https://api.skillhub.cn/user_c2c676b2/energy-power-bid-analyzer-dianlizhaobiaowang",
         "source_path": "energy-power-bid-analyzer-dianlizhaobiaowang",
         "install_url": "https://api.skillhub.cn/user_c2c676b2/energy-power-bid-analyzer-dianlizhaobiaowang",
-        "last_synced": "2026-08-13T08:11:43.535095Z",
+        "last_synced": "2026-08-13T10:09:00.129225Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5438,7 +6238,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 930
+        "install_count": 931
       },
       "platform": {
         "claude_code": true,
@@ -5476,7 +6276,7 @@
         "source_url": "https://api.skillhub.cn/user_3ef04463/qianqiong-data-analyst-pro",
         "source_path": "qianqiong-data-analyst-pro",
         "install_url": "https://api.skillhub.cn/user_3ef04463/qianqiong-data-analyst-pro",
-        "last_synced": "2026-08-13T08:11:43.545517Z",
+        "last_synced": "2026-08-13T10:09:00.139207Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5523,7 +6323,7 @@
         "source_url": "https://api.skillhub.cn/user_2d8804af/gzh-skill-wxread-persona",
         "source_path": "gzh-skill-wxread-persona",
         "install_url": "https://api.skillhub.cn/user_2d8804af/gzh-skill-wxread-persona",
-        "last_synced": "2026-08-13T08:11:43.551423Z",
+        "last_synced": "2026-08-13T10:09:00.144621Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5533,7 +6333,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 767
+        "install_count": 769
       },
       "platform": {
         "claude_code": true,
@@ -5570,7 +6370,7 @@
         "source_url": "https://api.skillhub.cn/user_65867666/tianyancha-region-monitor",
         "source_path": "tianyancha-region-monitor",
         "install_url": "https://api.skillhub.cn/user_65867666/tianyancha-region-monitor",
-        "last_synced": "2026-08-13T08:11:43.515429Z",
+        "last_synced": "2026-08-13T10:09:00.110329Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5580,7 +6380,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1295
+        "install_count": 1297
       },
       "platform": {
         "claude_code": true,
@@ -5616,7 +6416,7 @@
         "source_url": "https://api.skillhub.cn/user_183dc2cb/productresearch",
         "source_path": "productresearch",
         "install_url": "https://api.skillhub.cn/user_183dc2cb/productresearch",
-        "last_synced": "2026-08-13T08:11:43.533293Z",
+        "last_synced": "2026-08-13T10:09:00.127576Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5660,7 +6460,7 @@
         "source_url": "https://api.skillhub.cn/user_fb71c45d/douyin-wenan--zhushou",
         "source_path": "douyin-wenan--zhushou",
         "install_url": "https://api.skillhub.cn/user_fb71c45d/douyin-wenan--zhushou",
-        "last_synced": "2026-08-13T08:11:43.576875Z",
+        "last_synced": "2026-08-13T10:09:00.166827Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5670,7 +6470,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 621
+        "install_count": 626
       },
       "platform": {
         "claude_code": true,
@@ -5684,52 +6484,6 @@
         "douyin",
         "wenan",
         "zhushou"
-      ],
-      "score": 32
-    },
-    {
-      "skill_id": "skillhub-cn/aigate-token-query",
-      "spec": {
-        "name": "aigate-token-query",
-        "description": "一键查询自定义AIGate平台的Token余额、每日消耗、月度统计，支持任意含Token关键词触发，零代码基础即可使用",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_0f7a070e/aigate-token-query",
-        "source_path": "aigate-token-query",
-        "install_url": "https://api.skillhub.cn/user_0f7a070e/aigate-token-query",
-        "last_synced": "2026-08-13T08:11:43.578156Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 0,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 616
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "aigate",
-        "query",
-        "token"
       ],
       "score": 32
     },
@@ -5752,7 +6506,7 @@
         "source_url": "https://api.skillhub.cn/user_40ba62fc/business-elmo2ocbh-competitor-analysis",
         "source_path": "business-elmo2ocbh-competitor-analysis",
         "install_url": "https://api.skillhub.cn/user_40ba62fc/business-elmo2ocbh-competitor-analysis",
-        "last_synced": "2026-08-13T08:11:43.557347Z",
+        "last_synced": "2026-08-13T10:09:00.149751Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5762,7 +6516,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 707
+        "install_count": 708
       },
       "platform": {
         "claude_code": true,
@@ -5799,7 +6553,7 @@
         "source_url": "https://api.skillhub.cn/user_dfcfbf47/douyin-scraper-pro",
         "source_path": "douyin-scraper-pro",
         "install_url": "https://api.skillhub.cn/user_dfcfbf47/douyin-scraper-pro",
-        "last_synced": "2026-08-13T08:11:43.567544Z",
+        "last_synced": "2026-08-13T10:09:00.159289Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5809,7 +6563,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 622
+        "install_count": 628
       },
       "platform": {
         "claude_code": true,
@@ -5845,7 +6599,7 @@
         "source_url": "https://api.skillhub.cn/user_3c6cb52e/data-analysis-skillhub",
         "source_path": "data-analysis-skillhub",
         "install_url": "https://api.skillhub.cn/user_3c6cb52e/data-analysis-skillhub",
-        "last_synced": "2026-08-13T08:11:43.568837Z",
+        "last_synced": "2026-08-13T10:09:00.159756Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5855,7 +6609,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 639
+        "install_count": 646
       },
       "platform": {
         "claude_code": true,
@@ -5891,7 +6645,7 @@
         "source_url": "https://api.skillhub.cn/user_cf88f39e/hbxh-ct",
         "source_path": "hbxh-ct",
         "install_url": "https://api.skillhub.cn/user_cf88f39e/hbxh-ct",
-        "last_synced": "2026-08-13T08:11:43.569970Z",
+        "last_synced": "2026-08-13T10:09:00.161312Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5901,7 +6655,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 632
+        "install_count": 635
       },
       "platform": {
         "claude_code": true,
@@ -5935,7 +6689,7 @@
         "source_url": "https://api.skillhub.cn/user_2c46b95e/bcg-matrix-walker",
         "source_path": "bcg-matrix-walker",
         "install_url": "https://api.skillhub.cn/user_2c46b95e/bcg-matrix-walker",
-        "last_synced": "2026-08-13T08:11:43.577045Z",
+        "last_synced": "2026-08-13T10:09:00.167730Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5945,7 +6699,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 601
+        "install_count": 603
       },
       "platform": {
         "claude_code": true,
@@ -5981,7 +6735,7 @@
         "source_url": "https://api.skillhub.cn/user_509b3ac1/tender-similarity-analyzer",
         "source_path": "tender-similarity-analyzer",
         "install_url": "https://api.skillhub.cn/user_509b3ac1/tender-similarity-analyzer",
-        "last_synced": "2026-08-13T08:11:43.545132Z",
+        "last_synced": "2026-08-13T10:09:00.138902Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6027,7 +6781,7 @@
         "source_url": "https://api.skillhub.cn/user_861fb6c9/etf",
         "source_path": "etf",
         "install_url": "https://api.skillhub.cn/user_861fb6c9/etf",
-        "last_synced": "2026-08-13T08:11:43.524032Z",
+        "last_synced": "2026-08-13T10:09:00.118694Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6037,7 +6791,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1055
+        "install_count": 1057
       },
       "platform": {
         "claude_code": true,
@@ -6068,7 +6822,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cuda-graphs",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-cuda-graphs",
-        "last_synced": "2026-08-12T22:31:55.667978Z",
+        "last_synced": "2026-08-13T10:09:00.005378Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6112,7 +6866,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-sequence-packing",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-sequence-packing",
-        "last_synced": "2026-08-12T22:31:55.668687Z",
+        "last_synced": "2026-08-13T10:09:00.005911Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6156,7 +6910,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/ptq",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/ptq",
-        "last_synced": "2026-08-12T22:31:55.669950Z",
+        "last_synced": "2026-08-13T10:09:00.006790Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6198,7 +6952,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/release-cherry-pick",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/release-cherry-pick",
-        "last_synced": "2026-08-12T22:31:55.670007Z",
+        "last_synced": "2026-08-13T10:09:00.006832Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6242,7 +6996,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vss-frag",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/vss-frag",
-        "last_synced": "2026-08-12T22:31:55.675658Z",
+        "last_synced": "2026-08-13T10:09:00.010983Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6287,7 +7041,7 @@
         "source_url": "https://github.com/google/skills/tree/main/skills/cloud/alloydb-basics",
         "source_path": "",
         "install_url": "https://github.com/google/skills/tree/main/skills/cloud/alloydb-basics",
-        "last_synced": "2026-08-12T22:31:55.675782Z",
+        "last_synced": "2026-08-13T10:09:00.011073Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6330,7 +7084,7 @@
         "source_url": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-basics",
         "source_path": "",
         "install_url": "https://github.com/google/skills/tree/main/skills/cloud/bigquery-basics",
-        "last_synced": "2026-08-12T22:31:55.675842Z",
+        "last_synced": "2026-08-13T10:09:00.011119Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6372,7 +7126,7 @@
         "source_url": "https://github.com/sametbrr/llm-wiki-manager",
         "source_path": "",
         "install_url": "https://github.com/sametbrr/llm-wiki-manager",
-        "last_synced": "2026-08-12T22:31:55.684596Z",
+        "last_synced": "2026-08-13T10:09:00.018729Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6416,7 +7170,7 @@
         "source_url": "https://github.com/zilliztech/mfs",
         "source_path": "",
         "install_url": "https://github.com/zilliztech/mfs",
-        "last_synced": "2026-08-12T22:31:55.684716Z",
+        "last_synced": "2026-08-13T10:09:00.018822Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6457,7 +7211,7 @@
         "source_url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
         "source_path": "",
         "install_url": "https://github.com/honeydew-ai/honeydew-ai-coding-agents-plugins",
-        "last_synced": "2026-08-12T22:31:55.685137Z",
+        "last_synced": "2026-08-13T10:09:00.019164Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6502,7 +7256,7 @@
         "source_url": "https://github.com/veniceai/skills/tree/main/skills/venice-embeddings",
         "source_path": "",
         "install_url": "https://github.com/veniceai/skills/tree/main/skills/venice-embeddings",
-        "last_synced": "2026-08-12T22:31:55.657212Z",
+        "last_synced": "2026-08-13T10:08:59.998863Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6544,7 +7298,7 @@
         "source_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset",
         "source_path": "",
         "install_url": "https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset",
-        "last_synced": "2026-08-12T22:31:55.662526Z",
+        "last_synced": "2026-08-13T10:09:00.002663Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6586,7 +7340,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/adding-model-support",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/adding-model-support",
-        "last_synced": "2026-08-12T22:31:55.665637Z",
+        "last_synced": "2026-08-13T10:09:00.004890Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6631,7 +7385,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/mlm-bridge-training",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/mlm-bridge-training",
-        "last_synced": "2026-08-12T22:31:55.665957Z",
+        "last_synced": "2026-08-13T10:09:00.005136Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6675,7 +7429,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-hardware-configs",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-hardware-configs",
-        "last_synced": "2026-08-12T22:31:55.668425Z",
+        "last_synced": "2026-08-13T10:09:00.005727Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6720,7 +7474,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-long-context",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-long-context",
-        "last_synced": "2026-08-12T22:31:55.668477Z",
+        "last_synced": "2026-08-13T10:09:00.005761Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6765,7 +7519,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-optimization-workflow",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-optimization-workflow",
-        "last_synced": "2026-08-12T22:31:55.668523Z",
+        "last_synced": "2026-08-13T10:09:00.005793Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6810,7 +7564,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-vlm-training",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/perf-moe-vlm-training",
-        "last_synced": "2026-08-12T22:31:55.668577Z",
+        "last_synced": "2026-08-13T10:09:00.005833Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6855,7 +7609,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/recipe-recommender",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Bridge/recipe-recommender",
-        "last_synced": "2026-08-12T22:31:55.668803Z",
+        "last_synced": "2026-08-13T10:09:00.005998Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6898,7 +7652,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/run-on-slurm",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Megatron-Core/run-on-slurm",
-        "last_synced": "2026-08-12T22:31:55.669438Z",
+        "last_synced": "2026-08-13T10:09:00.006433Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6941,7 +7695,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/accessing-mlflow",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/accessing-mlflow",
-        "last_synced": "2026-08-12T22:31:55.669637Z",
+        "last_synced": "2026-08-13T10:09:00.006583Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6984,7 +7738,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/evaluation",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/evaluation",
-        "last_synced": "2026-08-12T22:31:55.669784Z",
+        "last_synced": "2026-08-13T10:09:00.006691Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7026,7 +7780,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/launching-evals",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/Model-Optimizer/launching-evals",
-        "last_synced": "2026-08-12T22:31:55.669830Z",
+        "last_synced": "2026-08-13T10:09:00.006725Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7070,7 +7824,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/accessing-mlflow",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/accessing-mlflow",
-        "last_synced": "2026-08-12T22:31:55.670185Z",
+        "last_synced": "2026-08-13T10:09:00.006921Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7114,7 +7868,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/nel-assistant",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Evaluator-Launcher/nel-assistant",
-        "last_synced": "2026-08-12T22:31:55.670281Z",
+        "last_synced": "2026-08-13T10:09:00.006994Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7158,7 +7912,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/add-benchmark",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/NeMo-Gym/add-benchmark",
-        "last_synced": "2026-08-12T22:31:55.670331Z",
+        "last_synced": "2026-08-13T10:09:00.007029Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7201,7 +7955,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/routing-formulation",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/cuopt/routing-formulation",
-        "last_synced": "2026-08-12T22:31:55.674773Z",
+        "last_synced": "2026-08-13T10:09:00.010292Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7243,7 +7997,7 @@
         "source_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-analytics",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main/skills/video-search-and-summarization/video-analytics",
-        "last_synced": "2026-08-12T22:31:55.675366Z",
+        "last_synced": "2026-08-13T10:09:00.010757Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7288,7 +8042,7 @@
         "source_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
         "source_path": "",
         "install_url": "https://github.com/sanjay3290/ai-skills/tree/main/skills/postgres",
-        "last_synced": "2026-08-12T22:31:55.680427Z",
+        "last_synced": "2026-08-13T10:09:00.014597Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7329,7 +8083,7 @@
         "source_url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
         "source_path": "",
         "install_url": "https://github.com/massimodeluisa/recursive-decomposition-skill",
-        "last_synced": "2026-08-12T22:31:55.681727Z",
+        "last_synced": "2026-08-13T10:09:00.015510Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7372,7 +8126,7 @@
         "source_url": "https://github.com/zscole/model-hierarchy-skill",
         "source_path": "",
         "install_url": "https://github.com/zscole/model-hierarchy-skill",
-        "last_synced": "2026-08-12T22:31:55.682005Z",
+        "last_synced": "2026-08-13T10:09:00.015711Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7415,7 +8169,7 @@
         "source_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
         "source_path": "",
         "install_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/generate-synthetic-data",
-        "last_synced": "2026-08-12T22:31:55.682621Z",
+        "last_synced": "2026-08-13T10:09:00.016148Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7459,7 +8213,7 @@
         "source_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
         "source_path": "",
         "install_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/validate-evaluator",
-        "last_synced": "2026-08-12T22:31:55.682705Z",
+        "last_synced": "2026-08-13T10:09:00.016211Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7502,7 +8256,7 @@
         "source_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
         "source_path": "",
         "install_url": "https://github.com/hamelsmu/prompts/tree/main/evals-skills/skills/evaluate-rag",
-        "last_synced": "2026-08-12T22:31:55.682746Z",
+        "last_synced": "2026-08-13T10:09:00.016242Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7544,7 +8298,7 @@
         "source_url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
         "source_path": "",
         "install_url": "https://github.com/csthink/dashmotion/tree/main/skills/dashmotion",
-        "last_synced": "2026-08-12T22:31:55.683778Z",
+        "last_synced": "2026-08-13T10:09:00.017952Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7585,7 +8339,7 @@
         "source_url": "https://github.com/frmoretto/clarity-gate",
         "source_path": "",
         "install_url": "https://github.com/frmoretto/clarity-gate",
-        "last_synced": "2026-08-12T22:31:55.685612Z",
+        "last_synced": "2026-08-13T10:09:00.019481Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7628,7 +8382,7 @@
         "source_url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
         "source_path": "",
         "install_url": "https://github.com/zechenzhangAGI/AI-research-SKILLs",
-        "last_synced": "2026-08-12T22:31:55.685707Z",
+        "last_synced": "2026-08-13T10:09:00.019560Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7671,7 +8425,7 @@
         "source_url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
         "source_path": "",
         "install_url": "https://github.com/Orchestra-Research/AI-research-SKILLs",
-        "last_synced": "2026-08-12T22:31:55.685753Z",
+        "last_synced": "2026-08-13T10:09:00.019593Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7715,7 +8469,7 @@
         "source_url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-workflow-patterns",
         "source_path": "",
         "install_url": "https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-workflow-patterns",
-        "last_synced": "2026-08-12T22:31:55.687098Z",
+        "last_synced": "2026-08-13T10:09:00.020561Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7743,6 +8497,49 @@
       "score": 23
     },
     {
+      "skill_id": "punkpeye/awesome-mcp-servers",
+      "spec": {
+        "name": "awesome-mcp-servers",
+        "description": "A collection of Model Context Protocol (MCP) servers.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "heilcheng-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/punkpeye/awesome-mcp-servers",
+        "source_path": "",
+        "install_url": "https://github.com/punkpeye/awesome-mcp-servers",
+        "last_synced": "2026-08-13T10:09:00.045681Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": false
+      },
+      "category": "data",
+      "tags": [
+        "awesome",
+        "mcp",
+        "servers"
+      ],
+      "score": 23
+    },
+    {
       "skill_id": "obra/superpowers",
       "spec": {
         "name": "obra-using-superpowers",
@@ -7758,7 +8555,7 @@
         "source_url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
         "source_path": "",
         "install_url": "https://github.com/obra/superpowers/blob/main/skills/using-superpowers/SKILL.md",
-        "last_synced": "2026-08-12T22:31:55.678760Z",
+        "last_synced": "2026-08-13T10:09:00.013363Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7785,5 +8582,5 @@
       "score": 20
     }
   ],
-  "total": 174
+  "total": 192
 }
