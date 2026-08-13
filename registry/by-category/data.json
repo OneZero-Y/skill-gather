@@ -2,6 +2,1137 @@
   "category": "data",
   "skills": [
     {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/deepchem",
+      "spec": {
+        "name": "deepchem",
+        "description": "Molecular ML with diverse featurizers and pre-built datasets. Use for property prediction (ADMET, toxicity) with traditional ML or GNNs when you want extensive featurization options and MoleculeNet benchmarks. Best for quick experiments with pre-trained models, diverse molecular representations. For graph-first PyTorch workflows use torchdrug; for benchmark datasets use pytdc.",
+        "license": "MIT license",
+        "compatibility": "Requires Python 3.7–3.11 (PyPI 2.8.0 caps at <3.12). Install PyTorch, TensorFlow, or JAX before the matching deepchem extra. RDKit is a core dependency.",
+        "metadata": {
+          "version": "1.4",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/deepchem",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deepchem",
+        "last_synced": "2026-08-13T10:41:49.228126Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "deepchem"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/flowio",
+      "spec": {
+        "name": "flowio",
+        "description": "Read, inspect, and write Flow Cytometry Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO. Use for low-level FCS metadata and channel inspection, NumPy event extraction, multi-dataset files, table export, and FCS 3.1 creation; use FlowKit for compensation, cytometry transforms, gating, or FlowJo workspaces.",
+        "license": "BSD-3-Clause license",
+        "compatibility": "Requires Python 3.9-3.13, uv, and FlowIO 1.4.0. NumPy is installed with FlowIO; pandas is optional for DataFrame workflows. Runtime parsing is local and needs no credentials or network access.",
+        "metadata": {
+          "version": "2.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/flowio",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/flowio",
+        "last_synced": "2026-08-13T10:41:49.229428Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "flowio"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/geniml",
+      "spec": {
+        "name": "geniml",
+        "description": "Use Geniml for audited local genomic-interval workflows: validate BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer compatibility, and assess consensus universes.",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.10+ and uv. Guidance targets geniml 0.8.4 with gtars 0.9.2; ML workflows need the pinned ml extra and compatible native wheels. Bundled planners and inspectors are dependency-free, local-only, and make no network requests.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc.",
+          "upstream-version": "0.8.4",
+          "last-reviewed": "2026-07-23"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/geniml",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geniml",
+        "last_synced": "2026-08-13T10:41:49.229663Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 16,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "geniml"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/geopandas",
+      "spec": {
+        "name": "geopandas",
+        "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.10+ and uv. Bundled CLIs are local-only; runtime analysis requires the pinned GeoPandas stack below.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc.",
+          "last-reviewed": "2026-07-23"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/geopandas",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geopandas",
+        "last_synced": "2026-08-13T10:41:49.230171Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 16,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "geopandas",
+        "python"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/hypogenic",
+      "spec": {
+        "name": "hypogenic",
+        "description": "Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets. Use for the `hypogenic` package, its task configs, hypothesis banks, or HypoBench datasets—not for manual hypothesis formulation or scientific validation.",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.10+ and uv for the pinned upstream package. Bundled local audit tools use only the Python standard library for JSON; YAML input requires exactly PyYAML 6.0.2. Actual HypoGeniC runs may require a separately approved LLM provider, credentials, Redis, local model resources, and network access.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/hypogenic",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hypogenic",
+        "last_synced": "2026-08-13T10:41:49.230833Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 21,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "hypogenic",
+        "llm"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/onekgpd",
+      "spec": {
+        "name": "onekgpd",
+        "description": "Query the 1000 Genomes Project dataset (3,202 whole-genome-sequenced individuals, GRCh38) at the level of individual participants. Use when a question is about individuals or variants in the 1000 Genomes Project cohort: which individuals carry variants matching specific criteria in a gene or region, which individuals are homozygous-reference at a position, which variants exist in the dataset or carried by specified individuals in a gene or region, the relatedness between two specified individuals. Variants are returned with 1000 Genomes allele frequencies (AF), gnomAD v4.1 exome and genome AF, AlphaMissense score, and HGVSp annotations.\n",
+        "license": "MIT",
+        "compatibility": "Requires Python >=3.11. Variant and sample queries require outbound network access to the public 1000 Genomes query endpoint over TLS; the sample/population metadata commands run fully offline over a data file bundled in the skill. No credentials, API keys, or environment variables are used.",
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "Dnaerys"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/onekgpd",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/onekgpd",
+        "last_synced": "2026-08-13T10:41:49.233177Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "onekgpd"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/paper-lookup",
+      "spec": {
+        "name": "paper-lookup",
+        "description": "Search 11 academic literature APIs for papers, preprints, citations, and open-access full text, and return results with reproducible provenance. Covers PubMed, PMC (full text), Europe PMC (full-text and preprint search), bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall. Use when searching for papers, citations, DOI/PMID/arXiv lookups, abstracts, full text, open-access PDFs, preprints, citation graphs, author publications, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\", \"look up this DOI\", \"who cites this paper\", or \"get me the PDF\".",
+        "license": "MIT",
+        "compatibility": "Needs network access and curl. The bundled scripts require Python 3.11+ and use only the standard library. No credentials are required; NCBI_API_KEY, S2_API_KEY, CORE_API_KEY, and OPENALEX_API_KEY raise rate limits or unlock full text where noted.",
+        "metadata": {
+          "version": "2.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/paper-lookup",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paper-lookup",
+        "last_synced": "2026-08-13T10:41:49.233941Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 19,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "lookup",
+        "paper",
+        "pdf"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pathml",
+      "spec": {
+        "name": "pathml",
+        "description": "Use PathML for local, research-only computational pathology workflows: load and tile slides, build preprocessing and QC pipelines, manage h5path data, quantify multiplex images, construct spatial graphs, and plan bounded model inference.",
+        "license": "MIT",
+        "compatibility": "PathML 3.0.5 is the latest PyPI release and targets Python 3.10-3.12; installation needs uv plus platform libraries for OpenSlide, BLAS/LAPACK, and Java/Bio-Formats. Bundled Python 3.10+ CLIs are local, bounded, dependency-free, and network-free.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pathml",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pathml",
+        "last_synced": "2026-08-13T10:41:49.234337Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 15,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "pathml"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pkpd-modeling",
+      "spec": {
+        "name": "pkpd-modeling",
+        "description": "Pharmacokinetic and pharmacodynamic modelling and simulation - non-compartmental analysis, compartmental and population PK, PK/PD and exposure-response, TMDD, PBPK orientation, bioequivalence, allometric scaling and first-in-human dose, drug interaction prediction, and Bayesian therapeutic drug monitoring. Use when analysing concentration-time data, deriving exposure metrics, fitting PK or PD models, or evaluating dosing regimens. Triggers include \"pharmacokinetics\", \"pharmacodynamics\", \"PK/PD\", \"NCA\", \"non-compartmental\", \"AUC\", \"Cmax\", \"lambda z\", \"half-life\", \"clearance\", \"volume of distribution\", \"compartmental model\", \"population PK\", \"popPK\", \"NONMEM\", \"nlmixr2\", \"Pharmpy\", \"Monolix\", \"exposure-response\", \"Emax\", \"EC50\", \"indirect response\", \"effect compartment\", \"TMDD\", \"PBPK\", \"bioequivalence\", \"RSABE\", \"ABEL\", \"allometric scaling\", \"first-in-human\", \"MABEL\", \"drug-drug interaction\", \"DDI\", \"ICH M12\", \"concentration-QTc\", \"therapeutic drug monitoring\", \"MIPD\", and \"dosing regimen\".",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.11+ with numpy and scipy. No network access and no proprietary software. The estimation tools this skill orients you towards (NONMEM, Monolix, Phoenix, Simcyp, GastroPlus) are licensed separately and are never invoked by these scripts.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc.",
+          "last-reviewed": "2026-07-27"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pkpd-modeling",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pkpd-modeling",
+        "last_synced": "2026-08-13T10:41:49.235229Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 31,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "modeling",
+        "pkpd"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pufferlib",
+      "spec": {
+        "name": "pufferlib",
+        "description": "Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL training, evaluation, and safe checkpoint review. Use when adapting Gymnasium/PettingZoo environments to published PufferLib 3.0.0 or working with the redesigned native 4.0 source line.",
+        "license": "MIT",
+        "compatibility": "Bundled CLIs require Python 3.10+ and use only the standard library. Published pufferlib 3.0.0 supports Python >=3.9 but ships as a native-code source archive; current 4.0 source requires Python >=3.10, Torch >=2.9, and an audited CPU/CUDA toolchain. Network, GPU, native builds, environment plug-ins, assets, checkpoints, and external logging are never required by the bundled CLIs.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc.",
+          "last-reviewed": "2026-07-23"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pufferlib",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pufferlib",
+        "last_synced": "2026-08-13T10:41:49.235895Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 17,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "pufferlib"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pydicom",
+      "spec": {
+        "name": "pydicom",
+        "description": "Use pydicom to read, inspect, write, transform, and safely preflight local DICOM datasets and pixel data. Applies to DICOM metadata, transfer syntaxes, compression plugins, frames, private elements, JSON, and bounded de-identification review.",
+        "license": "MIT",
+        "compatibility": "Python 3.10+ with pydicom 3.0.2; optional pinned NumPy, Pillow, and pixel plugins. Helper CLIs are local-only and require authorized data.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc.",
+          "last-reviewed": "2026-07-23"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pydicom",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pydicom",
+        "last_synced": "2026-08-13T10:41:49.236024Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 15,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "pydicom"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pysam",
+      "spec": {
+        "name": "pysam",
+        "description": "Python/HTSlib workflows for genomic files. Use when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and CRAM references.",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.8–3.14 and pysam 0.24.0. Bundled scripts use local files. CRAM decoding may require the matching reference FASTA or an explicitly configured REF_PATH/REF_CACHE.",
+        "metadata": {
+          "version": "2.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pysam",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pysam",
+        "last_synced": "2026-08-13T10:41:49.236608Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 16,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "pysam",
+        "python"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pytdc",
+      "spec": {
+        "name": "pytdc",
+        "description": "Use Therapeutics Data Commons through the PyTDC Python package for registry discovery, approved dataset access, task-aware splits, evaluator metrics, benchmark groups, and bounded molecular-oracle workflows.",
+        "license": "MIT",
+        "compatibility": "Requires uv, CPython 3.11, PyTDC 1.1.15, and setuptools 80.9.0 for its legacy pkg_resources runtime import. Dataset, benchmark, checkpoint, and remote-oracle operations require network/storage review and explicit user approval.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pytdc",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pytdc",
+        "last_synced": "2026-08-13T10:41:49.236673Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 13,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "pytdc",
+        "python"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pytorch-lightning",
+      "spec": {
+        "name": "pytorch-lightning",
+        "description": "Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard, MLflow), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
+        "license": "Apache-2.0 license",
+        "compatibility": "Requires Python 3.10+ and lightning 2.6+ (or pytorch-lightning 2.6+). GPU training needs CUDA-capable PyTorch. Optional loggers (wandb, mlflow, comet-ml) and DeepSpeed require separate installs.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pytorch-lightning",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pytorch-lightning",
+        "last_synced": "2026-08-13T10:41:49.237882Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 13,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "lightning",
+        "pytorch"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/scikit-learn",
+      "spec": {
+        "name": "scikit-learn",
+        "description": "Machine learning in Python with scikit-learn. Use when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+        "license": "BSD-3-Clause license",
+        "compatibility": "Requires Python 3.11+ and scikit-learn 1.7+. NumPy and SciPy are required dependencies. Optional matplotlib/seaborn for bundled example scripts that save plots.",
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/scikit-learn",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-learn",
+        "last_synced": "2026-08-13T10:41:49.239445Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 13,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "learn",
+        "python",
+        "scikit"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/scikit-survival",
+      "spec": {
+        "name": "scikit-survival",
+        "description": "Build, evaluate, and audit right-censored or competing-risk survival workflows with scikit-survival, including leakage-safe preprocessing, model selection, probability prediction, and censoring-aware metrics.",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.11+, uv, and the pinned scikit-survival 0.28.0 stack for executable examples. Bundled CLIs are local and network-free by default.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/scikit-survival",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-survival",
+        "last_synced": "2026-08-13T10:41:49.239528Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 15,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "scikit",
+        "survival"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/statistical-power",
+      "spec": {
+        "name": "statistical-power",
+        "description": "Sample-size and statistical power calculations for planning studies. Use whenever someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte Carlo) power for designs with no formula — logistic/Poisson regression, mixed models, cluster-randomized trials, survival, and interactions. Use this skill even when the request only mentions an effect size, alpha, or \"80% power\" without saying \"power analysis\" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.",
+        "license": "MIT license",
+        "compatibility": "Requires Python >=3.10. Examples target statsmodels >=0.14.6, scipy >=1.11, pingouin >=0.6, numpy >=1.26, and matplotlib. Optional extras are statsmodels mixed models and lifelines for simulation-based power.",
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/statistical-power",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statistical-power",
+        "last_synced": "2026-08-13T10:41:49.240139Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "power",
+        "statistical"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/uncertainty-and-units",
+      "spec": {
+        "name": "uncertainty-and-units",
+        "description": "Track physical units and propagate measurement uncertainty in scientific calculations using pint and uncertainties. Use for unit conversion and dimensional checking, GUM uncertainty budgets, Type A and Type B evaluation, coverage factors and expanded uncertainty, Monte Carlo propagation, significant-figure and plus-minus reporting, error propagation through curve fits, CODATA constants, auditing Python code for stripped units or broken uncertainty propagation, and order-of-magnitude plausibility checks using dimensionless groups (Reynolds, Peclet, Damkohler, Knudsen, Biot, Womersley), characteristic scales such as diffusion time or Debye length, and observed magnitude ranges. Trigger on \"is this number physically reasonable\", \"sanity check these units\", \"what regime is this flow in\", or a result that looks off by orders of magnitude.",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.12+. The numeric CLIs need pint, uncertainties, NumPy, and SciPy; the static auditor is standard-library only. All bundled tooling runs locally with no network access.",
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/uncertainty-and-units",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/uncertainty-and-units",
+        "last_synced": "2026-08-13T10:41:49.241213Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 16,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "python",
+        "uncertainty",
+        "units"
+      ],
+      "score": 85
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/arbor",
+      "spec": {
+        "name": "arbor",
+        "description": "Autonomously improve a real artifact (code, training recipe, agent harness, data pipeline, prompt) against an objective and an evaluator, using Hypothesis Tree Refinement (HTR) from the Arbor paper. Use this whenever someone wants to iteratively optimize something over many experiments without overfitting — e.g. \"get my model's eval score up\", \"improve this agent/harness\", \"tune this pipeline\", \"beat the baseline on this benchmark\", \"run a search over approaches and keep the best\", \"do an MLE-bench / Kaggle-style optimization\", or any long-horizon \"make this artifact better and don't just memorize the dev set\" task. Trigger it even when the user doesn't say \"Arbor\" or \"hypothesis tree\" but describes repeated experiment-and-evaluate loops, branching exploration of competing ideas, or worries about a dev/test gap. Runs Claude itself as the coordinator with subagent executors in isolated git worktrees; for the standalone `arbor` CLI tool see references/arbor-upstream.md.",
+        "license": "MIT license",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/arbor",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
+        "last_synced": "2026-08-13T10:41:49.226247Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "arbor",
+        "cli"
+      ],
+      "score": 83
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/arboreto",
+      "spec": {
+        "name": "arboreto",
+        "description": "Infer gene regulatory networks (GRNs) from gene expression data using scalable algorithms (GRNBoost2, GENIE3). Use when analyzing transcriptomics data (bulk RNA-seq, single-cell RNA-seq) to identify transcription factor-target gene relationships and regulatory interactions. Supports distributed computation for large-scale datasets.",
+        "license": "BSD-3-Clause license",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/arboreto",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arboreto",
+        "last_synced": "2026-08-13T10:41:49.226435Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "arboreto"
+      ],
+      "score": 83
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/bids",
+      "spec": {
+        "name": "bids",
+        "description": "Use this skill when working with Brain Imaging Data Structure (BIDS) datasets: organizing neuroscience and biomedical data (MRI, EEG, MEG, iEEG, PET, microscopy, NIRS, motion capture, EMG, MR spectroscopy, behavioral), querying BIDS layouts, validating compliance, converting DICOM to BIDS, writing metadata sidecars, or creating BIDS derivatives.\n",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "Yaroslav Halchenko"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/bids",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bids",
+        "last_synced": "2026-08-13T10:41:49.226896Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bids"
+      ],
+      "score": 83
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/imaging-data-commons",
+      "spec": {
+        "name": "imaging-data-commons",
+        "description": "Query and download public cancer imaging data from NCI Imaging Data Commons. Invoke for any question about IDC collections, cancer imaging datasets, DICOM data access, radiology (CT, MR, PET) or pathology AI training sets, metadata queries, visualization, or license checks — even when the user doesn't explicitly mention \"IDC\". No authentication required.",
+        "license": "This skill is provided under the MIT License. IDC data itself has individual licensing (mostly CC-BY, some CC-NC) that must be respected when using the data.",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.5",
+          "source-skill-version": "1.8.1",
+          "skill-author": "Andrey Fedorov, @fedorov",
+          "idc-index": "0.12.5",
+          "idc-data-version": "v24",
+          "repository": "https://github.com/ImagingDataCommons/imaging-data-commons-skill"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/imaging-data-commons",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/imaging-data-commons",
+        "last_synced": "2026-08-13T10:41:49.231006Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 17,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "commons",
+        "data",
+        "imaging"
+      ],
+      "score": 83
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/neuropixels-analysis",
+      "spec": {
+        "name": "neuropixels-analysis",
+        "description": "Analyze Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.",
+        "license": "MIT license",
+        "compatibility": null,
+        "metadata": {
+          "version": "2.3",
+          "skill-author": "K-Dense Inc.",
+          "openclaw": "{\"primaryEnv\": \"ANTHROPIC_API_KEY\", \"envVars\": [{\"name\": \"ANTHROPIC_API_KEY\", \"required\": false, \"description\": \"For optional Claude API calls.\"}]}"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/neuropixels-analysis",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/neuropixels-analysis",
+        "last_synced": "2026-08-13T10:41:49.232885Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 21,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analysis",
+        "neuropixels"
+      ],
+      "score": 83
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/scanpy",
+      "spec": {
+        "name": "scanpy",
+        "description": "Standard single-cell RNA-seq analysis pipeline. Use for QC, normalization, dimensionality reduction (PCA/UMAP/t-SNE), clustering, differential expression, visualization, and converting R-friendly single-cell formats such as Seurat or SingleCellExperiment RDS files into h5ad for Scanpy. Best for exploratory scRNA-seq analysis with established workflows. For deep learning models use scvi-tools; for data format questions use anndata.",
+        "license": "BSD-3-Clause",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.5",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/scanpy",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scanpy",
+        "last_synced": "2026-08-13T10:41:49.238724Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 28,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "scanpy"
+      ],
+      "score": 83
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/timesfm-forecasting",
+      "spec": {
+        "name": "timesfm-forecasting",
+        "description": "Zero-shot time series forecasting with Google's TimesFM foundation model. Use for any univariate time series (sales, sensors, energy, vitals, weather) without training a custom model. Supports CSV/DataFrame/array inputs with point forecasts and prediction intervals. Includes a preflight system checker script to verify RAM/GPU before first use.",
+        "license": "Apache-2.0 license",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "Clayton Young / Superior Byte Works, LLC (@borealBytes)",
+          "skill-version": "1.0.0"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/timesfm-forecasting",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/timesfm-forecasting",
+        "last_synced": "2026-08-13T10:41:49.240704Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 40,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "forecasting",
+        "timesfm"
+      ],
+      "score": 83
+    },
+    {
       "skill_id": "langchain-ai/langchain-skills/langsmith-online-eval-engineering",
       "spec": {
         "name": "langsmith-online-eval-engineering",
@@ -134,6 +1265,628 @@
         "aws"
       ],
       "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/aeon",
+      "spec": {
+        "name": "aeon",
+        "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs.",
+        "license": "BSD-3-Clause license",
+        "compatibility": "Requires Python 3.10+ and the aeon package (uv pip install). Optional aeon[all_extras] for deep learning and extended dependencies.",
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/aeon",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
+        "last_synced": "2026-08-13T10:41:49.225903Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 13,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "aeon"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/anndata",
+      "spec": {
+        "name": "anndata",
+        "description": "Data structure for annotated matrices in single-cell analysis. Use when working with .h5ad files or integrating with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
+        "license": "BSD-3-Clause license",
+        "compatibility": "Requires Python 3.11+ and uv. Examples target AnnData 0.12.16, with experimental APIs clearly marked where used.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/anndata",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
+        "last_synced": "2026-08-13T10:41:49.226159Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "anndata"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/cellxgene-census",
+      "spec": {
+        "name": "cellxgene-census",
+        "description": "Query the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas comparisons across organisms, tissues, diseases, assays, and cell types. For analyzing your own local single-cell data use scanpy, anndata, or scvi-tools.",
+        "license": "MIT",
+        "compatibility": "Requires Python >=3.10,<3.13. Examples target cellxgene-census 1.17.x and the 2025-11-08 stable LTS Census; spatial workflows need the spatial extra and TileDB-SOMA >=1.15.5. No authentication is required for public Census data.",
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/cellxgene-census",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cellxgene-census",
+        "last_synced": "2026-08-13T10:41:49.227305Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "cellxgene",
+        "census"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/dask",
+      "spec": {
+        "name": "dask",
+        "description": "Distributed computing for larger-than-RAM pandas/NumPy workflows. Use when you need to scale existing pandas/NumPy code beyond memory or across clusters. Best for parallel file processing, distributed ML, integration with existing pandas code. For out-of-core analytics on single machine use vaex; for in-memory speed use polars.",
+        "license": "BSD-3-Clause license",
+        "compatibility": "Requires Python 3.10+ and dask 2025.1+. DataFrame workflows need pandas 2+ and PyArrow 16+. Cloud paths (s3://, gcs://) need s3fs or gcsfs. Cluster deployment uses dask.distributed (included with dask[complete]).",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/dask",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dask",
+        "last_synced": "2026-08-13T10:41:49.227904Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "dask"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/histolab",
+      "spec": {
+        "name": "histolab",
+        "description": "Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detection, tile extraction, and stain normalization for H&E images. Best for simple pipelines, dataset preparation, and quick tile-based analysis. For advanced spatial proteomics, multiplexed imaging, or deep learning pipelines use pathml.",
+        "license": "Apache-2.0 license",
+        "compatibility": "Requires Python 3.8–3.11 (histolab 0.7.0), OpenSlide system libraries, and Linux or macOS. Sample data via histolab.data requires pooch.",
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/histolab",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/histolab",
+        "last_synced": "2026-08-13T10:41:49.230639Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "histolab"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/hugging-science",
+      "spec": {
+        "name": "hugging-science",
+        "description": "Use when the user is doing AI/ML work in a scientific domain such as biology, chemistry, physics, astronomy, climate, genomics, materials, medicine, ecology, energy, engineering, math, drug discovery, protein design, weather modeling, theorem proving, single-cell, or PDE solving. Hugging Science is a curated catalog of scientific datasets, models, blog posts, and interactive Spaces. This skill helps discover and use resources via `datasets`, `transformers`, the HF Inference API, `gradio_client`, and methodology citations.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/hugging-science",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hugging-science",
+        "last_synced": "2026-08-13T10:41:49.230717Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "api",
+        "hugging",
+        "science"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/molfeat",
+      "spec": {
+        "name": "molfeat",
+        "description": "Molecular featurization for ML (100+ featurizers). ECFP, MACCS, descriptors, pretrained models (ChemBERTa), convert SMILES to features, for QSAR and molecular ML.",
+        "license": "Apache-2.0 license",
+        "compatibility": "Requires Python 3.9–3.10 (molfeat 0.11.0 does not support 3.11+). Requires datamol, PyTorch, and optional extras for GNN/transformer models.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/molfeat",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/molfeat",
+        "last_synced": "2026-08-13T10:41:49.232469Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 6,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "molfeat"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/optimize-for-gpu",
+      "spec": {
+        "name": "optimize-for-gpu",
+        "description": "GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster. Use for CUDA/GPU optimization; CPU-bound NumPy, SciPy, pandas, scikit-learn, NetworkX, scikit-image, vector-search, image-processing, graph, simulation, or file-I/O workloads; CuPy, cuDF, cuML, cuGraph, cuVS, cuCIM, KvikIO, Warp, Newton, Numba-CUDA, or RAFT questions; and profiling, memory-transfer, kernel, or multi-GPU bottlenecks. Also use when large data-parallel Python code is slow and GPU acceleration is a plausible option, even if the user does not name CUDA.",
+        "license": "MIT",
+        "compatibility": "Requires an NVIDIA CUDA-capable GPU for GPU execution. RAPIDS 26.06 requires Python 3.11+ on Linux or WSL2 and matching CUDA 12 or 13 wheels. Package installation needs network access.",
+        "metadata": {
+          "version": "1.3",
+          "skill-author": "K-Dense, Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/optimize-for-gpu",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/optimize-for-gpu",
+        "last_synced": "2026-08-13T10:41:49.233711Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 17,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "gpu",
+        "optimize",
+        "python"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/polars-bio",
+      "spec": {
+        "name": "polars-bio",
+        "description": "High-performance genomic interval operations and bioinformatics file I/O on Polars DataFrames. Overlap, nearest, merge, coverage, complement, subtract for BED/VCF/BAM/GFF intervals. Streaming, cloud-native, faster bioframe alternative.",
+        "license": "Apache-2.0",
+        "compatibility": "Requires Python 3.11–3.14 and polars-bio (uv pip install). Cloud I/O uses standard AWS/GCS/Azure SDK env vars when paths use s3://, gs://, or az:// URIs.",
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/polars-bio",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/polars-bio",
+        "last_synced": "2026-08-13T10:41:49.235384Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bio",
+        "polars"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/torch-geometric",
+      "spec": {
+        "name": "torch-geometric",
+        "description": "PyTorch Geometric (PyG) for graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom datasets. Use when working with torch_geometric, not for general NetworkX analytics or non-graph PyTorch models.",
+        "license": "MIT license",
+        "compatibility": "Requires Python 3.10+, PyTorch 2.6+, and torch-geometric 2.7.x. Optional extension wheels (pyg-lib, torch-scatter, torch-sparse, torch-cluster) must match your PyTorch/CUDA build from https://data.pyg.org/whl.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/torch-geometric",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/torch-geometric",
+        "last_synced": "2026-08-13T10:41:49.240802Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "geometric",
+        "torch"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/torchdrug",
+      "spec": {
+        "name": "torchdrug",
+        "description": "Build and troubleshoot TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised pretraining, molecule generation, retrosynthesis, protein representation learning, and knowledge graph reasoning. Use when code imports torchdrug or needs its datasets, models, tasks, or Engine.",
+        "license": "Apache-2.0 license",
+        "compatibility": "TorchDrug 0.2.1 requires Python 3.7-3.10 and supports PyTorch 1.8-2.0. Apple Silicon is CPU-only; MPS is unsupported.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/torchdrug",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/torchdrug",
+        "last_synced": "2026-08-13T10:41:49.240891Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "torchdrug"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/transformers",
+      "spec": {
+        "name": "transformers",
+        "description": "Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks. Use when working with AutoModel, pipelines, tokenizers, or TrainingArguments—not for general ML outside the Transformers library.",
+        "license": "Apache-2.0 license",
+        "compatibility": "Requires Python 3.10+, PyTorch 2.4+, and transformers 5.x. Gated or private Hub models need an HF token (`hf auth login` or `HF_TOKEN`).",
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/transformers",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/transformers",
+        "last_synced": "2026-08-13T10:41:49.240969Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "transformers"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/vaex",
+      "spec": {
+        "name": "vaex",
+        "description": "Use this skill for processing and analyzing large tabular datasets (billions of rows) that exceed available RAM. Vaex excels at out-of-core DataFrame operations, lazy evaluation, fast aggregations, efficient visualization of big data, and machine learning on large datasets. Apply when users need to work with large CSV/HDF5/Arrow/Parquet files, perform fast statistics on massive datasets, create visualizations of big data, or build ML pipelines that do not fit in memory.",
+        "license": "MIT license",
+        "compatibility": "Requires Python 3.10+ (3.12+ recommended with vaex 4.19.0). Install with uv pip install vaex. Optional s3fs/gcsfs/adlfs for cloud I/O.",
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/vaex",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/vaex",
+        "last_synced": "2026-08-13T10:41:49.241433Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "vaex"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "github/awesome-copilot/datanalysis-credit-risk",
+      "spec": {
+        "name": "datanalysis-credit-risk",
+        "description": "Credit risk data cleaning and variable screening pipeline for pre-loan modeling. Use when working with raw credit data that needs quality assessment,  missing value analysis, or variable selection before modeling. it covers data loading and formatting, abnormal period filtering, missing rate calculation, high-missing variable removal,low-IV variable filtering, high-PSI variable removal, Null Importance denoising, high-correlation variable removal, and cleaning report generation. Applicable scenarios arecredit risk data cleaning, variable screening, pre-loan modeling preprocessing.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/datanalysis-credit-risk",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/datanalysis-credit-risk",
+        "last_synced": "2026-08-13T10:41:49.198967Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 6,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "credit",
+        "datanalysis",
+        "risk"
+      ],
+      "score": 72
     },
     {
       "skill_id": "aws/agent-toolkit-for-aws/amazon-aurora-postgresql",
@@ -310,6 +2063,232 @@
         "timestream"
       ],
       "score": 71
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/cobrapy",
+      "spec": {
+        "name": "cobrapy",
+        "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
+        "license": "GPL-2.0 license",
+        "compatibility": "Requires Python 3.9+ (cobra 0.30+ dropped 3.8). Install with uv pip install. GLPK (swiglpk) is the default solver; CPLEX/Gurobi optional. load_model fetches from bundled data, BiGG, or BioModels (network required for remote models).",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/cobrapy",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cobrapy",
+        "last_synced": "2026-08-13T10:41:49.227725Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "cobrapy"
+      ],
+      "score": 71
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/geomaster",
+      "spec": {
+        "name": "geomaster",
+        "description": "Comprehensive geospatial science skill covering remote sensing, GIS, spatial analysis, machine learning for earth observation, and 30+ scientific domains. Supports satellite imagery processing (Sentinel, Landsat, MODIS, SAR, hyperspectral), vector and raster data operations, spatial statistics, point cloud processing, network analysis, cloud-native workflows (STAC, COG, Planetary Computer), and 8 programming languages (Python, R, Julia, JavaScript, C++, Java, Go, Rust) with 500+ code examples. Use for remote sensing workflows, GIS analysis, spatial ML, Earth observation data processing, terrain analysis, hydrological modeling, marine spatial analysis, atmospheric science, and any geospatial computation task.",
+        "license": "MIT License",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/geomaster",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geomaster",
+        "last_synced": "2026-08-13T10:41:49.230046Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 17,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "geomaster",
+        "javascript",
+        "python",
+        "rust"
+      ],
+      "score": 71
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/lamindb",
+      "spec": {
+        "name": "lamindb",
+        "description": "Use when working with LaminDB, the open-source lineage-native lakehouse for biological datasets and models. Covers setup, artifact registration, query/search, lineage tracking, validation, ontology-backed annotation with Bionty, collections, branches, storage, and workflow integrations.",
+        "license": "Apache-2.0 license",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/lamindb",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/lamindb",
+        "last_synced": "2026-08-13T10:41:49.231374Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "lamindb"
+      ],
+      "score": 71
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/scvi-tools",
+      "spec": {
+        "name": "scvi-tools",
+        "description": "Deep generative models for single-cell omics. Use when you need probabilistic batch correction (scVI), transfer learning, differential expression with uncertainty, or multi-modal integration (TOTALVI, MultiVI). Best for advanced modeling, batch effects, multimodal data. For standard analysis pipelines use scanpy.",
+        "license": "BSD-3-Clause license",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/scvi-tools",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scvi-tools",
+        "last_synced": "2026-08-13T10:41:49.239658Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "scvi",
+        "tools"
+      ],
+      "score": 71
+    },
+    {
+      "skill_id": "github/awesome-copilot/azure-pricing",
+      "spec": {
+        "name": "azure-pricing",
+        "description": "Fetches real-time Azure retail pricing using the Azure Retail Prices API (prices.azure.com) and estimates Copilot Studio agent credit consumption. Use when the user asks about the cost of any Azure service, wants to compare SKU prices, needs pricing data for a cost estimate, mentions Azure pricing, Azure costs, Azure billing, or asks about Copilot Studio pricing, Copilot Credits, or agent usage estimation. Covers compute, storage, networking, databases, AI, Copilot Studio, and all other Azure service families.",
+        "license": "",
+        "compatibility": "Requires internet access to prices.azure.com and learn.microsoft.com. No authentication needed.",
+        "metadata": {
+          "author": "anthonychu",
+          "version": "1.2"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/azure-pricing",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-pricing",
+        "last_synced": "2026-08-13T10:41:49.192479Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 6,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "api",
+        "azure",
+        "pricing"
+      ],
+      "score": 63
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langchain-rag",
@@ -492,6 +2471,178 @@
       "score": 61
     },
     {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/pyhealth",
+      "spec": {
+        "name": "pyhealth",
+        "description": "Build clinical/healthcare deep-learning pipelines with PyHealth — loading EHR/signal/imaging datasets (MIMIC-III/IV, eICU, OMOP, SleepEDF, ChestXray14, EHRShot), defining tasks (mortality, readmission, length-of-stay, drug recommendation, sleep staging, ICD coding, EEG events), instantiating models (Transformer, RETAIN, GAMENet, SafeDrug, MICRON, StageNet, AdaCare, CNN/RNN/MLP), training with the PyHealth Trainer, computing clinical metrics, and using medical code utilities (ICD/ATC/NDC/RxNorm lookup and cross-mapping). Use this skill whenever the user mentions PyHealth, MIMIC, eICU, OMOP, EHR modeling, clinical prediction, drug recommendation, sleep staging, medical code mapping, ICD/ATC codes, or any healthcare ML pipeline that fits the dataset → task → model → trainer → metrics pattern, even if \"PyHealth\" isn't named explicitly.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/pyhealth",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pyhealth",
+        "last_synced": "2026-08-13T10:41:49.236091Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "pyhealth"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "github/awesome-copilot/issue-fields-migration",
+      "spec": {
+        "name": "issue-fields-migration",
+        "description": "Bulk-migrate metadata to GitHub issue fields from two sources: repo labels (e.g. priority labels to a Priority field) and Project V2 fields. Use when users say \"migrate my labels to issue fields\", \"migrate project fields to issue fields\", \"convert labels to issue fields\", \"copy project field values to issue fields\", or ask about adopting issue fields. Issue fields are org-level typed metadata (single select, text, number, date) that replace label-based workarounds with structured, searchable, cross-repo fields.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/issue-fields-migration",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/issue-fields-migration",
+        "last_synced": "2026-08-13T10:41:49.206300Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "fields",
+        "github",
+        "issue",
+        "migration"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "github/awesome-copilot/mvvm-toolkit",
+      "spec": {
+        "name": "mvvm-toolkit",
+        "description": "CommunityToolkit.Mvvm (the MVVM Toolkit) core: source generators ([ObservableProperty], [RelayCommand], [NotifyPropertyChangedFor], [NotifyCanExecuteChangedFor], [NotifyDataErrorInfo]), base classes (ObservableObject / ObservableValidator / ObservableRecipient), commands (RelayCommand / AsyncRelayCommand), and validation. Companion skills: mvvm-toolkit-messenger for pub/sub, mvvm-toolkit-di for Microsoft.Extensions.DependencyInjection wiring. Works across WPF, WinUI 3, MAUI, Uno, and Avalonia.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/mvvm-toolkit",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mvvm-toolkit",
+        "last_synced": "2026-08-13T10:41:49.209969Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "mvvm",
+        "toolkit"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "github/awesome-copilot/pester-migration",
+      "spec": {
+        "name": "pester-migration",
+        "description": "Pester migration skill for upgrading PowerShell Pester test suites across major versions — v3→v4, v4→v5, and v5→v6. Covers the Discovery/Run two-phase model, moving setup into BeforeAll, $PSScriptRoot vs $MyInvocation, mock changes (Assert-MockCalled → Should -Invoke, removed fall-through), Invoke-Pester parameters → PesterConfiguration, data-driven -ForEach/-TestCases, and the v6 breaking changes. Use when the user asks to upgrade, migrate, or modernize Pester tests, fix *.Tests.ps1 files that broke after bumping the Pester version, or convert legacy Should / Invoke-Pester syntax.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/pester-migration",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pester-migration",
+        "last_synced": "2026-08-13T10:41:49.211027Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "migration",
+        "pester"
+      ],
+      "score": 60
+    },
+    {
       "skill_id": "aws/agent-toolkit-for-aws/redshift-guide",
       "spec": {
         "name": "redshift-guide",
@@ -575,6 +2726,51 @@
         "conversion",
         "dms",
         "schema"
+      ],
+      "score": 59
+    },
+    {
+      "skill_id": "github/awesome-copilot/arize-link",
+      "spec": {
+        "name": "arize-link",
+        "description": "Generates deep links to the Arize UI for traces, spans, sessions, datasets, labeling queues, evaluators, and annotation configs. Produces clickable URLs for sharing Arize resources with team members. Use when the user wants to link to or open a trace, span, session, dataset, evaluator, or annotation config in the Arize UI.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "author": "arize",
+          "version": "1.0"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/arize-link",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-link",
+        "last_synced": "2026-08-13T10:41:49.189237Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "arize",
+        "link"
       ],
       "score": 59
     },
@@ -803,6 +2999,265 @@
       "score": 57
     },
     {
+      "skill_id": "github/awesome-copilot/pinecone-rag",
+      "spec": {
+        "name": "pinecone-rag",
+        "description": "Build production RAG pipelines and persistent agent memory using Pinecone as the vector database backend. ALWAYS USE THIS SKILL when the user mentions Pinecone, wants to index documents for semantic search, build a retrieval-augmented generation system, store agent memory across sessions, implement hybrid search, or connect an LLM to a searchable knowledge base — even if they don't say \"Pinecone\" explicitly. Also use when the user asks about vector databases for RAG, namespace isolation for multi-tenant agents, embedding pipelines, or scaling a knowledge base beyond what local storage can handle. DO NOT use for local-only vector stores (Chroma, FAISS, pgvector) or pure keyword search with no semantic component.\n",
+        "license": "Apache-2.0",
+        "compatibility": "pinecone>=6.0.0, Python 3.10+",
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/pinecone-rag",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pinecone-rag",
+        "last_synced": "2026-08-13T10:41:49.211541Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "llm",
+        "pinecone",
+        "rag"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "github/awesome-copilot/roundup-setup",
+      "spec": {
+        "name": "roundup-setup",
+        "description": "Interactive onboarding that learns your communication style, audiences, and data sources to configure personalized status briefings. Paste in examples of updates you already write, answer a few questions, and roundup calibrates itself to your workflow.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/roundup-setup",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/roundup-setup",
+        "last_synced": "2026-08-13T10:41:49.217245Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "roundup",
+        "setup"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/tiledbvcf",
+      "spec": {
+        "name": "tiledbvcf",
+        "description": "Efficient storage and retrieval of genomic variant data using TileDB. Scalable VCF/BCF ingestion, incremental sample addition, compressed storage, parallel queries, and export capabilities for population genomics.",
+        "license": "MIT license",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "Jeremy Leipzig"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/tiledbvcf",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/tiledbvcf",
+        "last_synced": "2026-08-13T10:41:49.240636Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "tiledbvcf"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-scaling-data-volume",
+      "spec": {
+        "name": "qdrant-scaling-data-volume",
+        "description": "Guides Qdrant data volume scaling decisions. Use when someone asks 'data doesn't fit on one node', 'too much data', 'need more storage', 'vertical or horizontal scaling', 'tenant scaling', 'time window rotation', or 'data growth exceeds capacity'.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-scaling/scaling-data-volume",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume",
+        "last_synced": "2026-08-13T10:41:49.214430Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "qdrant",
+        "scaling",
+        "volume"
+      ],
+      "score": 52
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-search-quality",
+      "spec": {
+        "name": "qdrant-search-quality",
+        "description": "Diagnoses and improves Qdrant search relevance. Use when someone reports 'search results are bad', 'wrong results', 'low precision', 'low recall', 'irrelevant matches', 'missing expected results', or asks 'how to improve search quality?', 'which embedding model?', 'should I use hybrid search?', 'should I use reranking?'. Also use when search quality degrades after quantization, model change, or data growth.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-search-quality",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality",
+        "last_synced": "2026-08-13T10:41:49.214918Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "qdrant",
+        "quality",
+        "search"
+      ],
+      "score": 52
+    },
+    {
+      "skill_id": "github/awesome-copilot/tm7-threat-model",
+      "spec": {
+        "name": "tm7-threat-model",
+        "description": "Creates valid Microsoft Threat Modeling Tool (.tm7) files compatible with the Microsoft Threat Modeling Tool v7.3+. Use this skill whenever asked to create, generate, or modify a .tm7 threat model file, or when performing STRIDE threat modeling that should output a .tm7 file that opens cleanly in the Microsoft Threat Modeling Tool.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/tm7-threat-model",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/tm7-threat-model",
+        "last_synced": "2026-08-13T10:41:49.220898Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "model",
+        "threat",
+        "tm7"
+      ],
+      "score": 49
+    },
+    {
       "skill_id": "skillhub-cn/westock-data",
       "spec": {
         "name": "westock-data",
@@ -821,7 +3276,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/westock-data",
         "source_path": "westock-data",
         "install_url": "https://api.skillhub.cn/tencent-adm/westock-data",
-        "last_synced": "2026-08-13T10:18:41.117360Z",
+        "last_synced": "2026-08-13T10:41:49.314512Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -831,7 +3286,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 21383
+        "install_count": 21390
       },
       "platform": {
         "claude_code": true,
@@ -866,7 +3321,7 @@
         "source_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
         "source_path": "data-analysis-plus",
         "install_url": "https://api.skillhub.cn/user_d75f625d/data-analysis-plus",
-        "last_synced": "2026-08-13T10:18:41.118968Z",
+        "last_synced": "2026-08-13T10:41:49.316235Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -876,7 +3331,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 16032
+        "install_count": 16035
       },
       "platform": {
         "claude_code": true,
@@ -912,7 +3367,7 @@
         "source_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
         "source_path": "tianji-business-search",
         "install_url": "https://api.skillhub.cn/user_83002a29/tianji-business-search",
-        "last_synced": "2026-08-13T10:18:41.123121Z",
+        "last_synced": "2026-08-13T10:41:49.320395Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -922,7 +3377,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6559
+        "install_count": 6561
       },
       "platform": {
         "claude_code": true,
@@ -983,6 +3438,620 @@
       "score": 45
     },
     {
+      "skill_id": "github/awesome-copilot/git-flow-branch-creator",
+      "spec": {
+        "name": "git-flow-branch-creator",
+        "description": "Intelligent Git Flow branch creator that analyzes git status/diff and creates appropriate branches following the nvie Git Flow branching model.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/git-flow-branch-creator",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/git-flow-branch-creator",
+        "last_synced": "2026-08-13T10:41:49.203942Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "branch",
+        "creator",
+        "flow",
+        "git"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/migrating-oracle-to-postgres-data-access-code",
+      "spec": {
+        "name": "migrating-oracle-to-postgres-data-access-code",
+        "description": "Migrates .NET/C# data access code from Oracle to PostgreSQL (Npgsql). Replaces Oracle NuGet packages, rewrites OracleConnection/OracleCommand/OracleDataReader usage, fixes DbType mappings, updates stored procedure invocation patterns, and adapts connection string configuration. Use when migrating the application code layer of a .NET project during an Oracle-to-PostgreSQL database migration.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/migrating-oracle-to-postgres-data-access-code",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/migrating-oracle-to-postgres-data-access-code",
+        "last_synced": "2026-08-13T10:41:49.209080Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "access",
+        "code",
+        "data",
+        "migrating",
+        "oracle",
+        "postgres"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/migrating-oracle-to-postgres-stored-procedures",
+      "spec": {
+        "name": "migrating-oracle-to-postgres-stored-procedures",
+        "description": "Migrates Oracle PL/SQL stored procedures to PostgreSQL PL/pgSQL. Translates Oracle-specific syntax, preserves method signatures and type-anchored parameters, leverages orafce where appropriate, and applies explicit collation mapping (`COLLATE \"C\"` only when appropriate, locale collations when required). Use when converting Oracle stored procedures or functions to PostgreSQL equivalents during a database migration.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/migrating-oracle-to-postgres-stored-procedures",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/migrating-oracle-to-postgres-stored-procedures",
+        "last_synced": "2026-08-13T10:41:49.209173Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "migrating",
+        "oracle",
+        "postgres",
+        "procedures",
+        "stored"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/planning-oracle-to-postgres-migration-integration-testing",
+      "spec": {
+        "name": "planning-oracle-to-postgres-migration-integration-testing",
+        "description": "Creates an integration testing plan for .NET data access artifacts during Oracle-to-PostgreSQL database migrations. Analyzes a single project to identify repositories, DAOs, and service layers that interact with the database, then produces a structured testing plan. Use when planning integration test coverage for a migrated project, identifying which data access methods need tests, or preparing for Oracle-to-PostgreSQL migration validation.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/planning-oracle-to-postgres-migration-integration-testing",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/planning-oracle-to-postgres-migration-integration-testing",
+        "last_synced": "2026-08-13T10:41:49.211687Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "integration",
+        "migration",
+        "oracle",
+        "planning",
+        "postgres",
+        "testing"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/power-bi-model-design-review",
+      "spec": {
+        "name": "power-bi-model-design-review",
+        "description": "Comprehensive Power BI data model design review prompt for evaluating model architecture, relationships, and optimization opportunities.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/power-bi-model-design-review",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-bi-model-design-review",
+        "last_synced": "2026-08-13T10:41:49.212262Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "design",
+        "model",
+        "power",
+        "review"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-model-migration",
+      "spec": {
+        "name": "qdrant-model-migration",
+        "description": "Guides embedding model migration in Qdrant without downtime. Use when someone asks 'how to switch embedding models', 'how to migrate vectors', 'how to update to a new model', 'zero-downtime model change', 'how to re-embed my data', or 'can I use two models at once'. Also use when upgrading model dimensions, switching providers, or A/B testing models.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-model-migration",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-model-migration",
+        "last_synced": "2026-08-13T10:41:49.213692Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "migration",
+        "model",
+        "qdrant"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-sliding-time-window",
+      "spec": {
+        "name": "qdrant-sliding-time-window",
+        "description": "Guides sliding time window scaling in Qdrant. Use when someone asks 'only recent data matters', 'how to expire old vectors', 'time-based data rotation', 'delete old data efficiently', 'social media feed search', 'news search', 'log search with retention', or 'how to keep only last N months of data'.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-scaling/scaling-data-volume/sliding-time-window",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/sliding-time-window",
+        "last_synced": "2026-08-13T10:41:49.214567Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "qdrant",
+        "sliding",
+        "time",
+        "window"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-scaling-query-volume",
+      "spec": {
+        "name": "qdrant-scaling-query-volume",
+        "description": "Guides Qdrant query volume scaling. Use when someone asks 'query returns too many results', 'scroll performance', 'large limit values', 'paginating search results', 'fetching many vectors', or 'high cardinality results'.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-scaling/scaling-query-volume",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-query-volume",
+        "last_synced": "2026-08-13T10:41:49.214858Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "qdrant",
+        "query",
+        "scaling",
+        "volume"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-search-quality-diagnosis",
+      "spec": {
+        "name": "qdrant-search-quality-diagnosis",
+        "description": "Diagnoses Qdrant search quality issues. Use when someone reports 'results are bad', 'wrong results', 'not relevant results', 'missing matches', 'recall is low', 'approximate search worse than exact', 'which embedding model', or 'quality dropped after quantization'. Also use when search quality degrades without obvious changes.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-search-quality/diagnosis",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality/diagnosis",
+        "last_synced": "2026-08-13T10:41:49.215002Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "diagnosis",
+        "qdrant",
+        "quality",
+        "search"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-search-strategies",
+      "spec": {
+        "name": "qdrant-search-strategies",
+        "description": "Guides Qdrant search strategy selection. Use when someone asks 'should I use hybrid search?', 'BM25 or sparse vectors?', 'how to rerank?', 'results are not relevant', 'I don't get needed results from my dataset but they're there', 'retrieval quality is not good enough', 'results too similar', 'need diversity', 'MMR', 'relevance feedback', 'recommendation API', 'discovery API', 'ColBERT reranking', or 'missing keyword matches'",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-search-quality/search-strategies",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality/search-strategies",
+        "last_synced": "2026-08-13T10:41:49.215076Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "api",
+        "qdrant",
+        "search",
+        "strategies"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/qdrant-version-upgrade",
+      "spec": {
+        "name": "qdrant-version-upgrade",
+        "description": "Guidance on how to upgrade your Qdrant version without interrupting the availability of your application and ensuring data integrity.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/qdrant-version-upgrade",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-version-upgrade",
+        "last_synced": "2026-08-13T10:41:49.215170Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "qdrant",
+        "upgrade",
+        "version"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/roundup",
+      "spec": {
+        "name": "roundup",
+        "description": "Generate personalized status briefings on demand. Pulls from your configured data sources (GitHub, email, Teams, Slack, and more), synthesizes across them, and drafts updates in your own communication style for any audience you define.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/roundup",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/roundup",
+        "last_synced": "2026-08-13T10:41:49.217311Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "github",
+        "roundup"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/sql-code-review",
+      "spec": {
+        "name": "sql-code-review",
+        "description": "Universal SQL code review assistant that performs comprehensive security, maintainability, and code quality analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Focuses on SQL injection prevention, access control, code standards, and anti-pattern detection. Complements SQL optimization prompt for complete development coverage.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/sql-code-review",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/sql-code-review",
+        "last_synced": "2026-08-13T10:41:49.219450Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "code",
+        "review",
+        "sql"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/sql-optimization",
+      "spec": {
+        "name": "sql-optimization",
+        "description": "Universal SQL performance optimization assistant for comprehensive query tuning, indexing strategies, and database performance analysis across all SQL databases (MySQL, PostgreSQL, SQL Server, Oracle). Provides execution plan analysis, pagination optimization, batch operations, and performance monitoring guidance.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/sql-optimization",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/sql-optimization",
+        "last_synced": "2026-08-13T10:41:49.219531Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "optimization",
+        "sql"
+      ],
+      "score": 45
+    },
+    {
       "skill_id": "skillhub-cn/wechatanalyzer",
       "spec": {
         "name": "wechatanalyzer",
@@ -1001,7 +4070,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
         "source_path": "wechatanalyzer",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/wechatanalyzer",
-        "last_synced": "2026-08-13T10:18:41.122271Z",
+        "last_synced": "2026-08-13T10:41:49.319447Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1011,7 +4080,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 7786
+        "install_count": 7798
       },
       "platform": {
         "claude_code": true,
@@ -1772,7 +4841,7 @@
         "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
         "source_path": "lingyi-copy-de-ai-human-eval",
         "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-copy-de-ai-human-eval",
-        "last_synced": "2026-08-13T10:18:41.118243Z",
+        "last_synced": "2026-08-13T10:41:49.315515Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1782,7 +4851,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 18110
+        "install_count": 18115
       },
       "platform": {
         "claude_code": true,
@@ -1819,7 +4888,7 @@
         "source_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
         "source_path": "equal-data-skill",
         "install_url": "https://api.skillhub.cn/org-q59kojk2/equal-data-skill",
-        "last_synced": "2026-08-13T10:18:41.124078Z",
+        "last_synced": "2026-08-13T10:41:49.321345Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1829,7 +4898,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6330
+        "install_count": 6331
       },
       "platform": {
         "claude_code": true,
@@ -1865,7 +4934,7 @@
         "source_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
         "source_path": "smart-charts",
         "install_url": "https://api.skillhub.cn/user_5b28ea14/smart-charts",
-        "last_synced": "2026-08-13T10:18:41.116032Z",
+        "last_synced": "2026-08-13T10:41:49.313021Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1875,7 +4944,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 40326
+        "install_count": 40345
       },
       "platform": {
         "claude_code": true,
@@ -1910,7 +4979,7 @@
         "source_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
         "source_path": "generate-chart",
         "install_url": "https://api.skillhub.cn/user_af28adda/generate-chart",
-        "last_synced": "2026-08-13T10:18:41.119730Z",
+        "last_synced": "2026-08-13T10:41:49.316988Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1920,7 +4989,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 12363
+        "install_count": 12369
       },
       "platform": {
         "claude_code": true,
@@ -1955,7 +5024,7 @@
         "source_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
         "source_path": "fund-realtime-scraper",
         "install_url": "https://api.skillhub.cn/user_516b4287/fund-realtime-scraper",
-        "last_synced": "2026-08-13T10:18:41.127498Z",
+        "last_synced": "2026-08-13T10:41:49.325049Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1965,7 +5034,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4354
+        "install_count": 4356
       },
       "platform": {
         "claude_code": true,
@@ -2001,7 +5070,7 @@
         "source_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
         "source_path": "academic-knowledge-base",
         "install_url": "https://api.skillhub.cn/user_164f4c1f/academic-knowledge-base",
-        "last_synced": "2026-08-13T10:18:41.131158Z",
+        "last_synced": "2026-08-13T10:41:49.328705Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2011,7 +5080,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3375
+        "install_count": 3376
       },
       "platform": {
         "claude_code": true,
@@ -2048,7 +5117,7 @@
         "source_url": "https://api.skillhub.cn/user_59252579/yuqing",
         "source_path": "yuqing",
         "install_url": "https://api.skillhub.cn/user_59252579/yuqing",
-        "last_synced": "2026-08-13T10:18:41.136100Z",
+        "last_synced": "2026-08-13T10:41:49.333629Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2058,7 +5127,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2345
+        "install_count": 2347
       },
       "platform": {
         "claude_code": true,
@@ -2074,47 +5143,92 @@
       "score": 43
     },
     {
-      "skill_id": "skillhub-cn/qingxi-skill-01",
+      "skill_id": "github/awesome-copilot/create-github-issues-feature-from-implementation-plan",
       "spec": {
-        "name": "qingxi-skill-01",
-        "description": "提供完整的 MBTI 16 型金钱人格测试网页。当用户想测试自己的金钱人格、消费性格、储蓄倾向、财务规划风格或需要运行 36 道金钱行为测试时使用此技能。技能会交付一个无需联网、可直接打开的单页 HTML 测试，并根据安稳与机会、分析与价值、规划与灵活、独立与关系四个维度生成 16 种结果。",
-        "license": null,
+        "name": "create-github-issues-feature-from-implementation-plan",
+        "description": "Create GitHub Issues from implementation plan phases using feature_request.yml or chore_request.yml templates.",
+        "license": "",
         "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "enterprise"
-        },
+        "metadata": {},
         "allowed_tools": null
       },
       "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
-        "source_path": "qingxi-skill-01",
-        "install_url": "https://api.skillhub.cn/qingxi/qingxi-skill-01",
-        "last_synced": "2026-08-13T10:18:41.126176Z",
-        "upstream_commit": ""
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/create-github-issues-feature-from-implementation-plan",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-github-issues-feature-from-implementation-plan",
+        "last_synced": "2026-08-13T10:41:49.197540Z",
+        "upstream_commit": "55b952d2f9bd"
       },
       "signals": {
-        "repo_stars": 9,
+        "repo_stars": 37773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
-        "file_count": 0,
+        "file_count": 1,
         "open_issues": null,
-        "install_count": 4992
+        "install_count": 0
       },
       "platform": {
         "claude_code": true,
         "claude_ai": false,
         "kiro": true,
-        "codex": true,
+        "codex": false,
         "universal": true
       },
       "category": "data",
       "tags": [
-        "qingxi",
-        "skill"
+        "create",
+        "feature",
+        "from",
+        "github",
+        "implementation",
+        "issues",
+        "plan"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "github/awesome-copilot/shuffle-json-data",
+      "spec": {
+        "name": "shuffle-json-data",
+        "description": "Shuffle repetitive JSON objects safely by validating schema consistency before randomising entries.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/shuffle-json-data",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/shuffle-json-data",
+        "last_synced": "2026-08-13T10:41:49.218948Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "json",
+        "shuffle"
       ],
       "score": 42
     },
@@ -2137,7 +5251,7 @@
         "source_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
         "source_path": "drawio-generator-pro",
         "install_url": "https://api.skillhub.cn/user_509b3ac1/drawio-generator-pro",
-        "last_synced": "2026-08-13T10:18:41.137671Z",
+        "last_synced": "2026-08-13T10:41:49.335959Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2183,7 +5297,7 @@
         "source_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
         "source_path": "scrapling-article-fetch",
         "install_url": "https://api.skillhub.cn/user_5223609c/scrapling-article-fetch",
-        "last_synced": "2026-08-13T10:18:41.139057Z",
+        "last_synced": "2026-08-13T10:41:49.337424Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2193,7 +5307,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2262
+        "install_count": 2264
       },
       "platform": {
         "claude_code": true,
@@ -2229,7 +5343,7 @@
         "source_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
         "source_path": "financial-report-minesweeper",
         "install_url": "https://api.skillhub.cn/user_658135e1/financial-report-minesweeper",
-        "last_synced": "2026-08-13T10:18:41.140161Z",
+        "last_synced": "2026-08-13T10:41:49.338507Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2239,7 +5353,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2051
+        "install_count": 2052
       },
       "platform": {
         "claude_code": true,
@@ -2275,7 +5389,7 @@
         "source_url": "https://api.skillhub.cn/user_841956ef/grounddata-ai-daily-news-cn",
         "source_path": "grounddata-ai-daily-news-cn",
         "install_url": "https://api.skillhub.cn/user_841956ef/grounddata-ai-daily-news-cn",
-        "last_synced": "2026-08-13T10:18:41.152218Z",
+        "last_synced": "2026-08-13T10:41:49.350013Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2321,7 +5435,7 @@
         "source_url": "https://api.skillhub.cn/user_ad45f167/douyin-selenium-scraper-skill",
         "source_path": "douyin-selenium-scraper-skill",
         "install_url": "https://api.skillhub.cn/user_ad45f167/douyin-selenium-scraper-skill",
-        "last_synced": "2026-08-13T10:18:41.153084Z",
+        "last_synced": "2026-08-13T10:41:49.350877Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2368,7 +5482,7 @@
         "source_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
         "source_path": "football-match-analysis",
         "install_url": "https://api.skillhub.cn/user_fa4d9372/football-match-analysis",
-        "last_synced": "2026-08-13T10:18:41.132142Z",
+        "last_synced": "2026-08-13T10:41:49.329733Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2378,7 +5492,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3329
+        "install_count": 3330
       },
       "platform": {
         "claude_code": true,
@@ -2414,7 +5528,7 @@
         "source_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
         "source_path": "liuye-legal-intelligent-search",
         "install_url": "https://api.skillhub.cn/user_c715c6d2/liuye-legal-intelligent-search",
-        "last_synced": "2026-08-13T10:18:41.139684Z",
+        "last_synced": "2026-08-13T10:41:49.338039Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2424,7 +5538,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2243
+        "install_count": 2246
       },
       "platform": {
         "claude_code": true,
@@ -2461,7 +5575,7 @@
         "source_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
         "source_path": "stock-mtl-v5",
         "install_url": "https://api.skillhub.cn/user_8d120697/stock-mtl-v5",
-        "last_synced": "2026-08-13T10:18:41.142187Z",
+        "last_synced": "2026-08-13T10:41:49.339920Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2506,7 +5620,7 @@
         "source_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
         "source_path": "science-figures",
         "install_url": "https://api.skillhub.cn/user_40f1996d/science-figures",
-        "last_synced": "2026-08-13T10:18:41.143092Z",
+        "last_synced": "2026-08-13T10:41:49.340903Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2516,7 +5630,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2003
+        "install_count": 2004
       },
       "platform": {
         "claude_code": true,
@@ -2552,7 +5666,7 @@
         "source_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-optimized-pro",
         "source_path": "skill-creator-optimized-pro",
         "install_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-optimized-pro",
-        "last_synced": "2026-08-13T10:18:41.151601Z",
+        "last_synced": "2026-08-13T10:41:49.349382Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2562,7 +5676,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1484
+        "install_count": 1485
       },
       "platform": {
         "claude_code": true,
@@ -2599,7 +5713,7 @@
         "source_url": "https://api.skillhub.cn/user_d4fbf0bb/csm-20260430",
         "source_path": "csm-20260430",
         "install_url": "https://api.skillhub.cn/user_d4fbf0bb/csm-20260430",
-        "last_synced": "2026-08-13T10:18:41.155226Z",
+        "last_synced": "2026-08-13T10:41:49.353097Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2609,7 +5723,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1244
+        "install_count": 1245
       },
       "platform": {
         "claude_code": true,
@@ -2644,7 +5758,7 @@
         "source_url": "https://api.skillhub.cn/user_82981261/ai-pm-workbench",
         "source_path": "ai-pm-workbench",
         "install_url": "https://api.skillhub.cn/user_82981261/ai-pm-workbench",
-        "last_synced": "2026-08-13T10:18:41.177005Z",
+        "last_synced": "2026-08-13T10:41:49.374885Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2689,7 +5803,7 @@
         "source_url": "https://api.skillhub.cn/user_f0974107/investment-news-collector-xdj",
         "source_path": "investment-news-collector-xdj",
         "install_url": "https://api.skillhub.cn/user_f0974107/investment-news-collector-xdj",
-        "last_synced": "2026-08-13T10:18:41.184036Z",
+        "last_synced": "2026-08-13T10:41:49.381687Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2991,7 +6105,7 @@
         "source_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
         "source_path": "qclaw-data-analyst-pro",
         "install_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-data-analyst-pro",
-        "last_synced": "2026-08-13T10:18:41.126134Z",
+        "last_synced": "2026-08-13T10:41:49.323617Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3038,7 +6152,7 @@
         "source_url": "https://api.skillhub.cn/org-rwhv0nty/ad-factor-analysis",
         "source_path": "ad-factor-analysis",
         "install_url": "https://api.skillhub.cn/org-rwhv0nty/ad-factor-analysis",
-        "last_synced": "2026-08-13T10:18:41.149860Z",
+        "last_synced": "2026-08-13T10:41:49.347688Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3083,7 +6197,7 @@
         "source_url": "https://api.skillhub.cn/user_5d10d7f7/fund-analyzer-plus",
         "source_path": "fund-analyzer-plus",
         "install_url": "https://api.skillhub.cn/user_5d10d7f7/fund-analyzer-plus",
-        "last_synced": "2026-08-13T10:18:41.161194Z",
+        "last_synced": "2026-08-13T10:41:49.358916Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3129,7 +6243,7 @@
         "source_url": "https://api.skillhub.cn/user_912ed068/bilibili-downloader-plus",
         "source_path": "bilibili-downloader-plus",
         "install_url": "https://api.skillhub.cn/user_912ed068/bilibili-downloader-plus",
-        "last_synced": "2026-08-13T10:18:41.162173Z",
+        "last_synced": "2026-08-13T10:41:49.359838Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3175,7 +6289,7 @@
         "source_url": "https://api.skillhub.cn/user_62138798/stock-price-monitor",
         "source_path": "stock-price-monitor",
         "install_url": "https://api.skillhub.cn/user_62138798/stock-price-monitor",
-        "last_synced": "2026-08-13T10:18:41.178512Z",
+        "last_synced": "2026-08-13T10:41:49.376434Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3221,7 +6335,7 @@
         "source_url": "https://api.skillhub.cn/user_72ffbadb/ecommerce-multi-analyzer",
         "source_path": "ecommerce-multi-analyzer",
         "install_url": "https://api.skillhub.cn/user_72ffbadb/ecommerce-multi-analyzer",
-        "last_synced": "2026-08-13T10:18:41.185293Z",
+        "last_synced": "2026-08-13T10:41:49.382887Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3267,7 +6381,7 @@
         "source_url": "https://api.skillhub.cn/user_bdacebb4/read-helper",
         "source_path": "read-helper",
         "install_url": "https://api.skillhub.cn/user_bdacebb4/read-helper",
-        "last_synced": "2026-08-13T10:18:41.189892Z",
+        "last_synced": "2026-08-13T10:41:49.387412Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3312,7 +6426,7 @@
         "source_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
         "source_path": "investoday-finance-data-v2",
         "install_url": "https://api.skillhub.cn/user_d196d58d/investoday-finance-data-v2",
-        "last_synced": "2026-08-13T10:18:41.133750Z",
+        "last_synced": "2026-08-13T10:41:49.331244Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3322,7 +6436,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3168
+        "install_count": 3187
       },
       "platform": {
         "claude_code": true,
@@ -3358,7 +6472,7 @@
         "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
         "source_path": "douyin-traffic-dashboard",
         "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-traffic-dashboard",
-        "last_synced": "2026-08-13T10:18:41.135753Z",
+        "last_synced": "2026-08-13T10:41:49.333283Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3404,7 +6518,7 @@
         "source_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
         "source_path": "voicescope-voc-insight",
         "install_url": "https://api.skillhub.cn/user_4cb7cefc/voicescope-voc-insight",
-        "last_synced": "2026-08-13T10:18:41.137345Z",
+        "last_synced": "2026-08-13T10:41:49.335682Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3450,7 +6564,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
         "source_path": "xinwen",
         "install_url": "https://api.skillhub.cn/user_ef64daef/xinwen",
-        "last_synced": "2026-08-13T10:18:41.143624Z",
+        "last_synced": "2026-08-13T10:41:49.341436Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3494,7 +6608,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/douyin-account-diagnosis-redfox",
         "source_path": "douyin-account-diagnosis-redfox",
         "install_url": "https://api.skillhub.cn/redfox-data/douyin-account-diagnosis-redfox",
-        "last_synced": "2026-08-13T10:18:41.149910Z",
+        "last_synced": "2026-08-13T10:41:49.347634Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3504,7 +6618,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1681
+        "install_count": 1682
       },
       "platform": {
         "claude_code": true,
@@ -3541,7 +6655,7 @@
         "source_url": "https://api.skillhub.cn/user_b392afca/math-modeling",
         "source_path": "math-modeling",
         "install_url": "https://api.skillhub.cn/user_b392afca/math-modeling",
-        "last_synced": "2026-08-13T10:18:41.165027Z",
+        "last_synced": "2026-08-13T10:41:49.362800Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3586,7 +6700,7 @@
         "source_url": "https://api.skillhub.cn/user_2cd25b29/bazicesuan-zhouyisuangua",
         "source_path": "bazicesuan-zhouyisuangua",
         "install_url": "https://api.skillhub.cn/user_2cd25b29/bazicesuan-zhouyisuangua",
-        "last_synced": "2026-08-13T10:18:41.170850Z",
+        "last_synced": "2026-08-13T10:41:49.369580Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3631,7 +6745,7 @@
         "source_url": "https://api.skillhub.cn/user_cd2306da/a-share-penny-stock-technical-analysis",
         "source_path": "a-share-penny-stock-technical-analysis",
         "install_url": "https://api.skillhub.cn/user_cd2306da/a-share-penny-stock-technical-analysis",
-        "last_synced": "2026-08-13T10:18:41.175272Z",
+        "last_synced": "2026-08-13T10:41:49.373200Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3679,7 +6793,7 @@
         "source_url": "https://api.skillhub.cn/user_1581d31c/data-modeling-viz-v2",
         "source_path": "data-modeling-viz-v2",
         "install_url": "https://api.skillhub.cn/user_1581d31c/data-modeling-viz-v2",
-        "last_synced": "2026-08-13T10:18:41.175507Z",
+        "last_synced": "2026-08-13T10:41:49.373523Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3725,7 +6839,7 @@
         "source_url": "https://api.skillhub.cn/user_a7715369/world-cup-2026-pro",
         "source_path": "world-cup-2026-pro",
         "install_url": "https://api.skillhub.cn/user_a7715369/world-cup-2026-pro",
-        "last_synced": "2026-08-13T10:18:41.186709Z",
+        "last_synced": "2026-08-13T10:41:49.384221Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3772,7 +6886,7 @@
         "source_url": "https://api.skillhub.cn/user_0b627a67/talent-review-system",
         "source_path": "talent-review-system",
         "install_url": "https://api.skillhub.cn/user_0b627a67/talent-review-system",
-        "last_synced": "2026-08-13T10:18:41.204970Z",
+        "last_synced": "2026-08-13T10:41:49.402721Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3818,7 +6932,7 @@
         "source_url": "https://api.skillhub.cn/user_a95aac1d/research-fakedata",
         "source_path": "research-fakedata",
         "install_url": "https://api.skillhub.cn/user_a95aac1d/research-fakedata",
-        "last_synced": "2026-08-13T10:18:41.251821Z",
+        "last_synced": "2026-08-13T10:41:49.409269Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3865,7 +6979,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/cn-last30days",
         "source_path": "cn-last30days",
         "install_url": "https://api.skillhub.cn/redfox-data/cn-last30days",
-        "last_synced": "2026-08-13T10:18:41.263566Z",
+        "last_synced": "2026-08-13T10:41:49.420693Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3909,7 +7023,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/webnovelscraper",
         "source_path": "webnovelscraper",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/webnovelscraper",
-        "last_synced": "2026-08-13T10:18:41.276917Z",
+        "last_synced": "2026-08-13T10:41:49.434979Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3919,7 +7033,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 555
+        "install_count": 556
       },
       "platform": {
         "claude_code": true,
@@ -3953,7 +7067,7 @@
         "source_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
         "source_path": "volumetop20",
         "install_url": "https://api.skillhub.cn/user_8c7f0f65/volumetop20",
-        "last_synced": "2026-08-13T10:18:41.129647Z",
+        "last_synced": "2026-08-13T10:41:49.327229Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3997,7 +7111,7 @@
         "source_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
         "source_path": "wechat-rewrite",
         "install_url": "https://api.skillhub.cn/user_25418ee6/wechat-rewrite",
-        "last_synced": "2026-08-13T10:18:41.143569Z",
+        "last_synced": "2026-08-13T10:41:49.341324Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4042,7 +7156,7 @@
         "source_url": "https://api.skillhub.cn/user_cd9945f5/bayesian-football-predictor",
         "source_path": "bayesian-football-predictor",
         "install_url": "https://api.skillhub.cn/user_cd9945f5/bayesian-football-predictor",
-        "last_synced": "2026-08-13T10:18:41.162084Z",
+        "last_synced": "2026-08-13T10:41:49.359708Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4088,7 +7202,7 @@
         "source_url": "https://api.skillhub.cn/org-t9iphcmf/livescore-radar",
         "source_path": "livescore-radar",
         "install_url": "https://api.skillhub.cn/org-t9iphcmf/livescore-radar",
-        "last_synced": "2026-08-13T10:18:41.169433Z",
+        "last_synced": "2026-08-13T10:41:49.367101Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4133,7 +7247,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-data-asset",
         "source_path": "tax-data-asset",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-data-asset",
-        "last_synced": "2026-08-13T10:18:41.185811Z",
+        "last_synced": "2026-08-13T10:41:49.383343Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4179,7 +7293,7 @@
         "source_url": "https://api.skillhub.cn/user_b463487e/tencent-ima-copilot-legal-consultation",
         "source_path": "tencent-ima-copilot-legal-consultation",
         "install_url": "https://api.skillhub.cn/user_b463487e/tencent-ima-copilot-legal-consultation",
-        "last_synced": "2026-08-13T10:18:41.190161Z",
+        "last_synced": "2026-08-13T10:41:49.387623Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4228,7 +7342,7 @@
         "source_url": "https://api.skillhub.cn/user_638acef9/lesson-plan-eval",
         "source_path": "lesson-plan-eval",
         "install_url": "https://api.skillhub.cn/user_638acef9/lesson-plan-eval",
-        "last_synced": "2026-08-13T10:18:41.254147Z",
+        "last_synced": "2026-08-13T10:41:49.411300Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4274,7 +7388,7 @@
         "source_url": "https://api.skillhub.cn/user_fdb96f95/heartflow-ai",
         "source_path": "heartflow-ai",
         "install_url": "https://api.skillhub.cn/user_fdb96f95/heartflow-ai",
-        "last_synced": "2026-08-13T10:18:41.259008Z",
+        "last_synced": "2026-08-13T10:41:49.416100Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4284,7 +7398,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 653
+        "install_count": 654
       },
       "platform": {
         "claude_code": true,
@@ -4318,7 +7432,7 @@
         "source_url": "https://api.skillhub.cn/user_8965db71/hr-assessment-officer",
         "source_path": "hr-assessment-officer",
         "install_url": "https://api.skillhub.cn/user_8965db71/hr-assessment-officer",
-        "last_synced": "2026-08-13T10:18:41.272407Z",
+        "last_synced": "2026-08-13T10:41:49.429527Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4405,7 +7519,7 @@
         "source_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
         "source_path": "excel-chart",
         "install_url": "https://api.skillhub.cn/user_889ced6f/excel-chart",
-        "last_synced": "2026-08-13T10:18:41.130940Z",
+        "last_synced": "2026-08-13T10:41:49.328487Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4450,7 +7564,7 @@
         "source_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
         "source_path": "stock-cyq-analyzer",
         "install_url": "https://api.skillhub.cn/user_b806c584/stock-cyq-analyzer",
-        "last_synced": "2026-08-13T10:18:41.137186Z",
+        "last_synced": "2026-08-13T10:41:49.335567Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4496,7 +7610,7 @@
         "source_url": "https://api.skillhub.cn/user_b9b84f95/toutiao-hot-news-skill",
         "source_path": "toutiao-hot-news-skill",
         "install_url": "https://api.skillhub.cn/user_b9b84f95/toutiao-hot-news-skill",
-        "last_synced": "2026-08-13T10:18:41.147702Z",
+        "last_synced": "2026-08-13T10:41:49.345520Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4543,7 +7657,7 @@
         "source_url": "https://api.skillhub.cn/user_6ce60a6f/hr-daily-report",
         "source_path": "hr-daily-report",
         "install_url": "https://api.skillhub.cn/user_6ce60a6f/hr-daily-report",
-        "last_synced": "2026-08-13T10:18:41.153699Z",
+        "last_synced": "2026-08-13T10:41:49.351520Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4553,7 +7667,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1558
+        "install_count": 1559
       },
       "platform": {
         "claude_code": true,
@@ -4588,7 +7702,7 @@
         "source_url": "https://api.skillhub.cn/user_5ad503e4/worldcup-analyzer",
         "source_path": "worldcup-analyzer",
         "install_url": "https://api.skillhub.cn/user_5ad503e4/worldcup-analyzer",
-        "last_synced": "2026-08-13T10:18:41.155121Z",
+        "last_synced": "2026-08-13T10:41:49.352910Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4633,7 +7747,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/douyin-search-v2",
         "source_path": "douyin-search-v2",
         "install_url": "https://api.skillhub.cn/redfox-data/douyin-search-v2",
-        "last_synced": "2026-08-13T10:18:41.166726Z",
+        "last_synced": "2026-08-13T10:41:49.364475Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4678,7 +7792,7 @@
         "source_url": "https://api.skillhub.cn/user_5f9c21aa/douyin-daily-hot-redfox",
         "source_path": "douyin-daily-hot-redfox",
         "install_url": "https://api.skillhub.cn/user_5f9c21aa/douyin-daily-hot-redfox",
-        "last_synced": "2026-08-13T10:18:41.188566Z",
+        "last_synced": "2026-08-13T10:41:49.386394Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4725,7 +7839,7 @@
         "source_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-friendly-optimized",
         "source_path": "skill-creator-friendly-optimized",
         "install_url": "https://api.skillhub.cn/user_cae83fba/skill-creator-friendly-optimized",
-        "last_synced": "2026-08-13T10:18:41.192941Z",
+        "last_synced": "2026-08-13T10:41:49.390335Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4772,7 +7886,7 @@
         "source_url": "https://api.skillhub.cn/user_b3c51885/case-retrieval-analysis-master",
         "source_path": "case-retrieval-analysis-master",
         "install_url": "https://api.skillhub.cn/user_b3c51885/case-retrieval-analysis-master",
-        "last_synced": "2026-08-13T10:18:41.252347Z",
+        "last_synced": "2026-08-13T10:41:49.409608Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4819,7 +7933,7 @@
         "source_url": "https://api.skillhub.cn/user_0f287ac2/ai-news-collector",
         "source_path": "ai-news-collector",
         "install_url": "https://api.skillhub.cn/user_0f287ac2/ai-news-collector",
-        "last_synced": "2026-08-13T10:18:41.269506Z",
+        "last_synced": "2026-08-13T10:41:49.426573Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4864,7 +7978,7 @@
         "source_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
         "source_path": "competitor-analysis-pro",
         "install_url": "https://api.skillhub.cn/user_d82fedf3/competitor-analysis-pro",
-        "last_synced": "2026-08-13T10:18:41.132622Z",
+        "last_synced": "2026-08-13T10:41:49.330277Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4874,7 +7988,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3142
+        "install_count": 3143
       },
       "platform": {
         "claude_code": true,
@@ -4910,7 +8024,7 @@
         "source_url": "https://api.skillhub.cn/user_5971560d/douyin-competitor-analysis",
         "source_path": "douyin-competitor-analysis",
         "install_url": "https://api.skillhub.cn/user_5971560d/douyin-competitor-analysis",
-        "last_synced": "2026-08-13T10:18:41.152887Z",
+        "last_synced": "2026-08-13T10:41:49.350736Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4956,7 +8070,7 @@
         "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-competitor-research",
         "source_path": "douyin-competitor-research",
         "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-competitor-research",
-        "last_synced": "2026-08-13T10:18:41.166642Z",
+        "last_synced": "2026-08-13T10:41:49.364184Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5002,7 +8116,7 @@
         "source_url": "https://api.skillhub.cn/user_f26b93e2/legal-retrieval",
         "source_path": "legal-retrieval",
         "install_url": "https://api.skillhub.cn/user_f26b93e2/legal-retrieval",
-        "last_synced": "2026-08-13T10:18:41.171796Z",
+        "last_synced": "2026-08-13T10:41:49.370369Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5012,7 +8126,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1104
+        "install_count": 1105
       },
       "platform": {
         "claude_code": true,
@@ -5047,7 +8161,7 @@
         "source_url": "https://api.skillhub.cn/user_8558a957/lottery-predictor",
         "source_path": "lottery-predictor",
         "install_url": "https://api.skillhub.cn/user_8558a957/lottery-predictor",
-        "last_synced": "2026-08-13T10:18:41.172795Z",
+        "last_synced": "2026-08-13T10:41:49.371394Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5092,7 +8206,7 @@
         "source_url": "https://api.skillhub.cn/user_257ad2a8/ctf-ai-ml",
         "source_path": "ctf-ai-ml",
         "install_url": "https://api.skillhub.cn/user_257ad2a8/ctf-ai-ml",
-        "last_synced": "2026-08-13T10:18:41.179585Z",
+        "last_synced": "2026-08-13T10:41:49.377458Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5102,7 +8216,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1003
+        "install_count": 1004
       },
       "platform": {
         "claude_code": true,
@@ -5137,7 +8251,7 @@
         "source_url": "https://api.skillhub.cn/user_f26b93e2/case-retrieval",
         "source_path": "case-retrieval",
         "install_url": "https://api.skillhub.cn/user_f26b93e2/case-retrieval",
-        "last_synced": "2026-08-13T10:18:41.202761Z",
+        "last_synced": "2026-08-13T10:41:49.401033Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5147,7 +8261,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 797
+        "install_count": 798
       },
       "platform": {
         "claude_code": true,
@@ -5182,7 +8296,7 @@
         "source_url": "https://api.skillhub.cn/user_e942ebfc/douyin-content-surge",
         "source_path": "douyin-content-surge",
         "install_url": "https://api.skillhub.cn/user_e942ebfc/douyin-content-surge",
-        "last_synced": "2026-08-13T10:18:41.249148Z",
+        "last_synced": "2026-08-13T10:41:49.406550Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5228,7 +8342,7 @@
         "source_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
         "source_path": "majia-system-prompt-java",
         "install_url": "https://api.skillhub.cn/user_5d00e27d/majia-system-prompt-java",
-        "last_synced": "2026-08-13T10:18:41.249745Z",
+        "last_synced": "2026-08-13T10:41:49.406750Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5238,7 +8352,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 762
+        "install_count": 763
       },
       "platform": {
         "claude_code": true,
@@ -5275,7 +8389,7 @@
         "source_url": "https://api.skillhub.cn/user_e942ebfc/wechat-subscribe-redfox",
         "source_path": "wechat-subscribe-redfox",
         "install_url": "https://api.skillhub.cn/user_e942ebfc/wechat-subscribe-redfox",
-        "last_synced": "2026-08-13T10:18:41.253819Z",
+        "last_synced": "2026-08-13T10:41:49.410973Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5321,7 +8435,7 @@
         "source_url": "https://api.skillhub.cn/user_8e0d5bc5/ekyc-suite",
         "source_path": "ekyc-suite",
         "install_url": "https://api.skillhub.cn/user_8e0d5bc5/ekyc-suite",
-        "last_synced": "2026-08-13T10:18:41.282709Z",
+        "last_synced": "2026-08-13T10:41:49.440396Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5366,7 +8480,7 @@
         "source_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
         "source_path": "bsk-browser-launcher",
         "install_url": "https://api.skillhub.cn/user_656c2e70/bsk-browser-launcher",
-        "last_synced": "2026-08-13T10:18:41.136556Z",
+        "last_synced": "2026-08-13T10:41:49.334019Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5376,7 +8490,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2731
+        "install_count": 2738
       },
       "platform": {
         "claude_code": true,
@@ -5412,7 +8526,7 @@
         "source_url": "https://api.skillhub.cn/user_c660debd/shortdrama-weekly-ranking",
         "source_path": "shortdrama-weekly-ranking",
         "install_url": "https://api.skillhub.cn/user_c660debd/shortdrama-weekly-ranking",
-        "last_synced": "2026-08-13T10:18:41.176865Z",
+        "last_synced": "2026-08-13T10:41:49.374727Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5458,7 +8572,7 @@
         "source_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-realtimemarketdata-skill",
         "source_path": "lingxi-realtimemarketdata-skill",
         "install_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-realtimemarketdata-skill",
-        "last_synced": "2026-08-13T10:18:41.177125Z",
+        "last_synced": "2026-08-13T10:41:49.375078Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5504,7 +8618,7 @@
         "source_url": "https://api.skillhub.cn/user_c163d6d4/ifind-finance-data2",
         "source_path": "ifind-finance-data2",
         "install_url": "https://api.skillhub.cn/user_c163d6d4/ifind-finance-data2",
-        "last_synced": "2026-08-13T10:18:41.183222Z",
+        "last_synced": "2026-08-13T10:41:49.380719Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5514,7 +8628,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 908
+        "install_count": 909
       },
       "platform": {
         "claude_code": true,
@@ -5550,7 +8664,7 @@
         "source_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-bilibili-analyzer-v2",
         "source_path": "unclecheng-bilibili-analyzer-v2",
         "install_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-bilibili-analyzer-v2",
-        "last_synced": "2026-08-13T10:18:41.185120Z",
+        "last_synced": "2026-08-13T10:41:49.382641Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5596,7 +8710,7 @@
         "source_url": "https://api.skillhub.cn/user_dedbd569/mbti-assessment",
         "source_path": "mbti-assessment",
         "install_url": "https://api.skillhub.cn/user_dedbd569/mbti-assessment",
-        "last_synced": "2026-08-13T10:18:41.195242Z",
+        "last_synced": "2026-08-13T10:41:49.392634Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5641,7 +8755,7 @@
         "source_url": "https://api.skillhub.cn/user_8c7f0f65/taoguba",
         "source_path": "taoguba",
         "install_url": "https://api.skillhub.cn/user_8c7f0f65/taoguba",
-        "last_synced": "2026-08-13T10:18:41.200032Z",
+        "last_synced": "2026-08-13T10:41:49.397449Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5685,7 +8799,7 @@
         "source_url": "https://api.skillhub.cn/user_fa54a8fd/dke-price-monitor",
         "source_path": "dke-price-monitor",
         "install_url": "https://api.skillhub.cn/user_fa54a8fd/dke-price-monitor",
-        "last_synced": "2026-08-13T10:18:41.267390Z",
+        "last_synced": "2026-08-13T10:41:49.424444Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5731,7 +8845,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/gzh-astock-top",
         "source_path": "gzh-astock-top",
         "install_url": "https://api.skillhub.cn/redfox-data/gzh-astock-top",
-        "last_synced": "2026-08-13T10:18:41.275706Z",
+        "last_synced": "2026-08-13T10:41:49.434094Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5777,7 +8891,7 @@
         "source_url": "https://api.skillhub.cn/user_6d261cd7/a-stock-news",
         "source_path": "a-stock-news",
         "install_url": "https://api.skillhub.cn/user_6d261cd7/a-stock-news",
-        "last_synced": "2026-08-13T10:18:41.154954Z",
+        "last_synced": "2026-08-13T10:41:49.352864Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5822,7 +8936,7 @@
         "source_url": "https://api.skillhub.cn/user_512254e3/jiuyan-yidong-market",
         "source_path": "jiuyan-yidong-market",
         "install_url": "https://api.skillhub.cn/user_512254e3/jiuyan-yidong-market",
-        "last_synced": "2026-08-13T10:18:41.178626Z",
+        "last_synced": "2026-08-13T10:41:49.376545Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5868,7 +8982,7 @@
         "source_url": "https://api.skillhub.cn/user_f4e1eca6/jd-scrape",
         "source_path": "jd-scrape",
         "install_url": "https://api.skillhub.cn/user_f4e1eca6/jd-scrape",
-        "last_synced": "2026-08-13T10:18:41.187074Z",
+        "last_synced": "2026-08-13T10:41:49.384624Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5912,7 +9026,7 @@
         "source_url": "https://api.skillhub.cn/user_cc9425b3/jy-china-macro-analysis",
         "source_path": "jy-china-macro-analysis",
         "install_url": "https://api.skillhub.cn/user_cc9425b3/jy-china-macro-analysis",
-        "last_synced": "2026-08-13T10:18:41.197751Z",
+        "last_synced": "2026-08-13T10:41:49.395173Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5959,7 +9073,7 @@
         "source_url": "https://api.skillhub.cn/user_bae0772d/ai-training-pro",
         "source_path": "ai-training-pro",
         "install_url": "https://api.skillhub.cn/user_bae0772d/ai-training-pro",
-        "last_synced": "2026-08-13T10:18:41.200970Z",
+        "last_synced": "2026-08-13T10:41:49.398536Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6004,7 +9118,7 @@
         "source_url": "https://api.skillhub.cn/user_5f8aef2c/cleandata01",
         "source_path": "cleandata01",
         "install_url": "https://api.skillhub.cn/user_5f8aef2c/cleandata01",
-        "last_synced": "2026-08-13T10:18:41.203320Z",
+        "last_synced": "2026-08-13T10:41:49.401688Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6048,7 +9162,7 @@
         "source_url": "https://api.skillhub.cn/user_f4500486/sentiment-monitor",
         "source_path": "sentiment-monitor",
         "install_url": "https://api.skillhub.cn/user_f4500486/sentiment-monitor",
-        "last_synced": "2026-08-13T10:18:41.252607Z",
+        "last_synced": "2026-08-13T10:41:49.409912Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6093,7 +9207,7 @@
         "source_url": "https://api.skillhub.cn/user_325940aa/autotravelstrategy",
         "source_path": "autotravelstrategy",
         "install_url": "https://api.skillhub.cn/user_325940aa/autotravelstrategy",
-        "last_synced": "2026-08-13T10:18:41.263662Z",
+        "last_synced": "2026-08-13T10:41:49.420739Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6137,7 +9251,7 @@
         "source_url": "https://api.skillhub.cn/user_af28adda/generate-report123",
         "source_path": "generate-report123",
         "install_url": "https://api.skillhub.cn/user_af28adda/generate-report123",
-        "last_synced": "2026-08-13T10:18:41.270504Z",
+        "last_synced": "2026-08-13T10:41:49.427660Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6182,7 +9296,7 @@
         "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-trend-insights",
         "source_path": "douyin-trend-insights",
         "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-trend-insights",
-        "last_synced": "2026-08-13T10:18:41.180663Z",
+        "last_synced": "2026-08-13T10:41:49.378472Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6192,7 +9306,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 991
+        "install_count": 992
       },
       "platform": {
         "claude_code": true,
@@ -6228,7 +9342,7 @@
         "source_url": "https://api.skillhub.cn/user_c2c676b2/energy-power-bid-analyzer-dianlizhaobiaowang",
         "source_path": "energy-power-bid-analyzer-dianlizhaobiaowang",
         "install_url": "https://api.skillhub.cn/user_c2c676b2/energy-power-bid-analyzer-dianlizhaobiaowang",
-        "last_synced": "2026-08-13T10:18:41.186771Z",
+        "last_synced": "2026-08-13T10:41:49.384282Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6276,7 +9390,7 @@
         "source_url": "https://api.skillhub.cn/user_3ef04463/qianqiong-data-analyst-pro",
         "source_path": "qianqiong-data-analyst-pro",
         "install_url": "https://api.skillhub.cn/user_3ef04463/qianqiong-data-analyst-pro",
-        "last_synced": "2026-08-13T10:18:41.199877Z",
+        "last_synced": "2026-08-13T10:41:49.397298Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6323,7 +9437,7 @@
         "source_url": "https://api.skillhub.cn/user_2d8804af/gzh-skill-wxread-persona",
         "source_path": "gzh-skill-wxread-persona",
         "install_url": "https://api.skillhub.cn/user_2d8804af/gzh-skill-wxread-persona",
-        "last_synced": "2026-08-13T10:18:41.248678Z",
+        "last_synced": "2026-08-13T10:41:49.406062Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6370,7 +9484,7 @@
         "source_url": "https://api.skillhub.cn/user_65867666/tianyancha-region-monitor",
         "source_path": "tianyancha-region-monitor",
         "install_url": "https://api.skillhub.cn/user_65867666/tianyancha-region-monitor",
-        "last_synced": "2026-08-13T10:18:41.160523Z",
+        "last_synced": "2026-08-13T10:41:49.358187Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6380,7 +9494,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1297
+        "install_count": 1298
       },
       "platform": {
         "claude_code": true,
@@ -6416,7 +9530,7 @@
         "source_url": "https://api.skillhub.cn/user_183dc2cb/productresearch",
         "source_path": "productresearch",
         "install_url": "https://api.skillhub.cn/user_183dc2cb/productresearch",
-        "last_synced": "2026-08-13T10:18:41.184564Z",
+        "last_synced": "2026-08-13T10:41:49.382099Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6460,7 +9574,7 @@
         "source_url": "https://api.skillhub.cn/user_fb71c45d/douyin-wenan--zhushou",
         "source_path": "douyin-wenan--zhushou",
         "install_url": "https://api.skillhub.cn/user_fb71c45d/douyin-wenan--zhushou",
-        "last_synced": "2026-08-13T10:18:41.280104Z",
+        "last_synced": "2026-08-13T10:41:49.438233Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6506,7 +9620,7 @@
         "source_url": "https://api.skillhub.cn/user_40ba62fc/business-elmo2ocbh-competitor-analysis",
         "source_path": "business-elmo2ocbh-competitor-analysis",
         "install_url": "https://api.skillhub.cn/user_40ba62fc/business-elmo2ocbh-competitor-analysis",
-        "last_synced": "2026-08-13T10:18:41.256370Z",
+        "last_synced": "2026-08-13T10:41:49.413529Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6553,7 +9667,7 @@
         "source_url": "https://api.skillhub.cn/user_dfcfbf47/douyin-scraper-pro",
         "source_path": "douyin-scraper-pro",
         "install_url": "https://api.skillhub.cn/user_dfcfbf47/douyin-scraper-pro",
-        "last_synced": "2026-08-13T10:18:41.268764Z",
+        "last_synced": "2026-08-13T10:41:49.425837Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6599,7 +9713,7 @@
         "source_url": "https://api.skillhub.cn/user_3c6cb52e/data-analysis-skillhub",
         "source_path": "data-analysis-skillhub",
         "install_url": "https://api.skillhub.cn/user_3c6cb52e/data-analysis-skillhub",
-        "last_synced": "2026-08-13T10:18:41.269308Z",
+        "last_synced": "2026-08-13T10:41:49.426397Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6645,7 +9759,7 @@
         "source_url": "https://api.skillhub.cn/user_cf88f39e/hbxh-ct",
         "source_path": "hbxh-ct",
         "install_url": "https://api.skillhub.cn/user_cf88f39e/hbxh-ct",
-        "last_synced": "2026-08-13T10:18:41.271608Z",
+        "last_synced": "2026-08-13T10:41:49.428703Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6689,7 +9803,7 @@
         "source_url": "https://api.skillhub.cn/user_2c46b95e/bcg-matrix-walker",
         "source_path": "bcg-matrix-walker",
         "install_url": "https://api.skillhub.cn/user_2c46b95e/bcg-matrix-walker",
-        "last_synced": "2026-08-13T10:18:41.281588Z",
+        "last_synced": "2026-08-13T10:41:49.439408Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6735,7 +9849,7 @@
         "source_url": "https://api.skillhub.cn/user_509b3ac1/tender-similarity-analyzer",
         "source_path": "tender-similarity-analyzer",
         "install_url": "https://api.skillhub.cn/user_509b3ac1/tender-similarity-analyzer",
-        "last_synced": "2026-08-13T10:18:41.199348Z",
+        "last_synced": "2026-08-13T10:41:49.396884Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6781,7 +9895,7 @@
         "source_url": "https://api.skillhub.cn/user_861fb6c9/etf",
         "source_path": "etf",
         "install_url": "https://api.skillhub.cn/user_861fb6c9/etf",
-        "last_synced": "2026-08-13T10:18:41.170916Z",
+        "last_synced": "2026-08-13T10:41:49.369645Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8582,5 +11696,5 @@
       "score": 20
     }
   ],
-  "total": 192
+  "total": 262
 }

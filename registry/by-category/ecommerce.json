@@ -2,6 +2,185 @@
   "category": "ecommerce",
   "skills": [
     {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/molecular-dynamics",
+      "spec": {
+        "name": "molecular-dynamics",
+        "description": "Run and analyze molecular dynamics simulations with OpenMM and MDAnalysis. Set up protein/small molecule systems, define force fields, run energy minimization and production MD, analyze trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "Kuan-lin Huang"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/molecular-dynamics",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/molecular-dynamics",
+        "last_synced": "2026-08-13T10:41:49.232394Z",
+        "upstream_commit": "5ad4aae76bc4"
+      },
+      "signals": {
+        "repo_stars": 33393,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "dynamics",
+        "molecular"
+      ],
+      "score": 69
+    },
+    {
+      "skill_id": "github/awesome-copilot/shopify-review-triage",
+      "spec": {
+        "name": "shopify-review-triage",
+        "description": "Use this skill when someone wants public Shopify App Store reviews, low-star reviews, or merchant feedback triaged, prioritized, clustered, or turned into a product or support brief. Trigger for prompts like \"triage these app store reviews\", \"what should we fix first from this feedback\", \"cluster our 1-star reviews\", or \"write a weekly low-star review brief\", for a single Shopify app or a portfolio plus watched competitors. Produces a P0-P3 brief covering incident risk, repeated friction, pricing confusion, feature requests, and an explicit needs-human-read bucket, where every item keeps its public source link and stays labeled first pass or human-checked. Do not trigger for support tickets, order data, or any other private merchant data, and never use it to reply to or contact a reviewer.",
+        "license": "MIT",
+        "compatibility": "Cross-platform. Pure reasoning skill over review rows the user pastes - no network access, scripts, API keys, or system packages. Portable to any client that supports the Agent Skills SKILL.md format.",
+        "metadata": {
+          "version": "1.0",
+          "author": "Shopify App Review Brief - independent, not affiliated with or endorsed by Shopify Inc.",
+          "source": "https://alfredtech2026.github.io/shopify-app-review-brief/guides/shopify-app-review-triage.html"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/shopify-review-triage",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/shopify-review-triage",
+        "last_synced": "2026-08-13T10:41:49.218803Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "review",
+        "shopify",
+        "triage"
+      ],
+      "score": 58
+    },
+    {
+      "skill_id": "github/awesome-copilot/landing-page-conversion-audit",
+      "spec": {
+        "name": "landing-page-conversion-audit",
+        "description": "Audit a landing page, sales page or checkout page for conversion leaks and return a fix list ordered by expected revenue impact. Use when asked to review, critique or improve a landing page, sales page, opt-in page, product page or checkout flow, when conversion rate is low, when paid traffic is not converting, or when someone asks \"why isn't this page converting\" or wants a CRO / landing page review.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/landing-page-conversion-audit",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/landing-page-conversion-audit",
+        "last_synced": "2026-08-13T10:41:49.207097Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "audit",
+        "conversion",
+        "landing",
+        "page"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "github/awesome-copilot/workshop-create",
+      "spec": {
+        "name": "workshop-create",
+        "description": "Create a new workshop or use an existing directory as one. Handles two paths: (A) use an existing local directory the operator points at, or (B) create a new private GitHub repo in the signed-in account. Never creates a repo inside another repo.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "github-awesome-copilot",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/github/awesome-copilot",
+        "source_path": "skills/workshop-create",
+        "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/workshop-create",
+        "last_synced": "2026-08-13T10:41:49.222645Z",
+        "upstream_commit": "55b952d2f9bd"
+      },
+      "signals": {
+        "repo_stars": 37773,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "ecommerce",
+      "tags": [
+        "create",
+        "github",
+        "workshop"
+      ],
+      "score": 45
+    },
+    {
       "skill_id": "sickn33/antigravity-awesome-skills/apify-ecommerce",
       "spec": {
         "name": "apify-ecommerce",
@@ -62,7 +241,7 @@
         "source_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
         "source_path": "ecommerce-product-selector",
         "install_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
-        "last_synced": "2026-08-13T10:18:41.119184Z",
+        "last_synced": "2026-08-13T10:41:49.316447Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -72,7 +251,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 14695
+        "install_count": 14698
       },
       "platform": {
         "claude_code": true,
@@ -108,7 +287,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
         "source_path": "cross-border-ecommerce-product-analysis",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
-        "last_synced": "2026-08-13T10:18:41.122086Z",
+        "last_synced": "2026-08-13T10:41:49.319351Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -156,7 +335,7 @@
         "source_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
         "source_path": "ecommerce-platform-rules",
         "install_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
-        "last_synced": "2026-08-13T10:18:41.144328Z",
+        "last_synced": "2026-08-13T10:41:49.342107Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -166,7 +345,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1860
+        "install_count": 1861
       },
       "platform": {
         "claude_code": true,
@@ -290,7 +469,7 @@
         "source_url": "https://api.skillhub.cn/user_ad1cad5b/amazon-review-insights",
         "source_path": "amazon-review-insights",
         "install_url": "https://api.skillhub.cn/user_ad1cad5b/amazon-review-insights",
-        "last_synced": "2026-08-13T10:18:41.158813Z",
+        "last_synced": "2026-08-13T10:41:49.356551Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -336,7 +515,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/crossborder-ecommerce-v1",
         "source_path": "crossborder-ecommerce-v1",
         "install_url": "https://api.skillhub.cn/user_70c2f807/crossborder-ecommerce-v1",
-        "last_synced": "2026-08-13T10:18:41.160451Z",
+        "last_synced": "2026-08-13T10:41:49.358136Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -346,7 +525,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1218
+        "install_count": 1219
       },
       "platform": {
         "claude_code": true,
@@ -381,7 +560,7 @@
         "source_url": "https://api.skillhub.cn/user_b3227686/wechat-gyj20010114",
         "source_path": "wechat-gyj20010114",
         "install_url": "https://api.skillhub.cn/user_b3227686/wechat-gyj20010114",
-        "last_synced": "2026-08-13T10:18:41.257175Z",
+        "last_synced": "2026-08-13T10:41:49.414329Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -426,7 +605,7 @@
         "source_url": "https://api.skillhub.cn/user_2b384f75/ecommerce-price-radar",
         "source_path": "ecommerce-price-radar",
         "install_url": "https://api.skillhub.cn/user_2b384f75/ecommerce-price-radar",
-        "last_synced": "2026-08-13T10:18:41.257351Z",
+        "last_synced": "2026-08-13T10:41:49.414489Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -472,7 +651,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-ecommerce",
         "source_path": "tax-ecommerce",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-ecommerce",
-        "last_synced": "2026-08-13T10:18:41.162728Z",
+        "last_synced": "2026-08-13T10:41:49.360319Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -517,7 +696,7 @@
         "source_url": "https://api.skillhub.cn/user_6558ceff/screen-ecommerce-products",
         "source_path": "screen-ecommerce-products",
         "install_url": "https://api.skillhub.cn/user_6558ceff/screen-ecommerce-products",
-        "last_synced": "2026-08-13T10:18:41.272828Z",
+        "last_synced": "2026-08-13T10:41:49.429676Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -527,7 +706,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 569
+        "install_count": 570
       },
       "platform": {
         "claude_code": true,
@@ -563,7 +742,7 @@
         "source_url": "https://api.skillhub.cn/user_b3227686/12138",
         "source_path": "12138",
         "install_url": "https://api.skillhub.cn/user_b3227686/12138",
-        "last_synced": "2026-08-13T10:18:41.271648Z",
+        "last_synced": "2026-08-13T10:41:49.428818Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -608,7 +787,7 @@
         "source_url": "https://api.skillhub.cn/user_c5ca7468/nwi-ecommerce",
         "source_path": "nwi-ecommerce",
         "install_url": "https://api.skillhub.cn/user_c5ca7468/nwi-ecommerce",
-        "last_synced": "2026-08-13T10:18:41.170252Z",
+        "last_synced": "2026-08-13T10:41:49.369057Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -653,7 +832,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
         "source_path": "ecommerce-data-zh",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
-        "last_synced": "2026-08-13T10:18:41.145820Z",
+        "last_synced": "2026-08-13T10:41:49.343581Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -663,7 +842,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1828
+        "install_count": 1829
       },
       "platform": {
         "claude_code": true,
@@ -698,7 +877,7 @@
         "source_url": "https://api.skillhub.cn/user_8d26dabd/academic-paper-workshop",
         "source_path": "academic-paper-workshop",
         "install_url": "https://api.skillhub.cn/user_8d26dabd/academic-paper-workshop",
-        "last_synced": "2026-08-13T10:18:41.155439Z",
+        "last_synced": "2026-08-13T10:41:49.353287Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -708,7 +887,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1480
+        "install_count": 1481
       },
       "platform": {
         "claude_code": true,
@@ -768,5 +947,5 @@
       "score": 23
     }
   ],
-  "total": 17
+  "total": 21
 }
