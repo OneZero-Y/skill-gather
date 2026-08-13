@@ -44,48 +44,6 @@
       "score": 80
     },
     {
-      "skill_id": "microsoft/vscode/update-skills",
-      "spec": {
-        "name": "update-skills",
-        "description": "Create or update repository skills and instructions when major learnings are discovered during a session. Use when the user says \"learn!\", when a significant pattern or pitfall is identified, or when reusable domain knowledge should be captured for future sessions.",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "microsoft-vscode-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/microsoft/vscode",
-        "source_path": "src/vs/sessions/skills/update-skills",
-        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-skills",
-        "last_synced": "2026-08-13T10:08:59.994939Z",
-        "upstream_commit": "2952b09ab2ad"
-      },
-      "signals": {
-        "repo_stars": 188650,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 1,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "skills",
-        "update"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "supabase/supabase/docs-content",
       "spec": {
         "name": "docs-content",
@@ -124,6 +82,48 @@
       "tags": [
         "content",
         "docs"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/update-skills",
+      "spec": {
+        "name": "update-skills",
+        "description": "Create or update repository skills and instructions when major learnings are discovered during a session. Use when the user says \"learn!\", when a significant pattern or pitfall is identified, or when reusable domain knowledge should be captured for future sessions.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/update-skills",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-skills",
+        "last_synced": "2026-08-13T10:18:41.079929Z",
+        "upstream_commit": "a4aeae388ca0"
+      },
+      "signals": {
+        "repo_stars": 188652,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "skills",
+        "update"
       ],
       "score": 45
     },
@@ -188,7 +188,7 @@
         "source_url": "https://api.skillhub.cn/user_29dc410e/all-translate",
         "source_path": "all-translate",
         "install_url": "https://api.skillhub.cn/user_29dc410e/all-translate",
-        "last_synced": "2026-08-13T10:09:00.054932Z",
+        "last_synced": "2026-08-13T10:18:41.125983Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -198,7 +198,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 5059
+        "install_count": 5060
       },
       "platform": {
         "claude_code": true,
@@ -233,7 +233,7 @@
         "source_url": "https://api.skillhub.cn/user_fd308b11/academic-learning-assistant",
         "source_path": "academic-learning-assistant",
         "install_url": "https://api.skillhub.cn/user_fd308b11/academic-learning-assistant",
-        "last_synced": "2026-08-13T10:09:00.096943Z",
+        "last_synced": "2026-08-13T10:18:41.142344Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -243,7 +243,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1859
+        "install_count": 1860
       },
       "platform": {
         "claude_code": true,
@@ -279,7 +279,7 @@
         "source_url": "https://api.skillhub.cn/user_863b76c8/learning-feynman",
         "source_path": "learning-feynman",
         "install_url": "https://api.skillhub.cn/user_863b76c8/learning-feynman",
-        "last_synced": "2026-08-13T10:09:00.056589Z",
+        "last_synced": "2026-08-13T10:18:41.128286Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -324,7 +324,7 @@
         "source_url": "https://api.skillhub.cn/user_f0835403/gaokao-volunteer-advisor-new",
         "source_path": "gaokao-volunteer-advisor-new",
         "install_url": "https://api.skillhub.cn/user_f0835403/gaokao-volunteer-advisor-new",
-        "last_synced": "2026-08-13T10:09:00.099200Z",
+        "last_synced": "2026-08-13T10:18:41.145424Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -371,7 +371,7 @@
         "source_url": "https://api.skillhub.cn/user_6455574a/super-thesis-tutor",
         "source_path": "super-thesis-tutor",
         "install_url": "https://api.skillhub.cn/user_6455574a/super-thesis-tutor",
-        "last_synced": "2026-08-13T10:09:00.102684Z",
+        "last_synced": "2026-08-13T10:18:41.150010Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -417,7 +417,7 @@
         "source_url": "https://api.skillhub.cn/user_a95aac1d/little-writer",
         "source_path": "little-writer",
         "install_url": "https://api.skillhub.cn/user_a95aac1d/little-writer",
-        "last_synced": "2026-08-13T10:09:00.116815Z",
+        "last_synced": "2026-08-13T10:18:41.168344Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -462,7 +462,7 @@
         "source_url": "https://api.skillhub.cn/user_fca74304/primary-school",
         "source_path": "primary-school",
         "install_url": "https://api.skillhub.cn/user_fca74304/primary-school",
-        "last_synced": "2026-08-13T10:09:00.167069Z",
+        "last_synced": "2026-08-13T10:18:41.280451Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -507,7 +507,7 @@
         "source_url": "https://api.skillhub.cn/user_7f2d3808/gaokao-volunteer-plus",
         "source_path": "gaokao-volunteer-plus",
         "install_url": "https://api.skillhub.cn/user_7f2d3808/gaokao-volunteer-plus",
-        "last_synced": "2026-08-13T10:09:00.104994Z",
+        "last_synced": "2026-08-13T10:18:41.153139Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -553,7 +553,7 @@
         "source_url": "https://api.skillhub.cn/user_8965db71/hr-internal-trainer",
         "source_path": "hr-internal-trainer",
         "install_url": "https://api.skillhub.cn/user_8965db71/hr-internal-trainer",
-        "last_synced": "2026-08-13T10:09:00.117878Z",
+        "last_synced": "2026-08-13T10:18:41.169763Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -598,7 +598,7 @@
         "source_url": "https://api.skillhub.cn/user_eb045b00/touliao",
         "source_path": "touliao",
         "install_url": "https://api.skillhub.cn/user_eb045b00/touliao",
-        "last_synced": "2026-08-13T10:09:00.118310Z",
+        "last_synced": "2026-08-13T10:18:41.170425Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -642,7 +642,7 @@
         "source_url": "https://api.skillhub.cn/user_1002ca6a/position-hunter",
         "source_path": "position-hunter",
         "install_url": "https://api.skillhub.cn/user_1002ca6a/position-hunter",
-        "last_synced": "2026-08-13T10:09:00.119995Z",
+        "last_synced": "2026-08-13T10:18:41.172684Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -652,7 +652,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1024
+        "install_count": 1026
       },
       "platform": {
         "claude_code": true,
@@ -687,7 +687,7 @@
         "source_url": "https://api.skillhub.cn/user_e32c7fda/1001night-stories",
         "source_path": "1001night-stories",
         "install_url": "https://api.skillhub.cn/user_e32c7fda/1001night-stories",
-        "last_synced": "2026-08-13T10:09:00.126839Z",
+        "last_synced": "2026-08-13T10:18:41.183362Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -732,7 +732,7 @@
         "source_url": "https://api.skillhub.cn/user_f2f3681c/high-school-long-term-error-question-learning-assistant",
         "source_path": "high-school-long-term-error-question-learning-assistant",
         "install_url": "https://api.skillhub.cn/user_f2f3681c/high-school-long-term-error-question-learning-assistant",
-        "last_synced": "2026-08-13T10:09:00.128379Z",
+        "last_synced": "2026-08-13T10:18:41.185547Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -783,7 +783,7 @@
         "source_url": "https://api.skillhub.cn/user_8b7a00d0/study-abroad-advisor",
         "source_path": "study-abroad-advisor",
         "install_url": "https://api.skillhub.cn/user_8b7a00d0/study-abroad-advisor",
-        "last_synced": "2026-08-13T10:09:00.138271Z",
+        "last_synced": "2026-08-13T10:18:41.198413Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -830,7 +830,7 @@
         "source_url": "https://api.skillhub.cn/user_5982371c/queen",
         "source_path": "queen",
         "install_url": "https://api.skillhub.cn/user_5982371c/queen",
-        "last_synced": "2026-08-13T10:09:00.154897Z",
+        "last_synced": "2026-08-13T10:18:41.263707Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -874,7 +874,7 @@
         "source_url": "https://api.skillhub.cn/user_375678f5/study-planner-pro",
         "source_path": "study-planner-pro",
         "install_url": "https://api.skillhub.cn/user_375678f5/study-planner-pro",
-        "last_synced": "2026-08-13T10:09:00.159158Z",
+        "last_synced": "2026-08-13T10:18:41.268569Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -920,7 +920,7 @@
         "source_url": "https://api.skillhub.cn/user_cfa3e422/subject-hyn",
         "source_path": "subject-hyn",
         "install_url": "https://api.skillhub.cn/user_cfa3e422/subject-hyn",
-        "last_synced": "2026-08-13T10:09:00.096651Z",
+        "last_synced": "2026-08-13T10:18:41.141947Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -965,7 +965,7 @@
         "source_url": "https://api.skillhub.cn/user_cad5aa0e/ai-shifu-course-creator",
         "source_path": "ai-shifu-course-creator",
         "install_url": "https://api.skillhub.cn/user_cad5aa0e/ai-shifu-course-creator",
-        "last_synced": "2026-08-13T10:09:00.101667Z",
+        "last_synced": "2026-08-13T10:18:41.148822Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1011,7 +1011,7 @@
         "source_url": "https://api.skillhub.cn/user_d9359026/gaokao-smath-master-yang",
         "source_path": "gaokao-smath-master-yang",
         "install_url": "https://api.skillhub.cn/user_d9359026/gaokao-smath-master-yang",
-        "last_synced": "2026-08-13T10:09:00.118720Z",
+        "last_synced": "2026-08-13T10:18:41.171023Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1058,7 +1058,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-education",
         "source_path": "tax-education",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-education",
-        "last_synced": "2026-08-13T10:09:00.121591Z",
+        "last_synced": "2026-08-13T10:18:41.175750Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1103,7 +1103,7 @@
         "source_url": "https://api.skillhub.cn/user_e62481f0/thesis-architect",
         "source_path": "thesis-architect",
         "install_url": "https://api.skillhub.cn/user_e62481f0/thesis-architect",
-        "last_synced": "2026-08-13T10:09:00.122268Z",
+        "last_synced": "2026-08-13T10:18:41.176761Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1148,7 +1148,7 @@
         "source_url": "https://api.skillhub.cn/user_5b1bdbdf/ai-teacher-skill",
         "source_path": "ai-teacher-skill",
         "install_url": "https://api.skillhub.cn/user_5b1bdbdf/ai-teacher-skill",
-        "last_synced": "2026-08-13T10:09:00.128419Z",
+        "last_synced": "2026-08-13T10:18:41.185608Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1193,7 +1193,7 @@
         "source_url": "https://api.skillhub.cn/user_56098de2/cet6-reading-reviewer",
         "source_path": "cet6-reading-reviewer",
         "install_url": "https://api.skillhub.cn/user_56098de2/cet6-reading-reviewer",
-        "last_synced": "2026-08-13T10:09:00.136213Z",
+        "last_synced": "2026-08-13T10:18:41.195579Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1239,7 +1239,7 @@
         "source_url": "https://api.skillhub.cn/user_c01972f2/resume-optimizer-v1",
         "source_path": "resume-optimizer-v1",
         "install_url": "https://api.skillhub.cn/user_c01972f2/resume-optimizer-v1",
-        "last_synced": "2026-08-13T10:09:00.141292Z",
+        "last_synced": "2026-08-13T10:18:41.202871Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1284,7 +1284,7 @@
         "source_url": "https://api.skillhub.cn/user_dfbdc5ab/socratic-dialogue",
         "source_path": "socratic-dialogue",
         "install_url": "https://api.skillhub.cn/user_dfbdc5ab/socratic-dialogue",
-        "last_synced": "2026-08-13T10:09:00.146243Z",
+        "last_synced": "2026-08-13T10:18:41.251141Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1329,7 +1329,7 @@
         "source_url": "https://api.skillhub.cn/user_fa14b5bc/career-growth-planner",
         "source_path": "career-growth-planner",
         "install_url": "https://api.skillhub.cn/user_fa14b5bc/career-growth-planner",
-        "last_synced": "2026-08-13T10:09:00.149179Z",
+        "last_synced": "2026-08-13T10:18:41.255462Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1375,7 +1375,7 @@
         "source_url": "https://api.skillhub.cn/user_777749ea/001-new",
         "source_path": "001-new",
         "install_url": "https://api.skillhub.cn/user_777749ea/001-new",
-        "last_synced": "2026-08-13T10:09:00.156063Z",
+        "last_synced": "2026-08-13T10:18:41.265341Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1420,7 +1420,7 @@
         "source_url": "https://api.skillhub.cn/user_60120345/interactive-courseware-designer",
         "source_path": "interactive-courseware-designer",
         "install_url": "https://api.skillhub.cn/user_60120345/interactive-courseware-designer",
-        "last_synced": "2026-08-13T10:09:00.159246Z",
+        "last_synced": "2026-08-13T10:18:41.268690Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1466,7 +1466,7 @@
         "source_url": "https://api.skillhub.cn/user_f6023f76/wo-shi-xue-ba",
         "source_path": "wo-shi-xue-ba",
         "install_url": "https://api.skillhub.cn/user_f6023f76/wo-shi-xue-ba",
-        "last_synced": "2026-08-13T10:09:00.160070Z",
+        "last_synced": "2026-08-13T10:18:41.269844Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1511,7 +1511,7 @@
         "source_url": "https://api.skillhub.cn/user_bb47e3e3/study-analysis",
         "source_path": "study-analysis",
         "install_url": "https://api.skillhub.cn/user_bb47e3e3/study-analysis",
-        "last_synced": "2026-08-13T10:09:00.164952Z",
+        "last_synced": "2026-08-13T10:18:41.276783Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1599,7 +1599,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/tencent-yuanbao-gaokao-regional-passing-scores",
         "source_path": "tencent-yuanbao-gaokao-regional-passing-scores",
         "install_url": "https://api.skillhub.cn/tencent-adm/tencent-yuanbao-gaokao-regional-passing-scores",
-        "last_synced": "2026-08-13T10:09:00.116076Z",
+        "last_synced": "2026-08-13T10:18:41.167231Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1648,7 +1648,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/tencent-yuanbao-gaokao-score-to-rank-lookup",
         "source_path": "tencent-yuanbao-gaokao-score-to-rank-lookup",
         "install_url": "https://api.skillhub.cn/tencent-adm/tencent-yuanbao-gaokao-score-to-rank-lookup",
-        "last_synced": "2026-08-13T10:09:00.116322Z",
+        "last_synced": "2026-08-13T10:18:41.167586Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1697,7 +1697,7 @@
         "source_url": "https://api.skillhub.cn/user_44ebbd80/leotutor",
         "source_path": "leotutor",
         "install_url": "https://api.skillhub.cn/user_44ebbd80/leotutor",
-        "last_synced": "2026-08-13T10:09:00.118151Z",
+        "last_synced": "2026-08-13T10:18:41.170081Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1707,7 +1707,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1051
+        "install_count": 1052
       },
       "platform": {
         "claude_code": true,
@@ -1741,7 +1741,7 @@
         "source_url": "https://api.skillhub.cn/user_ac3eb586/edu-cus",
         "source_path": "edu-cus",
         "install_url": "https://api.skillhub.cn/user_ac3eb586/edu-cus",
-        "last_synced": "2026-08-13T10:09:00.123633Z",
+        "last_synced": "2026-08-13T10:18:41.178582Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1786,7 +1786,7 @@
         "source_url": "https://api.skillhub.cn/user_cae83fba/office-ai-agent-course-designer-sl",
         "source_path": "office-ai-agent-course-designer-sl",
         "install_url": "https://api.skillhub.cn/user_cae83fba/office-ai-agent-course-designer-sl",
-        "last_synced": "2026-08-13T10:09:00.164061Z",
+        "last_synced": "2026-08-13T10:18:41.275564Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1833,7 +1833,7 @@
         "source_url": "https://api.skillhub.cn/user_914a510d/ai-teaching-resource-generator",
         "source_path": "ai-teaching-resource-generator",
         "install_url": "https://api.skillhub.cn/user_914a510d/ai-teaching-resource-generator",
-        "last_synced": "2026-08-13T10:09:00.123451Z",
+        "last_synced": "2026-08-13T10:18:41.178330Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1861,6 +1861,52 @@
       "score": 35
     },
     {
+      "skill_id": "skillhub-cn/interview-simulator-pro",
+      "spec": {
+        "name": "interview-simulator-pro",
+        "description": "模拟真实面试场景，提供针对性的面试问题、追问和反馈，帮助用户克服面试紧张、准备不足的问题，提升面试表现和通过率。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_70c2f807/interview-simulator-pro",
+        "source_path": "interview-simulator-pro",
+        "install_url": "https://api.skillhub.cn/user_70c2f807/interview-simulator-pro",
+        "last_synced": "2026-08-13T10:18:41.187372Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 2,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 886
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "interview",
+        "pro",
+        "simulator"
+      ],
+      "score": 35
+    },
+    {
       "skill_id": "skillhub-cn/luoji-huasheng",
       "spec": {
         "name": "luoji-huasheng",
@@ -1879,7 +1925,7 @@
         "source_url": "https://api.skillhub.cn/user_1b86061c/luoji-huasheng",
         "source_path": "luoji-huasheng",
         "install_url": "https://api.skillhub.cn/user_1b86061c/luoji-huasheng",
-        "last_synced": "2026-08-13T10:09:00.137672Z",
+        "last_synced": "2026-08-13T10:18:41.197602Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1924,7 +1970,7 @@
         "source_url": "https://api.skillhub.cn/user_6500bde8/thesis-proposal",
         "source_path": "thesis-proposal",
         "install_url": "https://api.skillhub.cn/user_6500bde8/thesis-proposal",
-        "last_synced": "2026-08-13T10:09:00.148969Z",
+        "last_synced": "2026-08-13T10:18:41.255219Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1969,7 +2015,7 @@
         "source_url": "https://api.skillhub.cn/user_653f90c5/teaching",
         "source_path": "teaching",
         "install_url": "https://api.skillhub.cn/user_653f90c5/teaching",
-        "last_synced": "2026-08-13T10:09:00.126771Z",
+        "last_synced": "2026-08-13T10:18:41.183266Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1995,52 +2041,6 @@
       "score": 34
     },
     {
-      "skill_id": "skillhub-cn/interview-simulator-pro",
-      "spec": {
-        "name": "interview-simulator-pro",
-        "description": "模拟真实面试场景，提供针对性的面试问题、追问和反馈，帮助用户克服面试紧张、准备不足的问题，提升面试表现和通过率。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "platform": "skillhub",
-          "source_type": "community"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "skillhub-cn",
-        "source_type": "github_repo",
-        "source_url": "https://api.skillhub.cn/user_70c2f807/interview-simulator-pro",
-        "source_path": "interview-simulator-pro",
-        "install_url": "https://api.skillhub.cn/user_70c2f807/interview-simulator-pro",
-        "last_synced": "2026-08-13T10:09:00.131140Z",
-        "upstream_commit": ""
-      },
-      "signals": {
-        "repo_stars": 1,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 885
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "interview",
-        "pro",
-        "simulator"
-      ],
-      "score": 34
-    },
-    {
       "skill_id": "skillhub-cn/gaokao-volunteer-advisor",
       "spec": {
         "name": "gaokao-volunteer-advisor",
@@ -2059,7 +2059,7 @@
         "source_url": "https://api.skillhub.cn/user_7c4df347/gaokao-volunteer-advisor",
         "source_path": "gaokao-volunteer-advisor",
         "install_url": "https://api.skillhub.cn/user_7c4df347/gaokao-volunteer-advisor",
-        "last_synced": "2026-08-13T10:09:00.139701Z",
+        "last_synced": "2026-08-13T10:18:41.200693Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2105,7 +2105,7 @@
         "source_url": "https://api.skillhub.cn/user_dedbd569/big-five-personality",
         "source_path": "big-five-personality",
         "install_url": "https://api.skillhub.cn/user_dedbd569/big-five-personality",
-        "last_synced": "2026-08-13T10:09:00.143906Z",
+        "last_synced": "2026-08-13T10:18:41.207388Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2151,7 +2151,7 @@
         "source_url": "https://api.skillhub.cn/user_933f5407/jiaoyu",
         "source_path": "jiaoyu",
         "install_url": "https://api.skillhub.cn/user_933f5407/jiaoyu",
-        "last_synced": "2026-08-13T10:09:00.152359Z",
+        "last_synced": "2026-08-13T10:18:41.260043Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2195,7 +2195,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/career-coach-new",
         "source_path": "career-coach-new",
         "install_url": "https://api.skillhub.cn/user_70c2f807/career-coach-new",
-        "last_synced": "2026-08-13T10:09:00.158956Z",
+        "last_synced": "2026-08-13T10:18:41.268273Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2241,7 +2241,7 @@
         "source_url": "https://api.skillhub.cn/user_116023ea/panghu-talent-finder",
         "source_path": "panghu-talent-finder",
         "install_url": "https://api.skillhub.cn/user_116023ea/panghu-talent-finder",
-        "last_synced": "2026-08-13T10:09:00.162284Z",
+        "last_synced": "2026-08-13T10:18:41.273091Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2287,7 +2287,7 @@
         "source_url": "https://api.skillhub.cn/user_0b013cec/ai-code-learning-assistant",
         "source_path": "ai-code-learning-assistant",
         "install_url": "https://api.skillhub.cn/user_0b013cec/ai-code-learning-assistant",
-        "last_synced": "2026-08-13T10:09:00.162935Z",
+        "last_synced": "2026-08-13T10:18:41.273891Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2333,7 +2333,7 @@
         "source_url": "https://api.skillhub.cn/user_2b285516/college-exam-sprint",
         "source_path": "college-exam-sprint",
         "install_url": "https://api.skillhub.cn/user_2b285516/college-exam-sprint",
-        "last_synced": "2026-08-13T10:09:00.164574Z",
+        "last_synced": "2026-08-13T10:18:41.276214Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2379,7 +2379,7 @@
         "source_url": "https://api.skillhub.cn/user_4b9b28be/english-vocab-booster",
         "source_path": "english-vocab-booster",
         "install_url": "https://api.skillhub.cn/user_4b9b28be/english-vocab-booster",
-        "last_synced": "2026-08-13T10:09:00.116555Z",
+        "last_synced": "2026-08-13T10:18:41.167979Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2425,7 +2425,7 @@
         "source_url": "https://api.skillhub.cn/user_3c6cb52e/self-ent-edu-mind-mapping",
         "source_path": "self-ent-edu-mind-mapping",
         "install_url": "https://api.skillhub.cn/user_3c6cb52e/self-ent-edu-mind-mapping",
-        "last_synced": "2026-08-13T10:09:00.122615Z",
+        "last_synced": "2026-08-13T10:18:41.177174Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2473,7 +2473,7 @@
         "source_url": "https://api.skillhub.cn/user_653cbd7a/english-teacher-tutor",
         "source_path": "english-teacher-tutor",
         "install_url": "https://api.skillhub.cn/user_653cbd7a/english-teacher-tutor",
-        "last_synced": "2026-08-13T10:09:00.139283Z",
+        "last_synced": "2026-08-13T10:18:41.199985Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2519,7 +2519,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/exam-sprint-planner-new",
         "source_path": "exam-sprint-planner-new",
         "install_url": "https://api.skillhub.cn/user_70c2f807/exam-sprint-planner-new",
-        "last_synced": "2026-08-13T10:09:00.144898Z",
+        "last_synced": "2026-08-13T10:18:41.249042Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2566,7 +2566,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/teacher-lesson-plan",
         "source_path": "teacher-lesson-plan",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/teacher-lesson-plan",
-        "last_synced": "2026-08-13T10:09:00.129893Z",
+        "last_synced": "2026-08-13T10:18:41.187810Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2612,7 +2612,7 @@
         "source_url": "https://api.skillhub.cn/user_f158dc22/amy-essay",
         "source_path": "amy-essay",
         "install_url": "https://api.skillhub.cn/user_f158dc22/amy-essay",
-        "last_synced": "2026-08-13T10:09:00.141596Z",
+        "last_synced": "2026-08-13T10:18:41.203278Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2657,7 +2657,7 @@
         "source_url": "https://api.skillhub.cn/user_8844f9c6/dreams-qiuliang",
         "source_path": "dreams-qiuliang",
         "install_url": "https://api.skillhub.cn/user_8844f9c6/dreams-qiuliang",
-        "last_synced": "2026-08-13T10:09:00.160712Z",
+        "last_synced": "2026-08-13T10:18:41.270729Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2702,7 +2702,7 @@
         "source_url": "https://api.skillhub.cn/user_b419ecaa/childpsychologist",
         "source_path": "childpsychologist",
         "install_url": "https://api.skillhub.cn/user_b419ecaa/childpsychologist",
-        "last_synced": "2026-08-13T10:09:00.145427Z",
+        "last_synced": "2026-08-13T10:18:41.249849Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2746,7 +2746,7 @@
         "source_url": "https://api.skillhub.cn/user_ab548812/mooc-course-search",
         "source_path": "mooc-course-search",
         "install_url": "https://api.skillhub.cn/user_ab548812/mooc-course-search",
-        "last_synced": "2026-08-13T10:09:00.148843Z",
+        "last_synced": "2026-08-13T10:18:41.254999Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2792,7 +2792,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/kaoyan-coach-zh",
         "source_path": "kaoyan-coach-zh",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/kaoyan-coach-zh",
-        "last_synced": "2026-08-13T10:09:00.160365Z",
+        "last_synced": "2026-08-13T10:18:41.270229Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2837,7 +2837,7 @@
         "source_url": "https://api.skillhub.cn/user_9e52a198/github-repo-learning",
         "source_path": "github-repo-learning",
         "install_url": "https://api.skillhub.cn/user_9e52a198/github-repo-learning",
-        "last_synced": "2026-08-13T10:09:00.162865Z",
+        "last_synced": "2026-08-13T10:18:41.273785Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2925,7 +2925,7 @@
         "source_url": "https://api.skillhub.cn/user_25ab92ec/zizhitongjian-study",
         "source_path": "zizhitongjian-study",
         "install_url": "https://api.skillhub.cn/user_25ab92ec/zizhitongjian-study",
-        "last_synced": "2026-08-13T10:09:00.166174Z",
+        "last_synced": "2026-08-13T10:18:41.278504Z",
         "upstream_commit": ""
       },
       "signals": {

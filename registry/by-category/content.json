@@ -20,7 +20,7 @@
         "source_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception-v2",
         "source_path": "unclecheng-reduce-ai-perception-v2",
         "install_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception-v2",
-        "last_synced": "2026-08-13T10:09:00.046977Z",
+        "last_synced": "2026-08-13T10:18:41.115286Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -30,7 +30,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 130719
+        "install_count": 130740
       },
       "platform": {
         "claude_code": true,
@@ -63,7 +63,7 @@
         "source_url": "https://github.com/resend/resend-skills",
         "source_path": "",
         "install_url": "https://github.com/resend/resend-skills/tree/main",
-        "last_synced": "2026-08-13T10:09:00.046105Z",
+        "last_synced": "2026-08-13T10:18:41.114068Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -108,7 +108,7 @@
         "source_url": "https://api.skillhub.cn/user_634bbcdc/g113593",
         "source_path": "g113593",
         "install_url": "https://api.skillhub.cn/user_634bbcdc/g113593",
-        "last_synced": "2026-08-13T10:09:00.047912Z",
+        "last_synced": "2026-08-13T10:18:41.116542Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -118,7 +118,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 26843
+        "install_count": 26845
       },
       "platform": {
         "claude_code": true,
@@ -152,7 +152,7 @@
         "source_url": "https://api.skillhub.cn/user_fb9c3efc/perfectly-replicate-writing-skills",
         "source_path": "perfectly-replicate-writing-skills",
         "install_url": "https://api.skillhub.cn/user_fb9c3efc/perfectly-replicate-writing-skills",
-        "last_synced": "2026-08-13T10:09:00.049987Z",
+        "last_synced": "2026-08-13T10:18:41.119340Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -162,7 +162,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 10550
+        "install_count": 10552
       },
       "platform": {
         "claude_code": true,
@@ -199,7 +199,7 @@
         "source_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception",
         "source_path": "unclecheng-reduce-ai-perception",
         "install_url": "https://api.skillhub.cn/user_ab5ae6ee/unclecheng-reduce-ai-perception",
-        "last_synced": "2026-08-13T10:09:00.048487Z",
+        "last_synced": "2026-08-13T10:18:41.117309Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -209,7 +209,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 24028
+        "install_count": 24033
       },
       "platform": {
         "claude_code": true,
@@ -245,7 +245,7 @@
         "source_url": "https://api.skillhub.cn/user_33ddb46a/weixin-article-writer",
         "source_path": "weixin-article-writer",
         "install_url": "https://api.skillhub.cn/user_33ddb46a/weixin-article-writer",
-        "last_synced": "2026-08-13T10:09:00.049523Z",
+        "last_synced": "2026-08-13T10:18:41.118718Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -255,7 +255,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 16270
+        "install_count": 16271
       },
       "platform": {
         "claude_code": true,
@@ -291,7 +291,7 @@
         "source_url": "https://api.skillhub.cn/user_7ca3a4d6/fiction-crafter",
         "source_path": "fiction-crafter",
         "install_url": "https://api.skillhub.cn/user_7ca3a4d6/fiction-crafter",
-        "last_synced": "2026-08-13T10:09:00.050862Z",
+        "last_synced": "2026-08-13T10:18:41.120562Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -301,7 +301,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 10214
+        "install_count": 10215
       },
       "platform": {
         "claude_code": true,
@@ -336,7 +336,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-copy-extract",
         "source_path": "douyin-copy-extract",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-copy-extract",
-        "last_synced": "2026-08-13T10:09:00.047678Z",
+        "last_synced": "2026-08-13T10:18:41.116209Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -346,7 +346,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 34383
+        "install_count": 34384
       },
       "platform": {
         "claude_code": true,
@@ -382,7 +382,7 @@
         "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-content-quality-check",
         "source_path": "lingyi-content-quality-check",
         "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-content-quality-check",
-        "last_synced": "2026-08-13T10:09:00.048134Z",
+        "last_synced": "2026-08-13T10:18:41.116845Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -429,7 +429,7 @@
         "source_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-copywriter",
         "source_path": "gzh-copywriter",
         "install_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-copywriter",
-        "last_synced": "2026-08-13T10:09:00.049748Z",
+        "last_synced": "2026-08-13T10:18:41.119021Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -439,7 +439,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 15946
+        "install_count": 15948
       },
       "platform": {
         "claude_code": true,
@@ -474,7 +474,7 @@
         "source_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-explosive-content-detector",
         "source_path": "gzh-explosive-content-detector",
         "install_url": "https://api.skillhub.cn/user_5f9c21aa/gzh-explosive-content-detector",
-        "last_synced": "2026-08-13T10:09:00.048050Z",
+        "last_synced": "2026-08-13T10:18:41.116725Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -484,7 +484,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 30073
+        "install_count": 30075
       },
       "platform": {
         "claude_code": true,
@@ -521,7 +521,7 @@
         "source_url": "https://api.skillhub.cn/user_57af6244/wechat-ai-publisher",
         "source_path": "wechat-ai-publisher",
         "install_url": "https://api.skillhub.cn/user_57af6244/wechat-ai-publisher",
-        "last_synced": "2026-08-13T10:09:00.051409Z",
+        "last_synced": "2026-08-13T10:18:41.121271Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -566,7 +566,7 @@
         "source_url": "https://api.skillhub.cn/user_00c9b356/humanizer-zh-pro",
         "source_path": "humanizer-zh-pro",
         "install_url": "https://api.skillhub.cn/user_00c9b356/humanizer-zh-pro",
-        "last_synced": "2026-08-13T10:09:00.051451Z",
+        "last_synced": "2026-08-13T10:18:41.121329Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -576,7 +576,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 9505
+        "install_count": 9506
       },
       "platform": {
         "claude_code": true,
@@ -989,7 +989,7 @@
         "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-wx-viral-script-generator",
         "source_path": "lingyi-wx-viral-script-generator",
         "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-wx-viral-script-generator",
-        "last_synced": "2026-08-13T10:09:00.047457Z",
+        "last_synced": "2026-08-13T10:18:41.115979Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -999,7 +999,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 42334
+        "install_count": 42339
       },
       "platform": {
         "claude_code": true,
@@ -1036,7 +1036,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-high-comment-generator",
         "source_path": "douyin-high-comment-generator",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-high-comment-generator",
-        "last_synced": "2026-08-13T10:09:00.054146Z",
+        "last_synced": "2026-08-13T10:18:41.124991Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1046,7 +1046,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 5575
+        "install_count": 5576
       },
       "platform": {
         "claude_code": true,
@@ -1083,7 +1083,7 @@
         "source_url": "https://api.skillhub.cn/user_9aa92135/lsp-novel-writer",
         "source_path": "lsp-novel-writer",
         "install_url": "https://api.skillhub.cn/user_9aa92135/lsp-novel-writer",
-        "last_synced": "2026-08-13T10:09:00.055964Z",
+        "last_synced": "2026-08-13T10:18:41.127380Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1129,7 +1129,7 @@
         "source_url": "https://api.skillhub.cn/user_f0835403/novel-to-drama",
         "source_path": "novel-to-drama",
         "install_url": "https://api.skillhub.cn/user_f0835403/novel-to-drama",
-        "last_synced": "2026-08-13T10:09:00.059001Z",
+        "last_synced": "2026-08-13T10:18:41.130520Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1174,7 +1174,7 @@
         "source_url": "https://api.skillhub.cn/user_f1de10d1/wechat-mp-suite",
         "source_path": "wechat-mp-suite",
         "install_url": "https://api.skillhub.cn/user_f1de10d1/wechat-mp-suite",
-        "last_synced": "2026-08-13T10:09:00.050736Z",
+        "last_synced": "2026-08-13T10:18:41.120337Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1184,7 +1184,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 11211
+        "install_count": 11223
       },
       "platform": {
         "claude_code": true,
@@ -1219,7 +1219,7 @@
         "source_url": "https://api.skillhub.cn/user_6113fd9f/moways00001",
         "source_path": "moways00001",
         "install_url": "https://api.skillhub.cn/user_6113fd9f/moways00001",
-        "last_synced": "2026-08-13T10:09:00.054398Z",
+        "last_synced": "2026-08-13T10:18:41.125332Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1229,7 +1229,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 5471
+        "install_count": 5473
       },
       "platform": {
         "claude_code": true,
@@ -1263,7 +1263,7 @@
         "source_url": "https://api.skillhub.cn/user_52f18fe1/cjskill",
         "source_path": "cjskill",
         "install_url": "https://api.skillhub.cn/user_52f18fe1/cjskill",
-        "last_synced": "2026-08-13T10:09:00.093799Z",
+        "last_synced": "2026-08-13T10:18:41.137402Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1273,7 +1273,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2276
+        "install_count": 2277
       },
       "platform": {
         "claude_code": true,
@@ -1307,7 +1307,7 @@
         "source_url": "https://api.skillhub.cn/user_9ff555dd/solo-media-matrix",
         "source_path": "solo-media-matrix",
         "install_url": "https://api.skillhub.cn/user_9ff555dd/solo-media-matrix",
-        "last_synced": "2026-08-13T10:09:00.098040Z",
+        "last_synced": "2026-08-13T10:18:41.143866Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1353,7 +1353,7 @@
         "source_url": "https://api.skillhub.cn/user_b26ab084/seedance-prompt-expert",
         "source_path": "seedance-prompt-expert",
         "install_url": "https://api.skillhub.cn/user_b26ab084/seedance-prompt-expert",
-        "last_synced": "2026-08-13T10:09:00.049234Z",
+        "last_synced": "2026-08-13T10:18:41.118373Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1363,7 +1363,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 14454
+        "install_count": 14455
       },
       "platform": {
         "claude_code": true,
@@ -1399,7 +1399,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/douyindashi",
         "source_path": "douyindashi",
         "install_url": "https://api.skillhub.cn/user_ef64daef/douyindashi",
-        "last_synced": "2026-08-13T10:09:00.051679Z",
+        "last_synced": "2026-08-13T10:18:41.121642Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1409,7 +1409,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 8016
+        "install_count": 8017
       },
       "platform": {
         "claude_code": true,
@@ -1443,7 +1443,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/yijian-shengcheng-douyin-baokuan-koubo-wenan",
         "source_path": "yijian-shengcheng-douyin-baokuan-koubo-wenan",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/yijian-shengcheng-douyin-baokuan-koubo-wenan",
-        "last_synced": "2026-08-13T10:09:00.053939Z",
+        "last_synced": "2026-08-13T10:18:41.124707Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1492,7 +1492,7 @@
         "source_url": "https://api.skillhub.cn/user_0542fab7/one-person-mcn",
         "source_path": "one-person-mcn",
         "install_url": "https://api.skillhub.cn/user_0542fab7/one-person-mcn",
-        "last_synced": "2026-08-13T10:09:00.088960Z",
+        "last_synced": "2026-08-13T10:18:41.131461Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1502,7 +1502,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2129
+        "install_count": 2130
       },
       "platform": {
         "claude_code": true,
@@ -1538,7 +1538,7 @@
         "source_url": "https://api.skillhub.cn/user_f0835403/novelist",
         "source_path": "novelist",
         "install_url": "https://api.skillhub.cn/user_f0835403/novelist",
-        "last_synced": "2026-08-13T10:09:00.091111Z",
+        "last_synced": "2026-08-13T10:18:41.134111Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1582,7 +1582,7 @@
         "source_url": "https://api.skillhub.cn/user_fcba917f/fanqie-story-writer",
         "source_path": "fanqie-story-writer",
         "install_url": "https://api.skillhub.cn/user_fcba917f/fanqie-story-writer",
-        "last_synced": "2026-08-13T10:09:00.097967Z",
+        "last_synced": "2026-08-13T10:18:41.143820Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1628,7 +1628,7 @@
         "source_url": "https://api.skillhub.cn/user_0bead322/paperdown",
         "source_path": "paperdown",
         "install_url": "https://api.skillhub.cn/user_0bead322/paperdown",
-        "last_synced": "2026-08-13T10:09:00.052303Z",
+        "last_synced": "2026-08-13T10:18:41.122454Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1672,7 +1672,7 @@
         "source_url": "https://api.skillhub.cn/user_29dc410e/cross-border-copywriter",
         "source_path": "cross-border-copywriter",
         "install_url": "https://api.skillhub.cn/user_29dc410e/cross-border-copywriter",
-        "last_synced": "2026-08-13T10:09:00.052863Z",
+        "last_synced": "2026-08-13T10:18:41.123231Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1682,7 +1682,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6927
+        "install_count": 6928
       },
       "platform": {
         "claude_code": true,
@@ -1718,7 +1718,7 @@
         "source_url": "https://api.skillhub.cn/user_d82fedf3/wechat-article-pro-plus",
         "source_path": "wechat-article-pro-plus",
         "install_url": "https://api.skillhub.cn/user_d82fedf3/wechat-article-pro-plus",
-        "last_synced": "2026-08-13T10:09:00.054285Z",
+        "last_synced": "2026-08-13T10:18:41.125137Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1765,7 +1765,7 @@
         "source_url": "https://api.skillhub.cn/user_c5e5dc86/ark-novel-to-tuiwen",
         "source_path": "ark-novel-to-tuiwen",
         "install_url": "https://api.skillhub.cn/user_c5e5dc86/ark-novel-to-tuiwen",
-        "last_synced": "2026-08-13T10:09:00.055008Z",
+        "last_synced": "2026-08-13T10:18:41.126088Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1775,7 +1775,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4462
+        "install_count": 4463
       },
       "platform": {
         "claude_code": true,
@@ -1811,7 +1811,7 @@
         "source_url": "https://api.skillhub.cn/user_681a3211/hotspot-radar",
         "source_path": "hotspot-radar",
         "install_url": "https://api.skillhub.cn/user_681a3211/hotspot-radar",
-        "last_synced": "2026-08-13T10:09:00.056150Z",
+        "last_synced": "2026-08-13T10:18:41.127659Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1856,7 +1856,7 @@
         "source_url": "https://api.skillhub.cn/user_5b12983f/novel-to-storyboard",
         "source_path": "novel-to-storyboard",
         "install_url": "https://api.skillhub.cn/user_5b12983f/novel-to-storyboard",
-        "last_synced": "2026-08-13T10:09:00.057482Z",
+        "last_synced": "2026-08-13T10:18:41.128379Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1866,7 +1866,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3677
+        "install_count": 3679
       },
       "platform": {
         "claude_code": true,
@@ -1901,7 +1901,7 @@
         "source_url": "https://api.skillhub.cn/user_3f5cf929/gongwen-writing",
         "source_path": "gongwen-writing",
         "install_url": "https://api.skillhub.cn/user_3f5cf929/gongwen-writing",
-        "last_synced": "2026-08-13T10:09:00.089939Z",
+        "last_synced": "2026-08-13T10:18:41.132708Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1911,7 +1911,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3220
+        "install_count": 3222
       },
       "platform": {
         "claude_code": true,
@@ -1946,7 +1946,7 @@
         "source_url": "https://api.skillhub.cn/user_e417e4c8/humanizer-lite",
         "source_path": "humanizer-lite",
         "install_url": "https://api.skillhub.cn/user_e417e4c8/humanizer-lite",
-        "last_synced": "2026-08-13T10:09:00.093184Z",
+        "last_synced": "2026-08-13T10:18:41.136679Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1956,7 +1956,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2616
+        "install_count": 2618
       },
       "platform": {
         "claude_code": true,
@@ -1991,7 +1991,7 @@
         "source_url": "https://api.skillhub.cn/user_5724919f/humanizer-zh-enhanced",
         "source_path": "humanizer-zh-enhanced",
         "install_url": "https://api.skillhub.cn/user_5724919f/humanizer-zh-enhanced",
-        "last_synced": "2026-08-13T10:09:00.097281Z",
+        "last_synced": "2026-08-13T10:18:41.142822Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2036,7 +2036,7 @@
         "source_url": "https://api.skillhub.cn/user_ada3421c/novel-deconstruction",
         "source_path": "novel-deconstruction",
         "install_url": "https://api.skillhub.cn/user_ada3421c/novel-deconstruction",
-        "last_synced": "2026-08-13T10:09:00.104645Z",
+        "last_synced": "2026-08-13T10:18:41.152656Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2081,7 +2081,7 @@
         "source_url": "https://api.skillhub.cn/user_e638cdb5/muzi-01",
         "source_path": "muzi-01",
         "install_url": "https://api.skillhub.cn/user_e638cdb5/muzi-01",
-        "last_synced": "2026-08-13T10:09:00.105072Z",
+        "last_synced": "2026-08-13T10:18:41.153245Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2125,7 +2125,7 @@
         "source_url": "https://api.skillhub.cn/user_8c37677c/viral-content-miner",
         "source_path": "viral-content-miner",
         "install_url": "https://api.skillhub.cn/user_8c37677c/viral-content-miner",
-        "last_synced": "2026-08-13T10:09:00.109196Z",
+        "last_synced": "2026-08-13T10:18:41.158890Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2135,7 +2135,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1114
+        "install_count": 1115
       },
       "platform": {
         "claude_code": true,
@@ -2171,7 +2171,7 @@
         "source_url": "https://api.skillhub.cn/user_f0835403/trend-catcher",
         "source_path": "trend-catcher",
         "install_url": "https://api.skillhub.cn/user_f0835403/trend-catcher",
-        "last_synced": "2026-08-13T10:09:00.130456Z",
+        "last_synced": "2026-08-13T10:18:41.188633Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2216,7 +2216,7 @@
         "source_url": "https://api.skillhub.cn/user_2df7b78c/seedance2-prompt-expert",
         "source_path": "seedance2-prompt-expert",
         "install_url": "https://api.skillhub.cn/user_2df7b78c/seedance2-prompt-expert",
-        "last_synced": "2026-08-13T10:09:00.133120Z",
+        "last_synced": "2026-08-13T10:18:41.192345Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2390,7 +2390,7 @@
         "source_url": "https://api.skillhub.cn/user_c0f1d332/onkos",
         "source_path": "onkos",
         "install_url": "https://api.skillhub.cn/user_c0f1d332/onkos",
-        "last_synced": "2026-08-13T10:09:00.055451Z",
+        "last_synced": "2026-08-13T10:18:41.126682Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2434,7 +2434,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/aishipin",
         "source_path": "aishipin",
         "install_url": "https://api.skillhub.cn/user_ef64daef/aishipin",
-        "last_synced": "2026-08-13T10:09:00.088701Z",
+        "last_synced": "2026-08-13T10:18:41.131106Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2478,7 +2478,7 @@
         "source_url": "https://api.skillhub.cn/user_09cf1a59/paper-deweight-fd",
         "source_path": "paper-deweight-fd",
         "install_url": "https://api.skillhub.cn/user_09cf1a59/paper-deweight-fd",
-        "last_synced": "2026-08-13T10:09:00.093763Z",
+        "last_synced": "2026-08-13T10:18:41.137456Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2523,7 +2523,7 @@
         "source_url": "https://api.skillhub.cn/user_c660debd/hit-preview",
         "source_path": "hit-preview",
         "install_url": "https://api.skillhub.cn/user_c660debd/hit-preview",
-        "last_synced": "2026-08-13T10:09:00.099127Z",
+        "last_synced": "2026-08-13T10:18:41.145323Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2568,7 +2568,7 @@
         "source_url": "https://api.skillhub.cn/user_ffcaaae9/shortvideo-content-factory-cn-v1-zt",
         "source_path": "shortvideo-content-factory-cn-v1-zt",
         "install_url": "https://api.skillhub.cn/user_ffcaaae9/shortvideo-content-factory-cn-v1-zt",
-        "last_synced": "2026-08-13T10:09:00.101962Z",
+        "last_synced": "2026-08-13T10:18:41.149153Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2578,7 +2578,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1641
+        "install_count": 1644
       },
       "platform": {
         "claude_code": true,
@@ -2614,7 +2614,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/xianyu-title-generator",
         "source_path": "xianyu-title-generator",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/xianyu-title-generator",
-        "last_synced": "2026-08-13T10:09:00.102180Z",
+        "last_synced": "2026-08-13T10:18:41.149436Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2660,7 +2660,7 @@
         "source_url": "https://api.skillhub.cn/user_f0835403/script-to-manga",
         "source_path": "script-to-manga",
         "install_url": "https://api.skillhub.cn/user_f0835403/script-to-manga",
-        "last_synced": "2026-08-13T10:09:00.107579Z",
+        "last_synced": "2026-08-13T10:18:41.156667Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2705,7 +2705,7 @@
         "source_url": "https://api.skillhub.cn/user_151424ca/live-script",
         "source_path": "live-script",
         "install_url": "https://api.skillhub.cn/user_151424ca/live-script",
-        "last_synced": "2026-08-13T10:09:00.109520Z",
+        "last_synced": "2026-08-13T10:18:41.159391Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2750,7 +2750,7 @@
         "source_url": "https://api.skillhub.cn/user_638507d8/ai-novel-creator",
         "source_path": "ai-novel-creator",
         "install_url": "https://api.skillhub.cn/user_638507d8/ai-novel-creator",
-        "last_synced": "2026-08-13T10:09:00.116970Z",
+        "last_synced": "2026-08-13T10:18:41.168447Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2795,7 +2795,7 @@
         "source_url": "https://api.skillhub.cn/user_56cd569d/geo-optimization-evo",
         "source_path": "geo-optimization-evo",
         "install_url": "https://api.skillhub.cn/user_56cd569d/geo-optimization-evo",
-        "last_synced": "2026-08-13T10:09:00.136660Z",
+        "last_synced": "2026-08-13T10:18:41.196104Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2841,7 +2841,7 @@
         "source_url": "https://api.skillhub.cn/user_cc6e2a83/director-writer",
         "source_path": "director-writer",
         "install_url": "https://api.skillhub.cn/user_cc6e2a83/director-writer",
-        "last_synced": "2026-08-13T10:09:00.137978Z",
+        "last_synced": "2026-08-13T10:18:41.198047Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2886,7 +2886,7 @@
         "source_url": "https://api.skillhub.cn/user_064832a0/ht-publish",
         "source_path": "ht-publish",
         "install_url": "https://api.skillhub.cn/user_064832a0/ht-publish",
-        "last_synced": "2026-08-13T10:09:00.139242Z",
+        "last_synced": "2026-08-13T10:18:41.199929Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2930,7 +2930,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/geo-content-writer-v2",
         "source_path": "geo-content-writer-v2",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/geo-content-writer-v2",
-        "last_synced": "2026-08-13T10:09:00.152018Z",
+        "last_synced": "2026-08-13T10:18:41.259558Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2976,7 +2976,7 @@
         "source_url": "https://api.skillhub.cn/qingxi/qingxi-skill-03",
         "source_path": "qingxi-skill-03",
         "install_url": "https://api.skillhub.cn/qingxi/qingxi-skill-03",
-        "last_synced": "2026-08-13T10:09:00.058304Z",
+        "last_synced": "2026-08-13T10:18:41.129440Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2986,7 +2986,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3856
+        "install_count": 3868
       },
       "platform": {
         "claude_code": true,
@@ -3021,7 +3021,7 @@
         "source_url": "https://api.skillhub.cn/user_6d3be094/full-length-novel-writer",
         "source_path": "full-length-novel-writer",
         "install_url": "https://api.skillhub.cn/user_6d3be094/full-length-novel-writer",
-        "last_synced": "2026-08-13T10:09:00.090096Z",
+        "last_synced": "2026-08-13T10:18:41.132875Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3068,7 +3068,7 @@
         "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-live-script-creation",
         "source_path": "lingyi-live-script-creation",
         "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-live-script-creation",
-        "last_synced": "2026-08-13T10:09:00.090425Z",
+        "last_synced": "2026-08-13T10:18:41.133241Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3115,7 +3115,7 @@
         "source_url": "https://api.skillhub.cn/user_7290fc8d/walrus03",
         "source_path": "walrus03",
         "install_url": "https://api.skillhub.cn/user_7290fc8d/walrus03",
-        "last_synced": "2026-08-13T10:09:00.096274Z",
+        "last_synced": "2026-08-13T10:18:41.141455Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3159,7 +3159,7 @@
         "source_url": "https://api.skillhub.cn/user_d5c3472c/seedance-director",
         "source_path": "seedance-director",
         "install_url": "https://api.skillhub.cn/user_d5c3472c/seedance-director",
-        "last_synced": "2026-08-13T10:09:00.097865Z",
+        "last_synced": "2026-08-13T10:18:41.143672Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3204,7 +3204,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-beauty-live-script",
         "source_path": "douyin-beauty-live-script",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-beauty-live-script",
-        "last_synced": "2026-08-13T10:09:00.103859Z",
+        "last_synced": "2026-08-13T10:18:41.151667Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3251,7 +3251,7 @@
         "source_url": "https://api.skillhub.cn/user_d82fedf3/deaify",
         "source_path": "deaify",
         "install_url": "https://api.skillhub.cn/user_d82fedf3/deaify",
-        "last_synced": "2026-08-13T10:09:00.109721Z",
+        "last_synced": "2026-08-13T10:18:41.159733Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3295,7 +3295,7 @@
         "source_url": "https://api.skillhub.cn/user_b7745ab7/scriptwrite",
         "source_path": "scriptwrite",
         "install_url": "https://api.skillhub.cn/user_b7745ab7/scriptwrite",
-        "last_synced": "2026-08-13T10:09:00.115210Z",
+        "last_synced": "2026-08-13T10:18:41.166043Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3339,7 +3339,7 @@
         "source_url": "https://api.skillhub.cn/user_d2cc4baf/novel-writer-v1",
         "source_path": "novel-writer-v1",
         "install_url": "https://api.skillhub.cn/user_d2cc4baf/novel-writer-v1",
-        "last_synced": "2026-08-13T10:09:00.117385Z",
+        "last_synced": "2026-08-13T10:18:41.169040Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3384,7 +3384,7 @@
         "source_url": "https://api.skillhub.cn/user_151424ca/baokuan-gaixie",
         "source_path": "baokuan-gaixie",
         "install_url": "https://api.skillhub.cn/user_151424ca/baokuan-gaixie",
-        "last_synced": "2026-08-13T10:09:00.118540Z",
+        "last_synced": "2026-08-13T10:18:41.170744Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3429,7 +3429,7 @@
         "source_url": "https://api.skillhub.cn/user_525a1b37/dynamic-storyteller",
         "source_path": "dynamic-storyteller",
         "install_url": "https://api.skillhub.cn/user_525a1b37/dynamic-storyteller",
-        "last_synced": "2026-08-13T10:09:00.119292Z",
+        "last_synced": "2026-08-13T10:18:41.171844Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3439,7 +3439,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1021
+        "install_count": 1022
       },
       "platform": {
         "claude_code": true,
@@ -3474,7 +3474,7 @@
         "source_url": "https://api.skillhub.cn/user_b040448f/vscript-generator",
         "source_path": "vscript-generator",
         "install_url": "https://api.skillhub.cn/user_b040448f/vscript-generator",
-        "last_synced": "2026-08-13T10:09:00.124455Z",
+        "last_synced": "2026-08-13T10:18:41.179723Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3519,7 +3519,7 @@
         "source_url": "https://api.skillhub.cn/user_aad6add3/viral-content-strategist",
         "source_path": "viral-content-strategist",
         "install_url": "https://api.skillhub.cn/user_aad6add3/viral-content-strategist",
-        "last_synced": "2026-08-13T10:09:00.130376Z",
+        "last_synced": "2026-08-13T10:18:41.188507Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3565,7 +3565,7 @@
         "source_url": "https://api.skillhub.cn/user_1144d31a/260715-richaro-scriptwriter",
         "source_path": "260715-richaro-scriptwriter",
         "install_url": "https://api.skillhub.cn/user_1144d31a/260715-richaro-scriptwriter",
-        "last_synced": "2026-08-13T10:09:00.132919Z",
+        "last_synced": "2026-08-13T10:18:41.192064Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3611,7 +3611,7 @@
         "source_url": "https://api.skillhub.cn/user_83d7fe7a/novel-review-expert",
         "source_path": "novel-review-expert",
         "install_url": "https://api.skillhub.cn/user_83d7fe7a/novel-review-expert",
-        "last_synced": "2026-08-13T10:09:00.134721Z",
+        "last_synced": "2026-08-13T10:18:41.194650Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3657,7 +3657,7 @@
         "source_url": "https://api.skillhub.cn/user_23216689/ai-manga-planner",
         "source_path": "ai-manga-planner",
         "install_url": "https://api.skillhub.cn/user_23216689/ai-manga-planner",
-        "last_synced": "2026-08-13T10:09:00.135027Z",
+        "last_synced": "2026-08-13T10:18:41.195095Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3702,7 +3702,7 @@
         "source_url": "https://api.skillhub.cn/user_c18b02ff/everytime-novel",
         "source_path": "everytime-novel",
         "install_url": "https://api.skillhub.cn/user_c18b02ff/everytime-novel",
-        "last_synced": "2026-08-13T10:09:00.139812Z",
+        "last_synced": "2026-08-13T10:18:41.200291Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3712,7 +3712,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 730
+        "install_count": 732
       },
       "platform": {
         "claude_code": true,
@@ -3747,7 +3747,7 @@
         "source_url": "https://api.skillhub.cn/user_3651d062/event-news",
         "source_path": "event-news",
         "install_url": "https://api.skillhub.cn/user_3651d062/event-news",
-        "last_synced": "2026-08-13T10:09:00.141008Z",
+        "last_synced": "2026-08-13T10:18:41.202526Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3792,7 +3792,7 @@
         "source_url": "https://api.skillhub.cn/user_0254fc4d/novel-to-skitscreenplay",
         "source_path": "novel-to-skitscreenplay",
         "install_url": "https://api.skillhub.cn/user_0254fc4d/novel-to-skitscreenplay",
-        "last_synced": "2026-08-13T10:09:00.141153Z",
+        "last_synced": "2026-08-13T10:18:41.202654Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3837,7 +3837,7 @@
         "source_url": "https://api.skillhub.cn/user_a020b36c/ai-voice-generator-new",
         "source_path": "ai-voice-generator-new",
         "install_url": "https://api.skillhub.cn/user_a020b36c/ai-voice-generator-new",
-        "last_synced": "2026-08-13T10:09:00.142151Z",
+        "last_synced": "2026-08-13T10:18:41.204141Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3883,7 +3883,7 @@
         "source_url": "https://api.skillhub.cn/user_1e93d274/wechat21pyq",
         "source_path": "wechat21pyq",
         "install_url": "https://api.skillhub.cn/user_1e93d274/wechat21pyq",
-        "last_synced": "2026-08-13T10:09:00.143307Z",
+        "last_synced": "2026-08-13T10:18:41.206526Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3927,7 +3927,7 @@
         "source_url": "https://api.skillhub.cn/user_764d284b/xiaoshuo-jia",
         "source_path": "xiaoshuo-jia",
         "install_url": "https://api.skillhub.cn/user_764d284b/xiaoshuo-jia",
-        "last_synced": "2026-08-13T10:09:00.144020Z",
+        "last_synced": "2026-08-13T10:18:41.207438Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3972,7 +3972,7 @@
         "source_url": "https://api.skillhub.cn/user_733f3aed/real-estate-storyline",
         "source_path": "real-estate-storyline",
         "install_url": "https://api.skillhub.cn/user_733f3aed/real-estate-storyline",
-        "last_synced": "2026-08-13T10:09:00.145532Z",
+        "last_synced": "2026-08-13T10:18:41.249994Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4018,7 +4018,7 @@
         "source_url": "https://api.skillhub.cn/user_7a275316/academic-office-writer-pro-cn",
         "source_path": "academic-office-writer-pro-cn",
         "install_url": "https://api.skillhub.cn/user_7a275316/academic-office-writer-pro-cn",
-        "last_synced": "2026-08-13T10:09:00.147396Z",
+        "last_synced": "2026-08-13T10:18:41.252870Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4065,7 +4065,7 @@
         "source_url": "https://api.skillhub.cn/user_8a0df270/xq359",
         "source_path": "xq359",
         "install_url": "https://api.skillhub.cn/user_8a0df270/xq359",
-        "last_synced": "2026-08-13T10:09:00.153580Z",
+        "last_synced": "2026-08-13T10:18:41.261787Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4109,7 +4109,7 @@
         "source_url": "https://api.skillhub.cn/user_087fbff2/self-media-content-engine",
         "source_path": "self-media-content-engine",
         "install_url": "https://api.skillhub.cn/user_087fbff2/self-media-content-engine",
-        "last_synced": "2026-08-13T10:09:00.155565Z",
+        "last_synced": "2026-08-13T10:18:41.264519Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4156,7 +4156,7 @@
         "source_url": "https://api.skillhub.cn/user_b21cf6ee/trending-content-collector",
         "source_path": "trending-content-collector",
         "install_url": "https://api.skillhub.cn/user_b21cf6ee/trending-content-collector",
-        "last_synced": "2026-08-13T10:09:00.156678Z",
+        "last_synced": "2026-08-13T10:18:41.266379Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4202,7 +4202,7 @@
         "source_url": "https://api.skillhub.cn/user_33ddb46a/fin-article-writer",
         "source_path": "fin-article-writer",
         "install_url": "https://api.skillhub.cn/user_33ddb46a/fin-article-writer",
-        "last_synced": "2026-08-13T10:09:00.161568Z",
+        "last_synced": "2026-08-13T10:18:41.271964Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4248,7 +4248,7 @@
         "source_url": "https://api.skillhub.cn/user_cae83fba/writing-expert-team-pro-sl",
         "source_path": "writing-expert-team-pro-sl",
         "install_url": "https://api.skillhub.cn/user_cae83fba/writing-expert-team-pro-sl",
-        "last_synced": "2026-08-13T10:09:00.093837Z",
+        "last_synced": "2026-08-13T10:18:41.137524Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4258,7 +4258,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2424
+        "install_count": 2425
       },
       "platform": {
         "claude_code": true,
@@ -4295,7 +4295,7 @@
         "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-hotlist-overall",
         "source_path": "douyin-hotlist-overall",
         "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-hotlist-overall",
-        "last_synced": "2026-08-13T10:09:00.094705Z",
+        "last_synced": "2026-08-13T10:18:41.138762Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4341,7 +4341,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/douyin-script-zh",
         "source_path": "douyin-script-zh",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/douyin-script-zh",
-        "last_synced": "2026-08-13T10:09:00.097400Z",
+        "last_synced": "2026-08-13T10:18:41.142986Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4386,7 +4386,7 @@
         "source_url": "https://api.skillhub.cn/user_8ca295ac/skill-article-evolution",
         "source_path": "skill-article-evolution",
         "install_url": "https://api.skillhub.cn/user_8ca295ac/skill-article-evolution",
-        "last_synced": "2026-08-13T10:09:00.103898Z",
+        "last_synced": "2026-08-13T10:18:41.151727Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4432,7 +4432,7 @@
         "source_url": "https://api.skillhub.cn/user_f4e1eca6/douyin-publish-article",
         "source_path": "douyin-publish-article",
         "install_url": "https://api.skillhub.cn/user_f4e1eca6/douyin-publish-article",
-        "last_synced": "2026-08-13T10:09:00.104150Z",
+        "last_synced": "2026-08-13T10:18:41.152007Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4478,7 +4478,7 @@
         "source_url": "https://api.skillhub.cn/user_fd308b11/geo-operation-assistant",
         "source_path": "geo-operation-assistant",
         "install_url": "https://api.skillhub.cn/user_fd308b11/geo-operation-assistant",
-        "last_synced": "2026-08-13T10:09:00.105979Z",
+        "last_synced": "2026-08-13T10:18:41.154449Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4524,7 +4524,7 @@
         "source_url": "https://api.skillhub.cn/user_ebee0fcc/hotspot-seoarticle-generator",
         "source_path": "hotspot-seoarticle-generator",
         "install_url": "https://api.skillhub.cn/user_ebee0fcc/hotspot-seoarticle-generator",
-        "last_synced": "2026-08-13T10:09:00.107715Z",
+        "last_synced": "2026-08-13T10:18:41.156729Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4534,7 +4534,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1261
+        "install_count": 1262
       },
       "platform": {
         "claude_code": true,
@@ -4570,7 +4570,7 @@
         "source_url": "https://api.skillhub.cn/org-s25cw6k2/aoling-xiaohei-agent",
         "source_path": "aoling-xiaohei-agent",
         "install_url": "https://api.skillhub.cn/org-s25cw6k2/aoling-xiaohei-agent",
-        "last_synced": "2026-08-13T10:09:00.119774Z",
+        "last_synced": "2026-08-13T10:18:41.172624Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4617,7 +4617,7 @@
         "source_url": "https://api.skillhub.cn/user_ca394edf/text-echo-chamber",
         "source_path": "text-echo-chamber",
         "install_url": "https://api.skillhub.cn/user_ca394edf/text-echo-chamber",
-        "last_synced": "2026-08-13T10:09:00.122962Z",
+        "last_synced": "2026-08-13T10:18:41.177717Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4663,7 +4663,7 @@
         "source_url": "https://api.skillhub.cn/user_99f0b5f6/fanqie-novel-writer",
         "source_path": "fanqie-novel-writer",
         "install_url": "https://api.skillhub.cn/user_99f0b5f6/fanqie-novel-writer",
-        "last_synced": "2026-08-13T10:09:00.123535Z",
+        "last_synced": "2026-08-13T10:18:41.178433Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4709,7 +4709,7 @@
         "source_url": "https://api.skillhub.cn/user_8a026320/confirm-expert-writer",
         "source_path": "confirm-expert-writer",
         "install_url": "https://api.skillhub.cn/user_8a026320/confirm-expert-writer",
-        "last_synced": "2026-08-13T10:09:00.127408Z",
+        "last_synced": "2026-08-13T10:18:41.184180Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4755,7 +4755,7 @@
         "source_url": "https://api.skillhub.cn/user_ad872d55/baokuan-tuishou",
         "source_path": "baokuan-tuishou",
         "install_url": "https://api.skillhub.cn/user_ad872d55/baokuan-tuishou",
-        "last_synced": "2026-08-13T10:09:00.130070Z",
+        "last_synced": "2026-08-13T10:18:41.188113Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4800,7 +4800,7 @@
         "source_url": "https://api.skillhub.cn/user_eceb320e/hotspot-analyst",
         "source_path": "hotspot-analyst",
         "install_url": "https://api.skillhub.cn/user_eceb320e/hotspot-analyst",
-        "last_synced": "2026-08-13T10:09:00.142404Z",
+        "last_synced": "2026-08-13T10:18:41.205200Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4845,7 +4845,7 @@
         "source_url": "https://api.skillhub.cn/user_151424ca/redian-gaixie",
         "source_path": "redian-gaixie",
         "install_url": "https://api.skillhub.cn/user_151424ca/redian-gaixie",
-        "last_synced": "2026-08-13T10:09:00.143733Z",
+        "last_synced": "2026-08-13T10:18:41.207086Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4890,7 +4890,7 @@
         "source_url": "https://api.skillhub.cn/user_8d4ddd46/mece",
         "source_path": "mece",
         "install_url": "https://api.skillhub.cn/user_8d4ddd46/mece",
-        "last_synced": "2026-08-13T10:09:00.148935Z",
+        "last_synced": "2026-08-13T10:18:41.255170Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4934,7 +4934,7 @@
         "source_url": "https://api.skillhub.cn/user_e896540f/douyin-content-expert",
         "source_path": "douyin-content-expert",
         "install_url": "https://api.skillhub.cn/user_e896540f/douyin-content-expert",
-        "last_synced": "2026-08-13T10:09:00.149871Z",
+        "last_synced": "2026-08-13T10:18:41.256465Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4980,7 +4980,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/content-copilot",
         "source_path": "content-copilot",
         "install_url": "https://api.skillhub.cn/user_70c2f807/content-copilot",
-        "last_synced": "2026-08-13T10:09:00.153179Z",
+        "last_synced": "2026-08-13T10:18:41.261240Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5025,7 +5025,7 @@
         "source_url": "https://api.skillhub.cn/user_2b46b0cf/video-plus",
         "source_path": "video-plus",
         "install_url": "https://api.skillhub.cn/user_2b46b0cf/video-plus",
-        "last_synced": "2026-08-13T10:09:00.153648Z",
+        "last_synced": "2026-08-13T10:18:41.261890Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5070,7 +5070,7 @@
         "source_url": "https://api.skillhub.cn/user_3b614548/story-writer-pro",
         "source_path": "story-writer-pro",
         "install_url": "https://api.skillhub.cn/user_3b614548/story-writer-pro",
-        "last_synced": "2026-08-13T10:09:00.153725Z",
+        "last_synced": "2026-08-13T10:18:41.261993Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5116,7 +5116,7 @@
         "source_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-article-generation-plus",
         "source_path": "lingyi-article-generation-plus",
         "install_url": "https://api.skillhub.cn/org-28ib33ph/lingyi-article-generation-plus",
-        "last_synced": "2026-08-13T10:09:00.054320Z",
+        "last_synced": "2026-08-13T10:18:41.125186Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5163,7 +5163,7 @@
         "source_url": "https://api.skillhub.cn/user_bf931e31/douyin-realtime-hot-rise",
         "source_path": "douyin-realtime-hot-rise",
         "install_url": "https://api.skillhub.cn/user_bf931e31/douyin-realtime-hot-rise",
-        "last_synced": "2026-08-13T10:09:00.097690Z",
+        "last_synced": "2026-08-13T10:18:41.143402Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5210,7 +5210,7 @@
         "source_url": "https://api.skillhub.cn/user_ba7c4de9/resume-optimizer-king",
         "source_path": "resume-optimizer-king",
         "install_url": "https://api.skillhub.cn/user_ba7c4de9/resume-optimizer-king",
-        "last_synced": "2026-08-13T10:09:00.099167Z",
+        "last_synced": "2026-08-13T10:18:41.145377Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5220,7 +5220,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1907
+        "install_count": 1908
       },
       "platform": {
         "claude_code": true,
@@ -5256,7 +5256,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/xyq-short-drama",
         "source_path": "xyq-short-drama",
         "install_url": "https://api.skillhub.cn/user_70c2f807/xyq-short-drama",
-        "last_synced": "2026-08-13T10:09:00.100161Z",
+        "last_synced": "2026-08-13T10:18:41.146750Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5302,7 +5302,7 @@
         "source_url": "https://api.skillhub.cn/user_a29e8d9b/ai-expert-analyst",
         "source_path": "ai-expert-analyst",
         "install_url": "https://api.skillhub.cn/user_a29e8d9b/ai-expert-analyst",
-        "last_synced": "2026-08-13T10:09:00.111481Z",
+        "last_synced": "2026-08-13T10:18:41.162327Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5347,7 +5347,7 @@
         "source_url": "https://api.skillhub.cn/user_88e00a20/chengeng-moments",
         "source_path": "chengeng-moments",
         "install_url": "https://api.skillhub.cn/user_88e00a20/chengeng-moments",
-        "last_synced": "2026-08-13T10:09:00.114221Z",
+        "last_synced": "2026-08-13T10:18:41.164674Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5392,7 +5392,7 @@
         "source_url": "https://api.skillhub.cn/user_6efd277a/moments-shenqi",
         "source_path": "moments-shenqi",
         "install_url": "https://api.skillhub.cn/user_6efd277a/moments-shenqi",
-        "last_synced": "2026-08-13T10:09:00.114700Z",
+        "last_synced": "2026-08-13T10:18:41.165325Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5437,7 +5437,7 @@
         "source_url": "https://api.skillhub.cn/user_9456ee1b/short-drama-scriptwriter",
         "source_path": "short-drama-scriptwriter",
         "install_url": "https://api.skillhub.cn/user_9456ee1b/short-drama-scriptwriter",
-        "last_synced": "2026-08-13T10:09:00.123161Z",
+        "last_synced": "2026-08-13T10:18:41.177995Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5483,7 +5483,7 @@
         "source_url": "https://api.skillhub.cn/user_c72f7801/social-media-publisher-plus",
         "source_path": "social-media-publisher-plus",
         "install_url": "https://api.skillhub.cn/user_c72f7801/social-media-publisher-plus",
-        "last_synced": "2026-08-13T10:09:00.132264Z",
+        "last_synced": "2026-08-13T10:18:41.191126Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5530,7 +5530,7 @@
         "source_url": "https://api.skillhub.cn/user_825d9e7e/socialdatax-content-research-assistant",
         "source_path": "socialdatax-content-research-assistant",
         "install_url": "https://api.skillhub.cn/user_825d9e7e/socialdatax-content-research-assistant",
-        "last_synced": "2026-08-13T10:09:00.146088Z",
+        "last_synced": "2026-08-13T10:18:41.250959Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5577,7 +5577,7 @@
         "source_url": "https://api.skillhub.cn/user_58669601/ai-comic-drama-workflow",
         "source_path": "ai-comic-drama-workflow",
         "install_url": "https://api.skillhub.cn/user_58669601/ai-comic-drama-workflow",
-        "last_synced": "2026-08-13T10:09:00.146833Z",
+        "last_synced": "2026-08-13T10:18:41.252008Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5623,7 +5623,7 @@
         "source_url": "https://api.skillhub.cn/user_88e00a20/chengeng-content-strategy",
         "source_path": "chengeng-content-strategy",
         "install_url": "https://api.skillhub.cn/user_88e00a20/chengeng-content-strategy",
-        "last_synced": "2026-08-13T10:09:00.152497Z",
+        "last_synced": "2026-08-13T10:18:41.260231Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5669,7 +5669,7 @@
         "source_url": "https://api.skillhub.cn/user_5f9c21aa/wechat-article-style-pro",
         "source_path": "wechat-article-style-pro",
         "install_url": "https://api.skillhub.cn/user_5f9c21aa/wechat-article-style-pro",
-        "last_synced": "2026-08-13T10:09:00.155452Z",
+        "last_synced": "2026-08-13T10:18:41.264405Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5716,7 +5716,7 @@
         "source_url": "https://api.skillhub.cn/user_5d52b855/console-translator",
         "source_path": "console-translator",
         "install_url": "https://api.skillhub.cn/user_5d52b855/console-translator",
-        "last_synced": "2026-08-13T10:09:00.158793Z",
+        "last_synced": "2026-08-13T10:18:41.267969Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5762,7 +5762,7 @@
         "source_url": "https://api.skillhub.cn/user_a95aac1d/wechat-article-craft",
         "source_path": "wechat-article-craft",
         "install_url": "https://api.skillhub.cn/user_a95aac1d/wechat-article-craft",
-        "last_synced": "2026-08-13T10:09:00.163168Z",
+        "last_synced": "2026-08-13T10:18:41.274177Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5808,7 +5808,7 @@
         "source_url": "https://api.skillhub.cn/user_34343d1f/aijiance",
         "source_path": "aijiance",
         "install_url": "https://api.skillhub.cn/user_34343d1f/aijiance",
-        "last_synced": "2026-08-13T10:09:00.050925Z",
+        "last_synced": "2026-08-13T10:18:41.120663Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5818,7 +5818,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 11590
+        "install_count": 11600
       },
       "platform": {
         "claude_code": true,
@@ -5852,7 +5852,7 @@
         "source_url": "https://api.skillhub.cn/user_d369ea45/wechat-article-gen",
         "source_path": "wechat-article-gen",
         "install_url": "https://api.skillhub.cn/user_d369ea45/wechat-article-gen",
-        "last_synced": "2026-08-13T10:09:00.058595Z",
+        "last_synced": "2026-08-13T10:18:41.129912Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5899,7 +5899,7 @@
         "source_url": "https://api.skillhub.cn/user_5dda6a29/wechat-content-studio",
         "source_path": "wechat-content-studio",
         "install_url": "https://api.skillhub.cn/user_5dda6a29/wechat-content-studio",
-        "last_synced": "2026-08-13T10:09:00.094956Z",
+        "last_synced": "2026-08-13T10:18:41.139012Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5945,7 +5945,7 @@
         "source_url": "https://api.skillhub.cn/user_ebee0fcc/dy-hot-trend",
         "source_path": "dy-hot-trend",
         "install_url": "https://api.skillhub.cn/user_ebee0fcc/dy-hot-trend",
-        "last_synced": "2026-08-13T10:09:00.095988Z",
+        "last_synced": "2026-08-13T10:18:41.141096Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5990,7 +5990,7 @@
         "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-content-research",
         "source_path": "douyin-content-research",
         "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-content-research",
-        "last_synced": "2026-08-13T10:09:00.099662Z",
+        "last_synced": "2026-08-13T10:18:41.146050Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6000,7 +6000,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1916
+        "install_count": 1919
       },
       "platform": {
         "claude_code": true,
@@ -6036,7 +6036,7 @@
         "source_url": "https://api.skillhub.cn/user_825d9e7e/douyin-topic-analysis",
         "source_path": "douyin-topic-analysis",
         "install_url": "https://api.skillhub.cn/user_825d9e7e/douyin-topic-analysis",
-        "last_synced": "2026-08-13T10:09:00.099921Z",
+        "last_synced": "2026-08-13T10:18:41.146398Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6082,7 +6082,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-script-duration-calculator",
         "source_path": "douyin-script-duration-calculator",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/douyin-script-duration-calculator",
-        "last_synced": "2026-08-13T10:09:00.100277Z",
+        "last_synced": "2026-08-13T10:18:41.146900Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6129,7 +6129,7 @@
         "source_url": "https://api.skillhub.cn/ihangfeng/hf-novel-to-drama-script",
         "source_path": "hf-novel-to-drama-script",
         "install_url": "https://api.skillhub.cn/ihangfeng/hf-novel-to-drama-script",
-        "last_synced": "2026-08-13T10:09:00.119339Z",
+        "last_synced": "2026-08-13T10:18:41.171963Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6175,7 +6175,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/speech-script-generator",
         "source_path": "speech-script-generator",
         "install_url": "https://api.skillhub.cn/user_70c2f807/speech-script-generator",
-        "last_synced": "2026-08-13T10:09:00.119879Z",
+        "last_synced": "2026-08-13T10:18:41.173516Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6221,7 +6221,7 @@
         "source_url": "https://api.skillhub.cn/user_cae83fba/novel-assistant-pro",
         "source_path": "novel-assistant-pro",
         "install_url": "https://api.skillhub.cn/user_cae83fba/novel-assistant-pro",
-        "last_synced": "2026-08-13T10:09:00.128463Z",
+        "last_synced": "2026-08-13T10:18:41.185667Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6267,7 +6267,7 @@
         "source_url": "https://api.skillhub.cn/user_dedbd569/selfip-discovery",
         "source_path": "selfip-discovery",
         "install_url": "https://api.skillhub.cn/user_dedbd569/selfip-discovery",
-        "last_synced": "2026-08-13T10:09:00.133715Z",
+        "last_synced": "2026-08-13T10:18:41.193155Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6312,7 +6312,7 @@
         "source_url": "https://api.skillhub.cn/user_87b8e34f/lyrics-to-song",
         "source_path": "lyrics-to-song",
         "install_url": "https://api.skillhub.cn/user_87b8e34f/lyrics-to-song",
-        "last_synced": "2026-08-13T10:09:00.143829Z",
+        "last_synced": "2026-08-13T10:18:41.207276Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6357,7 +6357,7 @@
         "source_url": "https://api.skillhub.cn/user_cb80f343/3102115456",
         "source_path": "3102115456",
         "install_url": "https://api.skillhub.cn/user_cb80f343/3102115456",
-        "last_synced": "2026-08-13T10:09:00.146601Z",
+        "last_synced": "2026-08-13T10:18:41.251586Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6401,7 +6401,7 @@
         "source_url": "https://api.skillhub.cn/user_838b2fa0/111-v",
         "source_path": "111-v",
         "install_url": "https://api.skillhub.cn/user_838b2fa0/111-v",
-        "last_synced": "2026-08-13T10:09:00.150170Z",
+        "last_synced": "2026-08-13T10:18:41.256896Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6445,7 +6445,7 @@
         "source_url": "https://api.skillhub.cn/user_151424ca/luyin-gaixie",
         "source_path": "luyin-gaixie",
         "install_url": "https://api.skillhub.cn/user_151424ca/luyin-gaixie",
-        "last_synced": "2026-08-13T10:09:00.152101Z",
+        "last_synced": "2026-08-13T10:18:41.259677Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6490,7 +6490,7 @@
         "source_url": "https://api.skillhub.cn/user_3d7a7579/daodejing-wisdom",
         "source_path": "daodejing-wisdom",
         "install_url": "https://api.skillhub.cn/user_3d7a7579/daodejing-wisdom",
-        "last_synced": "2026-08-13T10:09:00.155945Z",
+        "last_synced": "2026-08-13T10:18:41.265126Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6535,7 +6535,7 @@
         "source_url": "https://api.skillhub.cn/user_d5c3472c/chinese-novelist",
         "source_path": "chinese-novelist",
         "install_url": "https://api.skillhub.cn/user_d5c3472c/chinese-novelist",
-        "last_synced": "2026-08-13T10:09:00.158380Z",
+        "last_synced": "2026-08-13T10:18:41.267195Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6545,7 +6545,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 676
+        "install_count": 677
       },
       "platform": {
         "claude_code": true,
@@ -6580,7 +6580,7 @@
         "source_url": "https://api.skillhub.cn/user_88e00a20/chengeng-account-persona",
         "source_path": "chengeng-account-persona",
         "install_url": "https://api.skillhub.cn/user_88e00a20/chengeng-account-persona",
-        "last_synced": "2026-08-13T10:09:00.159201Z",
+        "last_synced": "2026-08-13T10:18:41.268624Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6626,7 +6626,7 @@
         "source_url": "https://api.skillhub.cn/user_638e256a/ai-humanized-writing",
         "source_path": "ai-humanized-writing",
         "install_url": "https://api.skillhub.cn/user_638e256a/ai-humanized-writing",
-        "last_synced": "2026-08-13T10:09:00.162314Z",
+        "last_synced": "2026-08-13T10:18:41.272575Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6636,7 +6636,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 649
+        "install_count": 650
       },
       "platform": {
         "claude_code": true,
@@ -6671,7 +6671,7 @@
         "source_url": "https://api.skillhub.cn/redfox-data/wechat-write",
         "source_path": "wechat-write",
         "install_url": "https://api.skillhub.cn/redfox-data/wechat-write",
-        "last_synced": "2026-08-13T10:09:00.166428Z",
+        "last_synced": "2026-08-13T10:18:41.279571Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6716,7 +6716,7 @@
         "source_url": "https://api.skillhub.cn/user_34343d1f/jiangai",
         "source_path": "jiangai",
         "install_url": "https://api.skillhub.cn/user_34343d1f/jiangai",
-        "last_synced": "2026-08-13T10:09:00.054254Z",
+        "last_synced": "2026-08-13T10:18:41.123685Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6726,7 +6726,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 5703
+        "install_count": 6866
       },
       "platform": {
         "claude_code": true,
@@ -6760,7 +6760,7 @@
         "source_url": "https://api.skillhub.cn/user_5dda6a29/wechat-typeset-pro",
         "source_path": "wechat-typeset-pro",
         "install_url": "https://api.skillhub.cn/user_5dda6a29/wechat-typeset-pro",
-        "last_synced": "2026-08-13T10:09:00.094008Z",
+        "last_synced": "2026-08-13T10:18:41.137799Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6770,7 +6770,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2448
+        "install_count": 2449
       },
       "platform": {
         "claude_code": true,
@@ -6806,7 +6806,7 @@
         "source_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-humanizer-pro",
         "source_path": "qclaw-humanizer-pro",
         "install_url": "https://api.skillhub.cn/user_8d26dabd/qclaw-humanizer-pro",
-        "last_synced": "2026-08-13T10:09:00.106013Z",
+        "last_synced": "2026-08-13T10:18:41.154523Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6852,7 +6852,7 @@
         "source_url": "https://api.skillhub.cn/user_42f6d881/duanshipin",
         "source_path": "duanshipin",
         "install_url": "https://api.skillhub.cn/user_42f6d881/duanshipin",
-        "last_synced": "2026-08-13T10:09:00.113257Z",
+        "last_synced": "2026-08-13T10:18:41.163392Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6862,7 +6862,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 806
+        "install_count": 807
       },
       "platform": {
         "claude_code": true,
@@ -6896,7 +6896,7 @@
         "source_url": "https://api.skillhub.cn/user_e6ce3c72/translation-pro",
         "source_path": "translation-pro",
         "install_url": "https://api.skillhub.cn/user_e6ce3c72/translation-pro",
-        "last_synced": "2026-08-13T10:09:00.115263Z",
+        "last_synced": "2026-08-13T10:18:41.166113Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6941,7 +6941,7 @@
         "source_url": "https://api.skillhub.cn/user_f3d82da7/chinese-academic-writing-assistant",
         "source_path": "chinese-academic-writing-assistant",
         "install_url": "https://api.skillhub.cn/user_f3d82da7/chinese-academic-writing-assistant",
-        "last_synced": "2026-08-13T10:09:00.122700Z",
+        "last_synced": "2026-08-13T10:18:41.177300Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6988,7 +6988,7 @@
         "source_url": "https://api.skillhub.cn/user_f6cb2598/videocopywriter-zhengliping-lily01",
         "source_path": "videocopywriter-zhengliping-lily01",
         "install_url": "https://api.skillhub.cn/user_f6cb2598/videocopywriter-zhengliping-lily01",
-        "last_synced": "2026-08-13T10:09:00.124727Z",
+        "last_synced": "2026-08-13T10:18:41.180084Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7034,7 +7034,7 @@
         "source_url": "https://api.skillhub.cn/user_fa4109f3/novel-writing-new",
         "source_path": "novel-writing-new",
         "install_url": "https://api.skillhub.cn/user_fa4109f3/novel-writing-new",
-        "last_synced": "2026-08-13T10:09:00.125832Z",
+        "last_synced": "2026-08-13T10:18:41.181762Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7080,7 +7080,7 @@
         "source_url": "https://api.skillhub.cn/ihangfeng/hf-drama-storyboard-script",
         "source_path": "hf-drama-storyboard-script",
         "install_url": "https://api.skillhub.cn/ihangfeng/hf-drama-storyboard-script",
-        "last_synced": "2026-08-13T10:09:00.126804Z",
+        "last_synced": "2026-08-13T10:18:41.183311Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7126,7 +7126,7 @@
         "source_url": "https://api.skillhub.cn/user_b844303f/duopingtchuangzuotools",
         "source_path": "duopingtchuangzuotools",
         "install_url": "https://api.skillhub.cn/user_b844303f/duopingtchuangzuotools",
-        "last_synced": "2026-08-13T10:09:00.127639Z",
+        "last_synced": "2026-08-13T10:18:41.184611Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7170,7 +7170,7 @@
         "source_url": "https://api.skillhub.cn/user_d82fedf3/geo-corpus-feeder",
         "source_path": "geo-corpus-feeder",
         "install_url": "https://api.skillhub.cn/user_d82fedf3/geo-corpus-feeder",
-        "last_synced": "2026-08-13T10:09:00.153989Z",
+        "last_synced": "2026-08-13T10:18:41.262343Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7216,7 +7216,7 @@
         "source_url": "https://api.skillhub.cn/user_696c4774/koubo-copywriting-generator",
         "source_path": "koubo-copywriting-generator",
         "install_url": "https://api.skillhub.cn/user_696c4774/koubo-copywriting-generator",
-        "last_synced": "2026-08-13T10:09:00.154214Z",
+        "last_synced": "2026-08-13T10:18:41.262737Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7262,7 +7262,7 @@
         "source_url": "https://api.skillhub.cn/user_57af6244/content-feedback-master",
         "source_path": "content-feedback-master",
         "install_url": "https://api.skillhub.cn/user_57af6244/content-feedback-master",
-        "last_synced": "2026-08-13T10:09:00.155529Z",
+        "last_synced": "2026-08-13T10:18:41.264453Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7308,7 +7308,7 @@
         "source_url": "https://api.skillhub.cn/user_af65eec9/selling-point-formul",
         "source_path": "selling-point-formul",
         "install_url": "https://api.skillhub.cn/user_af65eec9/selling-point-formul",
-        "last_synced": "2026-08-13T10:09:00.156647Z",
+        "last_synced": "2026-08-13T10:18:41.266334Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7354,7 +7354,7 @@
         "source_url": "https://api.skillhub.cn/user_1acc1bde/emergence-blog-writing-zh",
         "source_path": "emergence-blog-writing-zh",
         "install_url": "https://api.skillhub.cn/user_1acc1bde/emergence-blog-writing-zh",
-        "last_synced": "2026-08-13T10:09:00.167993Z",
+        "last_synced": "2026-08-13T10:18:41.282051Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7400,7 +7400,7 @@
         "source_url": "https://api.skillhub.cn/user_34343d1f/ailv-aijiance",
         "source_path": "ailv-aijiance",
         "install_url": "https://api.skillhub.cn/user_34343d1f/ailv-aijiance",
-        "last_synced": "2026-08-13T10:09:00.090466Z",
+        "last_synced": "2026-08-13T10:18:41.133292Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7445,7 +7445,7 @@
         "source_url": "https://api.skillhub.cn/user_d82fedf3/wechat-viral-writer",
         "source_path": "wechat-viral-writer",
         "install_url": "https://api.skillhub.cn/user_d82fedf3/wechat-viral-writer",
-        "last_synced": "2026-08-13T10:09:00.097724Z",
+        "last_synced": "2026-08-13T10:18:41.143450Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7491,7 +7491,7 @@
         "source_url": "https://api.skillhub.cn/user_d44f3bb7/clawagent",
         "source_path": "clawagent",
         "install_url": "https://api.skillhub.cn/user_d44f3bb7/clawagent",
-        "last_synced": "2026-08-13T10:09:00.111191Z",
+        "last_synced": "2026-08-13T10:18:41.161812Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7535,7 +7535,7 @@
         "source_url": "https://api.skillhub.cn/user_8eb1b5b0/toutiao-auto-publish-new",
         "source_path": "toutiao-auto-publish-new",
         "install_url": "https://api.skillhub.cn/user_8eb1b5b0/toutiao-auto-publish-new",
-        "last_synced": "2026-08-13T10:09:00.114531Z",
+        "last_synced": "2026-08-13T10:18:41.165279Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7582,7 +7582,7 @@
         "source_url": "https://api.skillhub.cn/kunlungrowth/kunlun-fanyi",
         "source_path": "kunlun-fanyi",
         "install_url": "https://api.skillhub.cn/kunlungrowth/kunlun-fanyi",
-        "last_synced": "2026-08-13T10:09:00.120062Z",
+        "last_synced": "2026-08-13T10:18:41.173678Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7627,7 +7627,7 @@
         "source_url": "https://api.skillhub.cn/user_10dc209b/eva-skill",
         "source_path": "eva-skill",
         "install_url": "https://api.skillhub.cn/user_10dc209b/eva-skill",
-        "last_synced": "2026-08-13T10:09:00.121052Z",
+        "last_synced": "2026-08-13T10:18:41.175095Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7672,7 +7672,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/resume-optimizer-plus",
         "source_path": "resume-optimizer-plus",
         "install_url": "https://api.skillhub.cn/user_70c2f807/resume-optimizer-plus",
-        "last_synced": "2026-08-13T10:09:00.132439Z",
+        "last_synced": "2026-08-13T10:18:41.191438Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7718,7 +7718,7 @@
         "source_url": "https://api.skillhub.cn/user_24c2df14/novel-self-check",
         "source_path": "novel-self-check",
         "install_url": "https://api.skillhub.cn/user_24c2df14/novel-self-check",
-        "last_synced": "2026-08-13T10:09:00.134289Z",
+        "last_synced": "2026-08-13T10:18:41.193955Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7764,7 +7764,7 @@
         "source_url": "https://api.skillhub.cn/user_151424ca/seeddance-prompt",
         "source_path": "seeddance-prompt",
         "install_url": "https://api.skillhub.cn/user_151424ca/seeddance-prompt",
-        "last_synced": "2026-08-13T10:09:00.137126Z",
+        "last_synced": "2026-08-13T10:18:41.196819Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7809,7 +7809,7 @@
         "source_url": "https://api.skillhub.cn/user_151424ca/persona-copy",
         "source_path": "persona-copy",
         "install_url": "https://api.skillhub.cn/user_151424ca/persona-copy",
-        "last_synced": "2026-08-13T10:09:00.138453Z",
+        "last_synced": "2026-08-13T10:18:41.198710Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7854,7 +7854,7 @@
         "source_url": "https://api.skillhub.cn/user_bf931e31/ai-humanizer-zh",
         "source_path": "ai-humanizer-zh",
         "install_url": "https://api.skillhub.cn/user_bf931e31/ai-humanizer-zh",
-        "last_synced": "2026-08-13T10:09:00.138630Z",
+        "last_synced": "2026-08-13T10:18:41.198958Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7898,7 +7898,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/wechat-article-rewrite",
         "source_path": "wechat-article-rewrite",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/wechat-article-rewrite",
-        "last_synced": "2026-08-13T10:09:00.144586Z",
+        "last_synced": "2026-08-13T10:18:41.248628Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7944,7 +7944,7 @@
         "source_url": "https://api.skillhub.cn/user_c562f70c/marketing-campaign-zh",
         "source_path": "marketing-campaign-zh",
         "install_url": "https://api.skillhub.cn/user_c562f70c/marketing-campaign-zh",
-        "last_synced": "2026-08-13T10:09:00.147322Z",
+        "last_synced": "2026-08-13T10:18:41.252823Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7989,7 +7989,7 @@
         "source_url": "https://api.skillhub.cn/user_91ac03fa/novel-pro",
         "source_path": "novel-pro",
         "install_url": "https://api.skillhub.cn/user_91ac03fa/novel-pro",
-        "last_synced": "2026-08-13T10:09:00.152330Z",
+        "last_synced": "2026-08-13T10:18:41.259998Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8034,7 +8034,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/brainstorm-assistant",
         "source_path": "brainstorm-assistant",
         "install_url": "https://api.skillhub.cn/user_70c2f807/brainstorm-assistant",
-        "last_synced": "2026-08-13T10:09:00.154065Z",
+        "last_synced": "2026-08-13T10:18:41.262438Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8079,7 +8079,7 @@
         "source_url": "https://api.skillhub.cn/user_ae2798a1/fuzhuangdian-huoke-zifeifie",
         "source_path": "fuzhuangdian-huoke-zifeifie",
         "install_url": "https://api.skillhub.cn/user_ae2798a1/fuzhuangdian-huoke-zifeifie",
-        "last_synced": "2026-08-13T10:09:00.159124Z",
+        "last_synced": "2026-08-13T10:18:41.268516Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8125,7 +8125,7 @@
         "source_url": "https://api.skillhub.cn/user_aad6add3/movie-commentary-writer",
         "source_path": "movie-commentary-writer",
         "install_url": "https://api.skillhub.cn/user_aad6add3/movie-commentary-writer",
-        "last_synced": "2026-08-13T10:09:00.160238Z",
+        "last_synced": "2026-08-13T10:18:41.270051Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8171,7 +8171,7 @@
         "source_url": "https://api.skillhub.cn/user_6a98289f/viral-title-generator-v2",
         "source_path": "viral-title-generator-v2",
         "install_url": "https://api.skillhub.cn/user_6a98289f/viral-title-generator-v2",
-        "last_synced": "2026-08-13T10:09:00.161905Z",
+        "last_synced": "2026-08-13T10:18:41.272463Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8217,7 +8217,7 @@
         "source_url": "https://api.skillhub.cn/user_ccd82275/microtoutiao-content-lib",
         "source_path": "microtoutiao-content-lib",
         "install_url": "https://api.skillhub.cn/user_ccd82275/microtoutiao-content-lib",
-        "last_synced": "2026-08-13T10:09:00.165437Z",
+        "last_synced": "2026-08-13T10:18:41.277523Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8263,7 +8263,7 @@
         "source_url": "https://api.skillhub.cn/user_fd308b11/dialogue-travel-skill",
         "source_path": "dialogue-travel-skill",
         "install_url": "https://api.skillhub.cn/user_fd308b11/dialogue-travel-skill",
-        "last_synced": "2026-08-13T10:09:00.167266Z",
+        "last_synced": "2026-08-13T10:18:41.280812Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8309,7 +8309,7 @@
         "source_url": "https://api.skillhub.cn/user_cc41bf5e/wechat-mp-publish",
         "source_path": "wechat-mp-publish",
         "install_url": "https://api.skillhub.cn/user_cc41bf5e/wechat-mp-publish",
-        "last_synced": "2026-08-13T10:09:00.168026Z",
+        "last_synced": "2026-08-13T10:18:41.282101Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8354,7 +8354,7 @@
         "source_url": "https://api.skillhub.cn/user_1002ca6a/wechat-viral-operator",
         "source_path": "wechat-viral-operator",
         "install_url": "https://api.skillhub.cn/user_1002ca6a/wechat-viral-operator",
-        "last_synced": "2026-08-13T10:09:00.099632Z",
+        "last_synced": "2026-08-13T10:18:41.146093Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8400,7 +8400,7 @@
         "source_url": "https://api.skillhub.cn/user_37db781e/survey-generator",
         "source_path": "survey-generator",
         "install_url": "https://api.skillhub.cn/user_37db781e/survey-generator",
-        "last_synced": "2026-08-13T10:09:00.112919Z",
+        "last_synced": "2026-08-13T10:18:41.162956Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8445,7 +8445,7 @@
         "source_url": "https://api.skillhub.cn/user_88e00a20/chengeng-wechat-article",
         "source_path": "chengeng-wechat-article",
         "install_url": "https://api.skillhub.cn/user_88e00a20/chengeng-wechat-article",
-        "last_synced": "2026-08-13T10:09:00.126194Z",
+        "last_synced": "2026-08-13T10:18:41.182240Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8491,7 +8491,7 @@
         "source_url": "https://api.skillhub.cn/user_9a33df3c/suspense-novel-writer",
         "source_path": "suspense-novel-writer",
         "install_url": "https://api.skillhub.cn/user_9a33df3c/suspense-novel-writer",
-        "last_synced": "2026-08-13T10:09:00.130344Z",
+        "last_synced": "2026-08-13T10:18:41.188442Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8537,7 +8537,7 @@
         "source_url": "https://api.skillhub.cn/user_5a6040aa/product-detail",
         "source_path": "product-detail",
         "install_url": "https://api.skillhub.cn/user_5a6040aa/product-detail",
-        "last_synced": "2026-08-13T10:09:00.133613Z",
+        "last_synced": "2026-08-13T10:18:41.193006Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8582,7 +8582,7 @@
         "source_url": "https://api.skillhub.cn/user_d8946e26/wenyan-publish",
         "source_path": "wenyan-publish",
         "install_url": "https://api.skillhub.cn/user_d8946e26/wenyan-publish",
-        "last_synced": "2026-08-13T10:09:00.138760Z",
+        "last_synced": "2026-08-13T10:18:41.199143Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8628,7 +8628,7 @@
         "source_url": "https://api.skillhub.cn/user_0f287ac2/wechat-article-v2",
         "source_path": "wechat-article-v2",
         "install_url": "https://api.skillhub.cn/user_0f287ac2/wechat-article-v2",
-        "last_synced": "2026-08-13T10:09:00.138868Z",
+        "last_synced": "2026-08-13T10:18:41.199295Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8673,7 +8673,7 @@
         "source_url": "https://api.skillhub.cn/user_cb37ec27/dw-translation-polish",
         "source_path": "dw-translation-polish",
         "install_url": "https://api.skillhub.cn/user_cb37ec27/dw-translation-polish",
-        "last_synced": "2026-08-13T10:09:00.140735Z",
+        "last_synced": "2026-08-13T10:18:41.202145Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8718,7 +8718,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/academic-english-polishing",
         "source_path": "academic-english-polishing",
         "install_url": "https://api.skillhub.cn/user_70c2f807/academic-english-polishing",
-        "last_synced": "2026-08-13T10:09:00.140663Z",
+        "last_synced": "2026-08-13T10:18:41.202038Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8764,7 +8764,7 @@
         "source_url": "https://api.skillhub.cn/user_9cd20060/douyin-dspjbsc-crfs",
         "source_path": "douyin-dspjbsc-crfs",
         "install_url": "https://api.skillhub.cn/user_9cd20060/douyin-dspjbsc-crfs",
-        "last_synced": "2026-08-13T10:09:00.145882Z",
+        "last_synced": "2026-08-13T10:18:41.250770Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8810,7 +8810,7 @@
         "source_url": "https://api.skillhub.cn/user_d12c77df/stop-slop",
         "source_path": "stop-slop",
         "install_url": "https://api.skillhub.cn/user_d12c77df/stop-slop",
-        "last_synced": "2026-08-13T10:09:00.146873Z",
+        "last_synced": "2026-08-13T10:18:41.252068Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8855,7 +8855,7 @@
         "source_url": "https://api.skillhub.cn/user_3c6cb52e/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
         "source_path": "run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
         "install_url": "https://api.skillhub.cn/user_3c6cb52e/run-nature-style-academic-writing-and-figure-workflows-with-nature-skills",
-        "last_synced": "2026-08-13T10:09:00.149460Z",
+        "last_synced": "2026-08-13T10:18:41.255939Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8906,7 +8906,7 @@
         "source_url": "https://api.skillhub.cn/org-09117gim/wechat-publisher-auto",
         "source_path": "wechat-publisher-auto",
         "install_url": "https://api.skillhub.cn/org-09117gim/wechat-publisher-auto",
-        "last_synced": "2026-08-13T10:09:00.156475Z",
+        "last_synced": "2026-08-13T10:18:41.265972Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8952,7 +8952,7 @@
         "source_url": "https://api.skillhub.cn/user_287b0fec/novel-parallel-writer",
         "source_path": "novel-parallel-writer",
         "install_url": "https://api.skillhub.cn/user_287b0fec/novel-parallel-writer",
-        "last_synced": "2026-08-13T10:09:00.167165Z",
+        "last_synced": "2026-08-13T10:18:41.280672Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8998,7 +8998,7 @@
         "source_url": "https://api.skillhub.cn/user_8c9802c9/tomato-n-workshop",
         "source_path": "tomato-n-workshop",
         "install_url": "https://api.skillhub.cn/user_8c9802c9/tomato-n-workshop",
-        "last_synced": "2026-08-13T10:09:00.131625Z",
+        "last_synced": "2026-08-13T10:18:41.190228Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9043,7 +9043,7 @@
         "source_url": "https://api.skillhub.cn/user_0720cd1c/founder-marketing-copywriter",
         "source_path": "founder-marketing-copywriter",
         "install_url": "https://api.skillhub.cn/user_0720cd1c/founder-marketing-copywriter",
-        "last_synced": "2026-08-13T10:09:00.161511Z",
+        "last_synced": "2026-08-13T10:18:41.271869Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9089,7 +9089,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/paper-plagiarism-reducer",
         "source_path": "paper-plagiarism-reducer",
         "install_url": "https://api.skillhub.cn/user_70c2f807/paper-plagiarism-reducer",
-        "last_synced": "2026-08-13T10:09:00.118354Z",
+        "last_synced": "2026-08-13T10:18:41.170474Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9135,7 +9135,7 @@
         "source_url": "https://api.skillhub.cn/user_bd09b0e3/long-novel-creator",
         "source_path": "long-novel-creator",
         "install_url": "https://api.skillhub.cn/user_bd09b0e3/long-novel-creator",
-        "last_synced": "2026-08-13T10:09:00.127125Z",
+        "last_synced": "2026-08-13T10:18:41.183773Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9181,7 +9181,7 @@
         "source_url": "https://api.skillhub.cn/user_27bb7805/novel-ai-wash",
         "source_path": "novel-ai-wash",
         "install_url": "https://api.skillhub.cn/user_27bb7805/novel-ai-wash",
-        "last_synced": "2026-08-13T10:09:00.129261Z",
+        "last_synced": "2026-08-13T10:18:41.186976Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9226,7 +9226,7 @@
         "source_url": "https://api.skillhub.cn/user_e909843b/lanreneditor-pro",
         "source_path": "lanreneditor-pro",
         "install_url": "https://api.skillhub.cn/user_e909843b/lanreneditor-pro",
-        "last_synced": "2026-08-13T10:09:00.146807Z",
+        "last_synced": "2026-08-13T10:18:41.251969Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9271,7 +9271,7 @@
         "source_url": "https://api.skillhub.cn/user_ae5129cb/72bianip",
         "source_path": "72bianip",
         "install_url": "https://api.skillhub.cn/user_ae5129cb/72bianip",
-        "last_synced": "2026-08-13T10:09:00.163215Z",
+        "last_synced": "2026-08-13T10:18:41.274237Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9315,7 +9315,7 @@
         "source_url": "https://api.skillhub.cn/user_a6c64b6f/academic-polish-s",
         "source_path": "academic-polish-s",
         "install_url": "https://api.skillhub.cn/user_a6c64b6f/academic-polish-s",
-        "last_synced": "2026-08-13T10:09:00.168184Z",
+        "last_synced": "2026-08-13T10:18:41.282185Z",
         "upstream_commit": ""
       },
       "signals": {

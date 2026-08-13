@@ -62,7 +62,7 @@
         "source_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
         "source_path": "ecommerce-product-selector",
         "install_url": "https://api.skillhub.cn/user_c2b88a14/ecommerce-product-selector",
-        "last_synced": "2026-08-13T10:09:00.049867Z",
+        "last_synced": "2026-08-13T10:18:41.119184Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -72,7 +72,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 14692
+        "install_count": 14695
       },
       "platform": {
         "claude_code": true,
@@ -108,7 +108,7 @@
         "source_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
         "source_path": "cross-border-ecommerce-product-analysis",
         "install_url": "https://api.skillhub.cn/user_a41ae6c8/cross-border-ecommerce-product-analysis",
-        "last_synced": "2026-08-13T10:09:00.052028Z",
+        "last_synced": "2026-08-13T10:18:41.122086Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -156,7 +156,7 @@
         "source_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
         "source_path": "ecommerce-platform-rules",
         "install_url": "https://api.skillhub.cn/user_714d182a/ecommerce-platform-rules",
-        "last_synced": "2026-08-13T10:09:00.098385Z",
+        "last_synced": "2026-08-13T10:18:41.144328Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -166,7 +166,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1859
+        "install_count": 1860
       },
       "platform": {
         "claude_code": true,
@@ -290,7 +290,7 @@
         "source_url": "https://api.skillhub.cn/user_ad1cad5b/amazon-review-insights",
         "source_path": "amazon-review-insights",
         "install_url": "https://api.skillhub.cn/user_ad1cad5b/amazon-review-insights",
-        "last_synced": "2026-08-13T10:09:00.109092Z",
+        "last_synced": "2026-08-13T10:18:41.158813Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -336,7 +336,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/crossborder-ecommerce-v1",
         "source_path": "crossborder-ecommerce-v1",
         "install_url": "https://api.skillhub.cn/user_70c2f807/crossborder-ecommerce-v1",
-        "last_synced": "2026-08-13T10:09:00.110294Z",
+        "last_synced": "2026-08-13T10:18:41.160451Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -381,7 +381,7 @@
         "source_url": "https://api.skillhub.cn/user_b3227686/wechat-gyj20010114",
         "source_path": "wechat-gyj20010114",
         "install_url": "https://api.skillhub.cn/user_b3227686/wechat-gyj20010114",
-        "last_synced": "2026-08-13T10:09:00.150367Z",
+        "last_synced": "2026-08-13T10:18:41.257175Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -426,7 +426,7 @@
         "source_url": "https://api.skillhub.cn/user_2b384f75/ecommerce-price-radar",
         "source_path": "ecommerce-price-radar",
         "install_url": "https://api.skillhub.cn/user_2b384f75/ecommerce-price-radar",
-        "last_synced": "2026-08-13T10:09:00.150433Z",
+        "last_synced": "2026-08-13T10:18:41.257351Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -472,7 +472,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-ecommerce",
         "source_path": "tax-ecommerce",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-ecommerce",
-        "last_synced": "2026-08-13T10:09:00.111856Z",
+        "last_synced": "2026-08-13T10:18:41.162728Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -482,7 +482,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1247
+        "install_count": 1248
       },
       "platform": {
         "claude_code": true,
@@ -517,7 +517,7 @@
         "source_url": "https://api.skillhub.cn/user_6558ceff/screen-ecommerce-products",
         "source_path": "screen-ecommerce-products",
         "install_url": "https://api.skillhub.cn/user_6558ceff/screen-ecommerce-products",
-        "last_synced": "2026-08-13T10:09:00.162421Z",
+        "last_synced": "2026-08-13T10:18:41.272828Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -527,7 +527,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 568
+        "install_count": 569
       },
       "platform": {
         "claude_code": true,
@@ -563,7 +563,7 @@
         "source_url": "https://api.skillhub.cn/user_b3227686/12138",
         "source_path": "12138",
         "install_url": "https://api.skillhub.cn/user_b3227686/12138",
-        "last_synced": "2026-08-13T10:09:00.161339Z",
+        "last_synced": "2026-08-13T10:18:41.271648Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -608,7 +608,7 @@
         "source_url": "https://api.skillhub.cn/user_c5ca7468/nwi-ecommerce",
         "source_path": "nwi-ecommerce",
         "install_url": "https://api.skillhub.cn/user_c5ca7468/nwi-ecommerce",
-        "last_synced": "2026-08-13T10:09:00.118221Z",
+        "last_synced": "2026-08-13T10:18:41.170252Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -653,7 +653,7 @@
         "source_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
         "source_path": "ecommerce-data-zh",
         "install_url": "https://api.skillhub.cn/user_36c7efa2/ecommerce-data-zh",
-        "last_synced": "2026-08-13T10:09:00.099452Z",
+        "last_synced": "2026-08-13T10:18:41.145820Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -663,7 +663,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1827
+        "install_count": 1828
       },
       "platform": {
         "claude_code": true,
@@ -698,7 +698,7 @@
         "source_url": "https://api.skillhub.cn/user_8d26dabd/academic-paper-workshop",
         "source_path": "academic-paper-workshop",
         "install_url": "https://api.skillhub.cn/user_8d26dabd/academic-paper-workshop",
-        "last_synced": "2026-08-13T10:09:00.106721Z",
+        "last_synced": "2026-08-13T10:18:41.155439Z",
         "upstream_commit": ""
       },
       "signals": {

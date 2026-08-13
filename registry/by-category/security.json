@@ -107,7 +107,7 @@
         "source_url": "https://github.com/snyk/agent-scan",
         "source_path": "",
         "install_url": "https://github.com/snyk/agent-scan/tree/main",
-        "last_synced": "2026-08-13T10:09:00.045808Z",
+        "last_synced": "2026-08-13T10:18:41.113693Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -133,6 +133,48 @@
         "scan"
       ],
       "score": 55
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/troubleshooting-efs",
+      "spec": {
+        "name": "troubleshooting-efs",
+        "description": "Diagnoses and resolves Amazon EFS issues including mount failures, NFS timeouts, permission errors, throughput problems, and burst credit exhaustion. Use when the user has an EFS file system that is not mounting, returning errors, performing slowly, or showing access denied.\n",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/storage-skills/troubleshooting-efs",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-efs",
+        "last_synced": "2026-08-13T10:08:59.993865Z",
+        "upstream_commit": "2a0af546de42"
+      },
+      "signals": {
+        "repo_stars": 2328,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "efs",
+        "troubleshooting"
+      ],
+      "score": 44
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/ai-engineering-toolkit",
@@ -570,48 +612,6 @@
       "score": 44
     },
     {
-      "skill_id": "aws/agent-toolkit-for-aws/troubleshooting-efs",
-      "spec": {
-        "name": "troubleshooting-efs",
-        "description": "Diagnoses and resolves Amazon EFS issues including mount failures, NFS timeouts, permission errors, throughput problems, and burst credit exhaustion. Use when the user has an EFS file system that is not mounting, returning errors, performing slowly, or showing access denied.\n",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "aws-agent-toolkit",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
-        "source_path": "skills/specialized-skills/storage-skills/troubleshooting-efs",
-        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-efs",
-        "last_synced": "2026-08-13T10:08:59.993865Z",
-        "upstream_commit": "2a0af546de42"
-      },
-      "signals": {
-        "repo_stars": 2328,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 1,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "security",
-      "tags": [
-        "efs",
-        "troubleshooting"
-      ],
-      "score": 44
-    },
-    {
       "skill_id": "skillhub-cn/audit-new",
       "spec": {
         "name": "audit-new",
@@ -630,7 +630,7 @@
         "source_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
         "source_path": "audit-new",
         "install_url": "https://api.skillhub.cn/user_c2b88a14/audit-new",
-        "last_synced": "2026-08-13T10:09:00.050898Z",
+        "last_synced": "2026-08-13T10:18:41.120620Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -675,7 +675,7 @@
         "source_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
         "source_path": "skill-assistant-pro",
         "install_url": "https://api.skillhub.cn/user_b013be55/skill-assistant-pro",
-        "last_synced": "2026-08-13T10:09:00.093518Z",
+        "last_synced": "2026-08-13T10:18:41.137091Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -685,7 +685,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2361
+        "install_count": 2362
       },
       "platform": {
         "claude_code": true,
@@ -851,7 +851,7 @@
         "source_url": "https://api.skillhub.cn/user_8c3c5215/wang-paper-ct",
         "source_path": "wang-paper-ct",
         "install_url": "https://api.skillhub.cn/user_8c3c5215/wang-paper-ct",
-        "last_synced": "2026-08-13T10:09:00.127371Z",
+        "last_synced": "2026-08-13T10:18:41.184122Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -896,7 +896,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-risk-scanner",
         "source_path": "tax-risk-scanner",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-risk-scanner",
-        "last_synced": "2026-08-13T10:09:00.119954Z",
+        "last_synced": "2026-08-13T10:18:41.173569Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -942,7 +942,7 @@
         "source_url": "https://api.skillhub.cn/user_1598e354/construction-scheme-ai-review",
         "source_path": "construction-scheme-ai-review",
         "install_url": "https://api.skillhub.cn/user_1598e354/construction-scheme-ai-review",
-        "last_synced": "2026-08-13T10:09:00.138377Z",
+        "last_synced": "2026-08-13T10:18:41.198596Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -952,7 +952,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 745
+        "install_count": 746
       },
       "platform": {
         "claude_code": true,
@@ -988,7 +988,7 @@
         "source_url": "https://api.skillhub.cn/user_b818ef37/construction-project-audit",
         "source_path": "construction-project-audit",
         "install_url": "https://api.skillhub.cn/user_b818ef37/construction-project-audit",
-        "last_synced": "2026-08-13T10:09:00.153789Z",
+        "last_synced": "2026-08-13T10:18:41.262080Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1034,7 +1034,7 @@
         "source_url": "https://api.skillhub.cn/user_0db42586/skillscan",
         "source_path": "skillscan",
         "install_url": "https://api.skillhub.cn/user_0db42586/skillscan",
-        "last_synced": "2026-08-13T10:09:00.089473Z",
+        "last_synced": "2026-08-13T10:18:41.131985Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1044,7 +1044,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3388
+        "install_count": 3397
       },
       "platform": {
         "claude_code": true,
@@ -1078,7 +1078,7 @@
         "source_url": "https://api.skillhub.cn/user_e71c0c4e/sofagent",
         "source_path": "sofagent",
         "install_url": "https://api.skillhub.cn/user_e71c0c4e/sofagent",
-        "last_synced": "2026-08-13T10:09:00.165560Z",
+        "last_synced": "2026-08-13T10:18:41.277637Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1122,7 +1122,7 @@
         "source_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
         "source_path": "compliance-audit-pro",
         "install_url": "https://api.skillhub.cn/user_e9af5021/compliance-audit-pro",
-        "last_synced": "2026-08-13T10:09:00.098591Z",
+        "last_synced": "2026-08-13T10:18:41.144603Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1168,7 +1168,7 @@
         "source_url": "https://api.skillhub.cn/hongnan/shenji-audit-team",
         "source_path": "shenji-audit-team",
         "install_url": "https://api.skillhub.cn/hongnan/shenji-audit-team",
-        "last_synced": "2026-08-13T10:09:00.134769Z",
+        "last_synced": "2026-08-13T10:18:41.194121Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1178,7 +1178,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 870
+        "install_count": 872
       },
       "platform": {
         "claude_code": true,
@@ -1214,7 +1214,7 @@
         "source_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
         "source_path": "foundation-transparency-auditor",
         "install_url": "https://api.skillhub.cn/user_3ee6ae35/foundation-transparency-auditor",
-        "last_synced": "2026-08-13T10:09:00.134980Z",
+        "last_synced": "2026-08-13T10:18:41.194870Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1224,7 +1224,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 864
+        "install_count": 865
       },
       "platform": {
         "claude_code": true,

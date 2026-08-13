@@ -64,7 +64,7 @@
         "source_url": "https://api.skillhub.cn/user_a38fd8a2/valuation-analysis",
         "source_path": "valuation-analysis",
         "install_url": "https://api.skillhub.cn/user_a38fd8a2/valuation-analysis",
-        "last_synced": "2026-08-13T10:09:00.047716Z",
+        "last_synced": "2026-08-13T10:18:41.116260Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -109,7 +109,7 @@
         "source_url": "https://api.skillhub.cn/user_8c7f0f65/topnews",
         "source_path": "topnews",
         "install_url": "https://api.skillhub.cn/user_8c7f0f65/topnews",
-        "last_synced": "2026-08-13T10:09:00.048292Z",
+        "last_synced": "2026-08-13T10:18:41.117052Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -119,7 +119,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 24888
+        "install_count": 24889
       },
       "platform": {
         "claude_code": true,
@@ -153,7 +153,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
         "source_path": "aistockresearcher",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/aistockresearcher",
-        "last_synced": "2026-08-13T10:09:00.048338Z",
+        "last_synced": "2026-08-13T10:18:41.117112Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -163,7 +163,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 24611
+        "install_count": 24629
       },
       "platform": {
         "claude_code": true,
@@ -197,7 +197,7 @@
         "source_url": "https://api.skillhub.cn/user_5933f5b3/academic-pre-review-committee",
         "source_path": "academic-pre-review-committee",
         "install_url": "https://api.skillhub.cn/user_5933f5b3/academic-pre-review-committee",
-        "last_synced": "2026-08-13T10:09:00.049948Z",
+        "last_synced": "2026-08-13T10:18:41.119290Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -244,7 +244,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-policy-knowledge",
         "source_path": "tax-policy-knowledge",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-policy-knowledge",
-        "last_synced": "2026-08-13T10:09:00.047946Z",
+        "last_synced": "2026-08-13T10:18:41.116594Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -254,7 +254,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 31531
+        "install_count": 31535
       },
       "platform": {
         "claude_code": true,
@@ -270,6 +270,48 @@
         "tax"
       ],
       "score": 46
+    },
+    {
+      "skill_id": "supabase/supabase/telemetry-standards",
+      "spec": {
+        "name": "telemetry-standards",
+        "description": "PostHog event tracking standards for Supabase Studio. Use when adding useTrack() calls, defining events in packages/common/telemetry-constants.ts, implementing tracking for a new feature, or reviewing PRs for telemetry compliance. Covers event naming, property conventions, approved patterns, and implementation guide.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/telemetry-standards",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/telemetry-standards",
+        "last_synced": "2026-08-13T10:08:59.995885Z",
+        "upstream_commit": "cc6fe2100a72"
+      },
+      "signals": {
+        "repo_stars": 107926,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "standards",
+        "telemetry"
+      ],
+      "score": 45
     },
     {
       "skill_id": "sickn33/antigravity-awesome-skills/crewai",
@@ -328,11 +370,11 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/act-on-feedback",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/act-on-feedback",
-        "last_synced": "2026-08-13T10:08:59.994411Z",
-        "upstream_commit": "2952b09ab2ad"
+        "last_synced": "2026-08-13T10:18:41.078714Z",
+        "upstream_commit": "a4aeae388ca0"
       },
       "signals": {
-        "repo_stars": 188650,
+        "repo_stars": 188652,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -370,11 +412,11 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/create-draft-pr",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-draft-pr",
-        "last_synced": "2026-08-13T10:08:59.994546Z",
-        "upstream_commit": "2952b09ab2ad"
+        "last_synced": "2026-08-13T10:18:41.079374Z",
+        "upstream_commit": "a4aeae388ca0"
       },
       "signals": {
-        "repo_stars": 188650,
+        "repo_stars": 188652,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -412,11 +454,11 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/generate-run-commands",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/generate-run-commands",
-        "last_synced": "2026-08-13T10:08:59.994680Z",
-        "upstream_commit": "2952b09ab2ad"
+        "last_synced": "2026-08-13T10:18:41.079577Z",
+        "upstream_commit": "a4aeae388ca0"
       },
       "signals": {
-        "repo_stars": 188650,
+        "repo_stars": 188652,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -455,11 +497,11 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/merge",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/merge",
-        "last_synced": "2026-08-13T10:08:59.994720Z",
-        "upstream_commit": "2952b09ab2ad"
+        "last_synced": "2026-08-13T10:18:41.079636Z",
+        "upstream_commit": "a4aeae388ca0"
       },
       "signals": {
-        "repo_stars": 188650,
+        "repo_stars": 188652,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -477,48 +519,6 @@
       "category": "other",
       "tags": [
         "merge"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "supabase/supabase/telemetry-standards",
-      "spec": {
-        "name": "telemetry-standards",
-        "description": "PostHog event tracking standards for Supabase Studio. Use when adding useTrack() calls, defining events in packages/common/telemetry-constants.ts, implementing tracking for a new feature, or reviewing PRs for telemetry compliance. Covers event naming, property conventions, approved patterns, and implementation guide.",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "supabase-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/supabase/supabase",
-        "source_path": ".claude/skills/telemetry-standards",
-        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/telemetry-standards",
-        "last_synced": "2026-08-13T10:08:59.995885Z",
-        "upstream_commit": "cc6fe2100a72"
-      },
-      "signals": {
-        "repo_stars": 107926,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 1,
-        "open_issues": null,
-        "install_count": 0
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "standards",
-        "telemetry"
       ],
       "score": 45
     },
@@ -541,7 +541,7 @@
         "source_url": "https://api.skillhub.cn/user_ff4d9420/nihaixia-pro",
         "source_path": "nihaixia-pro",
         "install_url": "https://api.skillhub.cn/user_ff4d9420/nihaixia-pro",
-        "last_synced": "2026-08-13T10:09:00.052902Z",
+        "last_synced": "2026-08-13T10:18:41.123281Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -551,7 +551,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6701
+        "install_count": 6702
       },
       "platform": {
         "claude_code": true,
@@ -928,7 +928,7 @@
         "source_url": "https://api.skillhub.cn/user_3d638e23/travelassistant",
         "source_path": "travelassistant",
         "install_url": "https://api.skillhub.cn/user_3d638e23/travelassistant",
-        "last_synced": "2026-08-13T10:09:00.054187Z",
+        "last_synced": "2026-08-13T10:18:41.125045Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -972,7 +972,7 @@
         "source_url": "https://api.skillhub.cn/user_1002ca6a/skill-improver",
         "source_path": "skill-improver",
         "install_url": "https://api.skillhub.cn/user_1002ca6a/skill-improver",
-        "last_synced": "2026-08-13T10:09:00.054584Z",
+        "last_synced": "2026-08-13T10:18:41.125580Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -982,7 +982,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 5072
+        "install_count": 5074
       },
       "platform": {
         "claude_code": true,
@@ -1017,7 +1017,7 @@
         "source_url": "https://api.skillhub.cn/user_cc41bf5e/bazi-master",
         "source_path": "bazi-master",
         "install_url": "https://api.skillhub.cn/user_cc41bf5e/bazi-master",
-        "last_synced": "2026-08-13T10:09:00.054893Z",
+        "last_synced": "2026-08-13T10:18:41.125937Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1062,7 +1062,7 @@
         "source_url": "https://api.skillhub.cn/user_863b76c8/personal-cabinet-system",
         "source_path": "personal-cabinet-system",
         "install_url": "https://api.skillhub.cn/user_863b76c8/personal-cabinet-system",
-        "last_synced": "2026-08-13T10:09:00.090922Z",
+        "last_synced": "2026-08-13T10:18:41.133863Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1108,7 +1108,7 @@
         "source_url": "https://api.skillhub.cn/user_5953718f/self-evolution-v2",
         "source_path": "self-evolution-v2",
         "install_url": "https://api.skillhub.cn/user_5953718f/self-evolution-v2",
-        "last_synced": "2026-08-13T10:09:00.050454Z",
+        "last_synced": "2026-08-13T10:18:41.119995Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1118,7 +1118,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 11997
+        "install_count": 11998
       },
       "platform": {
         "claude_code": true,
@@ -1153,7 +1153,7 @@
         "source_url": "https://api.skillhub.cn/user_dd6e2052/ticai-lieshou",
         "source_path": "ticai-lieshou",
         "install_url": "https://api.skillhub.cn/user_dd6e2052/ticai-lieshou",
-        "last_synced": "2026-08-13T10:09:00.050774Z",
+        "last_synced": "2026-08-13T10:18:41.120383Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1198,7 +1198,7 @@
         "source_url": "https://api.skillhub.cn/user_6c44c808/hermes-installer",
         "source_path": "hermes-installer",
         "install_url": "https://api.skillhub.cn/user_6c44c808/hermes-installer",
-        "last_synced": "2026-08-13T10:09:00.053629Z",
+        "last_synced": "2026-08-13T10:18:41.124269Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1208,7 +1208,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6317
+        "install_count": 6318
       },
       "platform": {
         "claude_code": true,
@@ -1243,7 +1243,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/fundadvisor",
         "source_path": "fundadvisor",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/fundadvisor",
-        "last_synced": "2026-08-13T10:09:00.057398Z",
+        "last_synced": "2026-08-13T10:18:41.128332Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1284,11 +1284,11 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/create-pr",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-pr",
-        "last_synced": "2026-08-13T10:08:59.994606Z",
-        "upstream_commit": "2952b09ab2ad"
+        "last_synced": "2026-08-13T10:18:41.079432Z",
+        "upstream_commit": "a4aeae388ca0"
       },
       "signals": {
-        "repo_stars": 188650,
+        "repo_stars": 188652,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1325,11 +1325,11 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/update-pr",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-pr",
-        "last_synced": "2026-08-13T10:08:59.994904Z",
-        "upstream_commit": "2952b09ab2ad"
+        "last_synced": "2026-08-13T10:18:41.079883Z",
+        "upstream_commit": "a4aeae388ca0"
       },
       "signals": {
-        "repo_stars": 188650,
+        "repo_stars": 188652,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1369,7 +1369,7 @@
         "source_url": "https://api.skillhub.cn/user_9c63fdb4/patent-drafting-cn",
         "source_path": "patent-drafting-cn",
         "install_url": "https://api.skillhub.cn/user_9c63fdb4/patent-drafting-cn",
-        "last_synced": "2026-08-13T10:09:00.047878Z",
+        "last_synced": "2026-08-13T10:18:41.116474Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1379,7 +1379,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 34133
+        "install_count": 34169
       },
       "platform": {
         "claude_code": true,
@@ -1414,7 +1414,7 @@
         "source_url": "https://api.skillhub.cn/user_98283d0f/memory-manager-v2",
         "source_path": "memory-manager-v2",
         "install_url": "https://api.skillhub.cn/user_98283d0f/memory-manager-v2",
-        "last_synced": "2026-08-13T10:09:00.050165Z",
+        "last_synced": "2026-08-13T10:18:41.119606Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1424,7 +1424,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 12840
+        "install_count": 12843
       },
       "platform": {
         "claude_code": true,
@@ -1459,7 +1459,7 @@
         "source_url": "https://api.skillhub.cn/user_8c7f0f65/stockanalysispro",
         "source_path": "stockanalysispro",
         "install_url": "https://api.skillhub.cn/user_8c7f0f65/stockanalysispro",
-        "last_synced": "2026-08-13T10:09:00.052380Z",
+        "last_synced": "2026-08-13T10:18:41.122578Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1503,7 +1503,7 @@
         "source_url": "https://api.skillhub.cn/user_faa89036/evolution-engine",
         "source_path": "evolution-engine",
         "install_url": "https://api.skillhub.cn/user_faa89036/evolution-engine",
-        "last_synced": "2026-08-13T10:09:00.053019Z",
+        "last_synced": "2026-08-13T10:18:41.123439Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1513,7 +1513,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6524
+        "install_count": 6525
       },
       "platform": {
         "claude_code": true,
@@ -1548,7 +1548,7 @@
         "source_url": "https://api.skillhub.cn/user_7d16a562/memory-v1",
         "source_path": "memory-v1",
         "install_url": "https://api.skillhub.cn/user_7d16a562/memory-v1",
-        "last_synced": "2026-08-13T10:09:00.054068Z",
+        "last_synced": "2026-08-13T10:18:41.124877Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1558,7 +1558,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 5440
+        "install_count": 5441
       },
       "platform": {
         "claude_code": true,
@@ -1592,7 +1592,7 @@
         "source_url": "https://api.skillhub.cn/user_29dc410e/lobster-self-iteration",
         "source_path": "lobster-self-iteration",
         "install_url": "https://api.skillhub.cn/user_29dc410e/lobster-self-iteration",
-        "last_synced": "2026-08-13T10:09:00.057907Z",
+        "last_synced": "2026-08-13T10:18:41.129000Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1602,7 +1602,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3993
+        "install_count": 4003
       },
       "platform": {
         "claude_code": true,
@@ -1638,7 +1638,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/tencentmap-map-assistant",
         "source_path": "tencentmap-map-assistant",
         "install_url": "https://api.skillhub.cn/tencent-adm/tencentmap-map-assistant",
-        "last_synced": "2026-08-13T10:09:00.089771Z",
+        "last_synced": "2026-08-13T10:18:41.132393Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1648,7 +1648,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3196
+        "install_count": 3197
       },
       "platform": {
         "claude_code": true,
@@ -1684,7 +1684,7 @@
         "source_url": "https://api.skillhub.cn/user_33ddb46a/listed-company-deep-research",
         "source_path": "listed-company-deep-research",
         "install_url": "https://api.skillhub.cn/user_33ddb46a/listed-company-deep-research",
-        "last_synced": "2026-08-13T10:09:00.091035Z",
+        "last_synced": "2026-08-13T10:18:41.134007Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1731,7 +1731,7 @@
         "source_url": "https://api.skillhub.cn/user_1854b633/bazi-paipan",
         "source_path": "bazi-paipan",
         "install_url": "https://api.skillhub.cn/user_1854b633/bazi-paipan",
-        "last_synced": "2026-08-13T10:09:00.091489Z",
+        "last_synced": "2026-08-13T10:18:41.134624Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1741,7 +1741,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2775
+        "install_count": 2776
       },
       "platform": {
         "claude_code": true,
@@ -1776,7 +1776,7 @@
         "source_url": "https://api.skillhub.cn/user_3299a8e6/tcm-theory",
         "source_path": "tcm-theory",
         "install_url": "https://api.skillhub.cn/user_3299a8e6/tcm-theory",
-        "last_synced": "2026-08-13T10:09:00.094414Z",
+        "last_synced": "2026-08-13T10:18:41.138296Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1786,7 +1786,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2338
+        "install_count": 2339
       },
       "platform": {
         "claude_code": true,
@@ -1821,7 +1821,7 @@
         "source_url": "https://api.skillhub.cn/user_e4c41b46/charge-thinking",
         "source_path": "charge-thinking",
         "install_url": "https://api.skillhub.cn/user_e4c41b46/charge-thinking",
-        "last_synced": "2026-08-13T10:09:00.119450Z",
+        "last_synced": "2026-08-13T10:18:41.172083Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -1992,7 +1992,7 @@
         "source_url": "https://api.skillhub.cn/user_a92b64bc/deep-skill-finder",
         "source_path": "deep-skill-finder",
         "install_url": "https://api.skillhub.cn/user_a92b64bc/deep-skill-finder",
-        "last_synced": "2026-08-13T10:09:00.053384Z",
+        "last_synced": "2026-08-13T10:18:41.123952Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2002,7 +2002,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 6798
+        "install_count": 6800
       },
       "platform": {
         "claude_code": true,
@@ -2038,7 +2038,7 @@
         "source_url": "https://api.skillhub.cn/org-32m5yxyy/biaoshu-bailian",
         "source_path": "biaoshu-bailian",
         "install_url": "https://api.skillhub.cn/org-32m5yxyy/biaoshu-bailian",
-        "last_synced": "2026-08-13T10:09:00.055600Z",
+        "last_synced": "2026-08-13T10:18:41.126883Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2048,7 +2048,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4248
+        "install_count": 4252
       },
       "platform": {
         "claude_code": true,
@@ -2083,7 +2083,7 @@
         "source_url": "https://api.skillhub.cn/user_eb96790c/jrj-fin-search-skill",
         "source_path": "jrj-fin-search-skill",
         "install_url": "https://api.skillhub.cn/user_eb96790c/jrj-fin-search-skill",
-        "last_synced": "2026-08-13T10:09:00.090968Z",
+        "last_synced": "2026-08-13T10:18:41.133922Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2093,7 +2093,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 3024
+        "install_count": 3025
       },
       "platform": {
         "claude_code": true,
@@ -2130,7 +2130,7 @@
         "source_url": "https://api.skillhub.cn/user_148deca1/medical-guidelines-hub",
         "source_path": "medical-guidelines-hub",
         "install_url": "https://api.skillhub.cn/user_148deca1/medical-guidelines-hub",
-        "last_synced": "2026-08-13T10:09:00.093043Z",
+        "last_synced": "2026-08-13T10:18:41.136468Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2140,7 +2140,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2651
+        "install_count": 2652
       },
       "platform": {
         "claude_code": true,
@@ -2176,7 +2176,7 @@
         "source_url": "https://api.skillhub.cn/user_3a2528f5/gaoweijuece",
         "source_path": "gaoweijuece",
         "install_url": "https://api.skillhub.cn/user_3a2528f5/gaoweijuece",
-        "last_synced": "2026-08-13T10:09:00.096534Z",
+        "last_synced": "2026-08-13T10:18:41.141794Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2220,7 +2220,7 @@
         "source_url": "https://api.skillhub.cn/user_aad6add3/psychological-counselor",
         "source_path": "psychological-counselor",
         "install_url": "https://api.skillhub.cn/user_aad6add3/psychological-counselor",
-        "last_synced": "2026-08-13T10:09:00.099236Z",
+        "last_synced": "2026-08-13T10:18:41.145470Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2230,7 +2230,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1860
+        "install_count": 1861
       },
       "platform": {
         "claude_code": true,
@@ -2265,7 +2265,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/tencent-esign-contract",
         "source_path": "tencent-esign-contract",
         "install_url": "https://api.skillhub.cn/tencent-adm/tencent-esign-contract",
-        "last_synced": "2026-08-13T10:09:00.103105Z",
+        "last_synced": "2026-08-13T10:18:41.150791Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2311,7 +2311,7 @@
         "source_url": "https://api.skillhub.cn/user_9ff555dd/solo-legal-guard",
         "source_path": "solo-legal-guard",
         "install_url": "https://api.skillhub.cn/user_9ff555dd/solo-legal-guard",
-        "last_synced": "2026-08-13T10:09:00.119373Z",
+        "last_synced": "2026-08-13T10:18:41.171908Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2321,7 +2321,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 800
+        "install_count": 801
       },
       "platform": {
         "claude_code": true,
@@ -2357,7 +2357,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebao03",
         "source_path": "mayishebao03",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebao03",
-        "last_synced": "2026-08-13T10:09:00.123317Z",
+        "last_synced": "2026-08-13T10:18:41.178151Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2401,7 +2401,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebaobj",
         "source_path": "mayishebaobj",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebaobj",
-        "last_synced": "2026-08-13T10:09:00.123795Z",
+        "last_synced": "2026-08-13T10:18:41.178805Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2445,7 +2445,7 @@
         "source_url": "https://api.skillhub.cn/user_663a53c6/labor-rights-pro",
         "source_path": "labor-rights-pro",
         "install_url": "https://api.skillhub.cn/user_663a53c6/labor-rights-pro",
-        "last_synced": "2026-08-13T10:09:00.128922Z",
+        "last_synced": "2026-08-13T10:18:41.186289Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2491,7 +2491,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebao",
         "source_path": "mayishebao",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebao",
-        "last_synced": "2026-08-13T10:09:00.129994Z",
+        "last_synced": "2026-08-13T10:18:41.188012Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2535,7 +2535,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebao01",
         "source_path": "mayishebao01",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebao01",
-        "last_synced": "2026-08-13T10:09:00.130108Z",
+        "last_synced": "2026-08-13T10:18:41.188164Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2579,7 +2579,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebaohebei",
         "source_path": "mayishebaohebei",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebaohebei",
-        "last_synced": "2026-08-13T10:09:00.131497Z",
+        "last_synced": "2026-08-13T10:18:41.190054Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2623,7 +2623,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebaonj",
         "source_path": "mayishebaonj",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebaonj",
-        "last_synced": "2026-08-13T10:09:00.133081Z",
+        "last_synced": "2026-08-13T10:18:41.192294Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2667,7 +2667,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebaohz",
         "source_path": "mayishebaohz",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebaohz",
-        "last_synced": "2026-08-13T10:09:00.133826Z",
+        "last_synced": "2026-08-13T10:18:41.193352Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2711,7 +2711,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebaotj",
         "source_path": "mayishebaotj",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebaotj",
-        "last_synced": "2026-08-13T10:09:00.134650Z",
+        "last_synced": "2026-08-13T10:18:41.194538Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2755,7 +2755,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebaosh",
         "source_path": "mayishebaosh",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebaosh",
-        "last_synced": "2026-08-13T10:09:00.134840Z",
+        "last_synced": "2026-08-13T10:18:41.194815Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2799,7 +2799,7 @@
         "source_url": "https://api.skillhub.cn/mayishebao/mayishebaobjgjj",
         "source_path": "mayishebaobjgjj",
         "install_url": "https://api.skillhub.cn/mayishebao/mayishebaobjgjj",
-        "last_synced": "2026-08-13T10:09:00.136065Z",
+        "last_synced": "2026-08-13T10:18:41.195288Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2843,7 +2843,7 @@
         "source_url": "https://api.skillhub.cn/user_9cef5c88/calorie-journal",
         "source_path": "calorie-journal",
         "install_url": "https://api.skillhub.cn/user_9cef5c88/calorie-journal",
-        "last_synced": "2026-08-13T10:09:00.138054Z",
+        "last_synced": "2026-08-13T10:18:41.197949Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -2853,7 +2853,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 490
+        "install_count": 491
       },
       "platform": {
         "claude_code": true,
@@ -3692,7 +3692,7 @@
         "source_url": "https://api.skillhub.cn/user_df471c2d/darwin-skill",
         "source_path": "darwin-skill",
         "install_url": "https://api.skillhub.cn/user_df471c2d/darwin-skill",
-        "last_synced": "2026-08-13T10:09:00.090794Z",
+        "last_synced": "2026-08-13T10:18:41.133705Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3738,7 +3738,7 @@
         "source_url": "https://api.skillhub.cn/user_b95ee7e5/gaode-map-pro",
         "source_path": "gaode-map-pro",
         "install_url": "https://api.skillhub.cn/user_b95ee7e5/gaode-map-pro",
-        "last_synced": "2026-08-13T10:09:00.097577Z",
+        "last_synced": "2026-08-13T10:18:41.143260Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3784,7 +3784,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-crossborder",
         "source_path": "tax-crossborder",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-crossborder",
-        "last_synced": "2026-08-13T10:09:00.099695Z",
+        "last_synced": "2026-08-13T10:18:41.146137Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3794,7 +3794,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1886
+        "install_count": 1887
       },
       "platform": {
         "claude_code": true,
@@ -3829,7 +3829,7 @@
         "source_url": "https://api.skillhub.cn/user_60ba4767/halfai-gzt",
         "source_path": "halfai-gzt",
         "install_url": "https://api.skillhub.cn/user_60ba4767/halfai-gzt",
-        "last_synced": "2026-08-13T10:09:00.100523Z",
+        "last_synced": "2026-08-13T10:18:41.147234Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3839,7 +3839,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1766
+        "install_count": 1767
       },
       "platform": {
         "claude_code": true,
@@ -3874,7 +3874,7 @@
         "source_url": "https://api.skillhub.cn/user_8c3c5215/national-grant-vetter",
         "source_path": "national-grant-vetter",
         "install_url": "https://api.skillhub.cn/user_8c3c5215/national-grant-vetter",
-        "last_synced": "2026-08-13T10:09:00.104603Z",
+        "last_synced": "2026-08-13T10:18:41.152599Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3920,7 +3920,7 @@
         "source_url": "https://api.skillhub.cn/user_55ad111e/legal-assistant-pro",
         "source_path": "legal-assistant-pro",
         "install_url": "https://api.skillhub.cn/user_55ad111e/legal-assistant-pro",
-        "last_synced": "2026-08-13T10:09:00.110876Z",
+        "last_synced": "2026-08-13T10:18:41.161301Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3966,7 +3966,7 @@
         "source_url": "https://api.skillhub.cn/user_c542ade9/bid-proposal-zh",
         "source_path": "bid-proposal-zh",
         "install_url": "https://api.skillhub.cn/user_c542ade9/bid-proposal-zh",
-        "last_synced": "2026-08-13T10:09:00.113334Z",
+        "last_synced": "2026-08-13T10:18:41.163513Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -3976,7 +3976,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1144
+        "install_count": 1145
       },
       "platform": {
         "claude_code": true,
@@ -4011,7 +4011,7 @@
         "source_url": "https://api.skillhub.cn/user_8e413e07/travel-planner-max",
         "source_path": "travel-planner-max",
         "install_url": "https://api.skillhub.cn/user_8e413e07/travel-planner-max",
-        "last_synced": "2026-08-13T10:09:00.113807Z",
+        "last_synced": "2026-08-13T10:18:41.164160Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4057,7 +4057,7 @@
         "source_url": "https://api.skillhub.cn/user_7871dce1/prompt-optimizer-zh",
         "source_path": "prompt-optimizer-zh",
         "install_url": "https://api.skillhub.cn/user_7871dce1/prompt-optimizer-zh",
-        "last_synced": "2026-08-13T10:09:00.116142Z",
+        "last_synced": "2026-08-13T10:18:41.167329Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4102,7 +4102,7 @@
         "source_url": "https://api.skillhub.cn/user_8ee69ba5/daily-review",
         "source_path": "daily-review",
         "install_url": "https://api.skillhub.cn/user_8ee69ba5/daily-review",
-        "last_synced": "2026-08-13T10:09:00.116185Z",
+        "last_synced": "2026-08-13T10:18:41.167449Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4147,7 +4147,7 @@
         "source_url": "https://api.skillhub.cn/user_358eea8b/qidianrec",
         "source_path": "qidianrec",
         "install_url": "https://api.skillhub.cn/user_358eea8b/qidianrec",
-        "last_synced": "2026-08-13T10:09:00.125464Z",
+        "last_synced": "2026-08-13T10:18:41.181194Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4191,7 +4191,7 @@
         "source_url": "https://api.skillhub.cn/user_d5ab2367/pe-vc-investment-research",
         "source_path": "pe-vc-investment-research",
         "install_url": "https://api.skillhub.cn/user_d5ab2367/pe-vc-investment-research",
-        "last_synced": "2026-08-13T10:09:00.127077Z",
+        "last_synced": "2026-08-13T10:18:41.183708Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4236,7 +4236,7 @@
         "source_url": "https://api.skillhub.cn/user_6c0dcd6a/law-expert",
         "source_path": "law-expert",
         "install_url": "https://api.skillhub.cn/user_6c0dcd6a/law-expert",
-        "last_synced": "2026-08-13T10:09:00.134160Z",
+        "last_synced": "2026-08-13T10:18:41.193782Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4281,7 +4281,7 @@
         "source_url": "https://api.skillhub.cn/user_1002ca6a/taxation-expert",
         "source_path": "taxation-expert",
         "install_url": "https://api.skillhub.cn/user_1002ca6a/taxation-expert",
-        "last_synced": "2026-08-13T10:09:00.054694Z",
+        "last_synced": "2026-08-13T10:18:41.125728Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4291,7 +4291,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 5410
+        "install_count": 5411
       },
       "platform": {
         "claude_code": true,
@@ -4326,7 +4326,7 @@
         "source_url": "https://api.skillhub.cn/qingxi/qingxi-skill-02",
         "source_path": "qingxi-skill-02",
         "install_url": "https://api.skillhub.cn/qingxi/qingxi-skill-02",
-        "last_synced": "2026-08-13T10:09:00.055740Z",
+        "last_synced": "2026-08-13T10:18:41.127072Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4336,7 +4336,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 4643
+        "install_count": 4655
       },
       "platform": {
         "claude_code": true,
@@ -4371,7 +4371,7 @@
         "source_url": "https://api.skillhub.cn/user_daa4eabf/stock-analyzer",
         "source_path": "stock-analyzer",
         "install_url": "https://api.skillhub.cn/user_daa4eabf/stock-analyzer",
-        "last_synced": "2026-08-13T10:09:00.057534Z",
+        "last_synced": "2026-08-13T10:18:41.128472Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4416,7 +4416,7 @@
         "source_url": "https://api.skillhub.cn/user_29dc410e/token-saver-qclaw",
         "source_path": "token-saver-qclaw",
         "install_url": "https://api.skillhub.cn/user_29dc410e/token-saver-qclaw",
-        "last_synced": "2026-08-13T10:09:00.058170Z",
+        "last_synced": "2026-08-13T10:18:41.129343Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4462,7 +4462,7 @@
         "source_url": "https://api.skillhub.cn/user_a37770d2/hermes-skill",
         "source_path": "hermes-skill",
         "install_url": "https://api.skillhub.cn/user_a37770d2/hermes-skill",
-        "last_synced": "2026-08-13T10:09:00.058887Z",
+        "last_synced": "2026-08-13T10:18:41.130349Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4507,7 +4507,7 @@
         "source_url": "https://api.skillhub.cn/user_dedbd569/cyber-colleague",
         "source_path": "cyber-colleague",
         "install_url": "https://api.skillhub.cn/user_dedbd569/cyber-colleague",
-        "last_synced": "2026-08-13T10:09:00.091751Z",
+        "last_synced": "2026-08-13T10:18:41.134947Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4552,7 +4552,7 @@
         "source_url": "https://api.skillhub.cn/user_1748ad82/tianjicesuan",
         "source_path": "tianjicesuan",
         "install_url": "https://api.skillhub.cn/user_1748ad82/tianjicesuan",
-        "last_synced": "2026-08-13T10:09:00.093374Z",
+        "last_synced": "2026-08-13T10:18:41.136973Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4562,7 +4562,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2656
+        "install_count": 2657
       },
       "platform": {
         "claude_code": true,
@@ -4596,7 +4596,7 @@
         "source_url": "https://api.skillhub.cn/user_c1fd9783/context-memory-manager",
         "source_path": "context-memory-manager",
         "install_url": "https://api.skillhub.cn/user_c1fd9783/context-memory-manager",
-        "last_synced": "2026-08-13T10:09:00.093456Z",
+        "last_synced": "2026-08-13T10:18:41.137038Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4606,7 +4606,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2607
+        "install_count": 2608
       },
       "platform": {
         "claude_code": true,
@@ -4642,7 +4642,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/china-tax-guidance",
         "source_path": "china-tax-guidance",
         "install_url": "https://api.skillhub.cn/user_11064e10/china-tax-guidance",
-        "last_synced": "2026-08-13T10:09:00.103059Z",
+        "last_synced": "2026-08-13T10:18:41.150680Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4652,7 +4652,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1642
+        "install_count": 1643
       },
       "platform": {
         "claude_code": true,
@@ -4688,7 +4688,7 @@
         "source_url": "https://api.skillhub.cn/user_1af344ae/stock-timing-analysis",
         "source_path": "stock-timing-analysis",
         "install_url": "https://api.skillhub.cn/user_1af344ae/stock-timing-analysis",
-        "last_synced": "2026-08-13T10:09:00.103484Z",
+        "last_synced": "2026-08-13T10:18:41.151095Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4734,7 +4734,7 @@
         "source_url": "https://api.skillhub.cn/user_f3d82da7/zhuangji-assistant-skill",
         "source_path": "zhuangji-assistant-skill",
         "install_url": "https://api.skillhub.cn/user_f3d82da7/zhuangji-assistant-skill",
-        "last_synced": "2026-08-13T10:09:00.105033Z",
+        "last_synced": "2026-08-13T10:18:41.153193Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4744,7 +4744,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1532
+        "install_count": 1534
       },
       "platform": {
         "claude_code": true,
@@ -4780,7 +4780,7 @@
         "source_url": "https://api.skillhub.cn/user_0e939208/legal-verify",
         "source_path": "legal-verify",
         "install_url": "https://api.skillhub.cn/user_0e939208/legal-verify",
-        "last_synced": "2026-08-13T10:09:00.106436Z",
+        "last_synced": "2026-08-13T10:18:41.155070Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4825,7 +4825,7 @@
         "source_url": "https://api.skillhub.cn/user_0a48355b/ydxc0511",
         "source_path": "ydxc0511",
         "install_url": "https://api.skillhub.cn/user_0a48355b/ydxc0511",
-        "last_synced": "2026-08-13T10:09:00.107226Z",
+        "last_synced": "2026-08-13T10:18:41.156174Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4869,7 +4869,7 @@
         "source_url": "https://api.skillhub.cn/org-rwhv0nty/ad-fundamental-analysis",
         "source_path": "ad-fundamental-analysis",
         "install_url": "https://api.skillhub.cn/org-rwhv0nty/ad-fundamental-analysis",
-        "last_synced": "2026-08-13T10:09:00.108355Z",
+        "last_synced": "2026-08-13T10:18:41.157579Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4879,7 +4879,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1400
+        "install_count": 1401
       },
       "platform": {
         "claude_code": true,
@@ -4914,7 +4914,7 @@
         "source_url": "https://api.skillhub.cn/user_512254e3/a-stock-quote",
         "source_path": "a-stock-quote",
         "install_url": "https://api.skillhub.cn/user_512254e3/a-stock-quote",
-        "last_synced": "2026-08-13T10:09:00.108720Z",
+        "last_synced": "2026-08-13T10:18:41.158216Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -4959,7 +4959,7 @@
         "source_url": "https://api.skillhub.cn/user_cc9425b3/jy-policy-interpretation-v2",
         "source_path": "jy-policy-interpretation-v2",
         "install_url": "https://api.skillhub.cn/user_cc9425b3/jy-policy-interpretation-v2",
-        "last_synced": "2026-08-13T10:09:00.115972Z",
+        "last_synced": "2026-08-13T10:18:41.167131Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5005,7 +5005,7 @@
         "source_url": "https://api.skillhub.cn/user_28f669fb/bidding-compliance-engine",
         "source_path": "bidding-compliance-engine",
         "install_url": "https://api.skillhub.cn/user_28f669fb/bidding-compliance-engine",
-        "last_synced": "2026-08-13T10:09:00.116275Z",
+        "last_synced": "2026-08-13T10:18:41.167383Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5015,7 +5015,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1115
+        "install_count": 1116
       },
       "platform": {
         "claude_code": true,
@@ -5051,7 +5051,7 @@
         "source_url": "https://api.skillhub.cn/user_148deca1/national-legal-assistant",
         "source_path": "national-legal-assistant",
         "install_url": "https://api.skillhub.cn/user_148deca1/national-legal-assistant",
-        "last_synced": "2026-08-13T10:09:00.117269Z",
+        "last_synced": "2026-08-13T10:18:41.168871Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5097,7 +5097,7 @@
         "source_url": "https://api.skillhub.cn/user_14073954/hrssc",
         "source_path": "hrssc",
         "install_url": "https://api.skillhub.cn/user_14073954/hrssc",
-        "last_synced": "2026-08-13T10:09:00.119486Z",
+        "last_synced": "2026-08-13T10:18:41.172143Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5141,7 +5141,7 @@
         "source_url": "https://api.skillhub.cn/user_9d5a2a39/leopold-serenity-investor",
         "source_path": "leopold-serenity-investor",
         "install_url": "https://api.skillhub.cn/user_9d5a2a39/leopold-serenity-investor",
-        "last_synced": "2026-08-13T10:09:00.124148Z",
+        "last_synced": "2026-08-13T10:18:41.179344Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5187,7 +5187,7 @@
         "source_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-watchlist-skill",
         "source_path": "lingxi-watchlist-skill",
         "install_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-watchlist-skill",
-        "last_synced": "2026-08-13T10:09:00.126398Z",
+        "last_synced": "2026-08-13T10:18:41.182812Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5233,7 +5233,7 @@
         "source_url": "https://api.skillhub.cn/user_251ee118/808zdlb",
         "source_path": "808zdlb",
         "install_url": "https://api.skillhub.cn/user_251ee118/808zdlb",
-        "last_synced": "2026-08-13T10:09:00.128752Z",
+        "last_synced": "2026-08-13T10:18:41.186046Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5277,7 +5277,7 @@
         "source_url": "https://api.skillhub.cn/user_3bc8c30f/landscape-reviewer",
         "source_path": "landscape-reviewer",
         "install_url": "https://api.skillhub.cn/user_3bc8c30f/landscape-reviewer",
-        "last_synced": "2026-08-13T10:09:00.134599Z",
+        "last_synced": "2026-08-13T10:18:41.194047Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5287,7 +5287,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 791
+        "install_count": 792
       },
       "platform": {
         "claude_code": true,
@@ -5322,7 +5322,7 @@
         "source_url": "https://api.skillhub.cn/user_d5c3472c/seedance-prompt",
         "source_path": "seedance-prompt",
         "install_url": "https://api.skillhub.cn/user_d5c3472c/seedance-prompt",
-        "last_synced": "2026-08-13T10:09:00.149221Z",
+        "last_synced": "2026-08-13T10:18:41.255538Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5367,7 +5367,7 @@
         "source_url": "https://api.skillhub.cn/user_0c7f1934/daily-stock-news-v2",
         "source_path": "daily-stock-news-v2",
         "install_url": "https://api.skillhub.cn/user_0c7f1934/daily-stock-news-v2",
-        "last_synced": "2026-08-13T10:09:00.150060Z",
+        "last_synced": "2026-08-13T10:18:41.256747Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5413,7 +5413,7 @@
         "source_url": "https://api.skillhub.cn/user_cf06cb04/ai-invest-masters",
         "source_path": "ai-invest-masters",
         "install_url": "https://api.skillhub.cn/user_cf06cb04/ai-invest-masters",
-        "last_synced": "2026-08-13T10:09:00.152685Z",
+        "last_synced": "2026-08-13T10:18:41.260516Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5458,7 +5458,7 @@
         "source_url": "https://api.skillhub.cn/user_5df3373c/yanbaoke",
         "source_path": "yanbaoke",
         "install_url": "https://api.skillhub.cn/user_5df3373c/yanbaoke",
-        "last_synced": "2026-08-13T10:09:00.158347Z",
+        "last_synced": "2026-08-13T10:18:41.267438Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5502,7 +5502,7 @@
         "source_url": "https://api.skillhub.cn/user_d87bf1fa/etf-skill",
         "source_path": "etf-skill",
         "install_url": "https://api.skillhub.cn/user_d87bf1fa/etf-skill",
-        "last_synced": "2026-08-13T10:09:00.160036Z",
+        "last_synced": "2026-08-13T10:18:41.269799Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5547,7 +5547,7 @@
         "source_url": "https://api.skillhub.cn/user_6419d865/nvwo",
         "source_path": "nvwo",
         "install_url": "https://api.skillhub.cn/user_6419d865/nvwo",
-        "last_synced": "2026-08-13T10:09:00.163426Z",
+        "last_synced": "2026-08-13T10:18:41.274594Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5591,7 +5591,7 @@
         "source_url": "https://api.skillhub.cn/user_39114655/gushizhenquan-liuyao",
         "source_path": "gushizhenquan-liuyao",
         "install_url": "https://api.skillhub.cn/user_39114655/gushizhenquan-liuyao",
-        "last_synced": "2026-08-13T10:09:00.165104Z",
+        "last_synced": "2026-08-13T10:18:41.277044Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5720,7 +5720,7 @@
         "source_url": "https://api.skillhub.cn/user_38ebd01e/a-stocks-analysis",
         "source_path": "a-stocks-analysis",
         "install_url": "https://api.skillhub.cn/user_38ebd01e/a-stocks-analysis",
-        "last_synced": "2026-08-13T10:09:00.057737Z",
+        "last_synced": "2026-08-13T10:18:41.128784Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5765,7 +5765,7 @@
         "source_url": "https://api.skillhub.cn/user_9b440ffa/skill-tongjincheng-main",
         "source_path": "skill-tongjincheng-main",
         "install_url": "https://api.skillhub.cn/user_9b440ffa/skill-tongjincheng-main",
-        "last_synced": "2026-08-13T10:09:00.096062Z",
+        "last_synced": "2026-08-13T10:18:41.141201Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5812,7 +5812,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/caiwuzhushou",
         "source_path": "caiwuzhushou",
         "install_url": "https://api.skillhub.cn/user_ef64daef/caiwuzhushou",
-        "last_synced": "2026-08-13T10:09:00.096165Z",
+        "last_synced": "2026-08-13T10:18:41.141303Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5822,7 +5822,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2034
+        "install_count": 2035
       },
       "platform": {
         "claude_code": true,
@@ -5856,7 +5856,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-compliance-dispute",
         "source_path": "tax-compliance-dispute",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-compliance-dispute",
-        "last_synced": "2026-08-13T10:09:00.097436Z",
+        "last_synced": "2026-08-13T10:18:41.143034Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5866,7 +5866,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2144
+        "install_count": 2145
       },
       "platform": {
         "claude_code": true,
@@ -5902,7 +5902,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-construction",
         "source_path": "tax-construction",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-construction",
-        "last_synced": "2026-08-13T10:09:00.098128Z",
+        "last_synced": "2026-08-13T10:18:41.144049Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5912,7 +5912,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2045
+        "install_count": 2047
       },
       "platform": {
         "claude_code": true,
@@ -5947,7 +5947,7 @@
         "source_url": "https://api.skillhub.cn/user_b167603f/game-plan",
         "source_path": "game-plan",
         "install_url": "https://api.skillhub.cn/user_b167603f/game-plan",
-        "last_synced": "2026-08-13T10:09:00.098205Z",
+        "last_synced": "2026-08-13T10:18:41.144283Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -5992,7 +5992,7 @@
         "source_url": "https://api.skillhub.cn/user_7db0c006/agent-local-memory-keeper",
         "source_path": "agent-local-memory-keeper",
         "install_url": "https://api.skillhub.cn/user_7db0c006/agent-local-memory-keeper",
-        "last_synced": "2026-08-13T10:09:00.098659Z",
+        "last_synced": "2026-08-13T10:18:41.144696Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6002,7 +6002,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2021
+        "install_count": 2023
       },
       "platform": {
         "claude_code": true,
@@ -6039,7 +6039,7 @@
         "source_url": "https://api.skillhub.cn/user_323d092a/stocks-fliter",
         "source_path": "stocks-fliter",
         "install_url": "https://api.skillhub.cn/user_323d092a/stocks-fliter",
-        "last_synced": "2026-08-13T10:09:00.098702Z",
+        "last_synced": "2026-08-13T10:18:41.144751Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6084,7 +6084,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-advisory-practice",
         "source_path": "tax-advisory-practice",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-advisory-practice",
-        "last_synced": "2026-08-13T10:09:00.102061Z",
+        "last_synced": "2026-08-13T10:18:41.149277Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6094,7 +6094,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1718
+        "install_count": 1720
       },
       "platform": {
         "claude_code": true,
@@ -6130,7 +6130,7 @@
         "source_url": "https://api.skillhub.cn/user_535f4383/therapy-board",
         "source_path": "therapy-board",
         "install_url": "https://api.skillhub.cn/user_535f4383/therapy-board",
-        "last_synced": "2026-08-13T10:09:00.107453Z",
+        "last_synced": "2026-08-13T10:18:41.156479Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6175,7 +6175,7 @@
         "source_url": "https://api.skillhub.cn/user_ad872d55/lawyer-ai",
         "source_path": "lawyer-ai",
         "install_url": "https://api.skillhub.cn/user_ad872d55/lawyer-ai",
-        "last_synced": "2026-08-13T10:09:00.117114Z",
+        "last_synced": "2026-08-13T10:18:41.168669Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6219,7 +6219,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/invoice-economy-risk-ctrl",
         "source_path": "invoice-economy-risk-ctrl",
         "install_url": "https://api.skillhub.cn/user_11064e10/invoice-economy-risk-ctrl",
-        "last_synced": "2026-08-13T10:09:00.118484Z",
+        "last_synced": "2026-08-13T10:18:41.170543Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6229,7 +6229,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1081
+        "install_count": 1082
       },
       "platform": {
         "claude_code": true,
@@ -6266,7 +6266,7 @@
         "source_url": "https://api.skillhub.cn/user_e2ff9e78/cn-investment-navigation-map",
         "source_path": "cn-investment-navigation-map",
         "install_url": "https://api.skillhub.cn/user_e2ff9e78/cn-investment-navigation-map",
-        "last_synced": "2026-08-13T10:09:00.119582Z",
+        "last_synced": "2026-08-13T10:18:41.172211Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6276,7 +6276,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1075
+        "install_count": 1076
       },
       "platform": {
         "claude_code": true,
@@ -6312,7 +6312,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-incentives",
         "source_path": "tax-incentives",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-incentives",
-        "last_synced": "2026-08-13T10:09:00.120664Z",
+        "last_synced": "2026-08-13T10:18:41.174428Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6357,7 +6357,7 @@
         "source_url": "https://api.skillhub.cn/user_481397b5/paper-polisher-pro",
         "source_path": "paper-polisher-pro",
         "install_url": "https://api.skillhub.cn/user_481397b5/paper-polisher-pro",
-        "last_synced": "2026-08-13T10:09:00.123226Z",
+        "last_synced": "2026-08-13T10:18:41.178086Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6403,7 +6403,7 @@
         "source_url": "https://api.skillhub.cn/user_83002a29/welfare-lottery",
         "source_path": "welfare-lottery",
         "install_url": "https://api.skillhub.cn/user_83002a29/welfare-lottery",
-        "last_synced": "2026-08-13T10:09:00.124619Z",
+        "last_synced": "2026-08-13T10:18:41.179937Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6448,7 +6448,7 @@
         "source_url": "https://api.skillhub.cn/user_d87bf1fa/gu-piao-da-shi",
         "source_path": "gu-piao-da-shi",
         "install_url": "https://api.skillhub.cn/user_d87bf1fa/gu-piao-da-shi",
-        "last_synced": "2026-08-13T10:09:00.124816Z",
+        "last_synced": "2026-08-13T10:18:41.180202Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6493,7 +6493,7 @@
         "source_url": "https://api.skillhub.cn/user_94d02fd7/stock-fundamental-analysis-plus",
         "source_path": "stock-fundamental-analysis-plus",
         "install_url": "https://api.skillhub.cn/user_94d02fd7/stock-fundamental-analysis-plus",
-        "last_synced": "2026-08-13T10:09:00.125017Z",
+        "last_synced": "2026-08-13T10:18:41.180478Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6540,7 +6540,7 @@
         "source_url": "https://api.skillhub.cn/user_b844303f/vatax-compliance-planning",
         "source_path": "vatax-compliance-planning",
         "install_url": "https://api.skillhub.cn/user_b844303f/vatax-compliance-planning",
-        "last_synced": "2026-08-13T10:09:00.125569Z",
+        "last_synced": "2026-08-13T10:18:41.181334Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6586,7 +6586,7 @@
         "source_url": "https://api.skillhub.cn/user_09a38a2b/dgjh",
         "source_path": "dgjh",
         "install_url": "https://api.skillhub.cn/user_09a38a2b/dgjh",
-        "last_synced": "2026-08-13T10:09:00.129025Z",
+        "last_synced": "2026-08-13T10:18:41.186524Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6630,7 +6630,7 @@
         "source_url": "https://api.skillhub.cn/user_7ae399a8/m2026070902",
         "source_path": "m2026070902",
         "install_url": "https://api.skillhub.cn/user_7ae399a8/m2026070902",
-        "last_synced": "2026-08-13T10:09:00.130031Z",
+        "last_synced": "2026-08-13T10:18:41.187951Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6640,7 +6640,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 879
+        "install_count": 880
       },
       "platform": {
         "claude_code": true,
@@ -6674,7 +6674,7 @@
         "source_url": "https://api.skillhub.cn/user_133d6951/fat-loss-diet",
         "source_path": "fat-loss-diet",
         "install_url": "https://api.skillhub.cn/user_133d6951/fat-loss-diet",
-        "last_synced": "2026-08-13T10:09:00.136472Z",
+        "last_synced": "2026-08-13T10:18:41.195868Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6720,7 +6720,7 @@
         "source_url": "https://api.skillhub.cn/user_4753d00d/stock-dividend-analyzer",
         "source_path": "stock-dividend-analyzer",
         "install_url": "https://api.skillhub.cn/user_4753d00d/stock-dividend-analyzer",
-        "last_synced": "2026-08-13T10:09:00.140519Z",
+        "last_synced": "2026-08-13T10:18:41.201779Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6766,7 +6766,7 @@
         "source_url": "https://api.skillhub.cn/user_65cfe060/burgess-123",
         "source_path": "burgess-123",
         "install_url": "https://api.skillhub.cn/user_65cfe060/burgess-123",
-        "last_synced": "2026-08-13T10:09:00.144318Z",
+        "last_synced": "2026-08-13T10:18:41.248259Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6811,7 +6811,7 @@
         "source_url": "https://api.skillhub.cn/user_148deca1/tcm-comprehensive-guide",
         "source_path": "tcm-comprehensive-guide",
         "install_url": "https://api.skillhub.cn/user_148deca1/tcm-comprehensive-guide",
-        "last_synced": "2026-08-13T10:09:00.144371Z",
+        "last_synced": "2026-08-13T10:18:41.248346Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6857,7 +6857,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-restructuring",
         "source_path": "tax-restructuring",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-restructuring",
-        "last_synced": "2026-08-13T10:09:00.145681Z",
+        "last_synced": "2026-08-13T10:18:41.250062Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6867,7 +6867,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 718
+        "install_count": 719
       },
       "platform": {
         "claude_code": true,
@@ -6902,7 +6902,7 @@
         "source_url": "https://api.skillhub.cn/user_5933f5b3/nsfc-full-package",
         "source_path": "nsfc-full-package",
         "install_url": "https://api.skillhub.cn/user_5933f5b3/nsfc-full-package",
-        "last_synced": "2026-08-13T10:09:00.148201Z",
+        "last_synced": "2026-08-13T10:18:41.254085Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6948,7 +6948,7 @@
         "source_url": "https://api.skillhub.cn/user_a95aac1d/taste-check",
         "source_path": "taste-check",
         "install_url": "https://api.skillhub.cn/user_a95aac1d/taste-check",
-        "last_synced": "2026-08-13T10:09:00.152056Z",
+        "last_synced": "2026-08-13T10:18:41.259613Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -6993,7 +6993,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/kelong",
         "source_path": "kelong",
         "install_url": "https://api.skillhub.cn/user_ef64daef/kelong",
-        "last_synced": "2026-08-13T10:09:00.152456Z",
+        "last_synced": "2026-08-13T10:18:41.260182Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7037,7 +7037,7 @@
         "source_url": "https://api.skillhub.cn/user_c0778395/futures-xiaodong",
         "source_path": "futures-xiaodong",
         "install_url": "https://api.skillhub.cn/user_c0778395/futures-xiaodong",
-        "last_synced": "2026-08-13T10:09:00.153130Z",
+        "last_synced": "2026-08-13T10:18:41.261169Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7082,7 +7082,7 @@
         "source_url": "https://api.skillhub.cn/user_861ab1a0/stdhazardclaw",
         "source_path": "stdhazardclaw",
         "install_url": "https://api.skillhub.cn/user_861ab1a0/stdhazardclaw",
-        "last_synced": "2026-08-13T10:09:00.153267Z",
+        "last_synced": "2026-08-13T10:18:41.261371Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7126,7 +7126,7 @@
         "source_url": "https://api.skillhub.cn/user_126b7108/junmo",
         "source_path": "junmo",
         "install_url": "https://api.skillhub.cn/user_126b7108/junmo",
-        "last_synced": "2026-08-13T10:09:00.154446Z",
+        "last_synced": "2026-08-13T10:18:41.263005Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7170,7 +7170,7 @@
         "source_url": "https://api.skillhub.cn/user_148deca1/baichen-legal",
         "source_path": "baichen-legal",
         "install_url": "https://api.skillhub.cn/user_148deca1/baichen-legal",
-        "last_synced": "2026-08-13T10:09:00.158717Z",
+        "last_synced": "2026-08-13T10:18:41.267864Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7215,7 +7215,7 @@
         "source_url": "https://api.skillhub.cn/user_5933f5b3/nsfc-research-foundation",
         "source_path": "nsfc-research-foundation",
         "install_url": "https://api.skillhub.cn/user_5933f5b3/nsfc-research-foundation",
-        "last_synced": "2026-08-13T10:09:00.160530Z",
+        "last_synced": "2026-08-13T10:18:41.270438Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7261,7 +7261,7 @@
         "source_url": "https://api.skillhub.cn/user_64bae180/chambers",
         "source_path": "chambers",
         "install_url": "https://api.skillhub.cn/user_64bae180/chambers",
-        "last_synced": "2026-08-13T10:09:00.160675Z",
+        "last_synced": "2026-08-13T10:18:41.270671Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7305,7 +7305,7 @@
         "source_url": "https://api.skillhub.cn/user_83d7fe7a/agri-plant-protection-advisory",
         "source_path": "agri-plant-protection-advisory",
         "install_url": "https://api.skillhub.cn/user_83d7fe7a/agri-plant-protection-advisory",
-        "last_synced": "2026-08-13T10:09:00.160862Z",
+        "last_synced": "2026-08-13T10:18:41.271039Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7353,7 +7353,7 @@
         "source_url": "https://api.skillhub.cn/user_cf091732/huanglvshi",
         "source_path": "huanglvshi",
         "install_url": "https://api.skillhub.cn/user_cf091732/huanglvshi",
-        "last_synced": "2026-08-13T10:09:00.163697Z",
+        "last_synced": "2026-08-13T10:18:41.274974Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7397,7 +7397,7 @@
         "source_url": "https://api.skillhub.cn/user_dc515faf/grill-stan",
         "source_path": "grill-stan",
         "install_url": "https://api.skillhub.cn/user_dc515faf/grill-stan",
-        "last_synced": "2026-08-13T10:09:00.165990Z",
+        "last_synced": "2026-08-13T10:18:41.278169Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7442,7 +7442,7 @@
         "source_url": "https://api.skillhub.cn/user_1793b15c/agent-psychology",
         "source_path": "agent-psychology",
         "install_url": "https://api.skillhub.cn/user_1793b15c/agent-psychology",
-        "last_synced": "2026-08-13T10:09:00.168457Z",
+        "last_synced": "2026-08-13T10:18:41.282656Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7487,7 +7487,7 @@
         "source_url": "https://api.skillhub.cn/user_87147e36/ai-industry-chain-tracker",
         "source_path": "ai-industry-chain-tracker",
         "install_url": "https://api.skillhub.cn/user_87147e36/ai-industry-chain-tracker",
-        "last_synced": "2026-08-13T10:09:00.168708Z",
+        "last_synced": "2026-08-13T10:18:41.283018Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7659,7 +7659,7 @@
         "source_url": "https://api.skillhub.cn/user_378eb7ca/pro-legal-strategist-v2",
         "source_path": "pro-legal-strategist-v2",
         "install_url": "https://api.skillhub.cn/user_378eb7ca/pro-legal-strategist-v2",
-        "last_synced": "2026-08-13T10:09:00.051869Z",
+        "last_synced": "2026-08-13T10:18:41.121875Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7705,7 +7705,7 @@
         "source_url": "https://api.skillhub.cn/user_756344a1/stock-analysis-openclaw",
         "source_path": "stock-analysis-openclaw",
         "install_url": "https://api.skillhub.cn/user_756344a1/stock-analysis-openclaw",
-        "last_synced": "2026-08-13T10:09:00.055633Z",
+        "last_synced": "2026-08-13T10:18:41.126926Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7751,7 +7751,7 @@
         "source_url": "https://api.skillhub.cn/user_7d16a562/context-memory-pro",
         "source_path": "context-memory-pro",
         "install_url": "https://api.skillhub.cn/user_7d16a562/context-memory-pro",
-        "last_synced": "2026-08-13T10:09:00.090272Z",
+        "last_synced": "2026-08-13T10:18:41.133093Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7797,7 +7797,7 @@
         "source_url": "https://api.skillhub.cn/user_d84187c5/tdx",
         "source_path": "tdx",
         "install_url": "https://api.skillhub.cn/user_d84187c5/tdx",
-        "last_synced": "2026-08-13T10:09:00.091353Z",
+        "last_synced": "2026-08-13T10:18:41.134422Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7841,7 +7841,7 @@
         "source_url": "https://api.skillhub.cn/user_67790f4b/travelplanner",
         "source_path": "travelplanner",
         "install_url": "https://api.skillhub.cn/user_67790f4b/travelplanner",
-        "last_synced": "2026-08-13T10:09:00.100313Z",
+        "last_synced": "2026-08-13T10:18:41.146955Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7851,7 +7851,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1852
+        "install_count": 1854
       },
       "platform": {
         "claude_code": true,
@@ -7885,7 +7885,7 @@
         "source_url": "https://api.skillhub.cn/user_fe933096/meituan-travel",
         "source_path": "meituan-travel",
         "install_url": "https://api.skillhub.cn/user_fe933096/meituan-travel",
-        "last_synced": "2026-08-13T10:09:00.106977Z",
+        "last_synced": "2026-08-13T10:18:41.155826Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7930,7 +7930,7 @@
         "source_url": "https://api.skillhub.cn/user_52d362ba/ai-planer",
         "source_path": "ai-planer",
         "install_url": "https://api.skillhub.cn/user_52d362ba/ai-planer",
-        "last_synced": "2026-08-13T10:09:00.107268Z",
+        "last_synced": "2026-08-13T10:18:41.156228Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -7974,7 +7974,7 @@
         "source_url": "https://api.skillhub.cn/user_85485fa0/job-hunting-hub",
         "source_path": "job-hunting-hub",
         "install_url": "https://api.skillhub.cn/user_85485fa0/job-hunting-hub",
-        "last_synced": "2026-08-13T10:09:00.108438Z",
+        "last_synced": "2026-08-13T10:18:41.157852Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8020,7 +8020,7 @@
         "source_url": "https://api.skillhub.cn/lukincoffee/my-coffee",
         "source_path": "my-coffee",
         "install_url": "https://api.skillhub.cn/lukincoffee/my-coffee",
-        "last_synced": "2026-08-13T10:09:00.111445Z",
+        "last_synced": "2026-08-13T10:18:41.162279Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8064,7 +8064,7 @@
         "source_url": "https://api.skillhub.cn/tencent-adm/tencent-weather",
         "source_path": "tencent-weather",
         "install_url": "https://api.skillhub.cn/tencent-adm/tencent-weather",
-        "last_synced": "2026-08-13T10:09:00.115048Z",
+        "last_synced": "2026-08-13T10:18:41.165813Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8109,7 +8109,7 @@
         "source_url": "https://api.skillhub.cn/user_6bedba2d/ybdsjy",
         "source_path": "ybdsjy",
         "install_url": "https://api.skillhub.cn/user_6bedba2d/ybdsjy",
-        "last_synced": "2026-08-13T10:09:00.115428Z",
+        "last_synced": "2026-08-13T10:18:41.166323Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8153,7 +8153,7 @@
         "source_url": "https://api.skillhub.cn/org-rdj3h8zv/ctripaitravelassistant",
         "source_path": "ctripaitravelassistant",
         "install_url": "https://api.skillhub.cn/org-rdj3h8zv/ctripaitravelassistant",
-        "last_synced": "2026-08-13T10:09:00.122439Z",
+        "last_synced": "2026-08-13T10:18:41.176956Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8197,7 +8197,7 @@
         "source_url": "https://api.skillhub.cn/user_80716c48/fundmanagertracker",
         "source_path": "fundmanagertracker",
         "install_url": "https://api.skillhub.cn/user_80716c48/fundmanagertracker",
-        "last_synced": "2026-08-13T10:09:00.125293Z",
+        "last_synced": "2026-08-13T10:18:41.180921Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8241,7 +8241,7 @@
         "source_url": "https://api.skillhub.cn/user_dfbdc5ab/auto-evolving-agent",
         "source_path": "auto-evolving-agent",
         "install_url": "https://api.skillhub.cn/user_dfbdc5ab/auto-evolving-agent",
-        "last_synced": "2026-08-13T10:09:00.130499Z",
+        "last_synced": "2026-08-13T10:18:41.188684Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8287,7 +8287,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-hainan-ftp",
         "source_path": "tax-hainan-ftp",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-hainan-ftp",
-        "last_synced": "2026-08-13T10:09:00.134876Z",
+        "last_synced": "2026-08-13T10:18:41.194936Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8333,7 +8333,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-consumption-tax",
         "source_path": "tax-consumption-tax",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-consumption-tax",
-        "last_synced": "2026-08-13T10:09:00.134944Z",
+        "last_synced": "2026-08-13T10:18:41.195038Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8378,7 +8378,7 @@
         "source_url": "https://api.skillhub.cn/user_19c7ad98/fangchanyanjiu",
         "source_path": "fangchanyanjiu",
         "install_url": "https://api.skillhub.cn/user_19c7ad98/fangchanyanjiu",
-        "last_synced": "2026-08-13T10:09:00.135067Z",
+        "last_synced": "2026-08-13T10:18:41.195154Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8422,7 +8422,7 @@
         "source_url": "https://api.skillhub.cn/user_94d02fd7/stock-fundamental-analysis-v2",
         "source_path": "stock-fundamental-analysis-v2",
         "install_url": "https://api.skillhub.cn/user_94d02fd7/stock-fundamental-analysis-v2",
-        "last_synced": "2026-08-13T10:09:00.139631Z",
+        "last_synced": "2026-08-13T10:18:41.200602Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8468,7 +8468,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-life-services",
         "source_path": "tax-life-services",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-life-services",
-        "last_synced": "2026-08-13T10:09:00.140840Z",
+        "last_synced": "2026-08-13T10:18:41.202228Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8514,7 +8514,7 @@
         "source_url": "https://api.skillhub.cn/user_28a6fb7f/skill-discovery-expert",
         "source_path": "skill-discovery-expert",
         "install_url": "https://api.skillhub.cn/user_28a6fb7f/skill-discovery-expert",
-        "last_synced": "2026-08-13T10:09:00.144971Z",
+        "last_synced": "2026-08-13T10:18:41.249200Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8560,7 +8560,7 @@
         "source_url": "https://api.skillhub.cn/user_83002a29/hulai-diviation",
         "source_path": "hulai-diviation",
         "install_url": "https://api.skillhub.cn/user_83002a29/hulai-diviation",
-        "last_synced": "2026-08-13T10:09:00.145230Z",
+        "last_synced": "2026-08-13T10:18:41.249537Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8605,7 +8605,7 @@
         "source_url": "https://api.skillhub.cn/user_8b05e1bd/stock-hot-mom-ranks",
         "source_path": "stock-hot-mom-ranks",
         "install_url": "https://api.skillhub.cn/user_8b05e1bd/stock-hot-mom-ranks",
-        "last_synced": "2026-08-13T10:09:00.148054Z",
+        "last_synced": "2026-08-13T10:18:41.253864Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8652,7 +8652,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-pet-chain",
         "source_path": "tax-pet-chain",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-pet-chain",
-        "last_synced": "2026-08-13T10:09:00.160176Z",
+        "last_synced": "2026-08-13T10:18:41.269749Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8662,7 +8662,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 642
+        "install_count": 643
       },
       "platform": {
         "claude_code": true,
@@ -8698,7 +8698,7 @@
         "source_url": "https://api.skillhub.cn/user_b3374e25/medical-master-router",
         "source_path": "medical-master-router",
         "install_url": "https://api.skillhub.cn/user_b3374e25/medical-master-router",
-        "last_synced": "2026-08-13T10:09:00.160392Z",
+        "last_synced": "2026-08-13T10:18:41.270270Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8745,7 +8745,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-steel",
         "source_path": "tax-steel",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-steel",
-        "last_synced": "2026-08-13T10:09:00.160598Z",
+        "last_synced": "2026-08-13T10:18:41.270554Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8790,7 +8790,7 @@
         "source_url": "https://api.skillhub.cn/user_08c66eae/fadawang-qa-plus",
         "source_path": "fadawang-qa-plus",
         "install_url": "https://api.skillhub.cn/user_08c66eae/fadawang-qa-plus",
-        "last_synced": "2026-08-13T10:09:00.160636Z",
+        "last_synced": "2026-08-13T10:18:41.270617Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8835,7 +8835,7 @@
         "source_url": "https://api.skillhub.cn/user_dc473fcd/ansys-naval-structure",
         "source_path": "ansys-naval-structure",
         "install_url": "https://api.skillhub.cn/user_dc473fcd/ansys-naval-structure",
-        "last_synced": "2026-08-13T10:09:00.166227Z",
+        "last_synced": "2026-08-13T10:18:41.278336Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8845,7 +8845,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 610
+        "install_count": 611
       },
       "platform": {
         "claude_code": true,
@@ -8881,7 +8881,7 @@
         "source_url": "https://api.skillhub.cn/user_cc9425b3/jy-stock-market-spotlight-analysis",
         "source_path": "jy-stock-market-spotlight-analysis",
         "install_url": "https://api.skillhub.cn/user_cc9425b3/jy-stock-market-spotlight-analysis",
-        "last_synced": "2026-08-13T10:09:00.166647Z",
+        "last_synced": "2026-08-13T10:18:41.279875Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8929,7 +8929,7 @@
         "source_url": "https://api.skillhub.cn/user_dfbdc5ab/nutrition-and-health",
         "source_path": "nutrition-and-health",
         "install_url": "https://api.skillhub.cn/user_dfbdc5ab/nutrition-and-health",
-        "last_synced": "2026-08-13T10:09:00.166892Z",
+        "last_synced": "2026-08-13T10:18:41.280199Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -8974,7 +8974,7 @@
         "source_url": "https://api.skillhub.cn/user_8a5e88f1/stock-daily-analysis-pro",
         "source_path": "stock-daily-analysis-pro",
         "install_url": "https://api.skillhub.cn/user_8a5e88f1/stock-daily-analysis-pro",
-        "last_synced": "2026-08-13T10:09:00.057951Z",
+        "last_synced": "2026-08-13T10:18:41.129061Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9021,7 +9021,7 @@
         "source_url": "https://api.skillhub.cn/user_d44946d7/nihaixia",
         "source_path": "nihaixia",
         "install_url": "https://api.skillhub.cn/user_d44946d7/nihaixia",
-        "last_synced": "2026-08-13T10:09:00.100722Z",
+        "last_synced": "2026-08-13T10:18:41.147497Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9031,7 +9031,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1738
+        "install_count": 1739
       },
       "platform": {
         "claude_code": true,
@@ -9065,7 +9065,7 @@
         "source_url": "https://api.skillhub.cn/user_481397b5/pubmed-verifier",
         "source_path": "pubmed-verifier",
         "install_url": "https://api.skillhub.cn/user_481397b5/pubmed-verifier",
-        "last_synced": "2026-08-13T10:09:00.102900Z",
+        "last_synced": "2026-08-13T10:18:41.150381Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9075,7 +9075,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1634
+        "install_count": 1635
       },
       "platform": {
         "claude_code": true,
@@ -9110,7 +9110,7 @@
         "source_url": "https://api.skillhub.cn/user_fe828a0e/self-reivew-pro",
         "source_path": "self-reivew-pro",
         "install_url": "https://api.skillhub.cn/user_fe828a0e/self-reivew-pro",
-        "last_synced": "2026-08-13T10:09:00.108071Z",
+        "last_synced": "2026-08-13T10:18:41.157379Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9156,7 +9156,7 @@
         "source_url": "https://api.skillhub.cn/user_903203a7/lottery-predict",
         "source_path": "lottery-predict",
         "install_url": "https://api.skillhub.cn/user_903203a7/lottery-predict",
-        "last_synced": "2026-08-13T10:09:00.109415Z",
+        "last_synced": "2026-08-13T10:18:41.159254Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9201,7 +9201,7 @@
         "source_url": "https://api.skillhub.cn/user_c008dbd9/get-note-daily",
         "source_path": "get-note-daily",
         "install_url": "https://api.skillhub.cn/user_c008dbd9/get-note-daily",
-        "last_synced": "2026-08-13T10:09:00.114822Z",
+        "last_synced": "2026-08-13T10:18:41.165536Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9246,7 +9246,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/health-coach-pro",
         "source_path": "health-coach-pro",
         "install_url": "https://api.skillhub.cn/user_70c2f807/health-coach-pro",
-        "last_synced": "2026-08-13T10:09:00.117352Z",
+        "last_synced": "2026-08-13T10:18:41.168989Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9292,7 +9292,7 @@
         "source_url": "https://api.skillhub.cn/user_3c7f3160/tencent-rce-skill",
         "source_path": "tencent-rce-skill",
         "install_url": "https://api.skillhub.cn/user_3c7f3160/tencent-rce-skill",
-        "last_synced": "2026-08-13T10:09:00.117951Z",
+        "last_synced": "2026-08-13T10:18:41.169872Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9302,7 +9302,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1137
+        "install_count": 1138
       },
       "platform": {
         "claude_code": true,
@@ -9338,7 +9338,7 @@
         "source_url": "https://api.skillhub.cn/user_d380e0f9/insight-travel-guide",
         "source_path": "insight-travel-guide",
         "install_url": "https://api.skillhub.cn/user_d380e0f9/insight-travel-guide",
-        "last_synced": "2026-08-13T10:09:00.125867Z",
+        "last_synced": "2026-08-13T10:18:41.181807Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9384,7 +9384,7 @@
         "source_url": "https://api.skillhub.cn/user_99eaa1ca/longhubang",
         "source_path": "longhubang",
         "install_url": "https://api.skillhub.cn/user_99eaa1ca/longhubang",
-        "last_synced": "2026-08-13T10:09:00.129924Z",
+        "last_synced": "2026-08-13T10:18:41.187853Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9428,7 +9428,7 @@
         "source_url": "https://api.skillhub.cn/user_3c9003af/boo-ai-review",
         "source_path": "boo-ai-review",
         "install_url": "https://api.skillhub.cn/user_3c9003af/boo-ai-review",
-        "last_synced": "2026-08-13T10:09:00.130145Z",
+        "last_synced": "2026-08-13T10:18:41.188063Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9438,7 +9438,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 837
+        "install_count": 839
       },
       "platform": {
         "claude_code": true,
@@ -9473,7 +9473,7 @@
         "source_url": "https://api.skillhub.cn/user_1002ca6a/aifinance",
         "source_path": "aifinance",
         "install_url": "https://api.skillhub.cn/user_1002ca6a/aifinance",
-        "last_synced": "2026-08-13T10:09:00.130181Z",
+        "last_synced": "2026-08-13T10:18:41.188216Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9517,7 +9517,7 @@
         "source_url": "https://api.skillhub.cn/user_aad6add3/alzheimer-care",
         "source_path": "alzheimer-care",
         "install_url": "https://api.skillhub.cn/user_aad6add3/alzheimer-care",
-        "last_synced": "2026-08-13T10:09:00.130587Z",
+        "last_synced": "2026-08-13T10:18:41.188798Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9562,7 +9562,7 @@
         "source_url": "https://api.skillhub.cn/user_f7cf8568/stock-coach",
         "source_path": "stock-coach",
         "install_url": "https://api.skillhub.cn/user_f7cf8568/stock-coach",
-        "last_synced": "2026-08-13T10:09:00.132310Z",
+        "last_synced": "2026-08-13T10:18:41.191188Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9607,7 +9607,7 @@
         "source_url": "https://api.skillhub.cn/user_f7ce7465/tc-deeptrip",
         "source_path": "tc-deeptrip",
         "install_url": "https://api.skillhub.cn/user_f7ce7465/tc-deeptrip",
-        "last_synced": "2026-08-13T10:09:00.132663Z",
+        "last_synced": "2026-08-13T10:18:41.191720Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9651,7 +9651,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/jingyantilian",
         "source_path": "jingyantilian",
         "install_url": "https://api.skillhub.cn/user_ef64daef/jingyantilian",
-        "last_synced": "2026-08-13T10:09:00.133746Z",
+        "last_synced": "2026-08-13T10:18:41.193249Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9695,7 +9695,7 @@
         "source_url": "https://api.skillhub.cn/user_76417320/digital-economy",
         "source_path": "digital-economy",
         "install_url": "https://api.skillhub.cn/user_76417320/digital-economy",
-        "last_synced": "2026-08-13T10:09:00.137705Z",
+        "last_synced": "2026-08-13T10:18:41.197650Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9740,7 +9740,7 @@
         "source_url": "https://api.skillhub.cn/user_08c66eae/case-analysis-copy-tze-chien-wang-plus",
         "source_path": "case-analysis-copy-tze-chien-wang-plus",
         "install_url": "https://api.skillhub.cn/user_08c66eae/case-analysis-copy-tze-chien-wang-plus",
-        "last_synced": "2026-08-13T10:09:00.140076Z",
+        "last_synced": "2026-08-13T10:18:41.201069Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9791,7 +9791,7 @@
         "source_url": "https://api.skillhub.cn/user_88e00a20/chengeng-growth-router",
         "source_path": "chengeng-growth-router",
         "install_url": "https://api.skillhub.cn/user_88e00a20/chengeng-growth-router",
-        "last_synced": "2026-08-13T10:09:00.143431Z",
+        "last_synced": "2026-08-13T10:18:41.206444Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9801,7 +9801,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 775
+        "install_count": 776
       },
       "platform": {
         "claude_code": true,
@@ -9837,7 +9837,7 @@
         "source_url": "https://api.skillhub.cn/user_29dc410e/simplelife-flow-pro",
         "source_path": "simplelife-flow-pro",
         "install_url": "https://api.skillhub.cn/user_29dc410e/simplelife-flow-pro",
-        "last_synced": "2026-08-13T10:09:00.145722Z",
+        "last_synced": "2026-08-13T10:18:41.250273Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9883,7 +9883,7 @@
         "source_url": "https://api.skillhub.cn/user_8ef78c30/stock-sentimental-cycle",
         "source_path": "stock-sentimental-cycle",
         "install_url": "https://api.skillhub.cn/user_8ef78c30/stock-sentimental-cycle",
-        "last_synced": "2026-08-13T10:09:00.146164Z",
+        "last_synced": "2026-08-13T10:18:41.251022Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9929,7 +9929,7 @@
         "source_url": "https://api.skillhub.cn/user_0c7f1934/stock-holding-analysis",
         "source_path": "stock-holding-analysis",
         "install_url": "https://api.skillhub.cn/user_0c7f1934/stock-holding-analysis",
-        "last_synced": "2026-08-13T10:09:00.147153Z",
+        "last_synced": "2026-08-13T10:18:41.252508Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -9975,7 +9975,7 @@
         "source_url": "https://api.skillhub.cn/user_dfbdc5ab/travel-guide",
         "source_path": "travel-guide",
         "install_url": "https://api.skillhub.cn/user_dfbdc5ab/travel-guide",
-        "last_synced": "2026-08-13T10:09:00.147726Z",
+        "last_synced": "2026-08-13T10:18:41.253402Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10020,7 +10020,7 @@
         "source_url": "https://api.skillhub.cn/user_ef14ddb2/pathclaw",
         "source_path": "pathclaw",
         "install_url": "https://api.skillhub.cn/user_ef14ddb2/pathclaw",
-        "last_synced": "2026-08-13T10:09:00.153470Z",
+        "last_synced": "2026-08-13T10:18:41.261631Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10064,7 +10064,7 @@
         "source_url": "https://api.skillhub.cn/user_88e00a20/chengeng-pension-basic-estimate",
         "source_path": "chengeng-pension-basic-estimate",
         "install_url": "https://api.skillhub.cn/user_88e00a20/chengeng-pension-basic-estimate",
-        "last_synced": "2026-08-13T10:09:00.155764Z",
+        "last_synced": "2026-08-13T10:18:41.264818Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10111,7 +10111,7 @@
         "source_url": "https://api.skillhub.cn/user_f225d7a4/workbuddy-cleanup",
         "source_path": "workbuddy-cleanup",
         "install_url": "https://api.skillhub.cn/user_f225d7a4/workbuddy-cleanup",
-        "last_synced": "2026-08-13T10:09:00.156609Z",
+        "last_synced": "2026-08-13T10:18:41.266280Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10156,7 +10156,7 @@
         "source_url": "https://api.skillhub.cn/user_d277dc19/emerging-industry-opportunity-radar",
         "source_path": "emerging-industry-opportunity-radar",
         "install_url": "https://api.skillhub.cn/user_d277dc19/emerging-industry-opportunity-radar",
-        "last_synced": "2026-08-13T10:09:00.163064Z",
+        "last_synced": "2026-08-13T10:18:41.274081Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10203,7 +10203,7 @@
         "source_url": "https://api.skillhub.cn/user_ec1ee472/laochenyanglaozhushou",
         "source_path": "laochenyanglaozhushou",
         "install_url": "https://api.skillhub.cn/user_ec1ee472/laochenyanglaozhushou",
-        "last_synced": "2026-08-13T10:09:00.165285Z",
+        "last_synced": "2026-08-13T10:18:41.277289Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10247,7 +10247,7 @@
         "source_url": "https://api.skillhub.cn/user_5b1bdbdf/focus-skill",
         "source_path": "focus-skill",
         "install_url": "https://api.skillhub.cn/user_5b1bdbdf/focus-skill",
-        "last_synced": "2026-08-13T10:09:00.167136Z",
+        "last_synced": "2026-08-13T10:18:41.280575Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10292,7 +10292,7 @@
         "source_url": "https://api.skillhub.cn/user_11b15315/skillhub-skill",
         "source_path": "skillhub-skill",
         "install_url": "https://api.skillhub.cn/user_11b15315/skillhub-skill",
-        "last_synced": "2026-08-13T10:09:00.092515Z",
+        "last_synced": "2026-08-13T10:18:41.135851Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10302,7 +10302,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 2597
+        "install_count": 2598
       },
       "platform": {
         "claude_code": true,
@@ -10337,7 +10337,7 @@
         "source_url": "https://api.skillhub.cn/user_ecc9df84/self-correction",
         "source_path": "self-correction",
         "install_url": "https://api.skillhub.cn/user_ecc9df84/self-correction",
-        "last_synced": "2026-08-13T10:09:00.102146Z",
+        "last_synced": "2026-08-13T10:18:41.149390Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10382,7 +10382,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/lvxingguanjia",
         "source_path": "lvxingguanjia",
         "install_url": "https://api.skillhub.cn/user_ef64daef/lvxingguanjia",
-        "last_synced": "2026-08-13T10:09:00.106247Z",
+        "last_synced": "2026-08-13T10:18:41.154858Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10426,7 +10426,7 @@
         "source_url": "https://api.skillhub.cn/weidecost/weide-cost-assistant",
         "source_path": "weide-cost-assistant",
         "install_url": "https://api.skillhub.cn/weidecost/weide-cost-assistant",
-        "last_synced": "2026-08-13T10:09:00.111304Z",
+        "last_synced": "2026-08-13T10:18:41.161977Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10472,7 +10472,7 @@
         "source_url": "https://api.skillhub.cn/user_5accef42/tokenoptimizer",
         "source_path": "tokenoptimizer",
         "install_url": "https://api.skillhub.cn/user_5accef42/tokenoptimizer",
-        "last_synced": "2026-08-13T10:09:00.115582Z",
+        "last_synced": "2026-08-13T10:18:41.166547Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10516,7 +10516,7 @@
         "source_url": "https://api.skillhub.cn/user_ad872d55/token-saver-master",
         "source_path": "token-saver-master",
         "install_url": "https://api.skillhub.cn/user_ad872d55/token-saver-master",
-        "last_synced": "2026-08-13T10:09:00.120990Z",
+        "last_synced": "2026-08-13T10:18:41.174883Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10562,7 +10562,7 @@
         "source_url": "https://api.skillhub.cn/user_2bda22ce/stockmatcher",
         "source_path": "stockmatcher",
         "install_url": "https://api.skillhub.cn/user_2bda22ce/stockmatcher",
-        "last_synced": "2026-08-13T10:09:00.131818Z",
+        "last_synced": "2026-08-13T10:18:41.190600Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10606,7 +10606,7 @@
         "source_url": "https://api.skillhub.cn/user_4643e8be/kingdee-mcp-connector",
         "source_path": "kingdee-mcp-connector",
         "install_url": "https://api.skillhub.cn/user_4643e8be/kingdee-mcp-connector",
-        "last_synced": "2026-08-13T10:09:00.133679Z",
+        "last_synced": "2026-08-13T10:18:41.193098Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10652,7 +10652,7 @@
         "source_url": "https://api.skillhub.cn/user_925ebf38/dwt",
         "source_path": "dwt",
         "install_url": "https://api.skillhub.cn/user_925ebf38/dwt",
-        "last_synced": "2026-08-13T10:09:00.137323Z",
+        "last_synced": "2026-08-13T10:18:41.196776Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10662,7 +10662,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 804
+        "install_count": 806
       },
       "platform": {
         "claude_code": true,
@@ -10696,7 +10696,7 @@
         "source_url": "https://api.skillhub.cn/user_52707b7b/floor-plan-generator",
         "source_path": "floor-plan-generator",
         "install_url": "https://api.skillhub.cn/user_52707b7b/floor-plan-generator",
-        "last_synced": "2026-08-13T10:09:00.139133Z",
+        "last_synced": "2026-08-13T10:18:41.199769Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10706,7 +10706,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 775
+        "install_count": 776
       },
       "platform": {
         "claude_code": true,
@@ -10742,7 +10742,7 @@
         "source_url": "https://api.skillhub.cn/user_8e8e447f/qa-team-skills",
         "source_path": "qa-team-skills",
         "install_url": "https://api.skillhub.cn/user_8e8e447f/qa-team-skills",
-        "last_synced": "2026-08-13T10:09:00.140220Z",
+        "last_synced": "2026-08-13T10:18:41.201367Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10787,7 +10787,7 @@
         "source_url": "https://api.skillhub.cn/user_8a5e88f1/stock-proactive-daily-briefing",
         "source_path": "stock-proactive-daily-briefing",
         "install_url": "https://api.skillhub.cn/user_8a5e88f1/stock-proactive-daily-briefing",
-        "last_synced": "2026-08-13T10:09:00.141695Z",
+        "last_synced": "2026-08-13T10:18:41.203421Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10834,7 +10834,7 @@
         "source_url": "https://api.skillhub.cn/user_5d00e27d/majia-prompt-translator-java",
         "source_path": "majia-prompt-translator-java",
         "install_url": "https://api.skillhub.cn/user_5d00e27d/majia-prompt-translator-java",
-        "last_synced": "2026-08-13T10:09:00.142891Z",
+        "last_synced": "2026-08-13T10:18:41.205863Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10881,7 +10881,7 @@
         "source_url": "https://api.skillhub.cn/user_8d4ddd46/token-saving",
         "source_path": "token-saving",
         "install_url": "https://api.skillhub.cn/user_8d4ddd46/token-saving",
-        "last_synced": "2026-08-13T10:09:00.148870Z",
+        "last_synced": "2026-08-13T10:18:41.255080Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10926,7 +10926,7 @@
         "source_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-ranklist-skill",
         "source_path": "lingxi-ranklist-skill",
         "install_url": "https://api.skillhub.cn/org-gaflu0dl/lingxi-ranklist-skill",
-        "last_synced": "2026-08-13T10:09:00.149148Z",
+        "last_synced": "2026-08-13T10:18:41.255414Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -10972,7 +10972,7 @@
         "source_url": "https://api.skillhub.cn/user_d925c1df/wu-xiongzhi-perspective",
         "source_path": "wu-xiongzhi-perspective",
         "install_url": "https://api.skillhub.cn/user_d925c1df/wu-xiongzhi-perspective",
-        "last_synced": "2026-08-13T10:09:00.150701Z",
+        "last_synced": "2026-08-13T10:18:41.257681Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11017,7 +11017,7 @@
         "source_url": "https://api.skillhub.cn/user_800d68d6/skill-sub",
         "source_path": "skill-sub",
         "install_url": "https://api.skillhub.cn/user_800d68d6/skill-sub",
-        "last_synced": "2026-08-13T10:09:00.152300Z",
+        "last_synced": "2026-08-13T10:18:41.259952Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11062,7 +11062,7 @@
         "source_url": "https://api.skillhub.cn/user_15292d5a/yjkj-darwin-skill-qszf",
         "source_path": "yjkj-darwin-skill-qszf",
         "install_url": "https://api.skillhub.cn/user_15292d5a/yjkj-darwin-skill-qszf",
-        "last_synced": "2026-08-13T10:09:00.156722Z",
+        "last_synced": "2026-08-13T10:18:41.266441Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11109,7 +11109,7 @@
         "source_url": "https://api.skillhub.cn/guosen-securities/guosen-stock-market-query",
         "source_path": "guosen-stock-market-query",
         "install_url": "https://api.skillhub.cn/guosen-securities/guosen-stock-market-query",
-        "last_synced": "2026-08-13T10:09:00.159784Z",
+        "last_synced": "2026-08-13T10:18:41.269350Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11156,7 +11156,7 @@
         "source_url": "https://api.skillhub.cn/user_343d53e3/disu4",
         "source_path": "disu4",
         "install_url": "https://api.skillhub.cn/user_343d53e3/disu4",
-        "last_synced": "2026-08-13T10:09:00.161541Z",
+        "last_synced": "2026-08-13T10:18:41.271917Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11200,7 +11200,7 @@
         "source_url": "https://api.skillhub.cn/user_37f0981f/xiaolu-house",
         "source_path": "xiaolu-house",
         "install_url": "https://api.skillhub.cn/user_37f0981f/xiaolu-house",
-        "last_synced": "2026-08-13T10:09:00.164250Z",
+        "last_synced": "2026-08-13T10:18:41.275844Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11245,7 +11245,7 @@
         "source_url": "https://api.skillhub.cn/user_de9e9350/cost-inquiry-assistant",
         "source_path": "cost-inquiry-assistant",
         "install_url": "https://api.skillhub.cn/user_de9e9350/cost-inquiry-assistant",
-        "last_synced": "2026-08-13T10:09:00.166109Z",
+        "last_synced": "2026-08-13T10:18:41.278392Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11291,7 +11291,7 @@
         "source_url": "https://api.skillhub.cn/guosen-securities/guosen-stock-market",
         "source_path": "guosen-stock-market",
         "install_url": "https://api.skillhub.cn/guosen-securities/guosen-stock-market",
-        "last_synced": "2026-08-13T10:09:00.168427Z",
+        "last_synced": "2026-08-13T10:18:41.282608Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11337,7 +11337,7 @@
         "source_url": "https://api.skillhub.cn/user_e02e04b8/cad-editor",
         "source_path": "cad-editor",
         "install_url": "https://api.skillhub.cn/user_e02e04b8/cad-editor",
-        "last_synced": "2026-08-13T10:09:00.054223Z",
+        "last_synced": "2026-08-13T10:18:41.125095Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11382,7 +11382,7 @@
         "source_url": "https://api.skillhub.cn/user_97585ae3/serenity-skill",
         "source_path": "serenity-skill",
         "install_url": "https://api.skillhub.cn/user_97585ae3/serenity-skill",
-        "last_synced": "2026-08-13T10:09:00.104776Z",
+        "last_synced": "2026-08-13T10:18:41.152839Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11427,7 +11427,7 @@
         "source_url": "https://api.skillhub.cn/user_a13d8d43/super-skill-helper",
         "source_path": "super-skill-helper",
         "install_url": "https://api.skillhub.cn/user_a13d8d43/super-skill-helper",
-        "last_synced": "2026-08-13T10:09:00.108777Z",
+        "last_synced": "2026-08-13T10:18:41.158292Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11473,7 +11473,7 @@
         "source_url": "https://api.skillhub.cn/user_7f864702/investmentguru",
         "source_path": "investmentguru",
         "install_url": "https://api.skillhub.cn/user_7f864702/investmentguru",
-        "last_synced": "2026-08-13T10:09:00.109444Z",
+        "last_synced": "2026-08-13T10:18:41.159297Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11517,7 +11517,7 @@
         "source_url": "https://api.skillhub.cn/user_fcba917f/contract-review-assistant",
         "source_path": "contract-review-assistant",
         "install_url": "https://api.skillhub.cn/user_fcba917f/contract-review-assistant",
-        "last_synced": "2026-08-13T10:09:00.109891Z",
+        "last_synced": "2026-08-13T10:18:41.159974Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11563,7 +11563,7 @@
         "source_url": "https://api.skillhub.cn/user_8e436d2a/jiankangguanli",
         "source_path": "jiankangguanli",
         "install_url": "https://api.skillhub.cn/user_8e436d2a/jiankangguanli",
-        "last_synced": "2026-08-13T10:09:00.124049Z",
+        "last_synced": "2026-08-13T10:18:41.179203Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11607,7 +11607,7 @@
         "source_url": "https://api.skillhub.cn/user_0f10e885/renovation-inspector",
         "source_path": "renovation-inspector",
         "install_url": "https://api.skillhub.cn/user_0f10e885/renovation-inspector",
-        "last_synced": "2026-08-13T10:09:00.125257Z",
+        "last_synced": "2026-08-13T10:18:41.180835Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11617,7 +11617,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 967
+        "install_count": 968
       },
       "platform": {
         "claude_code": true,
@@ -11652,7 +11652,7 @@
         "source_url": "https://api.skillhub.cn/user_aa01a108/fitpilot",
         "source_path": "fitpilot",
         "install_url": "https://api.skillhub.cn/user_aa01a108/fitpilot",
-        "last_synced": "2026-08-13T10:09:00.125913Z",
+        "last_synced": "2026-08-13T10:18:41.181874Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11696,7 +11696,7 @@
         "source_url": "https://api.skillhub.cn/user_f076293a/dynamic-multi-agent-system",
         "source_path": "dynamic-multi-agent-system",
         "install_url": "https://api.skillhub.cn/user_f076293a/dynamic-multi-agent-system",
-        "last_synced": "2026-08-13T10:09:00.126007Z",
+        "last_synced": "2026-08-13T10:18:41.182007Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11743,7 +11743,7 @@
         "source_url": "https://api.skillhub.cn/user_8a5e88f1/proactive-opportunity-pursuit",
         "source_path": "proactive-opportunity-pursuit",
         "install_url": "https://api.skillhub.cn/user_8a5e88f1/proactive-opportunity-pursuit",
-        "last_synced": "2026-08-13T10:09:00.128715Z",
+        "last_synced": "2026-08-13T10:18:41.186000Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11789,7 +11789,7 @@
         "source_url": "https://api.skillhub.cn/user_ac35695d/ths-hot-rank",
         "source_path": "ths-hot-rank",
         "install_url": "https://api.skillhub.cn/user_ac35695d/ths-hot-rank",
-        "last_synced": "2026-08-13T10:09:00.141759Z",
+        "last_synced": "2026-08-13T10:18:41.203529Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11835,7 +11835,7 @@
         "source_url": "https://api.skillhub.cn/user_545d9f52/stock-index",
         "source_path": "stock-index",
         "install_url": "https://api.skillhub.cn/user_545d9f52/stock-index",
-        "last_synced": "2026-08-13T10:09:00.142967Z",
+        "last_synced": "2026-08-13T10:18:41.206006Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11880,7 +11880,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/tax-high-tech-deduction",
         "source_path": "tax-high-tech-deduction",
         "install_url": "https://api.skillhub.cn/user_11064e10/tax-high-tech-deduction",
-        "last_synced": "2026-08-13T10:09:00.144508Z",
+        "last_synced": "2026-08-13T10:18:41.248095Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11890,7 +11890,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 750
+        "install_count": 751
       },
       "platform": {
         "claude_code": true,
@@ -11927,7 +11927,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/zhichangxiaolv",
         "source_path": "zhichangxiaolv",
         "install_url": "https://api.skillhub.cn/user_ef64daef/zhichangxiaolv",
-        "last_synced": "2026-08-13T10:09:00.146316Z",
+        "last_synced": "2026-08-13T10:18:41.251207Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -11971,7 +11971,7 @@
         "source_url": "https://api.skillhub.cn/user_5d00e27d/majia-prompt-translator",
         "source_path": "majia-prompt-translator",
         "install_url": "https://api.skillhub.cn/user_5d00e27d/majia-prompt-translator",
-        "last_synced": "2026-08-13T10:09:00.153549Z",
+        "last_synced": "2026-08-13T10:18:41.261742Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12017,7 +12017,7 @@
         "source_url": "https://api.skillhub.cn/user_922b1001/headroom-token-compress-wrap",
         "source_path": "headroom-token-compress-wrap",
         "install_url": "https://api.skillhub.cn/user_922b1001/headroom-token-compress-wrap",
-        "last_synced": "2026-08-13T10:09:00.154315Z",
+        "last_synced": "2026-08-13T10:18:41.262832Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12065,7 +12065,7 @@
         "source_url": "https://api.skillhub.cn/user_d219d63f/ni-haixia-perspective",
         "source_path": "ni-haixia-perspective",
         "install_url": "https://api.skillhub.cn/user_d219d63f/ni-haixia-perspective",
-        "last_synced": "2026-08-13T10:09:00.154544Z",
+        "last_synced": "2026-08-13T10:18:41.263130Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12110,7 +12110,7 @@
         "source_url": "https://api.skillhub.cn/user_aad6add3/home-renovation-assistant",
         "source_path": "home-renovation-assistant",
         "install_url": "https://api.skillhub.cn/user_aad6add3/home-renovation-assistant",
-        "last_synced": "2026-08-13T10:09:00.158415Z",
+        "last_synced": "2026-08-13T10:18:41.267336Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12120,7 +12120,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 635
+        "install_count": 636
       },
       "platform": {
         "claude_code": true,
@@ -12156,7 +12156,7 @@
         "source_url": "https://api.skillhub.cn/user_fd308b11/stock-watchlist-manager",
         "source_path": "stock-watchlist-manager",
         "install_url": "https://api.skillhub.cn/user_fd308b11/stock-watchlist-manager",
-        "last_synced": "2026-08-13T10:09:00.166332Z",
+        "last_synced": "2026-08-13T10:18:41.278685Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12184,6 +12184,50 @@
       "score": 34
     },
     {
+      "skill_id": "skillhub-cn/pc-butler",
+      "spec": {
+        "name": "pc-butler",
+        "description": "电脑管家 - 音量/亮度/熄屏/锁屏/应用管理/网络控制/截屏/剪贴板/媒体控制/内存清理/关机重启，绕过安全策略直接操作系统设置",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "platform": "skillhub",
+          "source_type": "community"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "skillhub-cn",
+        "source_type": "github_repo",
+        "source_url": "https://api.skillhub.cn/user_ad872d55/pc-butler",
+        "source_path": "pc-butler",
+        "install_url": "https://api.skillhub.cn/user_ad872d55/pc-butler",
+        "last_synced": "2026-08-13T10:18:41.282561Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 1,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 599
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "butler"
+      ],
+      "score": 34
+    },
+    {
       "skill_id": "skillhub-cn/convertible-bond",
       "spec": {
         "name": "convertible-bond",
@@ -12202,7 +12246,7 @@
         "source_url": "https://api.skillhub.cn/user_75cb66f4/convertible-bond",
         "source_path": "convertible-bond",
         "install_url": "https://api.skillhub.cn/user_75cb66f4/convertible-bond",
-        "last_synced": "2026-08-13T10:09:00.168858Z",
+        "last_synced": "2026-08-13T10:18:41.283223Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12247,7 +12291,7 @@
         "source_url": "https://api.skillhub.cn/user_c2b4521d/yidian-fayue",
         "source_path": "yidian-fayue",
         "install_url": "https://api.skillhub.cn/user_c2b4521d/yidian-fayue",
-        "last_synced": "2026-08-13T10:09:00.100664Z",
+        "last_synced": "2026-08-13T10:18:41.147286Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12257,7 +12301,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1784
+        "install_count": 1786
       },
       "platform": {
         "claude_code": true,
@@ -12292,7 +12336,7 @@
         "source_url": "https://api.skillhub.cn/user_d4c41464/pii-redact",
         "source_path": "pii-redact",
         "install_url": "https://api.skillhub.cn/user_d4c41464/pii-redact",
-        "last_synced": "2026-08-13T10:09:00.104571Z",
+        "last_synced": "2026-08-13T10:18:41.152552Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12337,7 +12381,7 @@
         "source_url": "https://api.skillhub.cn/user_fad4194b/portfolio-analysis-pro",
         "source_path": "portfolio-analysis-pro",
         "install_url": "https://api.skillhub.cn/user_fad4194b/portfolio-analysis-pro",
-        "last_synced": "2026-08-13T10:09:00.109608Z",
+        "last_synced": "2026-08-13T10:18:41.159569Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12383,7 +12427,7 @@
         "source_url": "https://api.skillhub.cn/user_f37e97ba/medical-literature-review",
         "source_path": "medical-literature-review",
         "install_url": "https://api.skillhub.cn/user_f37e97ba/medical-literature-review",
-        "last_synced": "2026-08-13T10:09:00.109855Z",
+        "last_synced": "2026-08-13T10:18:41.159929Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12393,7 +12437,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 1295
+        "install_count": 1296
       },
       "platform": {
         "claude_code": true,
@@ -12429,7 +12473,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/xiaoguotu",
         "source_path": "xiaoguotu",
         "install_url": "https://api.skillhub.cn/user_ef64daef/xiaoguotu",
-        "last_synced": "2026-08-13T10:09:00.123196Z",
+        "last_synced": "2026-08-13T10:18:41.178042Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12473,7 +12517,7 @@
         "source_url": "https://api.skillhub.cn/user_eb2ccafa/arxiv-paper-searcher",
         "source_path": "arxiv-paper-searcher",
         "install_url": "https://api.skillhub.cn/user_eb2ccafa/arxiv-paper-searcher",
-        "last_synced": "2026-08-13T10:09:00.139851Z",
+        "last_synced": "2026-08-13T10:18:41.200817Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12519,7 +12563,7 @@
         "source_url": "https://api.skillhub.cn/user_d8831e99/tongdaxin-mcp",
         "source_path": "tongdaxin-mcp",
         "install_url": "https://api.skillhub.cn/user_d8831e99/tongdaxin-mcp",
-        "last_synced": "2026-08-13T10:09:00.143798Z",
+        "last_synced": "2026-08-13T10:18:41.207235Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12564,7 +12608,7 @@
         "source_url": "https://api.skillhub.cn/user_ef64daef/gushi",
         "source_path": "gushi",
         "install_url": "https://api.skillhub.cn/user_ef64daef/gushi",
-        "last_synced": "2026-08-13T10:09:00.144289Z",
+        "last_synced": "2026-08-13T10:18:41.248197Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12608,7 +12652,7 @@
         "source_url": "https://api.skillhub.cn/user_ce145526/ba-capability-096",
         "source_path": "ba-capability-096",
         "install_url": "https://api.skillhub.cn/user_ce145526/ba-capability-096",
-        "last_synced": "2026-08-13T10:09:00.146374Z",
+        "last_synced": "2026-08-13T10:18:41.250676Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12618,7 +12662,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 754
+        "install_count": 756
       },
       "platform": {
         "claude_code": true,
@@ -12653,7 +12697,7 @@
         "source_url": "https://api.skillhub.cn/user_f6eaf3a0/song-lawyer-helper",
         "source_path": "song-lawyer-helper",
         "install_url": "https://api.skillhub.cn/user_f6eaf3a0/song-lawyer-helper",
-        "last_synced": "2026-08-13T10:09:00.101393Z",
+        "last_synced": "2026-08-13T10:18:41.148441Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12699,7 +12743,7 @@
         "source_url": "https://api.skillhub.cn/user_457a1277/cninfo-filing-scraper",
         "source_path": "cninfo-filing-scraper",
         "install_url": "https://api.skillhub.cn/user_457a1277/cninfo-filing-scraper",
-        "last_synced": "2026-08-13T10:09:00.124657Z",
+        "last_synced": "2026-08-13T10:18:41.179990Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12745,7 +12789,7 @@
         "source_url": "https://api.skillhub.cn/user_24d6975e/wechat-chat",
         "source_path": "wechat-chat",
         "install_url": "https://api.skillhub.cn/user_24d6975e/wechat-chat",
-        "last_synced": "2026-08-13T10:09:00.125090Z",
+        "last_synced": "2026-08-13T10:18:41.180621Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12790,7 +12834,7 @@
         "source_url": "https://api.skillhub.cn/user_6d9676ae/novel-multi-agent-skill",
         "source_path": "novel-multi-agent-skill",
         "install_url": "https://api.skillhub.cn/user_6d9676ae/novel-multi-agent-skill",
-        "last_synced": "2026-08-13T10:09:00.125942Z",
+        "last_synced": "2026-08-13T10:18:41.181920Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12800,7 +12844,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 937
+        "install_count": 938
       },
       "platform": {
         "claude_code": true,
@@ -12837,7 +12881,7 @@
         "source_url": "https://api.skillhub.cn/user_f40fa15b/liuyaoduangua",
         "source_path": "liuyaoduangua",
         "install_url": "https://api.skillhub.cn/user_f40fa15b/liuyaoduangua",
-        "last_synced": "2026-08-13T10:09:00.129744Z",
+        "last_synced": "2026-08-13T10:18:41.187600Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12881,7 +12925,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/expense-tracker-plus",
         "source_path": "expense-tracker-plus",
         "install_url": "https://api.skillhub.cn/user_70c2f807/expense-tracker-plus",
-        "last_synced": "2026-08-13T10:09:00.140383Z",
+        "last_synced": "2026-08-13T10:18:41.201328Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12891,7 +12935,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 764
+        "install_count": 765
       },
       "platform": {
         "claude_code": true,
@@ -12927,7 +12971,7 @@
         "source_url": "https://api.skillhub.cn/user_8509461a/wechatpay-risk-check",
         "source_path": "wechatpay-risk-check",
         "install_url": "https://api.skillhub.cn/user_8509461a/wechatpay-risk-check",
-        "last_synced": "2026-08-13T10:09:00.151123Z",
+        "last_synced": "2026-08-13T10:18:41.257729Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -12937,7 +12981,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 717
+        "install_count": 718
       },
       "platform": {
         "claude_code": true,
@@ -12973,7 +13017,7 @@
         "source_url": "https://api.skillhub.cn/user_babefe87/agent-ecosystem",
         "source_path": "agent-ecosystem",
         "install_url": "https://api.skillhub.cn/user_babefe87/agent-ecosystem",
-        "last_synced": "2026-08-13T10:09:00.155166Z",
+        "last_synced": "2026-08-13T10:18:41.264037Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13018,7 +13062,7 @@
         "source_url": "https://api.skillhub.cn/user_af2bf003/yi-you-roleplay",
         "source_path": "yi-you-roleplay",
         "install_url": "https://api.skillhub.cn/user_af2bf003/yi-you-roleplay",
-        "last_synced": "2026-08-13T10:09:00.155640Z",
+        "last_synced": "2026-08-13T10:18:41.264630Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13063,7 +13107,7 @@
         "source_url": "https://api.skillhub.cn/user_29dc410e/mahjong-helper-skill",
         "source_path": "mahjong-helper-skill",
         "install_url": "https://api.skillhub.cn/user_29dc410e/mahjong-helper-skill",
-        "last_synced": "2026-08-13T10:09:00.163001Z",
+        "last_synced": "2026-08-13T10:18:41.273991Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13109,7 +13153,7 @@
         "source_url": "https://api.skillhub.cn/user_1a470ba8/workbuddy-contract-review",
         "source_path": "workbuddy-contract-review",
         "install_url": "https://api.skillhub.cn/user_1a470ba8/workbuddy-contract-review",
-        "last_synced": "2026-08-13T10:09:00.164130Z",
+        "last_synced": "2026-08-13T10:18:41.275616Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13155,7 +13199,7 @@
         "source_url": "https://api.skillhub.cn/user_65cfe060/token-saver-king",
         "source_path": "token-saver-king",
         "install_url": "https://api.skillhub.cn/user_65cfe060/token-saver-king",
-        "last_synced": "2026-08-13T10:09:00.166395Z",
+        "last_synced": "2026-08-13T10:18:41.279520Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13201,7 +13245,7 @@
         "source_url": "https://api.skillhub.cn/user_a851fe71/cyber-runner",
         "source_path": "cyber-runner",
         "install_url": "https://api.skillhub.cn/user_a851fe71/cyber-runner",
-        "last_synced": "2026-08-13T10:09:00.167296Z",
+        "last_synced": "2026-08-13T10:18:41.280856Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13246,7 +13290,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/bid-compliance-checker",
         "source_path": "bid-compliance-checker",
         "install_url": "https://api.skillhub.cn/user_70c2f807/bid-compliance-checker",
-        "last_synced": "2026-08-13T10:09:00.142708Z",
+        "last_synced": "2026-08-13T10:18:41.204038Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13256,7 +13300,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 761
+        "install_count": 762
       },
       "platform": {
         "claude_code": true,
@@ -13292,7 +13336,7 @@
         "source_url": "https://api.skillhub.cn/user_26b924d6/foundation-due-diligence",
         "source_path": "foundation-due-diligence",
         "install_url": "https://api.skillhub.cn/user_26b924d6/foundation-due-diligence",
-        "last_synced": "2026-08-13T10:09:00.148321Z",
+        "last_synced": "2026-08-13T10:18:41.254254Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13338,7 +13382,7 @@
         "source_url": "https://api.skillhub.cn/user_231765ee/stock-roundtable-analyst",
         "source_path": "stock-roundtable-analyst",
         "install_url": "https://api.skillhub.cn/user_231765ee/stock-roundtable-analyst",
-        "last_synced": "2026-08-13T10:09:00.155710Z",
+        "last_synced": "2026-08-13T10:18:41.264736Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13384,7 +13428,7 @@
         "source_url": "https://api.skillhub.cn/user_11064e10/five-flow-compliance",
         "source_path": "five-flow-compliance",
         "install_url": "https://api.skillhub.cn/user_11064e10/five-flow-compliance",
-        "last_synced": "2026-08-13T10:09:00.159918Z",
+        "last_synced": "2026-08-13T10:18:41.269664Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13430,7 +13474,7 @@
         "source_url": "https://api.skillhub.cn/user_31c5e2a9/meta-coach",
         "source_path": "meta-coach",
         "install_url": "https://api.skillhub.cn/user_31c5e2a9/meta-coach",
-        "last_synced": "2026-08-13T10:09:00.163879Z",
+        "last_synced": "2026-08-13T10:18:41.275233Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13475,7 +13519,7 @@
         "source_url": "https://api.skillhub.cn/user_06ad406b/finance-record-qhj",
         "source_path": "finance-record-qhj",
         "install_url": "https://api.skillhub.cn/user_06ad406b/finance-record-qhj",
-        "last_synced": "2026-08-13T10:09:00.127794Z",
+        "last_synced": "2026-08-13T10:18:41.184523Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13485,7 +13529,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 954
+        "install_count": 955
       },
       "platform": {
         "claude_code": true,
@@ -13521,7 +13565,7 @@
         "source_url": "https://api.skillhub.cn/user_5237ba46/kerwin7913",
         "source_path": "kerwin7913",
         "install_url": "https://api.skillhub.cn/user_5237ba46/kerwin7913",
-        "last_synced": "2026-08-13T10:09:00.145299Z",
+        "last_synced": "2026-08-13T10:18:41.249650Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13565,7 +13609,7 @@
         "source_url": "https://api.skillhub.cn/user_6eb4c6c0/xueqiu-skill",
         "source_path": "xueqiu-skill",
         "install_url": "https://api.skillhub.cn/user_6eb4c6c0/xueqiu-skill",
-        "last_synced": "2026-08-13T10:09:00.147125Z",
+        "last_synced": "2026-08-13T10:18:41.252452Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13610,7 +13654,7 @@
         "source_url": "https://api.skillhub.cn/user_26b924d6/my-foundation-due-diligence-9",
         "source_path": "my-foundation-due-diligence-9",
         "install_url": "https://api.skillhub.cn/user_26b924d6/my-foundation-due-diligence-9",
-        "last_synced": "2026-08-13T10:09:00.147766Z",
+        "last_synced": "2026-08-13T10:18:41.253466Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13656,7 +13700,7 @@
         "source_url": "https://api.skillhub.cn/user_29051052/legal-breaker",
         "source_path": "legal-breaker",
         "install_url": "https://api.skillhub.cn/user_29051052/legal-breaker",
-        "last_synced": "2026-08-13T10:09:00.147887Z",
+        "last_synced": "2026-08-13T10:18:41.253677Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13701,7 +13745,7 @@
         "source_url": "https://api.skillhub.cn/user_6d4b0067/compliance-risk-diagnosis",
         "source_path": "compliance-risk-diagnosis",
         "install_url": "https://api.skillhub.cn/user_6d4b0067/compliance-risk-diagnosis",
-        "last_synced": "2026-08-13T10:09:00.148815Z",
+        "last_synced": "2026-08-13T10:18:41.254517Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13711,7 +13755,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 735
+        "install_count": 736
       },
       "platform": {
         "claude_code": true,
@@ -13747,7 +13791,7 @@
         "source_url": "https://api.skillhub.cn/user_70c2f807/decoration-style-quiz",
         "source_path": "decoration-style-quiz",
         "install_url": "https://api.skillhub.cn/user_70c2f807/decoration-style-quiz",
-        "last_synced": "2026-08-13T10:09:00.149072Z",
+        "last_synced": "2026-08-13T10:18:41.255041Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13757,7 +13801,7 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 733
+        "install_count": 734
       },
       "platform": {
         "claude_code": true,
@@ -13793,7 +13837,7 @@
         "source_url": "https://api.skillhub.cn/user_06ad406b/finance-record",
         "source_path": "finance-record",
         "install_url": "https://api.skillhub.cn/user_06ad406b/finance-record",
-        "last_synced": "2026-08-13T10:09:00.153214Z",
+        "last_synced": "2026-08-13T10:18:41.261287Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13838,7 +13882,7 @@
         "source_url": "https://api.skillhub.cn/user_36426f8f/pkuih-patient-service",
         "source_path": "pkuih-patient-service",
         "install_url": "https://api.skillhub.cn/user_36426f8f/pkuih-patient-service",
-        "last_synced": "2026-08-13T10:09:00.156583Z",
+        "last_synced": "2026-08-13T10:18:41.266114Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13884,7 +13928,7 @@
         "source_url": "https://api.skillhub.cn/user_e1f92728/yqzq283928",
         "source_path": "yqzq283928",
         "install_url": "https://api.skillhub.cn/user_e1f92728/yqzq283928",
-        "last_synced": "2026-08-13T10:09:00.158448Z",
+        "last_synced": "2026-08-13T10:18:41.267498Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13928,7 +13972,7 @@
         "source_url": "https://api.skillhub.cn/user_af2bf003/persona-simulate",
         "source_path": "persona-simulate",
         "install_url": "https://api.skillhub.cn/user_af2bf003/persona-simulate",
-        "last_synced": "2026-08-13T10:09:00.161440Z",
+        "last_synced": "2026-08-13T10:18:41.271782Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -13973,7 +14017,7 @@
         "source_url": "https://api.skillhub.cn/user_f134a8fd/joinkaiwu",
         "source_path": "joinkaiwu",
         "install_url": "https://api.skillhub.cn/user_f134a8fd/joinkaiwu",
-        "last_synced": "2026-08-13T10:09:00.164724Z",
+        "last_synced": "2026-08-13T10:18:41.276417Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -14017,7 +14061,7 @@
         "source_url": "https://api.skillhub.cn/user_dcfc00bb/dailyweather-v1",
         "source_path": "dailyweather-v1",
         "install_url": "https://api.skillhub.cn/user_dcfc00bb/dailyweather-v1",
-        "last_synced": "2026-08-13T10:09:00.168377Z",
+        "last_synced": "2026-08-13T10:18:41.282414Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -14061,7 +14105,7 @@
         "source_url": "https://api.skillhub.cn/user_9bf18927/body-shape-manager",
         "source_path": "body-shape-manager",
         "install_url": "https://api.skillhub.cn/user_9bf18927/body-shape-manager",
-        "last_synced": "2026-08-13T10:09:00.168401Z",
+        "last_synced": "2026-08-13T10:18:41.282454Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -14591,7 +14635,7 @@
         "source_url": "https://api.skillhub.cn/user_62e67ef7/344jkjk",
         "source_path": "344jkjk",
         "install_url": "https://api.skillhub.cn/user_62e67ef7/344jkjk",
-        "last_synced": "2026-08-13T10:09:00.164228Z",
+        "last_synced": "2026-08-13T10:18:41.275755Z",
         "upstream_commit": ""
       },
       "signals": {
@@ -17233,5 +17277,5 @@
       "score": 20
     }
   ],
-  "total": 387
+  "total": 388
 }
