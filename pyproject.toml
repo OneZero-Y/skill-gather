@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-skill-gather = "skill_store.main:cli"
+skill-gather = "skill_gather.main:cli"
 
 [tool.ruff]
 target-version = "py312"
@@ -25,6 +25,9 @@ select = ["E", "F", "I", "N", "W"]
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["skill_gather"]
 
 [dependency-groups]
 dev = [

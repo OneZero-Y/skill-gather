@@ -196,7 +196,7 @@ skill-gather daemon --interval 6 --source anthropics-skills
 | `skillhub-cn` | Web API | [skillhub.cn](https://skillhub.cn) | 已实现；分页采集 Top 500（按 score 排序） |
 | `mcpmarket-cn` | Web API | [mcpmarket.cn/skills](https://mcpmarket.cn/skills) | 已实现；分页采集前 500 条（与 GitHub 源去重） |
 
-新增数据源只需在 [`skill_store/adapters/config.yml`](skill_store/adapters/config.yml) 追加一个条目，无需修改代码。
+新增数据源只需在 [`skill_gather/adapters/config.yml`](skill_gather/adapters/config.yml) 追加一个条目，无需修改代码。
 
 ---
 
@@ -204,7 +204,7 @@ skill-gather daemon --interval 6 --source anthropics-skills
 
 ```
 skill-gather/
-├── skill_store/
+├── skill_gather/
 │   ├── adapters/
 │   │   ├── base.py           # 采集器基类 + 注册表机制
 │   │   ├── github_repo.py    # GitHub 仓库采集器
@@ -352,7 +352,7 @@ SKILL_STORE_GITHUB_TOKEN = ghp_xxxxxxxxxxxx
 
 欢迎通过以下方式参与：
 
-- **提交新数据源**：在 `skill_store/adapters/config.yml` 中追加配置，提 PR
+- **提交新数据源**：在 `skill_gather/adapters/config.yml` 中追加配置，提 PR
 - **改进分类规则**：编辑 `pipeline/normalize.py` 中的 `_CATEGORY_KEYWORDS`
 - **优化评分算法**：编辑 `pipeline/score.py` 中的权重配置
 - **接入新平台**：参照 `adapters/base.py` 的 `BaseAdapter` 接口实现新 adapter
