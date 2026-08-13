@@ -187,7 +187,7 @@ sources:
     base_url: https://api.skillhub.cn
     api_path: /api/skills
     page_size: 100
-    max_pages: 500     # total ~113k，每页500 = 227页，留60页余量
+    max_pages: 1000     # total ~113k，每页500 = 227页，留60页余量
     sort_by: score
     order: desc
 
@@ -197,6 +197,6 @@ sources:
     base_url: https://mcpmarket.cn
     api_path: /skills/api/list
     page_size: 100
-    max_pages: 500     # total ~166k，每页500 = 332页，留68页余量
+    max_pages: 1000     # total ~166k，每页500 = 332页，留68页余量
     sort_by: stars
     order: desc
