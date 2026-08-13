@@ -27,6 +27,37 @@ def _parse_frontmatter(content: str) -> dict[str, Any]:
         return {}
 
 
+def _coerce_str(value: Any) -> str | None:
+    """Convert a frontmatter value to str, handling lists and other non-str types."""
+    if value is None:
+        return None
+    if isinstance(value, str):
+        return value
+    if isinstance(value, list):
+        # e.g. compatibility: [Claude Code, Kiro] → "Claude Code, Kiro"
+        return ", ".join(str(v) for v in value)
+    if isinstance(value, dict):
+        # e.g. metadata.openclaw: {requires: {...}} → JSON-ish string
+        import json
+        try:
+            return json.dumps(value, ensure_ascii=False)
+        except Exception:
+            return str(value)
+    return str(value)
+
+
+def _coerce_metadata(value: Any) -> dict[str, str]:
+    """Coerce metadata field to dict[str, str], handling nested dicts/lists."""
+    if not isinstance(value, dict):
+        return {}
+    result: dict[str, str] = {}
+    for k, v in value.items():
+        coerced = _coerce_str(v)
+        if coerced is not None:
+            result[str(k)] = coerced
+    return result
+
+
 @register_adapter("github_repo")
 class GitHubRepoAdapter(BaseAdapter):
     """Adapter for repos containing skills in a structured directory layout.
@@ -155,9 +186,9 @@ class GitHubRepoAdapter(BaseAdapter):
             source_id=self.config.id,
             source_url=source_url,
             source_path=f"{self.skill_root}/{skill_name}",
-            license=license_val,
-            compatibility=frontmatter.get("compatibility"),
-            metadata=frontmatter.get("metadata") or {},
+            license=_coerce_str(license_val),
+            compatibility=_coerce_str(frontmatter.get("compatibility")),
+            metadata=_coerce_metadata(frontmatter.get("metadata")),
             has_scripts=has_scripts,
             has_references=has_references,
             file_count=len(skill_files),
@@ -271,9 +302,9 @@ class GitHubRepoListAdapter(BaseAdapter):
             source_id=self.config.id,
             source_url=f"https://github.com/{repo}",
             source_path=skill_path,
-            license=frontmatter.get("license") or (repo_info.get("license") or {}).get("spdx_id"),
-            compatibility=frontmatter.get("compatibility"),
-            metadata=frontmatter.get("metadata") or {},
+            license=_coerce_str(frontmatter.get("license") or (repo_info.get("license") or {}).get("spdx_id")),
+            compatibility=_coerce_str(frontmatter.get("compatibility")),
+            metadata=_coerce_metadata(frontmatter.get("metadata")),
             repo_stars=stars,
             last_commit_date=last_push[:10] if last_push else None,
             has_scripts=False,
