@@ -71,13 +71,16 @@ def _pick_featured(rows: list[dict], n: int = 12) -> list[dict]:
                 if len(featured) >= n:
                     break
     return featured
+
+
+def main() -> None:
     if not REGISTRY.exists():
         raise SystemExit(f"Registry not found: {REGISTRY} — run skill-gather sync first.")
 
     with open(REGISTRY, encoding="utf-8") as f:
         skills_raw = json.load(f)["skills"]
 
-    meta = {}
+    meta: dict = {}
     if META.exists():
         with open(META, encoding="utf-8") as f:
             meta = json.load(f)
@@ -105,7 +108,7 @@ def _pick_featured(rows: list[dict], n: int = 12) -> list[dict]:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(rows),
         "site": {
-            "title": "Skill Store",
+            "title": "Skill Gather",
             "description": "AI Agent Skill 发现引擎 · 兼容性注册表",
         },
         "meta": {

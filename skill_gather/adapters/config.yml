@@ -113,8 +113,8 @@ sources:
     platform: skillhub
     base_url: https://api.skillhub.cn
     api_path: /api/skills
-    page_size: 50
-    max_pages: 10
+    page_size: 100
+    max_pages: 20      # 最多 2000 条
     sort_by: score
     order: desc
 
@@ -124,4 +124,4 @@ sources:
     base_url: https://mcpmarket.cn
     api_path: /skills/api/list
     page_size: 100
-    max_pages: 5
+    max_pages: 20      # 最多 2000 条
