@@ -8,6 +8,9 @@ interface HomeHeroProps {
   skills: Skill[];
   total: number;
   lastSynced?: string | null;
+  added?: number;
+  removed?: number;
+  sourcesCount?: number;
   onBrowseCategories: () => void;
   onBrowseSources?: () => void;
 }
@@ -44,8 +47,11 @@ function AnimatedCounter({ target }: { target: number }) {
   return <>{value.toLocaleString()}</>;
 }
 
-export function HomeHero({ skills, total, lastSynced: _lastSynced, onBrowseCategories, onBrowseSources }: HomeHeroProps) {
+export function HomeHero({ skills, total, lastSynced: _lastSynced, added, removed, sourcesCount, onBrowseCategories, onBrowseSources }: HomeHeroProps) {
   const { t, locale } = useI18n();
+
+  // Net new = added - removed (only show if positive)
+  const netNew = ((added ?? 0) - (removed ?? 0));
 
   return (
     <section className="hero-grid relative overflow-hidden border-b border-border/60 px-4 py-12 md:px-6 md:py-20">
@@ -77,9 +83,21 @@ export function HomeHero({ skills, total, lastSynced: _lastSynced, onBrowseCateg
             <div className="font-display text-3xl font-bold text-foreground md:text-4xl">
               <AnimatedCounter target={total} />
             </div>
-            <div className="mt-0.5 text-xs text-muted">
-              {locale === 'zh' ? '个 Skill' : 'Skills'}
-            </div>
+            {/* Net-new badge from last sync */}
+            {netNew > 0 ? (
+              <div className="mt-1 flex items-center justify-center gap-1">
+                <span className="text-xs text-muted">
+                  {locale === 'zh' ? '个 Skill' : 'Skills'}
+                </span>
+                <span className="inline-flex items-center gap-0.5 rounded-full bg-green-500/15 px-1.5 py-0.5 text-[10px] font-medium text-green-400 ring-1 ring-green-500/20">
+                  ↑ +{netNew.toLocaleString()}
+                </span>
+              </div>
+            ) : (
+              <div className="mt-0.5 text-xs text-muted">
+                {locale === 'zh' ? '个 Skill' : 'Skills'}
+              </div>
+            )}
           </div>
           <div className="h-10 w-px bg-border" />
           <div className="text-center">
@@ -93,7 +111,7 @@ export function HomeHero({ skills, total, lastSynced: _lastSynced, onBrowseCateg
           <div className="h-10 w-px bg-border" />
           <div className="text-center">
             <div className="font-display text-3xl font-bold text-foreground md:text-4xl">
-              <AnimatedCounter target={9} />
+              <AnimatedCounter target={sourcesCount ?? 0} />
             </div>
             <div className="mt-0.5 text-xs text-muted">
               {locale === 'zh' ? '个数据源' : 'Sources'}

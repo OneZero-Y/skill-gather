@@ -167,8 +167,15 @@ const MESSAGES = {
 
 export type MessageKey = keyof typeof MESSAGES.zh;
 
-export function resolveLocale(stored: string | null, _browserLang?: string): Locale {
+export function resolveLocale(stored: string | null, browserLang?: string): Locale {
+  // 1. Explicit user choice takes priority
   if (stored === 'zh' || stored === 'en') return stored;
+  // 2. Detect from browser language (navigator.language)
+  if (browserLang) {
+    const lang = browserLang.toLowerCase();
+    if (lang.startsWith('zh')) return 'zh';
+  }
+  // 3. Default to English
   return 'en';
 }
 

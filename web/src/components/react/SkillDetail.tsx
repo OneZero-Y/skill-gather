@@ -71,7 +71,9 @@ function SkillDetailContent({ skill }: SkillDetailProps) {
             </span>
           </div>
 
-          <p className="mt-6 text-sm leading-relaxed text-foreground/90">{skill.description}</p>
+          <p className="mt-6 text-sm leading-relaxed text-foreground/90">
+            {skill.description_full || skill.description}
+          </p>
 
           <dl className="mt-8 grid gap-4 sm:grid-cols-2">
             <MetaItem label={t('category')}>{categoryLabel(skill.category)}</MetaItem>

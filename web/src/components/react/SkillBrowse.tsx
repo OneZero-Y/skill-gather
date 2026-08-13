@@ -53,41 +53,100 @@ function SkillBrowseContent({ data }: SkillBrowseProps) {
   const [sort, setSort] = useState<SortKey>(initSort);
   const [page, setPage] = useState(initPage);
 
-  const categoryOptions = useMemo(
+  // ------------------------------------------------------------------ //
+  // Derived counts — recomputed whenever the other two active filters change
+  // so each facet shows "how many results if I pick this option"
+  // ------------------------------------------------------------------ //
+
+  // Skills filtered by everything EXCEPT category (for sidebar counts)
+  const filteredWithoutCategory = useMemo(
     () =>
-      data.categories.map((c) => ({
-        id: c.id,
-        label: categoryLabel(c.id),
-        count: c.count,
-      })),
-    [data.categories, categoryLabel],
+      data.skills.filter((skill) => {
+        if (source !== 'all' && skill.source !== source) return false;
+        if (platform !== 'all' && !skill.platforms.includes(platform)) return false;
+        return true;
+      }),
+    [data.skills, source, platform],
   );
 
-  const categoryGroups = useMemo(
+  // Skills filtered by everything EXCEPT platform (for platform badge counts)
+  const filteredWithoutPlatform = useMemo(
     () =>
-      groupCategories(categoryOptions).map((g) => ({
+      data.skills.filter((skill) => {
+        if (category !== 'all' && skill.category !== category) return false;
+        if (source !== 'all' && skill.source !== source) return false;
+        return true;
+      }),
+    [data.skills, category, source],
+  );
+
+  // Skills filtered by everything EXCEPT source (for source dropdown counts)
+  const filteredWithoutSource = useMemo(
+    () =>
+      data.skills.filter((skill) => {
+        if (category !== 'all' && skill.category !== category) return false;
+        if (platform !== 'all' && !skill.platforms.includes(platform)) return false;
+        return true;
+      }),
+    [data.skills, category, platform],
+  );
+
+  // Dynamic category counts (sidebar)
+  const dynamicCategoryOptions = useMemo(() => {
+    const counts: Record<string, number> = { all: filteredWithoutCategory.length };
+    for (const skill of filteredWithoutCategory) {
+      counts[skill.category] = (counts[skill.category] ?? 0) + 1;
+    }
+    return data.categories.map((c) => ({
+      id: c.id,
+      label: categoryLabel(c.id),
+      count: counts[c.id] ?? 0,
+    }));
+  }, [filteredWithoutCategory, data.categories, categoryLabel]);
+
+  const dynamicCategoryGroups = useMemo(
+    () =>
+      groupCategories(dynamicCategoryOptions).map((g) => ({
         groupId: g.groupId,
         groupLabel: getCategoryGroupLabel(locale, g.groupId),
         items: g.items,
       })),
-    [categoryOptions, locale],
+    [dynamicCategoryOptions, locale],
   );
 
-  const categoryStripItems = useMemo(
-    () => [{ id: 'all', label: t('filterAll'), count: data.total }, ...categoryOptions],
-    [categoryOptions, data.total, t],
+  // Dynamic category strip (mobile)
+  const dynamicCategoryStripItems = useMemo(
+    () => [
+      { id: 'all', label: t('filterAll'), count: filteredWithoutCategory.length },
+      ...dynamicCategoryOptions,
+    ],
+    [dynamicCategoryOptions, filteredWithoutCategory.length, t],
   );
 
+  // Dynamic platform counts
   const platformCounts = useMemo(() => {
-    const counts: Record<string, number> = { all: data.total };
+    const counts: Record<string, number> = { all: filteredWithoutPlatform.length };
     for (const id of PLATFORM_IDS) counts[id] = 0;
-    for (const skill of data.skills) {
+    for (const skill of filteredWithoutPlatform) {
       for (const p of skill.platforms) {
         if (p in counts) counts[p] += 1;
       }
     }
     return counts;
-  }, [data.skills, data.total]);
+  }, [filteredWithoutPlatform]);
+
+  // Dynamic source counts
+  const dynamicSourceOptions = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const skill of filteredWithoutSource) {
+      counts[skill.source] = (counts[skill.source] ?? 0) + 1;
+    }
+    return data.sources.map((s) => ({
+      id: s.id,
+      label: s.id,
+      count: counts[s.id] ?? 0,
+    }));
+  }, [filteredWithoutSource, data.sources]);
 
   const filtered = useMemo(() => {
     let list = data.skills.filter((skill) => {
@@ -142,15 +201,15 @@ function SkillBrowseContent({ data }: SkillBrowseProps) {
     <div className="mx-auto flex max-w-7xl gap-0 px-4 md:px-6">
         <CategorySidebar
           title={t('filterCategory')}
-          allItem={{ id: 'all', label: t('filterAll'), count: data.total }}
-          groups={categoryGroups}
+          allItem={{ id: 'all', label: t('filterAll'), count: filteredWithoutCategory.length }}
+          groups={dynamicCategoryGroups}
           active={category}
           onSelect={setCategory}
         />
 
         <main className="min-w-0 flex-1 py-6 lg:pl-6">
           <section className="mb-6 lg:hidden">
-            <CategoryStrip items={categoryStripItems} active={category} onSelect={setCategory} />
+            <CategoryStrip items={dynamicCategoryStripItems} active={category} onSelect={setCategory} />
           </section>
 
           <section>
@@ -167,8 +226,8 @@ function SkillBrowseContent({ data }: SkillBrowseProps) {
 
             <ListFilters
               sources={[
-                { id: 'all', label: t('filterAll'), count: data.total },
-                ...data.sources.map((s) => ({ id: s.id, label: s.id, count: s.count })),
+                { id: 'all', label: t('filterAll'), count: filteredWithoutSource.length },
+                ...dynamicSourceOptions,
               ]}
               platforms={[
                 { id: 'all', label: t('filterAll'), count: platformCounts.all },

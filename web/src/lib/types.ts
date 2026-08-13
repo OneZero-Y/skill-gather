@@ -4,6 +4,8 @@ export const SkillSchema = z.object({
   id: z.string(),
   name: z.string(),
   description: z.string(),
+  // 完整描述，用于 detail 页面；列表视图使用截断后的 description
+  description_full: z.string().optional().default(''),
   category: z.string(),
   score: z.number(),
   tags: z.array(z.coerce.string()),

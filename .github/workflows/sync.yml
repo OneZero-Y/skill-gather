@@ -52,7 +52,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add registry/ README.md web/data/skills.yml
+          git add registry/skills.json registry/meta.json registry/skills_sh_installs.json README.md web/data/skills.yml
           # Only commit if there are changes
           git diff --cached --quiet || git commit -m "chore: sync registry $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push

@@ -79,6 +79,9 @@ function SkillHomeContent({ data }: SkillHomeProps) {
         skills={data.skills}
         total={data.total}
         lastSynced={data.meta?.last_synced}
+        added={data.meta?.changelog?.added}
+        removed={data.meta?.changelog?.removed}
+        sourcesCount={data.meta?.sources_count ?? data.sources.length}
         onBrowseCategories={scrollToCategories}
         onBrowseSources={scrollToSources}
       />

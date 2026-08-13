@@ -53,10 +53,14 @@ def _row(skill: dict) -> dict:
     discovery = skill.get("discovery", {})
     signals = skill.get("signals", {})
     platform = skill.get("platform", {})
+    desc = str((spec.get("description") or ""))
     return {
         "id": str(skill.get("skill_id", "")),
         "name": str(spec.get("name", "")),
-        "description": str((spec.get("description") or ""))[:500],
+        # 列表视图 line-clamp-2 ~80字符，detail 页面由 SSG 各自内联完整数据
+        # 160 字符足够列表展示，可节省 ~20% skills.yml 体积
+        "description": desc[:160],
+        "description_full": desc[:1024],  # detail 页面用
         "category": str(skill.get("category", "other")),
         "score": int(skill.get("score", 0)),
         "tags": [str(t) for t in skill.get("tags", [])][:8],

@@ -203,10 +203,13 @@ class WebApiAdapter(BaseAdapter):
 
         with self._client() as client:
             for page in range(1, self.max_pages + 1):
-                resp = client.get(
-                    f"{site_base}{path}",
-                    params={"page": page, "per_page": self.page_size},
-                )
+                params: dict[str, str | int] = {"page": page, "per_page": self.page_size}
+                if self.sort_by:
+                    params["sort"] = self.sort_by
+                if self.order:
+                    params["order"] = self.order
+
+                resp = client.get(f"{site_base}{path}", params=params)
                 if resp.status_code != 200:
                     self.logger.error(
                         "MCP Market API returned %d on page %d", resp.status_code, page
