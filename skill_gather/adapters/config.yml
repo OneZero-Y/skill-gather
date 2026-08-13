@@ -91,12 +91,8 @@ sources:
     skill_marker: SKILL.md
 
   # AI 研究工程 skill（RAG、向量数据库等）
-  - id: orchestra-ai-research-skills
-    adapter: github_repo
-    repo: Orchestra-Research/AI-Research-SKILLs
-    branch: main
-    skill_root: .
-    skill_marker: SKILL.md
+  # 目录结构不规则（01-xxx/SKILL.md），改为 github_repo_list 处理整个 repo
+  # 已移至 community-repos 列表
 
   # ──────────────────────────────────────────────────────────
   # Tier 2: Awesome-list (parse README for skill repo links)
@@ -165,6 +161,7 @@ sources:
       - machina-sports/sports-skills        # 体育数据 + 预测市场 skill
       - arpitg1304/robotics-agent-skills    # ROS1/ROS2 机器人 skill
       - ajhcs/healthcare-agents             # 51 个医疗行政 skill
+      - Orchestra-Research/AI-Research-SKILLs  # AI 研究 skill（RAG/qdrant 等，用单 repo 模式）
 
   # ──────────────────────────────────────────────────────────
   # Tier 4: skills.sh — install-count signals
