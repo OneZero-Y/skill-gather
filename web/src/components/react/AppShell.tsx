@@ -39,7 +39,7 @@ function AppShellContent({ title, updatedDate, children }: AppShellProps) {
       {children}
 
       <footer className="mt-8 border-t border-border px-6 py-6 text-center text-xs text-muted">
-        Skill Store · {t('footerUpdated', { date: updatedDate })}
+        {title} · {t('footerUpdated', { date: updatedDate })}
       </footer>
     </div>
   );

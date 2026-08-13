@@ -77,7 +77,7 @@ function SkillHomeContent({ data }: SkillHomeProps) {
           title={t('featured')}
           skills={data.featured.slice(0, 8)}
           viewAllLabel={t('viewAll')}
-          viewAllHref={browseAllPath()}
+          viewAllHref={browseAllPath({ sort: 'score' })}
         />
 
         {officialSkills.length > 0 && (
@@ -85,7 +85,7 @@ function SkillHomeContent({ data }: SkillHomeProps) {
             title={t('officialSkills')}
             skills={officialSkills}
             viewAllLabel={t('viewAll')}
-            viewAllHref={browseAllPath()}
+            viewAllHref={browseAllPath({ source: 'anthropics-skills' })}
           />
         )}
 
