@@ -1,0 +1,547 @@
+{
+  "source_id": "microsoft-vscode-skills",
+  "skills": [
+    {
+      "skill_id": "microsoft/vscode/act-on-feedback",
+      "spec": {
+        "name": "act-on-feedback",
+        "description": "Act on user feedback attached to the current session. Use when the user submits feedback on the session's changes via the Submit Feedback button.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/act-on-feedback",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/act-on-feedback",
+        "last_synced": "2026-08-14T03:15:42.230848Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "act",
+        "feedback"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/code-review",
+      "spec": {
+        "name": "code-review",
+        "description": "Perform a code review of the current session's changes. Use when the user requests a code review via the Run Code Review button in the Changes toolbar.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/code-review",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/code-review",
+        "last_synced": "2026-08-14T03:15:42.230918Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "code",
+        "review"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/commit",
+      "spec": {
+        "name": "commit",
+        "description": "Commit staged or unstaged changes with an AI-generated commit message that matches the repository's existing commit style. Use when the user asks to 'commit', 'commit changes', 'create a commit', 'save my work', or 'check in code'.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/commit",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/commit",
+        "last_synced": "2026-08-14T03:15:42.230971Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "commit"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/create-draft-pr",
+      "spec": {
+        "name": "create-draft-pr",
+        "description": "Create a draft pull request for the current session. Use when the user wants to open a draft PR with the session's changes.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/create-draft-pr",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-draft-pr",
+        "last_synced": "2026-08-14T03:15:42.231034Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "create",
+        "draft"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/fix-ci",
+      "spec": {
+        "name": "fix-ci",
+        "description": "Fix the failed CI checks for the current session. Use when the user requests a CI fix via the Fix Checks button in the Changes toolbar.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/fix-ci",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/fix-ci",
+        "last_synced": "2026-08-14T03:15:42.231129Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "fix"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/generate-run-commands",
+      "spec": {
+        "name": "generate-run-commands",
+        "description": "Generate or modify run commands for the current session. Use when the user wants to set up or update run commands that appear in the session's Run button.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/generate-run-commands",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/generate-run-commands",
+        "last_synced": "2026-08-14T03:15:42.231175Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "commands",
+        "generate",
+        "run"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/merge",
+      "spec": {
+        "name": "merge",
+        "description": "Merge changes from the topic branch to the merge base branch. Use when the user wants to merge their session's work back to the base branch.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/merge",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/merge",
+        "last_synced": "2026-08-14T03:15:42.231225Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "merge"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/sync-upstream",
+      "spec": {
+        "name": "sync-upstream",
+        "description": "Update a stale session branch by rebasing onto the latest origin. Use when the upstream has moved significantly and the session needs to catch up, resolving conflicts by preserving upstream changes and adapting session work to fit.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/sync-upstream",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync-upstream",
+        "last_synced": "2026-08-14T03:15:42.231275Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "sync",
+        "upstream"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/sync",
+      "spec": {
+        "name": "sync",
+        "description": "Sync the current session branch with its upstream branch, or publish the current session branch to a remote. Use when the user asks to sync a branch, pull latest changes, rebase onto upstream, push current branch, publish branch, or set upstream.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/sync",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync",
+        "last_synced": "2026-08-14T03:15:42.231339Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "sync"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/troubleshoot",
+      "spec": {
+        "name": "troubleshoot",
+        "description": "Investigate unexpected behavior in the current Copilot agent session by analyzing its event log. Use when the user asks why something happened, why a request was slow, why a tool was or was not used, or why instructions/skills/agents did not load.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/troubleshoot",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/troubleshoot",
+        "last_synced": "2026-08-14T03:15:42.231397Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "troubleshoot"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/update-skills",
+      "spec": {
+        "name": "update-skills",
+        "description": "Create or update repository skills and instructions when major learnings are discovered during a session. Use when the user says \"learn!\", when a significant pattern or pitfall is identified, or when reusable domain knowledge should be captured for future sessions.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/update-skills",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-skills",
+        "last_synced": "2026-08-14T03:15:42.231558Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "skills",
+        "update"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "microsoft/vscode/create-pr",
+      "spec": {
+        "name": "create-pr",
+        "description": "Create a pull request for the current session. Use when the user wants to open a PR with the session's changes.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/create-pr",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-pr",
+        "last_synced": "2026-08-14T03:15:42.231081Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "create"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "microsoft/vscode/update-pr",
+      "spec": {
+        "name": "update-pr",
+        "description": "Update the pull request for the current session. Use when the user wants to push new changes to an existing PR.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "microsoft-vscode-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/microsoft/vscode",
+        "source_path": "src/vs/sessions/skills/update-pr",
+        "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-pr",
+        "last_synced": "2026-08-14T03:15:42.231509Z",
+        "upstream_commit": "96f2210282fa"
+      },
+      "signals": {
+        "repo_stars": 188675,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "update"
+      ],
+      "score": 42
+    }
+  ],
+  "total": 13,
+  "generated_at": "2026-08-14T03:15:43.586832+00:00"
+}

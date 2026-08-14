@@ -1,0 +1,1243 @@
+{
+  "source_id": "bytedance-deerflow",
+  "skills": [
+    {
+      "skill_id": "bytedance/deer-flow/chart-visualization",
+      "spec": {
+        "name": "chart-visualization",
+        "description": "This skill should be used when the user wants to visualize data. It intelligently selects the most suitable chart type from 26 available options, extracts parameters based on detailed specifications, and generates a chart image using a JavaScript script.",
+        "license": "",
+        "compatibility": "{\"nodejs\": \">=18.0.0\"}",
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/chart-visualization",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/chart-visualization",
+        "last_synced": "2026-08-14T03:15:42.233122Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 30,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "chart",
+        "javascript",
+        "visualization"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "bytedance/deer-flow/skill-creator",
+      "spec": {
+        "name": "skill-creator",
+        "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-creator",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-creator",
+        "last_synced": "2026-08-14T03:15:42.234267Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 25,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "creator",
+        "skill"
+      ],
+      "score": 72
+    },
+    {
+      "skill_id": "bytedance/deer-flow/github-deep-research",
+      "spec": {
+        "name": "github-deep-research",
+        "description": "Conduct multi-round deep research on any GitHub Repo. Use when users request comprehensive analysis, timeline reconstruction, competitive analysis, or in-depth investigation of GitHub. Produces structured markdown reports with executive summaries, chronological timelines, metrics analysis, and Mermaid diagrams. Triggers on Github repository URL or open source projects.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/github-deep-research",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/github-deep-research",
+        "last_synced": "2026-08-14T03:15:42.233820Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "deep",
+        "github",
+        "research"
+      ],
+      "score": 64
+    },
+    {
+      "skill_id": "bytedance/deer-flow/image-generation",
+      "spec": {
+        "name": "image-generation",
+        "description": "Use this skill when the user requests to generate, create, imagine, or visualize images including characters, scenes, products, or any visual content. Supports structured prompts and reference images for guided generation.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/image-generation",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/image-generation",
+        "last_synced": "2026-08-14T03:15:42.233915Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "generation",
+        "image"
+      ],
+      "score": 64
+    },
+    {
+      "skill_id": "bytedance/deer-flow/podcast-generation",
+      "spec": {
+        "name": "podcast-generation",
+        "description": "Use this skill when the user requests to generate, create, or produce podcasts from text content. Converts written content into a two-host conversational podcast audio format with natural dialogue.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/podcast-generation",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/podcast-generation",
+        "last_synced": "2026-08-14T03:15:42.234151Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "generation",
+        "podcast"
+      ],
+      "score": 64
+    },
+    {
+      "skill_id": "bytedance/deer-flow/systematic-literature-review",
+      "spec": {
+        "name": "systematic-literature-review",
+        "description": "Use this skill when the user wants a systematic literature review, survey, or synthesis across multiple academic papers on a topic. Also covers annotated bibliographies and cross-paper comparisons. Searches arXiv and outputs reports in APA, IEEE, or BibTeX format. Not for single-paper tasks — use academic-paper-review for reviewing one paper.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/systematic-literature-review",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/systematic-literature-review",
+        "last_synced": "2026-08-14T03:15:42.234767Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "literature",
+        "review",
+        "systematic"
+      ],
+      "score": 64
+    },
+    {
+      "skill_id": "bytedance/deer-flow/vercel-deploy",
+      "spec": {
+        "name": "vercel-deploy",
+        "description": "Deploy applications and websites to Vercel. Use this skill when the user requests deployment actions such as \"Deploy my app\", \"Deploy this to production\", \"Create a preview deployment\", \"Deploy and give me the link\", or \"Push this live\". No authentication required - returns preview URL and claimable deployment link.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "author": "vercel",
+          "version": "1.0.0"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/vercel-deploy-claimable",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/vercel-deploy-claimable",
+        "last_synced": "2026-08-14T03:15:42.234862Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "deploy",
+        "vercel"
+      ],
+      "score": 63
+    },
+    {
+      "skill_id": "bytedance/deer-flow/claude-to-deerflow",
+      "spec": {
+        "name": "claude-to-deerflow",
+        "description": "Interact with DeerFlow AI agent platform via its HTTP API. Use this skill when the user wants to send messages or questions to DeerFlow for research/analysis, start a DeerFlow conversation thread, check DeerFlow status or health, list available models/skills/agents in DeerFlow, manage DeerFlow memory, upload files to DeerFlow threads, or delegate complex research tasks to DeerFlow. Also use when the user mentions deerflow, deer flow, or wants to run a deep research task that DeerFlow can handle.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/claude-to-deerflow",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/claude-to-deerflow",
+        "last_synced": "2026-08-14T03:15:42.233192Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "claude",
+        "deerflow"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "bytedance/deer-flow/data-analysis",
+      "spec": {
+        "name": "data-analysis",
+        "description": "Use this skill when the user uploads Excel (.xlsx/.xls) or CSV files and wants to perform data analysis, generate statistics, create summaries, pivot tables, SQL queries, or any form of structured data exploration. Supports multi-sheet Excel workbooks, aggregation, filtering, joins, and exporting results to CSV/JSON/Markdown.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/data-analysis",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/data-analysis",
+        "last_synced": "2026-08-14T03:15:42.233516Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "analysis",
+        "data",
+        "xlsx"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "bytedance/deer-flow/find-skills",
+      "spec": {
+        "name": "find-skills",
+        "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/find-skills",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/find-skills",
+        "last_synced": "2026-08-14T03:15:42.233666Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "find",
+        "skills"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "bytedance/deer-flow/music-generation",
+      "spec": {
+        "name": "music-generation",
+        "description": "Use this skill when the user requests to generate, create, compose, or produce music or songs — background music, theme songs, jingles, or instrumental tracks. Generates a song from a style/mood prompt and optional lyrics via the MiniMax music API.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/music-generation",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/music-generation",
+        "last_synced": "2026-08-14T03:15:42.233982Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "api",
+        "generation",
+        "music"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "bytedance/deer-flow/ppt-generation",
+      "spec": {
+        "name": "ppt-generation",
+        "description": "Use this skill when the user requests to generate, create, or make presentations (PPT/PPTX). Creates visually rich slides by generating images for each slide and composing them into a PowerPoint file.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/ppt-generation",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/ppt-generation",
+        "last_synced": "2026-08-14T03:15:42.234209Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "generation",
+        "ppt",
+        "pptx"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "bytedance/deer-flow/video-generation",
+      "spec": {
+        "name": "video-generation",
+        "description": "Use this skill when the user requests to generate, create, or imagine videos. Supports structured prompts and reference image for guided generation.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/video-generation",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/video-generation",
+        "last_synced": "2026-08-14T03:15:42.234954Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "generation",
+        "video"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "bytedance/deer-flow/bootstrap",
+      "spec": {
+        "name": "bootstrap",
+        "description": "Generate a personalized SOUL.md through a warm, adaptive onboarding conversation. Trigger when the user wants to create, set up, or initialize their AI partner's identity — e.g., \"create my SOUL.md\", \"bootstrap my agent\", \"set up my AI partner\", \"define who you are\", \"let's do onboarding\", \"personalize this AI\", \"make you mine\", or when a SOUL.md is missing. Also trigger for updates: \"update my SOUL.md\", \"change my AI's personality\", \"tweak the soul\".",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/bootstrap",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/bootstrap",
+        "last_synced": "2026-08-14T03:15:42.233014Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "bootstrap"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "bytedance/deer-flow/skill-reviewer",
+      "spec": {
+        "name": "skill-reviewer",
+        "description": "Reviews DeerFlow skill packages for readiness, triggers, safety boundaries, resources, and evidence. Invoke when users ask to audit, grade, or production-check an existing skill.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-reviewer",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer",
+        "last_synced": "2026-08-14T03:15:42.234337Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 22,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "reviewer",
+        "skill"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "bytedance/deer-flow/frontend-design",
+      "spec": {
+        "name": "frontend-design",
+        "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+        "license": "Complete terms in LICENSE.txt",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/frontend-design",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/frontend-design",
+        "last_synced": "2026-08-14T03:15:42.233736Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 2,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "design",
+        "frontend",
+        "react"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "bytedance/deer-flow/web-design-guidelines",
+      "spec": {
+        "name": "web-design-guidelines",
+        "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "author": "vercel",
+          "version": "1.0.0",
+          "argument-hint": "<file-or-pattern>"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/web-design-guidelines",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/web-design-guidelines",
+        "last_synced": "2026-08-14T03:15:42.235011Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "design",
+        "guidelines",
+        "web"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "bytedance/deer-flow/academic-paper-review",
+      "spec": {
+        "name": "academic-paper-review",
+        "description": "Use this skill when the user requests to review, analyze, critique, or summarize academic papers, research articles, preprints, or scientific publications. Supports comprehensive structured reviews covering methodology assessment, contribution evaluation, literature positioning, and constructive feedback generation. Trigger on queries involving paper URLs, uploaded PDFs, arXiv links, or requests like \"review this paper\", \"analyze this research\", \"summarize this study\", or \"write a peer review\".",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/academic-paper-review",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/academic-paper-review",
+        "last_synced": "2026-08-14T03:15:42.232914Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "academic",
+        "paper",
+        "review"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "bytedance/deer-flow/code-documentation",
+      "spec": {
+        "name": "code-documentation",
+        "description": "Use this skill when the user requests to generate, create, or improve documentation for code, APIs, libraries, repositories, or software projects. Supports README generation, API reference documentation, inline code comments, architecture documentation, changelog generation, and developer guides. Trigger on requests like \"document this code\", \"create a README\", \"generate API docs\", \"write developer guide\", or when analyzing codebases for documentation purposes.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/code-documentation",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/code-documentation",
+        "last_synced": "2026-08-14T03:15:42.233291Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "code",
+        "documentation"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "bytedance/deer-flow/consulting-analysis",
+      "spec": {
+        "name": "consulting-analysis",
+        "description": "Use this skill when the user requests to generate, create, or write professional research reports including but not limited to market analysis, consumer insights, brand analysis, financial analysis, industry research, competitive intelligence, investment due diligence, or any consulting-grade analytical report. This skill operates in two phases — (1) generating a structured analysis framework with chapter skeleton, data query requirements, and analysis logic, and (2) after data collection by other skills, producing the final consulting-grade report with structured narratives, embedded charts, and strategic insights.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/consulting-analysis",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/consulting-analysis",
+        "last_synced": "2026-08-14T03:15:42.233385Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "analysis",
+        "consulting"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "bytedance/deer-flow/deep-research",
+      "spec": {
+        "name": "deep-research",
+        "description": "Use this skill instead of WebSearch for ANY question requiring web research. Trigger on queries like \"what is X\", \"explain X\", \"compare X and Y\", \"research X\", or before content generation tasks. Provides systematic multi-angle research methodology instead of single superficial searches. Use this proactively when the user's question needs online information.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/deep-research",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/deep-research",
+        "last_synced": "2026-08-14T03:15:42.233593Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "deep",
+        "research"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "bytedance/deer-flow/newsletter-generation",
+      "spec": {
+        "name": "newsletter-generation",
+        "description": "Use this skill when the user requests to generate, create, write, or draft a newsletter, email digest, weekly roundup, industry briefing, or curated content summary. Supports topic-based research, content curation from multiple sources, and professional formatting for email or web distribution. Trigger on requests like \"create a newsletter about X\", \"write a weekly digest\", \"generate a tech roundup\", or \"curate news about Y\".",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/newsletter-generation",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/newsletter-generation",
+        "last_synced": "2026-08-14T03:15:42.234061Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "generation",
+        "newsletter"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "bytedance/deer-flow/example-safe-skill",
+      "spec": {
+        "name": "example-safe-skill",
+        "description": "Reviews a single Markdown troubleshooting note for clarity. Invoke when the user asks to improve a provided troubleshooting note.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-reviewer/evals/fixtures/publish-candidate",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/publish-candidate",
+        "last_synced": "2026-08-14T03:15:42.234552Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "example",
+        "safe",
+        "skill"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "bytedance/deer-flow/surprise-me",
+      "spec": {
+        "name": "surprise-me",
+        "description": "Create a delightful, unexpected \"wow\" experience for the user by dynamically discovering and creatively combining other enabled skills. Triggers when the user says \"surprise me\" or any request expressing a desire for an unexpected creative showcase. Also triggers when the user is bored, wants inspiration, or asks for \"something interesting\".",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/surprise-me",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/surprise-me",
+        "last_synced": "2026-08-14T03:15:42.234647Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "surprise"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "bytedance/deer-flow/partial-package-example",
+      "spec": {
+        "name": "partial-package-example",
+        "description": "Fixture for truncated package review. Invoke only in skill-reviewer calibration.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-reviewer/evals/fixtures/partial-package",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/partial-package",
+        "last_synced": "2026-08-14T03:15:42.234465Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "example",
+        "package",
+        "partial"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "bytedance/deer-flow/injection-example",
+      "spec": {
+        "name": "injection-example",
+        "description": "Demonstrates unsafe review data. Invoke only in reviewer prompt-injection calibration tests.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-reviewer/evals/fixtures/prompt-injection",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/prompt-injection",
+        "last_synced": "2026-08-14T03:15:42.234509Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "example",
+        "injection"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "bytedance/deer-flow/zh-output-example",
+      "spec": {
+        "name": "zh-output-example",
+        "description": "Reviews Chinese skill documentation for publication readiness. Invoke when the user asks in Chinese to review a skill.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-reviewer/evals/fixtures/zh-output",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/zh-output",
+        "last_synced": "2026-08-14T03:15:42.234600Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "example",
+        "output"
+      ],
+      "score": 42
+    },
+    {
+      "skill_id": "bytedance/deer-flow/vague-helper",
+      "spec": {
+        "name": "vague-helper",
+        "description": "Helps with anything.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-reviewer/evals/fixtures/needs-revision",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/needs-revision",
+        "last_synced": "2026-08-14T03:15:42.234432Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "helper",
+        "vague"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "bytedance/deer-flow/blocked-example",
+      "spec": {
+        "name": "blocked-example",
+        "description": "",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "bytedance-deerflow",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/bytedance/deer-flow",
+        "source_path": "skills/public/skill-reviewer/evals/fixtures/blocked",
+        "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/blocked",
+        "last_synced": "2026-08-14T03:15:42.234399Z",
+        "upstream_commit": "5d520e44a8d7"
+      },
+      "signals": {
+        "repo_stars": 79968,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "blocked",
+        "example"
+      ],
+      "score": 23
+    }
+  ],
+  "total": 29,
+  "generated_at": "2026-08-14T03:15:43.248170+00:00"
+}

@@ -1,0 +1,953 @@
+{
+  "source_id": "langchain-skills",
+  "skills": [
+    {
+      "skill_id": "langchain-ai/langchain-skills/swarm",
+      "spec": {
+        "name": "swarm",
+        "description": "Dispatches many independent items in parallel: create a table, fan out to subagents, aggregate results. One row = one unit of work.",
+        "license": "MIT",
+        "compatibility": "Requires @langchain/quickjs code interpreter with swarm_task PTC tool",
+        "metadata": {
+          "entrypoint": "scripts/index.ts",
+          "required-ptc-tools": "swarm_task read_file write_file edit_file glob"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/swarm",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/swarm",
+        "last_synced": "2026-08-14T03:15:42.183586Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "swarm"
+      ],
+      "score": 83
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/eval-engineering",
+      "spec": {
+        "name": "eval-engineering",
+        "description": "Iteratively inspect an agent repository and optional user-provided traces, interview the user, and create, run, and audit Harbor evals one at a time. Use for agent evals, Harbor tasks, benchmark cases, verifier design, or controlled agent environments.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/eval-engineering",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/eval-engineering",
+        "last_synced": "2026-08-14T03:15:42.182565Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 13,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "engineering",
+        "eval"
+      ],
+      "score": 76
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langsmith-online-eval-engineering",
+      "spec": {
+        "name": "langsmith-online-eval-engineering",
+        "description": "Iteratively inspect traces, interview the user, and create LangSmith online evaluators one at a time. Use specifically for creating online evaluators for use within LangSmith -- use \"eval-engineering\" for Harbor-style online evaluations.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langsmith-online-eval-engineering",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langsmith-online-eval-engineering",
+        "last_synced": "2026-08-14T03:15:42.183397Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 5,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "engineering",
+        "eval",
+        "langsmith",
+        "online"
+      ],
+      "score": 76
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/deep-agents-core",
+      "spec": {
+        "name": "deep-agents-core",
+        "description": "INVOKE THIS SKILL when building ANY Deep Agents application. Covers create_deep_agent(), harness architecture, SKILL.md format, and configuration options.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/deep-agents-core",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-core",
+        "last_synced": "2026-08-14T03:15:42.182208Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "agents",
+        "core",
+        "deep"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/deep-agents-memory",
+      "spec": {
+        "name": "deep-agents-memory",
+        "description": "INVOKE THIS SKILL when your Deep Agent needs memory, persistence, or filesystem access. Covers StateBackend (ephemeral), StoreBackend (persistent), FilesystemMiddleware, and CompositeBackend for routing.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/deep-agents-memory",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-memory",
+        "last_synced": "2026-08-14T03:15:42.182263Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "agents",
+        "deep",
+        "memory"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/deep-agents-orchestration",
+      "spec": {
+        "name": "deep-agents-orchestration",
+        "description": "INVOKE THIS SKILL when using subagents, task planning, or human approval in Deep Agents. Covers SubAgentMiddleware, TodoList for planning, and HITL interrupts.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/deep-agents-orchestration",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-orchestration",
+        "last_synced": "2026-08-14T03:15:42.182319Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "agents",
+        "deep",
+        "orchestration"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/deepagents-python-quickstart",
+      "spec": {
+        "name": "deepagents-python-quickstart",
+        "description": "Scaffold a minimal local Deep Agent in Python by following the official quickstart, using provider-native web search instead of Tavily. Use when the user wants to quickly build or try a Deep Agent locally.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/deepagents-python-quickstart",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deepagents-python-quickstart",
+        "last_synced": "2026-08-14T03:15:42.182375Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "deepagents",
+        "python",
+        "quickstart"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/deepagents-typescript-quickstart",
+      "spec": {
+        "name": "deepagents-typescript-quickstart",
+        "description": "Scaffold a minimal local Deep Agent in TypeScript by following the official quickstart, using provider-native web search instead of Tavily. Use when the user wants to quickly build or try a Deep Agent locally.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/deepagents-typescript-quickstart",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deepagents-typescript-quickstart",
+        "last_synced": "2026-08-14T03:15:42.182434Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "deepagents",
+        "quickstart",
+        "typescript"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/ecosystem-primer",
+      "spec": {
+        "name": "ecosystem-primer",
+        "description": "INVOKE FIRST for any LangChain / LangGraph / Deep Agents agent building project before consulting other skills or writing any agent code. Required starting point for up to date info on framework selection (LangChain vs LangGraph vs Deep Agents vs hybrid composition), agent patterns, install, environment setup, and which skill to load next.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/ecosystem-primer",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/ecosystem-primer",
+        "last_synced": "2026-08-14T03:15:42.182490Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "ecosystem",
+        "langchain",
+        "langgraph",
+        "next",
+        "primer"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langchain-dependencies",
+      "spec": {
+        "name": "langchain-dependencies",
+        "description": "INVOKE THIS SKILL when setting up a new project or when asked about package versions, installation, or dependency management for LangChain, LangGraph, LangSmith, or Deep Agents. Covers required packages, minimum versions, environment requirements, versioning best practices, and common community tool packages for both Python and TypeScript.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langchain-dependencies",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-dependencies",
+        "last_synced": "2026-08-14T03:15:42.182634Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "dependencies",
+        "langchain",
+        "langgraph",
+        "python",
+        "typescript"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langchain-middleware",
+      "spec": {
+        "name": "langchain-middleware",
+        "description": "INVOKE THIS SKILL when you need human-in-the-loop approval, custom middleware, or structured output. Covers HumanInTheLoopMiddleware for human approval of dangerous tool calls, creating custom middleware with hooks, Command resume patterns, and structured output with Pydantic/Zod.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langchain-middleware",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-middleware",
+        "last_synced": "2026-08-14T03:15:42.182756Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "langchain",
+        "middleware"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langchain-python-quickstart",
+      "spec": {
+        "name": "langchain-python-quickstart",
+        "description": "Scaffold a minimal local LangChain agent in Python by following the official quickstart. Use when the user wants to quickly build or try a LangChain agent locally.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langchain-python-quickstart",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-python-quickstart",
+        "last_synced": "2026-08-14T03:15:42.182825Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "langchain",
+        "python",
+        "quickstart"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langchain-rag",
+      "spec": {
+        "name": "langchain-rag",
+        "description": "INVOKE THIS SKILL when building ANY retrieval-augmented generation (RAG) system. Covers document loaders, RecursiveCharacterTextSplitter, embeddings (OpenAI), and vector stores (Chroma, FAISS, Pinecone).",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langchain-rag",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-rag",
+        "last_synced": "2026-08-14T03:15:42.182875Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "langchain",
+        "rag"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langchain-typescript-quickstart",
+      "spec": {
+        "name": "langchain-typescript-quickstart",
+        "description": "Scaffold a minimal local LangChain agent in TypeScript by following the official quickstart. Use when the user wants to quickly build or try a LangChain agent locally.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langchain-typescript-quickstart",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-typescript-quickstart",
+        "last_synced": "2026-08-14T03:15:42.182952Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "langchain",
+        "quickstart",
+        "typescript"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langgraph-cli",
+      "spec": {
+        "name": "langgraph-cli",
+        "description": "INVOKE THIS SKILL when using the langgraph CLI to scaffold, develop, build, or deploy LangGraph applications. Covers langgraph new, dev, build, up, deploy, and langgraph.json configuration.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langgraph-cli",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-cli",
+        "last_synced": "2026-08-14T03:15:42.183008Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "langgraph"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langgraph-fundamentals",
+      "spec": {
+        "name": "langgraph-fundamentals",
+        "description": "INVOKE THIS SKILL when writing ANY LangGraph code. Covers StateGraph, state schemas, nodes, edges, Command, Send, invoke, streaming, and error handling.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langgraph-fundamentals",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-fundamentals",
+        "last_synced": "2026-08-14T03:15:42.183062Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "fundamentals",
+        "langgraph"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langgraph-human-in-the-loop",
+      "spec": {
+        "name": "langgraph-human-in-the-loop",
+        "description": "INVOKE THIS SKILL when implementing human-in-the-loop patterns, pausing for approval, or handling errors in LangGraph. Covers interrupt(), Command(resume=...), approval/validation workflows, and the 4-tier error handling strategy.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langgraph-human-in-the-loop",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-human-in-the-loop",
+        "last_synced": "2026-08-14T03:15:42.183121Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "human",
+        "langgraph",
+        "loop"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langgraph-persistence",
+      "spec": {
+        "name": "langgraph-persistence",
+        "description": "INVOKE THIS SKILL when your LangGraph needs to persist state, remember conversations, travel through history, or configure subgraph checkpointer scoping. Covers checkpointers, thread_id, time travel, Store, and subgraph persistence modes.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langgraph-persistence",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-persistence",
+        "last_synced": "2026-08-14T03:15:42.183187Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "langgraph",
+        "persistence"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langgraph-python-quickstart",
+      "spec": {
+        "name": "langgraph-python-quickstart",
+        "description": "Scaffold a minimal local LangGraph agent in Python by following the official quickstart. Use when the user wants to quickly build or try a LangGraph agent locally.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langgraph-python-quickstart",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-python-quickstart",
+        "last_synced": "2026-08-14T03:15:42.183249Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "langgraph",
+        "python",
+        "quickstart"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langgraph-typescript-quickstart",
+      "spec": {
+        "name": "langgraph-typescript-quickstart",
+        "description": "Scaffold a minimal local LangGraph agent in TypeScript by following the official quickstart. Use when the user wants to quickly build or try a LangGraph agent locally.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langgraph-typescript-quickstart",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-typescript-quickstart",
+        "last_synced": "2026-08-14T03:15:42.183301Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "langgraph",
+        "quickstart",
+        "typescript"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/managed-deep-agents",
+      "spec": {
+        "name": "managed-deep-agents",
+        "description": "INVOKE THIS SKILL when building, testing, or deploying Managed Deep Agents in LangSmith with the mda CLI. Walks a user through their first agent end to end — interviewing them about what they want to build, mapping it onto what MDA can actually do, then scaffolding and deploying it. Covers the file-based project layout; define_deep_agent / defineDeepAgent; instructions, skills, memory, identity, tools, middleware, sandboxes, schedules, channels, and evals; mda init/build/dev/deploy/logs/delete; and Context Hub.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/managed-deep-agents",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/managed-deep-agents",
+        "last_synced": "2026-08-14T03:15:42.183465Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "agents",
+        "cli",
+        "deep",
+        "managed"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "langchain-ai/langchain-skills/langchain-fundamentals",
+      "spec": {
+        "name": "langchain-fundamentals",
+        "description": "Create LangChain agents with create_agent, define tools, and use middleware for human-in-the-loop and error handling.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "langchain-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/langchain-ai/langchain-skills",
+        "source_path": "config/skills/langchain-fundamentals",
+        "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-fundamentals",
+        "last_synced": "2026-08-14T03:15:42.182707Z",
+        "upstream_commit": "92e4f3b494c0"
+      },
+      "signals": {
+        "repo_stars": 1139,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "fundamentals",
+        "langchain"
+      ],
+      "score": 57
+    }
+  ],
+  "total": 22,
+  "generated_at": "2026-08-14T03:15:43.238371+00:00"
+}

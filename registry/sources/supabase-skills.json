@@ -1,0 +1,612 @@
+{
+  "source_id": "supabase-skills",
+  "skills": [
+    {
+      "skill_id": "supabase/supabase/vercel-composition-patterns",
+      "spec": {
+        "name": "vercel-composition-patterns",
+        "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {
+          "author": "vercel",
+          "version": "1.0.0"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/vercel-composition-patterns",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/vercel-composition-patterns",
+        "last_synced": "2026-08-14T03:15:42.232822Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "composition",
+        "patterns",
+        "react",
+        "vercel"
+      ],
+      "score": 63
+    },
+    {
+      "skill_id": "supabase/supabase/clickhouse-logs-queries",
+      "spec": {
+        "name": "clickhouse-logs-queries",
+        "description": "Write, review, and migrate Supabase logs queries against the ClickHouse-backed `logs` table (the `logs.all.otel` analytics endpoint). Use this whenever a task involves Logs Explorer SQL, the `log_attributes` map, querying a log `source` (edge_logs, postgres_logs, auth_logs, etc.), translating an old BigQuery `cross join unnest(metadata)` logs query to ClickHouse, or wiring analytics log SQL in `apps/studio/data/logs` and `apps/studio/components/interfaces/Settings/Logs`. Reach for it even when the user just says \"logs query\", \"Logs Explorer\", or pastes a BigQuery logs query to convert, not only when they name ClickHouse.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/clickhouse-logs-queries",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/clickhouse-logs-queries",
+        "last_synced": "2026-08-14T03:15:42.231622Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "clickhouse",
+        "logs",
+        "queries"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "supabase/supabase/copywriting",
+      "spec": {
+        "name": "copywriting",
+        "description": "Write or audit UI copy (buttons, labels, empty states, error messages, tooltips, form text) anywhere in the monorepo. Load it before shipping or reviewing any user-facing text — including when copy is incidental to the task, like a new feature that adds buttons, toasts, dialogs, or validation messages.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/copywriting",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/copywriting",
+        "last_synced": "2026-08-14T03:15:42.231733Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "copywriting"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/dev-toolbar-review",
+      "spec": {
+        "name": "dev-toolbar-review",
+        "description": "Safety rules for the dev toolbar, PostHog client, and feature flags. Use when writing or reviewing any change to packages/dev-tools/, packages/common/posthog-client.ts, or packages/common/feature-flags.tsx. Covers environment guards, flag override cookies, telemetry event subscription, and SSE stream safety.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/dev-toolbar-review",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/dev-toolbar-review",
+        "last_synced": "2026-08-14T03:15:42.231819Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "dev",
+        "review",
+        "toolbar"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/docs-content",
+      "spec": {
+        "name": "docs-content",
+        "description": "Write, edit, organize, and review Supabase content anywhere in apps/docs — guides, explainers, tutorials, troubleshooting entries, reference docs, and partials. Use for MDX/TOML authoring, frontmatter, navigation, terminology, links, code samples, content listings, and docs validation.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/docs-content",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/docs-content",
+        "last_synced": "2026-08-14T03:15:42.231907Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "content",
+        "docs"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/react-hook-form",
+      "spec": {
+        "name": "react-hook-form",
+        "description": "Correct React Hook Form usage anywhere in the monorepo — data flow, subscriptions, reset, dirty state, number inputs, and controlled-input rules. Load this BEFORE writing or modifying ANY form code, adding a field to an existing form, touching watch/useWatch/formState/getValues/setValue/reset, wiring a form into a dialog or sheet, or building a submit/cancel footer — even when the change looks trivial. The codebase contains widespread RHF anti-patterns; without this skill you will copy them. For form layout and which components to use, also load studio-ui-patterns.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/react-hook-form",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/react-hook-form",
+        "last_synced": "2026-08-14T03:15:42.231994Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "form",
+        "hook",
+        "react"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/safe-sql-execution",
+      "spec": {
+        "name": "safe-sql-execution",
+        "description": "Use whenever code will build, return, fetch, or execute SQL that runs against a user's real Postgres database — even when the request reads like an ordinary feature or bug fix and never says \"security,\" \"injection,\" or \"SafeSqlFragment.\" This covers: writing or editing any pg-meta function, query builder, or endpoint that builds/returns SQL for database objects (tables, views, functions, DB triggers, indexes, RLS policies); interpolating a schema/table/column/search/route-param value into SQL text; storing, fetching, or re-running SQL that round-trips from the database (a policy's definition, a function/view definition, a snippet's saved content); and any \"Run\"/\"Apply\"/\"Execute\" action that sends SQL to a project's database (SQL editor run-selection, policy editor apply, snippet runner). Load this BEFORE writing such code, not only when reviewing a finished diff. Skip only for changes that never touch SQL text or execution — styling, unrelated data hooks, non-SQL form validation, or UI layout work.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/safe-sql-execution",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/safe-sql-execution",
+        "last_synced": "2026-08-14T03:15:42.232119Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "execution",
+        "safe",
+        "sql"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/studio-e2e-tests",
+      "spec": {
+        "name": "studio-e2e-tests",
+        "description": "Write and run Playwright E2E tests for Supabase Studio (e2e/studio). Use when asked to run e2e tests, write new E2E tests, or debug flaky or failing Playwright tests. Covers running commands, avoiding race conditions, waiting strategies, selectors, helper functions, and CI vs local differences.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/studio-e2e-tests",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-e2e-tests",
+        "last_synced": "2026-08-14T03:15:42.232304Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "e2e",
+        "studio",
+        "tests"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/studio-error-handling",
+      "spec": {
+        "name": "studio-error-handling",
+        "description": "Error display and troubleshooting pattern for Supabase Studio. Use when showing a failed API request or query error in the UI (AlertError, toast, inline message), adding troubleshooting steps for a new error type, or wiring up the AI assistant debug button from an error state.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/studio-error-handling",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-error-handling",
+        "last_synced": "2026-08-14T03:15:42.232378Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "error",
+        "handling",
+        "studio"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/studio-mock-api-tests",
+      "spec": {
+        "name": "studio-mock-api-tests",
+        "description": "Component tests for Supabase Studio that mock API requests at the network layer with MSW. Use when writing or reviewing a component test that exercises a React Query hook or mutation, or when migrating an existing test away from vi.mock('@/data/...'). Covers the customRender + addAPIMock template and the jsdom/MSW gotchas that cost real debugging time.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/studio-mock-api-tests",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-mock-api-tests",
+        "last_synced": "2026-08-14T03:15:42.232446Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "mock",
+        "react",
+        "studio",
+        "tests"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/studio-queries",
+      "spec": {
+        "name": "studio-queries",
+        "description": "React Query conventions for data fetching in Supabase Studio. Use when writing or reviewing query hooks, mutation hooks, or query keys in apps/studio/data/ — including adding the first fetch or mutation for a new API endpoint or resource. Covers queryOptions pattern, keys.ts structure, mutation hook template, and imperative fetching.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/studio-queries",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-queries",
+        "last_synced": "2026-08-14T03:15:42.232525Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "queries",
+        "react",
+        "studio"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/studio-testing",
+      "spec": {
+        "name": "studio-testing",
+        "description": "Testing strategy for Supabase Studio. Use when writing tests, deciding whether a change needs tests and which type, extracting logic from components into testable utility functions, or reviewing test coverage. Covers unit tests, component tests, and E2E test selection criteria.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/studio-testing",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-testing",
+        "last_synced": "2026-08-14T03:15:42.232616Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "studio",
+        "testing"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/studio-ui-patterns",
+      "spec": {
+        "name": "studio-ui-patterns",
+        "description": "Design system UI patterns for Supabase Studio. Use when building or updating pages, forms, tables, charts, empty states, navigation, cards, alerts, or side panels (sheets). Covers layout selection, component choice, and placement conventions.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/studio-ui-patterns",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-ui-patterns",
+        "last_synced": "2026-08-14T03:15:42.232684Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "patterns",
+        "studio"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "supabase/supabase/telemetry-standards",
+      "spec": {
+        "name": "telemetry-standards",
+        "description": "PostHog event tracking standards for Supabase Studio. Use when adding useTrack() calls, defining events in packages/common/telemetry-constants.ts, implementing tracking for a new feature, or reviewing PRs for telemetry compliance. Covers event naming, property conventions, approved patterns, and implementation guide.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "supabase-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/supabase/supabase",
+        "source_path": ".claude/skills/telemetry-standards",
+        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/telemetry-standards",
+        "last_synced": "2026-08-14T03:15:42.232747Z",
+        "upstream_commit": "ececf6c003a4"
+      },
+      "signals": {
+        "repo_stars": 107972,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "standards",
+        "telemetry"
+      ],
+      "score": 45
+    }
+  ],
+  "total": 14,
+  "generated_at": "2026-08-14T03:15:43.250472+00:00"
+}

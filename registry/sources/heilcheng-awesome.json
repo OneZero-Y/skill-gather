@@ -1,0 +1,265 @@
+{
+  "source_id": "heilcheng-awesome",
+  "skills": [
+    {
+      "skill_id": "hesreallyhim/awesome-claude-code",
+      "spec": {
+        "name": "awesome-claude-code",
+        "description": "Curated list of skills and tools for Claude Code.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "heilcheng-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/hesreallyhim/awesome-claude-code",
+        "source_path": "",
+        "install_url": "https://github.com/hesreallyhim/awesome-claude-code",
+        "last_synced": "2026-08-14T03:15:42.283080Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "awesome",
+        "claude",
+        "code"
+      ],
+      "score": 23
+    },
+    {
+      "skill_id": "VoltAgent/awesome-design-md",
+      "spec": {
+        "name": "awesome-design-md",
+        "description": "Standards and tools for the DESIGN.md protocol.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "heilcheng-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/VoltAgent/awesome-design-md",
+        "source_path": "",
+        "install_url": "https://github.com/VoltAgent/awesome-design-md",
+        "last_synced": "2026-08-14T03:15:42.283169Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": false
+      },
+      "category": "creative",
+      "tags": [
+        "awesome",
+        "design"
+      ],
+      "score": 23
+    },
+    {
+      "skill_id": "punkpeye/awesome-mcp-servers",
+      "spec": {
+        "name": "awesome-mcp-servers",
+        "description": "A collection of Model Context Protocol (MCP) servers.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "heilcheng-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/punkpeye/awesome-mcp-servers",
+        "source_path": "",
+        "install_url": "https://github.com/punkpeye/awesome-mcp-servers",
+        "last_synced": "2026-08-14T03:15:42.283257Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": false
+      },
+      "category": "data",
+      "tags": [
+        "awesome",
+        "mcp",
+        "servers"
+      ],
+      "score": 23
+    },
+    {
+      "skill_id": "https:/",
+      "spec": {
+        "name": "about-agent-skills",
+        "description": "GitHub documentation",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "heilcheng-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://docs.github.com/copilot/concepts/agents/about-agent-skills",
+        "source_path": "",
+        "install_url": "https://docs.github.com/copilot/concepts/agents/about-agent-skills",
+        "last_synced": "2026-08-14T03:15:42.283003Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": false
+      },
+      "category": "document",
+      "tags": [
+        "about",
+        "agent",
+        "github",
+        "skills"
+      ],
+      "score": 20
+    },
+    {
+      "skill_id": "modelcontextprotocol/servers",
+      "spec": {
+        "name": "mcp-server-examples",
+        "description": "Official server implementations",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "heilcheng-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/modelcontextprotocol/servers",
+        "source_path": "",
+        "install_url": "https://github.com/modelcontextprotocol/servers",
+        "last_synced": "2026-08-14T03:15:42.283040Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": false
+      },
+      "category": "devops",
+      "tags": [
+        "examples",
+        "mcp",
+        "server"
+      ],
+      "score": 20
+    },
+    {
+      "skill_id": "VoltAgent/awesome-openclaw-skills",
+      "spec": {
+        "name": "awesome-openclaw-skills",
+        "description": "Open source agent skills for OpenClaw.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "heilcheng-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+        "source_path": "",
+        "install_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+        "last_synced": "2026-08-14T03:15:42.283216Z",
+        "upstream_commit": ""
+      },
+      "signals": {
+        "repo_stars": 0,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": false
+      },
+      "category": "other",
+      "tags": [
+        "awesome",
+        "openclaw",
+        "skills"
+      ],
+      "score": 20
+    }
+  ],
+  "total": 6,
+  "generated_at": "2026-08-14T03:15:43.607295+00:00"
+}

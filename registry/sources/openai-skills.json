@@ -1,0 +1,1903 @@
+{
+  "source_id": "openai-skills",
+  "skills": [
+    {
+      "skill_id": "openai/skills/skill-creator",
+      "spec": {
+        "name": "skill-creator",
+        "description": "Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Codex's capabilities with specialized knowledge, workflows, or tool integrations.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Create or update a skill"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.system/skill-creator",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.system/skill-creator",
+        "last_synced": "2026-08-14T03:15:42.181364Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 10,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "creator",
+        "skill"
+      ],
+      "score": 81
+    },
+    {
+      "skill_id": "openai/skills/chatgpt-apps",
+      "spec": {
+        "name": "chatgpt-apps",
+        "description": "Build, scaffold, refactor, and troubleshoot ChatGPT Apps SDK applications that combine an MCP server and widget UI. Use when Codex needs to design tools, register UI resources, wire the MCP Apps bridge or ChatGPT compatibility APIs, apply Apps SDK metadata or CSP or domain settings, or produce a docs-aligned project scaffold. Prefer a docs-first workflow by invoking the openai-docs skill or OpenAI developer docs MCP tools before generating code.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/chatgpt-apps",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/chatgpt-apps",
+        "last_synced": "2026-08-14T03:15:42.178325Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 14,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "apps",
+        "chatgpt",
+        "mcp",
+        "sdk"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/figma-code-connect-components",
+      "spec": {
+        "name": "figma-code-connect-components",
+        "description": "Connects Figma design components to code components using Code Connect mapping tools. Use when user says \"code connect\", \"connect this component to code\", \"map this component\", \"link component to code\", \"create code connect mapping\", or wants to establish mappings between Figma designs and code implementations. For canvas writes via `use_figma`, use `figma-use`.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma-code-connect-components",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-code-connect-components",
+        "last_synced": "2026-08-14T03:15:42.178619Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 12,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "creative",
+      "tags": [
+        "code",
+        "components",
+        "connect",
+        "figma"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/figma-create-design-system-rules",
+      "spec": {
+        "name": "figma-create-design-system-rules",
+        "description": "Generates custom design system rules for the user's codebase. Use when user says \"create design system rules\", \"generate rules for my project\", \"set up design rules\", \"customize design system guidelines\", or wants to establish project-specific conventions for Figma-to-code workflows. Requires Figma MCP server connection.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma-create-design-system-rules",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-design-system-rules",
+        "last_synced": "2026-08-14T03:15:42.178699Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 12,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "productivity",
+      "tags": [
+        "create",
+        "design",
+        "figma",
+        "mcp",
+        "rules",
+        "system"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/figma-generate-library",
+      "spec": {
+        "name": "figma-generate-library",
+        "description": "Build or update a professional-grade design system in Figma from a codebase. Use when the user wants to create variables/tokens, build component libraries, set up theming (light/dark modes), document foundations, or reconcile gaps between code and Figma. This skill teaches WHAT to build and in WHAT ORDER — it complements the `figma-use` skill which teaches HOW to call the Plugin API. Both skills should be loaded together.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma-generate-library",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-library",
+        "last_synced": "2026-08-14T03:15:42.178994Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 27,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "figma",
+        "generate",
+        "library"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/hatch-pet",
+      "spec": {
+        "name": "hatch-pet",
+        "description": "Create, repair, validate, visually QA, and package Codex-compatible animated pets and pet spritesheets from character art, generated images, company or prospect brand cues, or visual references. Use when a user wants a lightweight-worker Codex pet workflow, a non-pixel custom pet style, a prospect or company mascot pet, or a full 8x9 animated pet atlas with transparent unused cells, QA contact sheets, and pet.json packaging. This skill composes the installed $imagegen system skill for visual generation and uses bundled scripts for deterministic spritesheet assembly.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/hatch-pet",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/hatch-pet",
+        "last_synced": "2026-08-14T03:15:42.179479Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 17,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "creative",
+      "tags": [
+        "hatch",
+        "pet"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/jupyter-notebook",
+      "spec": {
+        "name": "jupyter-notebook",
+        "description": "Use when the user asks to create, scaffold, or edit Jupyter notebooks (`.ipynb`) for experiments, explorations, or tutorials; prefer the bundled templates and run the helper script `new_notebook.py` to generate a clean starting notebook.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/jupyter-notebook",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/jupyter-notebook",
+        "last_synced": "2026-08-14T03:15:42.179580Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 16,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "education",
+      "tags": [
+        "jupyter",
+        "notebook"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/openai-docs",
+      "spec": {
+        "name": "openai-docs",
+        "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/openai-docs",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/openai-docs",
+        "last_synced": "2026-08-14T03:15:42.180031Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 14,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "docs",
+        "mcp",
+        "openai"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/playwright",
+      "spec": {
+        "name": "playwright",
+        "description": "Use when the task requires automating a real browser from the terminal (navigation, form filling, snapshots, screenshots, data extraction, UI-flow debugging) via `playwright-cli` or the bundled wrapper script.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/playwright",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright",
+        "last_synced": "2026-08-14T03:15:42.180218Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 13,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "playwright"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/security-ownership-map",
+      "spec": {
+        "name": "security-ownership-map",
+        "description": "Analyze git repositories to build a security ownership topology (people-to-file), compute bus factor and sensitive-code ownership, and export CSV/JSON for graph databases and visualization. Trigger only when the user explicitly wants a security-oriented ownership or bus-factor analysis grounded in git history (for example: orphaned sensitive code, security maintainers, CODEOWNERS reality checks for risk, sensitive hotspots, or ownership clusters). Do not trigger for general maintainer lists or non-security ownership questions.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/security-ownership-map",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/security-ownership-map",
+        "last_synced": "2026-08-14T03:15:42.180529Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "map",
+        "ownership",
+        "security"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/speech",
+      "spec": {
+        "name": "speech",
+        "description": "Use when the user asks for text-to-speech narration or voiceover, accessibility reads, audio prompts, or batch speech generation via the OpenAI Audio API; run the bundled CLI (`scripts/text_to_speech.py`) with built-in voices and require `OPENAI_API_KEY` for live calls. Custom voice creation is out of scope.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/speech",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/speech",
+        "last_synced": "2026-08-14T03:15:42.180761Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 20,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "cli",
+        "speech"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/transcribe",
+      "spec": {
+        "name": "transcribe",
+        "description": "Transcribe audio files to text with optional diarization and known-speaker hints. Use when a user asks to transcribe speech from audio/video, extract text from recordings, or label speakers in interviews or meetings.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/transcribe",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/transcribe",
+        "last_synced": "2026-08-14T03:15:42.180829Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "creative",
+      "tags": [
+        "transcribe"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/imagegen",
+      "spec": {
+        "name": "imagegen",
+        "description": "Generate or edit raster images when the task benefits from AI-created bitmap visuals such as photos, illustrations, textures, sprites, mockups, or transparent-background cutouts. Use when Codex should create a brand-new image, transform an existing image, or derive visual variants from references, and the output should be a bitmap asset rather than repo-native code or vector. Do not use when the task is better handled by editing existing SVG/vector/code-native assets, extending an established icon or logo system, or building the visual directly in HTML/CSS/canvas.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.system/imagegen",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.system/imagegen",
+        "last_synced": "2026-08-14T03:15:42.181098Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 15,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "creative",
+      "tags": [
+        "imagegen"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/openai-docs",
+      "spec": {
+        "name": "openai-docs",
+        "description": "Use when the user asks how to build with OpenAI products or APIs, asks about Codex itself or choosing Codex surfaces, needs up-to-date official documentation with citations, help choosing the latest model for a use case, or model upgrade and prompt-upgrade guidance; use OpenAI docs MCP tools for non-Codex docs questions, use the Codex manual helper first for broad Codex self-knowledge, and restrict fallback browsing to official OpenAI domains.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.system/openai-docs",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.system/openai-docs",
+        "last_synced": "2026-08-14T03:15:42.181199Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 14,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "docs",
+        "mcp",
+        "openai"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/plugin-creator",
+      "spec": {
+        "name": "plugin-creator",
+        "description": "Create and scaffold plugin directories for Codex with a required `.codex-plugin/plugin.json`, optional plugin folders/files, and baseline placeholders you can edit before publishing or testing. Use when Codex needs to create a new local plugin, add optional plugin structure, or generate or update repo-root `.agents/plugins/marketplace.json` entries for plugin ordering and availability metadata.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.system/plugin-creator",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.system/plugin-creator",
+        "last_synced": "2026-08-14T03:15:42.181284Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "creator",
+        "plugin"
+      ],
+      "score": 80
+    },
+    {
+      "skill_id": "openai/skills/migrate-to-codex",
+      "spec": {
+        "name": "migrate-to-codex",
+        "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/migrate-to-codex",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
+        "last_synced": "2026-08-14T03:15:42.179689Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 24,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "codex",
+        "mcp",
+        "migrate"
+      ],
+      "score": 76
+    },
+    {
+      "skill_id": "openai/skills/gh-address-comments",
+      "spec": {
+        "name": "gh-address-comments",
+        "description": "Help address review/issue comments on the open GitHub PR for the current branch using gh CLI; verify gh auth first and prompt the user to authenticate if not logged in.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Address comments in a GitHub PR review"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/gh-address-comments",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-address-comments",
+        "last_synced": "2026-08-14T03:15:42.179353Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "address",
+        "cli",
+        "comments",
+        "github"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "openai/skills/skill-installer",
+      "spec": {
+        "name": "skill-installer",
+        "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Install curated skills from openai/skills or other repos"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.system/skill-installer",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.system/skill-installer",
+        "last_synced": "2026-08-14T03:15:42.181424Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "github",
+        "installer",
+        "skill"
+      ],
+      "score": 73
+    },
+    {
+      "skill_id": "openai/skills/gh-fix-ci",
+      "spec": {
+        "name": "gh-fix-ci",
+        "description": "Use when a user asks to debug or fix failing GitHub PR checks that run in GitHub Actions; use `gh` to inspect checks and logs, summarize failure context, draft a fix plan, and implement only after explicit approval. Treat external providers (for example Buildkite) as out of scope and report only the details URL.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/gh-fix-ci",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/gh-fix-ci",
+        "last_synced": "2026-08-14T03:15:42.179410Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "fix",
+        "github"
+      ],
+      "score": 72
+    },
+    {
+      "skill_id": "openai/skills/screenshot",
+      "spec": {
+        "name": "screenshot",
+        "description": "Use when the user explicitly asks for a desktop or system screenshot (full screen, specific app or window, or a pixel region), or when tool-specific capture capabilities are unavailable and an OS-level capture is needed.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/screenshot",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/screenshot",
+        "last_synced": "2026-08-14T03:15:42.180391Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 14,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "devops",
+      "tags": [
+        "screenshot"
+      ],
+      "score": 72
+    },
+    {
+      "skill_id": "openai/skills/vercel-deploy",
+      "spec": {
+        "name": "vercel-deploy",
+        "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/vercel-deploy",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/vercel-deploy",
+        "last_synced": "2026-08-14T03:15:42.180884Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "devops",
+      "tags": [
+        "deploy",
+        "vercel"
+      ],
+      "score": 72
+    },
+    {
+      "skill_id": "openai/skills/notion-knowledge-capture",
+      "spec": {
+        "name": "notion-knowledge-capture",
+        "description": "Capture conversations and decisions into structured Notion pages; use when turning chats/notes into wiki entries, how-tos, decisions, or FAQs with proper linking.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Capture conversations into structured Notion pages"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/notion-knowledge-capture",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-knowledge-capture",
+        "last_synced": "2026-08-14T03:15:42.179789Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 23,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "devops",
+      "tags": [
+        "capture",
+        "knowledge",
+        "notion"
+      ],
+      "score": 69
+    },
+    {
+      "skill_id": "openai/skills/notion-meeting-intelligence",
+      "spec": {
+        "name": "notion-meeting-intelligence",
+        "description": "Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-reads, and tailoring materials to attendees.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Prep meetings with Notion context and tailored agendas"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/notion-meeting-intelligence",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-meeting-intelligence",
+        "last_synced": "2026-08-14T03:15:42.179844Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 24,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "intelligence",
+        "meeting",
+        "notion"
+      ],
+      "score": 69
+    },
+    {
+      "skill_id": "openai/skills/notion-research-documentation",
+      "spec": {
+        "name": "notion-research-documentation",
+        "description": "Research across Notion and synthesize into structured documentation; use when gathering info from multiple Notion sources to produce briefs, comparisons, or reports with citations.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Research Notion content and produce briefs/reports"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/notion-research-documentation",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-research-documentation",
+        "last_synced": "2026-08-14T03:15:42.179917Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 28,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "document",
+      "tags": [
+        "documentation",
+        "notion",
+        "research"
+      ],
+      "score": 69
+    },
+    {
+      "skill_id": "openai/skills/notion-spec-to-implementation",
+      "spec": {
+        "name": "notion-spec-to-implementation",
+        "description": "Turn Notion specs into implementation plans, tasks, and progress tracking; use when implementing PRDs/feature specs and creating Notion plans + tasks from them.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Turn Notion specs into implementation plans, tasks, and progress tracking"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/notion-spec-to-implementation",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/notion-spec-to-implementation",
+        "last_synced": "2026-08-14T03:15:42.179977Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 24,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "productivity",
+      "tags": [
+        "implementation",
+        "notion",
+        "spec"
+      ],
+      "score": 69
+    },
+    {
+      "skill_id": "openai/skills/aspnet-core",
+      "spec": {
+        "name": "aspnet-core",
+        "description": "Build, review, refactor, or architect ASP.NET Core web applications using current official guidance for .NET web development. Use when working on Blazor Web Apps, Razor Pages, MVC, Minimal APIs, controller-based Web APIs, SignalR, gRPC, middleware, dependency injection, configuration, authentication, authorization, testing, performance, deployment, or ASP.NET Core upgrades.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/aspnet-core",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/aspnet-core",
+        "last_synced": "2026-08-14T03:15:42.178244Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 20,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "aspnet",
+        "core"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/cli-creator",
+      "spec": {
+        "name": "cli-creator",
+        "description": "Build a composable CLI for Codex from API docs, an OpenAPI spec, existing curl examples, an SDK, a web app, an admin tool, or a local script. Use when the user wants Codex to create a command-line tool that can run from any repo, expose composable read/write commands, return stable JSON, manage auth, and pair with a companion skill.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/cli-creator",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/cli-creator",
+        "last_synced": "2026-08-14T03:15:42.178412Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 6,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "cli",
+        "creator",
+        "sdk"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/cloudflare-deploy",
+      "spec": {
+        "name": "cloudflare-deploy",
+        "description": "Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services. Use when the user asks to deploy, host, publish, or set up a project on Cloudflare.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/cloudflare-deploy",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/cloudflare-deploy",
+        "last_synced": "2026-08-14T03:15:42.178484Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 375,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "devops",
+      "tags": [
+        "cloudflare",
+        "deploy"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/figma-use",
+      "spec": {
+        "name": "figma-use",
+        "description": "**MANDATORY prerequisite** — you MUST invoke this skill BEFORE every `use_figma` tool call. NEVER call `use_figma` directly without loading this skill first. Skipping it causes common, hard-to-debug failures. Trigger whenever the user wants to perform a write action or a unique read action that requires JavaScript execution in the Figma file context — e.g. create/edit/delete nodes, set up variables or tokens, build components and variants, modify auto-layout or fills, bind variables to properties, or inspect file structure programmatically.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma-use",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-use",
+        "last_synced": "2026-08-14T03:15:42.179171Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 33,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "figma",
+        "javascript"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/figma",
+      "spec": {
+        "name": "figma",
+        "description": "Use the Figma MCP server to fetch design context, screenshots, variables, and assets from Figma, and to translate Figma nodes into production code. Trigger when a task involves Figma URLs, node IDs, design-to-code implementation, or Figma MCP setup and troubleshooting.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma",
+        "last_synced": "2026-08-14T03:15:42.179289Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "figma",
+        "mcp"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/netlify-deploy",
+      "spec": {
+        "name": "netlify-deploy",
+        "description": "Deploy web projects to Netlify using the Netlify CLI (`npx netlify`). Use when the user asks to deploy, host, publish, or link a site/repo on Netlify, including preview and production deploys.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/netlify-deploy",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/netlify-deploy",
+        "last_synced": "2026-08-14T03:15:42.179736Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "deploy",
+        "netlify"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/render-deploy",
+      "spec": {
+        "name": "render-deploy",
+        "description": "Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks. Use when the user wants to deploy, host, publish, or set up their application on Render's cloud platform.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/render-deploy",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/render-deploy",
+        "last_synced": "2026-08-14T03:15:42.180273Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 24,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "devops",
+      "tags": [
+        "deploy",
+        "render"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/security-best-practices",
+      "spec": {
+        "name": "security-best-practices",
+        "description": "Perform language and framework specific security best-practice reviews and suggest improvements. Trigger only when the user explicitly requests security best practices guidance, a security review/report, or secure-by-default coding help. Trigger only for supported languages (python, javascript/typescript, go). Do not trigger for general code review, debugging, or non-security tasks.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/security-best-practices",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/security-best-practices",
+        "last_synced": "2026-08-14T03:15:42.180449Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 15,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "best",
+        "javascript",
+        "practices",
+        "python",
+        "security",
+        "typescript"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/security-threat-model",
+      "spec": {
+        "name": "security-threat-model",
+        "description": "Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations, and writes a concise Markdown threat model. Trigger only when the user explicitly asks to threat model a codebase or path, enumerate threats/abuse paths, or perform AppSec threat modeling. Do not trigger for general architecture summaries, code review, or non-security design work.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/security-threat-model",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/security-threat-model",
+        "last_synced": "2026-08-14T03:15:42.180624Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "model",
+        "security",
+        "threat"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/winui-app",
+      "spec": {
+        "name": "winui-app",
+        "description": "Bootstrap, develop, and design modern WinUI 3 desktop applications with C# and the Windows App SDK using official Microsoft guidance, WinUI Gallery patterns, Windows App SDK samples, and CommunityToolkit components. Use when creating a brand new app, preparing a machine for WinUI, reviewing, refactoring, planning, troubleshooting, environment-checking, or setting up WinUI 3 XAML, controls, navigation, windowing, theming, accessibility, responsiveness, performance, deployment, or related Windows app design and development work.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/winui-app",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/winui-app",
+        "last_synced": "2026-08-14T03:15:42.180955Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 24,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "devops",
+      "tags": [
+        "app",
+        "sdk",
+        "winui"
+      ],
+      "score": 68
+    },
+    {
+      "skill_id": "openai/skills/linear",
+      "spec": {
+        "name": "linear",
+        "description": "Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Linear.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Manage Linear issues in Codex"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/linear",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/linear",
+        "last_synced": "2026-08-14T03:15:42.179641Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "productivity",
+      "tags": [
+        "linear"
+      ],
+      "score": 61
+    },
+    {
+      "skill_id": "openai/skills/figma-create-new-file",
+      "spec": {
+        "name": "figma-create-new-file",
+        "description": "Create a new blank Figma file. Use when the user wants to create a new Figma design or FigJam file, or when you need a new file before calling use_figma. Handles plan resolution via whoami if needed. Usage — /figma-create-new-file [editorType] [fileName] (e.g. /figma-create-new-file figjam My Whiteboard)",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma-create-new-file",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-create-new-file",
+        "last_synced": "2026-08-14T03:15:42.178773Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "creative",
+      "tags": [
+        "create",
+        "figma",
+        "file",
+        "new"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "openai/skills/figma-generate-design",
+      "spec": {
+        "name": "figma-generate-design",
+        "description": "Use this skill alongside figma-use when the task involves translating an application page, view, or multi-section layout into Figma. Triggers: 'write to Figma', 'create in Figma from code', 'push page to Figma', 'take this app/page and build it in Figma', 'create a screen', 'build a landing page in Figma', 'update the Figma screen to match code'. This is the preferred workflow skill whenever the user wants to build or update a full page, screen, or view in Figma from code or a description. Discovers design system components, variables, and styles via search_design_system, imports them, and assembles screens incrementally section-by-section using design system tokens instead of hardcoded values.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma-generate-design",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-generate-design",
+        "last_synced": "2026-08-14T03:15:42.178857Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "design",
+        "figma",
+        "generate"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "openai/skills/figma-implement-design",
+      "spec": {
+        "name": "figma-implement-design",
+        "description": "Translates Figma designs into production-ready application code with 1:1 visual fidelity. Use when implementing UI code from Figma files, when user mentions \"implement design\", \"generate code\", \"implement component\", provides Figma URLs, or asks to build components matching Figma specs. For Figma canvas writes via `use_figma`, use `figma-use`.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/figma-implement-design",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/figma-implement-design",
+        "last_synced": "2026-08-14T03:15:42.179098Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "creative",
+      "tags": [
+        "design",
+        "figma",
+        "implement"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "openai/skills/pdf",
+      "spec": {
+        "name": "pdf",
+        "description": "Use when tasks involve reading, creating, or reviewing PDF files where rendering and layout matter; prefer visual checks by rendering pages (Poppler) and use Python tools such as `reportlab`, `pdfplumber`, and `pypdf` for generation and extraction.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/pdf",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/pdf",
+        "last_synced": "2026-08-14T03:15:42.180116Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 6,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "document",
+      "tags": [
+        "pdf",
+        "python"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "openai/skills/sentry",
+      "spec": {
+        "name": "sentry",
+        "description": "Use when the user asks to inspect Sentry issues or events, summarize recent production errors, or pull basic Sentry health data via the Sentry CLI; perform read-only queries using the `sentry` command.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/sentry",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/sentry",
+        "last_synced": "2026-08-14T03:15:42.180707Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "sentry"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "openai/skills/yeet",
+      "spec": {
+        "name": "yeet",
+        "description": "Use only when the user explicitly asks to stage, commit, push, and open a GitHub pull request in one flow using the GitHub CLI (`gh`).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/yeet",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/yeet",
+        "last_synced": "2026-08-14T03:15:42.181053Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "github",
+        "yeet"
+      ],
+      "score": 60
+    },
+    {
+      "skill_id": "openai/skills/define-goal",
+      "spec": {
+        "name": "define-goal",
+        "description": "Help the user define a concrete, measurable goal before starting work, especially when they ask to use the goal tool, create a goal, set an objective, clarify success criteria, or turn a fuzzy intention into a quantitative outcome. Use this skill for goal creation and goal refinement only; it does not manage durable snapshots, decision logs, or long-running execution artifacts.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/define-goal",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/define-goal",
+        "last_synced": "2026-08-14T03:15:42.178540Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "define",
+        "goal"
+      ],
+      "score": 57
+    },
+    {
+      "skill_id": "openai/skills/playwright-interactive",
+      "spec": {
+        "name": "playwright-interactive",
+        "description": "Persistent browser and Electron interaction through `js_repl` for fast iterative UI debugging.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/playwright-interactive",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/playwright-interactive",
+        "last_synced": "2026-08-14T03:15:42.180174Z",
+        "upstream_commit": "49f948faa925"
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 8,
+        "open_issues": null,
+        "install_count": 0
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "interactive",
+        "playwright"
+      ],
+      "score": 56
+    }
+  ],
+  "total": 44,
+  "generated_at": "2026-08-14T03:15:43.240484+00:00"
+}
