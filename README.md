@@ -1,16 +1,93 @@
-# Skill Store
+# Skill Gather
 
 **AI Agent Skill 发现引擎 · 兼容性注册表**
 
-Skill 散落在 GitHub 各处、skillhub、mcpmarket 等平台，Skill Store 把它们统一索引。内容留在原地，这里只存元数据——告诉你哪里有、是什么、支持哪个平台、质量怎样。
+Skill 散落在 GitHub 各处、skillhub、mcpmarket 等平台，Skill Gather 把它们统一索引。内容留在原地，这里只存元数据——告诉你哪里有、是什么、支持哪个平台、质量怎样。
 
 [![Auto Sync](https://img.shields.io/badge/auto--sync-daily-brightgreen)](/.github/workflows/sync.yml)
 [![Python](https://img.shields.io/badge/python-3.12+-blue)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
+**在线浏览：[skill-gather.pages.dev](https://skill-gather.pages.dev)**
+
 ---
 
-## 和同类项目的区别
+## MCP Server
+
+任何支持 MCP 协议的宿主（Claude Code、Kiro、Cursor、Codex 等）可以直接在会话中查询 Skill Gather 的索引，而不必离开编辑器去网站搜索。
+
+### 工具列表
+
+| 工具 | 说明 |
+|---|---|
+| `search_skills(query, category?, platform?, source?, min_score?, limit?)` | 关键词检索，返回精简结果列表 |
+| `get_skill(skill_id)` | 获取单个 skill 的完整元数据 + 安装指令；支持部分 id 匹配 |
+| `list_sources()` | 列出所有数据源及其条数与健康状态 |
+| `registry_stats()` | 注册表总量、分类分布与质量指标 |
+
+### 配置方法
+
+**前提：** 本地已运行过 `uv run skill-gather sync` 生成 `registry/sources/` 目录。MCP server 读取本地 registry，不需要网络访问。
+
+**Claude Code**（`~/.claude/settings.json` 或项目 `.claude/settings.json`）：
+
+```json
+{
+  "mcpServers": {
+    "skill-gather": {
+      "command": "uv",
+      "args": ["run", "--directory", "/path/to/skill-gather", "skill-gather-mcp"]
+    }
+  }
+}
+```
+
+**Kiro**（`~/.kiro/settings/mcp.json` 或 `.kiro/settings/mcp.json`）：
+
+```json
+{
+  "mcpServers": {
+    "skill-gather": {
+      "command": "uv",
+      "args": ["run", "--directory", "/path/to/skill-gather", "skill-gather-mcp"]
+    }
+  }
+}
+```
+
+**Cursor**（`~/.cursor/mcp.json` 或项目 `.cursor/mcp.json`）：
+
+```json
+{
+  "mcpServers": {
+    "skill-gather": {
+      "command": "uv",
+      "args": ["run", "--directory", "/path/to/skill-gather", "skill-gather-mcp"]
+    }
+  }
+}
+```
+
+> 把 `/path/to/skill-gather` 替换为本地仓库的实际路径。
+>
+> 待发布到 PyPI 后可改用 `uvx skill-gather-mcp`，无需指定目录。
+
+### 使用示例
+
+配置好后，在任意宿主的会话中可以直接调用：
+
+```
+帮我找一个处理 Excel 文件的 skill
+→ search_skills(query="excel spreadsheet")
+
+查看 anthropics/skills/xlsx 的详情和安装方式
+→ get_skill(skill_id="anthropics/skills/xlsx")
+
+目前索引了哪些数据源？
+→ list_sources()
+```
+
+---
 
 | | 同类（镜像型） | Skill Store |
 |---|---|---|
@@ -210,29 +287,35 @@ skill-gather/
 │   │   ├── github_repo.py    # GitHub 仓库采集器
 │   │   ├── awesome_list.py   # Awesome-list 解析器
 │   │   ├── skills_sh.py      # skills.sh 安装量信号采集器
+│   │   ├── web_api.py        # Web 平台 API 采集器（SkillHub / MCPMarket）
 │   │   └── config.yml        # 数据源声明（改这里加新源）
 │   ├── pipeline/
 │   │   ├── normalize.py      # 数据规范化 + 分类推断
-│   │   ├── deduplicate.py    # 跨源去重
+│   │   ├── deduplicate.py    # 跨源去重（两趟：位置 + 内容指纹）
 │   │   ├── score.py          # 质量评分（0-100）
 │   │   └── run.py            # 管道编排
+│   ├── mcp/
+│   │   └── server.py         # MCP server（search / get / list_sources / stats）
 │   ├── models.py             # Pydantic v2 数据模型
-│   ├── registry_writer.py    # 输出 registry/ + 变更检测
+│   ├── repo_utils.py         # GitHub repo URL 规范化工具
+│   ├── registry_writer.py    # 输出 registry/sources/ + quality metrics
+│   ├── registry_reader.py    # 读取 registry（供 CLI 和 MCP server 共用）
 │   └── main.py               # CLI 入口
 ├── registry/
-│   ├── skills.json           # 完整索引（自动生成）
-│   ├── meta.json             # 统计 + 变更日志（自动生成）
-│   └── by-category/          # 按分类拆分的 JSON（自动生成）
+│   ├── sources/              # 按来源分片的 JSON（自动生成）
+│   │   ├── anthropics-skills.json
+│   │   ├── skillhub-cn.json
+│   │   └── ...               # 每个来源一个文件；超过 40MB 自动分片
+│   ├── meta.json             # 统计 + 质量指标 + 变更日志（自动生成）
+│   └── skills_sh_installs.json  # skills.sh 安装量信号
 ├── scripts/
 │   ├── update_readme.py      # 同步后自动刷新 README 统计区块
-│   └── export_web_data.py    # registry → web/data/skills.yml
+│   └── export_web_data.py    # registry/sources/ → web/data/skills.yml
 ├── web/                      # Astro 前端
 │   ├── data/skills.yml       # 前端数据（自动生成）
 │   └── src/components/react/ # SkillCard / SearchCommand / SkillApp
-├── docs/
-│   └── DESIGN.md             # 架构设计文档
 ├── .github/workflows/
-│   └── sync.yml              # GitHub Actions 定时同步
+│   └── sync.yml              # GitHub Actions 定时同步 + 前端导出
 ├── .env.example
 └── pyproject.toml
 ```
@@ -281,15 +364,24 @@ skill-gather/
 
 ### 质量评分（0-100）
 
-| 维度 | 权重 |
-|------|------|
-| 有描述 | 20 |
-| 有许可证 | 10 |
-| 有可执行脚本（scripts/） | 15 |
-| 有参考文档（reference/） | 10 |
-| GitHub Stars（对数归一化） | 20 |
-| 更新时效（近期提交加分） | 15 |
-| 字段完整度 | 10 |
+评分由多个独立信号合成，刻意减少对 GitHub API 的依赖——即使 GitHub 服务中断，大部分评分仍然有效。
+
+| 维度 | 权重 | 说明 |
+|------|------|------|
+| 有描述 | 10 | 是否有非占位符描述 |
+| 描述质量 | 10 | 按长度（10/40/120 字符分档）评分 |
+| 有许可证 | 7 | spec.license 非空 |
+| 有可执行脚本 | 10 | signals.has_scripts |
+| 有参考文档 | 7 | signals.has_references |
+| 文件结构 | 7 | file_count 分档 |
+| GitHub Stars | 10 | 对数归一化（不依赖实时 API，来自采集缓存） |
+| 安装量 | 15 | 对数归一化（来自 skills.sh / 平台数据） |
+| 更新时效 | 9 | 近期提交加分，1 年以上减分 |
+| 字段完整度 | 8 | license / compatibility / metadata / tags |
+| **来源可信度** | **15** | 官方组织满分；无 repo 时用安装量兜底 |
+| **跨源确认** | **7** | 被多个平台独立收录的 skill 加分 |
+
+最后两项是不依赖 GitHub API 的新信号，让 skillhub / mcpmarket 的高质量 skill 能与 GitHub 来源公平竞争。
 
 ---
 

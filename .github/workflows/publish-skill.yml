@@ -1,0 +1,176 @@
+name: Publish Skill to skill-hub
+
+on:
+  workflow_dispatch:
+    inputs:
+      message:
+        description: "Commit message for skill-hub (optional)"
+        required: false
+        default: ""
+      dry_run:
+        description: "Assemble and test only, do not push"
+        type: boolean
+        required: false
+        default: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    env:
+      DEST: skill-hub/skills/skill-gather
+      SRC: skill-gather
+
+    steps:
+      - name: Checkout skill-gather (source)
+        uses: actions/checkout@v4
+        with:
+          path: skill-gather
+
+      - name: Checkout skill-hub (target)
+        uses: actions/checkout@v4
+        with:
+          repository: OneZero-Y/skill-hub
+          token: ${{ secrets.SKILL_HUB_DEPLOY_TOKEN }}
+          path: skill-hub
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v4
+        with:
+          version: "latest"
+
+      # ------------------------------------------------------------------
+      # Assemble
+      # ------------------------------------------------------------------
+
+      - name: Assemble skill bundle
+        run: |
+          set -euo pipefail
+
+          # Replace this skill only; other skills in skill-hub are untouched.
+          rm -rf "$DEST"
+          mkdir -p "$DEST"
+
+          # Entry point read by the agent.
+          cp "$SRC/skills/skill-gather/SKILL.md" "$DEST/SKILL.md"
+
+          # Cross-platform command wrapper the SKILL.md points at.
+          mkdir -p "$DEST/bin"
+          cp "$SRC/skills/skill-gather/bin/skill_gather_cli.py" "$DEST/bin/"
+
+          # Python package. mcp/ is excluded: the MCP server is a separate
+          # delivery channel and cannot run from inside the skill bundle.
+          rsync -a \
+            --exclude="mcp/" \
+            --exclude="__pycache__/" \
+            --exclude="*.pyc" \
+            "$SRC/skill_gather/" "$DEST/skill_gather/"
+
+          # Registry snapshot, so search works offline with no setup.
+          mkdir -p "$DEST/registry"
+          rsync -a "$SRC/registry/sources/" "$DEST/registry/sources/"
+          cp "$SRC/registry/meta.json"               "$DEST/registry/meta.json"
+          cp "$SRC/registry/skills_sh_installs.json" "$DEST/registry/skills_sh_installs.json"
+
+      - name: Build trimmed pyproject.toml
+        run: |
+          set -euo pipefail
+          python3 "$SRC/scripts/build_skill_pyproject.py" \
+            --source "$SRC/pyproject.toml" \
+            --output "$DEST/pyproject.toml"
+
+      - name: Resolve dependencies for the bundle
+        # The lock and requirements must be derived from the *trimmed*
+        # pyproject, not the source one. Reusing the source uv.lock would
+        # reinstate the mcp dependency tree and leave the lock inconsistent
+        # with the bundle's own pyproject.
+        run: |
+          set -euo pipefail
+          cd "$DEST"
+          uv lock
+          uv export --no-dev --no-emit-project --no-hashes --output-file requirements.txt
+          echo "--- requirements.txt ---"
+          cat requirements.txt
+
+      # ------------------------------------------------------------------
+      # Verify before publishing
+      # ------------------------------------------------------------------
+
+      - name: Verify bundle structure
+        run: python3 "$SRC/scripts/verify_skill_bundle.py" "$DEST"
+
+      - name: Smoke test the bundle
+        # Runs the skill exactly as an agent would, in a copy outside the repo
+        # so no build artifacts (.venv) leak into the commit.
+        run: |
+          set -euo pipefail
+          TESTDIR="$RUNNER_TEMP/skill-smoke"
+          rm -rf "$TESTDIR"
+          cp -r "$DEST" "$TESTDIR"
+          cd "$TESTDIR"
+
+          echo "--- doctor ---"
+          python3 bin/skill_gather_cli.py doctor
+
+          echo "--- search (triggers dependency bootstrap) ---"
+          python3 bin/skill_gather_cli.py search excel --limit 3
+
+          echo "--- stats ---"
+          python3 bin/skill_gather_cli.py stats
+
+          echo "--- update without a token must exit 0 and change nothing ---"
+          env -u GITHUB_TOKEN -u GH_TOKEN -u SKILL_GATHER_GITHUB_TOKEN \
+            python3 bin/skill_gather_cli.py update
+
+          echo "--- installed venv size ---"
+          du -sh .venv || true
+
+      - name: Bundle summary
+        run: |
+          set -euo pipefail
+          echo "### Skill bundle" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| item | value |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---|" >> "$GITHUB_STEP_SUMMARY"
+          echo "| skills indexed | $(python3 -c "import json;print(json.load(open('$DEST/registry/meta.json'))['total_skills'])") |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| sources | $(python3 -c "import json;print(json.load(open('$DEST/registry/meta.json'))['sources_count'])") |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| bundle size | $(du -sh "$DEST" | cut -f1) |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| files | $(find "$DEST" -type f | wc -l) |" >> "$GITHUB_STEP_SUMMARY"
+
+      # ------------------------------------------------------------------
+      # Publish
+      # ------------------------------------------------------------------
+
+      - name: Commit and push to skill-hub
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          set -euo pipefail
+          cd skill-hub
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Only this skill's directory is touched. skill-hub owns its own
+          # README and any other skills it hosts.
+          git add skills/skill-gather/
+
+          if git diff --cached --quiet; then
+            echo "No changes to publish — skill-hub is already up to date."
+            exit 0
+          fi
+
+          if [ -n "${{ github.event.inputs.message }}" ]; then
+            COMMIT_MSG="${{ github.event.inputs.message }}"
+          else
+            SHORT_SHA="$(git -C ../skill-gather rev-parse --short HEAD)"
+            TOTAL="$(python3 -c "import json;print(json.load(open('skills/skill-gather/registry/meta.json'))['total_skills'])")"
+            COMMIT_MSG="chore: publish skill-gather @ ${SHORT_SHA} (${TOTAL} skills indexed)"
+          fi
+
+          git commit -m "$COMMIT_MSG"
+          git push
+          echo "Published to https://github.com/OneZero-Y/skill-hub/tree/main/skills/skill-gather"
+
+      - name: Dry run notice
+        if: ${{ github.event.inputs.dry_run == 'true' }}
+        run: echo "Dry run: bundle assembled and verified, nothing pushed."
