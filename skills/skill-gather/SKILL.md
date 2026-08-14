@@ -15,11 +15,17 @@ compatibility: "Claude Code, Kiro, Cursor, Codex. Requires Python 3.12+. Install
 
 # Skill Gather
 
-Search and install AI agent skills from an index of 11,000+ skills gathered from GitHub,
-SkillHub, MCP Market and community lists.
+Search and install AI agent skills from an index gathered from GitHub, SkillHub, MCP
+Market and community lists.
 
-The registry ships with this skill as a snapshot, so search works with no network access
-and no setup beyond a one-time dependency install.
+A registry snapshot ships with this skill, so search works with no network access and no
+setup beyond a one-time dependency install.
+
+The bundled snapshot is a **curated subset** — the highest-scoring skills in each
+category, kept small enough to satisfy marketplace file size limits. Run `doctor` to see
+its exact coverage. When a search finds nothing relevant, say that the bundled subset has
+no match and that `update` (with a GitHub token) would search the full registry, rather
+than concluding no such skill exists.
 
 ## Running commands
 
@@ -153,8 +159,8 @@ When the user asks for a skill to accomplish something:
 
 ## Notes
 
-- Registry data is a snapshot taken when this skill was published. Run `doctor` to see
-  its date.
+- The bundled registry is a curated subset taken when this skill was published. `doctor`
+  reports its date and coverage. `update` replaces it with the full registry.
 - Search is local and offline. Only `update` and `install` need network access.
 - Skill content is not bundled: this is an index. `install` fetches the real files from
   the upstream repository.

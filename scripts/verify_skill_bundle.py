@@ -29,6 +29,9 @@ EXCLUDED_PACKAGE = "skill_gather/mcp"
 EXCLUDED_IMPORT = "skill_gather.mcp"
 EXCLUDED_DEPENDENCY = "mcp"
 
+# mcpmarket rejects an import if any individual file is larger than this.
+MAX_FILE_BYTES = 500 * 1024
+
 # Files the SKILL.md instructs the agent to run or rely on.
 REQUIRED_FILES = (
     "SKILL.md",
@@ -207,7 +210,7 @@ def verify(bundle: Path) -> int:
     # --- registry snapshot ----------------------------------------------
     print("\nRegistry snapshot")
     meta_path = bundle / "registry" / "meta.json"
-    shards = list((bundle / "registry" / "sources").glob("*.json"))
+    shards = sorted((bundle / "registry" / "sources").glob("*.json"))
     r.check(len(shards) > 0, "registry has at least one source shard", f"{len(shards)} found")
 
     if meta_path.is_file():
@@ -217,8 +220,34 @@ def verify(bundle: Path) -> int:
             r.check(total > 0, "meta.json reports a non-zero skill total", str(total))
             r.note(f"snapshot: {total} skills, {meta.get('sources_count', '?')} sources, "
                    f"synced {str(meta.get('last_synced', '?'))[:19]}")
+            bundle_info = meta.get("bundle") or {}
+            if bundle_info:
+                r.note(f"subset: {bundle_info.get('coverage_pct')}% of "
+                       f"{bundle_info.get('full_registry_total')} full-registry records, "
+                       f"scores {bundle_info.get('score_min')}-{bundle_info.get('score_max')}")
         except ValueError as exc:
             r.check(False, "meta.json is valid JSON", str(exc))
+
+    # --- marketplace file size limit ------------------------------------
+    # mcpmarket rejects the entire import if any single file exceeds 500 KB.
+    # This is checked here because that rejection happens after publishing,
+    # when the bundle is already committed to the public repo.
+    print("\nMarketplace size limits")
+    oversized = [
+        (p.relative_to(bundle), p.stat().st_size)
+        for p in bundle.rglob("*")
+        if p.is_file() and p.stat().st_size > MAX_FILE_BYTES
+    ]
+    r.check(
+        not oversized,
+        f"no file exceeds {MAX_FILE_BYTES // 1024} KB",
+        "; ".join(f"{name} is {size // 1024} KB" for name, size in oversized[:5]),
+    )
+    if shards:
+        largest = max(shards, key=lambda p: p.stat().st_size)
+        r.note(f"largest shard: {largest.name} at {largest.stat().st_size / 1024:.1f} KB")
+        bundle_bytes = sum(f.stat().st_size for f in bundle.rglob("*") if f.is_file())
+        r.note(f"bundle total: {bundle_bytes / 1024 / 1024:.1f} MB")
 
     # --- build artifacts must not be committed --------------------------
     print("\nCleanliness")

@@ -253,22 +253,39 @@ def github_token() -> str | None:
     return None
 
 
-def snapshot_summary() -> str:
-    """One-line description of the bundled registry snapshot."""
+def _load_meta() -> dict:
     meta_file = SKILL_ROOT / "registry" / "meta.json"
     if not meta_file.exists():
-        return "no registry snapshot found"
-
+        return {}
     try:
         import json
 
-        meta = json.loads(meta_file.read_text(encoding="utf-8"))
-        total = meta.get("total_skills", "?")
-        sources = meta.get("sources_count", "?")
-        synced = str(meta.get("last_synced", "unknown"))[:19].replace("T", " ")
-        return f"{total} skills from {sources} sources, snapshot taken {synced} UTC"
-    except (OSError, ValueError) as exc:
-        return f"registry snapshot unreadable ({exc})"
+        return json.loads(meta_file.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return {}
+
+
+def snapshot_summary() -> str:
+    """One-line description of the bundled registry snapshot."""
+    meta = _load_meta()
+    if not meta:
+        return "no registry snapshot found"
+
+    total = meta.get("total_skills", "?")
+    sources = meta.get("sources_count", "?")
+    synced = str(meta.get("last_synced", "unknown"))[:19].replace("T", " ")
+    summary = f"{total} skills from {sources} sources, snapshot taken {synced} UTC"
+
+    # The shipped snapshot is a curated subset, since marketplaces cap file
+    # size. Saying so matters: otherwise a search that misses looks like the
+    # skill does not exist anywhere, when running `update` would find it.
+    bundle = meta.get("bundle") or {}
+    if bundle.get("is_subset"):
+        full = bundle.get("full_registry_total")
+        coverage = bundle.get("coverage_pct")
+        if full:
+            summary += f" (curated subset: {coverage}% of {full} in the full registry)"
+    return summary
 
 
 def cmd_doctor() -> int:
@@ -283,7 +300,11 @@ def cmd_doctor() -> int:
 
     has_token = github_token() is not None
     info(f"GitHub token     : {'configured' if has_token else 'not configured'}")
-    if not has_token:
+
+    is_subset = (_load_meta().get("bundle") or {}).get("is_subset")
+    if is_subset and has_token:
+        info("  Run `update` to replace the curated subset with the full registry.")
+    elif not has_token:
         info(
             "  Without a token, `update` is skipped and the bundled snapshot is "
             "used. To enable updates, set GITHUB_TOKEN in your environment."

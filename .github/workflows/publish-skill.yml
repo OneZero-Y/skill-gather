@@ -12,6 +12,14 @@ on:
         type: boolean
         required: false
         default: false
+      max_per_category:
+        description: "Bundled snapshot: max skills per category"
+        required: false
+        default: "500"
+      min_score:
+        description: "Bundled snapshot: minimum quality score"
+        required: false
+        default: "30"
 
 jobs:
   publish:
@@ -66,11 +74,21 @@ jobs:
             --exclude="*.pyc" \
             "$SRC/skill_gather/" "$DEST/skill_gather/"
 
-          # Registry snapshot, so search works offline with no setup.
+          cp "$SRC/registry/skills_sh_installs.json" "$DEST/registry/skills_sh_installs.json" 2>/dev/null || true
+
+      - name: Build bundled registry snapshot
+        # Not a straight copy of registry/sources/: mcpmarket rejects any file
+        # over 500 KB and the full registry has shards up to 8.5 MB. This
+        # produces a compact, small-sharded, curated snapshot in the same record
+        # schema, so the CLI needs no second code path. Users who want the full
+        # index run `update`.
+        run: |
+          set -euo pipefail
           mkdir -p "$DEST/registry"
-          rsync -a "$SRC/registry/sources/" "$DEST/registry/sources/"
-          cp "$SRC/registry/meta.json"               "$DEST/registry/meta.json"
-          cp "$SRC/registry/skills_sh_installs.json" "$DEST/registry/skills_sh_installs.json"
+          python3 "$SRC/scripts/build_skill_registry.py" \
+            --output "$DEST/registry" \
+            --max-per-category "${{ inputs.max_per_category }}" \
+            --min-score "${{ inputs.min_score }}"
 
       - name: Build trimmed pyproject.toml
         run: |
