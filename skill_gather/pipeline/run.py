@@ -3,16 +3,15 @@
 from __future__ import annotations
 
 import logging
-
 from dataclasses import dataclass, field
 
 import skill_gather.adapters  # noqa: F401 — triggers adapter self-registration via __init__.py
 from skill_gather.adapters.base import get_all_adapters, load_sources_config
 from skill_gather.models import RawSkillEntry, SkillIndex
-from skill_gather.pipeline.deduplicate import deduplicate
+from skill_gather.pipeline.deduplicate import DedupStats, deduplicate
 from skill_gather.pipeline.normalize import normalize_all
 from skill_gather.pipeline.score import score_all
-from skill_gather.registry_writer import REGISTRY_DIR, load_existing_skills, load_source_skills
+from skill_gather.registry_writer import REGISTRY_DIR, load_existing_skills
 from skill_gather.sync_state import load_source_sync_state
 
 logger = logging.getLogger(__name__)
@@ -24,6 +23,8 @@ class PipelineResult:
     source_fingerprints: dict[str, str] = field(default_factory=dict)
     skipped_sources: list[str] = field(default_factory=list)
     synced_sources: list[str] = field(default_factory=list)
+    failed_sources: dict[str, str] = field(default_factory=dict)
+    dedup_stats: DedupStats | None = None
 
 
 def run_pipeline(
@@ -58,6 +59,7 @@ def run_pipeline(
     stored_state = load_source_sync_state(REGISTRY_DIR) if incremental and not force else {}
     skipped_sources: list[str] = []
     synced_sources: list[str] = []
+    failed_sources: dict[str, str] = {}
     source_fingerprints: dict[str, str] = {}
 
     # Step 1: Crawl sources (or skip unchanged ones)
@@ -92,6 +94,7 @@ def run_pipeline(
                 reused = existing_by_source[source_id]
                 reused_skills.extend(reused)
                 skipped_sources.append(source_id)
+                failed_sources[source_id] = "returned 0 entries; kept existing data"
                 logger.warning(
                     "  [%s] returned 0 entries but registry has %d existing skills "
                     "— keeping existing data (possible API/upstream issue)",
@@ -108,6 +111,7 @@ def run_pipeline(
             logger.info("  [%s] → %d entries", source_id, len(entries))
         except Exception as e:
             logger.error("  [%s] FAILED: %s", source_id, e)
+            failed_sources[source_id] = str(e)[:300]
             if existing_by_source.get(source_id):
                 reused = existing_by_source[source_id]
                 reused_skills.extend(reused)
@@ -129,7 +133,7 @@ def run_pipeline(
 
     if not all_raw and not reused_skills:
         logger.warning("No entries collected from any source")
-        return PipelineResult()
+        return PipelineResult(failed_sources=failed_sources)
 
     # Step 2: Process newly crawled entries (normalize only, no score here)
     new_skills: list[SkillIndex] = []
@@ -142,10 +146,11 @@ def run_pipeline(
         return PipelineResult(
             skipped_sources=skipped_sources,
             synced_sources=synced_sources,
+            failed_sources=failed_sources,
             source_fingerprints=source_fingerprints,
         )
 
-    deduped = deduplicate(combined)
+    deduped, dedup_stats = deduplicate(combined)
     scored = score_all(deduped)
     scored.sort(key=lambda s: s.score, reverse=True)
 
@@ -159,4 +164,6 @@ def run_pipeline(
         source_fingerprints={k: v for k, v in source_fingerprints.items() if v},
         skipped_sources=skipped_sources,
         synced_sources=synced_sources,
+        failed_sources=failed_sources,
+        dedup_stats=dedup_stats,
     )

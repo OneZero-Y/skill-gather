@@ -9,7 +9,13 @@ from __future__ import annotations
 import base64
 import re
 
-from skill_gather.adapters.base import BaseAdapter, SourceConfig, github_client, github_get, register_adapter
+from skill_gather.adapters.base import (
+    BaseAdapter,
+    SourceConfig,
+    github_client,
+    github_get,
+    register_adapter,
+)
 from skill_gather.models import RawSkillEntry
 
 # Pattern: - [name](url) - description

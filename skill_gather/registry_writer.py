@@ -184,7 +184,8 @@ def _json_default(obj: Any) -> Any:
 
 def _write_bytes(path: Path, data: bytes) -> None:
     """Write bytes atomically."""
-    import os, tempfile
+    import os
+    import tempfile
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
     try:
@@ -201,7 +202,8 @@ def _write_bytes(path: Path, data: bytes) -> None:
 
 def _write_json(path: Path, data: Any) -> None:
     """Write JSON atomically: write to a temp file then rename."""
-    import os, tempfile
+    import os
+    import tempfile
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
     try:
@@ -286,6 +288,8 @@ def write_registry(
     source_fingerprints: dict[str, str] | None = None,
     skipped_sources: set[str] | None = None,
     synced_sources: set[str] | None = None,
+    failed_sources: dict[str, str] | None = None,
+    dedup_stats: Any | None = None,
 ) -> dict[str, Any]:
     """Write skills to registry/sources/ per-source shards + meta.json.
 
@@ -327,9 +331,11 @@ def write_registry(
             logger.info("Removed stale shard: %s", stale_path)
 
     total_written = 0
+    shard_index: dict[str, list[str]] = {}
     for source_id, records in by_source.items():
         paths = _write_source_shards(sources_dir, source_id, records)
         total_written += len(records)
+        shard_index[source_id] = [p.name for p in paths]
         logger.info(
             "Wrote %d skills for %s → %s",
             len(records), source_id,
@@ -381,11 +387,150 @@ def write_registry(
         "score_distribution": _score_distribution(skills),
         "changelog": changelog["summary"],
         "source_sync_state": source_sync_state,
+        "quality": _quality_metrics(
+            skills,
+            dedup_stats=dedup_stats,
+            failed_sources=failed_sources or {},
+            source_counts=source_counts,
+            shard_index=shard_index,
+        ),
     }
     _write_json(out / "meta.json", meta_payload)
     logger.info("Wrote registry metadata → %s", out / "meta.json")
 
+    _log_quality_summary(meta_payload["quality"])
+
     return changelog
+
+
+# ---------------------------------------------------------------------------
+# Quality metrics (Telemetry as a first-class citizen)
+#
+# These numbers exist so that a regression is visible instead of silent. Two
+# real bugs went unnoticed because they only ever appeared as one line of log
+# output: dedup collapsing 3 of 10,000 entries, and the score distribution
+# flattening to a 24-53 band when the GitHub API was unreachable.
+# ---------------------------------------------------------------------------
+
+def _quality_metrics(
+    skills: list[SkillIndex],
+    *,
+    dedup_stats: Any | None,
+    failed_sources: dict[str, str],
+    source_counts: dict[str, int],
+    shard_index: dict[str, list[str]],
+) -> dict[str, Any]:
+    total = len(skills)
+    if total == 0:
+        return {"total": 0}
+
+    scores = sorted(s.score for s in skills)
+
+    def pct(n: int) -> float:
+        return round(n / total * 100, 2)
+
+    with_description = sum(1 for s in skills if s.spec.description)
+    with_license = sum(1 for s in skills if s.spec.license)
+    with_repo = sum(1 for s in skills if s.discovery.repo)
+    multi_source = sum(1 for s in skills if s.signals.source_count > 1)
+    with_installs = sum(1 for s in skills if s.signals.install_count > 0)
+    with_stars = sum(1 for s in skills if s.signals.repo_stars > 0)
+
+    metrics: dict[str, Any] = {
+        "total": total,
+        "score": {
+            "avg": round(sum(scores) / total, 1),
+            "min": scores[0],
+            "max": scores[-1],
+            "median": scores[total // 2],
+            "p90": scores[int(total * 0.9)] if total > 1 else scores[0],
+            # A healthy distribution is wide. A narrow spread means the scorer
+            # is not differentiating and rankings are meaningless.
+            "spread": scores[-1] - scores[0],
+        },
+        "coverage_pct": {
+            "has_description": pct(with_description),
+            "has_license": pct(with_license),
+            "traceable_to_repo": pct(with_repo),
+            "confirmed_by_multiple_sources": pct(multi_source),
+            "has_install_count": pct(with_installs),
+            "has_stars": pct(with_stars),
+        },
+        "source_health": _source_health(source_counts, failed_sources, shard_index),
+    }
+
+    if dedup_stats is not None and hasattr(dedup_stats, "to_dict"):
+        metrics["dedup"] = dedup_stats.to_dict()
+
+    return metrics
+
+
+def _source_health(
+    source_counts: dict[str, int],
+    failed_sources: dict[str, str],
+    shard_index: dict[str, list[str]],
+) -> dict[str, Any]:
+    """Per-source status so a broken adapter is visible at a glance."""
+    health: dict[str, Any] = {}
+    for source_id, count in sorted(source_counts.items(), key=lambda kv: -kv[1]):
+        entry: dict[str, Any] = {
+            "skills": count,
+            "status": "degraded" if source_id in failed_sources else "ok",
+            "shards": shard_index.get(source_id, []),
+        }
+        if source_id in failed_sources:
+            entry["error"] = failed_sources[source_id]
+        health[source_id] = entry
+
+    # Sources that failed and contributed nothing at all.
+    for source_id, error in failed_sources.items():
+        if source_id not in health:
+            health[source_id] = {"skills": 0, "status": "failed", "error": error}
+
+    return health
+
+
+def _log_quality_summary(quality: dict[str, Any]) -> None:
+    """Print the metrics that most often reveal a regression."""
+    if not quality or quality.get("total", 0) == 0:
+        return
+
+    score = quality.get("score", {})
+    coverage = quality.get("coverage_pct", {})
+    dedup = quality.get("dedup", {})
+
+    logger.info(
+        "Quality — score spread %d (min %d / med %d / max %d)",
+        score.get("spread", 0),
+        score.get("min", 0),
+        score.get("median", 0),
+        score.get("max", 0),
+    )
+    if dedup:
+        logger.info(
+            "Quality — dedup %.2f%% (%d removed: %d by location, %d by content)",
+            dedup.get("dedup_rate_pct", 0.0),
+            dedup.get("removed_count", 0),
+            dedup.get("removed_by_location", 0),
+            dedup.get("removed_by_content", 0),
+        )
+    logger.info(
+        "Quality — coverage: description %.1f%% | repo-traceable %.1f%% | multi-source %.1f%%",
+        coverage.get("has_description", 0.0),
+        coverage.get("traceable_to_repo", 0.0),
+        coverage.get("confirmed_by_multiple_sources", 0.0),
+    )
+
+    degraded = [
+        sid for sid, info in quality.get("source_health", {}).items()
+        if info.get("status") != "ok"
+    ]
+    if degraded:
+        logger.warning(
+            "Quality — %d source(s) degraded/failed: %s",
+            len(degraded),
+            ", ".join(degraded),
+        )
 
 
 # ---------------------------------------------------------------------------

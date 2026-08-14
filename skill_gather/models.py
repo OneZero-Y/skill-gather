@@ -12,7 +12,6 @@ from typing import Any
 
 from pydantic import BaseModel, Field
 
-
 # ---------------------------------------------------------------------------
 # Enums
 # ---------------------------------------------------------------------------
@@ -108,6 +107,15 @@ class SkillDiscovery(BaseModel):
     last_synced: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     upstream_commit: str = ""
 
+    # Normalized "owner/repo" when the skill originates from a Git host.
+    # Used for content-level dedup and provenance scoring, both of which must
+    # work regardless of how each source guessed the in-repo path.
+    repo: str = ""
+
+    # Other source_ids that independently indexed this same skill.
+    # Populated by the dedup pass; drives the cross-source confirmation signal.
+    alternate_sources: list[str] = Field(default_factory=list)
+
 
 # ---------------------------------------------------------------------------
 # Signals layer: quality indicators
@@ -124,6 +132,11 @@ class SkillSignals(BaseModel):
     file_count: int = 0
     open_issues: int | None = None
     install_count: int = 0  # from skills.sh
+
+    # How many independent sources indexed this skill (1 = only one source).
+    # Cross-source presence is a trust signal that does not depend on the
+    # GitHub API being reachable.
+    source_count: int = 1
 
 
 # ---------------------------------------------------------------------------

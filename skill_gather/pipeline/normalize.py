@@ -232,6 +232,55 @@ def generate_skill_id(entry: RawSkillEntry) -> str:
 
 
 # ---------------------------------------------------------------------------
+# Repo normalization and description sanity checks
+# ---------------------------------------------------------------------------
+
+_REPO_URL_RE = re.compile(
+    r"(?:github|gitlab|bitbucket)\.com/([^/\s]+/[^/\s#?]+)", re.IGNORECASE
+)
+
+
+def _normalize_repo(entry: RawSkillEntry) -> str:
+    """Resolve a canonical lowercase 'owner/repo' for this entry, or ''.
+
+    Prefers the adapter-provided repo, falling back to parsing whichever URL
+    we have. Trailing '.git' and case differences are normalized away so the
+    same repo from different sources produces an identical key.
+    """
+    candidate = str(entry.extra.get("repo") or "").strip()
+
+    if not candidate:
+        for url in (
+            str(entry.extra.get("install_url") or ""),
+            entry.source_url or "",
+        ):
+            match = _REPO_URL_RE.search(url)
+            if match:
+                candidate = match.group(1)
+                break
+
+    if not candidate or "/" not in candidate:
+        return ""
+
+    owner, _, repo = candidate.partition("/")
+    repo = repo.split("/")[0]
+    if repo.endswith(".git"):
+        repo = repo[:-4]
+    if not owner or not repo:
+        return ""
+    return f"{owner.lower()}/{repo.lower()}"
+
+
+def _is_placeholder_description(description: str, raw_name: str, slug: str) -> bool:
+    """True when the description carries no information beyond the name."""
+    normalized = re.sub(r"[^a-z0-9]+", "", description.lower())
+    for name in (raw_name, slug):
+        if normalized and normalized == re.sub(r"[^a-z0-9]+", "", name.lower()):
+            return True
+    return False
+
+
+# ---------------------------------------------------------------------------
 # Main normalization
 # ---------------------------------------------------------------------------
 
@@ -251,9 +300,16 @@ def normalize_entry(entry: RawSkillEntry) -> SkillIndex:
 
     name_normalized = re.sub(r"[^a-z0-9-]", "-", entry.name.lower()).strip("-") or entry.name
 
+    # Several web_api adapters fall back to `description = name` when the
+    # upstream record has no description. Treat that as "no description" so it
+    # cannot earn description credit during scoring.
+    raw_desc = (entry.description or "").strip()
+    if raw_desc and _is_placeholder_description(raw_desc, entry.name, name_normalized):
+        raw_desc = ""
+
     spec = SkillSpec(
         name=name_normalized,
-        description=entry.description[:1024] if entry.description else "",
+        description=raw_desc[:1024],
         license=entry.license,
         compatibility=entry.compatibility,
         metadata=entry.metadata,
@@ -267,6 +323,7 @@ def normalize_entry(entry: RawSkillEntry) -> SkillIndex:
         install_url=install_url,
         last_synced=now,
         upstream_commit=entry.extra.get("upstream_commit", ""),
+        repo=_normalize_repo(entry),
     )
 
     # Merge skills.sh install count into signals

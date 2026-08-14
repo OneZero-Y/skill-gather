@@ -12,7 +12,13 @@ from typing import Any
 
 import yaml
 
-from skill_gather.adapters.base import BaseAdapter, SourceConfig, github_client, github_get, register_adapter
+from skill_gather.adapters.base import (
+    BaseAdapter,
+    SourceConfig,
+    github_client,
+    github_get,
+    register_adapter,
+)
 from skill_gather.models import RawSkillEntry
 
 

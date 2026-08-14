@@ -10,10 +10,12 @@ dependencies = [
     "rich>=13.9.0",
     "click>=8.1.0",
     "python-dotenv>=1.0.0",
+    "mcp>=1.12.0",
 ]
 
 [project.scripts]
 skill-gather = "skill_gather.main:cli"
+skill-gather-mcp = "skill_gather.mcp.server:main"
 
 [tool.ruff]
 target-version = "py312"

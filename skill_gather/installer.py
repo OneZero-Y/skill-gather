@@ -95,6 +95,9 @@ def _sanitize_skill_name(name: str) -> str:
     if not cleaned:
         raise ValueError(f"Cannot derive safe name from: {name!r}")
     return cleaned
+
+
+def parse_skillhub_slug(skill: dict) -> str | None:
     """Extract SkillHub slug from a registry skill record."""
     discovery = skill.get("discovery") or {}
     source_id = discovery.get("source_id", "")

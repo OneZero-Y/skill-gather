@@ -9,6 +9,7 @@ from pathlib import Path
 
 import yaml
 
+
 # PyYAML will write strings like '096' without quotes, which js-yaml then
 # parses back as the integer 96.  Register a representer that forces quoting
 # whenever yaml.safe_load would not give back the same string.

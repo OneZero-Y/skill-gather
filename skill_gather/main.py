@@ -191,6 +191,8 @@ def sync(
         source_fingerprints=result.source_fingerprints,
         skipped_sources=set(result.skipped_sources),
         synced_sources=set(result.synced_sources),
+        failed_sources=result.failed_sources,
+        dedup_stats=result.dedup_stats,
     )
     _print_changelog(changelog)
     console.print(f"[green]✓[/green] Registry updated at [bold]{REGISTRY_DIR}[/bold]")
@@ -631,6 +633,8 @@ def daemon(interval: int, source: tuple[str, ...]) -> None:
                     source_fingerprints=result.source_fingerprints,
                     skipped_sources=set(result.skipped_sources),
                     synced_sources=set(result.synced_sources),
+                    failed_sources=result.failed_sources,
+                    dedup_stats=result.dedup_stats,
                 )
                 _print_changelog(changelog)
                 console.print(
