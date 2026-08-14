@@ -23,7 +23,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bioservices",
         "last_synced": "2026-08-14T03:15:42.236292Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -49,7 +49,7 @@
         "bioservices",
         "python"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/clinical-decision-support",
@@ -72,7 +72,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/clinical-decision-support",
         "last_synced": "2026-08-14T03:15:42.236806Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -98,7 +98,7 @@
         "decision",
         "support"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/clinical-reports",
@@ -121,7 +121,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/clinical-reports",
         "last_synced": "2026-08-14T03:15:42.236909Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -146,7 +146,7 @@
         "clinical",
         "reports"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/deepchem",
@@ -169,7 +169,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deepchem",
         "last_synced": "2026-08-14T03:15:42.237373Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -193,7 +193,7 @@
       "tags": [
         "deepchem"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/deeptools",
@@ -216,7 +216,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deeptools",
         "last_synced": "2026-08-14T03:15:42.237539Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -240,7 +240,7 @@
       "tags": [
         "deeptools"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/dnanexus-integration",
@@ -263,7 +263,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dnanexus-integration",
         "last_synced": "2026-08-14T03:15:42.237829Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -289,7 +289,7 @@
         "dnanexus",
         "integration"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/etetoolkit",
@@ -312,7 +312,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/etetoolkit",
         "last_synced": "2026-08-14T03:15:42.238106Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -336,7 +336,7 @@
       "tags": [
         "etetoolkit"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/exploratory-data-analysis",
@@ -359,7 +359,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/exploratory-data-analysis",
         "last_synced": "2026-08-14T03:15:42.238520Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -385,7 +385,7 @@
         "data",
         "exploratory"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/flowio",
@@ -408,7 +408,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/flowio",
         "last_synced": "2026-08-14T03:15:42.238651Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -432,7 +432,7 @@
       "tags": [
         "flowio"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/fluidsim",
@@ -456,7 +456,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/fluidsim",
         "last_synced": "2026-08-14T03:15:42.238727Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -480,7 +480,7 @@
       "tags": [
         "fluidsim"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/generate-image",
@@ -505,7 +505,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/generate-image",
         "last_synced": "2026-08-14T03:15:42.238797Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -531,7 +531,7 @@
         "generate",
         "image"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/geniml",
@@ -556,7 +556,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geniml",
         "last_synced": "2026-08-14T03:15:42.238880Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -580,7 +580,7 @@
       "tags": [
         "geniml"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/geopandas",
@@ -604,7 +604,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geopandas",
         "last_synced": "2026-08-14T03:15:42.239393Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -629,7 +629,7 @@
         "geopandas",
         "python"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/get-available-resources",
@@ -652,7 +652,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/get-available-resources",
         "last_synced": "2026-08-14T03:15:42.239446Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -677,7 +677,7 @@
         "available",
         "resources"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/gget",
@@ -700,7 +700,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/gget",
         "last_synced": "2026-08-14T03:15:42.239530Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -726,7 +726,7 @@
         "gget",
         "python"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/hypogenic",
@@ -749,7 +749,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hypogenic",
         "last_synced": "2026-08-14T03:15:42.240057Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -774,7 +774,7 @@
         "hypogenic",
         "llm"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/hypothesis-generation",
@@ -798,7 +798,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hypothesis-generation",
         "last_synced": "2026-08-14T03:15:42.240142Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -823,7 +823,7 @@
         "generation",
         "hypothesis"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/labarchive-integration",
@@ -846,7 +846,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/labarchive-integration",
         "last_synced": "2026-08-14T03:15:42.240523Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -872,7 +872,7 @@
         "integration",
         "labarchive"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/market-research-reports",
@@ -895,7 +895,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/market-research-reports",
         "last_synced": "2026-08-14T03:15:42.241104Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -921,7 +921,7 @@
         "reports",
         "research"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/matchms",
@@ -944,7 +944,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/matchms",
         "last_synced": "2026-08-14T03:15:42.241248Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -968,7 +968,7 @@
       "tags": [
         "matchms"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/matlab",
@@ -992,7 +992,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/matlab",
         "last_synced": "2026-08-14T03:15:42.241316Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1017,7 +1017,7 @@
         "matlab",
         "python"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/medchem",
@@ -1040,7 +1040,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/medchem",
         "last_synced": "2026-08-14T03:15:42.241462Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1064,7 +1064,7 @@
       "tags": [
         "medchem"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/neurokit2",
@@ -1087,7 +1087,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/neurokit2",
         "last_synced": "2026-08-14T03:15:42.241926Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1111,7 +1111,7 @@
       "tags": [
         "neurokit2"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/omero-integration",
@@ -1135,7 +1135,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/omero-integration",
         "last_synced": "2026-08-14T03:15:42.242281Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1161,7 +1161,7 @@
         "integration",
         "omero"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/opentrons-integration",
@@ -1184,7 +1184,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/opentrons-integration",
         "last_synced": "2026-08-14T03:15:42.242804Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1211,7 +1211,7 @@
         "opentrons",
         "python"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/paper-lookup",
@@ -1234,7 +1234,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paper-lookup",
         "last_synced": "2026-08-14T03:15:42.243112Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1260,7 +1260,7 @@
         "paper",
         "pdf"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pathml",
@@ -1283,7 +1283,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pathml",
         "last_synced": "2026-08-14T03:15:42.243511Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1307,7 +1307,7 @@
       "tags": [
         "pathml"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/peer-review",
@@ -1330,7 +1330,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/peer-review",
         "last_synced": "2026-08-14T03:15:42.244049Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1355,7 +1355,7 @@
         "peer",
         "review"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pptx-posters",
@@ -1378,7 +1378,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pptx-posters",
         "last_synced": "2026-08-14T03:15:42.244703Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1403,7 +1403,7 @@
         "posters",
         "pptx"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/protocolsio-integration",
@@ -1427,7 +1427,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/protocolsio-integration",
         "last_synced": "2026-08-14T03:15:42.244997Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1453,7 +1453,7 @@
         "mcp",
         "protocolsio"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pufferlib",
@@ -1477,7 +1477,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pufferlib",
         "last_synced": "2026-08-14T03:15:42.245079Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1501,7 +1501,7 @@
       "tags": [
         "pufferlib"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pydeseq2",
@@ -1524,7 +1524,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pydeseq2",
         "last_synced": "2026-08-14T03:15:42.245150Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1548,7 +1548,7 @@
       "tags": [
         "pydeseq2"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pydicom",
@@ -1572,7 +1572,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pydicom",
         "last_synced": "2026-08-14T03:15:42.245208Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1596,7 +1596,7 @@
       "tags": [
         "pydicom"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pylabrobot",
@@ -1621,7 +1621,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pylabrobot",
         "last_synced": "2026-08-14T03:15:42.245436Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1646,7 +1646,7 @@
         "api",
         "pylabrobot"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pymatgen",
@@ -1670,7 +1670,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pymatgen",
         "last_synced": "2026-08-14T03:15:42.245503Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1694,7 +1694,7 @@
       "tags": [
         "pymatgen"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pyopenms",
@@ -1717,7 +1717,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pyopenms",
         "last_synced": "2026-08-14T03:15:42.245685Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1741,7 +1741,7 @@
       "tags": [
         "pyopenms"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pytorch-lightning",
@@ -1764,7 +1764,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pytorch-lightning",
         "last_synced": "2026-08-14T03:15:42.245928Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1789,7 +1789,7 @@
         "lightning",
         "pytorch"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/qutip",
@@ -1813,7 +1813,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/qutip",
         "last_synced": "2026-08-14T03:15:42.246853Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1837,7 +1837,7 @@
       "tags": [
         "qutip"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/rdkit",
@@ -1860,7 +1860,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/rdkit",
         "last_synced": "2026-08-14T03:15:42.246940Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1884,7 +1884,7 @@
       "tags": [
         "rdkit"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scientific-visualization",
@@ -1907,7 +1907,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-visualization",
         "last_synced": "2026-08-14T03:15:42.247961Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1932,7 +1932,7 @@
         "scientific",
         "visualization"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scikit-survival",
@@ -1955,7 +1955,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-survival",
         "last_synced": "2026-08-14T03:15:42.248252Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1980,7 +1980,7 @@
         "scikit",
         "survival"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/shap",
@@ -2003,7 +2003,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/shap",
         "last_synced": "2026-08-14T03:15:42.248529Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2027,7 +2027,7 @@
       "tags": [
         "shap"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/stable-baselines3",
@@ -2050,7 +2050,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/stable-baselines3",
         "last_synced": "2026-08-14T03:15:42.248652Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2076,7 +2076,7 @@
         "baselines3",
         "stable"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/treatment-plans",
@@ -2099,7 +2099,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/treatment-plans",
         "last_synced": "2026-08-14T03:15:42.249735Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2124,7 +2124,7 @@
         "plans",
         "treatment"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/venue-templates",
@@ -2147,7 +2147,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/venue-templates",
         "last_synced": "2026-08-14T03:15:42.250226Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2173,7 +2173,7 @@
         "templates",
         "venue"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/diffdock",
@@ -2196,7 +2196,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/diffdock",
         "last_synced": "2026-08-14T03:15:42.237766Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2220,7 +2220,7 @@
       "tags": [
         "diffdock"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/gtars",
@@ -2243,7 +2243,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/gtars",
         "last_synced": "2026-08-14T03:15:42.239794Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2270,7 +2270,7 @@
         "python",
         "rust"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/latchbio-integration",
@@ -2293,7 +2293,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/latchbio-integration",
         "last_synced": "2026-08-14T03:15:42.240666Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2322,7 +2322,7 @@
         "python",
         "sdk"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/markitdown",
@@ -2345,7 +2345,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/markitdown",
         "last_synced": "2026-08-14T03:15:42.241177Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2374,7 +2374,7 @@
         "pdf",
         "rag"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pymc",
@@ -2397,7 +2397,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pymc",
         "last_synced": "2026-08-14T03:15:42.245573Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2421,7 +2421,7 @@
       "tags": [
         "pymc"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pymoo",
@@ -2444,7 +2444,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pymoo",
         "last_synced": "2026-08-14T03:15:42.245628Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2468,7 +2468,7 @@
       "tags": [
         "pymoo"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pysam",
@@ -2491,7 +2491,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pysam",
         "last_synced": "2026-08-14T03:15:42.245784Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2516,7 +2516,7 @@
         "pysam",
         "python"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pytdc",
@@ -2539,7 +2539,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pytdc",
         "last_synced": "2026-08-14T03:15:42.245849Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2564,7 +2564,7 @@
         "pytdc",
         "python"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scholar-evaluation",
@@ -2587,7 +2587,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scholar-evaluation",
         "last_synced": "2026-08-14T03:15:42.247561Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2612,7 +2612,7 @@
         "evaluation",
         "scholar"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scientific-brainstorming",
@@ -2635,7 +2635,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-brainstorming",
         "last_synced": "2026-08-14T03:15:42.247626Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2660,7 +2660,7 @@
         "brainstorming",
         "scientific"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scvelo",
@@ -2683,7 +2683,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scvelo",
         "last_synced": "2026-08-14T03:15:42.248315Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2707,7 +2707,7 @@
       "tags": [
         "scvelo"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/simpy",
@@ -2730,7 +2730,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/simpy",
         "last_synced": "2026-08-14T03:15:42.248591Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2754,7 +2754,7 @@
       "tags": [
         "simpy"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/analytical-method-validation",
@@ -2778,7 +2778,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/analytical-method-validation",
         "last_synced": "2026-08-14T03:15:42.235253Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2804,7 +2804,7 @@
         "method",
         "validation"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/citation-management",
@@ -2828,7 +2828,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/citation-management",
         "last_synced": "2026-08-14T03:15:42.236718Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2853,7 +2853,7 @@
         "citation",
         "management"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/exa-search",
@@ -2879,7 +2879,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/exa-search",
         "last_synced": "2026-08-14T03:15:42.238196Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2904,7 +2904,7 @@
         "exa",
         "search"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/experimental-design",
@@ -2927,7 +2927,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/experimental-design",
         "last_synced": "2026-08-14T03:15:42.238327Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -2952,7 +2952,7 @@
         "design",
         "experimental"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/genomic-coordinates",
@@ -2975,7 +2975,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/genomic-coordinates",
         "last_synced": "2026-08-14T03:15:42.238956Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3000,7 +3000,7 @@
         "coordinates",
         "genomic"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/iso-standards-readiness",
@@ -3025,7 +3025,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/iso-standards-readiness",
         "last_synced": "2026-08-14T03:15:42.240392Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3051,7 +3051,7 @@
         "readiness",
         "standards"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/liteparse",
@@ -3074,7 +3074,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/liteparse",
         "last_synced": "2026-08-14T03:15:42.240820Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3101,7 +3101,7 @@
         "pdf",
         "rag"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/matplotlib",
@@ -3124,7 +3124,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/matplotlib",
         "last_synced": "2026-08-14T03:15:42.241377Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3149,7 +3149,7 @@
         "matplotlib",
         "pdf"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/ncats-arax",
@@ -3172,7 +3172,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/ncats-arax",
         "last_synced": "2026-08-14T03:15:42.241721Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3198,7 +3198,7 @@
         "arax",
         "ncats"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/onekgpd",
@@ -3221,7 +3221,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/onekgpd",
         "last_synced": "2026-08-14T03:15:42.242360Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3245,7 +3245,7 @@
       "tags": [
         "onekgpd"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/ontology-term-resolution",
@@ -3268,7 +3268,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/ontology-term-resolution",
         "last_synced": "2026-08-14T03:15:42.242474Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3294,7 +3294,7 @@
         "resolution",
         "term"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/openpiv",
@@ -3318,7 +3318,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/openpiv",
         "last_synced": "2026-08-14T03:15:42.242724Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3342,7 +3342,7 @@
       "tags": [
         "openpiv"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pathogen-variant-surveillance",
@@ -3366,7 +3366,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pathogen-variant-surveillance",
         "last_synced": "2026-08-14T03:15:42.243575Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3393,7 +3393,7 @@
         "surveillance",
         "variant"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pkpd-modeling",
@@ -3417,7 +3417,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pkpd-modeling",
         "last_synced": "2026-08-14T03:15:42.244412Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3442,7 +3442,7 @@
         "modeling",
         "pkpd"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/qiskit",
@@ -3465,7 +3465,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/qiskit",
         "last_synced": "2026-08-14T03:15:42.246093Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3489,7 +3489,7 @@
       "tags": [
         "qiskit"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/relsa-severity-assessment",
@@ -3512,7 +3512,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/relsa-severity-assessment",
         "last_synced": "2026-08-14T03:15:42.247022Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3538,7 +3538,7 @@
         "relsa",
         "severity"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scientific-writing",
@@ -3561,7 +3561,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-writing",
         "last_synced": "2026-08-14T03:15:42.248032Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3586,7 +3586,7 @@
         "scientific",
         "writing"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scikit-learn",
@@ -3609,7 +3609,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-learn",
         "last_synced": "2026-08-14T03:15:42.248170Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3635,7 +3635,7 @@
         "python",
         "scikit"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/statistical-power",
@@ -3658,7 +3658,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statistical-power",
         "last_synced": "2026-08-14T03:15:42.248837Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3683,7 +3683,7 @@
         "power",
         "statistical"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/uncertainty-and-units",
@@ -3706,7 +3706,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/uncertainty-and-units",
         "last_synced": "2026-08-14T03:15:42.249905Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3732,7 +3732,7 @@
         "uncertainty",
         "units"
       ],
-      "score": 74
+      "score": 84
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/arboreto",
@@ -3755,7 +3755,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arboreto",
         "last_synced": "2026-08-14T03:15:42.235685Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3779,7 +3779,7 @@
       "tags": [
         "arboreto"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/imaging-data-commons",
@@ -3806,7 +3806,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/imaging-data-commons",
         "last_synced": "2026-08-14T03:15:42.240226Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3832,7 +3832,7 @@
         "data",
         "imaging"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/literature-review",
@@ -3856,7 +3856,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/literature-review",
         "last_synced": "2026-08-14T03:15:42.240928Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3881,7 +3881,7 @@
         "literature",
         "review"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/neuropixels-analysis",
@@ -3905,7 +3905,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/neuropixels-analysis",
         "last_synced": "2026-08-14T03:15:42.242019Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3930,7 +3930,7 @@
         "analysis",
         "neuropixels"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/open-notebook",
@@ -3954,7 +3954,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/open-notebook",
         "last_synced": "2026-08-14T03:15:42.242609Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -3979,7 +3979,7 @@
         "notebook",
         "open"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/phylogenetics",
@@ -4002,7 +4002,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/phylogenetics",
         "last_synced": "2026-08-14T03:15:42.244234Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4026,7 +4026,7 @@
       "tags": [
         "phylogenetics"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scientific-schematics",
@@ -4050,7 +4050,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-schematics",
         "last_synced": "2026-08-14T03:15:42.247791Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4075,7 +4075,7 @@
         "schematics",
         "scientific"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scientific-slides",
@@ -4099,7 +4099,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-slides",
         "last_synced": "2026-08-14T03:15:42.247868Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4124,7 +4124,7 @@
         "scientific",
         "slides"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/timesfm-forecasting",
@@ -4148,7 +4148,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/timesfm-forecasting",
         "last_synced": "2026-08-14T03:15:42.249409Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4173,7 +4173,7 @@
         "forecasting",
         "timesfm"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/statistical-analysis",
@@ -4196,7 +4196,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statistical-analysis",
         "last_synced": "2026-08-14T03:15:42.248733Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4221,7 +4221,7 @@
         "analysis",
         "statistical"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/arbor",
@@ -4244,7 +4244,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
         "last_synced": "2026-08-14T03:15:42.235502Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4269,7 +4269,7 @@
         "arbor",
         "cli"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/autoskill",
@@ -4293,7 +4293,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/autoskill",
         "last_synced": "2026-08-14T03:15:42.235832Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4319,7 +4319,7 @@
         "github",
         "llm"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/bids",
@@ -4342,7 +4342,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bids",
         "last_synced": "2026-08-14T03:15:42.236136Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4366,7 +4366,7 @@
       "tags": [
         "bids"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/bulk-rnaseq",
@@ -4389,7 +4389,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bulk-rnaseq",
         "last_synced": "2026-08-14T03:15:42.236371Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4414,7 +4414,7 @@
         "bulk",
         "rnaseq"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pacsomatic",
@@ -4439,7 +4439,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pacsomatic",
         "last_synced": "2026-08-14T03:15:42.243008Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4463,7 +4463,7 @@
       "tags": [
         "pacsomatic"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pathway-enrichment",
@@ -4486,7 +4486,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pathway-enrichment",
         "last_synced": "2026-08-14T03:15:42.243732Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4511,7 +4511,7 @@
         "enrichment",
         "pathway"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scanpy",
@@ -4534,7 +4534,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scanpy",
         "last_synced": "2026-08-14T03:15:42.247474Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4558,7 +4558,7 @@
       "tags": [
         "scanpy"
       ],
-      "score": 72
+      "score": 83
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/research-lookup",
@@ -4582,7 +4582,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/research-lookup",
         "last_synced": "2026-08-14T03:15:42.247280Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4607,7 +4607,7 @@
         "lookup",
         "research"
       ],
-      "score": 67
+      "score": 77
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/xlsx",
@@ -4632,7 +4632,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/xlsx",
         "last_synced": "2026-08-14T03:15:42.250390Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4658,7 +4658,7 @@
         "python",
         "xlsx"
       ],
-      "score": 67
+      "score": 77
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/docx",
@@ -4682,7 +4682,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/docx",
         "last_synced": "2026-08-14T03:15:42.237913Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4706,7 +4706,7 @@
       "tags": [
         "docx"
       ],
-      "score": 65
+      "score": 76
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pdf",
@@ -4730,7 +4730,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pdf",
         "last_synced": "2026-08-14T03:15:42.243956Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4754,7 +4754,7 @@
       "tags": [
         "pdf"
       ],
-      "score": 65
+      "score": 76
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pptx",
@@ -4778,7 +4778,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pptx",
         "last_synced": "2026-08-14T03:15:42.244777Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4802,7 +4802,7 @@
       "tags": [
         "pptx"
       ],
-      "score": 65
+      "score": 76
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/aeon",
@@ -4825,7 +4825,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
         "last_synced": "2026-08-14T03:15:42.235165Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4849,7 +4849,7 @@
       "tags": [
         "aeon"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/anndata",
@@ -4872,7 +4872,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
         "last_synced": "2026-08-14T03:15:42.235413Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4896,7 +4896,7 @@
       "tags": [
         "anndata"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/cellxgene-census",
@@ -4919,7 +4919,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cellxgene-census",
         "last_synced": "2026-08-14T03:15:42.236549Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4944,7 +4944,7 @@
         "cellxgene",
         "census"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/dask",
@@ -4967,7 +4967,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dask",
         "last_synced": "2026-08-14T03:15:42.237154Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -4991,7 +4991,7 @@
       "tags": [
         "dask"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/datamol",
@@ -5014,7 +5014,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/datamol",
         "last_synced": "2026-08-14T03:15:42.237298Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5038,7 +5038,7 @@
       "tags": [
         "datamol"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/histolab",
@@ -5061,7 +5061,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/histolab",
         "last_synced": "2026-08-14T03:15:42.239857Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5085,7 +5085,7 @@
       "tags": [
         "histolab"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/hugging-science",
@@ -5108,7 +5108,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hugging-science",
         "last_synced": "2026-08-14T03:15:42.239955Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5134,7 +5134,7 @@
         "hugging",
         "science"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/latex-posters",
@@ -5157,7 +5157,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/latex-posters",
         "last_synced": "2026-08-14T03:15:42.240745Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5182,7 +5182,7 @@
         "latex",
         "posters"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/molfeat",
@@ -5205,7 +5205,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/molfeat",
         "last_synced": "2026-08-14T03:15:42.241663Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5229,7 +5229,7 @@
       "tags": [
         "molfeat"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/optimize-for-gpu",
@@ -5252,7 +5252,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/optimize-for-gpu",
         "last_synced": "2026-08-14T03:15:42.242882Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5278,7 +5278,7 @@
         "optimize",
         "python"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/parallel-web",
@@ -5302,7 +5302,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/parallel-web",
         "last_synced": "2026-08-14T03:15:42.243436Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5328,7 +5328,7 @@
         "parallel",
         "web"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/polars-bio",
@@ -5351,7 +5351,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/polars-bio",
         "last_synced": "2026-08-14T03:15:42.244567Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5376,7 +5376,7 @@
         "bio",
         "polars"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pyzotero",
@@ -5400,7 +5400,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pyzotero",
         "last_synced": "2026-08-14T03:15:42.246000Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5427,7 +5427,7 @@
         "python",
         "pyzotero"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/rowan",
@@ -5452,7 +5452,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/rowan",
         "last_synced": "2026-08-14T03:15:42.247376Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5478,7 +5478,7 @@
         "python",
         "rowan"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scientific-critical-thinking",
@@ -5501,7 +5501,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-critical-thinking",
         "last_synced": "2026-08-14T03:15:42.247713Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5527,7 +5527,7 @@
         "scientific",
         "thinking"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/torch-geometric",
@@ -5550,7 +5550,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/torch-geometric",
         "last_synced": "2026-08-14T03:15:42.249490Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5575,7 +5575,7 @@
         "geometric",
         "torch"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/torchdrug",
@@ -5598,7 +5598,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/torchdrug",
         "last_synced": "2026-08-14T03:15:42.249577Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5622,7 +5622,7 @@
       "tags": [
         "torchdrug"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/vaex",
@@ -5645,7 +5645,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/vaex",
         "last_synced": "2026-08-14T03:15:42.250134Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5669,7 +5669,7 @@
       "tags": [
         "vaex"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/zarr-python",
@@ -5692,7 +5692,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/zarr-python",
         "last_synced": "2026-08-14T03:15:42.250521Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5717,7 +5717,7 @@
         "python",
         "zarr"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/benchling-integration",
@@ -5741,7 +5741,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/benchling-integration",
         "last_synced": "2026-08-14T03:15:42.235982Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5769,7 +5769,7 @@
         "python",
         "sdk"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/infographics",
@@ -5792,7 +5792,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/infographics",
         "last_synced": "2026-08-14T03:15:42.240319Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5816,7 +5816,7 @@
       "tags": [
         "infographics"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/research-grants",
@@ -5839,7 +5839,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/research-grants",
         "last_synced": "2026-08-14T03:15:42.247212Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5864,7 +5864,7 @@
         "grants",
         "research"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/transformers",
@@ -5887,7 +5887,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/transformers",
         "last_synced": "2026-08-14T03:15:42.249650Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5911,7 +5911,7 @@
       "tags": [
         "transformers"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/astropy",
@@ -5934,7 +5934,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/astropy",
         "last_synced": "2026-08-14T03:15:42.235763Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -5959,7 +5959,7 @@
         "astropy",
         "python"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/biopython",
@@ -5983,7 +5983,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/biopython",
         "last_synced": "2026-08-14T03:15:42.236216Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6007,7 +6007,7 @@
       "tags": [
         "biopython"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/genomic-intelligence",
@@ -6032,7 +6032,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/genomic-intelligence",
         "last_synced": "2026-08-14T03:15:42.239109Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6059,7 +6059,7 @@
         "intelligence",
         "mcp"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/paperclip",
@@ -6083,7 +6083,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paperclip",
         "last_synced": "2026-08-14T03:15:42.243225Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6108,7 +6108,7 @@
         "cli",
         "paperclip"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pi-agent",
@@ -6131,7 +6131,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pi-agent",
         "last_synced": "2026-08-14T03:15:42.244305Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6157,7 +6157,7 @@
         "mcp",
         "sdk"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/polars",
@@ -6180,7 +6180,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/polars",
         "last_synced": "2026-08-14T03:15:42.244638Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6205,7 +6205,7 @@
         "polars",
         "python"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/seaborn",
@@ -6228,7 +6228,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/seaborn",
         "last_synced": "2026-08-14T03:15:42.248454Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6252,7 +6252,7 @@
       "tags": [
         "seaborn"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/statsmodels",
@@ -6275,7 +6275,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statsmodels",
         "last_synced": "2026-08-14T03:15:42.249035Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6300,7 +6300,7 @@
         "python",
         "statsmodels"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/sympy",
@@ -6323,7 +6323,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/sympy",
         "last_synced": "2026-08-14T03:15:42.249118Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6349,7 +6349,7 @@
         "python",
         "sympy"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/tamarind",
@@ -6374,7 +6374,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/tamarind",
         "last_synced": "2026-08-14T03:15:42.249189Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6400,7 +6400,7 @@
         "mcp",
         "tamarind"
       ],
-      "score": 64
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/primekg",
@@ -6423,7 +6423,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/primekg",
         "last_synced": "2026-08-14T03:15:42.244941Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6447,57 +6447,7 @@
       "tags": [
         "primekg"
       ],
-      "score": 63
-    },
-    {
-      "skill_id": "K-Dense-AI/scientific-agent-skills/adaptyv",
-      "spec": {
-        "name": "adaptyv",
-        "description": "How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, and results retrieval. Use this skill whenever the user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments, BLI/SPR assays, thermostability assays, or wants to submit protein sequences for experimental characterization. Also trigger when code imports `adaptyv`, `adaptyv_sdk`, or `FoundryClient`, or references `foundry-api-public.adaptyvbio.com`.",
-        "license": "MIT",
-        "compatibility": "Requires Python 3.10+, an Adaptyv Foundry account, and an API key from foundry.adaptyvbio.com. Install adaptyv-sdk from GitHub with uv pip install.",
-        "metadata": {
-          "version": "1.2",
-          "skill-author": "K-Dense Inc."
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "scientific-agent-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-        "source_path": "skills/adaptyv",
-        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/adaptyv",
-        "last_synced": "2026-08-14T03:15:42.235070Z",
-        "upstream_commit": "13385c7c4db0",
-        "repo": "",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 33448,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 3,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "adaptyv",
-        "api",
-        "python",
-        "sdk"
-      ],
-      "score": 62
+      "score": 74
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/database-lookup",
@@ -6520,7 +6470,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/database-lookup",
         "last_synced": "2026-08-14T03:15:42.237230Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6545,7 +6495,7 @@
         "database",
         "lookup"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/esm",
@@ -6568,7 +6518,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/esm",
         "last_synced": "2026-08-14T03:15:42.238056Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6594,7 +6544,7 @@
         "python",
         "sdk"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/geomaster",
@@ -6617,7 +6567,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geomaster",
         "last_synced": "2026-08-14T03:15:42.239268Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6644,7 +6594,7 @@
         "python",
         "rust"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/ginkgo-cloud-lab",
@@ -6666,7 +6616,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/ginkgo-cloud-lab",
         "last_synced": "2026-08-14T03:15:42.239613Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6692,7 +6642,7 @@
         "ginkgo",
         "lab"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/lamindb",
@@ -6715,7 +6665,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/lamindb",
         "last_synced": "2026-08-14T03:15:42.240595Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6739,7 +6689,7 @@
       "tags": [
         "lamindb"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/modal",
@@ -6763,7 +6713,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/modal",
         "last_synced": "2026-08-14T03:15:42.241520Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6789,7 +6739,7 @@
         "python",
         "sdk"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pennylane",
@@ -6812,7 +6762,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pennylane",
         "last_synced": "2026-08-14T03:15:42.244146Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6836,7 +6786,7 @@
       "tags": [
         "pennylane"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/scvi-tools",
@@ -6859,7 +6809,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scvi-tools",
         "last_synced": "2026-08-14T03:15:42.248382Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6884,7 +6834,7 @@
         "scvi",
         "tools"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/usfiscaldata",
@@ -6907,7 +6857,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/usfiscaldata",
         "last_synced": "2026-08-14T03:15:42.250053Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -6932,54 +6882,7 @@
         "api",
         "usfiscaldata"
       ],
-      "score": 62
-    },
-    {
-      "skill_id": "K-Dense-AI/scientific-agent-skills/cobrapy",
-      "spec": {
-        "name": "cobrapy",
-        "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
-        "license": "GPL-2.0 license",
-        "compatibility": "Requires Python 3.9+ (cobra 0.30+ dropped 3.8). Install with uv pip install. GLPK (swiglpk) is the default solver; CPLEX/Gurobi optional. load_model fetches from bundled data, BiGG, or BioModels (network required for remote models).",
-        "metadata": {
-          "version": "1.1",
-          "skill-author": "K-Dense Inc."
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "scientific-agent-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-        "source_path": "skills/cobrapy",
-        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cobrapy",
-        "last_synced": "2026-08-14T03:15:42.236984Z",
-        "upstream_commit": "13385c7c4db0",
-        "repo": "",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 33448,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 4,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "cobrapy"
-      ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/markdown-mermaid-writing",
@@ -7005,7 +6908,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/markdown-mermaid-writing",
         "last_synced": "2026-08-14T03:15:42.241030Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7031,55 +6934,7 @@
         "mermaid",
         "writing"
       ],
-      "score": 62
-    },
-    {
-      "skill_id": "K-Dense-AI/scientific-agent-skills/scikit-bio",
-      "spec": {
-        "name": "scikit-bio",
-        "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
-        "license": "BSD-3-Clause license",
-        "compatibility": "Requires Python 3.10+ and scikit-bio 0.7+ (uv pip install scikit-bio). NumPy 2.0+ is required. Optional matplotlib/seaborn/plotly for plotting; biom-format for BIOM tables; polars/anndata for table interoperability.",
-        "metadata": {
-          "version": "1.1",
-          "skill-author": "K-Dense Inc."
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "scientific-agent-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-        "source_path": "skills/scikit-bio",
-        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-bio",
-        "last_synced": "2026-08-14T03:15:42.248114Z",
-        "upstream_commit": "13385c7c4db0",
-        "repo": "",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 33448,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 3,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "bio",
-        "scikit"
-      ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/cirq",
@@ -7102,7 +6957,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cirq",
         "last_synced": "2026-08-14T03:15:42.236646Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7126,54 +6981,7 @@
       "tags": [
         "cirq"
       ],
-      "score": 62
-    },
-    {
-      "skill_id": "K-Dense-AI/scientific-agent-skills/deepspot-m",
-      "spec": {
-        "name": "deepspot-m",
-        "description": "Generate transcriptome-wide virtual spatial transcriptomics from H&E histology with DeepSpot-M. Use when you need spatial gene expression in log1p-CPM for 224x224 tiles at about 20x, want to query protein-coding genes by symbol instead of a fixed panel, or want to run prediction across a whole slide after tiling with histolab.",
-        "license": "PolyForm-Noncommercial-1.0.0",
-        "compatibility": "Needs deepspotm 1.0.0 from PyPI (Python 3.10 to 3.13) plus PyTorch. Weights at ratschlab/DeepSpotM on Hugging Face are gated and licensed CC-BY-NC-SA-4.0, so request access on the model page and then run huggingface-cli login. A CUDA GPU speeds up batched inference.",
-        "metadata": {
-          "version": "1.0",
-          "skill-author": "Ratschlab, ETH Zurich"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "scientific-agent-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-        "source_path": "skills/deepspot-m",
-        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deepspot-m",
-        "last_synced": "2026-08-14T03:15:42.237461Z",
-        "upstream_commit": "13385c7c4db0",
-        "repo": "",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 33448,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 4,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "deepspot"
-      ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/networkx",
@@ -7196,7 +7004,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/networkx",
         "last_synced": "2026-08-14T03:15:42.241819Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7221,7 +7029,7 @@
         "networkx",
         "python"
       ],
-      "score": 62
+      "score": 73
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/nextflow",
@@ -7244,7 +7052,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/nextflow",
         "last_synced": "2026-08-14T03:15:42.242112Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7272,7 +7080,199 @@
         "kubernetes",
         "nextflow"
       ],
-      "score": 62
+      "score": 73
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/adaptyv",
+      "spec": {
+        "name": "adaptyv",
+        "description": "How to use the Adaptyv Bio Foundry API and Python SDK for protein experiment design, submission, and results retrieval. Use this skill whenever the user mentions Adaptyv, Foundry API, protein binding assays, protein screening experiments, BLI/SPR assays, thermostability assays, or wants to submit protein sequences for experimental characterization. Also trigger when code imports `adaptyv`, `adaptyv_sdk`, or `FoundryClient`, or references `foundry-api-public.adaptyvbio.com`.",
+        "license": "MIT",
+        "compatibility": "Requires Python 3.10+, an Adaptyv Foundry account, and an API key from foundry.adaptyvbio.com. Install adaptyv-sdk from GitHub with uv pip install.",
+        "metadata": {
+          "version": "1.2",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/adaptyv",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/adaptyv",
+        "last_synced": "2026-08-14T03:15:42.235070Z",
+        "upstream_commit": "13385c7c4db0",
+        "repo": "k-dense-ai/scientific-agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 33448,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "adaptyv",
+        "api",
+        "python",
+        "sdk"
+      ],
+      "score": 72
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/cobrapy",
+      "spec": {
+        "name": "cobrapy",
+        "description": "Constraint-based metabolic modeling (COBRA). FBA, FVA, gene knockouts, flux sampling, SBML models, for systems biology and metabolic engineering analysis.",
+        "license": "GPL-2.0 license",
+        "compatibility": "Requires Python 3.9+ (cobra 0.30+ dropped 3.8). Install with uv pip install. GLPK (swiglpk) is the default solver; CPLEX/Gurobi optional. load_model fetches from bundled data, BiGG, or BioModels (network required for remote models).",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/cobrapy",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cobrapy",
+        "last_synced": "2026-08-14T03:15:42.236984Z",
+        "upstream_commit": "13385c7c4db0",
+        "repo": "k-dense-ai/scientific-agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 33448,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "cobrapy"
+      ],
+      "score": 72
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/scikit-bio",
+      "spec": {
+        "name": "scikit-bio",
+        "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+        "license": "BSD-3-Clause license",
+        "compatibility": "Requires Python 3.10+ and scikit-bio 0.7+ (uv pip install scikit-bio). NumPy 2.0+ is required. Optional matplotlib/seaborn/plotly for plotting; biom-format for BIOM tables; polars/anndata for table interoperability.",
+        "metadata": {
+          "version": "1.1",
+          "skill-author": "K-Dense Inc."
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/scikit-bio",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-bio",
+        "last_synced": "2026-08-14T03:15:42.248114Z",
+        "upstream_commit": "13385c7c4db0",
+        "repo": "k-dense-ai/scientific-agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 33448,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 3,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "bio",
+        "scikit"
+      ],
+      "score": 72
+    },
+    {
+      "skill_id": "K-Dense-AI/scientific-agent-skills/deepspot-m",
+      "spec": {
+        "name": "deepspot-m",
+        "description": "Generate transcriptome-wide virtual spatial transcriptomics from H&E histology with DeepSpot-M. Use when you need spatial gene expression in log1p-CPM for 224x224 tiles at about 20x, want to query protein-coding genes by symbol instead of a fixed panel, or want to run prediction across a whole slide after tiling with histolab.",
+        "license": "PolyForm-Noncommercial-1.0.0",
+        "compatibility": "Needs deepspotm 1.0.0 from PyPI (Python 3.10 to 3.13) plus PyTorch. Weights at ratschlab/DeepSpotM on Hugging Face are gated and licensed CC-BY-NC-SA-4.0, so request access on the model page and then run huggingface-cli login. A CUDA GPU speeds up batched inference.",
+        "metadata": {
+          "version": "1.0",
+          "skill-author": "Ratschlab, ETH Zurich"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "scientific-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+        "source_path": "skills/deepspot-m",
+        "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deepspot-m",
+        "last_synced": "2026-08-14T03:15:42.237461Z",
+        "upstream_commit": "13385c7c4db0",
+        "repo": "k-dense-ai/scientific-agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 33448,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 4,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "deepspot"
+      ],
+      "score": 72
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/consciousness-council",
@@ -7295,7 +7295,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/consciousness-council",
         "last_synced": "2026-08-14T03:15:42.237041Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7320,7 +7320,7 @@
         "consciousness",
         "council"
       ],
-      "score": 60
+      "score": 71
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/depmap",
@@ -7343,7 +7343,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/depmap",
         "last_synced": "2026-08-14T03:15:42.237593Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7367,7 +7367,7 @@
       "tags": [
         "depmap"
       ],
-      "score": 60
+      "score": 71
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/dhdna-profiler",
@@ -7390,7 +7390,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dhdna-profiler",
         "last_synced": "2026-08-14T03:15:42.237663Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7415,7 +7415,7 @@
         "dhdna",
         "profiler"
       ],
-      "score": 60
+      "score": 71
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/molecular-dynamics",
@@ -7438,7 +7438,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/molecular-dynamics",
         "last_synced": "2026-08-14T03:15:42.241593Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7463,7 +7463,7 @@
         "dynamics",
         "molecular"
       ],
-      "score": 60
+      "score": 71
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/what-if-oracle",
@@ -7488,7 +7488,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/what-if-oracle",
         "last_synced": "2026-08-14T03:15:42.250302Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7513,7 +7513,7 @@
         "oracle",
         "what"
       ],
-      "score": 60
+      "score": 71
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/glycoengineering",
@@ -7536,7 +7536,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/glycoengineering",
         "last_synced": "2026-08-14T03:15:42.239720Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7560,7 +7560,7 @@
       "tags": [
         "glycoengineering"
       ],
-      "score": 60
+      "score": 71
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/umap-learn",
@@ -7583,7 +7583,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/umap-learn",
         "last_synced": "2026-08-14T03:15:42.249834Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7608,7 +7608,7 @@
         "learn",
         "umap"
       ],
-      "score": 60
+      "score": 71
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/pyhealth",
@@ -7631,7 +7631,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pyhealth",
         "last_synced": "2026-08-14T03:15:42.245273Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7655,7 +7655,7 @@
       "tags": [
         "pyhealth"
       ],
-      "score": 54
+      "score": 64
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/bgpt-paper-search",
@@ -7680,7 +7680,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bgpt-paper-search",
         "last_synced": "2026-08-14T03:15:42.236052Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7707,7 +7707,7 @@
         "paper",
         "search"
       ],
-      "score": 51
+      "score": 62
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/paperzilla",
@@ -7730,7 +7730,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paperzilla",
         "last_synced": "2026-08-14T03:15:42.243366Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7754,7 +7754,7 @@
       "tags": [
         "paperzilla"
       ],
-      "score": 50
+      "score": 60
     },
     {
       "skill_id": "K-Dense-AI/scientific-agent-skills/tiledbvcf",
@@ -7777,7 +7777,7 @@
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/tiledbvcf",
         "last_synced": "2026-08-14T03:15:42.249349Z",
         "upstream_commit": "13385c7c4db0",
-        "repo": "",
+        "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -7801,9 +7801,9 @@
       "tags": [
         "tiledbvcf"
       ],
-      "score": 50
+      "score": 60
     }
   ],
   "total": 161,
-  "generated_at": "2026-08-14T08:23:37.563490+00:00"
+  "generated_at": "2026-08-14T08:50:18.663133+00:00"
 }

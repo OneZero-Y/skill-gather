@@ -22,7 +22,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/swarm",
         "last_synced": "2026-08-14T03:15:42.183586Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -66,7 +66,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/eval-engineering",
         "last_synced": "2026-08-14T03:15:42.182565Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -111,7 +111,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langsmith-online-eval-engineering",
         "last_synced": "2026-08-14T03:15:42.183397Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -158,7 +158,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-core",
         "last_synced": "2026-08-14T03:15:42.182208Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -204,7 +204,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-memory",
         "last_synced": "2026-08-14T03:15:42.182263Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -250,7 +250,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-orchestration",
         "last_synced": "2026-08-14T03:15:42.182319Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -296,7 +296,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deepagents-python-quickstart",
         "last_synced": "2026-08-14T03:15:42.182375Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -342,7 +342,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deepagents-typescript-quickstart",
         "last_synced": "2026-08-14T03:15:42.182434Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -388,7 +388,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/ecosystem-primer",
         "last_synced": "2026-08-14T03:15:42.182490Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -436,7 +436,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-dependencies",
         "last_synced": "2026-08-14T03:15:42.182634Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -484,7 +484,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-middleware",
         "last_synced": "2026-08-14T03:15:42.182756Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -529,7 +529,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-python-quickstart",
         "last_synced": "2026-08-14T03:15:42.182825Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -575,7 +575,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-rag",
         "last_synced": "2026-08-14T03:15:42.182875Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -620,7 +620,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-typescript-quickstart",
         "last_synced": "2026-08-14T03:15:42.182952Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -666,7 +666,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-cli",
         "last_synced": "2026-08-14T03:15:42.183008Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -711,7 +711,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-fundamentals",
         "last_synced": "2026-08-14T03:15:42.183062Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -756,7 +756,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-human-in-the-loop",
         "last_synced": "2026-08-14T03:15:42.183121Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -802,7 +802,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-persistence",
         "last_synced": "2026-08-14T03:15:42.183187Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -847,7 +847,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-python-quickstart",
         "last_synced": "2026-08-14T03:15:42.183249Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -893,7 +893,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-typescript-quickstart",
         "last_synced": "2026-08-14T03:15:42.183301Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -939,7 +939,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/managed-deep-agents",
         "last_synced": "2026-08-14T03:15:42.183465Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -986,7 +986,7 @@
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-fundamentals",
         "last_synced": "2026-08-14T03:15:42.182707Z",
         "upstream_commit": "92e4f3b494c0",
-        "repo": "",
+        "repo": "langchain-ai/langchain-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -1015,5 +1015,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-08-14T08:23:37.551221+00:00"
+  "generated_at": "2026-08-14T08:50:18.672871+00:00"
 }

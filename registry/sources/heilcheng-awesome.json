@@ -19,7 +19,7 @@
         "install_url": "https://github.com/hesreallyhim/awesome-claude-code",
         "last_synced": "2026-08-14T03:15:42.283080Z",
         "upstream_commit": "",
-        "repo": "",
+        "repo": "hesreallyhim/awesome-claude-code",
         "alternate_sources": []
       },
       "signals": {
@@ -45,7 +45,7 @@
         "claude",
         "code"
       ],
-      "score": 23
+      "score": 27
     },
     {
       "skill_id": "VoltAgent/awesome-design-md",
@@ -65,7 +65,7 @@
         "install_url": "https://github.com/VoltAgent/awesome-design-md",
         "last_synced": "2026-08-14T03:15:42.283169Z",
         "upstream_commit": "",
-        "repo": "",
+        "repo": "voltagent/awesome-design-md",
         "alternate_sources": []
       },
       "signals": {
@@ -90,7 +90,7 @@
         "awesome",
         "design"
       ],
-      "score": 23
+      "score": 27
     },
     {
       "skill_id": "punkpeye/awesome-mcp-servers",
@@ -110,7 +110,7 @@
         "install_url": "https://github.com/punkpeye/awesome-mcp-servers",
         "last_synced": "2026-08-14T03:15:42.283257Z",
         "upstream_commit": "",
-        "repo": "",
+        "repo": "punkpeye/awesome-mcp-servers",
         "alternate_sources": []
       },
       "signals": {
@@ -136,7 +136,7 @@
         "mcp",
         "servers"
       ],
-      "score": 23
+      "score": 27
     },
     {
       "skill_id": "https:/",
@@ -156,7 +156,7 @@
         "install_url": "https://docs.github.com/copilot/concepts/agents/about-agent-skills",
         "last_synced": "2026-08-14T03:15:42.283003Z",
         "upstream_commit": "",
-        "repo": "",
+        "repo": "copilot/concepts",
         "alternate_sources": []
       },
       "signals": {
@@ -183,7 +183,7 @@
         "github",
         "skills"
       ],
-      "score": 20
+      "score": 24
     },
     {
       "skill_id": "modelcontextprotocol/servers",
@@ -203,7 +203,7 @@
         "install_url": "https://github.com/modelcontextprotocol/servers",
         "last_synced": "2026-08-14T03:15:42.283040Z",
         "upstream_commit": "",
-        "repo": "",
+        "repo": "modelcontextprotocol/servers",
         "alternate_sources": []
       },
       "signals": {
@@ -229,7 +229,7 @@
         "mcp",
         "server"
       ],
-      "score": 20
+      "score": 24
     },
     {
       "skill_id": "VoltAgent/awesome-openclaw-skills",
@@ -249,7 +249,7 @@
         "install_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
         "last_synced": "2026-08-14T03:15:42.283216Z",
         "upstream_commit": "",
-        "repo": "",
+        "repo": "voltagent/awesome-openclaw-skills",
         "alternate_sources": []
       },
       "signals": {
@@ -275,9 +275,9 @@
         "openclaw",
         "skills"
       ],
-      "score": 20
+      "score": 24
     }
   ],
   "total": 6,
-  "generated_at": "2026-08-14T08:23:37.951332+00:00"
+  "generated_at": "2026-08-14T08:50:19.059030+00:00"
 }

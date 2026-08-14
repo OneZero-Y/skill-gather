@@ -22,7 +22,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/acquire-codebase-knowledge",
         "last_synced": "2026-08-14T05:40:03.174741Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -71,7 +71,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/geofeed-tuner",
         "last_synced": "2026-08-14T05:40:03.190583Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -116,7 +116,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/terraform-azurerm-set-diff-analyzer",
         "last_synced": "2026-08-14T05:40:03.206821Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -168,7 +168,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/eval-driven-dev",
         "last_synced": "2026-08-14T05:40:03.188049Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -220,7 +220,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/phoenix-tracing",
         "last_synced": "2026-08-14T05:40:03.198100Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -268,7 +268,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/bug-receipt",
         "last_synced": "2026-08-14T05:40:03.180524Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -313,7 +313,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/winmd-api-search",
         "last_synced": "2026-08-14T05:40:03.208665Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -359,7 +359,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/adobe-illustrator-scripting",
         "last_synced": "2026-08-14T05:40:03.175598Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -406,7 +406,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/agent-skill-stack",
         "last_synced": "2026-08-14T05:40:03.175892Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -453,7 +453,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-architecture-autopilot",
         "last_synced": "2026-08-14T05:40:03.178639Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -500,7 +500,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/build-evidence-map",
         "last_synced": "2026-08-14T05:40:03.180626Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -546,7 +546,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/code-tour",
         "last_synced": "2026-08-14T05:40:03.181025Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -591,7 +591,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/convert-excel-to-md",
         "last_synced": "2026-08-14T05:40:03.181966Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -638,7 +638,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/convert-pdf-to-md",
         "last_synced": "2026-08-14T05:40:03.182151Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -684,7 +684,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/convert-word-to-md",
         "last_synced": "2026-08-14T05:40:03.182499Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -731,7 +731,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/copilot-pr-autopilot",
         "last_synced": "2026-08-14T05:40:03.182844Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -777,7 +777,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/daily-focus-board",
         "last_synced": "2026-08-14T05:40:03.184743Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -823,7 +823,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/datanalysis-credit-risk",
         "last_synced": "2026-08-14T05:40:03.185196Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -869,7 +869,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/draw-io-diagram-generator",
         "last_synced": "2026-08-14T05:40:03.187199Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -915,7 +915,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/excalidraw-diagram-generator",
         "last_synced": "2026-08-14T05:40:03.188215Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -961,7 +961,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mini-context-graph",
         "last_synced": "2026-08-14T05:40:03.196101Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1008,7 +1008,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/python-pypi-package-builder",
         "last_synced": "2026-08-14T05:40:03.200053Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1059,7 +1059,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/cli-mastery",
         "last_synced": "2026-08-14T05:40:03.180803Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1109,7 +1109,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/markstream-install",
         "last_synced": "2026-08-14T05:40:03.194517Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1160,7 +1160,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/phoenix-cli",
         "last_synced": "2026-08-14T05:40:03.197925Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1211,7 +1211,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/quality-playbook",
         "last_synced": "2026-08-14T05:40:03.201706Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1258,7 +1258,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/webmcpify",
         "last_synced": "2026-08-14T05:40:03.208503Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1302,7 +1302,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-developer-cli",
         "last_synced": "2026-08-14T05:40:03.179019Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1353,7 +1353,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/phoenix-evals",
         "last_synced": "2026-08-14T05:40:03.198054Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1406,7 +1406,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/impediment-prioritization",
         "last_synced": "2026-08-14T05:40:03.192781Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1451,7 +1451,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/resemble-detect",
         "last_synced": "2026-08-14T05:40:03.203406Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1496,7 +1496,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/appinsights-instrumentation",
         "last_synced": "2026-08-14T05:40:03.176665Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1542,7 +1542,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gitmoji",
         "last_synced": "2026-08-14T05:40:03.191490Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1590,7 +1590,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/nano-banana-pro-openrouter",
         "last_synced": "2026-08-14T05:40:03.196853Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1637,7 +1637,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pr-dashboard",
         "last_synced": "2026-08-14T05:40:03.199329Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1682,7 +1682,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/publish-to-pages",
         "last_synced": "2026-08-14T05:40:03.199836Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1732,7 +1732,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/audit-integrity",
         "last_synced": "2026-08-14T05:40:03.177870Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1780,7 +1780,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-pricing",
         "last_synced": "2026-08-14T05:40:03.179164Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1829,7 +1829,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-ai-provider-integration",
         "last_synced": "2026-08-14T05:40:03.176945Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1881,7 +1881,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-annotation",
         "last_synced": "2026-08-14T05:40:03.177044Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1931,7 +1931,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-dataset",
         "last_synced": "2026-08-14T05:40:03.177131Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -1980,7 +1980,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-evaluator",
         "last_synced": "2026-08-14T05:40:03.177214Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2029,7 +2029,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-experiment",
         "last_synced": "2026-08-14T05:40:03.177331Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2078,7 +2078,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-instrumentation",
         "last_synced": "2026-08-14T05:40:03.177420Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2127,7 +2127,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-prompt-optimization",
         "last_synced": "2026-08-14T05:40:03.177583Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2178,7 +2178,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-trace",
         "last_synced": "2026-08-14T05:40:03.177669Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2227,7 +2227,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-resource-visualizer",
         "last_synced": "2026-08-14T05:40:03.179353Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2273,7 +2273,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/latchshot-page-capture",
         "last_synced": "2026-08-14T05:40:03.193993Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2320,7 +2320,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/md-to-docx",
         "last_synced": "2026-08-14T05:40:03.195188Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2365,7 +2365,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/optimize-simplicite-logs",
         "last_synced": "2026-08-14T05:40:03.197355Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2411,7 +2411,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/sandbox-npm-install",
         "last_synced": "2026-08-14T05:40:03.204277Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2458,7 +2458,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/sql-server-table-reconciliation",
         "last_synced": "2026-08-14T05:40:03.205945Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2506,7 +2506,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ai-team-orchestration",
         "last_synced": "2026-08-14T05:40:03.176510Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2551,7 +2551,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aspire",
         "last_synced": "2026-08-14T05:40:03.177755Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2598,7 +2598,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-container-registry-cli",
         "last_synced": "2026-08-14T05:40:03.178763Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2645,7 +2645,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-deployment-preflight",
         "last_synced": "2026-08-14T05:40:03.178840Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2691,7 +2691,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-devops-cli",
         "last_synced": "2026-08-14T05:40:03.179095Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2737,7 +2737,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/batch-files",
         "last_synced": "2026-08-14T05:40:03.179671Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2782,7 +2782,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/cloud-design-patterns",
         "last_synced": "2026-08-14T05:40:03.180865Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2828,7 +2828,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/codeql",
         "last_synced": "2026-08-14T05:40:03.181285Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2874,7 +2874,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/d365-solution-blueprint",
         "last_synced": "2026-08-14T05:40:03.184611Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2920,7 +2920,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/data-breach-blast-radius",
         "last_synced": "2026-08-14T05:40:03.185015Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -2967,7 +2967,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dependabot",
         "last_synced": "2026-08-14T05:40:03.185708Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3013,7 +3013,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dotnet-mcp-builder",
         "last_synced": "2026-08-14T05:40:03.186602Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3059,7 +3059,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/efcore-d2-db-diagram",
         "last_synced": "2026-08-14T05:40:03.187593Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3105,7 +3105,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-build",
         "last_synced": "2026-08-14T05:40:03.188695Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3153,7 +3153,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-mcp",
         "last_synced": "2026-08-14T05:40:03.189143Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3201,7 +3201,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/fluentui-blazor",
         "last_synced": "2026-08-14T05:40:03.189386Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3246,7 +3246,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/foundry-hosted-agent-copilotkit",
         "last_synced": "2026-08-14T05:40:03.189714Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3294,7 +3294,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/freecad-scripts",
         "last_synced": "2026-08-14T05:40:03.189793Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3341,7 +3341,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/game-engine",
         "last_synced": "2026-08-14T05:40:03.190178Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3387,7 +3387,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/github-actions-hardening",
         "last_synced": "2026-08-14T05:40:03.190982Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3433,7 +3433,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/github-issues",
         "last_synced": "2026-08-14T05:40:03.191333Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3479,7 +3479,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/issue-fields-migration",
         "last_synced": "2026-08-14T05:40:03.193215Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3526,7 +3526,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/legacy-circuit-mockups",
         "last_synced": "2026-08-14T05:40:03.194074Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3572,7 +3572,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/markdown-to-html",
         "last_synced": "2026-08-14T05:40:03.194413Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3618,7 +3618,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/minecraft-plugin-development",
         "last_synced": "2026-08-14T05:40:03.196001Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3665,7 +3665,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/msgraph-sdk",
         "last_synced": "2026-08-14T05:40:03.196291Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3713,7 +3713,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mvvm-toolkit",
         "last_synced": "2026-08-14T05:40:03.196676Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3758,7 +3758,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/oo-component-documentation",
         "last_synced": "2026-08-14T05:40:03.197260Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3803,7 +3803,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pdftk-server",
         "last_synced": "2026-08-14T05:40:03.197408Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3849,7 +3849,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/penpot-uiux-design",
         "last_synced": "2026-08-14T05:40:03.197484Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3896,7 +3896,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pester-migration",
         "last_synced": "2026-08-14T05:40:03.197680Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3941,7 +3941,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/powerbi-modeling",
         "last_synced": "2026-08-14T05:40:03.199211Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -3987,7 +3987,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react-audit-grep-patterns",
         "last_synced": "2026-08-14T05:40:03.201887Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4034,7 +4034,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react18-legacy-context",
         "last_synced": "2026-08-14T05:40:03.202398Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4082,7 +4082,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react18-lifecycle-patterns",
         "last_synced": "2026-08-14T05:40:03.202521Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4129,7 +4129,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react19-concurrent-patterns",
         "last_synced": "2026-08-14T05:40:03.202746Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4176,7 +4176,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/reviewing-oracle-to-postgres-migration",
         "last_synced": "2026-08-14T05:40:03.203527Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4223,7 +4223,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/rhino3d-scripts",
         "last_synced": "2026-08-14T05:40:03.203617Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4268,7 +4268,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/secret-scanning",
         "last_synced": "2026-08-14T05:40:03.204603Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4315,7 +4315,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/security-review",
         "last_synced": "2026-08-14T05:40:03.204699Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4365,7 +4365,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/slang-shader-engineer",
         "last_synced": "2026-08-14T05:40:03.205418Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4411,7 +4411,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/spring-boot-testing",
         "last_synced": "2026-08-14T05:40:03.205743Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4457,7 +4457,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/threat-model-analyst",
         "last_synced": "2026-08-14T05:40:03.206909Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4503,7 +4503,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/vcpkg",
         "last_synced": "2026-08-14T05:40:03.208013Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4550,7 +4550,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arize-link",
         "last_synced": "2026-08-14T05:40:03.177506Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4598,7 +4598,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/fabric-lakehouse",
         "last_synced": "2026-08-14T05:40:03.188391Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4643,7 +4643,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/github-release",
         "last_synced": "2026-08-14T05:40:03.191439Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4691,7 +4691,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gsap-framer-scroll-animation",
         "last_synced": "2026-08-14T05:40:03.191659Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4740,7 +4740,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/microsoft-skill-creator",
         "last_synced": "2026-08-14T05:40:03.195740Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4792,7 +4792,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ad-campaign-analyzer",
         "last_synced": "2026-08-14T05:40:03.175457Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4840,7 +4840,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/autoresearch",
         "last_synced": "2026-08-14T05:40:03.178044Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4886,7 +4886,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/brag-sheet",
         "last_synced": "2026-08-14T05:40:03.179931Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4937,7 +4937,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/competitor-ad-intelligence",
         "last_synced": "2026-08-14T05:40:03.181534Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -4986,7 +4986,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/shopify-review-triage",
         "last_synced": "2026-08-14T05:40:03.205161Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5032,7 +5032,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arduino-azure-iot-edge-integration",
         "last_synced": "2026-08-14T05:40:03.176887Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5080,7 +5080,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-smart-city-iot-solution-builder",
         "last_synced": "2026-08-14T05:40:03.179486Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5129,7 +5129,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/commit-message-storyteller",
         "last_synced": "2026-08-14T05:40:03.181423Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5175,7 +5175,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/content-management-systems",
         "last_synced": "2026-08-14T05:40:03.181722Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5221,7 +5221,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/creating-oracle-to-postgres-migration-bug-report",
         "last_synced": "2026-08-14T05:40:03.184100Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5270,7 +5270,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/doc-and-modernize",
         "last_synced": "2026-08-14T05:40:03.186081Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5315,7 +5315,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dotnet-timezone",
         "last_synced": "2026-08-14T05:40:03.186888Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5360,7 +5360,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/finnish-humanizer",
         "last_synced": "2026-08-14T05:40:03.188563Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5405,7 +5405,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-debug",
         "last_synced": "2026-08-14T05:40:03.188840Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5454,7 +5454,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gdpr-compliant",
         "last_synced": "2026-08-14T05:40:03.190273Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5499,7 +5499,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/github-codespaces-efficiency",
         "last_synced": "2026-08-14T05:40:03.191219Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5545,7 +5545,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/linkedin-post-formatter",
         "last_synced": "2026-08-14T05:40:03.194166Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5591,7 +5591,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/lsp-setup",
         "last_synced": "2026-08-14T05:40:03.194252Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5637,7 +5637,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/microsoft-agent-framework",
         "last_synced": "2026-08-14T05:40:03.195515Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5684,7 +5684,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mvvm-toolkit-di",
         "last_synced": "2026-08-14T05:40:03.196511Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5729,7 +5729,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mvvm-toolkit-messenger",
         "last_synced": "2026-08-14T05:40:03.196592Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5775,7 +5775,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/namecheap",
         "last_synced": "2026-08-14T05:40:03.196768Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5820,7 +5820,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/noob-mode",
         "last_synced": "2026-08-14T05:40:03.197029Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5866,7 +5866,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pester-should-migration",
         "last_synced": "2026-08-14T05:40:03.197816Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5912,7 +5912,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/python-azure-iot-edge-modules",
         "last_synced": "2026-08-14T05:40:03.199955Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -5960,7 +5960,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react-container-presentation-component",
         "last_synced": "2026-08-14T05:40:03.201994Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6008,7 +6008,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react18-batching-patterns",
         "last_synced": "2026-08-14T05:40:03.202078Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6055,7 +6055,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react18-enzyme-to-rtl",
         "last_synced": "2026-08-14T05:40:03.202264Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6103,7 +6103,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react18-string-refs",
         "last_synced": "2026-08-14T05:40:03.202638Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6150,7 +6150,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/roundup-setup",
         "last_synced": "2026-08-14T05:40:03.203725Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6195,7 +6195,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/semantic-kernel",
         "last_synced": "2026-08-14T05:40:03.204860Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6241,7 +6241,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/unit-test-vue-pinia",
         "last_synced": "2026-08-14T05:40:03.207590Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6289,7 +6289,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/web-design-reviewer",
         "last_synced": "2026-08-14T05:40:03.208369Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6335,7 +6335,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/drawio",
         "last_synced": "2026-08-14T05:40:03.187356Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6383,7 +6383,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/generate-image",
         "last_synced": "2026-08-14T05:40:03.190516Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6432,7 +6432,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-0-to-1-launch",
         "last_synced": "2026-08-14T05:40:03.191834Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6480,7 +6480,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-ai-gtm",
         "last_synced": "2026-08-14T05:40:03.191911Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6527,7 +6527,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-board-and-investor-communication",
         "last_synced": "2026-08-14T05:40:03.191973Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6577,7 +6577,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-developer-ecosystem",
         "last_synced": "2026-08-14T05:40:03.192055Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6626,7 +6626,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-enterprise-account-planning",
         "last_synced": "2026-08-14T05:40:03.192115Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6676,7 +6676,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-enterprise-onboarding",
         "last_synced": "2026-08-14T05:40:03.192182Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6725,7 +6725,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-operating-cadence",
         "last_synced": "2026-08-14T05:40:03.192259Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6774,7 +6774,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-partnership-architecture",
         "last_synced": "2026-08-14T05:40:03.192328Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6823,7 +6823,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-positioning-strategy",
         "last_synced": "2026-08-14T05:40:03.192392Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6872,7 +6872,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-product-led-growth",
         "last_synced": "2026-08-14T05:40:03.192462Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6922,7 +6922,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gtm-technical-product-pricing",
         "last_synced": "2026-08-14T05:40:03.192531Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -6969,7 +6969,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pinecone-rag",
         "last_synced": "2026-08-14T05:40:03.198206Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7017,7 +7017,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-platform-architect",
         "last_synced": "2026-08-14T05:40:03.199050Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7063,7 +7063,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/transloadit-media-processing",
         "last_synced": "2026-08-14T05:40:03.207261Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7109,7 +7109,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/github-actions-efficiency",
         "last_synced": "2026-08-14T05:40:03.190942Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7155,7 +7155,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/chrome-devtools",
         "last_synced": "2026-08-14T05:40:03.180743Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7201,7 +7201,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/git-commit",
         "last_synced": "2026-08-14T05:40:03.190801Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7246,7 +7246,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mentoring-juniors",
         "last_synced": "2026-08-14T05:40:03.195362Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7291,7 +7291,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/msstore-cli",
         "last_synced": "2026-08-14T05:40:03.196392Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7338,7 +7338,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/plantuml-ascii",
         "last_synced": "2026-08-14T05:40:03.198467Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7383,7 +7383,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/prd",
         "last_synced": "2026-08-14T05:40:03.199460Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7427,7 +7427,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/refactor",
         "last_synced": "2026-08-14T05:40:03.203108Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7471,7 +7471,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/steno-mode",
         "last_synced": "2026-08-14T05:40:03.206084Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7516,7 +7516,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/technical-job-search",
         "last_synced": "2026-08-14T05:40:03.206646Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7562,7 +7562,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/vardoger-analyze",
         "last_synced": "2026-08-14T05:40:03.207894Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7609,7 +7609,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react18-dep-compatibility",
         "last_synced": "2026-08-14T05:40:03.202176Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7656,7 +7656,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react19-source-patterns",
         "last_synced": "2026-08-14T05:40:03.202799Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7704,7 +7704,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/napkin",
         "last_synced": "2026-08-14T05:40:03.196909Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7749,7 +7749,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-monitoring",
         "last_synced": "2026-08-14T05:40:03.200354Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7794,7 +7794,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization",
         "last_synced": "2026-08-14T05:40:03.200571Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7840,7 +7840,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling",
         "last_synced": "2026-08-14T05:40:03.200847Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7885,7 +7885,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume",
         "last_synced": "2026-08-14T05:40:03.200965Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7932,7 +7932,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality",
         "last_synced": "2026-08-14T05:40:03.201419Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -7978,7 +7978,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/setup-my-iq",
         "last_synced": "2026-08-14T05:40:03.205001Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8022,7 +8022,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/doublecheck",
         "last_synced": "2026-08-14T05:40:03.187083Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8066,7 +8066,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/eyeball",
         "last_synced": "2026-08-14T05:40:03.188326Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8110,7 +8110,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/make-repo-contribution",
         "last_synced": "2026-08-14T05:40:03.194338Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8156,7 +8156,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/tm7-threat-model",
         "last_synced": "2026-08-14T05:40:03.207179Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8202,7 +8202,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/webapp-testing",
         "last_synced": "2026-08-14T05:40:03.208448Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8247,7 +8247,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/copilot-usage-metrics",
         "last_synced": "2026-08-14T05:40:03.183225Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8296,7 +8296,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/acreadiness-assess",
         "last_synced": "2026-08-14T05:40:03.175146Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8342,7 +8342,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-role-selector",
         "last_synced": "2026-08-14T05:40:03.179424Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8388,7 +8388,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/image-manipulation-image-magick",
         "last_synced": "2026-08-14T05:40:03.192718Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8434,7 +8434,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/microsoft-code-reference",
         "last_synced": "2026-08-14T05:40:03.195570Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8486,7 +8486,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/premium-frontend-ui",
         "last_synced": "2026-08-14T05:40:03.199513Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8532,7 +8532,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/acreadiness-generate-instructions",
         "last_synced": "2026-08-14T05:40:03.175282Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8579,7 +8579,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/acreadiness-policy",
         "last_synced": "2026-08-14T05:40:03.175374Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8624,7 +8624,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/agent-governance",
         "last_synced": "2026-08-14T05:40:03.175682Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8670,7 +8670,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/agent-owasp-compliance",
         "last_synced": "2026-08-14T05:40:03.175792Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8716,7 +8716,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/agent-supply-chain",
         "last_synced": "2026-08-14T05:40:03.176000Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8762,7 +8762,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/agentic-eval",
         "last_synced": "2026-08-14T05:40:03.176137Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8808,7 +8808,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ai-prompt-engineering-safety-review",
         "last_synced": "2026-08-14T05:40:03.176230Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8855,7 +8855,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ai-ready",
         "last_synced": "2026-08-14T05:40:03.176371Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8899,7 +8899,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/anti-ui-slop",
         "last_synced": "2026-08-14T05:40:03.176581Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8945,7 +8945,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/apple-appstore-reviewer",
         "last_synced": "2026-08-14T05:40:03.176709Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -8991,7 +8991,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/architecture-blueprint-generator",
         "last_synced": "2026-08-14T05:40:03.176802Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9037,7 +9037,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/automate-this",
         "last_synced": "2026-08-14T05:40:03.177974Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9082,7 +9082,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aws-cdk-python-setup",
         "last_synced": "2026-08-14T05:40:03.178157Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9129,7 +9129,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aws-cloudwatch-investigation",
         "last_synced": "2026-08-14T05:40:03.178219Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9175,7 +9175,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aws-cost-optimize",
         "last_synced": "2026-08-14T05:40:03.178338Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9222,7 +9222,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aws-resource-health-diagnose",
         "last_synced": "2026-08-14T05:40:03.178401Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9269,7 +9269,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aws-resource-query",
         "last_synced": "2026-08-14T05:40:03.178455Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9315,7 +9315,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aws-well-architected-review",
         "last_synced": "2026-08-14T05:40:03.178529Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9363,7 +9363,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/az-cost-optimize",
         "last_synced": "2026-08-14T05:40:03.178584Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9410,7 +9410,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-resource-health-diagnose",
         "last_synced": "2026-08-14T05:40:03.179299Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9457,7 +9457,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-static-web-apps",
         "last_synced": "2026-08-14T05:40:03.179546Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9506,7 +9506,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/azure-well-architected-review",
         "last_synced": "2026-08-14T05:40:03.179617Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9554,7 +9554,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/bench-read",
         "last_synced": "2026-08-14T05:40:03.179765Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9599,7 +9599,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/bigquery-pipeline-audit",
         "last_synced": "2026-08-14T05:40:03.179824Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9646,7 +9646,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/boost-prompt",
         "last_synced": "2026-08-14T05:40:03.179876Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9691,7 +9691,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/breakdown-epic-pm",
         "last_synced": "2026-08-14T05:40:03.180157Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9736,7 +9736,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/breakdown-plan",
         "last_synced": "2026-08-14T05:40:03.180389Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9781,7 +9781,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/breakdown-test",
         "last_synced": "2026-08-14T05:40:03.180467Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9827,7 +9827,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/bug-reproduction-brief",
         "last_synced": "2026-08-14T05:40:03.180574Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9873,7 +9873,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/code-exemplars-blueprint-generator",
         "last_synced": "2026-08-14T05:40:03.180933Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9925,7 +9925,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/codebase-memory-mcp",
         "last_synced": "2026-08-14T05:40:03.181191Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -9971,7 +9971,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/comment-code-generate-a-tutorial",
         "last_synced": "2026-08-14T05:40:03.181362Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10019,7 +10019,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/conventional-branch",
         "last_synced": "2026-08-14T05:40:03.181837Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10064,7 +10064,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/conventional-commit",
         "last_synced": "2026-08-14T05:40:03.181897Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10109,7 +10109,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/convert-plaintext-to-md",
         "last_synced": "2026-08-14T05:40:03.182380Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10154,7 +10154,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/copilot-cli-quickstart",
         "last_synced": "2026-08-14T05:40:03.182688Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10201,7 +10201,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/copilot-instructions-blueprint-generator",
         "last_synced": "2026-08-14T05:40:03.182770Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10249,7 +10249,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/copilot-sdk",
         "last_synced": "2026-08-14T05:40:03.183062Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10296,7 +10296,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/copilot-spaces",
         "last_synced": "2026-08-14T05:40:03.183150Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10341,7 +10341,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/cosmosdb-datamodeling",
         "last_synced": "2026-08-14T05:40:03.183310Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10387,7 +10387,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-github-action-workflow-specification",
         "last_synced": "2026-08-14T05:40:03.183470Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10435,7 +10435,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-implementation-plan",
         "last_synced": "2026-08-14T05:40:03.183675Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10481,7 +10481,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-llms",
         "last_synced": "2026-08-14T05:40:03.183726Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10526,7 +10526,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-technical-spike",
         "last_synced": "2026-08-14T05:40:03.183927Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10572,7 +10572,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/creating-oracle-to-postgres-master-migration-plan",
         "last_synced": "2026-08-14T05:40:03.184024Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10621,7 +10621,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/creating-oracle-to-postgres-migration-integration-tests",
         "last_synced": "2026-08-14T05:40:03.184167Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10670,7 +10670,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/daily-prep",
         "last_synced": "2026-08-14T05:40:03.184937Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10715,7 +10715,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/declarative-agents",
         "last_synced": "2026-08-14T05:40:03.185650Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10760,7 +10760,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/desk-journal",
         "last_synced": "2026-08-14T05:40:03.185831Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10806,7 +10806,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/desk-open",
         "last_synced": "2026-08-14T05:40:03.185899Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10852,7 +10852,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/devops-rollout-plan",
         "last_synced": "2026-08-14T05:40:03.185950Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10898,7 +10898,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/diagnose",
         "last_synced": "2026-08-14T05:40:03.186006Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10942,7 +10942,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/documentation-writer",
         "last_synced": "2026-08-14T05:40:03.186358Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -10987,7 +10987,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/em-dash",
         "last_synced": "2026-08-14T05:40:03.187748Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11031,7 +11031,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/email-drafter",
         "last_synced": "2026-08-14T05:40:03.187873Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11076,7 +11076,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/entra-agent-user",
         "last_synced": "2026-08-14T05:40:03.187985Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11123,7 +11123,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/exam-ready",
         "last_synced": "2026-08-14T05:40:03.188147Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11169,7 +11169,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/first-ask",
         "last_synced": "2026-08-14T05:40:03.188638Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11214,7 +11214,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-governance",
         "last_synced": "2026-08-14T05:40:03.188984Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11262,7 +11262,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-monitoring",
         "last_synced": "2026-08-14T05:40:03.189292Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11310,7 +11310,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/folder-structure-blueprint-generator",
         "last_synced": "2026-08-14T05:40:03.189485Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11360,7 +11360,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/foundry-agent-sync",
         "last_synced": "2026-08-14T05:40:03.189572Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11408,7 +11408,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-anitta",
         "last_synced": "2026-08-14T05:40:03.189924Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11455,7 +11455,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-quinn",
         "last_synced": "2026-08-14T05:40:03.189976Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11502,7 +11502,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-vega",
         "last_synced": "2026-08-14T05:40:03.190027Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11549,7 +11549,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-wiggins",
         "last_synced": "2026-08-14T05:40:03.190124Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11596,7 +11596,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gen-specs-as-issues",
         "last_synced": "2026-08-14T05:40:03.190388Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11642,7 +11642,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/generate-custom-instructions-from-codebase",
         "last_synced": "2026-08-14T05:40:03.190441Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11691,7 +11691,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/gh-attach",
         "last_synced": "2026-08-14T05:40:03.190726Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11737,7 +11737,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/git-flow-branch-creator",
         "last_synced": "2026-08-14T05:40:03.190890Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11784,7 +11784,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/github-actions-runtime-upgrade-conventions",
         "last_synced": "2026-08-14T05:40:03.191164Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11832,7 +11832,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/go-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.191602Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11880,7 +11880,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/harness-engineering",
         "last_synced": "2026-08-14T05:40:03.192594Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11925,7 +11925,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/image-annotations",
         "last_synced": "2026-08-14T05:40:03.192663Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -11970,7 +11970,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/import-infrastructure-as-code",
         "last_synced": "2026-08-14T05:40:03.192906Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12019,7 +12019,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/incident-postmortem",
         "last_synced": "2026-08-14T05:40:03.193002Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12064,7 +12064,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/integrate-context-matic",
         "last_synced": "2026-08-14T05:40:03.193086Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12113,7 +12113,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-add-graalvm-native-image-support",
         "last_synced": "2026-08-14T05:40:03.193335Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12162,7 +12162,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-helidon",
         "last_synced": "2026-08-14T05:40:03.193445Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12207,7 +12207,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.193546Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12255,7 +12255,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/javascript-typescript-jest",
         "last_synced": "2026-08-14T05:40:03.193716Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12301,7 +12301,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/javax-to-jakarta-migration",
         "last_synced": "2026-08-14T05:40:03.193765Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12347,7 +12347,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/kotlin-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.193817Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12395,7 +12395,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/landing-page-conversion-audit",
         "last_synced": "2026-08-14T05:40:03.193911Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12442,7 +12442,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-cli",
         "last_synced": "2026-08-14T05:40:03.194583Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12487,7 +12487,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-copilot-studio-server-generator",
         "last_synced": "2026-08-14T05:40:03.194644Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12535,7 +12535,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-implementation-security-review",
         "last_synced": "2026-08-14T05:40:03.194813Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12583,7 +12583,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-release-qa",
         "last_synced": "2026-08-14T05:40:03.194999Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12628,7 +12628,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-security-audit",
         "last_synced": "2026-08-14T05:40:03.195068Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12674,7 +12674,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/meeting-minutes",
         "last_synced": "2026-08-14T05:40:03.195252Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12719,7 +12719,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/memory-merger",
         "last_synced": "2026-08-14T05:40:03.195310Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12764,7 +12764,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/microsoft-docs",
         "last_synced": "2026-08-14T05:40:03.195671Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12812,7 +12812,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/migrating-oracle-to-postgres-data-access-code",
         "last_synced": "2026-08-14T05:40:03.195823Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12861,7 +12861,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/migrating-oracle-to-postgres-stored-procedures",
         "last_synced": "2026-08-14T05:40:03.195912Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12909,7 +12909,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/nuget-manager",
         "last_synced": "2026-08-14T05:40:03.197084Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -12955,7 +12955,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/onboard-context-matic",
         "last_synced": "2026-08-14T05:40:03.197150Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13003,7 +13003,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/performance-review-writer",
         "last_synced": "2026-08-14T05:40:03.197596Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13049,7 +13049,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/php-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.198155Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13097,7 +13097,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/planning-oracle-to-postgres-migration-integration-testing",
         "last_synced": "2026-08-14T05:40:03.198365Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13146,7 +13146,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/postgresql-code-review",
         "last_synced": "2026-08-14T05:40:03.198666Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13192,7 +13192,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/postgresql-optimization",
         "last_synced": "2026-08-14T05:40:03.198735Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13237,7 +13237,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-bi-dax-optimization",
         "last_synced": "2026-08-14T05:40:03.198850Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13283,7 +13283,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-bi-model-design-review",
         "last_synced": "2026-08-14T05:40:03.198896Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13330,7 +13330,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-bi-performance-troubleshooting",
         "last_synced": "2026-08-14T05:40:03.198945Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13376,7 +13376,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-bi-report-design-consultation",
         "last_synced": "2026-08-14T05:40:03.198999Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13423,7 +13423,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-platform-mcp-connector-suite",
         "last_synced": "2026-08-14T05:40:03.199113Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13471,7 +13471,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pr-screenshots",
         "last_synced": "2026-08-14T05:40:03.199390Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13517,7 +13517,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/project-workflow-analysis-blueprint-generator",
         "last_synced": "2026-08-14T05:40:03.199567Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13566,7 +13566,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/prompt-optimizer",
         "last_synced": "2026-08-14T05:40:03.199664Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13613,7 +13613,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-deployment-options",
         "last_synced": "2026-08-14T05:40:03.200201Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13660,7 +13660,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-model-migration",
         "last_synced": "2026-08-14T05:40:03.200278Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13706,7 +13706,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-monitoring/debugging",
         "last_synced": "2026-08-14T05:40:03.200429Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13752,7 +13752,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-monitoring/setup",
         "last_synced": "2026-08-14T05:40:03.200499Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13798,7 +13798,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization/indexing-performance-optimization",
         "last_synced": "2026-08-14T05:40:03.200632Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13845,7 +13845,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization/memory-usage-optimization",
         "last_synced": "2026-08-14T05:40:03.200706Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13892,7 +13892,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization/search-speed-optimization",
         "last_synced": "2026-08-14T05:40:03.200777Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13939,7 +13939,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/minimize-latency",
         "last_synced": "2026-08-14T05:40:03.200908Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -13985,7 +13985,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/horizontal-scaling",
         "last_synced": "2026-08-14T05:40:03.201029Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14031,7 +14031,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/sliding-time-window",
         "last_synced": "2026-08-14T05:40:03.201095Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14078,7 +14078,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/tenant-scaling",
         "last_synced": "2026-08-14T05:40:03.201163Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14124,7 +14124,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/vertical-scaling",
         "last_synced": "2026-08-14T05:40:03.201227Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14170,7 +14170,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-qps",
         "last_synced": "2026-08-14T05:40:03.201303Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14216,7 +14216,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-query-volume",
         "last_synced": "2026-08-14T05:40:03.201362Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14263,7 +14263,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality/diagnosis",
         "last_synced": "2026-08-14T05:40:03.201497Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14310,7 +14310,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality/search-strategies",
         "last_synced": "2026-08-14T05:40:03.201573Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14357,7 +14357,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-version-upgrade",
         "last_synced": "2026-08-14T05:40:03.201660Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14403,7 +14403,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/quasi-coder",
         "last_synced": "2026-08-14T05:40:03.201808Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14448,7 +14448,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/react19-test-patterns",
         "last_synced": "2026-08-14T05:40:03.202847Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14495,7 +14495,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/readme-blueprint-generator",
         "last_synced": "2026-08-14T05:40:03.202901Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14542,7 +14542,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/refactor-method-complexity-reduce",
         "last_synced": "2026-08-14T05:40:03.202992Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14589,7 +14589,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/refactor-plan",
         "last_synced": "2026-08-14T05:40:03.203045Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14634,7 +14634,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/remember-interactive-programming",
         "last_synced": "2026-08-14T05:40:03.203174Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14680,7 +14680,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/remember",
         "last_synced": "2026-08-14T05:40:03.203275Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14724,7 +14724,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/roundup",
         "last_synced": "2026-08-14T05:40:03.203787Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14769,7 +14769,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ruff-recursive-fix",
         "last_synced": "2026-08-14T05:40:03.203892Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14815,7 +14815,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/rust-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.203946Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14863,7 +14863,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/salesforce-apex-quality",
         "last_synced": "2026-08-14T05:40:03.203998Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14909,7 +14909,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/salesforce-component-standards",
         "last_synced": "2026-08-14T05:40:03.204084Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -14955,7 +14955,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/salesforce-flow-design",
         "last_synced": "2026-08-14T05:40:03.204183Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15001,7 +15001,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/scaffolding-oracle-to-postgres-migration-test-project",
         "last_synced": "2026-08-14T05:40:03.204352Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15050,7 +15050,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/scoutqa-test",
         "last_synced": "2026-08-14T05:40:03.204457Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15096,7 +15096,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/screen-recording",
         "last_synced": "2026-08-14T05:40:03.204548Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15141,7 +15141,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/server-side-conversion-tracking",
         "last_synced": "2026-08-14T05:40:03.204910Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15189,7 +15189,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/signal-write",
         "last_synced": "2026-08-14T05:40:03.205350Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15234,7 +15234,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/snowflake-semanticview",
         "last_synced": "2026-08-14T05:40:03.205537Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15280,7 +15280,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/sponsor-finder",
         "last_synced": "2026-08-14T05:40:03.205609Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15327,7 +15327,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/sql-code-review",
         "last_synced": "2026-08-14T05:40:03.205794Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15373,7 +15373,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/sql-optimization",
         "last_synced": "2026-08-14T05:40:03.205872Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15418,7 +15418,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ssma-console",
         "last_synced": "2026-08-14T05:40:03.206013Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15463,7 +15463,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/suggest-awesome-github-copilot-agents",
         "last_synced": "2026-08-14T05:40:03.206298Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15511,7 +15511,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/suggest-awesome-github-copilot-instructions",
         "last_synced": "2026-08-14T05:40:03.206366Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15559,7 +15559,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/suggest-awesome-github-copilot-skills",
         "last_synced": "2026-08-14T05:40:03.206434Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15607,7 +15607,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/system-commandline-cli",
         "last_synced": "2026-08-14T05:40:03.206543Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15653,7 +15653,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/technology-stack-blueprint-generator",
         "last_synced": "2026-08-14T05:40:03.206718Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15703,7 +15703,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/tiny-stepping",
         "last_synced": "2026-08-14T05:40:03.207066Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15748,7 +15748,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/tldr-prompt",
         "last_synced": "2026-08-14T05:40:03.207130Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15795,7 +15795,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/typescript-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.207339Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15843,7 +15843,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/typespec-api-operations",
         "last_synced": "2026-08-14T05:40:03.207395Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15889,7 +15889,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/typespec-create-agent",
         "last_synced": "2026-08-14T05:40:03.207441Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15935,7 +15935,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ui-screenshots",
         "last_synced": "2026-08-14T05:40:03.207533Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -15979,7 +15979,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/update-implementation-plan",
         "last_synced": "2026-08-14T05:40:03.207698Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16025,7 +16025,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/update-llms",
         "last_synced": "2026-08-14T05:40:03.207754Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16070,7 +16070,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/update-specification",
         "last_synced": "2026-08-14T05:40:03.207845Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16115,7 +16115,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/verify-agent-action",
         "last_synced": "2026-08-14T05:40:03.208120Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16161,7 +16161,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/vscode-ext-commands",
         "last_synced": "2026-08-14T05:40:03.208249Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16207,7 +16207,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/vscode-ext-localization",
         "last_synced": "2026-08-14T05:40:03.208315Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16253,7 +16253,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/winui3-migration-guide",
         "last_synced": "2026-08-14T05:40:03.208752Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16300,7 +16300,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/workiq-copilot",
         "last_synced": "2026-08-14T05:40:03.208827Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16347,7 +16347,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/workshop-create",
         "last_synced": "2026-08-14T05:40:03.208882Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16393,7 +16393,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/write-coding-standards-from-file",
         "last_synced": "2026-08-14T05:40:03.208944Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16441,7 +16441,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/x-twitter-scraper",
         "last_synced": "2026-08-14T05:40:03.208996Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16489,7 +16489,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/add-educational-comments",
         "last_synced": "2026-08-14T05:40:03.175547Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16535,7 +16535,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/arch-linux-triage",
         "last_synced": "2026-08-14T05:40:03.176758Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16581,7 +16581,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/aspnet-minimal-api-openapi",
         "last_synced": "2026-08-14T05:40:03.177827Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16628,7 +16628,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/breakdown-epic-arch",
         "last_synced": "2026-08-14T05:40:03.180105Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16674,7 +16674,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/breakdown-feature-implementation",
         "last_synced": "2026-08-14T05:40:03.180212Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16720,7 +16720,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/breakdown-feature-prd",
         "last_synced": "2026-08-14T05:40:03.180316Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16766,7 +16766,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/centos-linux-triage",
         "last_synced": "2026-08-14T05:40:03.180699Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16812,7 +16812,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/containerize-aspnet-framework",
         "last_synced": "2026-08-14T05:40:03.181627Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16858,7 +16858,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/containerize-aspnetcore",
         "last_synced": "2026-08-14T05:40:03.181675Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16903,7 +16903,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/context-map",
         "last_synced": "2026-08-14T05:40:03.181800Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16948,7 +16948,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-agentsmd",
         "last_synced": "2026-08-14T05:40:03.183383Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -16993,7 +16993,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-architectural-decision-record",
         "last_synced": "2026-08-14T05:40:03.183422Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17040,7 +17040,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-github-issue-feature-from-specification",
         "last_synced": "2026-08-14T05:40:03.183522Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17089,7 +17089,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-github-issues-feature-from-implementation-plan",
         "last_synced": "2026-08-14T05:40:03.183570Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17139,7 +17139,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-github-issues-for-unmet-specification-requirements",
         "last_synced": "2026-08-14T05:40:03.183621Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17188,7 +17188,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-specification",
         "last_synced": "2026-08-14T05:40:03.183808Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17233,7 +17233,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-spring-boot-java-project",
         "last_synced": "2026-08-14T05:40:03.183850Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17281,7 +17281,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-spring-boot-kotlin-project",
         "last_synced": "2026-08-14T05:40:03.183890Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17329,7 +17329,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-tldr-page",
         "last_synced": "2026-08-14T05:40:03.183977Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17375,7 +17375,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/csharp-async",
         "last_synced": "2026-08-14T05:40:03.184303Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17420,7 +17420,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/csharp-docs",
         "last_synced": "2026-08-14T05:40:03.184374Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17465,7 +17465,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/csharp-mstest",
         "last_synced": "2026-08-14T05:40:03.184443Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17510,7 +17510,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/csharp-nunit",
         "last_synced": "2026-08-14T05:40:03.184500Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17555,7 +17555,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/csharp-tunit",
         "last_synced": "2026-08-14T05:40:03.184542Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17600,7 +17600,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/csharp-xunit",
         "last_synced": "2026-08-14T05:40:03.184580Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17645,7 +17645,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-advanced-patterns",
         "last_synced": "2026-08-14T05:40:03.185341Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17693,7 +17693,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-production-code",
         "last_synced": "2026-08-14T05:40:03.185398Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17741,7 +17741,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-quickstart",
         "last_synced": "2026-08-14T05:40:03.185453Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17788,7 +17788,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-usecase-builder",
         "last_synced": "2026-08-14T05:40:03.185498Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17836,7 +17836,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/debian-linux-triage",
         "last_synced": "2026-08-14T05:40:03.185550Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17882,7 +17882,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dotnet-best-practices",
         "last_synced": "2026-08-14T05:40:03.186467Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17928,7 +17928,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dotnet-design-pattern-review",
         "last_synced": "2026-08-14T05:40:03.186532Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -17975,7 +17975,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/dotnet-upgrade",
         "last_synced": "2026-08-14T05:40:03.187011Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18020,7 +18020,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/editorconfig",
         "last_synced": "2026-08-14T05:40:03.187434Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18064,7 +18064,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ef-core",
         "last_synced": "2026-08-14T05:40:03.187525Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18108,7 +18108,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/fedora-linux-triage",
         "last_synced": "2026-08-14T05:40:03.188469Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18154,7 +18154,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/finalize-agent-prompt",
         "last_synced": "2026-08-14T05:40:03.188514Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18200,7 +18200,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/github-copilot-starter",
         "last_synced": "2026-08-14T05:40:03.191288Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18246,7 +18246,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-docs",
         "last_synced": "2026-08-14T05:40:03.193399Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18291,7 +18291,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-junit",
         "last_synced": "2026-08-14T05:40:03.193507Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18336,7 +18336,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-refactoring-extract-method",
         "last_synced": "2026-08-14T05:40:03.193599Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18383,7 +18383,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-refactoring-remove-parameter",
         "last_synced": "2026-08-14T05:40:03.193639Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18430,7 +18430,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/java-springboot",
         "last_synced": "2026-08-14T05:40:03.193678Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18475,7 +18475,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/kotlin-springboot",
         "last_synced": "2026-08-14T05:40:03.193872Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18520,7 +18520,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-create-adaptive-cards",
         "last_synced": "2026-08-14T05:40:03.194696Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18567,7 +18567,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-create-declarative-agent",
         "last_synced": "2026-08-14T05:40:03.194734Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18614,7 +18614,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mcp-deploy-manage-agents",
         "last_synced": "2026-08-14T05:40:03.194776Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18661,7 +18661,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/mkdocs-translations",
         "last_synced": "2026-08-14T05:40:03.196248Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18706,7 +18706,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/multi-stage-dockerfile",
         "last_synced": "2026-08-14T05:40:03.196472Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18752,7 +18752,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/next-intl-add-language",
         "last_synced": "2026-08-14T05:40:03.196992Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18799,7 +18799,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/openapi-to-application-code",
         "last_synced": "2026-08-14T05:40:03.197313Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18845,7 +18845,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/playwright-automation-fill-in-form",
         "last_synced": "2026-08-14T05:40:03.198548Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18893,7 +18893,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/playwright-explore-website",
         "last_synced": "2026-08-14T05:40:03.198587Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18940,7 +18940,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/playwright-generate-test",
         "last_synced": "2026-08-14T05:40:03.198626Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -18987,7 +18987,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/power-apps-code-app-scaffold",
         "last_synced": "2026-08-14T05:40:03.198801Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19037,7 +19037,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/pytest-coverage",
         "last_synced": "2026-08-14T05:40:03.199912Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19082,7 +19082,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/python-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.200008Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19129,7 +19129,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/qdrant-clients-sdk",
         "last_synced": "2026-08-14T05:40:03.200158Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19175,7 +19175,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/repo-story-time",
         "last_synced": "2026-08-14T05:40:03.203363Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19221,7 +19221,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/review-and-refactor",
         "last_synced": "2026-08-14T05:40:03.203488Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19266,7 +19266,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/ruby-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.203845Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19314,7 +19314,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/shuffle-json-data",
         "last_synced": "2026-08-14T05:40:03.205306Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19360,7 +19360,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/structured-autonomy-generate",
         "last_synced": "2026-08-14T05:40:03.206180Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19406,7 +19406,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/structured-autonomy-implement",
         "last_synced": "2026-08-14T05:40:03.206217Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19452,7 +19452,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/swift-mcp-server-generator",
         "last_synced": "2026-08-14T05:40:03.206495Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19500,7 +19500,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/typespec-create-api-plugin",
         "last_synced": "2026-08-14T05:40:03.207489Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19547,7 +19547,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/update-avm-modules-in-bicep",
         "last_synced": "2026-08-14T05:40:03.207659Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19595,7 +19595,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/update-markdown-file-index",
         "last_synced": "2026-08-14T05:40:03.207806Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19642,7 +19642,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/what-context-needed",
         "last_synced": "2026-08-14T05:40:03.208622Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19688,7 +19688,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/create-readme",
         "last_synced": "2026-08-14T05:40:03.183773Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19733,7 +19733,7 @@
         "install_url": "https://github.com/github/awesome-copilot/tree/main/skills/structured-autonomy-plan",
         "last_synced": "2026-08-14T05:40:03.206262Z",
         "upstream_commit": "782200e3a4f7",
-        "repo": "",
+        "repo": "github/awesome-copilot",
         "alternate_sources": []
       },
       "signals": {
@@ -19763,5 +19763,5 @@
     }
   ],
   "total": 423,
-  "generated_at": "2026-08-14T08:23:37.530548+00:00"
+  "generated_at": "2026-08-14T08:50:18.641584+00:00"
 }

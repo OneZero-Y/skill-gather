@@ -19,7 +19,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
         "last_synced": "2026-08-14T03:15:42.177393Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -67,7 +67,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
         "last_synced": "2026-08-14T03:15:42.178065Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -113,7 +113,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
         "last_synced": "2026-08-14T03:15:42.177929Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -160,7 +160,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/docx",
         "last_synced": "2026-08-14T03:15:42.177120Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -204,7 +204,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
         "last_synced": "2026-08-14T03:15:42.177548Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -248,7 +248,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
         "last_synced": "2026-08-14T03:15:42.177462Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -292,7 +292,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
         "last_synced": "2026-08-14T03:15:42.178007Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -337,7 +337,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
         "last_synced": "2026-08-14T03:15:42.177696Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -382,7 +382,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
         "last_synced": "2026-08-14T03:15:42.176715Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -428,7 +428,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
         "last_synced": "2026-08-14T03:15:42.176125Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -473,7 +473,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
         "last_synced": "2026-08-14T03:15:42.177316Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -518,7 +518,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
         "last_synced": "2026-08-14T03:15:42.177778Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -564,7 +564,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
         "last_synced": "2026-08-14T03:15:42.177841Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -609,7 +609,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
         "last_synced": "2026-08-14T03:15:42.176794Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -658,7 +658,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
         "last_synced": "2026-08-14T03:15:42.177257Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -703,7 +703,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
         "last_synced": "2026-08-14T03:15:42.176622Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -748,7 +748,7 @@
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
         "last_synced": "2026-08-14T03:15:42.177025Z",
         "upstream_commit": "f6656c1256d5",
-        "repo": "",
+        "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
@@ -777,5 +777,5 @@
     }
   ],
   "total": 17,
-  "generated_at": "2026-08-14T08:23:37.549278+00:00"
+  "generated_at": "2026-08-14T08:50:18.661213+00:00"
 }
