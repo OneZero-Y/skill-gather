@@ -173,4 +173,5 @@ jobs:
 
       - name: Dry run notice
         if: ${{ github.event.inputs.dry_run == 'true' }}
-        run: echo "Dry run: bundle assembled and verified, nothing pushed."
+        run: |
+          echo "Dry run complete: bundle assembled and verified, nothing pushed."
