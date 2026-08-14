@@ -1,80 +1,56 @@
 {
-  "total_skills": 1954,
-  "sources_count": 14,
-  "last_synced": "2026-08-13T12:34:36.191685Z",
+  "total_skills": 9997,
+  "sources_count": 2,
+  "last_synced": "2026-08-14T02:36:24.261071Z",
   "version": "1",
   "categories": {
-    "development": 1038,
-    "document": 128,
-    "data": 155,
-    "creative": 117,
-    "devops": 218,
-    "security": 36,
-    "other": 152,
-    "productivity": 61,
-    "education": 11,
-    "ecommerce": 8,
-    "content": 30
+    "document": 733,
+    "content": 468,
+    "development": 3413,
+    "creative": 852,
+    "productivity": 1107,
+    "other": 1375,
+    "devops": 1126,
+    "data": 536,
+    "ecommerce": 68,
+    "security": 134,
+    "education": 185
   },
   "sources": [
-    "anthropics-skills",
-    "aws-agent-toolkit",
-    "bytedance-deerflow",
-    "community-repos",
-    "github-awesome-copilot",
-    "heilcheng-awesome",
-    "langchain-skills",
     "mcpmarket-cn",
-    "microsoft-vscode-skills",
-    "openai-skills",
-    "scientific-agent-skills",
-    "supabase-skills",
-    "vercel-agent-skills",
-    "voltagent-awesome"
+    "skillhub-cn"
   ],
   "source_counts": {
-    "vercel-agent-skills": 9,
-    "anthropics-skills": 17,
-    "github-awesome-copilot": 422,
-    "scientific-agent-skills": 161,
-    "langchain-skills": 22,
-    "openai-skills": 44,
-    "aws-agent-toolkit": 98,
-    "bytedance-deerflow": 29,
-    "supabase-skills": 14,
-    "community-repos": 22,
-    "microsoft-vscode-skills": 13,
-    "mcpmarket-cn": 484,
-    "voltagent-awesome": 613,
-    "heilcheng-awesome": 6
+    "skillhub-cn": 5000,
+    "mcpmarket-cn": 4997
   },
   "platform_counts": {
-    "claude_code": 1910,
-    "claude_ai": 18,
-    "kiro": 1893,
-    "codex": 1195,
-    "universal": 1931
+    "claude_code": 9997,
+    "claude_ai": 3,
+    "kiro": 9997,
+    "codex": 9997,
+    "universal": 9997
   },
   "score_distribution": {
-    "0-20": 50,
-    "21-40": 753,
-    "41-60": 811,
-    "61-80": 233,
-    "81-100": 107
+    "0-20": 0,
+    "21-40": 7045,
+    "41-60": 2952,
+    "61-80": 0,
+    "81-100": 0
   },
   "changelog": {
-    "added": 0,
+    "added": 9949,
     "removed": 0,
-    "modified": 3,
-    "total_old": 1494,
-    "total_new": 1494
+    "modified": 0,
+    "total_old": 0,
+    "total_new": 9949
   },
   "source_sync_state": {
     "mcpmarket-cn": {
       "fingerprint": "mcpmarket:165721:2026-05-03T13:58:42Z:xlsx",
-      "skill_count": 484,
-      "synced_at": "2026-08-12T22:31:55.898698+00:00",
-      "skipped": true
+      "skill_count": 4997,
+      "synced_at": "2026-08-14T02:36:24.261055+00:00",
+      "skipped": false
     },
     "openai-skills": {
       "fingerprint": "openai/skills@main:49f948faa925",
@@ -113,9 +89,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:113363:1786617457967:ima-skills",
-      "skill_count": 0,
-      "synced_at": "2026-08-13T12:06:13.879976+00:00",
+      "fingerprint": "skillhub:113712:1786674934167:ima-skills",
+      "skill_count": 5000,
+      "synced_at": "2026-08-14T02:36:24.261055+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
