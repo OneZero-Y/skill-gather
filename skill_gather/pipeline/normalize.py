@@ -16,6 +16,7 @@ from skill_gather.models import (
     SkillSpec,
     SourceType,
 )
+from skill_gather.repo_utils import normalize_repo, repo_from_urls
 
 logger = logging.getLogger(__name__)
 
@@ -235,40 +236,19 @@ def generate_skill_id(entry: RawSkillEntry) -> str:
 # Repo normalization and description sanity checks
 # ---------------------------------------------------------------------------
 
-_REPO_URL_RE = re.compile(
-    r"(?:github|gitlab|bitbucket)\.com/([^/\s]+/[^/\s#?]+)", re.IGNORECASE
-)
-
-
 def _normalize_repo(entry: RawSkillEntry) -> str:
     """Resolve a canonical lowercase 'owner/repo' for this entry, or ''.
 
     Prefers the adapter-provided repo, falling back to parsing whichever URL
-    we have. Trailing '.git' and case differences are normalized away so the
-    same repo from different sources produces an identical key.
+    we have, so the same repo from different sources produces one key.
     """
-    candidate = str(entry.extra.get("repo") or "").strip()
-
-    if not candidate:
-        for url in (
-            str(entry.extra.get("install_url") or ""),
-            entry.source_url or "",
-        ):
-            match = _REPO_URL_RE.search(url)
-            if match:
-                candidate = match.group(1)
-                break
-
-    if not candidate or "/" not in candidate:
-        return ""
-
-    owner, _, repo = candidate.partition("/")
-    repo = repo.split("/")[0]
-    if repo.endswith(".git"):
-        repo = repo[:-4]
-    if not owner or not repo:
-        return ""
-    return f"{owner.lower()}/{repo.lower()}"
+    resolved = normalize_repo(str(entry.extra.get("repo") or ""))
+    if resolved:
+        return resolved
+    return repo_from_urls(
+        str(entry.extra.get("install_url") or ""),
+        entry.source_url or "",
+    )
 
 
 def _is_placeholder_description(description: str, raw_name: str, slug: str) -> bool:

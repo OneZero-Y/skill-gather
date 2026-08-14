@@ -19,6 +19,7 @@ becomes a trust signal that does not depend on the GitHub API being reachable.
 
 from __future__ import annotations
 
+import hashlib
 import logging
 import re
 from dataclasses import dataclass, field
@@ -37,6 +38,7 @@ class DedupStats:
     output_count: int = 0
     removed_by_location: int = 0
     removed_by_content: int = 0
+    disambiguated_ids: int = 0
     multi_source_skills: int = 0
     largest_group: int = 0
     largest_group_key: str = ""
@@ -59,6 +61,7 @@ class DedupStats:
             "removed_count": self.removed_count,
             "removed_by_location": self.removed_by_location,
             "removed_by_content": self.removed_by_content,
+            "disambiguated_ids": self.disambiguated_ids,
             "dedup_rate_pct": self.dedup_rate,
             "multi_source_skills": self.multi_source_skills,
             "largest_group": self.largest_group,
@@ -257,6 +260,54 @@ def _collapse(
 # Public API
 # ---------------------------------------------------------------------------
 
+def _enforce_unique_ids(skills: list[SkillIndex], stats: DedupStats) -> None:
+    """Guarantee skill_id is unique, disambiguating collisions in place.
+
+    skill_id is the registry's primary key: the writer, the diff and the MCP
+    server all index by it. Collisions were silently swallowed by dict
+    construction, so 11,334 records collapsed to 10,788 keys and `get_skill(id)`
+    returned an arbitrary one of the colliding entries.
+
+    Entries reaching this point already survived location and content dedup, so
+    they are genuinely different skills that merely collide on a coarse id
+    (e.g. two SkillHub publishers both naming a skill `excel`, which yields
+    `skillhub-cn/excel` for both). Merging would discard real content, so we
+    disambiguate instead.
+
+    The suffix is derived from the entry's own install_url, so an id stays
+    stable across runs regardless of what other entries exist.
+    """
+    seen: dict[str, SkillIndex] = {}
+    collisions: list[SkillIndex] = []
+
+    # The richest entry of each colliding group keeps the clean id.
+    for skill in sorted(skills, key=_richness_score, reverse=True):
+        if skill.skill_id in seen:
+            collisions.append(skill)
+        else:
+            seen[skill.skill_id] = skill
+
+    for skill in collisions:
+        discriminator = hashlib.sha1(
+            (skill.discovery.install_url or skill.discovery.source_url or skill.spec.name)
+            .encode("utf-8")
+        ).hexdigest()[:6]
+        candidate = f"{skill.skill_id}~{discriminator}"
+        # Astronomically unlikely, but never emit a duplicate key.
+        while candidate in seen:
+            discriminator = hashlib.sha1(candidate.encode("utf-8")).hexdigest()[:6]
+            candidate = f"{skill.skill_id}~{discriminator}"
+        skill.skill_id = candidate
+        seen[candidate] = skill
+
+    stats.disambiguated_ids = len(collisions)
+    if collisions:
+        logger.info(
+            "Disambiguated %d colliding skill_id(s) to keep the primary key unique",
+            len(collisions),
+        )
+
+
 def deduplicate(skills: list[SkillIndex]) -> tuple[list[SkillIndex], DedupStats]:
     """Remove duplicates, keeping the richest entry for each unique skill.
 
@@ -270,6 +321,8 @@ def deduplicate(skills: list[SkillIndex]) -> tuple[list[SkillIndex], DedupStats]
 
     after_content, removed_content = _collapse(after_location, _content_key, stats)
     stats.removed_by_content = removed_content
+
+    _enforce_unique_ids(after_content, stats)
 
     stats.output_count = len(after_content)
 

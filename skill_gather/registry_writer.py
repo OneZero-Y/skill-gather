@@ -21,6 +21,7 @@ from pathlib import Path
 from typing import Any
 
 from skill_gather.models import RegistryMeta, SkillIndex
+from skill_gather.repo_utils import repo_from_urls
 from skill_gather.sync_state import load_source_sync_state, merge_source_sync_state
 
 logger = logging.getLogger(__name__)
@@ -152,12 +153,44 @@ def load_existing_skills(output_dir: Path | None = None) -> list[SkillIndex]:
         records = legacy.get("skills", []) if legacy else []
 
     result: list[SkillIndex] = []
+    backfilled = 0
     for rec in records:
         try:
-            result.append(SkillIndex.model_validate(rec))
+            skill = SkillIndex.model_validate(rec)
         except Exception as e:
             logger.debug("Skipping invalid record: %s", e)
+            continue
+        if _backfill_repo(skill):
+            backfilled += 1
+        result.append(skill)
+
+    if backfilled:
+        logger.info(
+            "Backfilled discovery.repo for %d existing skills (schema migration)",
+            backfilled,
+        )
     return result
+
+
+def _backfill_repo(skill: SkillIndex) -> bool:
+    """Populate discovery.repo on records written before the field existed.
+
+    Incremental sync reuses stored entries verbatim for unchanged sources, so
+    those records never pass through normalize() again and would keep an empty
+    repo forever. Without this, content-level dedup and provenance scoring stay
+    dark for the majority of the registry — observed as repo-traceable dropping
+    to 1.4% when it should be ~56%.
+    """
+    if skill.discovery.repo:
+        return False
+    resolved = repo_from_urls(
+        skill.discovery.install_url,
+        skill.discovery.source_url,
+    )
+    if not resolved:
+        return False
+    skill.discovery.repo = resolved
+    return True
 
 
 def merge_skills_for_sources(
@@ -508,11 +541,13 @@ def _log_quality_summary(quality: dict[str, Any]) -> None:
     )
     if dedup:
         logger.info(
-            "Quality — dedup %.2f%% (%d removed: %d by location, %d by content)",
+            "Quality — dedup %.2f%% (%d removed: %d by location, %d by content), "
+            "%d id(s) disambiguated",
             dedup.get("dedup_rate_pct", 0.0),
             dedup.get("removed_count", 0),
             dedup.get("removed_by_location", 0),
             dedup.get("removed_by_content", 0),
+            dedup.get("disambiguated_ids", 0),
         )
     logger.info(
         "Quality — coverage: description %.1f%% | repo-traceable %.1f%% | multi-source %.1f%%",
