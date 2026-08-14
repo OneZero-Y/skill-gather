@@ -17,11 +17,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/chart-visualization",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/chart-visualization",
-        "last_synced": "2026-08-14T03:15:42.233122Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.210537Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -60,11 +60,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-creator",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-creator",
-        "last_synced": "2026-08-14T03:15:42.234267Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211662Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -102,11 +102,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/github-deep-research",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/github-deep-research",
-        "last_synced": "2026-08-14T03:15:42.233820Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211234Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -145,11 +145,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/image-generation",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/image-generation",
-        "last_synced": "2026-08-14T03:15:42.233915Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211321Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -187,11 +187,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/podcast-generation",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/podcast-generation",
-        "last_synced": "2026-08-14T03:15:42.234151Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211550Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -229,11 +229,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/systematic-literature-review",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/systematic-literature-review",
-        "last_synced": "2026-08-14T03:15:42.234767Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.214018Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -275,11 +275,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/vercel-deploy-claimable",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/vercel-deploy-claimable",
-        "last_synced": "2026-08-14T03:15:42.234862Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.214116Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -317,11 +317,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/claude-to-deerflow",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/claude-to-deerflow",
-        "last_synced": "2026-08-14T03:15:42.233192Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.210601Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -360,11 +360,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/data-analysis",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/data-analysis",
-        "last_synced": "2026-08-14T03:15:42.233516Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.210932Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -403,11 +403,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/find-skills",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/find-skills",
-        "last_synced": "2026-08-14T03:15:42.233666Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211084Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -445,11 +445,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/music-generation",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/music-generation",
-        "last_synced": "2026-08-14T03:15:42.233982Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211383Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -488,11 +488,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/ppt-generation",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/ppt-generation",
-        "last_synced": "2026-08-14T03:15:42.234209Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211606Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -531,11 +531,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/video-generation",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/video-generation",
-        "last_synced": "2026-08-14T03:15:42.234954Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.214191Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -573,11 +573,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/bootstrap",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/bootstrap",
-        "last_synced": "2026-08-14T03:15:42.233014Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.210429Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -614,11 +614,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-reviewer",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer",
-        "last_synced": "2026-08-14T03:15:42.234337Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211732Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -656,11 +656,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/frontend-design",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/frontend-design",
-        "last_synced": "2026-08-14T03:15:42.233736Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211153Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -703,11 +703,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/web-design-guidelines",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/web-design-guidelines",
-        "last_synced": "2026-08-14T03:15:42.235011Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.214254Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -746,11 +746,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/academic-paper-review",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/academic-paper-review",
-        "last_synced": "2026-08-14T03:15:42.232914Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.210335Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -789,11 +789,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/code-documentation",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/code-documentation",
-        "last_synced": "2026-08-14T03:15:42.233291Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.210698Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -832,11 +832,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/consulting-analysis",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/consulting-analysis",
-        "last_synced": "2026-08-14T03:15:42.233385Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.210791Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -874,11 +874,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/deep-research",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/deep-research",
-        "last_synced": "2026-08-14T03:15:42.233593Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211006Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -916,11 +916,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/newsletter-generation",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/newsletter-generation",
-        "last_synced": "2026-08-14T03:15:42.234061Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211462Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -958,11 +958,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-reviewer/evals/fixtures/publish-candidate",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/publish-candidate",
-        "last_synced": "2026-08-14T03:15:42.234552Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.213843Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1001,11 +1001,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/surprise-me",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/surprise-me",
-        "last_synced": "2026-08-14T03:15:42.234647Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.213943Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1042,11 +1042,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-reviewer/evals/fixtures/partial-package",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/partial-package",
-        "last_synced": "2026-08-14T03:15:42.234465Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.213731Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1085,11 +1085,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-reviewer/evals/fixtures/prompt-injection",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/prompt-injection",
-        "last_synced": "2026-08-14T03:15:42.234509Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.213795Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1127,11 +1127,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-reviewer/evals/fixtures/zh-output",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/zh-output",
-        "last_synced": "2026-08-14T03:15:42.234600Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.213893Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1169,11 +1169,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-reviewer/evals/fixtures/needs-revision",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/needs-revision",
-        "last_synced": "2026-08-14T03:15:42.234432Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211816Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1211,11 +1211,11 @@
         "source_url": "https://github.com/bytedance/deer-flow",
         "source_path": "skills/public/skill-reviewer/evals/fixtures/blocked",
         "install_url": "https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/blocked",
-        "last_synced": "2026-08-14T03:15:42.234399Z",
-        "upstream_commit": "5d520e44a8d7"
+        "last_synced": "2026-08-14T05:40:03.211784Z",
+        "upstream_commit": "ce4ef1bb2f17"
       },
       "signals": {
-        "repo_stars": 79968,
+        "repo_stars": 79979,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -1239,5 +1239,5 @@
     }
   ],
   "total": 29,
-  "generated_at": "2026-08-14T03:15:43.248170+00:00"
+  "generated_at": "2026-08-14T05:40:04.121624+00:00"
 }
