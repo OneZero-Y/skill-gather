@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
 
 import httpx
@@ -11,6 +12,9 @@ from skill_gather.adapters.base import BaseAdapter, SourceConfig, register_adapt
 from skill_gather.models import RawSkillEntry
 
 _GITHUB_REPO_RE = re.compile(r"github\.com/([^/\s]+/[^/\s#?]+)")
+
+# Max concurrent page-fetch workers per source
+_MAX_WORKERS = 8
 
 
 def _pick_text(value: Any, *, prefer_zh: bool = True) -> str:
@@ -108,48 +112,71 @@ class WebApiAdapter(BaseAdapter):
         )
 
     def _discover_skillhub(self) -> list[RawSkillEntry]:
-        entries: list[RawSkillEntry] = []
         api_base = self.base_url or "https://api.skillhub.cn"
         path = self.api_path or "/api/skills"
 
-        with self._client() as client:
-            for page in range(1, self.max_pages + 1):
-                params: dict[str, str | int] = {
-                    "page": page,
-                    "pageSize": self.page_size,
-                }
-                if self.sort_by:
-                    params["sortBy"] = self.sort_by
-                if self.order:
-                    params["order"] = self.order
-
+        # ── Step 1: fetch page 1 to learn total count ──────────────────
+        def _fetch_page(page: int) -> list[dict]:
+            params: dict[str, str | int] = {"page": page, "pageSize": self.page_size}
+            if self.sort_by:
+                params["sortBy"] = self.sort_by
+            if self.order:
+                params["order"] = self.order
+            with self._client() as client:
                 resp = client.get(f"{api_base}{path}", params=params)
-                if resp.status_code != 200:
-                    raise RuntimeError(
-                        f"SkillHub API returned HTTP {resp.status_code} on page {page} "
-                        f"(body: {resp.text[:200]})"
-                    )
+            if resp.status_code != 200:
+                raise RuntimeError(
+                    f"SkillHub API returned HTTP {resp.status_code} on page {page} "
+                    f"(body: {resp.text[:200]})"
+                )
+            payload = resp.json()
+            if payload.get("code") != 0:
+                raise RuntimeError(
+                    f"SkillHub API error code {payload.get('code')}: {payload.get('message')}"
+                )
+            return payload.get("data", {}).get("skills") or [], int(
+                payload.get("data", {}).get("total") or 0
+            )
 
-                payload = resp.json()
-                if payload.get("code") != 0:
-                    raise RuntimeError(
-                        f"SkillHub API error code {payload.get('code')}: {payload.get('message')}"
-                    )
+        first_skills, total = _fetch_page(1)
+        if not first_skills:
+            self.logger.info("SkillHub fetched 0 skills")
+            return []
 
-                skills = payload.get("data", {}).get("skills") or []
-                if not skills:
-                    break
+        # Calculate how many pages we actually need
+        pages_needed = min(
+            self.max_pages,
+            -(-total // self.page_size),  # ceil division
+        )
 
-                for item in skills:
-                    entry = self._parse_skillhub_item(item)
-                    if entry:
-                        entries.append(entry)
+        # ── Step 2: fetch remaining pages concurrently ──────────────────
+        page_results: dict[int, list[dict]] = {1: first_skills}
 
-                total = int(payload.get("data", {}).get("total") or 0)
-                if page * self.page_size >= total:
-                    break
+        if pages_needed > 1:
+            with ThreadPoolExecutor(max_workers=_MAX_WORKERS) as pool:
+                futures = {
+                    pool.submit(_fetch_page, p): p
+                    for p in range(2, pages_needed + 1)
+                }
+                for future in as_completed(futures):
+                    page = futures[future]
+                    try:
+                        skills_on_page, _ = future.result()
+                        page_results[page] = skills_on_page
+                    except Exception as exc:
+                        raise RuntimeError(
+                            f"SkillHub page {page} failed: {exc}"
+                        ) from exc
 
-        self.logger.info("SkillHub fetched %d skills", len(entries))
+        # ── Step 3: parse in page order ─────────────────────────────────
+        entries: list[RawSkillEntry] = []
+        for p in sorted(page_results):
+            for item in page_results[p]:
+                entry = self._parse_skillhub_item(item)
+                if entry:
+                    entries.append(entry)
+
+        self.logger.info("SkillHub fetched %d skills (%d pages)", len(entries), pages_needed)
         return entries
 
     def _parse_skillhub_item(self, item: dict[str, Any]) -> RawSkillEntry | None:
@@ -198,40 +225,62 @@ class WebApiAdapter(BaseAdapter):
         )
 
     def _discover_mcpmarket(self) -> list[RawSkillEntry]:
-        entries: list[RawSkillEntry] = []
         site_base = self.base_url or "https://mcpmarket.cn"
         path = self.api_path or "/skills/api/list"
 
-        with self._client() as client:
-            for page in range(1, self.max_pages + 1):
-                params: dict[str, str | int] = {"page": page, "per_page": self.page_size}
-                if self.sort_by:
-                    params["sort"] = self.sort_by
-                if self.order:
-                    params["order"] = self.order
-
+        # ── Step 1: fetch page 1 to learn total_pages ───────────────────
+        def _fetch_page(page: int) -> tuple[list[dict], int]:
+            params: dict[str, str | int] = {"page": page, "per_page": self.page_size}
+            if self.sort_by:
+                params["sort"] = self.sort_by
+            if self.order:
+                params["order"] = self.order
+            with self._client() as client:
                 resp = client.get(f"{site_base}{path}", params=params)
-                if resp.status_code != 200:
-                    raise RuntimeError(
-                        f"MCP Market API returned HTTP {resp.status_code} on page {page} "
-                        f"(body: {resp.text[:200]})"
-                    )
+            if resp.status_code != 200:
+                raise RuntimeError(
+                    f"MCP Market API returned HTTP {resp.status_code} on page {page} "
+                    f"(body: {resp.text[:200]})"
+                )
+            payload = resp.json()
+            return payload.get("skills") or [], int(payload.get("total_pages") or 0)
 
-                payload = resp.json()
-                skills = payload.get("skills") or []
-                if not skills:
-                    break
+        first_skills, total_pages = _fetch_page(1)
+        if not first_skills:
+            self.logger.info("MCP Market fetched 0 skills")
+            return []
 
-                for item in skills:
-                    entry = self._parse_mcpmarket_item(item, site_base)
-                    if entry:
-                        entries.append(entry)
+        pages_needed = min(self.max_pages, total_pages) if total_pages else self.max_pages
 
-                total_pages = int(payload.get("total_pages") or 0)
-                if total_pages and page >= total_pages:
-                    break
+        # ── Step 2: fetch remaining pages concurrently ──────────────────
+        page_results: dict[int, list[dict]] = {1: first_skills}
 
-        self.logger.info("MCP Market fetched %d skills", len(entries))
+        if pages_needed > 1:
+            with ThreadPoolExecutor(max_workers=_MAX_WORKERS) as pool:
+                futures = {
+                    pool.submit(_fetch_page, p): p
+                    for p in range(2, pages_needed + 1)
+                }
+                for future in as_completed(futures):
+                    page = futures[future]
+                    try:
+                        skills_on_page, _ = future.result()
+                        if skills_on_page:
+                            page_results[page] = skills_on_page
+                    except Exception as exc:
+                        raise RuntimeError(
+                            f"MCP Market page {page} failed: {exc}"
+                        ) from exc
+
+        # ── Step 3: parse in page order ─────────────────────────────────
+        entries: list[RawSkillEntry] = []
+        for p in sorted(page_results):
+            for item in page_results[p]:
+                entry = self._parse_mcpmarket_item(item, site_base)
+                if entry:
+                    entries.append(entry)
+
+        self.logger.info("MCP Market fetched %d skills (%d pages)", len(entries), pages_needed)
         return entries
 
     def _parse_mcpmarket_item(

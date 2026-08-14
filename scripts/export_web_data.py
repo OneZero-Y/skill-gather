@@ -29,7 +29,7 @@ _SafeDumperWithQuotedStrings.add_representer(str, _str_representer)
 
 
 ROOT = Path(__file__).resolve().parent.parent
-REGISTRY = ROOT / "registry" / "skills.json"
+SOURCES_DIR = ROOT / "registry" / "sources"
 META = ROOT / "registry" / "meta.json"
 OUTPUT = ROOT / "web" / "data" / "skills.yml"
 
@@ -381,11 +381,21 @@ def _pick_featured(rows: list[dict], n: int = 12) -> list[dict]:
 
 
 def main() -> None:
-    if not REGISTRY.exists():
-        raise SystemExit(f"Registry not found: {REGISTRY} — run skill-gather sync first.")
+    if not SOURCES_DIR.exists() or not any(SOURCES_DIR.glob("*.json")):
+        raise SystemExit(
+            f"Sources directory not found or empty: {SOURCES_DIR}\n"
+            "Run skill-gather sync first."
+        )
 
-    with open(REGISTRY, encoding="utf-8") as f:
-        skills_raw = json.load(f)["skills"]
+    # Merge all per-source shard files
+    skills_raw: list[dict] = []
+    for shard_path in sorted(SOURCES_DIR.glob("*.json")):
+        try:
+            with open(shard_path, encoding="utf-8") as f:
+                data = json.load(f)
+            skills_raw.extend(data.get("skills", []))
+        except Exception as e:
+            print(f"Warning: could not read {shard_path.name}: {e}", flush=True)
 
     meta: dict = {}
     if META.exists():

@@ -1,7 +1,7 @@
 {
   "total_skills": 1954,
   "sources_count": 14,
-  "last_synced": "2026-08-13T12:06:13.880001Z",
+  "last_synced": "2026-08-13T12:34:36.191685Z",
   "version": "1",
   "categories": {
     "development": 1038,
@@ -64,9 +64,9 @@
   },
   "changelog": {
     "added": 0,
-    "removed": 2000,
-    "modified": 17,
-    "total_old": 3494,
+    "removed": 0,
+    "modified": 3,
+    "total_old": 1494,
     "total_new": 1494
   },
   "source_sync_state": {
@@ -95,9 +95,9 @@
       "skipped": true
     },
     "community-repos": {
-      "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-07-24T15:13:07Z|NVIDIA/skills:2026-08-13T11:19:51Z|Orchestra-Research/AI-Research-SKILLs:2026-06-16T01:36:46Z|TerminalSkills/skills:2026-07-26T09:56:01Z|ajhcs/healthcare-agents:2026-07-19T20:53:19Z|alpacahq/alpaca-skills:2026-06-29T16:39:29Z|angular/skills:2026-08-13T00:16:17Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|arpitg1304/robotics-agent-skills:2026-08-12T01:29:38Z|bergside/awesome-design-skills:2026-06-28T10:05:22Z|coderabbitai/skills:2026-08-12T21:28:07Z|cypress-io/ai-toolkit:2026-07-06T02:09:40Z|deanpeters/Product-Manager-Skills:2026-08-10T16:15:52Z|gamedev-skills/awesome-gamedev-agent-skills:2026-08-11T05:49:04Z|google/skills:2026-08-12T18:27:18Z|ibelick/ui-skills:2026-08-11T11:20:13Z|machina-sports/sports-skills:2026-08-10T23:17:37Z|mattpocock/skills:2026-08-13T09:06:37Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-08-13T10:06:16Z|resend/resend-skills:2026-08-11T18:06:11Z|rudrankriyam/app-store-connect-cli-skills:2026-08-12T11:29:41Z|seb1n/awesome-ai-agent-skills:2026-08-09T22:29:16Z|snyk/agent-scan:2026-08-13T12:04:57Z|veniceai/skills:2026-07-29T21:18:21Z|video-db/skills:2026-07-25T04:49:04Z",
+      "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-07-24T15:13:07Z|NVIDIA/skills:2026-08-13T11:19:51Z|Orchestra-Research/AI-Research-SKILLs:2026-06-16T01:36:46Z|TerminalSkills/skills:2026-07-26T09:56:01Z|ajhcs/healthcare-agents:2026-07-19T20:53:19Z|alpacahq/alpaca-skills:2026-06-29T16:39:29Z|angular/skills:2026-08-13T00:16:17Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|arpitg1304/robotics-agent-skills:2026-08-12T01:29:38Z|bergside/awesome-design-skills:2026-06-28T10:05:22Z|coderabbitai/skills:2026-08-12T21:28:07Z|cypress-io/ai-toolkit:2026-07-06T02:09:40Z|deanpeters/Product-Manager-Skills:2026-08-10T16:15:52Z|gamedev-skills/awesome-gamedev-agent-skills:2026-08-11T05:49:04Z|google/skills:2026-08-12T18:27:18Z|ibelick/ui-skills:2026-08-11T11:20:13Z|machina-sports/sports-skills:2026-08-10T23:17:37Z|mattpocock/skills:2026-08-13T09:06:37Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-08-13T10:06:16Z|resend/resend-skills:2026-08-11T18:06:11Z|rudrankriyam/app-store-connect-cli-skills:2026-08-12T11:29:41Z|seb1n/awesome-ai-agent-skills:2026-08-09T22:29:16Z|snyk/agent-scan:2026-08-13T12:22:43Z|veniceai/skills:2026-07-29T21:18:21Z|video-db/skills:2026-07-25T04:49:04Z",
       "skill_count": 22,
-      "synced_at": "2026-08-13T12:06:13.879976+00:00",
+      "synced_at": "2026-08-13T12:34:36.191658+00:00",
       "skipped": false
     },
     "voltagent-awesome": {
@@ -152,7 +152,7 @@
       "fingerprint": "supabase/supabase@master:88e916a4c08b",
       "skill_count": 14,
       "synced_at": "2026-08-13T12:06:13.879976+00:00",
-      "skipped": false
+      "skipped": true
     },
     "github-awesome-copilot": {
       "fingerprint": "github/awesome-copilot@main:55b952d2f9bd",

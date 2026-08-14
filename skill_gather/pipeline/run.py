@@ -12,7 +12,7 @@ from skill_gather.models import RawSkillEntry, SkillIndex
 from skill_gather.pipeline.deduplicate import deduplicate
 from skill_gather.pipeline.normalize import normalize_all
 from skill_gather.pipeline.score import score_all
-from skill_gather.registry_writer import REGISTRY_DIR, load_existing_skills
+from skill_gather.registry_writer import REGISTRY_DIR, load_existing_skills, load_source_skills
 from skill_gather.sync_state import load_source_sync_state
 
 logger = logging.getLogger(__name__)

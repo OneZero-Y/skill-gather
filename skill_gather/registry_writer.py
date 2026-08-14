@@ -1,7 +1,15 @@
-"""Write pipeline output to registry/skills.json and registry/meta.json.
+"""Write pipeline output to registry/sources/<id>.json and registry/meta.json.
 
-Also provides diff detection: compare new results against the existing registry
-and return a structured changelog (added / removed / modified).
+Storage layout:
+  registry/
+    sources/
+      <source-id>.json          — skills for one source (if < SHARD_SIZE_LIMIT bytes)
+      <source-id>-0.json        — shard 0 when a source exceeds SHARD_SIZE_LIMIT
+      <source-id>-1.json        — shard 1 …
+    meta.json                   — global stats + changelog
+    skills_sh_installs.json     — install-count signals (written by skills_sh adapter)
+
+skills.json is no longer written; export_web_data.py reads sources/ directly.
 """
 
 from __future__ import annotations
@@ -19,6 +27,138 @@ logger = logging.getLogger(__name__)
 
 REGISTRY_DIR = Path(__file__).parent.parent / "registry"
 
+# Single source shard file must not exceed this size (bytes).
+# GitHub recommends keeping files below 50 MB; we use 40 MB to leave headroom.
+SHARD_SIZE_LIMIT = 40 * 1024 * 1024  # 40 MB
+
+
+# ---------------------------------------------------------------------------
+# Source-shard helpers
+# ---------------------------------------------------------------------------
+
+def _source_shard_paths(sources_dir: Path, source_id: str) -> list[Path]:
+    """Return all existing shard paths for a source, sorted by shard index."""
+    single = sources_dir / f"{source_id}.json"
+    if single.exists():
+        return [single]
+    shards = sorted(sources_dir.glob(f"{source_id}-*.json"))
+    return list(shards)
+
+
+def _write_source_shards(
+    sources_dir: Path,
+    source_id: str,
+    records: list[dict],
+) -> list[Path]:
+    """Write records for one source, splitting into shards if needed.
+
+    Returns the list of paths written.
+    """
+    sources_dir.mkdir(parents=True, exist_ok=True)
+
+    # Serialise once to measure size
+    full_json = json.dumps(
+        {"source_id": source_id, "skills": records, "total": len(records),
+         "generated_at": datetime.now(timezone.utc).isoformat()},
+        ensure_ascii=False,
+        indent=2,
+        default=_json_default,
+    ).encode("utf-8")
+
+    if len(full_json) <= SHARD_SIZE_LIMIT:
+        # Fits in a single file
+        path = sources_dir / f"{source_id}.json"
+        _write_bytes(path, full_json)
+        # Remove any stale numbered shards from a previous run
+        for stale in sources_dir.glob(f"{source_id}-*.json"):
+            stale.unlink(missing_ok=True)
+        return [path]
+
+    # Split into numbered shards
+    # Estimate records per shard based on average record size
+    avg_bytes = len(full_json) / max(len(records), 1)
+    records_per_shard = max(1, int(SHARD_SIZE_LIMIT / avg_bytes * 0.9))  # 10% safety margin
+
+    written: list[Path] = []
+    for shard_idx, start in enumerate(range(0, len(records), records_per_shard)):
+        chunk = records[start: start + records_per_shard]
+        path = sources_dir / f"{source_id}-{shard_idx}.json"
+        payload = {
+            "source_id": source_id,
+            "shard": shard_idx,
+            "skills": chunk,
+            "total": len(records),
+            "shard_total": len(chunk),
+            "generated_at": datetime.now(timezone.utc).isoformat(),
+        }
+        _write_json(path, payload)
+        written.append(path)
+
+    # Remove single-file version if it exists from a previous run
+    single = sources_dir / f"{source_id}.json"
+    single.unlink(missing_ok=True)
+
+    logger.info(
+        "  %s: %d records split into %d shards",
+        source_id, len(records), len(written),
+    )
+    return written
+
+
+def load_source_skills(sources_dir: Path, source_id: str) -> list[dict]:
+    """Load all skill records for a single source (handles shards transparently)."""
+    paths = _source_shard_paths(sources_dir, source_id)
+    if not paths:
+        return []
+    records: list[dict] = []
+    for p in paths:
+        data = _load_json(p)
+        if data:
+            records.extend(data.get("skills", []))
+    return records
+
+
+def load_all_source_skills(sources_dir: Path) -> list[dict]:
+    """Load and merge all skills from registry/sources/*.json."""
+    if not sources_dir.exists():
+        return []
+    seen_sources: set[str] = set()
+    all_records: list[dict] = []
+    for path in sorted(sources_dir.glob("*.json")):
+        data = _load_json(path)
+        if not data:
+            continue
+        source_id = data.get("source_id", path.stem)
+        # De-duplicate shards: track by source_id, each shard contributes its records
+        all_records.extend(data.get("skills", []))
+        seen_sources.add(source_id)
+    return all_records
+
+
+# ---------------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------------
+
+def load_existing_skills(output_dir: Path | None = None) -> list[SkillIndex]:
+    """Load current registry entries as SkillIndex models from sources/ shards."""
+    out = output_dir or REGISTRY_DIR
+    sources_dir = out / "sources"
+
+    # Prefer new sources/ layout; fall back to legacy skills.json for migration
+    if sources_dir.exists() and any(sources_dir.glob("*.json")):
+        records = load_all_source_skills(sources_dir)
+    else:
+        legacy = _load_json(out / "skills.json")
+        records = legacy.get("skills", []) if legacy else []
+
+    result: list[SkillIndex] = []
+    for rec in records:
+        try:
+            result.append(SkillIndex.model_validate(rec))
+        except Exception as e:
+            logger.debug("Skipping invalid record: %s", e)
+    return result
+
 
 def merge_skills_for_sources(
     existing: list[SkillIndex],
@@ -32,15 +172,6 @@ def merge_skills_for_sources(
     return merged
 
 
-def load_existing_skills(output_dir: Path | None = None) -> list[SkillIndex]:
-    """Load current registry entries as SkillIndex models."""
-    out = output_dir or REGISTRY_DIR
-    existing = _load_json(out / "skills.json")
-    if not existing:
-        return []
-    return [SkillIndex.model_validate(record) for record in existing.get("skills", [])]
-
-
 # ---------------------------------------------------------------------------
 # JSON helpers
 # ---------------------------------------------------------------------------
@@ -51,10 +182,26 @@ def _json_default(obj: Any) -> Any:
     raise TypeError(f"Object of type {type(obj)} is not JSON serializable")
 
 
+def _write_bytes(path: Path, data: bytes) -> None:
+    """Write bytes atomically."""
+    import os, tempfile
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
+    try:
+        with os.fdopen(fd, "wb") as f:
+            f.write(data)
+        os.replace(tmp, path)
+    except Exception:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
+
 def _write_json(path: Path, data: Any) -> None:
     """Write JSON atomically: write to a temp file then rename."""
-    import os
-    import tempfile
+    import os, tempfile
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, tmp = tempfile.mkstemp(dir=path.parent, suffix=".tmp")
     try:
@@ -88,11 +235,7 @@ def compute_diff(
     old_skills: list[dict],
     new_skills: list[SkillIndex],
 ) -> dict[str, Any]:
-    """Compare old registry records against new pipeline results.
-
-    Returns a changelog dict with added / removed / modified lists
-    and summary counts.
-    """
+    """Compare old registry records against new pipeline results."""
     old_by_id: dict[str, dict] = {s["skill_id"]: s for s in old_skills}
     new_by_id: dict[str, SkillIndex] = {s.skill_id: s for s in new_skills}
 
@@ -106,7 +249,6 @@ def compute_diff(
     for skill_id in old_ids & new_ids:
         old = old_by_id[skill_id]
         new = new_by_id[skill_id]
-        # A skill is "modified" if description or source URL changed
         if (
             old.get("spec", {}).get("description") != new.spec.description
             or old.get("discovery", {}).get("source_url") != new.discovery.source_url
@@ -126,7 +268,6 @@ def compute_diff(
             "total_new": len(new_ids),
         },
     }
-
     logger.info(
         "Diff: +%d added, -%d removed, ~%d modified (total: %d → %d)",
         len(added), len(removed), len(modified), len(old_ids), len(new_ids),
@@ -146,36 +287,56 @@ def write_registry(
     skipped_sources: set[str] | None = None,
     synced_sources: set[str] | None = None,
 ) -> dict[str, Any]:
-    """Write skills to registry/ and return a diff changelog.
+    """Write skills to registry/sources/ per-source shards + meta.json.
 
-    Writes:
-      registry/skills.json       — full index
-      registry/meta.json         — summary stats + changelog
-      registry/by-category/*.json — per-category shards
-
-    Returns:
-      The changelog dict from compute_diff (empty if no previous registry).
+    Returns the changelog dict from compute_diff.
     """
     out = output_dir or REGISTRY_DIR
     out.mkdir(parents=True, exist_ok=True)
+    sources_dir = out / "sources"
 
     # ------------------------------------------------------------------ #
-    # Diff against existing registry
+    # Diff against existing registry (load old records for diff only)
     # ------------------------------------------------------------------ #
-    existing = _load_json(out / "skills.json")
-    old_skills: list[dict] = existing.get("skills", []) if existing else []
+    old_skills = load_all_source_skills(sources_dir)
+    # Fall back to legacy skills.json during migration
+    if not old_skills:
+        legacy = _load_json(out / "skills.json")
+        old_skills = legacy.get("skills", []) if legacy else []
+
     changelog = compute_diff(old_skills, skills)
 
     # ------------------------------------------------------------------ #
-    # skills.json
+    # Write per-source shard files
     # ------------------------------------------------------------------ #
-    skills_payload = {
-        "skills": [s.model_dump(mode="json") for s in skills],
-        "total": len(skills),
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+    by_source: dict[str, list[dict]] = {}
+    for skill in skills:
+        src = skill.discovery.source_id
+        by_source.setdefault(src, []).append(skill.model_dump(mode="json"))
+
+    # Remove shard files for sources that no longer have any skills
+    existing_source_ids = {
+        p.stem.split("-")[0]
+        for p in sources_dir.glob("*.json")
+        if sources_dir.exists()
     }
-    _write_json(out / "skills.json", skills_payload)
-    logger.info("Wrote %d skills → %s", len(skills), out / "skills.json")
+    stale_sources = existing_source_ids - set(by_source.keys())
+    for stale_id in stale_sources:
+        for stale_path in _source_shard_paths(sources_dir, stale_id):
+            stale_path.unlink(missing_ok=True)
+            logger.info("Removed stale shard: %s", stale_path)
+
+    total_written = 0
+    for source_id, records in by_source.items():
+        paths = _write_source_shards(sources_dir, source_id, records)
+        total_written += len(records)
+        logger.info(
+            "Wrote %d skills for %s → %s",
+            len(records), source_id,
+            ", ".join(p.name for p in paths),
+        )
+
+    logger.info("Wrote %d skills total → %s", total_written, sources_dir)
 
     # ------------------------------------------------------------------ #
     # meta.json
@@ -197,12 +358,11 @@ def write_registry(
                 platform_counts[k] += 1
 
     source_ids = sorted({s.discovery.source_id for s in skills})
-    source_counts_for_state = dict(source_counts)
     prev_sync_state = load_source_sync_state(out)
     source_sync_state = merge_source_sync_state(
         prev_sync_state,
         fingerprints=source_fingerprints or {},
-        skill_counts=source_counts_for_state,
+        skill_counts=dict(source_counts),
         synced_sources=synced_sources or set(),
         skipped_sources=skipped_sources or set(),
     )
@@ -224,13 +384,6 @@ def write_registry(
     }
     _write_json(out / "meta.json", meta_payload)
     logger.info("Wrote registry metadata → %s", out / "meta.json")
-
-    # by-category shards are intentionally NOT written:
-    # - frontend consumes web/data/skills.yml only (generated by export_web_data.py)
-    # - shards duplicate ~6 MB from skills.json with no consumer
-    # - category statistics are already in meta.json["categories"]
-    # If a consumer needs per-category data, run:
-    #   skill-gather export --category <id> --format json
 
     return changelog
 
@@ -271,7 +424,7 @@ def export_csv(skills: list[dict], output_path: Path) -> None:
 
 
 def export_yaml(skills: list[dict], output_path: Path) -> None:
-    """Export a frontend-friendly YAML index (Phase 2 Astro consumer)."""
+    """Export a frontend-friendly YAML index."""
     import yaml
 
     rows = []
