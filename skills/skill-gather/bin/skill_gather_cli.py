@@ -141,9 +141,18 @@ def _bootstrap_with_pip() -> bool:
 
 
 def _running_in_skill_venv() -> bool:
-    """True when the current interpreter is the one inside our private venv."""
+    """True when the current interpreter is running out of our private venv.
+
+    Compares sys.prefix against the venv directory rather than comparing
+    interpreter paths. On POSIX, .venv/bin/python is a symlink to the base
+    interpreter, so resolving both sides makes a system interpreter look
+    identical to the venv one — which sent every second invocation down the
+    "already inside the venv" branch and made it install into the wrong
+    environment. sys.prefix is the venv directory for a venv interpreter and
+    the base installation otherwise (PEP 405), which is unambiguous.
+    """
     try:
-        return Path(sys.executable).resolve() == venv_python().resolve()
+        return Path(sys.prefix).resolve() == VENV_DIR.resolve()
     except OSError:
         return False
 
