@@ -20,17 +20,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/vercel-composition-patterns",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/vercel-composition-patterns",
-        "last_synced": "2026-08-14T05:40:03.210259Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428981Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 11,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -47,7 +50,7 @@
         "react",
         "vercel"
       ],
-      "score": 63
+      "score": 68
     },
     {
       "skill_id": "supabase/supabase/clickhouse-logs-queries",
@@ -65,17 +68,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/clickhouse-logs-queries",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/clickhouse-logs-queries",
-        "last_synced": "2026-08-14T05:40:03.209057Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.427424Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
         "file_count": 4,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -90,7 +96,7 @@
         "logs",
         "queries"
       ],
-      "score": 57
+      "score": 63
     },
     {
       "skill_id": "supabase/supabase/copywriting",
@@ -108,17 +114,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/copywriting",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/copywriting",
-        "last_synced": "2026-08-14T05:40:03.209168Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.427566Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -131,7 +140,7 @@
       "tags": [
         "copywriting"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/dev-toolbar-review",
@@ -149,17 +158,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/dev-toolbar-review",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/dev-toolbar-review",
-        "last_synced": "2026-08-14T05:40:03.209261Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.427670Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -174,7 +186,7 @@
         "review",
         "toolbar"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/docs-content",
@@ -192,17 +204,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/docs-content",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/docs-content",
-        "last_synced": "2026-08-14T05:40:03.209332Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.427764Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -216,7 +231,7 @@
         "content",
         "docs"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/react-hook-form",
@@ -234,17 +249,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/react-hook-form",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/react-hook-form",
-        "last_synced": "2026-08-14T05:40:03.209417Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.427865Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -259,7 +277,7 @@
         "hook",
         "react"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/safe-sql-execution",
@@ -277,17 +295,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/safe-sql-execution",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/safe-sql-execution",
-        "last_synced": "2026-08-14T05:40:03.209549Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428024Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -302,7 +323,7 @@
         "safe",
         "sql"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/studio-e2e-tests",
@@ -320,17 +341,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-e2e-tests",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-e2e-tests",
-        "last_synced": "2026-08-14T05:40:03.209746Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428282Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -345,7 +369,7 @@
         "studio",
         "tests"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/studio-error-handling",
@@ -363,17 +387,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-error-handling",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-error-handling",
-        "last_synced": "2026-08-14T05:40:03.209816Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428376Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -389,7 +416,7 @@
         "handling",
         "studio"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/studio-mock-api-tests",
@@ -407,17 +434,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-mock-api-tests",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-mock-api-tests",
-        "last_synced": "2026-08-14T05:40:03.209886Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428466Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -434,7 +464,7 @@
         "studio",
         "tests"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/studio-queries",
@@ -452,17 +482,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-queries",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-queries",
-        "last_synced": "2026-08-14T05:40:03.209961Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428565Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -478,7 +511,7 @@
         "react",
         "studio"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/studio-testing",
@@ -496,17 +529,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-testing",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-testing",
-        "last_synced": "2026-08-14T05:40:03.210050Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428676Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -520,7 +556,7 @@
         "studio",
         "testing"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/studio-ui-patterns",
@@ -538,17 +574,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-ui-patterns",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-ui-patterns",
-        "last_synced": "2026-08-14T05:40:03.210119Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428765Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -562,7 +601,7 @@
         "patterns",
         "studio"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "supabase/supabase/telemetry-standards",
@@ -580,17 +619,20 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/telemetry-standards",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/telemetry-standards",
-        "last_synced": "2026-08-14T05:40:03.210179Z",
-        "upstream_commit": "2c8cc7ec8ac8"
+        "last_synced": "2026-08-14T08:23:36.428890Z",
+        "upstream_commit": "0ed49231b781",
+        "repo": "supabase/supabase",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 107974,
+        "repo_stars": 107977,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -604,9 +646,9 @@
         "standards",
         "telemetry"
       ],
-      "score": 45
+      "score": 52
     }
   ],
   "total": 14,
-  "generated_at": "2026-08-14T05:40:04.123789+00:00"
+  "generated_at": "2026-08-14T08:23:37.570892+00:00"
 }

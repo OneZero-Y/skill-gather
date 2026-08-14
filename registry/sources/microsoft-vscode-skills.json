@@ -17,17 +17,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/act-on-feedback",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/act-on-feedback",
-        "last_synced": "2026-08-14T03:15:42.230848Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426522Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -41,7 +44,7 @@
         "act",
         "feedback"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/code-review",
@@ -59,17 +62,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/code-review",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/code-review",
-        "last_synced": "2026-08-14T03:15:42.230918Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426588Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -83,7 +89,7 @@
         "code",
         "review"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/commit",
@@ -101,17 +107,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/commit",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/commit",
-        "last_synced": "2026-08-14T03:15:42.230971Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426655Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -124,7 +133,7 @@
       "tags": [
         "commit"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/create-draft-pr",
@@ -142,17 +151,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/create-draft-pr",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-draft-pr",
-        "last_synced": "2026-08-14T03:15:42.231034Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426729Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -166,7 +178,7 @@
         "create",
         "draft"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/fix-ci",
@@ -184,17 +196,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/fix-ci",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/fix-ci",
-        "last_synced": "2026-08-14T03:15:42.231129Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426846Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -207,7 +222,7 @@
       "tags": [
         "fix"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/generate-run-commands",
@@ -225,17 +240,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/generate-run-commands",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/generate-run-commands",
-        "last_synced": "2026-08-14T03:15:42.231175Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426905Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -250,7 +268,7 @@
         "generate",
         "run"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/merge",
@@ -268,17 +286,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/merge",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/merge",
-        "last_synced": "2026-08-14T03:15:42.231225Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426971Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -291,7 +312,7 @@
       "tags": [
         "merge"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/sync-upstream",
@@ -309,17 +330,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/sync-upstream",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync-upstream",
-        "last_synced": "2026-08-14T03:15:42.231275Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.427032Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -333,7 +357,7 @@
         "sync",
         "upstream"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/sync",
@@ -351,17 +375,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/sync",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync",
-        "last_synced": "2026-08-14T03:15:42.231339Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.427122Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -374,7 +401,7 @@
       "tags": [
         "sync"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/troubleshoot",
@@ -392,17 +419,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/troubleshoot",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/troubleshoot",
-        "last_synced": "2026-08-14T03:15:42.231397Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.427203Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -415,7 +445,7 @@
       "tags": [
         "troubleshoot"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/update-skills",
@@ -433,17 +463,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/update-skills",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-skills",
-        "last_synced": "2026-08-14T03:15:42.231558Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.427337Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -457,7 +490,7 @@
         "skills",
         "update"
       ],
-      "score": 45
+      "score": 52
     },
     {
       "skill_id": "microsoft/vscode/create-pr",
@@ -475,17 +508,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/create-pr",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-pr",
-        "last_synced": "2026-08-14T03:15:42.231081Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.426789Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -498,7 +534,7 @@
       "tags": [
         "create"
       ],
-      "score": 42
+      "score": 49
     },
     {
       "skill_id": "microsoft/vscode/update-pr",
@@ -516,17 +552,20 @@
         "source_url": "https://github.com/microsoft/vscode",
         "source_path": "src/vs/sessions/skills/update-pr",
         "install_url": "https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-pr",
-        "last_synced": "2026-08-14T03:15:42.231509Z",
-        "upstream_commit": "96f2210282fa"
+        "last_synced": "2026-08-14T08:23:36.427279Z",
+        "upstream_commit": "11427bfc1add",
+        "repo": "microsoft/vscode",
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 188675,
+        "repo_stars": 188684,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -539,9 +578,9 @@
       "tags": [
         "update"
       ],
-      "score": 42
+      "score": 49
     }
   ],
   "total": 13,
-  "generated_at": "2026-08-14T05:40:04.290871+00:00"
+  "generated_at": "2026-08-14T08:23:37.768045+00:00"
 }

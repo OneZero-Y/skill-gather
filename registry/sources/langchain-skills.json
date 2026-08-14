@@ -21,7 +21,9 @@
         "source_path": "config/skills/swarm",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/swarm",
         "last_synced": "2026-08-14T03:15:42.183586Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -30,7 +32,8 @@
         "has_references": false,
         "file_count": 10,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -43,7 +46,7 @@
       "tags": [
         "swarm"
       ],
-      "score": 83
+      "score": 78
     },
     {
       "skill_id": "langchain-ai/langchain-skills/eval-engineering",
@@ -62,7 +65,9 @@
         "source_path": "config/skills/eval-engineering",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/eval-engineering",
         "last_synced": "2026-08-14T03:15:42.182565Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -71,7 +76,8 @@
         "has_references": true,
         "file_count": 13,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -85,7 +91,7 @@
         "engineering",
         "eval"
       ],
-      "score": 76
+      "score": 72
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langsmith-online-eval-engineering",
@@ -104,7 +110,9 @@
         "source_path": "config/skills/langsmith-online-eval-engineering",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langsmith-online-eval-engineering",
         "last_synced": "2026-08-14T03:15:42.183397Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -113,7 +121,8 @@
         "has_references": true,
         "file_count": 5,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -129,7 +138,7 @@
         "langsmith",
         "online"
       ],
-      "score": 76
+      "score": 72
     },
     {
       "skill_id": "langchain-ai/langchain-skills/deep-agents-core",
@@ -148,7 +157,9 @@
         "source_path": "config/skills/deep-agents-core",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-core",
         "last_synced": "2026-08-14T03:15:42.182208Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -157,7 +168,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -172,7 +184,7 @@
         "core",
         "deep"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/deep-agents-memory",
@@ -191,7 +203,9 @@
         "source_path": "config/skills/deep-agents-memory",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-memory",
         "last_synced": "2026-08-14T03:15:42.182263Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -200,7 +214,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -215,7 +230,7 @@
         "deep",
         "memory"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/deep-agents-orchestration",
@@ -234,7 +249,9 @@
         "source_path": "config/skills/deep-agents-orchestration",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deep-agents-orchestration",
         "last_synced": "2026-08-14T03:15:42.182319Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -243,7 +260,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -258,7 +276,7 @@
         "deep",
         "orchestration"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/deepagents-python-quickstart",
@@ -277,7 +295,9 @@
         "source_path": "config/skills/deepagents-python-quickstart",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deepagents-python-quickstart",
         "last_synced": "2026-08-14T03:15:42.182375Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -286,7 +306,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -301,7 +322,7 @@
         "python",
         "quickstart"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/deepagents-typescript-quickstart",
@@ -320,7 +341,9 @@
         "source_path": "config/skills/deepagents-typescript-quickstart",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/deepagents-typescript-quickstart",
         "last_synced": "2026-08-14T03:15:42.182434Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -329,7 +352,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -344,7 +368,7 @@
         "quickstart",
         "typescript"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/ecosystem-primer",
@@ -363,7 +387,9 @@
         "source_path": "config/skills/ecosystem-primer",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/ecosystem-primer",
         "last_synced": "2026-08-14T03:15:42.182490Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -372,7 +398,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -389,7 +416,7 @@
         "next",
         "primer"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langchain-dependencies",
@@ -408,7 +435,9 @@
         "source_path": "config/skills/langchain-dependencies",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-dependencies",
         "last_synced": "2026-08-14T03:15:42.182634Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -417,7 +446,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -434,7 +464,7 @@
         "python",
         "typescript"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langchain-middleware",
@@ -453,7 +483,9 @@
         "source_path": "config/skills/langchain-middleware",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-middleware",
         "last_synced": "2026-08-14T03:15:42.182756Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -462,7 +494,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -476,7 +509,7 @@
         "langchain",
         "middleware"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langchain-python-quickstart",
@@ -495,7 +528,9 @@
         "source_path": "config/skills/langchain-python-quickstart",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-python-quickstart",
         "last_synced": "2026-08-14T03:15:42.182825Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -504,7 +539,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -519,7 +555,7 @@
         "python",
         "quickstart"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langchain-rag",
@@ -538,7 +574,9 @@
         "source_path": "config/skills/langchain-rag",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-rag",
         "last_synced": "2026-08-14T03:15:42.182875Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -547,7 +585,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -561,7 +600,7 @@
         "langchain",
         "rag"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langchain-typescript-quickstart",
@@ -580,7 +619,9 @@
         "source_path": "config/skills/langchain-typescript-quickstart",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-typescript-quickstart",
         "last_synced": "2026-08-14T03:15:42.182952Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -589,7 +630,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -604,7 +646,7 @@
         "quickstart",
         "typescript"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langgraph-cli",
@@ -623,7 +665,9 @@
         "source_path": "config/skills/langgraph-cli",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-cli",
         "last_synced": "2026-08-14T03:15:42.183008Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -632,7 +676,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -646,7 +691,7 @@
         "cli",
         "langgraph"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langgraph-fundamentals",
@@ -665,7 +710,9 @@
         "source_path": "config/skills/langgraph-fundamentals",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-fundamentals",
         "last_synced": "2026-08-14T03:15:42.183062Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -674,7 +721,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -688,7 +736,7 @@
         "fundamentals",
         "langgraph"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langgraph-human-in-the-loop",
@@ -707,7 +755,9 @@
         "source_path": "config/skills/langgraph-human-in-the-loop",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-human-in-the-loop",
         "last_synced": "2026-08-14T03:15:42.183121Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -716,7 +766,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -731,7 +782,7 @@
         "langgraph",
         "loop"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langgraph-persistence",
@@ -750,7 +801,9 @@
         "source_path": "config/skills/langgraph-persistence",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-persistence",
         "last_synced": "2026-08-14T03:15:42.183187Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -759,7 +812,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -773,7 +827,7 @@
         "langgraph",
         "persistence"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langgraph-python-quickstart",
@@ -792,7 +846,9 @@
         "source_path": "config/skills/langgraph-python-quickstart",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-python-quickstart",
         "last_synced": "2026-08-14T03:15:42.183249Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -801,7 +857,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -816,7 +873,7 @@
         "python",
         "quickstart"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langgraph-typescript-quickstart",
@@ -835,7 +892,9 @@
         "source_path": "config/skills/langgraph-typescript-quickstart",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langgraph-typescript-quickstart",
         "last_synced": "2026-08-14T03:15:42.183301Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -844,7 +903,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -859,7 +919,7 @@
         "quickstart",
         "typescript"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/managed-deep-agents",
@@ -878,7 +938,9 @@
         "source_path": "config/skills/managed-deep-agents",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/managed-deep-agents",
         "last_synced": "2026-08-14T03:15:42.183465Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -887,7 +949,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -903,7 +966,7 @@
         "deep",
         "managed"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "langchain-ai/langchain-skills/langchain-fundamentals",
@@ -922,7 +985,9 @@
         "source_path": "config/skills/langchain-fundamentals",
         "install_url": "https://github.com/langchain-ai/langchain-skills/tree/main/config/skills/langchain-fundamentals",
         "last_synced": "2026-08-14T03:15:42.182707Z",
-        "upstream_commit": "92e4f3b494c0"
+        "upstream_commit": "92e4f3b494c0",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 1139,
@@ -931,7 +996,8 @@
         "has_references": false,
         "file_count": 1,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -945,9 +1011,9 @@
         "fundamentals",
         "langchain"
       ],
-      "score": 57
+      "score": 56
     }
   ],
   "total": 22,
-  "generated_at": "2026-08-14T05:40:04.112177+00:00"
+  "generated_at": "2026-08-14T08:23:37.551221+00:00"
 }

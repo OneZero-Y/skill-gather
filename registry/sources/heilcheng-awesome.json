@@ -18,7 +18,9 @@
         "source_path": "",
         "install_url": "https://github.com/hesreallyhim/awesome-claude-code",
         "last_synced": "2026-08-14T03:15:42.283080Z",
-        "upstream_commit": ""
+        "upstream_commit": "",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 0,
@@ -27,7 +29,8 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -61,7 +64,9 @@
         "source_path": "",
         "install_url": "https://github.com/VoltAgent/awesome-design-md",
         "last_synced": "2026-08-14T03:15:42.283169Z",
-        "upstream_commit": ""
+        "upstream_commit": "",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 0,
@@ -70,7 +75,8 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -103,7 +109,9 @@
         "source_path": "",
         "install_url": "https://github.com/punkpeye/awesome-mcp-servers",
         "last_synced": "2026-08-14T03:15:42.283257Z",
-        "upstream_commit": ""
+        "upstream_commit": "",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 0,
@@ -112,7 +120,8 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -146,7 +155,9 @@
         "source_path": "",
         "install_url": "https://docs.github.com/copilot/concepts/agents/about-agent-skills",
         "last_synced": "2026-08-14T03:15:42.283003Z",
-        "upstream_commit": ""
+        "upstream_commit": "",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 0,
@@ -155,7 +166,8 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -190,7 +202,9 @@
         "source_path": "",
         "install_url": "https://github.com/modelcontextprotocol/servers",
         "last_synced": "2026-08-14T03:15:42.283040Z",
-        "upstream_commit": ""
+        "upstream_commit": "",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 0,
@@ -199,7 +213,8 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -233,7 +248,9 @@
         "source_path": "",
         "install_url": "https://github.com/VoltAgent/awesome-openclaw-skills",
         "last_synced": "2026-08-14T03:15:42.283216Z",
-        "upstream_commit": ""
+        "upstream_commit": "",
+        "repo": "",
+        "alternate_sources": []
       },
       "signals": {
         "repo_stars": 0,
@@ -242,7 +259,8 @@
         "has_references": false,
         "file_count": 0,
         "open_issues": null,
-        "install_count": 0
+        "install_count": 0,
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -261,5 +279,5 @@
     }
   ],
   "total": 6,
-  "generated_at": "2026-08-14T05:40:04.452007+00:00"
+  "generated_at": "2026-08-14T08:23:37.951332+00:00"
 }
