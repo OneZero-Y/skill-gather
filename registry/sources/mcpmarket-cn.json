@@ -55570,7 +55570,7 @@
         "next",
         "practices"
       ],
-      "score": 49
+      "score": 48
     },
     {
       "skill_id": "vercel-labs/agent-skills/vercel-deploy",
@@ -88732,97 +88732,6 @@
       "score": 46
     },
     {
-      "skill_id": "vercel-labs/next-skills/next-cache-components",
-      "spec": {
-        "name": "next-cache-components",
-        "description": "Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, updateTag",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/vercel-labs/next-skills",
-        "source_path": "skills/next-cache-components",
-        "install_url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-cache-components",
-        "last_synced": "2026-08-14T02:36:23.574570Z",
-        "upstream_commit": "",
-        "repo": "vercel-labs/next-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 848,
-        "last_commit_date": "2026-02-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cache",
-        "components",
-        "next"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "vercel-labs/next-skills/next-upgrade",
-      "spec": {
-        "name": "next-upgrade",
-        "description": "Upgrade Next.js to the latest version following official migration guides and codemods",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/vercel-labs/next-skills",
-        "source_path": "skills/next-upgrade",
-        "install_url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-upgrade",
-        "last_synced": "2026-08-14T02:36:23.574618Z",
-        "upstream_commit": "",
-        "repo": "vercel-labs/next-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 848,
-        "last_commit_date": "2026-02-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "next",
-        "upgrade"
-      ],
-      "score": 46
-    },
-    {
       "skill_id": "callstackincubator/agent-skills/agent-device",
       "spec": {
         "name": "agent-device",
@@ -120691,6 +120600,97 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "vercel-labs/next-skills/next-cache-components",
+      "spec": {
+        "name": "next-cache-components",
+        "description": "Next.js 16 Cache Components - PPR, use cache directive, cacheLife, cacheTag, updateTag",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/vercel-labs/next-skills",
+        "source_path": "skills/next-cache-components",
+        "install_url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-cache-components",
+        "last_synced": "2026-08-14T02:36:23.574570Z",
+        "upstream_commit": "",
+        "repo": "vercel-labs/next-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 848,
+        "last_commit_date": "2026-02-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cache",
+        "components",
+        "next"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "vercel-labs/next-skills/next-upgrade",
+      "spec": {
+        "name": "next-upgrade",
+        "description": "Upgrade Next.js to the latest version following official migration guides and codemods",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/vercel-labs/next-skills",
+        "source_path": "skills/next-upgrade",
+        "install_url": "https://github.com/vercel-labs/next-skills/tree/main/skills/next-upgrade",
+        "last_synced": "2026-08-14T02:36:23.574618Z",
+        "upstream_commit": "",
+        "repo": "vercel-labs/next-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 848,
+        "last_commit_date": "2026-02-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "next",
+        "upgrade"
+      ],
+      "score": 44
     },
     {
       "skill_id": "mukul975/Anthropic-Cybersecurity-Skills/performing-web-application-firewall-bypass",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-08-15T04:34:30.922960+00:00"
+  "generated_at": "2026-08-16T04:37:49.749236+00:00"
 }
