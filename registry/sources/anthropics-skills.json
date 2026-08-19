@@ -17,13 +17,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/mcp-builder",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/mcp-builder",
-        "last_synced": "2026-08-18T04:37:58.906007Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.713905Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -65,13 +65,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/docx",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/docx",
-        "last_synced": "2026-08-18T04:37:58.905649Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.713531Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -109,13 +109,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/pdf",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/pdf",
-        "last_synced": "2026-08-18T04:37:58.906099Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.713995Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -153,13 +153,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/pptx",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/pptx",
-        "last_synced": "2026-08-18T04:37:58.906225Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.714108Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -197,13 +197,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/web-artifacts-builder",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder",
-        "last_synced": "2026-08-18T04:37:58.906693Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.714608Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -244,13 +244,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/webapp-testing",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/webapp-testing",
-        "last_synced": "2026-08-18T04:37:58.906783Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.714743Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -289,13 +289,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/xlsx",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/xlsx",
-        "last_synced": "2026-08-18T04:37:58.906854Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.714847Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -335,13 +335,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/skill-creator",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/skill-creator",
-        "last_synced": "2026-08-18T04:37:58.906429Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.714305Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -380,13 +380,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/algorithmic-art",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/algorithmic-art",
-        "last_synced": "2026-08-18T04:37:58.903877Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.712533Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -425,13 +425,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/canvas-design",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/canvas-design",
-        "last_synced": "2026-08-18T04:37:58.904577Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.712789Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -471,13 +471,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/claude-api",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/claude-api",
-        "last_synced": "2026-08-18T04:37:58.904980Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.712885Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -520,13 +520,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/internal-comms",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/internal-comms",
-        "last_synced": "2026-08-18T04:37:58.905910Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.713809Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -565,13 +565,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/slack-gif-creator",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator",
-        "last_synced": "2026-08-18T04:37:58.906529Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.714406Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -611,13 +611,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/theme-factory",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/theme-factory",
-        "last_synced": "2026-08-18T04:37:58.906608Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.714484Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -641,6 +641,52 @@
       "score": 66
     },
     {
+      "skill_id": "anthropics/skills/academy-guide",
+      "spec": {
+        "name": "academy-guide",
+        "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+        "license": "Complete terms in LICENSE.txt",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "anthropics-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/anthropics/skills",
+        "source_path": "skills/academy-guide",
+        "install_url": "https://github.com/anthropics/skills/tree/main/skills/academy-guide",
+        "last_synced": "2026-08-19T04:38:12.711776Z",
+        "upstream_commit": "0a64e398ec6b",
+        "repo": "anthropics/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 170325,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 2,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": true,
+        "kiro": false,
+        "codex": false,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "academy",
+        "guide",
+        "mcp"
+      ],
+      "score": 63
+    },
+    {
       "skill_id": "anthropics/skills/brand-guidelines",
       "spec": {
         "name": "brand-guidelines",
@@ -656,13 +702,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/brand-guidelines",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/brand-guidelines",
-        "last_synced": "2026-08-18T04:37:58.904467Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.712691Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -686,54 +732,6 @@
       "score": 63
     },
     {
-      "skill_id": "anthropics/skills/claude-academy-guide",
-      "spec": {
-        "name": "claude-academy-guide",
-        "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP, Claude Code, Claude Cowork, Claude in Excel, Claude in PowerPoint, Claude in Chrome, the Claude API, or prompting technique; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy re",
-        "license": "Complete terms in LICENSE.txt",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "anthropics-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/anthropics/skills",
-        "source_path": "skills/claude-academy-guide",
-        "install_url": "https://github.com/anthropics/skills/tree/main/skills/claude-academy-guide",
-        "last_synced": "2026-08-18T04:37:58.904678Z",
-        "upstream_commit": "f379e5ad66e2",
-        "repo": "anthropics/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 170072,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 2,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": true,
-        "kiro": false,
-        "codex": false,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "academy",
-        "api",
-        "claude",
-        "guide",
-        "mcp"
-      ],
-      "score": 63
-    },
-    {
       "skill_id": "anthropics/skills/discernment-nudge",
       "spec": {
         "name": "discernment-nudge",
@@ -749,13 +747,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/discernment-nudge",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/discernment-nudge",
-        "last_synced": "2026-08-18T04:37:58.905273Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.713163Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -794,13 +792,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/frontend-design",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/frontend-design",
-        "last_synced": "2026-08-18T04:37:58.905835Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.713733Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -839,13 +837,13 @@
         "source_url": "https://github.com/anthropics/skills",
         "source_path": "skills/doc-coauthoring",
         "install_url": "https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring",
-        "last_synced": "2026-08-18T04:37:58.905527Z",
-        "upstream_commit": "f379e5ad66e2",
+        "last_synced": "2026-08-19T04:38:12.713412Z",
+        "upstream_commit": "0a64e398ec6b",
         "repo": "anthropics/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 170072,
+        "repo_stars": 170325,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -870,5 +868,5 @@
     }
   ],
   "total": 19,
-  "generated_at": "2026-08-18T04:38:00.166957+00:00"
+  "generated_at": "2026-08-19T04:38:14.335456+00:00"
 }
