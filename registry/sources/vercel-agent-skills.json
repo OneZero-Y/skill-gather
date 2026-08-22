@@ -19,13 +19,13 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/vercel-optimize",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-optimize",
-        "last_synced": "2026-08-14T03:15:42.181981Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.157161Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
+        "repo_stars": 30307,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -68,22 +68,20 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/react-view-transitions",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-view-transitions",
-        "last_synced": "2026-08-14T03:15:42.181762Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.156918Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
-        "alternate_sources": [
-          "mcpmarket-cn"
-        ]
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
-        "last_commit_date": "2026-04-29",
+        "repo_stars": 30307,
+        "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
         "file_count": 9,
         "open_issues": null,
         "install_count": 0,
-        "source_count": 2
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -101,7 +99,7 @@
         "vercel",
         "view"
       ],
-      "score": 81
+      "score": 75
     },
     {
       "skill_id": "vercel-labs/agent-skills/vercel-composition-patterns",
@@ -122,22 +120,20 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/composition-patterns",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/composition-patterns",
-        "last_synced": "2026-08-14T03:15:42.181483Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.156559Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
-        "alternate_sources": [
-          "mcpmarket-cn"
-        ]
+        "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
-        "last_commit_date": "2026-04-29",
+        "repo_stars": 30307,
+        "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
         "file_count": 15,
         "open_issues": null,
         "install_count": 0,
-        "source_count": 2
+        "source_count": 1
       },
       "platform": {
         "claude_code": true,
@@ -154,59 +150,7 @@
         "react",
         "vercel"
       ],
-      "score": 74
-    },
-    {
-      "skill_id": "vercel-labs/agent-skills/vercel-react-native-skills",
-      "spec": {
-        "name": "vercel-react-native-skills",
-        "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {
-          "author": "vercel",
-          "version": "1.0.0"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "vercel-agent-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/vercel-labs/agent-skills",
-        "source_path": "skills/react-native-skills",
-        "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills",
-        "last_synced": "2026-08-14T03:15:42.181691Z",
-        "upstream_commit": "b8caa260a420",
-        "repo": "vercel-labs/agent-skills",
-        "alternate_sources": [
-          "mcpmarket-cn"
-        ]
-      },
-      "signals": {
-        "repo_stars": 30012,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 43,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 2
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "native",
-        "react",
-        "skills",
-        "vercel"
-      ],
-      "score": 74
+      "score": 68
     },
     {
       "skill_id": "vercel-labs/agent-skills/deploy-to-vercel",
@@ -227,13 +171,13 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/deploy-to-vercel",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/deploy-to-vercel",
-        "last_synced": "2026-08-14T03:15:42.181556Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.156658Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
+        "repo_stars": 30307,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -275,13 +219,13 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/react-best-practices",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-best-practices",
-        "last_synced": "2026-08-14T03:15:42.181612Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.156731Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
+        "repo_stars": 30307,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -308,6 +252,56 @@
       "score": 68
     },
     {
+      "skill_id": "vercel-labs/agent-skills/vercel-react-native-skills",
+      "spec": {
+        "name": "vercel-react-native-skills",
+        "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {
+          "author": "vercel",
+          "version": "1.0.0"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "vercel-agent-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/vercel-labs/agent-skills",
+        "source_path": "skills/react-native-skills",
+        "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/react-native-skills",
+        "last_synced": "2026-08-22T04:34:11.156828Z",
+        "upstream_commit": "dd089a8c752c",
+        "repo": "vercel-labs/agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 30307,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 43,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "native",
+        "react",
+        "skills",
+        "vercel"
+      ],
+      "score": 68
+    },
+    {
       "skill_id": "vercel-labs/agent-skills/vercel-cli-with-tokens",
       "spec": {
         "name": "vercel-cli-with-tokens",
@@ -326,13 +320,13 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/vercel-cli-with-tokens",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-cli-with-tokens",
-        "last_synced": "2026-08-14T03:15:42.181886Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.157070Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
+        "repo_stars": 30307,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -376,13 +370,13 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/web-design-guidelines",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/web-design-guidelines",
-        "last_synced": "2026-08-14T03:15:42.182090Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.157309Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
+        "repo_stars": 30307,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -426,13 +420,13 @@
         "source_url": "https://github.com/vercel-labs/agent-skills",
         "source_path": "skills/writing-guidelines",
         "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/writing-guidelines",
-        "last_synced": "2026-08-14T03:15:42.182150Z",
-        "upstream_commit": "b8caa260a420",
+        "last_synced": "2026-08-22T04:34:11.157401Z",
+        "upstream_commit": "dd089a8c752c",
         "repo": "vercel-labs/agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 30012,
+        "repo_stars": 30307,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -457,5 +451,5 @@
     }
   ],
   "total": 9,
-  "generated_at": "2026-08-21T04:40:13.276754+00:00"
+  "generated_at": "2026-08-22T04:34:12.740267+00:00"
 }

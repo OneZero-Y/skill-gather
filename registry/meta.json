@@ -1,20 +1,20 @@
 {
-  "total_skills": 11244,
+  "total_skills": 11249,
   "sources_count": 15,
-  "last_synced": "2026-08-21T04:40:13.557342Z",
+  "last_synced": "2026-08-22T04:34:13.165015Z",
   "version": "1",
   "categories": {
-    "document": 843,
-    "development": 4037,
-    "data": 660,
-    "creative": 979,
-    "devops": 1285,
+    "document": 845,
+    "development": 4033,
+    "data": 664,
+    "creative": 982,
+    "devops": 1281,
     "security": 155,
-    "productivity": 1101,
-    "education": 187,
-    "other": 1413,
+    "productivity": 1098,
+    "education": 188,
+    "other": 1418,
     "ecommerce": 74,
-    "content": 510
+    "content": 511
   },
   "sources": [
     "anthropics-skills",
@@ -34,16 +34,16 @@
     "voltagent-awesome"
   ],
   "source_counts": {
-    "github-awesome-copilot": 426,
+    "github-awesome-copilot": 427,
     "vercel-agent-skills": 9,
-    "anthropics-skills": 19,
     "scientific-agent-skills": 163,
+    "anthropics-skills": 19,
     "langchain-skills": 22,
     "openai-skills": 43,
-    "bytedance-deerflow": 29,
     "aws-agent-toolkit": 101,
+    "bytedance-deerflow": 29,
     "supabase-skills": 14,
-    "voltagent-awesome": 608,
+    "voltagent-awesome": 612,
     "community-repos": 22,
     "skillhub-cn": 5000,
     "microsoft-vscode-skills": 13,
@@ -51,25 +51,25 @@
     "heilcheng-awesome": 6
   },
   "platform_counts": {
-    "claude_code": 11239,
+    "claude_code": 11244,
     "claude_ai": 21,
-    "kiro": 11220,
-    "codex": 10474,
-    "universal": 11233
+    "kiro": 11225,
+    "codex": 10478,
+    "universal": 11238
   },
   "score_distribution": {
-    "0-20": 563,
-    "21-40": 4455,
-    "41-60": 5718,
-    "61-80": 392,
-    "81-100": 116
+    "0-20": 559,
+    "21-40": 4447,
+    "41-60": 5735,
+    "61-80": 393,
+    "81-100": 115
   },
   "changelog": {
-    "added": 75,
-    "removed": 91,
-    "modified": 771,
-    "total_old": 11260,
-    "total_new": 11244
+    "added": 51,
+    "removed": 46,
+    "modified": 657,
+    "total_old": 11244,
+    "total_new": 11249
   },
   "source_sync_state": {
     "mcpmarket-cn": {
@@ -88,49 +88,49 @@
       "fingerprint": "langchain-ai/langchain-skills@main:7f00812b2b8b",
       "skill_count": 22,
       "synced_at": "2026-08-21T04:40:13.557321+00:00",
-      "skipped": false
-    },
-    "anthropics-skills": {
-      "fingerprint": "anthropics/skills@main:0a64e398ec6b",
-      "skill_count": 19,
-      "synced_at": "2026-08-19T04:38:14.767743+00:00",
       "skipped": true
     },
+    "anthropics-skills": {
+      "fingerprint": "anthropics/skills@main:3b3fad96af16",
+      "skill_count": 19,
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
+      "skipped": false
+    },
     "community-repos": {
-      "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-07-24T15:13:07Z|NVIDIA/skills:2026-08-20T23:57:01Z|Orchestra-Research/AI-Research-SKILLs:2026-06-16T01:36:46Z|TerminalSkills/skills:2026-07-26T09:56:01Z|ajhcs/healthcare-agents:2026-07-19T20:53:19Z|alpacahq/alpaca-skills:2026-06-29T16:39:29Z|angular/skills:2026-08-19T20:57:04Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|arpitg1304/robotics-agent-skills:2026-08-12T01:29:38Z|bergside/awesome-design-skills:2026-06-28T10:05:22Z|coderabbitai/skills:2026-08-17T23:17:04Z|cypress-io/ai-toolkit:2026-08-19T21:16:56Z|deanpeters/Product-Manager-Skills:2026-08-13T17:15:43Z|gamedev-skills/awesome-gamedev-agent-skills:2026-08-11T05:49:04Z|google/skills:2026-08-20T22:12:28Z|ibelick/ui-skills:2026-08-20T17:06:12Z|machina-sports/sports-skills:2026-08-17T20:52:37Z|mattpocock/skills:2026-08-20T10:35:33Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-08-19T14:06:55Z|resend/resend-skills:2026-08-20T19:54:53Z|rudrankriyam/app-store-connect-cli-skills:2026-08-20T08:02:23Z|seb1n/awesome-ai-agent-skills:2026-08-09T22:29:16Z|snyk/agent-scan:2026-08-20T13:40:36Z|veniceai/skills:2026-07-29T21:18:21Z|video-db/skills:2026-07-25T04:49:04Z",
+      "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-07-24T15:13:07Z|NVIDIA/skills:2026-08-21T22:07:27Z|Orchestra-Research/AI-Research-SKILLs:2026-06-16T01:36:46Z|TerminalSkills/skills:2026-07-26T09:56:01Z|ajhcs/healthcare-agents:2026-07-19T20:53:19Z|alpacahq/alpaca-skills:2026-06-29T16:39:29Z|angular/skills:2026-08-21T19:46:13Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|arpitg1304/robotics-agent-skills:2026-08-12T01:29:38Z|bergside/awesome-design-skills:2026-06-28T10:05:22Z|coderabbitai/skills:2026-08-17T23:17:04Z|cypress-io/ai-toolkit:2026-08-19T21:16:56Z|deanpeters/Product-Manager-Skills:2026-08-13T17:15:43Z|gamedev-skills/awesome-gamedev-agent-skills:2026-08-11T05:49:04Z|google/skills:2026-08-21T20:38:11Z|ibelick/ui-skills:2026-08-20T17:06:12Z|machina-sports/sports-skills:2026-08-17T20:52:37Z|mattpocock/skills:2026-08-21T10:56:48Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-08-19T14:06:55Z|resend/resend-skills:2026-08-21T19:18:05Z|rudrankriyam/app-store-connect-cli-skills:2026-08-20T08:02:23Z|seb1n/awesome-ai-agent-skills:2026-08-09T22:29:16Z|snyk/agent-scan:2026-08-21T20:21:43Z|veniceai/skills:2026-07-29T21:18:21Z|video-db/skills:2026-07-25T04:49:04Z",
       "skill_count": 22,
-      "synced_at": "2026-08-21T04:40:13.557321+00:00",
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
       "skipped": false
     },
     "voltagent-awesome": {
-      "fingerprint": "VoltAgent/awesome-agent-skills@main:0a0b5fa2acd2",
-      "skill_count": 608,
-      "synced_at": "2026-08-21T04:40:13.557321+00:00",
+      "fingerprint": "VoltAgent/awesome-agent-skills@main:90566136ede9",
+      "skill_count": 612,
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
       "skipped": false
     },
     "vercel-agent-skills": {
-      "fingerprint": "vercel-labs/agent-skills@main:b8caa260a420",
+      "fingerprint": "vercel-labs/agent-skills@main:dd089a8c752c",
       "skill_count": 9,
-      "synced_at": "2026-08-14T03:15:43.630172+00:00",
-      "skipped": true
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
+      "skipped": false
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:120111:1787287065053:tencent-docs",
+      "fingerprint": "skillhub:120900:1787373220350:tencent-docs",
       "skill_count": 5000,
-      "synced_at": "2026-08-21T04:40:13.557321+00:00",
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
-      "fingerprint": "microsoft/vscode@main:07c20d96cf3f",
+      "fingerprint": "microsoft/vscode@main:9657ef29dc4f",
       "skill_count": 13,
-      "synced_at": "2026-08-21T04:40:13.557321+00:00",
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
       "skipped": false
     },
     "aws-agent-toolkit": {
       "fingerprint": "aws/agent-toolkit-for-aws@main:d6ad2e44d5e3",
       "skill_count": 101,
       "synced_at": "2026-08-21T04:40:13.557321+00:00",
-      "skipped": false
+      "skipped": true
     },
     "voltagent-awesome-claude": {
       "fingerprint": "VoltAgent/awesome-claude-skills@main:947656d84432",
@@ -151,15 +151,15 @@
       "skipped": false
     },
     "supabase-skills": {
-      "fingerprint": "supabase/supabase@master:da1a3ae9484e",
+      "fingerprint": "supabase/supabase@master:233cbdc8e5f2",
       "skill_count": 14,
-      "synced_at": "2026-08-21T04:40:13.557321+00:00",
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
       "skipped": false
     },
     "github-awesome-copilot": {
-      "fingerprint": "github/awesome-copilot@main:bbaa5872640e",
-      "skill_count": 426,
-      "synced_at": "2026-08-21T04:40:13.557321+00:00",
+      "fingerprint": "github/awesome-copilot@main:83561bd7d8a4",
+      "skill_count": 427,
+      "synced_at": "2026-08-22T04:34:13.164987+00:00",
       "skipped": false
     },
     "bytedance-deerflow": {
@@ -176,7 +176,7 @@
     }
   },
   "quality": {
-    "total": 11244,
+    "total": 11249,
     "score": {
       "avg": 41.2,
       "min": 15,
@@ -186,12 +186,12 @@
       "spread": 72
     },
     "coverage_pct": {
-      "has_description": 94.74,
+      "has_description": 94.77,
       "has_license": 2.51,
-      "traceable_to_repo": 55.53,
-      "confirmed_by_multiple_sources": 0.46,
-      "has_install_count": 44.78,
-      "has_stars": 79.14
+      "traceable_to_repo": 55.55,
+      "confirmed_by_multiple_sources": 0.44,
+      "has_install_count": 44.76,
+      "has_stars": 79.17
     },
     "source_health": {
       "skillhub-cn": {
@@ -209,14 +209,14 @@
         ]
       },
       "voltagent-awesome": {
-        "skills": 608,
+        "skills": 612,
         "status": "ok",
         "shards": [
           "voltagent-awesome.json"
         ]
       },
       "github-awesome-copilot": {
-        "skills": 426,
+        "skills": 427,
         "status": "ok",
         "shards": [
           "github-awesome-copilot.json"
@@ -301,8 +301,8 @@
       }
     },
     "dedup": {
-      "input_count": 11255,
-      "output_count": 11244,
+      "input_count": 11260,
+      "output_count": 11249,
       "removed_count": 11,
       "removed_by_location": 11,
       "removed_by_content": 0,
