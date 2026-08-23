@@ -92080,374 +92080,6 @@
       "score": 45
     },
     {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/adding-cli-command",
-      "spec": {
-        "name": "adding-cli-command",
-        "description": "Provides Typer templates, handles registration, and ensures consistency. ALWAYS use this skill when adding or modifying CLI commands. Use when user requests to add/create/implement/build/write a new command (e.g., \"add edit command\", \"create search feature\") OR update/modify/change/edit an existing command.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/adding-cli-command",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/adding-cli-command",
-        "last_synced": "2026-08-14T02:36:23.552153Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "adding",
-        "cli",
-        "command"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/analyzing-marketing-campaign",
-      "spec": {
-        "name": "analyzing-marketing-campaign",
-        "description": "Analyze weekly marketing campaign performance data across channels. Use when analyzing multi-channel digital marketing data to calculate funnel metrics (CTR, CVR) and compare to benchmarks, compute cost and revenue efficiency metrics (ROAS, CPA, Net Profit), or get budget reallocation recommendations  based on performance rules.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/analyzing-marketing-campaign",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/analyzing-marketing-campaign",
-        "last_synced": "2026-08-14T02:36:23.552237Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "analyzing",
-        "campaign",
-        "marketing"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/analyzing-time-series",
-      "spec": {
-        "name": "analyzing-time-series",
-        "description": "Comprehensive diagnostic analysis of time series data. Use when users provide CSV time series data and want to understand its characteristics before forecasting - stationarity, seasonality, trend, forecastability, and transform recommendations.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/analyzing-time-series",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/analyzing-time-series",
-        "last_synced": "2026-08-14T02:36:23.552324Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "analyzing",
-        "series",
-        "time"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/craftedwell-brand",
-      "spec": {
-        "name": "craftedwell-brand",
-        "description": "CraftedWell brand guidelines for presentations and documents. Use this skill whenever creating or styling documents (docx, pdf) or presentations (pptx) for CraftedWell. Apply warm, artisanal aesthetic with chocolate/caramel color palette, Georgia headings, and Arial body text.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/craftedwell-brand",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/craftedwell-brand",
-        "last_synced": "2026-08-14T02:36:23.552397Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "brand",
-        "craftedwell",
-        "pdf",
-        "pptx"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/generating-cli-tests",
-      "spec": {
-        "name": "generating-cli-tests",
-        "description": "Generate pytest tests for Typer CLI commands. Includes fixtures (temp_storage, sample_data), CliRunner patterns, confirmation handling (y/n/--force), and edge case coverage. Use when user asks to \"write tests for\", \"test my CLI\", \"add test coverage\", or any CLI + test request.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/generating-cli-tests",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/generating-cli-tests",
-        "last_synced": "2026-08-14T02:36:23.552472Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "generating",
-        "tests"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/generating-practice-questions",
-      "spec": {
-        "name": "generating-practice-questions",
-        "description": "Generate educational practice questions from lecture notes to test student understanding. Use when users request practice questions, exam preparation materials, study guides, or assessment items based on lecture content.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/generating-practice-questions",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/generating-practice-questions",
-        "last_synced": "2026-08-14T02:36:23.552553Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "generating",
-        "practice",
-        "questions"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/learning-a-tool",
-      "spec": {
-        "name": "learning-a-tool",
-        "description": "Create learning paths for programming tools, and define what information should be researched to create learning guides. Use when user asks to learn, understand, or get started with any programming tool, library, or framework.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/learning-a-tool",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/learning-a-tool",
-        "last_synced": "2026-08-14T02:36:23.552626Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "learning",
-        "tool"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/reviewing-cli-command",
-      "spec": {
-        "name": "reviewing-cli-command",
-        "description": "Provides checklist for reviewing Typer CLI command implementations. Covers structure, Annotated syntax, error handling, exit codes, display module usage, destructive action patterns, and help text conventions. Use when user asks to review/check/verify a CLI command, wants feedback on implementation, or asks if a command follows best practices.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
-        "source_path": "skills/reviewing-cli-command",
-        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/reviewing-cli-command",
-        "last_synced": "2026-08-14T02:36:23.552695Z",
-        "upstream_commit": "",
-        "repo": "https-deeplearning-ai/sc-agent-skills-files",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1118,
-        "last_commit_date": "2026-02-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "command",
-        "reviewing"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "BankrBot/skills/0xwork",
       "spec": {
         "name": "0xwork",
@@ -120600,6 +120232,374 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/adding-cli-command",
+      "spec": {
+        "name": "adding-cli-command",
+        "description": "Provides Typer templates, handles registration, and ensures consistency. ALWAYS use this skill when adding or modifying CLI commands. Use when user requests to add/create/implement/build/write a new command (e.g., \"add edit command\", \"create search feature\") OR update/modify/change/edit an existing command.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/adding-cli-command",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/adding-cli-command",
+        "last_synced": "2026-08-14T02:36:23.552153Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "adding",
+        "cli",
+        "command"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/analyzing-marketing-campaign",
+      "spec": {
+        "name": "analyzing-marketing-campaign",
+        "description": "Analyze weekly marketing campaign performance data across channels. Use when analyzing multi-channel digital marketing data to calculate funnel metrics (CTR, CVR) and compare to benchmarks, compute cost and revenue efficiency metrics (ROAS, CPA, Net Profit), or get budget reallocation recommendations  based on performance rules.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/analyzing-marketing-campaign",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/analyzing-marketing-campaign",
+        "last_synced": "2026-08-14T02:36:23.552237Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "analyzing",
+        "campaign",
+        "marketing"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/analyzing-time-series",
+      "spec": {
+        "name": "analyzing-time-series",
+        "description": "Comprehensive diagnostic analysis of time series data. Use when users provide CSV time series data and want to understand its characteristics before forecasting - stationarity, seasonality, trend, forecastability, and transform recommendations.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/analyzing-time-series",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/analyzing-time-series",
+        "last_synced": "2026-08-14T02:36:23.552324Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analyzing",
+        "series",
+        "time"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/craftedwell-brand",
+      "spec": {
+        "name": "craftedwell-brand",
+        "description": "CraftedWell brand guidelines for presentations and documents. Use this skill whenever creating or styling documents (docx, pdf) or presentations (pptx) for CraftedWell. Apply warm, artisanal aesthetic with chocolate/caramel color palette, Georgia headings, and Arial body text.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/craftedwell-brand",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/craftedwell-brand",
+        "last_synced": "2026-08-14T02:36:23.552397Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "brand",
+        "craftedwell",
+        "pdf",
+        "pptx"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/generating-cli-tests",
+      "spec": {
+        "name": "generating-cli-tests",
+        "description": "Generate pytest tests for Typer CLI commands. Includes fixtures (temp_storage, sample_data), CliRunner patterns, confirmation handling (y/n/--force), and edge case coverage. Use when user asks to \"write tests for\", \"test my CLI\", \"add test coverage\", or any CLI + test request.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/generating-cli-tests",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/generating-cli-tests",
+        "last_synced": "2026-08-14T02:36:23.552472Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "generating",
+        "tests"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/generating-practice-questions",
+      "spec": {
+        "name": "generating-practice-questions",
+        "description": "Generate educational practice questions from lecture notes to test student understanding. Use when users request practice questions, exam preparation materials, study guides, or assessment items based on lecture content.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/generating-practice-questions",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/generating-practice-questions",
+        "last_synced": "2026-08-14T02:36:23.552553Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "education",
+      "tags": [
+        "generating",
+        "practice",
+        "questions"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/learning-a-tool",
+      "spec": {
+        "name": "learning-a-tool",
+        "description": "Create learning paths for programming tools, and define what information should be researched to create learning guides. Use when user asks to learn, understand, or get started with any programming tool, library, or framework.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/learning-a-tool",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/learning-a-tool",
+        "last_synced": "2026-08-14T02:36:23.552626Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "learning",
+        "tool"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "https-deeplearning-ai/sc-agent-skills-files/reviewing-cli-command",
+      "spec": {
+        "name": "reviewing-cli-command",
+        "description": "Provides checklist for reviewing Typer CLI command implementations. Covers structure, Annotated syntax, error handling, exit codes, display module usage, destructive action patterns, and help text conventions. Use when user asks to review/check/verify a CLI command, wants feedback on implementation, or asks if a command follows best practices.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files",
+        "source_path": "skills/reviewing-cli-command",
+        "install_url": "https://github.com/https-deeplearning-ai/sc-agent-skills-files/tree/main/skills/reviewing-cli-command",
+        "last_synced": "2026-08-14T02:36:23.552695Z",
+        "upstream_commit": "",
+        "repo": "https-deeplearning-ai/sc-agent-skills-files",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1118,
+        "last_commit_date": "2026-02-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "command",
+        "reviewing"
+      ],
+      "score": 44
     },
     {
       "skill_id": "vercel-labs/next-skills/next-cache-components",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-08-22T04:34:12.974216+00:00"
+  "generated_at": "2026-08-23T04:38:01.128517+00:00"
 }

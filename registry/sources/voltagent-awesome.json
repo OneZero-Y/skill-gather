@@ -25,7 +25,7 @@
         ]
       },
       "signals": {
-        "repo_stars": 229870,
+        "repo_stars": 232400,
         "last_commit_date": "2026-08-21",
         "has_scripts": false,
         "has_references": false,
@@ -117,8 +117,8 @@
         ]
       },
       "signals": {
-        "repo_stars": 7367,
-        "last_commit_date": "2026-08-20",
+        "repo_stars": 7467,
+        "last_commit_date": "2026-08-22",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -164,7 +164,7 @@
         ]
       },
       "signals": {
-        "repo_stars": 357,
+        "repo_stars": 359,
         "last_commit_date": "2026-07-24",
         "has_scripts": false,
         "has_references": false,
@@ -28144,5 +28144,5 @@
     }
   ],
   "total": 612,
-  "generated_at": "2026-08-22T04:34:12.763853+00:00"
+  "generated_at": "2026-08-23T04:38:00.907260+00:00"
 }
