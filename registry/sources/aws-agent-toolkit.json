@@ -19,13 +19,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/amazon-bedrock",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/amazon-bedrock",
-        "last_synced": "2026-08-26T04:42:39.572305Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.864450Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -69,13 +69,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-ai-ml",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-ai-ml",
-        "last_synced": "2026-08-26T04:42:39.573119Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.864628Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -115,13 +115,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-observability",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-observability",
-        "last_synced": "2026-08-26T04:42:39.575625Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.866532Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -162,13 +162,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/launch-with-aws",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/launch-with-aws",
-        "last_synced": "2026-08-26T04:42:39.576624Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.867385Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -211,13 +211,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/managing-amazon-msk",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/managing-amazon-msk",
-        "last_synced": "2026-08-26T04:42:39.578006Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.868511Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -258,13 +258,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/migrate-to-msk",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/migrate-to-msk",
-        "last_synced": "2026-08-26T04:42:39.578243Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.868711Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -305,13 +305,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/amazon-aurora-mysql",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-aurora-mysql",
-        "last_synced": "2026-08-26T04:42:39.579031Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.869434Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -351,13 +351,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/amazon-aurora-postgresql",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-aurora-postgresql",
-        "last_synced": "2026-08-26T04:42:39.579169Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.869550Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -397,13 +397,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/amazon-documentdb",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-documentdb",
-        "last_synced": "2026-08-26T04:42:39.579308Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.869669Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -444,13 +444,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/amazon-dynamodb",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-dynamodb",
-        "last_synced": "2026-08-26T04:42:39.579512Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.869845Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -489,13 +489,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/amazon-elasticache",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-elasticache",
-        "last_synced": "2026-08-26T04:42:39.579745Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870039Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -538,13 +538,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/amazon-keyspaces",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-keyspaces",
-        "last_synced": "2026-08-26T04:42:39.579949Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870216Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -583,13 +583,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/aurora-dsql",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/aurora-dsql",
-        "last_synced": "2026-08-26T04:42:39.580074Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870324Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -628,13 +628,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/rds-db2",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-db2",
-        "last_synced": "2026-08-26T04:42:39.580516Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870642Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -673,13 +673,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/rds-oracle",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-oracle",
-        "last_synced": "2026-08-26T04:42:39.580660Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870752Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -720,13 +720,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/rds-oss",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-oss",
-        "last_synced": "2026-08-26T04:42:39.580831Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870903Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -765,13 +765,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/timestream-influxdb",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/timestream-influxdb",
-        "last_synced": "2026-08-26T04:42:39.581184Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871225Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -811,13 +811,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/processing-s3-uploads-with-step-functions",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/processing-s3-uploads-with-step-functions",
-        "last_synced": "2026-08-26T04:42:39.586815Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877652Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -858,13 +858,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/deploying-custom-domain-rest-api",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/deploying-custom-domain-rest-api",
-        "last_synced": "2026-08-26T04:42:39.586696Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877551Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -893,6 +893,54 @@
       "score": 68
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/aws-auth",
+      "spec": {
+        "name": "aws-auth",
+        "description": "Adds user authentication to web and mobile apps with Amazon Cognito (user pools and identity pools) and the AWS Amplify client auth libraries. Covers sign-up/sign-in flows and the login page (Cognito-hosted UI / managed login), MFA, password policies, OAuth 2.0 / OIDC flows (auth-code + PKCE, client credentials), social/SAML federation, tokens (ID/access/refresh, rotation, revocation, storage), Cognito Lambda triggers, identity pools (temp AWS creds), and gating API Gateway (or ALB) routes to signed-in users via Cognito/JWT authorizers. Applies when adding a login or sign-up page, configuring a user pool or app client, choosing user pool vs identity pool, wiring social/SAML, refreshing tokens, requiring sign-in on an API Gateway or ALB, or debugging redirect_uri/token/MFA/CORS/federation errors. Does NOT cover Amplify Gen2 backend definitions (defineAuth, npx ampx → aws-amplify), IAM/STS/Identity Center (→ aws-iam), or API Gateway/Lambda resource config beyond the authorizer (→ aws-serverless).",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/core-skills/aws-auth",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-auth",
+        "last_synced": "2026-08-27T15:03:06.864796Z",
+        "upstream_commit": "53a736826aa5",
+        "repo": "aws/agent-toolkit-for-aws",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2444,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "auth",
+        "aws"
+      ],
+      "score": 66
+    },
+    {
       "skill_id": "aws/agent-toolkit-for-aws/aws-billing-and-cost-management",
       "spec": {
         "name": "aws-billing-and-cost-management",
@@ -910,13 +958,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-billing-and-cost-management",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-billing-and-cost-management",
-        "last_synced": "2026-08-26T04:42:39.573811Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865017Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -959,13 +1007,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-cdk",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-cdk",
-        "last_synced": "2026-08-26T04:42:39.574099Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865256Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1008,13 +1056,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-cloudformation",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-cloudformation",
-        "last_synced": "2026-08-26T04:42:39.574208Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865346Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1041,11 +1089,11 @@
       "skill_id": "aws/agent-toolkit-for-aws/aws-compute",
       "spec": {
         "name": "aws-compute",
-        "description": "Provisions, scales, and operates Amazon EC2 virtual-machine workloads: instance-type selection (Graviton/Arm64, burstable T credits, GPU, instance store vs EBS), launch templates, Auto Scaling groups (scaling policies, instance refresh, mixed instances, Spot, warm pools, lifecycle hooks), IMDSv2, placement groups, Elastic IPs, AMI lifecycle, and Systems Manager fleet operations (Session Manager, Run Command, Patch Manager). Applies to EC2 instance and fleet questions, InsufficientInstanceCapacity, CPU-credit/surplus charges, IMDSv2 401s, instances stuck in Pending:Wait, ASG not replacing unhealthy instances, status-check failures, SSH refused/timed out, or instances missing as SSM managed nodes. For a single secure instance launch, the launching-ec2-instance-with-best-practices skill is more appropriate; for instance profiles, see setting-up-ec2-instance-profiles; for Image Builder, see creating-ec2-image-builder-pipeline. Does NOT cover Lambda, ECS/Fargate, EKS, VPC/ALB/NLB design, or IAM policy authoring.",
+        "description": "Provisions, scales, and operates Amazon EC2 virtual-machine workloads: instance-type selection (Graviton/Arm64, burstable T credits, GPU, instance store vs EBS), launch templates, Auto Scaling groups (scaling policies, instance refresh, mixed instances, Spot, warm pools, lifecycle hooks), IMDSv2, placement groups, Elastic IPs, AMI lifecycle, and Systems Manager fleet operations (Session Manager, Run Command, Patch Manager). Applies to EC2 instance and fleet questions, InsufficientInstanceCapacity, CPU-credit/surplus charges, IMDSv2 401s, instances stuck in Pending:Wait, ASG not replacing unhealthy instances, status-check failures, SSH refused/timed out, or instances missing as SSM managed nodes. For a single secure instance launch, the launching-ec2-instance-with-best-practices skill is more appropriate; for instance profiles, see setting-up-ec2-instance-profiles; for Image Builder, see amazon-ec2-image-builder. Does NOT cover Lambda, ECS/Fargate, EKS, VPC/ALB/NLB design, or IAM policy authoring.",
         "license": "",
         "compatibility": null,
         "metadata": {
-          "version": "1"
+          "version": "2"
         },
         "allowed_tools": null
       },
@@ -1055,13 +1103,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-compute",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-compute",
-        "last_synced": "2026-08-26T04:42:39.574301Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865424Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1077,7 +1125,7 @@
         "codex": false,
         "universal": true
       },
-      "category": "devops",
+      "category": "creative",
       "tags": [
         "aws",
         "compute"
@@ -1102,13 +1150,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-containers",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-containers",
-        "last_synced": "2026-08-26T04:42:39.574504Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865600Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1150,13 +1198,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-database",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-database",
-        "last_synced": "2026-08-26T04:42:39.574682Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865723Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1197,13 +1245,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-deployment",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-deployment",
-        "last_synced": "2026-08-26T04:42:39.574860Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865870Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1233,11 +1281,11 @@
       "skill_id": "aws/agent-toolkit-for-aws/aws-iam",
       "spec": {
         "name": "aws-iam",
-        "description": "Verified corrections for IAM behaviors that AI agents frequently get wrong — policy evaluation edge cases, trust policy gotchas, STS session limits, Organizations quirks, and SAML/MFA specifics. Also provides structured workflows for IAM role management and least-privilege policy generation. Covers condition operator safety (ForAnyValue/ForAllValues with Null checks for absent keys), bucket policy deny patterns (VPC endpoint restrictions, org path conditions), resource-based policy confused deputy protection, and service role creation for AWS services (Glue, CloudTrail, VPC Flow Logs, Firehose, DataSync, S3 replication, Lambda, Step Functions, ECS, etc.) including trust policies with aws:SourceAccount/aws:SourceArn conditions. Applies when creating or configuring IAM roles, writing IAM or bucket policies, working with STS, Organizations, condition operators, or any task requiring an IAM service role or execution role. Does not cover non-IAM authorization like Cognito user-pool policies or app-level RBAC.",
+        "description": "Provides verified corrections for IAM behaviors that AI agents frequently get wrong — policy evaluation edge cases, trust policy gotchas, STS session limits, Organizations quirks, and SAML/MFA specifics. Also provides structured workflows for IAM role management and baseline policy generation from application source code or a Terraform plan JSON. Covers condition operator safety (ForAnyValue/ForAllValues with Null checks), bucket policy deny patterns (VPC endpoint restrictions, org paths), confused deputy protection, and service role creation for AWS services (Glue, CloudTrail, Lambda, ECS, etc.) with aws:SourceAccount/aws:SourceArn trust conditions. Applies when creating IAM roles, writing IAM or bucket policies, generating policies from application source code or a Terraform plan JSON, working with STS, Organizations, or condition operators, or any task needing a service or execution role. Does not cover non-IAM authorization like Cognito user-pool policies or app-level RBAC.",
         "license": "",
         "compatibility": null,
         "metadata": {
-          "version": "1"
+          "version": "2"
         },
         "allowed_tools": null
       },
@@ -1247,13 +1295,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-iam",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-iam",
-        "last_synced": "2026-08-26T04:42:39.575022Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.866020Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1272,15 +1320,16 @@
       "category": "devops",
       "tags": [
         "aws",
-        "iam"
+        "iam",
+        "terraform"
       ],
       "score": 66
     },
     {
-      "skill_id": "aws/agent-toolkit-for-aws/aws-serverless",
+      "skill_id": "aws/agent-toolkit-for-aws/aws-security",
       "spec": {
-        "name": "aws-serverless",
-        "description": "Builds, deploys, manages, debugs, configures, and optimizes serverless applications on AWS using Lambda, API Gateway, Step Functions, EventBridge, and SAM/CDK. Covers cold starts, CORS debugging, event source mappings, troubleshooting, concurrency, SnapStart, Powertools, function URLs, EventBridge Scheduler, Lambda layers, and production readiness. Triggers on mentions of Lambda, API Gateway, Step Functions, SAM templates, CDK serverless stacks, DynamoDB stream triggers, SQS event sources, cold starts, timeouts, 502/504 errors, throttling, concurrency, CORS, Powertools, or any event-driven architecture on AWS, even without the word \"serverless.\" Does not apply to EC2, ECS/Fargate containers, or Amplify hosting.",
+        "name": "aws-security",
+        "description": "Covers AWS security services and workflows — Security Hub V2 (OCSF) findings, connectors, aggregators, automation rules, and security posture summaries; Security Hub CSPM (V1/ASFF) controls and compliance standards; GuardDuty threat findings; Inspector vulnerability findings; Macie sensitive data findings; Detective investigation; and Security Lake configuration and data aggregation. Applicable when questions involve security posture, Exposure findings, CSPM failed controls, threat findings, vulnerability findings, sensitive data findings, automation rules, or cross-service security configuration across AWS environments. Procedures use standard AWS CLI syntax and work with or without the AWS MCP server.",
         "license": "",
         "compatibility": null,
         "metadata": {
@@ -1292,15 +1341,64 @@
         "source_id": "aws-agent-toolkit",
         "source_type": "github_repo",
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
-        "source_path": "skills/core-skills/aws-serverless",
-        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-serverless",
-        "last_synced": "2026-08-26T04:42:39.576262Z",
-        "upstream_commit": "2fcec193b56f",
+        "source_path": "skills/core-skills/aws-security",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-security",
+        "last_synced": "2026-08-27T15:03:06.866921Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 25,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "aws",
+        "cli",
+        "mcp",
+        "security"
+      ],
+      "score": 66
+    },
+    {
+      "skill_id": "aws/agent-toolkit-for-aws/aws-serverless",
+      "spec": {
+        "name": "aws-serverless",
+        "description": "Builds, deploys, manages, debugs, configures, and optimizes serverless applications on AWS using Lambda, API Gateway, Step Functions, EventBridge, and SAM/CDK. Covers cold starts, CORS debugging, event source mappings, troubleshooting, concurrency, SnapStart, Powertools, function URLs, EventBridge Scheduler, Lambda layers, and production readiness. Triggers on mentions of Lambda, API Gateway, Step Functions, SAM templates, CDK serverless stacks, DynamoDB stream triggers, SQS event sources, cold starts, timeouts, 502/504 errors, throttling, concurrency, CORS, Powertools, or any event-driven architecture on AWS, even without the word \"serverless.\" Does not apply to EC2, ECS/Fargate containers, or Amplify hosting.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "2"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/core-skills/aws-serverless",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-serverless",
+        "last_synced": "2026-08-27T15:03:06.867083Z",
+        "upstream_commit": "53a736826aa5",
+        "repo": "aws/agent-toolkit-for-aws",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1342,13 +1440,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-storage",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-storage",
-        "last_synced": "2026-08-26T04:42:39.576414Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.867215Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1389,13 +1487,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/amazon-opensearch-service",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/amazon-opensearch-service",
-        "last_synced": "2026-08-26T04:42:39.576895Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.867611Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1439,13 +1537,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/connecting-to-data-source",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/connecting-to-data-source",
-        "last_synced": "2026-08-26T04:42:39.577194Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.867864Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1489,13 +1587,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/ingesting-into-data-lake",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/ingesting-into-data-lake",
-        "last_synced": "2026-08-26T04:42:39.577807Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.868343Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1522,6 +1620,55 @@
       "score": 66
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/redshift-guide",
+      "spec": {
+        "name": "redshift-guide",
+        "description": "Amazon Redshift is NOT PostgreSQL — corrects PostgreSQL-derived LLM mistakes; covers Redshift-specific SQL, DDL, COPY/UNLOAD, system views, metadata discovery, and operational patterns. Applies ONLY when the task is about Redshift itself (cluster, Serverless workgroup, or Redshift SQL). Pushes back on: CREATE INDEX, string_agg, pg_catalog, text type, SERIAL, stl_query, LATERAL, RETURNING. Triggers on: Redshift SQL, Redshift CREATE TABLE, Redshift COPY/UNLOAD, slow Redshift query, Redshift permission denied, Redshift disk full, Redshift system views, QUALIFY, PIVOT, MERGE, Redshift Data API, Redshift WLM, concurrency scaling, Redshift resize, Redshift Spectrum external tables. Does NOT apply to (defer to that service's own skill): Amazon S3 storage/bucket policies, Athena or Glue queries/catalogs, data-lake or Iceberg work outside Redshift, Aurora, RDS, or DynamoDB — but S3/Glue ARE in scope for Redshift COPY, UNLOAD, or data-lake queries (external schemas/tables on S3).",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/analytics-skills/redshift-guide",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide",
+        "last_synced": "2026-08-27T15:03:06.869237Z",
+        "upstream_commit": "53a736826aa5",
+        "repo": "aws/agent-toolkit-for-aws",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2444,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 9,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "api",
+        "guide",
+        "llm",
+        "redshift"
+      ],
+      "score": 66
+    },
+    {
       "skill_id": "aws/agent-toolkit-for-aws/aws-transform",
       "spec": {
         "name": "aws-transform",
@@ -1540,13 +1687,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/migration-and-modernization-skills/aws-transform",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/migration-and-modernization-skills/aws-transform",
-        "last_synced": "2026-08-26T04:42:39.581894Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871833Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1591,13 +1738,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/quantum-computing-skills/amazon-braket",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/quantum-computing-skills/amazon-braket",
-        "last_synced": "2026-08-26T04:42:39.584264Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873860Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1640,13 +1787,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/storage-skills/creating-data-lake-table",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/creating-data-lake-table",
-        "last_synced": "2026-08-26T04:42:39.586938Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877758Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1673,52 +1820,6 @@
       "score": 66
     },
     {
-      "skill_id": "aws/agent-toolkit-for-aws/aws-auth",
-      "spec": {
-        "name": "aws-auth",
-        "description": "Adds user authentication to web and mobile apps with Amazon Cognito (user pools and identity pools) and the AWS Amplify client auth libraries. Covers sign-up/sign-in flows and the login page (Cognito-hosted UI / managed login), MFA, password policies, OAuth 2.0 / OIDC flows (auth-code + PKCE, client credentials), social/SAML federation, tokens (ID/access/refresh, rotation, revocation, storage), Cognito Lambda triggers, identity pools (temp AWS creds), and gating API Gateway (or ALB) routes to signed-in users via Cognito/JWT authorizers. Applies when adding a login or sign-up page, configuring a user pool or app client, choosing user pool vs identity pool, wiring social/SAML, refreshing tokens, requiring sign-in on an API Gateway or ALB, or debugging redirect_uri/token/MFA/CORS/federation errors. Does NOT cover Amplify Gen2 backend definitions (defineAuth, npx ampx → aws-amplify), IAM/STS/Identity Center (→ aws-iam), or API Gateway/Lambda resource config beyond the authorizer (→ aws-serverless).",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "aws-agent-toolkit",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
-        "source_path": "skills/core-skills/aws-auth",
-        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-auth",
-        "last_synced": "2026-08-26T04:42:39.573434Z",
-        "upstream_commit": "2fcec193b56f",
-        "repo": "aws/agent-toolkit-for-aws",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2432,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 11,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "auth",
-        "aws"
-      ],
-      "score": 65
-    },
-    {
       "skill_id": "aws/agent-toolkit-for-aws/aws-sdk-js-v3-usage",
       "spec": {
         "name": "aws-sdk-js-v3-usage",
@@ -1734,13 +1835,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-sdk-js-v3-usage",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-js-v3-usage",
-        "last_synced": "2026-08-26T04:42:39.575820Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.866697Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1782,13 +1883,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-sdk-python-usage",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-python-usage",
-        "last_synced": "2026-08-26T04:42:39.575904Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.866767Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1814,53 +1915,6 @@
       "score": 65
     },
     {
-      "skill_id": "aws/agent-toolkit-for-aws/aws-security",
-      "spec": {
-        "name": "aws-security",
-        "description": "Covers AWS security services and workflows — Security Hub V2 (OCSF) findings, connectors, aggregators, automation rules, and security posture summaries; Security Hub CSPM (V1/ASFF) controls and compliance standards; GuardDuty threat findings; Inspector vulnerability findings; Macie sensitive data findings; Detective investigation; and Security Lake configuration and data aggregation. Applicable when questions involve security posture, Exposure findings, CSPM failed controls, threat findings, vulnerability findings, sensitive data findings, automation rules, or cross-service security configuration across AWS environments. Procedures use standard AWS CLI syntax and work with or without the AWS MCP server.",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "aws-agent-toolkit",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
-        "source_path": "skills/core-skills/aws-security",
-        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-security",
-        "last_synced": "2026-08-26T04:42:39.576086Z",
-        "upstream_commit": "2fcec193b56f",
-        "repo": "aws/agent-toolkit-for-aws",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2432,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 25,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "aws",
-        "cli",
-        "mcp",
-        "security"
-      ],
-      "score": 65
-    },
-    {
       "skill_id": "aws/agent-toolkit-for-aws/developing-applications-on-managed-service-for-apache-flink",
       "spec": {
         "name": "developing-applications-on-managed-service-for-apache-flink",
@@ -1876,13 +1930,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/developing-applications-on-managed-service-for-apache-flink",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/developing-applications-on-managed-service-for-apache-flink",
-        "last_synced": "2026-08-26T04:42:39.577361Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.868010Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1927,13 +1981,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/migrating-to-amazon-redshift",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/migrating-to-amazon-redshift",
-        "last_synced": "2026-08-26T04:42:39.578434Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.868871Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -1958,53 +2012,6 @@
       "score": 65
     },
     {
-      "skill_id": "aws/agent-toolkit-for-aws/redshift-guide",
-      "spec": {
-        "name": "redshift-guide",
-        "description": "Amazon Redshift is NOT PostgreSQL — corrects PostgreSQL-derived LLM mistakes; covers Redshift-specific SQL, DDL, COPY/UNLOAD, system views, metadata discovery, and operational patterns. Applies ONLY when the task is about Redshift itself (cluster, Serverless workgroup, or Redshift SQL). Pushes back on: CREATE INDEX, string_agg, pg_catalog, text type, SERIAL, stl_query, LATERAL, RETURNING. Triggers on: Redshift SQL, Redshift CREATE TABLE, Redshift COPY/UNLOAD, slow Redshift query, Redshift permission denied, Redshift disk full, Redshift system views, QUALIFY, PIVOT, MERGE, Redshift Data API, Redshift WLM, concurrency scaling, Redshift resize, Redshift Spectrum external tables. Does NOT apply to (defer to that service's own skill): Amazon S3 storage/bucket policies, Athena or Glue queries/catalogs, data-lake or Iceberg work outside Redshift, Aurora, RDS, or DynamoDB — but S3/Glue ARE in scope for Redshift COPY, UNLOAD, or data-lake queries (external schemas/tables on S3).",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "aws-agent-toolkit",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
-        "source_path": "skills/specialized-skills/analytics-skills/redshift-guide",
-        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide",
-        "last_synced": "2026-08-26T04:42:39.578805Z",
-        "upstream_commit": "2fcec193b56f",
-        "repo": "aws/agent-toolkit-for-aws",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2432,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 9,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "api",
-        "guide",
-        "llm",
-        "redshift"
-      ],
-      "score": 65
-    },
-    {
       "skill_id": "aws/agent-toolkit-for-aws/rds-sqlserver",
       "spec": {
         "name": "rds-sqlserver",
@@ -2020,13 +2027,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/rds-sqlserver",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-sqlserver",
-        "last_synced": "2026-08-26T04:42:39.581019Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871081Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2052,6 +2059,53 @@
       "score": 65
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/amazon-ec2-image-builder",
+      "spec": {
+        "name": "amazon-ec2-image-builder",
+        "description": "Creates and automates custom image builds with EC2 Image Builder - Linux, Windows, and macOS AMIs, and container images to ECR. Covers the build IAM role, Amazon-managed and custom components, image recipes, infrastructure and distribution configuration (launch templates, SSM parameters, other Regions), one-off builds, recurring scheduled pipelines for golden AMI automation and OS patching, custom image workflows, and diagnosing failed builds. Applies when creating, automating, or scheduling AMI or container image builds with Image Builder, or when debugging a failed build. Not for launching instances from existing AMIs, AMI lifecycle/retirement, or general EC2 fleet management.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/specialized-skills/ec2-skills/amazon-ec2-image-builder",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/amazon-ec2-image-builder",
+        "last_synced": "2026-08-27T15:03:06.871328Z",
+        "upstream_commit": "53a736826aa5",
+        "repo": "aws/agent-toolkit-for-aws",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2444,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": true,
+        "file_count": 7,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "amazon",
+        "builder",
+        "ec2",
+        "image"
+      ],
+      "score": 65
+    },
+    {
       "skill_id": "aws/agent-toolkit-for-aws/aws-social-messaging",
       "spec": {
         "name": "aws-social-messaging",
@@ -2067,13 +2121,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/messaging-and-streaming-skills/aws-social-messaging",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/aws-social-messaging",
-        "last_synced": "2026-08-26T04:42:39.581774Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871735Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2113,13 +2167,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/migration-and-modernization-skills/dms-schema-conversion",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/migration-and-modernization-skills/dms-schema-conversion",
-        "last_synced": "2026-08-26T04:42:39.582007Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871928Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2160,13 +2214,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/cloudfront",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/cloudfront",
-        "last_synced": "2026-08-26T04:42:39.582115Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872032Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2205,13 +2259,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/directconnect",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/directconnect",
-        "last_synced": "2026-08-26T04:42:39.582631Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872456Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2250,13 +2304,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/route53",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/route53",
-        "last_synced": "2026-08-26T04:42:39.582911Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872695Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2294,13 +2348,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/shieldadvanced",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/shieldadvanced",
-        "last_synced": "2026-08-26T04:42:39.583127Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872881Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2339,13 +2393,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/sitetositevpn",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/sitetositevpn",
-        "last_synced": "2026-08-26T04:42:39.583320Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873063Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2384,13 +2438,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/transitgateway",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/transitgateway",
-        "last_synced": "2026-08-26T04:42:39.583499Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873220Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2429,13 +2483,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/waf",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/waf",
-        "last_synced": "2026-08-26T04:42:39.583699Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873386Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2475,13 +2529,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/operations-skills/aws-network-monitoring",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/aws-network-monitoring",
-        "last_synced": "2026-08-26T04:42:39.583890Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873551Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2521,13 +2575,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/resilience-skills/aws-resilience-lifecycle",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/aws-resilience-lifecycle",
-        "last_synced": "2026-08-26T04:42:39.584491Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.874055Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2567,13 +2621,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/aws-lambda-durable-functions",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-durable-functions",
-        "last_synced": "2026-08-26T04:42:39.585521Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.876584Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2615,13 +2669,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/aws-lambda-managed-instances",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-managed-instances",
-        "last_synced": "2026-08-26T04:42:39.585707Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.876736Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2662,13 +2716,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/aws-lambda-microvms",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-microvms",
-        "last_synced": "2026-08-26T04:42:39.585853Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.876861Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2708,13 +2762,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/aws-step-functions",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-step-functions",
-        "last_synced": "2026-08-26T04:42:39.586123Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877065Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2755,13 +2809,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/storage-skills/securing-s3-buckets",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/securing-s3-buckets",
-        "last_synced": "2026-08-26T04:42:39.587080Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877885Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2801,13 +2855,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/system-table-skills/querying-aws-redshift",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-redshift",
-        "last_synced": "2026-08-26T04:42:39.587667Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.878382Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2847,13 +2901,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/web-and-mobile-development/aws-amplify",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/web-and-mobile-development/aws-amplify",
-        "last_synced": "2026-08-26T04:42:39.588150Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.878814Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2901,13 +2955,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/exploring-data-catalog",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/exploring-data-catalog",
-        "last_synced": "2026-08-26T04:42:39.577520Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.868148Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -2951,13 +3005,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/finding-data-lake-assets",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/finding-data-lake-assets",
-        "last_synced": "2026-08-26T04:42:39.577678Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.868242Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3001,13 +3055,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/querying-data-lake",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/querying-data-lake",
-        "last_synced": "2026-08-26T04:42:39.578690Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.869080Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3049,13 +3103,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/storage-skills/storing-and-querying-vectors",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/storing-and-querying-vectors",
-        "last_synced": "2026-08-26T04:42:39.587185Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877974Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3097,13 +3151,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/analytics-skills/aws-cleanrooms",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/aws-cleanrooms",
-        "last_synced": "2026-08-26T04:42:39.577103Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.867790Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3142,13 +3196,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/creating-amazon-aurora-db-cluster-with-instances",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/creating-amazon-aurora-db-cluster-with-instances",
-        "last_synced": "2026-08-26T04:42:39.580257Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870479Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3190,13 +3244,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/database-skills/exporting-rds-to-s3",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/exporting-rds-to-s3",
-        "last_synced": "2026-08-26T04:42:39.580414Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.870557Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3220,54 +3274,6 @@
       "score": 62
     },
     {
-      "skill_id": "aws/agent-toolkit-for-aws/creating-ec2-image-builder-pipeline",
-      "spec": {
-        "name": "creating-ec2-image-builder-pipeline",
-        "description": "Creates a complete EC2 Image Builder pipeline that builds a custom AMI with pre-installed software, distributes it to target regions, executes the pipeline, and creates a launch template. Use when setting up automated AMI creation with IAM roles, build components, image recipes, and infrastructure configuration.",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "aws-agent-toolkit",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
-        "source_path": "skills/specialized-skills/ec2-skills/creating-ec2-image-builder-pipeline",
-        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/creating-ec2-image-builder-pipeline",
-        "last_synced": "2026-08-26T04:42:39.581303Z",
-        "upstream_commit": "2fcec193b56f",
-        "repo": "aws/agent-toolkit-for-aws",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2432,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": true,
-        "file_count": 3,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "builder",
-        "creating",
-        "ec2",
-        "image",
-        "pipeline"
-      ],
-      "score": 62
-    },
-    {
       "skill_id": "aws/agent-toolkit-for-aws/launching-ec2-instance-with-best-practices",
       "spec": {
         "name": "launching-ec2-instance-with-best-practices",
@@ -3283,13 +3289,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/ec2-skills/launching-ec2-instance-with-best-practices",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/launching-ec2-instance-with-best-practices",
-        "last_synced": "2026-08-26T04:42:39.581393Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871452Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3332,13 +3338,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/ec2-skills/setting-up-ec2-instance-profiles",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/setting-up-ec2-instance-profiles",
-        "last_synced": "2026-08-26T04:42:39.581485Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871529Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3380,13 +3386,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/messaging-and-streaming-skills/amazon-ses",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/amazon-ses",
-        "last_synced": "2026-08-26T04:42:39.581571Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.871599Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3425,13 +3431,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/configuring-vpc-endpoints-for-private-aws-service-access",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/configuring-vpc-endpoints-for-private-aws-service-access",
-        "last_synced": "2026-08-26T04:42:39.582310Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872202Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3475,13 +3481,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/connecting-vpcs-with-peering",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/connecting-vpcs-with-peering",
-        "last_synced": "2026-08-26T04:42:39.582409Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872285Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3521,13 +3527,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/creating-production-vpc-multi-az",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/creating-production-vpc-multi-az",
-        "last_synced": "2026-08-26T04:42:39.582521Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872378Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3569,13 +3575,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/enabling-lambda-vpc-internet-access",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/enabling-lambda-vpc-internet-access",
-        "last_synced": "2026-08-26T04:42:39.582828Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872625Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3618,13 +3624,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/networking-and-content-delivery-skills/routing-traffic-with-route53-and-cloudfront",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/routing-traffic-with-route53-and-cloudfront",
-        "last_synced": "2026-08-26T04:42:39.583048Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.872813Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3665,13 +3671,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/operations-skills/setting-up-cloudtrail-multi-region",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/setting-up-cloudtrail-multi-region",
-        "last_synced": "2026-08-26T04:42:39.583979Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873620Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3714,13 +3720,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/operations-skills/setting-up-cloudwatch-alarm-notifications",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/setting-up-cloudwatch-alarm-notifications",
-        "last_synced": "2026-08-26T04:42:39.584064Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873699Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3761,13 +3767,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/operations-skills/troubleshooting-application-failures",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/troubleshooting-application-failures",
-        "last_synced": "2026-08-26T04:42:39.584184Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873794Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3807,13 +3813,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/resilience-skills/arc-region-switch",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/arc-region-switch",
-        "last_synced": "2026-08-26T04:42:39.584394Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.873966Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3853,13 +3859,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/resilience-skills/recovery-controller-setup",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/recovery-controller-setup",
-        "last_synced": "2026-08-26T04:42:39.584724Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.875840Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3900,13 +3906,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/resilience-skills/resilience-hub-failure-mode-assessment",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-failure-mode-assessment",
-        "last_synced": "2026-08-26T04:42:39.584871Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.875977Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3949,13 +3955,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/resilience-skills/resilience-hub-getting-started",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-getting-started",
-        "last_synced": "2026-08-26T04:42:39.584999Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.876104Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -3997,13 +4003,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/resilience-skills/resilience-hub-multi-account",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-multi-account",
-        "last_synced": "2026-08-26T04:42:39.585151Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.876241Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -4045,13 +4051,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/security-and-identity-skills/creating-secrets-using-best-practices",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/security-and-identity-skills/creating-secrets-using-best-practices",
-        "last_synced": "2026-08-26T04:42:39.585408Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.876466Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -4094,13 +4100,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/connecting-lambda-to-api-gateway",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/connecting-lambda-to-api-gateway",
-        "last_synced": "2026-08-26T04:42:39.586307Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877234Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -4142,13 +4148,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/connecting-lambda-to-dynamodb",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/connecting-lambda-to-dynamodb",
-        "last_synced": "2026-08-26T04:42:39.586420Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877331Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -4189,13 +4195,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/creating-api-gateway-stage",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/creating-api-gateway-stage",
-        "last_synced": "2026-08-26T04:42:39.586507Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877404Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -4237,13 +4243,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/serverless-skills/debugging-lambda-timeouts",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/debugging-lambda-timeouts",
-        "last_synced": "2026-08-26T04:42:39.586586Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.877471Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -4286,13 +4292,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-messaging-and-streaming",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-messaging-and-streaming",
-        "last_synced": "2026-08-26T04:42:39.575256Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.866220Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4317,6 +4323,54 @@
       "score": 53
     },
     {
+      "skill_id": "aws/agent-toolkit-for-aws/aws-networking",
+      "spec": {
+        "name": "aws-networking",
+        "description": "Routes AWS networking requests to the correct service skill for implementation. Covers Route 53 (DNS, health checks, routing policies, Resolver, DNS Firewall), CloudFront (caching, edge, OAC, mTLS, signed URLs), Transit Gateway (multi-VPC hub, segmentation, centralized egress), Direct Connect (hybrid link, DX Gateway, MACsec), Site-to-Site VPN (IPsec tunnels, static or BGP), WAF (web ACLs, AWS Managed Rules, rate-based rules, Bot and Fraud Control), and Shield Advanced (L3/L4 DDoS). Applicable when creating, configuring, troubleshooting, or designing across these services, choosing between them, or diagnosing connectivity or traffic-filtering issues. Not for VPC subnets and route tables, load balancers, VPC endpoints, PrivateLink, API Gateway, IAM policy logic, container or serverless networking, or IaC authoring.",
+        "license": "",
+        "compatibility": null,
+        "metadata": {
+          "version": "1"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "aws-agent-toolkit",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
+        "source_path": "skills/core-skills/aws-networking",
+        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-networking",
+        "last_synced": "2026-08-27T15:03:06.866386Z",
+        "upstream_commit": "53a736826aa5",
+        "repo": "aws/agent-toolkit-for-aws",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2444,
+        "last_commit_date": null,
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 1,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": false,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "api",
+        "aws",
+        "networking"
+      ],
+      "score": 53
+    },
+    {
       "skill_id": "aws/agent-toolkit-for-aws/aws-blocks",
       "spec": {
         "name": "aws-blocks",
@@ -4332,13 +4386,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-blocks",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-blocks",
-        "last_synced": "2026-08-26T04:42:39.573950Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.865128Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4362,52 +4416,6 @@
       "score": 52
     },
     {
-      "skill_id": "aws/agent-toolkit-for-aws/aws-networking",
-      "spec": {
-        "name": "aws-networking",
-        "description": "Routes AWS networking requests to the correct service skill for implementation. Covers Route 53 (DNS, health checks, routing policies, Resolver, DNS Firewall), CloudFront (caching, edge, OAC, mTLS, signed URLs), Transit Gateway (multi-VPC hub, segmentation, centralized egress), Direct Connect (hybrid link, DX Gateway, MACsec), Site-to-Site VPN (IPsec tunnels, static or BGP), WAF (web ACLs, AWS Managed Rules, rate-based rules, Bot and Fraud Control), and Shield Advanced (L3/L4 DDoS). Applicable when creating, configuring, troubleshooting, or designing across these services, choosing between them, or diagnosing connectivity or traffic-filtering issues. Not for VPC subnets and route tables, load balancers, VPC endpoints, PrivateLink, API Gateway, IAM policy logic, container or serverless networking, or IaC authoring.",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "aws-agent-toolkit",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/aws/agent-toolkit-for-aws",
-        "source_path": "skills/core-skills/aws-networking",
-        "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-networking",
-        "last_synced": "2026-08-26T04:42:39.575443Z",
-        "upstream_commit": "2fcec193b56f",
-        "repo": "aws/agent-toolkit-for-aws",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2432,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 1,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "api",
-        "aws",
-        "networking"
-      ],
-      "score": 52
-    },
-    {
       "skill_id": "aws/agent-toolkit-for-aws/signing-in-to-aws",
       "spec": {
         "name": "signing-in-to-aws",
@@ -4423,13 +4431,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/signing-in-to-aws",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/signing-in-to-aws",
-        "last_synced": "2026-08-26T04:42:39.576782Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.867516Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4470,13 +4478,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/resilience-skills/resilience-program-design",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-program-design",
-        "last_synced": "2026-08-26T04:42:39.585250Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.876328Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4517,13 +4525,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/storage-skills/troubleshooting-efs",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-efs",
-        "last_synced": "2026-08-26T04:42:39.587305Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.878084Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4562,13 +4570,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/storage-skills/troubleshooting-s3-files",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-s3-files",
-        "last_synced": "2026-08-26T04:42:39.587386Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.878153Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4607,13 +4615,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/system-table-skills/querying-aws-cloudwatch",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-cloudwatch",
-        "last_synced": "2026-08-26T04:42:39.587481Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.878233Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4653,13 +4661,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/system-table-skills/querying-aws-s3",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-s3",
-        "last_synced": "2026-08-26T04:42:39.587861Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.878559Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4698,13 +4706,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/specialized-skills/system-table-skills/querying-aws-sagemaker-catalog",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-sagemaker-catalog",
-        "last_synced": "2026-08-26T04:42:39.588016Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.878697Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4745,13 +4753,13 @@
         "source_url": "https://github.com/aws/agent-toolkit-for-aws",
         "source_path": "skills/core-skills/aws-sdk-swift-usage",
         "install_url": "https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-swift-usage",
-        "last_synced": "2026-08-26T04:42:39.576029Z",
-        "upstream_commit": "2fcec193b56f",
+        "last_synced": "2026-08-27T15:03:06.866874Z",
+        "upstream_commit": "53a736826aa5",
         "repo": "aws/agent-toolkit-for-aws",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2432,
+        "repo_stars": 2444,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -4778,5 +4786,5 @@
     }
   ],
   "total": 101,
-  "generated_at": "2026-08-26T04:42:40.949367+00:00"
+  "generated_at": "2026-08-27T15:03:08.357505+00:00"
 }
