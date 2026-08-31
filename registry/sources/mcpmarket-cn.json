@@ -89102,146 +89102,6 @@
       "score": 45
     },
     {
-      "skill_id": "hamelsmu/evals-skills/generate-synthetic-data",
-      "spec": {
-        "name": "generate-synthetic-data",
-        "description": "使用基于维度的元组生成，为 LLM 管道评估创建不同的合成测试输入。当引导评估数据集、真实用户数据稀疏或对特定失败假设进行压力测试时使用。当您已经有 100 多个具有代表性的真实跟踪时，请勿使用（请改用分层抽样），或者当任务是收集生产日志时，请勿使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/hamelsmu/evals-skills",
-        "source_path": "skills/generate-synthetic-data",
-        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/generate-synthetic-data",
-        "last_synced": "2026-08-14T02:36:23.547889Z",
-        "upstream_commit": "",
-        "repo": "hamelsmu/evals-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1228,
-        "last_commit_date": "2026-03-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "data",
-        "generate",
-        "llm",
-        "synthetic"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "hamelsmu/evals-skills/validate-evaluator",
-      "spec": {
-        "name": "validate-evaluator",
-        "description": "使用数据分割、真阳性率/真阴性率和偏差校正，针对人工标注校准 LLM 评判器。在信任其输出之前需要验证对齐时，在编写评判器提示（write-judge-prompt）之后使用。请勿用于基于代码的评估器（这些是确定性的；使用标准单元测试进行测试）。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/hamelsmu/evals-skills",
-        "source_path": "skills/validate-evaluator",
-        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/validate-evaluator",
-        "last_synced": "2026-08-14T02:36:23.547936Z",
-        "upstream_commit": "",
-        "repo": "hamelsmu/evals-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1228,
-        "last_commit_date": "2026-03-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "evaluator",
-        "llm",
-        "validate"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "hamelsmu/evals-skills/write-judge-prompt",
-      "spec": {
-        "name": "write-judge-prompt",
-        "description": "设计用于主观标准的 LLM-as-Judge 评估器，这些标准是基于代码的检查无法处理的。当故障模式需要解释时使用（语气、忠实度、相关性、完整性）。当可以使用代码检查故障模式时，请勿使用（正则表达式、模式验证、执行测试）。当您需要验证或校准评估器时，请勿使用，而应使用 validate-evaluator。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/hamelsmu/evals-skills",
-        "source_path": "skills/write-judge-prompt",
-        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/write-judge-prompt",
-        "last_synced": "2026-08-14T02:36:23.547987Z",
-        "upstream_commit": "",
-        "repo": "hamelsmu/evals-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1228,
-        "last_commit_date": "2026-03-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "judge",
-        "llm",
-        "prompt",
-        "write"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "tradermonty/claude-trading-skills/backtest-expert",
       "spec": {
         "name": "backtest-expert",
@@ -120232,6 +120092,146 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "hamelsmu/evals-skills/generate-synthetic-data",
+      "spec": {
+        "name": "generate-synthetic-data",
+        "description": "使用基于维度的元组生成，为 LLM 管道评估创建不同的合成测试输入。当引导评估数据集、真实用户数据稀疏或对特定失败假设进行压力测试时使用。当您已经有 100 多个具有代表性的真实跟踪时，请勿使用（请改用分层抽样），或者当任务是收集生产日志时，请勿使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/hamelsmu/evals-skills",
+        "source_path": "skills/generate-synthetic-data",
+        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/generate-synthetic-data",
+        "last_synced": "2026-08-14T02:36:23.547889Z",
+        "upstream_commit": "",
+        "repo": "hamelsmu/evals-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1228,
+        "last_commit_date": "2026-03-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "data",
+        "generate",
+        "llm",
+        "synthetic"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "hamelsmu/evals-skills/validate-evaluator",
+      "spec": {
+        "name": "validate-evaluator",
+        "description": "使用数据分割、真阳性率/真阴性率和偏差校正，针对人工标注校准 LLM 评判器。在信任其输出之前需要验证对齐时，在编写评判器提示（write-judge-prompt）之后使用。请勿用于基于代码的评估器（这些是确定性的；使用标准单元测试进行测试）。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/hamelsmu/evals-skills",
+        "source_path": "skills/validate-evaluator",
+        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/validate-evaluator",
+        "last_synced": "2026-08-14T02:36:23.547936Z",
+        "upstream_commit": "",
+        "repo": "hamelsmu/evals-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1228,
+        "last_commit_date": "2026-03-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "evaluator",
+        "llm",
+        "validate"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "hamelsmu/evals-skills/write-judge-prompt",
+      "spec": {
+        "name": "write-judge-prompt",
+        "description": "设计用于主观标准的 LLM-as-Judge 评估器，这些标准是基于代码的检查无法处理的。当故障模式需要解释时使用（语气、忠实度、相关性、完整性）。当可以使用代码检查故障模式时，请勿使用（正则表达式、模式验证、执行测试）。当您需要验证或校准评估器时，请勿使用，而应使用 validate-evaluator。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/hamelsmu/evals-skills",
+        "source_path": "skills/write-judge-prompt",
+        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/write-judge-prompt",
+        "last_synced": "2026-08-14T02:36:23.547987Z",
+        "upstream_commit": "",
+        "repo": "hamelsmu/evals-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1228,
+        "last_commit_date": "2026-03-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "judge",
+        "llm",
+        "prompt",
+        "write"
+      ],
+      "score": 44
     },
     {
       "skill_id": "https-deeplearning-ai/sc-agent-skills-files/adding-cli-command",
@@ -204116,144 +204116,6 @@
       "score": 42
     },
     {
-      "skill_id": "hamelsmu/evals-skills/build-review-interface",
-      "spec": {
-        "name": "build-review-interface",
-        "description": "构建一个定制的、基于浏览器的标注界面，根据你的数据进行定制，用于审查 LLM 追踪和收集结构化反馈。当你需要构建一个标注工具、审查追踪或收集人工标签时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/hamelsmu/evals-skills",
-        "source_path": "skills/build-review-interface",
-        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/build-review-interface",
-        "last_synced": "2026-08-14T02:36:23.547708Z",
-        "upstream_commit": "",
-        "repo": "hamelsmu/evals-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1228,
-        "last_commit_date": "2026-03-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "build",
-        "interface",
-        "llm",
-        "review"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "hamelsmu/evals-skills/error-analysis",
-      "spec": {
-        "name": "error-analysis",
-        "description": "通过读取追踪，帮助用户系统地识别和分类 LLM 管道中的故障模式。在启动新的评估项目、重大管道变更（新功能、模型切换、提示重写）之后、生产指标下降之后或发生事件后使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/hamelsmu/evals-skills",
-        "source_path": "skills/error-analysis",
-        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/error-analysis",
-        "last_synced": "2026-08-14T02:36:23.547755Z",
-        "upstream_commit": "",
-        "repo": "hamelsmu/evals-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1228,
-        "last_commit_date": "2026-03-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "analysis",
-        "error",
-        "llm"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "hamelsmu/evals-skills/evaluate-rag",
-      "spec": {
-        "name": "evaluate-rag",
-        "description": "评估 RAG 流水线检索和生成质量的指南。用于评估检索增强生成系统，测量检索质量，评估生成忠实度或相关性，为检索测试生成合成 QA 对，或优化分块策略。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/hamelsmu/evals-skills",
-        "source_path": "skills/evaluate-rag",
-        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/evaluate-rag",
-        "last_synced": "2026-08-14T02:36:23.547844Z",
-        "upstream_commit": "",
-        "repo": "hamelsmu/evals-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1228,
-        "last_commit_date": "2026-03-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "evaluate",
-        "rag"
-      ],
-      "score": 42
-    },
-    {
       "skill_id": "tradermonty/claude-trading-skills/downtrend-duration-analyzer",
       "spec": {
         "name": "downtrend-duration-analyzer",
@@ -209650,6 +209512,144 @@
       "category": "other",
       "tags": [],
       "score": 41
+    },
+    {
+      "skill_id": "hamelsmu/evals-skills/build-review-interface",
+      "spec": {
+        "name": "build-review-interface",
+        "description": "构建一个定制的、基于浏览器的标注界面，根据你的数据进行定制，用于审查 LLM 追踪和收集结构化反馈。当你需要构建一个标注工具、审查追踪或收集人工标签时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/hamelsmu/evals-skills",
+        "source_path": "skills/build-review-interface",
+        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/build-review-interface",
+        "last_synced": "2026-08-14T02:36:23.547708Z",
+        "upstream_commit": "",
+        "repo": "hamelsmu/evals-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1228,
+        "last_commit_date": "2026-03-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "build",
+        "interface",
+        "llm",
+        "review"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "hamelsmu/evals-skills/error-analysis",
+      "spec": {
+        "name": "error-analysis",
+        "description": "通过读取追踪，帮助用户系统地识别和分类 LLM 管道中的故障模式。在启动新的评估项目、重大管道变更（新功能、模型切换、提示重写）之后、生产指标下降之后或发生事件后使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/hamelsmu/evals-skills",
+        "source_path": "skills/error-analysis",
+        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/error-analysis",
+        "last_synced": "2026-08-14T02:36:23.547755Z",
+        "upstream_commit": "",
+        "repo": "hamelsmu/evals-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1228,
+        "last_commit_date": "2026-03-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "analysis",
+        "error",
+        "llm"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "hamelsmu/evals-skills/evaluate-rag",
+      "spec": {
+        "name": "evaluate-rag",
+        "description": "评估 RAG 流水线检索和生成质量的指南。用于评估检索增强生成系统，测量检索质量，评估生成忠实度或相关性，为检索测试生成合成 QA 对，或优化分块策略。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/hamelsmu/evals-skills",
+        "source_path": "skills/evaluate-rag",
+        "install_url": "https://github.com/hamelsmu/evals-skills/tree/main/skills/evaluate-rag",
+        "last_synced": "2026-08-14T02:36:23.547844Z",
+        "upstream_commit": "",
+        "repo": "hamelsmu/evals-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1228,
+        "last_commit_date": "2026-03-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "evaluate",
+        "rag"
+      ],
+      "score": 40
     },
     {
       "skill_id": "pexoai/pexo-skills/seedance-prompter",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-08-30T09:48:53.089567+00:00"
+  "generated_at": "2026-08-31T10:39:47.030617+00:00"
 }
