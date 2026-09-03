@@ -20,13 +20,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/vercel-composition-patterns",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/vercel-composition-patterns",
-        "last_synced": "2026-09-02T08:31:11.179970Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513720Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -68,13 +68,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/clickhouse-logs-queries",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/clickhouse-logs-queries",
-        "last_synced": "2026-09-02T08:31:11.178475Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.512763Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -114,13 +114,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/copywriting",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/copywriting",
-        "last_synced": "2026-09-02T08:31:11.178617Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.512859Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -158,13 +158,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/dev-toolbar-review",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/dev-toolbar-review",
-        "last_synced": "2026-09-02T08:31:11.178724Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.512927Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -189,51 +189,6 @@
       "score": 52
     },
     {
-      "skill_id": "supabase/supabase/docs-content",
-      "spec": {
-        "name": "docs-content",
-        "description": "Write, edit, organize, and review Supabase content anywhere in apps/docs — guides, explainers, tutorials, troubleshooting entries, reference docs, and partials. Use for MDX/TOML authoring, frontmatter, navigation, terminology, links, code samples, content listings, and docs validation.",
-        "license": "",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "supabase-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/supabase/supabase",
-        "source_path": ".claude/skills/docs-content",
-        "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/docs-content",
-        "last_synced": "2026-09-02T08:31:11.178814Z",
-        "upstream_commit": "b04e26872b11",
-        "repo": "supabase/supabase",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 108713,
-        "last_commit_date": null,
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 1,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": false,
-        "universal": true
-      },
-      "category": "education",
-      "tags": [
-        "content",
-        "docs"
-      ],
-      "score": 52
-    },
-    {
       "skill_id": "supabase/supabase/react-hook-form",
       "spec": {
         "name": "react-hook-form",
@@ -249,13 +204,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/react-hook-form",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/react-hook-form",
-        "last_synced": "2026-09-02T08:31:11.178917Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.512988Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -295,13 +250,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/safe-sql-execution",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/safe-sql-execution",
-        "last_synced": "2026-09-02T08:31:11.179094Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513093Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -341,13 +296,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-e2e-tests",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-e2e-tests",
-        "last_synced": "2026-09-02T08:31:11.179326Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513259Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -387,13 +342,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-error-handling",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-error-handling",
-        "last_synced": "2026-09-02T08:31:11.179419Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513350Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -434,13 +389,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-mock-api-tests",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-mock-api-tests",
-        "last_synced": "2026-09-02T08:31:11.179506Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513404Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -482,13 +437,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-queries",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-queries",
-        "last_synced": "2026-09-02T08:31:11.179604Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513471Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -529,13 +484,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-testing",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-testing",
-        "last_synced": "2026-09-02T08:31:11.179716Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513553Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -574,13 +529,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/studio-ui-patterns",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/studio-ui-patterns",
-        "last_synced": "2026-09-02T08:31:11.179799Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513609Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -619,13 +574,13 @@
         "source_url": "https://github.com/supabase/supabase",
         "source_path": ".claude/skills/telemetry-standards",
         "install_url": "https://github.com/supabase/supabase/tree/master/.claude/skills/telemetry-standards",
-        "last_synced": "2026-09-02T08:31:11.179879Z",
-        "upstream_commit": "b04e26872b11",
+        "last_synced": "2026-09-03T08:39:35.513660Z",
+        "upstream_commit": "b8d28b36d9b3",
         "repo": "supabase/supabase",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 108713,
+        "repo_stars": 108773,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -649,6 +604,6 @@
       "score": 52
     }
   ],
-  "total": 14,
-  "generated_at": "2026-09-02T08:31:12.570511+00:00"
+  "total": 13,
+  "generated_at": "2026-09-03T08:39:36.716325+00:00"
 }

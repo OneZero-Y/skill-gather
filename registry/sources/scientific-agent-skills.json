@@ -9,7 +9,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+. Scripts use only the standard library - no numpy, scipy, or network access. Statistical distributions are computed from first principles so results are reproducible in any conforming interpreter.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-27"
         },
@@ -21,13 +21,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/analytical-method-validation",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/analytical-method-validation",
-        "last_synced": "2026-09-01T09:16:26.308904Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.515646Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -59,7 +59,7 @@
         "license": "GPLv3 license",
         "compatibility": "Requires Python 3.9–3.12 and internet access to 40+ bioinformatics web APIs. NCBI BLAST requires a contact email (`NCBI_EMAIL` env var or explicit parameter).",
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"envVars\": [{\"name\": \"NCBI_EMAIL\", \"required\": false, \"description\": \"Email for NCBI service identification.\"}]}"
         },
@@ -71,13 +71,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/bioservices",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bioservices",
-        "last_synced": "2026-09-01T09:16:26.310276Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516536Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -109,7 +109,7 @@
         "license": "MIT License",
         "compatibility": "Requires Python 3.9+ with requests. Google Scholar search additionally needs scholarly. Needs network access to api.openalex.org, api.crossref.org, eutils.ncbi.nlm.nih.gov, export.arxiv.org, and api.datacite.org.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"envVars\": [{\"name\": \"NCBI_EMAIL\", \"required\": false, \"description\": \"Email for NCBI Entrez identification.\"}, {\"name\": \"NCBI_API_KEY\", \"required\": false, \"description\": \"NCBI API key to raise Entrez rate limits.\"}, {\"name\": \"OPENALEX_EMAIL\", \"required\": false, \"description\": \"Contact email for the faster OpenAlex polite pool.\"}]}"
         },
@@ -121,13 +121,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/citation-management",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/citation-management",
-        "last_synced": "2026-09-01T09:16:26.310838Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516891Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -158,7 +158,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+; local files only; bundled scripts use the standard library and require no network, credentials, API keys, LLMs, or image services.",
         "metadata": {
-          "version": "2.1",
+          "version": "2.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -169,13 +169,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/clinical-decision-support",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/clinical-decision-support",
-        "last_synced": "2026-09-01T09:16:26.310945Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516960Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -207,7 +207,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+ only for optional dependency-free local scripts; no network access, credentials, external models, or image services.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -218,13 +218,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/clinical-reports",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/clinical-reports",
-        "last_synced": "2026-09-01T09:16:26.311053Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517032Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -255,7 +255,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python 3.7–3.11 (PyPI 2.8.0 caps at <3.12). Install PyTorch, TensorFlow, or JAX before the matching deepchem extra. RDKit is a core dependency.",
         "metadata": {
-          "version": "1.4",
+          "version": "1.5",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -266,13 +266,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/deepchem",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deepchem",
-        "last_synced": "2026-09-01T09:16:26.311634Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517415Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -302,7 +302,7 @@
         "license": "BSD license",
         "compatibility": "Requires Python >3.8 and deepTools 3.5.6-compatible dependencies. The upstream project recommends conda/bioconda for full dependency resolution; repo examples use uv with pinned PyPI installs for reproducible command-line workflows.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -313,13 +313,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/deeptools",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deeptools",
-        "last_synced": "2026-09-01T09:16:26.311841Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517557Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -349,7 +349,7 @@
         "license": "MIT license",
         "compatibility": "Requires the DiffDock repository, Python 3.9 environment from upstream environment.yml or the official Docker image, RDKit, PyTorch/PyG, and optional CUDA GPU acceleration. Current guidance targets DiffDock v1.1.3 / DiffDock-L.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -360,13 +360,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/diffdock",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/diffdock",
-        "last_synced": "2026-09-01T09:16:26.312123Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517745Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -396,7 +396,7 @@
         "license": "MIT",
         "compatibility": "Requires a DNAnexus account, network access, Python 3.11+, and dx-toolkit/dxpy; some workflow and infrastructure features require organization licenses or policies.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -407,13 +407,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/dnanexus-integration",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dnanexus-integration",
-        "last_synced": "2026-09-01T09:16:26.312204Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517797Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -445,7 +445,7 @@
         "license": "GPL-3.0-or-later",
         "compatibility": "Bundled scripts require Python 3.10+ and ete4 4.4.0 (upstream ete4 supports Python >=3.7). Taxonomy setup and SmartView exploration need network access; static SmartView PNG rendering needs ete4[render-sm], and Qt PDF/SVG rendering needs ete4[treeview].",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -456,13 +456,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/etetoolkit",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/etetoolkit",
-        "last_synced": "2026-09-01T09:16:26.312544Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518011Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -506,13 +506,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/exa-search",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/exa-search",
-        "last_synced": "2026-09-01T09:16:26.312654Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518084Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -543,7 +543,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python >=3.10. Scripts use numpy, pandas, and pyDOE3 (DOE matrices). Install with uv as shown below.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -554,13 +554,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/experimental-design",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/experimental-design",
-        "last_synced": "2026-09-01T09:16:26.312816Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518191Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -591,7 +591,7 @@
         "license": "MIT",
         "compatibility": "Bundled core CLIs require Python 3.11+ and are local/network-free; the complete pinned optional snapshot requires Python 3.12+, uv, and format-specific libraries listed below.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -602,13 +602,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/exploratory-data-analysis",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/exploratory-data-analysis",
-        "last_synced": "2026-09-01T09:16:26.313075Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518365Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -640,7 +640,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.9-3.13, uv, and FlowIO 1.4.0. NumPy is installed with FlowIO; pandas is optional for DataFrame workflows. Runtime parsing is local and needs no credentials or network access.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -651,13 +651,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/flowio",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/flowio",
-        "last_synced": "2026-09-01T09:16:26.313179Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518433Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -687,7 +687,7 @@
         "license": "MIT",
         "compatibility": "Bundled CLIs require Python 3.11+ and use the standard library; HDF5/netCDF4 metadata tools lazily use h5py when available. Simulation examples target fluidsim 0.9.0, fluidfft 0.4.5, and pyFFTW 0.15.1. MPI/native FFT use requires a site-compatible MPI implementation, development headers, FFTW/PFFT/P3DFFT libraries, compilers, and an approved scheduler workflow. No GPU backend is assumed.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -699,13 +699,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/fluidsim",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/fluidsim",
-        "last_synced": "2026-09-01T09:16:26.313269Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518490Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -735,7 +735,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.9+ and network access to openrouter.ai. The bundled script uses only the standard library. Image generation requires the OPENROUTER_API_KEY credential and bills per request; listing models, inspecting a model, and --dry-run do not. Targets the OpenRouter Image API (POST /api/v1/images) as verified on 2026-07-31.",
         "metadata": {
-          "version": "3.0",
+          "version": "3.1",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-31",
           "openclaw": "{\"primaryEnv\": \"OPENROUTER_API_KEY\", \"envVars\": [{\"name\": \"OPENROUTER_API_KEY\", \"required\": true, \"description\": \"OpenRouter API key used for image generation.\"}]}"
@@ -748,13 +748,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/generate-image",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/generate-image",
-        "last_synced": "2026-09-01T09:16:26.313354Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518554Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -786,7 +786,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.10+ and uv. Guidance targets geniml 0.8.4 with gtars 0.9.2; ML workflows need the pinned ml extra and compatible native wheels. Bundled planners and inspectors are dependency-free, local-only, and make no network requests.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "upstream-version": "0.8.4",
           "last-reviewed": "2026-07-23"
@@ -799,13 +799,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/geniml",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geniml",
-        "last_synced": "2026-09-01T09:16:26.313467Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518622Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -835,7 +835,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+. Scripts use only the standard library - no third-party packages and no network access. Variant normalisation needs a reference FASTA, and uses its .fai index when one is present.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -846,13 +846,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/genomic-coordinates",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/genomic-coordinates",
-        "last_synced": "2026-09-01T09:16:26.313540Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.518667Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -883,7 +883,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.10+ and uv. Bundled CLIs are local-only; runtime analysis requires the pinned GeoPandas stack below.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -895,13 +895,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/geopandas",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geopandas",
-        "last_synced": "2026-09-01T09:16:26.314156Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520065Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -932,7 +932,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+ on Linux, macOS, or Windows; standard library by default, optional psutil 7.2.2; accelerator and scheduler CLIs are optional read-only probes.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -943,13 +943,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/get-available-resources",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/get-available-resources",
-        "last_synced": "2026-09-01T09:16:26.314221Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520105Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -980,7 +980,7 @@
         "license": "BSD-2-Clause license",
         "compatibility": "Requires Python >=3.8 and gget 0.30.5-compatible APIs. Optional setup modules may install scientific dependencies that lag the newest Python releases; use Python 3.9 or 3.10 if `gget setup cellxgene` or `gget setup alphafold` fails.",
         "metadata": {
-          "version": "1.4",
+          "version": "1.5",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -991,13 +991,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/gget",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/gget",
-        "last_synced": "2026-09-01T09:16:26.314319Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520172Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1029,7 +1029,7 @@
         "license": "MIT",
         "compatibility": "Python bindings require Python 3.10+ and gtars 0.9.2. The Rust meta-crate and gtars-cli are 0.9.0 and require a Rust toolchain supporting Edition 2024; upstream declares no rust-version. Bundled audit CLIs use only Python 3.10+ standard library and are local/network-free. Remote constructors, pretrained tokenizers, refget, and BEDbase caching require explicit network and storage approval.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1040,13 +1040,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/gtars",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/gtars",
-        "last_synced": "2026-09-01T09:16:26.314661Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520392Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1079,7 +1079,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.10+ and uv for the pinned upstream package. Bundled local audit tools use only the Python standard library for JSON; YAML input requires exactly PyYAML 6.0.2. Actual HypoGeniC runs may require a separately approved LLM provider, credentials, Redis, local model resources, and network access.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1090,13 +1090,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/hypogenic",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hypogenic",
-        "last_synced": "2026-09-01T09:16:26.314963Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520606Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1127,7 +1127,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+ standard library. Bundled CLIs are deterministic and local-only; they accept bounded JSON, CSV, or Markdown and require no network, credentials, models, image services, or external packages.",
         "metadata": {
-          "version": "2.1",
+          "version": "2.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -1139,13 +1139,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/hypothesis-generation",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hypothesis-generation",
-        "last_synced": "2026-09-01T09:16:26.315068Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520673Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1176,7 +1176,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+; bundled CLIs use only the standard library and bounded local JSON/Markdown files, with no network access or credentials.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc.",
           "supersedes": "iso-13485-certification",
           "last-reviewed": "2026-07-26"
@@ -1189,13 +1189,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/iso-standards-readiness",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/iso-standards-readiness",
-        "last_synced": "2026-09-01T09:16:26.315374Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520879Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1227,7 +1227,7 @@
         "license": "MIT",
         "compatibility": "Python 3.10-3.14 with build123d 0.11.1 and matplotlib for snapshots. Geometry commands require build123d; the standards lookup and the interface check run on the standard library alone. No network access needed.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-08-15",
           "build123d-version": "0.11.1"
@@ -1240,13 +1240,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/lab-hardware-cad",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/lab-hardware-cad",
-        "last_synced": "2026-09-01T09:16:26.315551Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520994Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1278,7 +1278,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+ and uv for bundled local tools, plus network access for official documentation or remote API calls. LabArchives issues an Access Key ID and Access Password; user-scoped calls also need a UID, and Inventory calls require Inventory API permission and a Lab ID. Bundled scripts read only named LABARCHIVES_* environment variables and never load .env files.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1289,13 +1289,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/labarchive-integration",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/labarchive-integration",
-        "last_synced": "2026-09-01T09:16:26.315670Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521074Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1327,7 +1327,7 @@
         "license": "MIT",
         "compatibility": "Requires network access and a Latch account. The current stable SDK requires Python 3.9+; Python 3.12 is recommended. Uses uv for installation. Docker is needed for local image builds, while remote registration is the CLI default.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1338,13 +1338,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/latchbio-integration",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/latchbio-integration",
-        "last_synced": "2026-09-01T09:16:26.315845Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521188Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1379,7 +1379,7 @@
         "license": "Apache-2.0",
         "compatibility": "Python 3.10+. Optional LibreOffice (Office formats) and ImageMagick (images). Bundled Tesseract for OCR. All processing is local — no cloud API required.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1390,13 +1390,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/liteparse",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/liteparse",
-        "last_synced": "2026-09-01T09:16:26.316040Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521313Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1429,7 +1429,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+ standard library for optional offline CLIs. The optional LaTeX template uses XeLaTeX or LuaLaTeX. Online research requires user-approved network access and source-specific terms; bundled scripts make no network, LLM, or image calls.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1440,13 +1440,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/market-research-reports",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/market-research-reports",
-        "last_synced": "2026-09-01T09:16:26.316376Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521538Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1478,7 +1478,7 @@
         "license": "MIT",
         "compatibility": "Python 3.10+ and uv. Examples target MarkItDown 0.1.6. Core local conversion can run offline; URL, YouTube, audio transcription, LLM, Azure, and MCP workflows may use network or external services.",
         "metadata": {
-          "version": "2.1",
+          "version": "2.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1489,13 +1489,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/markitdown",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/markitdown",
-        "last_synced": "2026-09-01T09:16:26.316493Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521594Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1530,7 +1530,7 @@
         "license": "Apache-2.0",
         "compatibility": "Requires Python >=3.10,<3.15, uv, and matchms 0.33.1. Local file workflows need no credentials; metabolomics-USI loading requires network access.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1541,13 +1541,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/matchms",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/matchms",
-        "last_synced": "2026-09-01T09:16:26.316581Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521651Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1577,7 +1577,7 @@
         "license": "MIT",
         "compatibility": "Documentation is pinned where noted to proprietary MATLAB R2026a and free GNU Octave 11.3.0. Bundled Python CLIs require Python 3.11+ and run locally without MATLAB or Octave; optional MAT inventory uses scipy and/or h5py.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -1589,13 +1589,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/matlab",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/matlab",
-        "last_synced": "2026-09-01T09:16:26.316667Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521710Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1626,7 +1626,7 @@
         "license": "https://github.com/matplotlib/matplotlib/tree/main/LICENSE",
         "compatibility": "Requires Python 3.10+ and Matplotlib 3.10.x. Use `uv add matplotlib` in projects; interactive Jupyter widgets require `ipympl`.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1637,13 +1637,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/matplotlib",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/matplotlib",
-        "last_synced": "2026-09-01T09:16:26.316741Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521755Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1674,7 +1674,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "Requires Python 3.9+ and datamol (installed with medchem). Optional Lilly demerit filter requires separate `lilly-medchem-rules` conda package.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1685,13 +1685,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/medchem",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/medchem",
-        "last_synced": "2026-09-01T09:16:26.316849Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521826Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1732,13 +1732,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/ncats-arax",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/ncats-arax",
-        "last_synced": "2026-09-01T09:16:26.317168Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522037Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1770,7 +1770,7 @@
         "license": "MIT",
         "compatibility": "Python 3.10+ and uv; pinned workflows use NeuroKit2 0.2.13. Core processing needs NumPy, SciPy, pandas, scikit-learn, matplotlib, PyWavelets, requests, and setuptools; selected EEG, cvxEDA, plotting, file-format, and RQA features need separately locked optional packages.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1781,13 +1781,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/neurokit2",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/neurokit2",
-        "last_synced": "2026-09-01T09:16:26.317424Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522196Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1817,7 +1817,7 @@
         "license": "MIT",
         "compatibility": "Requires network access to a user-selected OMERO.server for remote operations. The 2026-07-23 snapshot uses OMERO.py 5.22.1 with ZeroC IcePy 3.6.5; OMERO supports Python 3.10-3.12 (3.12 recommended) while 3.13-3.14 remain upcoming in its support matrix. Bundled local planners require Python 3.10+ and read only named OMERO_* variables; they never load .env files.",
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"envVars\": [{\"name\": \"OMERO_HOST\", \"required\": true, \"description\": \"OMERO.server hostname.\"}, {\"name\": \"OMERO_PORT\", \"required\": false, \"description\": \"OMERO SSL router port; default 4064.\"}, {\"name\": \"OMERO_USER\", \"required\": false, \"description\": \"Username when not reusing a session.\"}, {\"name\": \"OMERO_PASSWORD\", \"required\": false, \"description\": \"Password when not reusing a session.\"}, {\"name\": \"OMERO_SESSION_KEY\", \"required\": false, \"description\": \"Existing session key as an alternative credential.\"}, {\"name\": \"OMERO_SECURE\", \"required\": false, \"description\": \"Secure transport toggle; default true.\"}]}"
         },
@@ -1829,13 +1829,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/omero-integration",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/omero-integration",
-        "last_synced": "2026-09-01T09:16:26.317821Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522457Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1878,13 +1878,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/onekgpd",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/onekgpd",
-        "last_synced": "2026-09-01T09:16:26.317909Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522516Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1914,7 +1914,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+. Scripts use only the standard library - no third-party packages. Needs network access to https://www.ebi.ac.uk/ols4 (public, no API key).",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -1925,13 +1925,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/ontology-term-resolution",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/ontology-term-resolution",
-        "last_synced": "2026-09-01T09:16:26.318057Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522651Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -1975,13 +1975,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/openpiv",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/openpiv",
-        "last_synced": "2026-09-01T09:16:26.318451Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522871Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2011,7 +2011,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.10+ and uv for local simulation. Flex examples target opentrons 9.1.1 and API 2.29; the separate OT-2 line targets API 2.28 and uses opentrons 9.0.0 as its local compatibility simulator. Physical execution requires compatible hardware, current robot software, and the appropriate Opentrons App.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2022,13 +2022,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/opentrons-integration",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/opentrons-integration",
-        "last_synced": "2026-09-01T09:16:26.318548Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522935Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2061,7 +2061,7 @@
         "license": "MIT",
         "compatibility": "Needs network access and curl. The bundled scripts require Python 3.11+ and use only the standard library. No credentials are required; NCBI_API_KEY, S2_API_KEY, CORE_API_KEY, and OPENALEX_API_KEY raise rate limits or unlock full text where noted.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2072,13 +2072,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/paper-lookup",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paper-lookup",
-        "last_synced": "2026-09-01T09:16:26.318911Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523180Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2110,7 +2110,7 @@
         "license": "MIT",
         "compatibility": "PathML 3.0.5 is the latest PyPI release and targets Python 3.10-3.12; installation needs uv plus platform libraries for OpenSlide, BLAS/LAPACK, and Java/Bio-Formats. Bundled Python 3.10+ CLIs are local, bounded, dependency-free, and network-free.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2121,13 +2121,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pathml",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pathml",
-        "last_synced": "2026-09-01T09:16:26.319409Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523532Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2157,7 +2157,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+. Scripts use only the standard library - no third-party packages. Needs network access to the public GenSpectrum LAPIS instances (lapis.cov-spectrum.org, lapis.genspectrum.org, lapis.pathoplexus.org) and to raw.githubusercontent.com for pango-designation. No API key.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-27"
         },
@@ -2169,13 +2169,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pathogen-variant-surveillance",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pathogen-variant-surveillance",
-        "last_synced": "2026-09-01T09:16:26.319514Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523581Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2208,7 +2208,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+ standard library. Bundled CLIs are deterministic and local-only; they accept bounded JSON, CSV, or Markdown and make no network, model, image, or external-service calls.",
         "metadata": {
-          "version": "2.1",
+          "version": "2.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2219,13 +2219,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/peer-review",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/peer-review",
-        "last_synced": "2026-09-01T09:16:26.320097Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523965Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2256,7 +2256,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+ with numpy and scipy. No network access and no proprietary software. The estimation tools this skill orients you towards (NONMEM, Monolix, Phoenix, Simcyp, GastroPlus) are licensed separately and are never invoked by these scripts.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-27"
         },
@@ -2268,13 +2268,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pkpd-modeling",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pkpd-modeling",
-        "last_synced": "2026-09-01T09:16:26.320568Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524267Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2305,7 +2305,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.10+, uv, and exact generation pins python-pptx 1.0.2, Pillow 12.3.0, and lxml 6.1.1. Validation and PPTX ZIP/XML inspection are local and network-free; final PowerPoint, accessibility, PDF, printer, and author review are manual.",
         "metadata": {
-          "version": "2.1",
+          "version": "2.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2316,13 +2316,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pptx-posters",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pptx-posters",
-        "last_synced": "2026-09-01T09:16:26.320937Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524513Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2353,7 +2353,7 @@
         "license": "MIT",
         "compatibility": "Bundled CLIs require Python 3.11+ and use only the standard library. Offline validation and planning need no credentials or network. REST reads require HTTPS access to official protocols.io hosts and usually a named bearer token; network access is disabled unless --execute is supplied. The scripts never load .env files or execute mutations.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"PROTOCOLS_IO_ACCESS_TOKEN\", \"envVars\": [{\"name\": \"PROTOCOLS_IO_ACCESS_TOKEN\", \"required\": false, \"description\": \"Bearer token for authenticated protocols.io REST reads.\"}]}"
         },
@@ -2365,13 +2365,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/protocolsio-integration",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/protocolsio-integration",
-        "last_synced": "2026-09-01T09:16:26.321280Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524749Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2403,7 +2403,7 @@
         "license": "MIT",
         "compatibility": "Bundled CLIs require Python 3.10+ and use only the standard library. Published pufferlib 3.0.0 supports Python >=3.9 but ships as a native-code source archive; current 4.0 source requires Python >=3.10, Torch >=2.9, and an audited CPU/CUDA toolchain. Network, GPU, native builds, environment plug-ins, assets, checkpoints, and external logging are never required by the bundled CLIs.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -2415,13 +2415,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pufferlib",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pufferlib",
-        "last_synced": "2026-09-01T09:16:26.321381Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524815Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2451,7 +2451,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python >=3.11 and PyDESeq2 0.5.4-compatible dependencies. Examples target PyDESeq2 0.5.x, formulaic design strings, explicit contrasts, and uv-based installs.",
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2462,13 +2462,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pydeseq2",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pydeseq2",
-        "last_synced": "2026-09-01T09:16:26.321482Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524874Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2498,7 +2498,7 @@
         "license": "MIT",
         "compatibility": "Python 3.10+ with pydicom 3.0.2; optional pinned NumPy, Pillow, and pixel plugins. Helper CLIs are local-only and require authorized data.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -2510,13 +2510,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pydicom",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pydicom",
-        "last_synced": "2026-09-01T09:16:26.321547Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524919Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2546,7 +2546,7 @@
         "license": "MIT",
         "compatibility": "Verified against PyLabRobot 0.2.1 on Python 3.9+. Bundled planning CLIs require only Python 3.11+ and make no serial, USB, or network connections. Physical devices need model-specific extras, configuration, calibration, and trained operator approval.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc.",
           "pylabrobot-version": "0.2.1",
           "researched": "2026-07-23"
@@ -2559,13 +2559,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pylabrobot",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pylabrobot",
-        "last_synced": "2026-09-01T09:16:26.321844Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525115Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2596,7 +2596,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+ with uv. The verified snapshot uses pymatgen 2026.5.4, pymatgen-core 2026.7.16, and mp-api 0.46.4. Bundled help and planning CLIs use only the standard library; local scientific execution lazily requires the pinned pymatgen packages. Materials Project access additionally requires explicit network approval and the single named secret MP_API_KEY.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -2608,13 +2608,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pymatgen",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pymatgen",
-        "last_synced": "2026-09-01T09:16:26.321923Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525168Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2644,7 +2644,7 @@
         "license": "Apache License, Version 2.0",
         "compatibility": "Requires Python 3.12+ and PyMC 6.0.1-compatible dependencies. Install reproducible environments with `uv pip install \"pymc[nutpie]==6.0.1\"`; optional NumPyro or BlackJAX samplers require separately pinned JAX-compatible dependencies.",
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2655,13 +2655,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pymc",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pymc",
-        "last_synced": "2026-09-01T09:16:26.322007Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525223Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2691,7 +2691,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "Requires Python 3.10+ and pymoo (uv pip install). Optional matplotlib for visualization plots; optional autograd for gradient-based features; optional joblib for JoblibParallelization.",
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2702,13 +2702,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pymoo",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pymoo",
-        "last_synced": "2026-09-01T09:16:26.322073Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525269Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2738,7 +2738,7 @@
         "license": "3 clause BSD license",
         "compatibility": "Requires Python 3.9+ and uv. Examples and scripts target pyOpenMS 3.5.0.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2749,13 +2749,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pyopenms",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pyopenms",
-        "last_synced": "2026-09-01T09:16:26.322136Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525313Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2785,7 +2785,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.8–3.14 and pysam 0.24.0. Bundled scripts use local files. CRAM decoding may require the matching reference FASTA or an explicitly configured REF_PATH/REF_CACHE.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2796,13 +2796,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pysam",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pysam",
-        "last_synced": "2026-09-01T09:16:26.322260Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525397Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2833,7 +2833,7 @@
         "license": "MIT",
         "compatibility": "Requires uv, CPython 3.11, PyTDC 1.1.15, and setuptools 80.9.0 for its legacy pkg_resources runtime import. Dataset, benchmark, checkpoint, and remote-oracle operations require network/storage review and explicit user approval.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2844,13 +2844,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pytdc",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pytdc",
-        "last_synced": "2026-09-01T09:16:26.322335Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525447Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2881,7 +2881,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "Requires Python 3.10+ and lightning 2.6+ (or pytorch-lightning 2.6+). GPU training needs CUDA-capable PyTorch. Optional loggers (wandb, mlflow, comet-ml) and DeepSpeed require separate installs.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2892,13 +2892,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pytorch-lightning",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pytorch-lightning",
-        "last_synced": "2026-09-01T09:16:26.322407Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525494Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2929,7 +2929,7 @@
         "license": "Apache-2.0",
         "compatibility": "Python 3.10+ on a supported 64-bit platform. Local SDK workflows need qiskit; noisy simulation needs qiskit-aer; IBM QPU access needs qiskit-ibm-runtime, network access, an IBM Quantum Platform account, and an API key.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -2940,13 +2940,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/qiskit",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/qiskit",
-        "last_synced": "2026-09-01T09:16:26.322625Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525639Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -2976,7 +2976,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+, uv, and qutip==5.3.0 for executable simulations. Bundled planners and all script help run with the Python standard library; plotting requires the pinned graphics extra. No network service or credentials are used.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "last-reviewed": "2026-07-23"
         },
@@ -2988,13 +2988,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/qutip",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/qutip",
-        "last_synced": "2026-09-01T09:16:26.322714Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525729Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3024,7 +3024,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Examples target RDKit 2026.03.x. Use conda-forge for the broadest binary support or PyPI package `rdkit` for supported platform wheels; `rdkit-pypi` is the legacy PyPI name.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3035,13 +3035,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/rdkit",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/rdkit",
-        "last_synced": "2026-09-01T09:16:26.324107Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525789Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3071,7 +3071,7 @@
         "license": "MIT",
         "compatibility": "Requires Python >=3.10 with numpy, pandas, and scipy; statsmodels >=0.14 for forecasting and matplotlib for figures. Tested with numpy 2.5, pandas 3.0, scipy 1.18, statsmodels 0.14.6. No network access needed.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3082,13 +3082,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/relsa-severity-assessment",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/relsa-severity-assessment",
-        "last_synced": "2026-09-01T09:16:26.324206Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525856Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3120,7 +3120,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+ for optional bundled standard-library CLIs. All tooling is local JSON/CSV processing with no network, credentials, external models, or subprocesses.",
         "metadata": {
-          "version": "2.1",
+          "version": "2.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3131,13 +3131,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scholar-evaluation",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scholar-evaluation",
-        "last_synced": "2026-09-01T09:16:26.324911Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526309Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3168,7 +3168,7 @@
         "license": "MIT",
         "compatibility": "Core guidance works in any Agent Skills-compatible host. Optional bundled CLIs require Python 3.11+ and use only the standard library; they make no network or LLM calls and require no credentials.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3179,13 +3179,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scientific-brainstorming",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-brainstorming",
-        "last_synced": "2026-09-01T09:16:26.324989Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526361Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3216,7 +3216,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+ and uv for pinned examples. Bundled CLIs are network-free and load Matplotlib, Pillow, or pypdf only when needed. Plotly static export with Kaleido v1 requires a compatible Chrome/Chromium installation.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3227,13 +3227,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scientific-visualization",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-visualization",
-        "last_synced": "2026-09-01T09:16:26.325390Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526635Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3264,7 +3264,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+ only for optional dependency-free local CLIs; core guidance is platform-neutral. Bundled tools are offline and require no API keys.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3275,13 +3275,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scientific-writing",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-writing",
-        "last_synced": "2026-09-01T09:16:26.325488Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526696Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3312,7 +3312,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.11+ and scikit-learn 1.7+. NumPy and SciPy are required dependencies. Optional matplotlib/seaborn for bundled example scripts that save plots.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3323,13 +3323,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scikit-learn",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-learn",
-        "last_synced": "2026-09-01T09:16:26.325657Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526810Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3361,7 +3361,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.11+, uv, and the pinned scikit-survival 0.28.0 stack for executable examples. Bundled CLIs are local and network-free by default.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3372,13 +3372,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scikit-survival",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-survival",
-        "last_synced": "2026-09-01T09:16:26.325756Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526878Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3420,13 +3420,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scvelo",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scvelo",
-        "last_synced": "2026-09-01T09:16:26.325839Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526927Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3456,7 +3456,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.12+ and uv for SHAP 0.52.0; model-specific libraries are optional.",
         "metadata": {
-          "version": "2.0",
+          "version": "2.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3467,13 +3467,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/shap",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/shap",
-        "last_synced": "2026-09-01T09:16:26.326104Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527108Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3503,7 +3503,7 @@
         "license": "MIT",
         "compatibility": "Upstream SimPy 4.1.2 supports Python 3.8+; bundled CLIs require Python 3.10+, uv, and SimPy 4.1.2. They use only SimPy and the standard library, operate on local bounded inputs, and make no network calls.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3514,13 +3514,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/simpy",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/simpy",
-        "last_synced": "2026-09-01T09:16:26.326181Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527157Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3550,7 +3550,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python 3.10+, PyTorch >= 2.3, and stable-baselines3 2.8+. Gymnasium environments; optional extras for TensorBoard and Atari (ale-py).",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3561,13 +3561,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/stable-baselines3",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/stable-baselines3",
-        "last_synced": "2026-09-01T09:16:26.326251Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527204Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3599,7 +3599,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python >=3.10. Examples target statsmodels >=0.14.6, scipy >=1.11, pingouin >=0.6, numpy >=1.26, and matplotlib. Optional extras are statsmodels mixed models and lifelines for simulation-based power.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3610,13 +3610,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/statistical-power",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statistical-power",
-        "last_synced": "2026-09-01T09:16:26.326505Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527367Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3647,7 +3647,7 @@
         "license": "MIT",
         "compatibility": "Python 3.11+ standard library; local JSON files only. Bundled CLIs require no network, external services, models, images, credentials, environment variables, or third-party packages.",
         "metadata": {
-          "version": "2.1",
+          "version": "2.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3658,13 +3658,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/treatment-plans",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/treatment-plans",
-        "last_synced": "2026-09-01T09:16:26.327620Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528142Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3695,7 +3695,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.12+. The numeric CLIs need pint, uncertainties, NumPy, and SciPy; the static auditor is standard-library only. All bundled tooling runs locally with no network access.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3706,13 +3706,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/uncertainty-and-units",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/uncertainty-and-units",
-        "last_synced": "2026-09-01T09:16:26.327814Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528278Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3744,7 +3744,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python 3.11+ for helper scripts; LaTeX and Poppler command-line tools are optional for compilation and PDF inspection.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3755,13 +3755,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/venue-templates",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/venue-templates",
-        "last_synced": "2026-09-01T09:16:26.328215Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528573Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3793,7 +3793,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.10+ with `waypoint-bio` (pulls torch, transformers, datasets, peft, scikit-learn). Needs network access and a Hugging Face token with access granted to the gated outpost-bio repos. A GPU is strongly recommended for pretraining and benchmarking.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc.",
           "upstream-version": "waypoint-bio 1.0.2 (PyPI); GitHub main 1.0.4",
           "last-reviewed": "2026-08-17",
@@ -3807,13 +3807,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/waypoint-bio",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/waypoint-bio",
-        "last_synced": "2026-09-01T09:16:26.328306Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528668Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3845,7 +3845,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3856,13 +3856,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/arbor",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arbor",
-        "last_synced": "2026-09-01T09:16:26.309278Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.515886Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3893,7 +3893,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": null,
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -3904,13 +3904,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/arboreto",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/arboreto",
-        "last_synced": "2026-09-01T09:16:26.309544Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516048Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -3940,7 +3940,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"requires\": {\"bins\": [\"screenpipe\"]}, \"primaryEnv\": \"SCREENPIPE_TOKEN\", \"envVars\": [{\"name\": \"SCREENPIPE_TOKEN\", \"required\": true, \"description\": \"Auth token for the local screenpipe daemon.\"}, {\"name\": \"ANTHROPIC_API_KEY\", \"required\": false, \"description\": \"For Claude API calls during skill drafting.\"}, {\"name\": \"FOUNDRY_API_KEY\", \"required\": false, \"description\": \"Optional Foundry access for drafting.\"}]}"
         },
@@ -3952,13 +3952,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/autoskill",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/autoskill",
-        "last_synced": "2026-09-01T09:16:26.309727Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516165Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4001,13 +4001,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/bids",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bids",
-        "last_synced": "2026-09-01T09:16:26.310084Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516397Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4037,7 +4037,7 @@
         "license": "MIT",
         "compatibility": null,
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -4048,13 +4048,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/bulk-rnaseq",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bulk-rnaseq",
-        "last_synced": "2026-09-01T09:16:26.310376Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516599Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4100,13 +4100,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/imaging-data-commons",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/imaging-data-commons",
-        "last_synced": "2026-09-01T09:16:26.315168Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520745Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4138,7 +4138,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "1.7",
+          "version": "1.8",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"OPENROUTER_API_KEY\", \"envVars\": [{\"name\": \"OPENROUTER_API_KEY\", \"required\": false, \"description\": \"OpenRouter API key for the skill's LLM-powered steps.\"}]}"
         },
@@ -4150,13 +4150,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/literature-review",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/literature-review",
-        "last_synced": "2026-09-01T09:16:26.316151Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521388Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4187,7 +4187,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "2.3",
+          "version": "2.4",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"ANTHROPIC_API_KEY\", \"envVars\": [{\"name\": \"ANTHROPIC_API_KEY\", \"required\": false, \"description\": \"For optional Claude API calls.\"}]}"
         },
@@ -4199,13 +4199,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/neuropixels-analysis",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/neuropixels-analysis",
-        "last_synced": "2026-09-01T09:16:26.317539Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522271Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4236,7 +4236,7 @@
         "license": "MIT",
         "compatibility": null,
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"envVars\": [{\"name\": \"OPEN_NOTEBOOK_URL\", \"required\": true, \"description\": \"Open Notebook server URL.\"}, {\"name\": \"OPEN_NOTEBOOK_PASSWORD\", \"required\": false, \"description\": \"Open Notebook password, if auth is enabled.\"}, {\"name\": \"OPEN_NOTEBOOK_ENCRYPTION_KEY\", \"required\": false, \"description\": \"Encryption key for stored content, if configured.\"}]}"
         },
@@ -4248,13 +4248,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/open-notebook",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/open-notebook",
-        "last_synced": "2026-09-01T09:16:26.318294Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522772Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4298,13 +4298,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pacsomatic",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pacsomatic",
-        "last_synced": "2026-09-01T09:16:26.318786Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523096Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4334,7 +4334,7 @@
         "license": "MIT",
         "compatibility": null,
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -4345,13 +4345,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pathway-enrichment",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pathway-enrichment",
-        "last_synced": "2026-09-01T09:16:26.319733Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523725Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4393,13 +4393,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/phylogenetics",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/phylogenetics",
-        "last_synced": "2026-09-01T09:16:26.320326Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524118Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4429,7 +4429,7 @@
         "license": "BSD-3-Clause",
         "compatibility": null,
         "metadata": {
-          "version": "1.5",
+          "version": "1.6",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -4440,13 +4440,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scanpy",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scanpy",
-        "last_synced": "2026-09-01T09:16:26.324798Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526233Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4476,7 +4476,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "1.6",
+          "version": "1.7",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"OPENROUTER_API_KEY\", \"envVars\": [{\"name\": \"OPENROUTER_API_KEY\", \"required\": false, \"description\": \"OpenRouter API key for the skill's LLM-powered steps.\"}]}"
         },
@@ -4488,13 +4488,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scientific-schematics",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-schematics",
-        "last_synced": "2026-09-01T09:16:26.325199Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526502Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4525,7 +4525,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "1.7",
+          "version": "1.8",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"OPENROUTER_API_KEY\", \"envVars\": [{\"name\": \"OPENROUTER_API_KEY\", \"required\": false, \"description\": \"OpenRouter API key for the skill's LLM-powered steps.\"}]}"
         },
@@ -4537,13 +4537,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scientific-slides",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-slides",
-        "last_synced": "2026-09-01T09:16:26.325297Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526572Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4574,7 +4574,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -4585,13 +4585,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/statistical-analysis",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statistical-analysis",
-        "last_synced": "2026-09-01T09:16:26.326359Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527275Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4634,13 +4634,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/timesfm-forecasting",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/timesfm-forecasting",
-        "last_synced": "2026-09-01T09:16:26.327208Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527851Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -4671,7 +4671,7 @@
         "license": "MIT license",
         "compatibility": "Requires network access to api.parallel.ai through parallel-cli 0.7.1+ for Search, Extract, and Research; explicit Chat uses api.parallel.ai with PARALLEL_API_KEY; optional Perplexity requests use openrouter.ai and require OPENROUTER_API_KEY.",
         "metadata": {
-          "version": "1.4",
+          "version": "1.5",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"PARALLEL_API_KEY\", \"envVars\": [{\"name\": \"PARALLEL_API_KEY\", \"required\": false, \"description\": \"Parallel API key; CLI login may be used instead.\"}, {\"name\": \"OPENROUTER_API_KEY\", \"required\": false, \"description\": \"Optional OpenRouter key for explicit Perplexity use.\"}]}"
         },
@@ -4683,13 +4683,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/research-lookup",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/research-lookup",
-        "last_synced": "2026-09-01T09:16:26.324552Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526070Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -4733,13 +4733,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/xlsx",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/xlsx",
-        "last_synced": "2026-09-01T09:16:26.328606Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528830Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -4783,13 +4783,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/docx",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/docx",
-        "last_synced": "2026-09-01T09:16:26.312287Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517853Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -4831,13 +4831,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pdf",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pdf",
-        "last_synced": "2026-09-01T09:16:26.319986Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523892Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -4879,13 +4879,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pptx",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pptx",
-        "last_synced": "2026-09-01T09:16:26.321026Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524579Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -4915,7 +4915,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.10+ and the aeon package (uv pip install). Optional aeon[all_extras] for deep learning and extended dependencies.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -4926,13 +4926,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/aeon",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/aeon",
-        "last_synced": "2026-09-01T09:16:26.308791Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.515572Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -4962,7 +4962,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.11+ and uv. Examples target AnnData 0.12.16, with experimental APIs clearly marked where used.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -4973,13 +4973,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/anndata",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/anndata",
-        "last_synced": "2026-09-01T09:16:26.309117Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.515816Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5009,7 +5009,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.11+ with astropy installed (uv for package installation). Some features (object name resolution, site lookups, remote FITS reads, IERS updates) need network access.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5020,13 +5020,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/astropy",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/astropy",
-        "last_synced": "2026-09-01T09:16:26.309640Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516112Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5057,7 +5057,7 @@
         "license": "MIT",
         "compatibility": "Requires a Benchling account, tenant URL, and API key or OAuth app credentials. Install benchling-sdk with uv pip install.",
         "metadata": {
-          "version": "1.4",
+          "version": "1.5",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"BENCHLING_API_KEY\", \"envVars\": [{\"name\": \"BENCHLING_TENANT_URL\", \"required\": true, \"description\": \"Benchling tenant base URL.\"}, {\"name\": \"BENCHLING_API_KEY\", \"required\": false, \"description\": \"API key auth (alternative to OAuth).\"}, {\"name\": \"BENCHLING_CLIENT_ID\", \"required\": false, \"description\": \"OAuth app client id.\"}, {\"name\": \"BENCHLING_CLIENT_SECRET\", \"required\": false, \"description\": \"OAuth app client secret.\"}, {\"name\": \"BENCHLING_PROD_TENANT_URL\", \"required\": false, \"description\": \"Production tenant URL (multi-env setups).\"}, {\"name\": \"BENCHLING_PROD_API_KEY\", \"required\": false, \"description\": \"Production API key (multi-env setups).\"}, {\"name\": \"BENCHLING_STAGING_TENANT_URL\", \"required\": false, \"description\": \"Staging tenant URL (multi-env setups).\"}, {\"name\": \"BENCHLING_STAGING_API_KEY\", \"required\": false, \"description\": \"Staging API key (multi-env setups).\"}]}"
         },
@@ -5069,13 +5069,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/benchling-integration",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/benchling-integration",
-        "last_synced": "2026-09-01T09:16:26.309904Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516278Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5109,7 +5109,7 @@
         "license": "Biopython License Agreement",
         "compatibility": "Requires Python 3.10+, NumPy, and Biopython. Entrez and web BLAST examples require network access; local BLAST/MUSCLE examples require those command-line tools installed separately.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"envVars\": [{\"name\": \"NCBI_EMAIL\", \"required\": false, \"description\": \"Email for NCBI Entrez identification (required by NCBI policy for Entrez calls).\"}, {\"name\": \"NCBI_API_KEY\", \"required\": false, \"description\": \"NCBI API key to raise Entrez rate limits.\"}]}"
         },
@@ -5121,13 +5121,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/biopython",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/biopython",
-        "last_synced": "2026-09-01T09:16:26.310184Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516463Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5157,7 +5157,7 @@
         "license": "MIT",
         "compatibility": "Requires Python >=3.10,<3.13. Examples target cellxgene-census 1.17.x and the 2025-11-08 stable LTS Census; spatial workflows need the spatial extra and TileDB-SOMA >=1.15.5. No authentication is required for public Census data.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5168,13 +5168,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/cellxgene-census",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cellxgene-census",
-        "last_synced": "2026-09-01T09:16:26.310621Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516752Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5205,7 +5205,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.10+ and dask 2025.1+. DataFrame workflows need pandas 2+ and PyArrow 16+. Cloud paths (s3://, gcs://) need s3fs or gcsfs. Cluster deployment uses dask.distributed (included with dask[complete]).",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5216,13 +5216,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/dask",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dask",
-        "last_synced": "2026-09-01T09:16:26.311346Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517238Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5252,7 +5252,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "Requires Python 3.8+ and datamol (uv pip install). RDKit is installed automatically as a datamol dependency (since 0.12.2). Optional s3fs/gcsfs for cloud I/O via fsspec.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5263,13 +5263,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/datamol",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/datamol",
-        "last_synced": "2026-09-01T09:16:26.311538Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517354Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5312,13 +5312,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/genomic-intelligence",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/genomic-intelligence",
-        "last_synced": "2026-09-01T09:16:26.313746Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.519826Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5351,7 +5351,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "Requires Python 3.8–3.11 (histolab 0.7.0), OpenSlide system libraries, and Linux or macOS. Sample data via histolab.data requires pooch.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5362,13 +5362,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/histolab",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/histolab",
-        "last_synced": "2026-09-01T09:16:26.314735Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520444Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5398,7 +5398,7 @@
         "license": "",
         "compatibility": null,
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5409,13 +5409,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/hugging-science",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/hugging-science",
-        "last_synced": "2026-09-01T09:16:26.314839Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520512Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -5447,7 +5447,8 @@
         "license": "",
         "compatibility": null,
         "metadata": {
-          "version": "1.6",
+          "version": "1.7",
+          "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"OPENROUTER_API_KEY\", \"envVars\": [{\"name\": \"OPENROUTER_API_KEY\", \"required\": false, \"description\": \"OpenRouter API key for the skill's LLM-powered steps.\"}]}"
         },
         "allowed_tools": null
@@ -5458,13 +5459,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/infographics",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/infographics",
-        "last_synced": "2026-09-01T09:16:26.315290Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520824Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -5494,7 +5495,8 @@
         "license": "",
         "compatibility": null,
         "metadata": {
-          "version": "1.6",
+          "version": "1.7",
+          "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"OPENROUTER_API_KEY\", \"envVars\": [{\"name\": \"OPENROUTER_API_KEY\", \"required\": false, \"description\": \"OpenRouter API key for the skill's LLM-powered steps.\"}]}"
         },
         "allowed_tools": null
@@ -5505,13 +5507,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/latex-posters",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/latex-posters",
-        "last_synced": "2026-09-01T09:16:26.315947Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521252Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": true,
@@ -5542,7 +5544,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "Requires Python 3.9–3.10 (molfeat 0.11.0 does not support 3.11+). Requires datamol, PyTorch, and optional extras for GNN/transformer models.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5553,13 +5555,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/molfeat",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/molfeat",
-        "last_synced": "2026-09-01T09:16:26.317101Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521993Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5589,7 +5591,7 @@
         "license": "MIT",
         "compatibility": "Requires an NVIDIA CUDA-capable GPU for GPU execution. RAPIDS 26.06 requires Python 3.11+ on Linux or WSL2 and matching CUDA 12 or 13 wheels. Package installation needs network access.",
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense, Inc."
         },
         "allowed_tools": null
@@ -5600,13 +5602,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/optimize-for-gpu",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/optimize-for-gpu",
-        "last_synced": "2026-09-01T09:16:26.318647Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523004Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5638,7 +5640,7 @@
         "license": "MIT",
         "compatibility": "Requires macOS or Linux with a POSIX shell and network access; the native installer does not support Windows (use the hosted MCP server there). Installs a self-contained CLI under ~/.paperclip — no Python environment of your own is needed. Authenticate with a PAPERCLIP_API_KEY exported from a .env file or the environment; browser OAuth is an interactive fallback the user must run. Verified against paperclip 0.7.14 and 0.7.15.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"PAPERCLIP_API_KEY\", \"envVars\": [{\"name\": \"PAPERCLIP_API_KEY\", \"required\": false, \"description\": \"Paperclip API key from https://paperclip.gxl.ai/keys. Preferred over browser OAuth. Not required — the skill also covers installing the CLI and signing in interactively.\"}]}"
         },
@@ -5650,13 +5652,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/paperclip",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paperclip",
-        "last_synced": "2026-09-01T09:16:26.319060Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523288Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5687,8 +5689,8 @@
         "license": "MIT",
         "compatibility": "Requires parallel-cli and internet access.",
         "metadata": {
-          "version": "1.2",
-          "author": "K-Dense, Inc.",
+          "version": "1.3",
+          "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"PARALLEL_API_KEY\", \"envVars\": [{\"name\": \"PARALLEL_API_KEY\", \"required\": true, \"description\": \"Parallel API key.\"}]}"
         },
         "allowed_tools": null
@@ -5699,13 +5701,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/parallel-web",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/parallel-web",
-        "last_synced": "2026-09-01T09:16:26.319322Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523466Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5737,7 +5739,7 @@
         "license": "MIT",
         "compatibility": "Requires Node.js >= 22.19 and npm for Pi CLI and SDK usage. Pi package name is @earendil-works/pi-coding-agent.",
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5748,13 +5750,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pi-agent",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pi-agent",
-        "last_synced": "2026-09-01T09:16:26.320423Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524172Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5786,7 +5788,7 @@
         "license": "Apache-2.0",
         "compatibility": "Requires Python 3.11–3.14 and polars-bio (uv pip install). Cloud I/O uses standard AWS/GCS/Azure SDK env vars when paths use s3://, gs://, or az:// URIs.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5797,13 +5799,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/polars-bio",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/polars-bio",
-        "last_synced": "2026-09-01T09:16:26.320772Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524403Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5834,7 +5836,7 @@
         "license": "https://github.com/pola-rs/polars/blob/main/LICENSE",
         "compatibility": "Requires Python 3.10+ for polars 1.41.x. Install with uv pip install; optional extras enable Excel, database, cloud, pandas/NumPy, and GPU integrations.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5845,13 +5847,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/polars",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/polars",
-        "last_synced": "2026-09-01T09:16:26.320858Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524459Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5882,7 +5884,7 @@
         "license": "Unknown",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc. (PrimeKG original from Harvard MIMS)"
         },
         "allowed_tools": null
@@ -5893,13 +5895,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/primekg",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/primekg",
-        "last_synced": "2026-09-01T09:16:26.321219Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524710Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": true,
         "has_references": false,
@@ -5929,7 +5931,7 @@
         "license": "MIT License",
         "compatibility": "Requires Python 3.10+ and pyzotero 1.13+. Web API access needs a Zotero API key. Optional CLI and MCP extras require Zotero 7 with local API access enabled.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"primaryEnv\": \"ZOTERO_API_KEY\", \"envVars\": [{\"name\": \"ZOTERO_API_KEY\", \"required\": true, \"description\": \"Zotero API key.\"}, {\"name\": \"ZOTERO_LIBRARY_ID\", \"required\": true, \"description\": \"Zotero library id.\"}, {\"name\": \"ZOTERO_LIBRARY_TYPE\", \"required\": false, \"description\": \"Zotero library type: 'user' or 'group' (default 'user').\"}]}"
         },
@@ -5941,13 +5943,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pyzotero",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pyzotero",
-        "last_synced": "2026-09-01T09:16:26.322509Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.525560Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -5980,7 +5982,7 @@
         "license": "MIT license",
         "compatibility": "Works in Agent Skills-compatible hosts. Grant-writing guidance needs no network; optional figures via the scientific-schematics skill require OPENROUTER_API_KEY and outbound API access.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -5991,13 +5993,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/research-grants",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/research-grants",
-        "last_synced": "2026-09-01T09:16:26.324465Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526014Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6041,13 +6043,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/rowan",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/rowan",
-        "last_synced": "2026-09-01T09:16:26.324675Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526151Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6079,7 +6081,7 @@
         "license": "MIT license",
         "compatibility": "Analytical guidance needs no network. Optional figures via the scientific-schematics skill require OPENROUTER_API_KEY and outbound API access to OpenRouter.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6090,13 +6092,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scientific-critical-thinking",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scientific-critical-thinking",
-        "last_synced": "2026-09-01T09:16:26.325099Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526436Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6128,7 +6130,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.8+ and seaborn 0.13.2-compatible dependencies. Install with uv pip install seaborn==0.13.2; use seaborn[stats]==0.13.2 when advanced regression or clustering examples need scipy/statsmodels.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6139,13 +6141,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/seaborn",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/seaborn",
-        "last_synced": "2026-09-01T09:16:26.326012Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527045Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6175,7 +6177,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.9+ and statsmodels 0.14.6-compatible dependencies. Use `uv pip install statsmodels==0.14.6`; optional predictive-metric examples also need scikit-learn.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6186,13 +6188,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/statsmodels",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/statsmodels",
-        "last_synced": "2026-09-01T09:16:26.326745Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527541Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6223,7 +6225,7 @@
         "license": "https://github.com/sympy/sympy/blob/master/LICENSE",
         "compatibility": "Requires Python 3.9+ and SymPy 1.14+. Optional NumPy/SciPy/Matplotlib for lambdify examples; C/Fortran compiler for autowrap/codegen.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6234,13 +6236,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/sympy",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/sympy",
-        "last_synced": "2026-09-01T09:16:26.326841Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527603Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6285,13 +6287,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/tamarind",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/tamarind",
-        "last_synced": "2026-09-01T09:16:26.326930Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527664Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6323,7 +6325,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python 3.10+, PyTorch 2.6+, and torch-geometric 2.7.x. Optional extension wheels (pyg-lib, torch-scatter, torch-sparse, torch-cluster) must match your PyTorch/CUDA build from https://data.pyg.org/whl.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6334,13 +6336,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/torch-geometric",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/torch-geometric",
-        "last_synced": "2026-09-01T09:16:26.327306Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527936Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6371,7 +6373,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "TorchDrug 0.2.1 requires Python 3.7-3.10 and supports PyTorch 1.8-2.0. Apple Silicon is CPU-only; MPS is unsupported.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6382,13 +6384,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/torchdrug",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/torchdrug",
-        "last_synced": "2026-09-01T09:16:26.327426Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528009Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6418,7 +6420,7 @@
         "license": "Apache-2.0 license",
         "compatibility": "Requires Python 3.10+, PyTorch 2.4+, and transformers 5.x. Gated or private Hub models need an HF token (`hf auth login` or `HF_TOKEN`).",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6429,13 +6431,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/transformers",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/transformers",
-        "last_synced": "2026-09-01T09:16:26.327519Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528071Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6465,7 +6467,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python 3.10+ (3.12+ recommended with vaex 4.19.0). Install with uv pip install vaex. Optional s3fs/gcsfs/adlfs for cloud I/O.",
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6476,13 +6478,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/vaex",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/vaex",
-        "last_synced": "2026-09-01T09:16:26.328094Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528472Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6512,7 +6514,7 @@
         "license": "MIT license",
         "compatibility": "Requires Python 3.12+ and zarr 3.x. Cloud I/O needs zarr[remote] plus pinned s3fs or gcsfs. Legacy Zarr v2 workflows need exact 2.x pins on older Python.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6523,13 +6525,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/zarr-python",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/zarr-python",
-        "last_synced": "2026-09-01T09:16:26.328720Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528906Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6560,7 +6562,7 @@
         "license": "Apache-2.0 license",
         "compatibility": null,
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6571,13 +6573,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/cirq",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cirq",
-        "last_synced": "2026-09-01T09:16:26.310745Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516832Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6607,7 +6609,7 @@
         "license": "MIT",
         "compatibility": null,
         "metadata": {
-          "version": "1.3",
+          "version": "1.4",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6618,13 +6620,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/database-lookup",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/database-lookup",
-        "last_synced": "2026-09-01T09:16:26.311454Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517299Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6655,7 +6657,7 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6666,13 +6668,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/esm",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/esm",
-        "last_synced": "2026-09-01T09:16:26.312482Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517974Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6704,7 +6706,7 @@
         "license": "MIT License",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6715,13 +6717,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/geomaster",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/geomaster",
-        "last_synced": "2026-09-01T09:16:26.313999Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.519961Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6754,7 +6756,8 @@
         "license": "MIT license",
         "compatibility": null,
         "metadata": {
-          "version": "2.0"
+          "version": "2.1",
+          "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
       },
@@ -6764,13 +6767,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/ginkgo-cloud-lab",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/ginkgo-cloud-lab",
-        "last_synced": "2026-09-01T09:16:26.314438Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520243Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6802,7 +6805,7 @@
         "license": "Apache-2.0 license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6813,13 +6816,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/lamindb",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/lamindb",
-        "last_synced": "2026-09-01T09:16:26.315758Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521131Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6863,13 +6866,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/markdown-mermaid-writing",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/markdown-mermaid-writing",
-        "last_synced": "2026-09-01T09:16:26.316274Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521469Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6901,7 +6904,7 @@
         "license": "Apache-2.0",
         "compatibility": null,
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc.",
           "openclaw": "{\"envVars\": [{\"name\": \"MODAL_TOKEN_ID\", \"required\": true, \"description\": \"Modal token id.\"}, {\"name\": \"MODAL_TOKEN_SECRET\", \"required\": true, \"description\": \"Modal token secret.\"}, {\"name\": \"DATABASE_URL\", \"required\": false, \"description\": \"Optional database URL for examples.\"}]}"
         },
@@ -6913,13 +6916,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/modal",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/modal",
-        "last_synced": "2026-09-01T09:16:26.316920Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521875Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6951,7 +6954,7 @@
         "license": "3-clause BSD license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -6962,13 +6965,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/networkx",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/networkx",
-        "last_synced": "2026-09-01T09:16:26.317294Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522122Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -6999,7 +7002,7 @@
         "license": "Apache-2.0",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7010,13 +7013,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/nextflow",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/nextflow",
-        "last_synced": "2026-09-01T09:16:26.317654Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.522345Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7050,7 +7053,7 @@
         "license": "Apache-2.0 license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7061,13 +7064,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pennylane",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pennylane",
-        "last_synced": "2026-09-01T09:16:26.320218Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524045Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7097,7 +7100,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7108,13 +7111,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scvi-tools",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scvi-tools",
-        "last_synced": "2026-09-01T09:16:26.325924Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526984Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7145,7 +7148,7 @@
         "license": "MIT",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7156,13 +7159,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/usfiscaldata",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/usfiscaldata",
-        "last_synced": "2026-09-01T09:16:26.328000Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528408Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7193,7 +7196,7 @@
         "license": "MIT",
         "compatibility": "Requires Python 3.10+, an Adaptyv Foundry account, and an API key from foundry.adaptyvbio.com. Install adaptyv-sdk from GitHub with uv pip install.",
         "metadata": {
-          "version": "1.2",
+          "version": "1.3",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7204,13 +7207,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/adaptyv",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/adaptyv",
-        "last_synced": "2026-09-01T09:16:26.308670Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.515478Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7243,7 +7246,7 @@
         "license": "GPL-2.0 license",
         "compatibility": "Requires Python 3.9+ (cobra 0.30+ dropped 3.8). Install with uv pip install. GLPK (swiglpk) is the default solver; CPLEX/Gurobi optional. load_model fetches from bundled data, BiGG, or BioModels (network required for remote models).",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7254,13 +7257,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/cobrapy",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/cobrapy",
-        "last_synced": "2026-09-01T09:16:26.311143Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517091Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7301,13 +7304,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/deepspot-m",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/deepspot-m",
-        "last_synced": "2026-09-01T09:16:26.311744Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517485Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7337,7 +7340,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": "Requires Python 3.10+ and scikit-bio 0.7+ (uv pip install scikit-bio). NumPy 2.0+ is required. Optional matplotlib/seaborn/plotly for plotting; biom-format for BIOM tables; polars/anndata for table interoperability.",
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7348,13 +7351,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/scikit-bio",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/scikit-bio",
-        "last_synced": "2026-09-01T09:16:26.325588Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.526763Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7396,13 +7399,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/consciousness-council",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/consciousness-council",
-        "last_synced": "2026-09-01T09:16:26.311207Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517143Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7444,13 +7447,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/depmap",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/depmap",
-        "last_synced": "2026-09-01T09:16:26.311908Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517599Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7491,13 +7494,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/dhdna-profiler",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/dhdna-profiler",
-        "last_synced": "2026-09-01T09:16:26.311990Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.517654Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7539,13 +7542,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/glycoengineering",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/glycoengineering",
-        "last_synced": "2026-09-01T09:16:26.314577Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.520334Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7586,13 +7589,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/molecular-dynamics",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/molecular-dynamics",
-        "last_synced": "2026-09-01T09:16:26.317012Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.521934Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7623,7 +7626,7 @@
         "license": "BSD-3-Clause license",
         "compatibility": null,
         "metadata": {
-          "version": "1.1",
+          "version": "1.2",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7634,13 +7637,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/umap-learn",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/umap-learn",
-        "last_synced": "2026-09-01T09:16:26.327742Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528227Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7684,13 +7687,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/what-if-oracle",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/what-if-oracle",
-        "last_synced": "2026-09-01T09:16:26.328497Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.528757Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7721,7 +7724,7 @@
         "license": "",
         "compatibility": null,
         "metadata": {
-          "version": "1.0",
+          "version": "1.1",
           "skill-author": "K-Dense Inc."
         },
         "allowed_tools": null
@@ -7732,13 +7735,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/pyhealth",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/pyhealth",
-        "last_synced": "2026-09-01T09:16:26.321630Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.524971Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": true,
@@ -7781,13 +7784,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/bgpt-paper-search",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/bgpt-paper-search",
-        "last_synced": "2026-09-01T09:16:26.309983Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.516331Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -7831,13 +7834,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/paperzilla",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/paperzilla",
-        "last_synced": "2026-09-01T09:16:26.319239Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.523411Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -7878,13 +7881,13 @@
         "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
         "source_path": "skills/tiledbvcf",
         "install_url": "https://github.com/K-Dense-AI/scientific-agent-skills/tree/main/skills/tiledbvcf",
-        "last_synced": "2026-09-01T09:16:26.327133Z",
-        "upstream_commit": "1dd0fccf46fc",
+        "last_synced": "2026-09-03T08:39:35.527802Z",
+        "upstream_commit": "1e5eeffbdad3",
         "repo": "k-dense-ai/scientific-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 41142,
+        "repo_stars": 42216,
         "last_commit_date": null,
         "has_scripts": false,
         "has_references": false,
@@ -7908,5 +7911,5 @@
     }
   ],
   "total": 163,
-  "generated_at": "2026-09-02T08:31:12.549640+00:00"
+  "generated_at": "2026-09-03T08:39:36.703727+00:00"
 }
