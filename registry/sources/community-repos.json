@@ -17,7 +17,7 @@
         "source_url": "https://github.com/qdrant/skills",
         "source_path": "",
         "install_url": "https://github.com/qdrant/skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.879766Z",
+        "last_synced": "2026-09-06T08:25:57.797797Z",
         "upstream_commit": "",
         "repo": "qdrant/skills",
         "alternate_sources": [
@@ -67,14 +67,14 @@
         "source_url": "https://github.com/NVIDIA/skills",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.879900Z",
+        "last_synced": "2026-09-06T08:25:57.797883Z",
         "upstream_commit": "",
         "repo": "nvidia/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3207,
-        "last_commit_date": "2026-09-05",
+        "repo_stars": 3211,
+        "last_commit_date": "2026-09-06",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -112,7 +112,7 @@
         "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
         "source_path": "",
         "install_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main",
-        "last_synced": "2026-09-05T08:08:25.881022Z",
+        "last_synced": "2026-09-06T08:25:57.798777Z",
         "upstream_commit": "",
         "repo": "orchestra-research/ai-research-skills",
         "alternate_sources": [
@@ -120,7 +120,7 @@
         ]
       },
       "signals": {
-        "repo_stars": 12324,
+        "repo_stars": 12353,
         "last_commit_date": "2026-06-16",
         "has_scripts": false,
         "has_references": false,
@@ -159,13 +159,13 @@
         "source_url": "https://github.com/snyk/agent-scan",
         "source_path": "",
         "install_url": "https://github.com/snyk/agent-scan/tree/main",
-        "last_synced": "2026-09-05T08:08:25.879516Z",
+        "last_synced": "2026-09-06T08:25:57.797586Z",
         "upstream_commit": "",
         "repo": "snyk/agent-scan",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3008,
+        "repo_stars": 3013,
         "last_commit_date": "2026-09-04",
         "has_scripts": false,
         "has_references": false,
@@ -205,14 +205,14 @@
         "source_url": "https://github.com/google/skills",
         "source_path": "",
         "install_url": "https://github.com/google/skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.879838Z",
+        "last_synced": "2026-09-06T08:25:57.797852Z",
         "upstream_commit": "",
         "repo": "google/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 19531,
-        "last_commit_date": "2026-09-04",
+        "repo_stars": 19570,
+        "last_commit_date": "2026-09-06",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -249,7 +249,7 @@
         "source_url": "https://github.com/antonbabenko/terraform-skill",
         "source_path": "",
         "install_url": "https://github.com/antonbabenko/terraform-skill/tree/master",
-        "last_synced": "2026-09-05T08:08:25.879372Z",
+        "last_synced": "2026-09-06T08:25:57.797480Z",
         "upstream_commit": "",
         "repo": "antonbabenko/terraform-skill",
         "alternate_sources": [
@@ -296,13 +296,13 @@
         "source_url": "https://github.com/bergside/awesome-design-skills",
         "source_path": "",
         "install_url": "https://github.com/bergside/awesome-design-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.879701Z",
+        "last_synced": "2026-09-06T08:25:57.797744Z",
         "upstream_commit": "",
         "repo": "bergside/awesome-design-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2675,
+        "repo_stars": 2688,
         "last_commit_date": "2026-06-28",
         "has_scripts": false,
         "has_references": false,
@@ -342,7 +342,7 @@
         "source_url": "https://github.com/resend/resend-skills",
         "source_path": "",
         "install_url": "https://github.com/resend/resend-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.879983Z",
+        "last_synced": "2026-09-06T08:25:57.797948Z",
         "upstream_commit": "",
         "repo": "resend/resend-skills",
         "alternate_sources": []
@@ -387,13 +387,13 @@
         "source_url": "https://github.com/deanpeters/Product-Manager-Skills",
         "source_path": "",
         "install_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880370Z",
+        "last_synced": "2026-09-06T08:25:57.798279Z",
         "upstream_commit": "",
         "repo": "deanpeters/product-manager-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 6829,
+        "repo_stars": 6842,
         "last_commit_date": "2026-09-01",
         "has_scripts": false,
         "has_references": false,
@@ -433,13 +433,13 @@
         "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
         "source_path": "",
         "install_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880256Z",
+        "last_synced": "2026-09-06T08:25:57.798192Z",
         "upstream_commit": "",
         "repo": "avdlee/swiftui-agent-skill",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3491,
+        "repo_stars": 3496,
         "last_commit_date": "2026-08-12",
         "has_scripts": false,
         "has_references": false,
@@ -464,6 +464,54 @@
       "score": 55
     },
     {
+      "skill_id": "rudrankriyam/app-store-connect-cli-skills",
+      "spec": {
+        "name": "app-store-connect-cli-skills",
+        "description": "Skills to automate app store deployed and everything related to it using the asc cli",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
+        "source_path": "",
+        "install_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/tree/main",
+        "last_synced": "2026-09-06T08:25:57.798234Z",
+        "upstream_commit": "",
+        "repo": "rudrankriyam/app-store-connect-cli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1007,
+        "last_commit_date": "2026-09-05",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "app",
+        "cli",
+        "connect",
+        "skills",
+        "store"
+      ],
+      "score": 55
+    },
+    {
       "skill_id": "cypress-io/ai-toolkit",
       "spec": {
         "name": "ai-toolkit",
@@ -479,7 +527,7 @@
         "source_url": "https://github.com/cypress-io/ai-toolkit",
         "source_path": "",
         "install_url": "https://github.com/cypress-io/ai-toolkit/tree/main",
-        "last_synced": "2026-09-05T08:08:25.879426Z",
+        "last_synced": "2026-09-06T08:25:57.797522Z",
         "upstream_commit": "",
         "repo": "cypress-io/ai-toolkit",
         "alternate_sources": []
@@ -523,7 +571,7 @@
         "source_url": "https://github.com/veniceai/skills",
         "source_path": "",
         "install_url": "https://github.com/veniceai/skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880035Z",
+        "last_synced": "2026-09-06T08:25:57.797987Z",
         "upstream_commit": "",
         "repo": "veniceai/skills",
         "alternate_sources": []
@@ -568,13 +616,13 @@
         "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
         "source_path": "",
         "install_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880673Z",
+        "last_synced": "2026-09-06T08:25:57.798511Z",
         "upstream_commit": "",
         "repo": "gamedev-skills/awesome-gamedev-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 833,
+        "repo_stars": 845,
         "last_commit_date": "2026-08-24",
         "has_scripts": false,
         "has_references": false,
@@ -616,7 +664,7 @@
         "source_url": "https://github.com/machina-sports/sports-skills",
         "source_path": "",
         "install_url": "https://github.com/machina-sports/sports-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880785Z",
+        "last_synced": "2026-09-06T08:25:57.798603Z",
         "upstream_commit": "",
         "repo": "machina-sports/sports-skills",
         "alternate_sources": []
@@ -647,54 +695,6 @@
       "score": 54
     },
     {
-      "skill_id": "rudrankriyam/app-store-connect-cli-skills",
-      "spec": {
-        "name": "app-store-connect-cli-skills",
-        "description": "Skills to automate app store deployed and everything related to it using the asc cli",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
-        "source_path": "",
-        "install_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880311Z",
-        "upstream_commit": "",
-        "repo": "rudrankriyam/app-store-connect-cli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1005,
-        "last_commit_date": "2026-08-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "app",
-        "cli",
-        "connect",
-        "skills",
-        "store"
-      ],
-      "score": 53
-    },
-    {
       "skill_id": "seb1n/awesome-ai-agent-skills",
       "spec": {
         "name": "awesome-ai-agent-skills",
@@ -710,13 +710,13 @@
         "source_url": "https://github.com/seb1n/awesome-ai-agent-skills",
         "source_path": "",
         "install_url": "https://github.com/seb1n/awesome-ai-agent-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880585Z",
+        "last_synced": "2026-09-06T08:25:57.798441Z",
         "upstream_commit": "",
         "repo": "seb1n/awesome-ai-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 173,
+        "repo_stars": 174,
         "last_commit_date": "2026-08-09",
         "has_scripts": false,
         "has_references": false,
@@ -758,13 +758,13 @@
         "source_url": "https://github.com/arpitg1304/robotics-agent-skills",
         "source_path": "",
         "install_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880849Z",
+        "last_synced": "2026-09-06T08:25:57.798663Z",
         "upstream_commit": "",
         "repo": "arpitg1304/robotics-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 353,
+        "repo_stars": 354,
         "last_commit_date": "2026-08-12",
         "has_scripts": false,
         "has_references": false,
@@ -804,13 +804,13 @@
         "source_url": "https://github.com/alpacahq/alpaca-skills",
         "source_path": "",
         "install_url": "https://github.com/alpacahq/alpaca-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880093Z",
+        "last_synced": "2026-09-06T08:25:57.798032Z",
         "upstream_commit": "",
         "repo": "alpacahq/alpaca-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 142,
+        "repo_stars": 143,
         "last_commit_date": "2026-09-02",
         "has_scripts": false,
         "has_references": false,
@@ -850,7 +850,7 @@
         "source_url": "https://github.com/TerminalSkills/skills",
         "source_path": "",
         "install_url": "https://github.com/TerminalSkills/skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880521Z",
+        "last_synced": "2026-09-06T08:25:57.798390Z",
         "upstream_commit": "",
         "repo": "terminalskills/skills",
         "alternate_sources": []
@@ -895,7 +895,7 @@
         "source_url": "https://github.com/op7418/NanoBanana-PPT-Skills",
         "source_path": "SKILL.md",
         "install_url": "https://github.com/op7418/NanoBanana-PPT-Skills/tree/main/SKILL.md",
-        "last_synced": "2026-09-05T08:08:25.879640Z",
+        "last_synced": "2026-09-06T08:25:57.797690Z",
         "upstream_commit": "",
         "repo": "op7418/nanobanana-ppt-skills",
         "alternate_sources": []
@@ -941,7 +941,7 @@
         "source_url": "https://github.com/ajhcs/healthcare-agents",
         "source_path": "",
         "install_url": "https://github.com/ajhcs/healthcare-agents/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880963Z",
+        "last_synced": "2026-09-06T08:25:57.798736Z",
         "upstream_commit": "",
         "repo": "ajhcs/healthcare-agents",
         "alternate_sources": []
@@ -986,7 +986,7 @@
         "source_url": "https://github.com/BrianRWagner/ai-marketing-skills",
         "source_path": "",
         "install_url": "https://github.com/BrianRWagner/ai-marketing-skills/tree/main",
-        "last_synced": "2026-09-05T08:08:25.880195Z",
+        "last_synced": "2026-09-06T08:25:57.798109Z",
         "upstream_commit": "",
         "repo": "brianrwagner/ai-marketing-skills",
         "alternate_sources": []
@@ -1017,5 +1017,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-09-05T08:08:27.025719+00:00"
+  "generated_at": "2026-09-06T08:25:58.843863+00:00"
 }
