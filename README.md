@@ -464,7 +464,7 @@ MIT
 |---|---|
 | **Total Skills** | 11291 |
 | **Data Sources** | 15 |
-| **Last Synced** | 2026-09-07 09:02 UTC |
+| **Last Synced** | 2026-09-08 08:42 UTC |
 
 **By Category** (top 5): development `4089` · other `1355` · devops `1253` · productivity `1093` · creative `1012`
 
@@ -487,6 +487,6 @@ MIT
   - `vercel-agent-skills`
   - `voltagent-awesome`
 
-> Last sync changes: +66 added / -63 removed / ~697 modified
+> Last sync changes: +0 added / -0 removed / ~762 modified
 
 <!-- REGISTRY-STATS-END -->
