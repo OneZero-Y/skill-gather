@@ -1,14 +1,14 @@
 {
   "total_skills": 11291,
   "sources_count": 15,
-  "last_synced": "2026-09-08T08:42:28.790661Z",
+  "last_synced": "2026-09-09T08:45:05.751295Z",
   "version": "1",
   "categories": {
     "document": 863,
     "development": 4089,
-    "devops": 1253,
     "data": 662,
     "creative": 1012,
+    "devops": 1253,
     "security": 156,
     "productivity": 1093,
     "education": 213,
@@ -67,7 +67,7 @@
   "changelog": {
     "added": 0,
     "removed": 0,
-    "modified": 762,
+    "modified": 599,
     "total_old": 11291,
     "total_new": 11291
   },
@@ -97,9 +97,9 @@
       "skipped": true
     },
     "community-repos": {
-      "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-07-24T15:13:07Z|NVIDIA/skills:2026-09-08T08:18:19Z|Orchestra-Research/AI-Research-SKILLs:2026-06-16T01:36:46Z|TerminalSkills/skills:2026-09-04T19:42:42Z|ajhcs/healthcare-agents:2026-07-19T20:53:19Z|alpacahq/alpaca-skills:2026-09-02T11:21:11Z|angular/skills:2026-09-04T14:58:27Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|arpitg1304/robotics-agent-skills:2026-08-12T01:29:38Z|bergside/awesome-design-skills:2026-06-28T10:05:22Z|coderabbitai/skills:2026-09-08T08:00:16Z|cypress-io/ai-toolkit:2026-08-28T15:06:49Z|deanpeters/Product-Manager-Skills:2026-09-01T22:34:38Z|gamedev-skills/awesome-gamedev-agent-skills:2026-08-24T12:21:02Z|google/skills:2026-09-06T18:52:16Z|ibelick/ui-skills:2026-09-06T09:58:58Z|machina-sports/sports-skills:2026-09-07T18:32:10Z|mattpocock/skills:2026-09-04T08:45:43Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-09-08T07:49:36Z|resend/resend-skills:2026-09-04T17:22:25Z|rudrankriyam/app-store-connect-cli-skills:2026-09-07T17:20:29Z|seb1n/awesome-ai-agent-skills:2026-08-09T22:29:16Z|snyk/agent-scan:2026-09-07T16:16:45Z|veniceai/skills:2026-09-07T08:08:28Z|video-db/skills:2026-09-07T03:29:24Z",
+      "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-07-24T15:13:07Z|NVIDIA/skills:2026-09-08T17:30:25Z|Orchestra-Research/AI-Research-SKILLs:2026-06-16T01:36:46Z|TerminalSkills/skills:2026-09-04T19:42:42Z|ajhcs/healthcare-agents:2026-07-19T20:53:19Z|alpacahq/alpaca-skills:2026-09-08T11:27:54Z|angular/skills:2026-09-04T14:58:27Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|arpitg1304/robotics-agent-skills:2026-08-12T01:29:38Z|bergside/awesome-design-skills:2026-06-28T10:05:22Z|coderabbitai/skills:2026-09-08T12:46:54Z|cypress-io/ai-toolkit:2026-08-28T15:06:49Z|deanpeters/Product-Manager-Skills:2026-09-01T22:34:38Z|gamedev-skills/awesome-gamedev-agent-skills:2026-09-08T14:55:04Z|google/skills:2026-09-09T01:45:31Z|ibelick/ui-skills:2026-09-06T09:58:58Z|machina-sports/sports-skills:2026-09-07T18:32:10Z|mattpocock/skills:2026-09-04T08:45:43Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-09-08T07:49:36Z|resend/resend-skills:2026-09-04T17:22:25Z|rudrankriyam/app-store-connect-cli-skills:2026-09-07T17:20:29Z|seb1n/awesome-ai-agent-skills:2026-08-09T22:29:16Z|snyk/agent-scan:2026-09-08T16:21:15Z|veniceai/skills:2026-09-07T08:08:28Z|video-db/skills:2026-09-07T03:29:24Z",
       "skill_count": 22,
-      "synced_at": "2026-09-08T08:42:28.790637+00:00",
+      "synced_at": "2026-09-09T08:45:05.751261+00:00",
       "skipped": false
     },
     "voltagent-awesome": {
@@ -121,15 +121,15 @@
       "skipped": true
     },
     "microsoft-vscode-skills": {
-      "fingerprint": "microsoft/vscode@main:35c54dc84fe3",
+      "fingerprint": "microsoft/vscode@main:0af2bfdddee6",
       "skill_count": 13,
-      "synced_at": "2026-09-08T08:42:28.790637+00:00",
+      "synced_at": "2026-09-09T08:45:05.751261+00:00",
       "skipped": false
     },
     "aws-agent-toolkit": {
-      "fingerprint": "aws/agent-toolkit-for-aws@main:7c1932ca9fc7",
+      "fingerprint": "aws/agent-toolkit-for-aws@main:fe6cf8776cc2",
       "skill_count": 104,
-      "synced_at": "2026-09-08T08:42:28.790637+00:00",
+      "synced_at": "2026-09-09T08:45:05.751261+00:00",
       "skipped": false
     },
     "voltagent-awesome-claude": {
@@ -157,22 +157,22 @@
       "skipped": true
     },
     "github-awesome-copilot": {
-      "fingerprint": "github/awesome-copilot@main:f95f1b4c3b15",
+      "fingerprint": "github/awesome-copilot@main:7568a482ce2d",
       "skill_count": 433,
-      "synced_at": "2026-09-08T08:42:28.790637+00:00",
+      "synced_at": "2026-09-09T08:45:05.751261+00:00",
       "skipped": false
     },
     "bytedance-deerflow": {
-      "fingerprint": "bytedance/deer-flow@main:c55f242451aa",
+      "fingerprint": "bytedance/deer-flow@main:0d4925305a63",
       "skill_count": 29,
-      "synced_at": "2026-09-08T08:42:28.790637+00:00",
+      "synced_at": "2026-09-09T08:45:05.751261+00:00",
       "skipped": false
     },
     "scientific-agent-skills": {
       "fingerprint": "K-Dense-AI/scientific-agent-skills@main:9cf7d9aea7d8",
       "skill_count": 163,
       "synced_at": "2026-09-08T08:42:28.790637+00:00",
-      "skipped": false
+      "skipped": true
     }
   },
   "quality": {
@@ -200,7 +200,7 @@
         "shards": [
           "skillhub-cn.json"
         ],
-        "error": "SkillHub page 7 failed: SkillHub API returned HTTP 503 on page 7 (body: <html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>stgw</center>\r\n</body>\r\n</html>\r\n)"
+        "error": "SkillHub page 11 failed: SkillHub API returned HTTP 503 on page 11 (body: <html>\r\n<head><title>503 Service Temporarily Unavailable</title></head>\r\n<body>\r\n<center><h1>503 Service Temporarily Unavailable</h1></center>\r\n<hr><center>stgw</center>\r\n</body>\r\n</html>\r\n)"
       },
       "mcpmarket-cn": {
         "skills": 4769,

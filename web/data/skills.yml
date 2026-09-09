@@ -1,15 +1,15 @@
-generated_at: '2026-09-08T08:42:29.532172+00:00'
+generated_at: '2026-09-09T08:45:06.609474+00:00'
 total: 11291
 site:
   title: Skill Gather
   description: AI Agent Skill 发现引擎 · 兼容性注册表
 meta:
-  last_synced: '2026-09-08T08:42:28.790661Z'
+  last_synced: '2026-09-09T08:45:05.751295Z'
   sources_count: 15
   changelog:
     added: 0
     removed: 0
-    modified: 762
+    modified: 599
     total_old: 11291
     total_new: 11291
 categories:
@@ -97,7 +97,7 @@ featured:
   - knowledge
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/acquire-codebase-knowledge
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -284,7 +284,7 @@ featured:
   - stripe
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/amazon-bedrock
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -310,7 +310,7 @@ featured:
   - visualization
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/chart-visualization
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -359,7 +359,7 @@ featured:
   - mattpocock/skills
   source: voltagent-awesome
   install_url: https://github.com/mattpocock/skills
-  stars: 256430
+  stars: 257295
   installs: 0
   platforms:
   - claude_code
@@ -384,7 +384,7 @@ featured:
   - skills
   source: community-repos
   install_url: https://github.com/NVIDIA/skills/tree/main
-  stars: 3236
+  stars: 3244
   installs: 0
   platforms:
   - claude_code
@@ -440,7 +440,7 @@ skills:
   - tuner
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/geofeed-tuner
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -472,7 +472,7 @@ skills:
   - yoke
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/poka-yoke
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -503,7 +503,7 @@ skills:
   - terraform
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/terraform-azurerm-set-diff-analyzer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -3306,7 +3306,7 @@ skills:
   - python
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/eval-driven-dev
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -3330,7 +3330,7 @@ skills:
   - tracing
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/phoenix-tracing
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -3602,7 +3602,7 @@ skills:
   - aws
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-ai-ml
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -3634,7 +3634,7 @@ skills:
   - observability
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-observability
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -3668,7 +3668,7 @@ skills:
   - vue
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/launch-with-aws
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -3690,7 +3690,7 @@ skills:
   - receipt
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/bug-receipt
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -3715,7 +3715,7 @@ skills:
   - winmd
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/winmd-api-search
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -3880,7 +3880,7 @@ skills:
   - msk
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/managing-amazon-msk
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -3914,7 +3914,7 @@ skills:
   - msk
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/migrate-to-msk
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -3942,7 +3942,7 @@ skills:
   - mysql
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-aurora-mysql
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -3970,7 +3970,7 @@ skills:
   - postgresql
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-aurora-postgresql
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4003,7 +4003,7 @@ skills:
   - rag
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-documentdb
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4035,7 +4035,7 @@ skills:
   - dynamodb
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-dynamodb
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4072,7 +4072,7 @@ skills:
   - terraform
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-elasticache
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4100,7 +4100,7 @@ skills:
   - keyspaces
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-keyspaces
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4130,7 +4130,7 @@ skills:
   - dsql
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/aurora-dsql
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4158,7 +4158,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-db2
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4190,7 +4190,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-oracle
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4223,7 +4223,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-oss
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4251,7 +4251,7 @@ skills:
   - timestream
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/timestream-influxdb
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4280,7 +4280,7 @@ skills:
   - uploads
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/processing-s3-uploads-with-step-functions
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -4305,7 +4305,7 @@ skills:
   - skill
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-creator
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -4332,7 +4332,7 @@ skills:
   - scripting
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/adobe-illustrator-scripting
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4362,7 +4362,7 @@ skills:
   - stack
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/agent-skill-stack
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4395,7 +4395,7 @@ skills:
   - web-ui
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/anti-ui-slop
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4427,7 +4427,7 @@ skills:
   - rag
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-architecture-autopilot
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4451,7 +4451,7 @@ skills:
   - map
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/build-evidence-map
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4476,7 +4476,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/cli-mastery
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4506,7 +4506,7 @@ skills:
   - tour
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/code-tour
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4540,7 +4540,7 @@ skills:
   - xlsx
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/convert-excel-to-md
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4573,7 +4573,7 @@ skills:
   - xlsx
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/convert-pdf-to-md
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4607,7 +4607,7 @@ skills:
   - xlsx
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/convert-word-to-md
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4641,7 +4641,7 @@ skills:
   - copilot
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/copilot-pr-autopilot
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4673,7 +4673,7 @@ skills:
   - focus
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/daily-focus-board
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4702,7 +4702,7 @@ skills:
   - risk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/datanalysis-credit-risk
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4729,7 +4729,7 @@ skills:
   - generator
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/draw-io-diagram-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4755,7 +4755,7 @@ skills:
   - generator
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/excalidraw-diagram-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4782,7 +4782,7 @@ skills:
   - vue
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/markstream-install
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4817,7 +4817,7 @@ skills:
   - mini
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mini-context-graph
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4846,7 +4846,7 @@ skills:
   - phoenix
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/phoenix-cli
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4877,7 +4877,7 @@ skills:
   - python
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/python-pypi-package-builder
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4903,7 +4903,7 @@ skills:
   - quality
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/quality-playbook
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -4925,7 +4925,7 @@ skills:
   - webmcpify
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/webmcpify
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -5012,7 +5012,7 @@ skills:
   - terraform
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-developer-cli
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -5042,7 +5042,7 @@ skills:
   - sync
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/docs-sync-audit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -5073,7 +5073,7 @@ skills:
   - test
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/test-gap-audit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -6001,7 +6001,7 @@ skills:
   - prioritization
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/impediment-prioritization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -6021,7 +6021,7 @@ skills:
   - phoenix
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/phoenix-evals
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -6044,7 +6044,7 @@ skills:
   - resemble
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/resemble-detect
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -6624,7 +6624,7 @@ skills:
   - instrumentation
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/appinsights-instrumentation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -6650,7 +6650,7 @@ skills:
   - gitmoji
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gitmoji
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -7115,7 +7115,7 @@ skills:
   - pro
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/nano-banana-pro-openrouter
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -7168,7 +7168,7 @@ skills:
   - rest
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/deploying-custom-domain-rest-api
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7194,7 +7194,7 @@ skills:
   - research
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/github-deep-research
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -7217,7 +7217,7 @@ skills:
   - image
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/image-generation
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -7240,7 +7240,7 @@ skills:
   - podcast
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/podcast-generation
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -7266,7 +7266,7 @@ skills:
   - systematic
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/systematic-literature-review
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -7290,7 +7290,7 @@ skills:
   - integrity
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/audit-integrity
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -7318,7 +7318,7 @@ skills:
   - pricing
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-pricing
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -7342,7 +7342,7 @@ skills:
   - github
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/pr-dashboard
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -7369,7 +7369,7 @@ skills:
   - publish
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/publish-to-pages
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -7525,7 +7525,7 @@ skills:
   - vercel
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/vercel-deploy-claimable
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -7719,7 +7719,7 @@ skills:
   - aws
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-auth
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7758,7 +7758,7 @@ skills:
   - management
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-billing-and-cost-management
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7773,10 +7773,10 @@ skills:
     patterns. A
   description_full: Authors, deploys, and troubleshoots AWS infrastructure using CDK
     with TypeScript or Python. Covers best practices, stack architecture, and construct
-    patterns. Always use when writing CDK constructs, bootstrapping environments,
-    running cdk deploy/synth/diff, fixing CDK or CloudFormation errors, planning stack
-    structure, importing existing resources, resolving drift, or refactoring stacks
-    without resource replacement.
+    patterns. Applies when writing CDK constructs, bootstrapping environments, running
+    cdk deploy/synth/diff, fixing CDK or CloudFormation errors, planning stack structure,
+    importing existing resources, resolving drift, or refactoring stacks without resource
+    replacement.
   category: devops
   score: 66
   tags:
@@ -7786,7 +7786,7 @@ skills:
   - typescript
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-cdk
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7812,7 +7812,7 @@ skills:
   - cloudformation
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-cloudformation
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7845,7 +7845,7 @@ skills:
   - compute
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-compute
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7875,7 +7875,7 @@ skills:
   - kubernetes
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-containers
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7903,7 +7903,7 @@ skills:
   - database
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-database
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7936,7 +7936,7 @@ skills:
   - linear
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-deployment
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -7970,7 +7970,7 @@ skills:
   - terraform
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-iam
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8001,7 +8001,7 @@ skills:
   - security
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-security
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8031,7 +8031,7 @@ skills:
   - serverless
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-serverless
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8064,7 +8064,7 @@ skills:
   - storage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-storage
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8097,7 +8097,7 @@ skills:
   - service
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/amazon-opensearch-service
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8129,7 +8129,7 @@ skills:
   - source
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/connecting-to-data-source
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8164,7 +8164,7 @@ skills:
   - lake
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/ingesting-into-data-lake
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8199,7 +8199,7 @@ skills:
   - redshift
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8229,7 +8229,7 @@ skills:
   - vue
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/migration-and-modernization-skills/aws-transform
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8256,7 +8256,7 @@ skills:
   - braket
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/quantum-computing-skills/amazon-braket
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8287,7 +8287,7 @@ skills:
   - table
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/creating-data-lake-table
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8315,7 +8315,7 @@ skills:
   - deerflow
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/claude-to-deerflow
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -8341,7 +8341,7 @@ skills:
   - xlsx
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/data-analysis
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -8365,7 +8365,7 @@ skills:
   - skills
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/find-skills
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -8390,7 +8390,7 @@ skills:
   - music
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/music-generation
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -8414,7 +8414,7 @@ skills:
   - pptx
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/ppt-generation
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -8435,7 +8435,7 @@ skills:
   - video
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/video-generation
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -8465,7 +8465,7 @@ skills:
   - provider
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-ai-provider-integration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8494,7 +8494,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-annotation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8520,7 +8520,7 @@ skills:
   - dataset
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-dataset
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8546,7 +8546,7 @@ skills:
   - llm
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-evaluator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8572,7 +8572,7 @@ skills:
   - experiment
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-experiment
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8598,7 +8598,7 @@ skills:
   - llm
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-instrumentation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8626,7 +8626,7 @@ skills:
   - prompt
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-prompt-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8654,7 +8654,7 @@ skills:
   - trace
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-trace
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8679,7 +8679,7 @@ skills:
   - visualizer
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-resource-visualizer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8706,7 +8706,7 @@ skills:
   - pdf
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/latchshot-page-capture
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8727,7 +8727,7 @@ skills:
   - javascript
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/md-to-docx
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8749,7 +8749,7 @@ skills:
   - simplicite
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/optimize-simplicite-logs
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8776,7 +8776,7 @@ skills:
   - sandbox
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/sandbox-npm-install
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8801,7 +8801,7 @@ skills:
   - summary
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/speak-summary
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8828,7 +8828,7 @@ skills:
   - table
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/sql-server-table-reconciliation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -8856,7 +8856,7 @@ skills:
   - usage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-js-v3-usage
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8886,7 +8886,7 @@ skills:
   - usage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-python-usage
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8919,7 +8919,7 @@ skills:
   - service
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/developing-applications-on-managed-service-for-apache-flink
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8955,7 +8955,7 @@ skills:
   - streams
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/managing-amazon-kinesis-data-streams
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -8988,7 +8988,7 @@ skills:
   - redshift
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/migrating-to-amazon-redshift
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9021,7 +9021,7 @@ skills:
   - sqlserver
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-sqlserver
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9052,7 +9052,7 @@ skills:
   - image
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/amazon-ec2-image-builder
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9088,7 +9088,7 @@ skills:
   - workspaces
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/end-user-computing-skills/amazon-workspaces-agent-access
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9122,7 +9122,7 @@ skills:
   - voice
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/aws-sms-voice
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9149,7 +9149,7 @@ skills:
   - social
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/aws-social-messaging
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9177,7 +9177,7 @@ skills:
   - schema
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/migration-and-modernization-skills/dms-schema-conversion
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9210,7 +9210,7 @@ skills:
   - cloudfront
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/cloudfront
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9243,7 +9243,7 @@ skills:
   - directconnect
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/directconnect
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9270,7 +9270,7 @@ skills:
   - route53
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/route53
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9303,7 +9303,7 @@ skills:
   - shieldadvanced
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/shieldadvanced
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9335,7 +9335,7 @@ skills:
   - sitetositevpn
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/sitetositevpn
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9367,7 +9367,7 @@ skills:
   - transitgateway
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/transitgateway
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9401,7 +9401,7 @@ skills:
   - waf
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/waf
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9426,7 +9426,7 @@ skills:
   - network
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/aws-network-monitoring
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9458,7 +9458,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/aws-resilience-lifecycle
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9491,7 +9491,7 @@ skills:
   - sdk
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-durable-functions
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9525,7 +9525,7 @@ skills:
   - managed
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-managed-instances
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9558,7 +9558,7 @@ skills:
   - microvms
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-microvms
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9592,7 +9592,7 @@ skills:
   - step
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-step-functions
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9619,7 +9619,7 @@ skills:
   - securing
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/securing-s3-buckets
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9653,7 +9653,7 @@ skills:
   - redshift
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-redshift
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9690,7 +9690,7 @@ skills:
   - vue
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/web-and-mobile-development/aws-amplify
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -9716,7 +9716,7 @@ skills:
   - bootstrap
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/bootstrap
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -9738,7 +9738,7 @@ skills:
   - skill
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -9762,7 +9762,7 @@ skills:
   - team
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ai-team-orchestration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9788,7 +9788,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aspire
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9814,7 +9814,7 @@ skills:
   - registry
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-container-registry-cli
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9841,7 +9841,7 @@ skills:
   - preflight
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-deployment-preflight
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9866,7 +9866,7 @@ skills:
   - devops
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-devops-cli
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9892,7 +9892,7 @@ skills:
   - files
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/batch-files
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9917,7 +9917,7 @@ skills:
   - patterns
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/cloud-design-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9943,7 +9943,7 @@ skills:
   - github
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/codeql
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -9973,7 +9973,7 @@ skills:
   - solution
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/d365-solution-blueprint
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10007,7 +10007,7 @@ skills:
   - radius
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/data-breach-blast-radius
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10037,7 +10037,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dependabot
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10070,7 +10070,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dotnet-mcp-builder
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10098,7 +10098,7 @@ skills:
   - efcore
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/efcore-d2-db-diagram
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10129,7 +10129,7 @@ skills:
   - power
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-build
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10160,7 +10160,7 @@ skills:
   - python
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-mcp
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10186,7 +10186,7 @@ skills:
   - fluentui
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/fluentui-blazor
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10214,7 +10214,7 @@ skills:
   - hosted
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/foundry-hosted-agent-copilotkit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10241,7 +10241,7 @@ skills:
   - scripts
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/freecad-scripts
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10268,7 +10268,7 @@ skills:
   - javascript
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/game-engine
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10300,7 +10300,7 @@ skills:
   - hardening
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/github-actions-hardening
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10330,7 +10330,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/github-issues
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10359,7 +10359,7 @@ skills:
   - migration
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/issue-fields-migration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10386,7 +10386,7 @@ skills:
   - mockups
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/legacy-circuit-mockups
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10414,7 +10414,7 @@ skills:
   - markdown
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/markdown-to-html
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10443,7 +10443,7 @@ skills:
   - plugin
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/minecraft-plugin-development
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10471,7 +10471,7 @@ skills:
   - typescript
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/msgraph-sdk
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10497,7 +10497,7 @@ skills:
   - toolkit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mvvm-toolkit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10518,7 +10518,7 @@ skills:
   - documentation
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/oo-component-documentation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10544,7 +10544,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/pdftk-server
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10575,7 +10575,7 @@ skills:
   - uiux
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/penpot-uiux-design
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10603,7 +10603,7 @@ skills:
   - pester
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/pester-migration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10632,7 +10632,7 @@ skills:
   - powerbi
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/powerbi-modeling
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10662,7 +10662,7 @@ skills:
   - react
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react-audit-grep-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10694,7 +10694,7 @@ skills:
   - react18
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react18-legacy-context
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10724,7 +10724,7 @@ skills:
   - react18
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react18-lifecycle-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10748,7 +10748,7 @@ skills:
   - react19
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react19-concurrent-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10776,7 +10776,7 @@ skills:
   - reviewing
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/reviewing-oracle-to-postgres-migration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10804,7 +10804,7 @@ skills:
   - scripts
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/rhino3d-scripts
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10833,7 +10833,7 @@ skills:
   - secret
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/secret-scanning
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10868,7 +10868,7 @@ skills:
   - typescript
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/security-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10899,7 +10899,7 @@ skills:
   - slang
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/slang-shader-engineer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10921,7 +10921,7 @@ skills:
   - testing
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/spring-boot-testing
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10952,7 +10952,7 @@ skills:
   - threat
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/threat-model-analyst
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -10978,7 +10978,7 @@ skills:
   - vcpkg
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/vcpkg
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11027,7 +11027,7 @@ skills:
   - exploring
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/exploring-data-catalog
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11055,7 +11055,7 @@ skills:
   - lake
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/finding-data-lake-assets
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11082,7 +11082,7 @@ skills:
   - querying
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/querying-data-lake
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11111,7 +11111,7 @@ skills:
   - vectors
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/storing-and-querying-vectors
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11137,7 +11137,7 @@ skills:
   - campaign
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ad-campaign-analyzer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11162,7 +11162,7 @@ skills:
   - link
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arize-link
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11189,7 +11189,7 @@ skills:
   - autoresearch
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/autoresearch
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11222,7 +11222,7 @@ skills:
   - sheet
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/brag-sheet
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11246,7 +11246,7 @@ skills:
   - intelligence
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/competitor-ad-intelligence
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11271,7 +11271,7 @@ skills:
   - lakehouse
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/fabric-lakehouse
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11292,7 +11292,7 @@ skills:
   - release
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/github-release
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11327,7 +11327,7 @@ skills:
   - scroll
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gsap-framer-scroll-animation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11355,7 +11355,7 @@ skills:
   - skill
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/microsoft-skill-creator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11386,7 +11386,7 @@ skills:
   - triage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/shopify-review-triage
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11414,7 +11414,7 @@ skills:
   - upstash
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/upstash-redis
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -11715,7 +11715,7 @@ skills:
   - cleanrooms
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/aws-cleanrooms
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11742,7 +11742,7 @@ skills:
   - instances
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/creating-amazon-aurora-db-cluster-with-instances
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11767,7 +11767,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/exporting-rds-to-s3
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11796,7 +11796,7 @@ skills:
   - practices
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/launching-ec2-instance-with-best-practices
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11823,7 +11823,7 @@ skills:
   - setting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/setting-up-ec2-instance-profiles
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11847,7 +11847,7 @@ skills:
   - ses
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/amazon-ses
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11877,7 +11877,7 @@ skills:
   - vpc
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/configuring-vpc-endpoints-for-private-aws-service-access
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11903,7 +11903,7 @@ skills:
   - vpcs
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/connecting-vpcs-with-peering
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11931,7 +11931,7 @@ skills:
   - vpc
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/creating-production-vpc-multi-az
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11959,7 +11959,7 @@ skills:
   - vpc
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/enabling-lambda-vpc-internet-access
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -11984,7 +11984,7 @@ skills:
   - traffic
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/routing-traffic-with-route53-and-cloudfront
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12012,7 +12012,7 @@ skills:
   - setting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/setting-up-cloudtrail-multi-region
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12039,7 +12039,7 @@ skills:
   - setting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/setting-up-cloudwatch-alarm-notifications
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12064,7 +12064,7 @@ skills:
   - troubleshooting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/troubleshooting-application-failures
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12090,7 +12090,7 @@ skills:
   - switch
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/arc-region-switch
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12120,7 +12120,7 @@ skills:
   - setup
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/recovery-controller-setup
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12150,7 +12150,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-failure-mode-assessment
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12180,7 +12180,7 @@ skills:
   - started
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-getting-started
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12208,7 +12208,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-multi-account
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12237,7 +12237,7 @@ skills:
   - using
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/security-and-identity-skills/creating-secrets-using-best-practices
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12264,7 +12264,7 @@ skills:
   - lambda
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/connecting-lambda-to-api-gateway
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12290,7 +12290,7 @@ skills:
   - lambda
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/connecting-lambda-to-dynamodb
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12316,7 +12316,7 @@ skills:
   - stage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/creating-api-gateway-stage
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12343,7 +12343,7 @@ skills:
   - timeouts
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/debugging-lambda-timeouts
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -12370,7 +12370,7 @@ skills:
   - react
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/frontend-design
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -12396,7 +12396,7 @@ skills:
   - iot
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arduino-azure-iot-edge-integration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12422,7 +12422,7 @@ skills:
   - solution
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-smart-city-iot-solution-builder
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12449,7 +12449,7 @@ skills:
   - storyteller
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/commit-message-storyteller
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12475,7 +12475,7 @@ skills:
   - systems
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/content-management-systems
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12501,7 +12501,7 @@ skills:
   - report
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/creating-oracle-to-postgres-migration-bug-report
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12534,7 +12534,7 @@ skills:
   - modernize
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/doc-and-modernize
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12559,7 +12559,7 @@ skills:
   - timezone
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dotnet-timezone
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12584,7 +12584,7 @@ skills:
   - humanizer
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/finnish-humanizer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12615,7 +12615,7 @@ skills:
   - power
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-debug
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12644,7 +12644,7 @@ skills:
   - gdpr
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gdpr-compliant
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12669,7 +12669,7 @@ skills:
   - github
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/github-codespaces-efficiency
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12695,7 +12695,7 @@ skills:
   - post
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/linkedin-post-formatter
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12722,7 +12722,7 @@ skills:
   - setup
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/lsp-setup
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12747,7 +12747,7 @@ skills:
   - python
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/microsoft-agent-framework
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12771,7 +12771,7 @@ skills:
   - toolkit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mvvm-toolkit-di
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12796,7 +12796,7 @@ skills:
   - toolkit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mvvm-toolkit-messenger
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12822,7 +12822,7 @@ skills:
   - namecheap
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/namecheap
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12846,7 +12846,7 @@ skills:
   - noob
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/noob-mode
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12875,7 +12875,7 @@ skills:
   - should
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/pester-should-migration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12899,7 +12899,7 @@ skills:
   - python
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/python-azure-iot-edge-modules
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12927,7 +12927,7 @@ skills:
   - typescript
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react-container-presentation-component
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12956,7 +12956,7 @@ skills:
   - react18
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react18-batching-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -12986,7 +12986,7 @@ skills:
   - rtl
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react18-enzyme-to-rtl
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13016,7 +13016,7 @@ skills:
   - string
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react18-string-refs
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13040,7 +13040,7 @@ skills:
   - roslyn
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/roslyn-analyzers
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13064,7 +13064,7 @@ skills:
   - setup
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/roundup-setup
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13086,7 +13086,7 @@ skills:
   - semantic
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/semantic-kernel
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13113,7 +13113,7 @@ skills:
   - vue
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/unit-test-vue-pinia
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13139,7 +13139,7 @@ skills:
   - web
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/web-design-reviewer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13189,7 +13189,7 @@ skills:
   - pdf
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/drawio
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13214,7 +13214,7 @@ skills:
   - image
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/generate-image
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13239,7 +13239,7 @@ skills:
   - launch
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-0-to-1-launch
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13262,7 +13262,7 @@ skills:
   - gtm
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-ai-gtm
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13289,7 +13289,7 @@ skills:
   - investor
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-board-and-investor-communication
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13313,7 +13313,7 @@ skills:
   - gtm
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-developer-ecosystem
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13339,7 +13339,7 @@ skills:
   - planning
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-enterprise-account-planning
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13364,7 +13364,7 @@ skills:
   - onboarding
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-enterprise-onboarding
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13388,7 +13388,7 @@ skills:
   - operating
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-operating-cadence
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13413,7 +13413,7 @@ skills:
   - partnership
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-partnership-architecture
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13438,7 +13438,7 @@ skills:
   - strategy
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-positioning-strategy
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13464,7 +13464,7 @@ skills:
   - product
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-product-led-growth
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13488,7 +13488,7 @@ skills:
   - technical
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gtm-technical-product-pricing
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13517,7 +13517,7 @@ skills:
   - rag
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/pinecone-rag
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13541,7 +13541,7 @@ skills:
   - power
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/power-platform-architect
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13567,7 +13567,7 @@ skills:
   - transloadit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/transloadit-media-processing
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13714,7 +13714,7 @@ skills:
   - scan
   source: community-repos
   install_url: https://github.com/snyk/agent-scan/tree/main
-  stars: 3016
+  stars: 3022
   installs: 0
   platforms:
   - claude_code
@@ -13761,7 +13761,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/google/skills/tree/main
-  stars: 19643
+  stars: 19679
   installs: 0
   platforms:
   - claude_code
@@ -13786,7 +13786,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/chrome-devtools
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13812,7 +13812,7 @@ skills:
   - git
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/git-commit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13834,7 +13834,7 @@ skills:
   - github
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/github-actions-efficiency
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13867,7 +13867,7 @@ skills:
   - mentoring
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mentoring-juniors
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13895,7 +13895,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/msstore-cli
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13920,7 +13920,7 @@ skills:
   - plantuml
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/plantuml-ascii
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13941,7 +13941,7 @@ skills:
   - prd
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/prd
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13964,7 +13964,7 @@ skills:
   - refactor
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/refactor
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -13991,7 +13991,7 @@ skills:
   - steno
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/steno-mode
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14017,7 +14017,7 @@ skills:
   - technical
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/technical-job-search
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14043,7 +14043,7 @@ skills:
   - tugboat
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/tugboat
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14074,7 +14074,7 @@ skills:
   - vardoger
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/vardoger-analyze
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14092,7 +14092,7 @@ skills:
   - coderabbitai/skills
   source: voltagent-awesome
   install_url: https://github.com/coderabbitai/skills
-  stars: 166
+  stars: 169
   installs: 0
   platforms:
   - claude_code
@@ -14180,7 +14180,7 @@ skills:
   - skills
   source: voltagent-awesome
   install_url: https://github.com/ibelick/ui-skills
-  stars: 8235
+  stars: 8257
   installs: 0
   platforms:
   - claude_code
@@ -14205,7 +14205,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main
-  stars: 12415
+  stars: 12463
   installs: 0
   platforms:
   - claude_code
@@ -14227,7 +14227,7 @@ skills:
   - react18
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react18-dep-compatibility
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14251,7 +14251,7 @@ skills:
   - source
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react19-source-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14733,7 +14733,7 @@ skills:
   - napkin
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/napkin
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14758,7 +14758,7 @@ skills:
   - qdrant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-monitoring
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14782,7 +14782,7 @@ skills:
   - qdrant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14806,7 +14806,7 @@ skills:
   - scaling
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14832,7 +14832,7 @@ skills:
   - volume
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14859,7 +14859,7 @@ skills:
   - search
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14884,7 +14884,7 @@ skills:
   - standardizer
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/repo-standardizer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14935,7 +14935,7 @@ skills:
   - setup
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/setup-my-iq
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -14979,7 +14979,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/bergside/awesome-design-skills/tree/main
-  stars: 2712
+  stars: 2722
   installs: 0
   platforms:
   - claude_code
@@ -14999,7 +14999,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/resend/resend-skills/tree/main
-  stars: 172
+  stars: 173
   installs: 0
   platforms:
   - claude_code
@@ -15031,29 +15031,35 @@ skills:
   - universal
   license: MIT
   zh_keywords: 视频 Video 创意 Claude Code Kiro Codex 通用
-- id: deanpeters/Product-Manager-Skills
-  name: product-manager-skills
-  description: Product Management skills framework built on battle-tested methods
-    for Claude Code, Cowork, Codex, and AI agents.
-  description_full: Product Management skills framework built on battle-tested methods
-    for Claude Code, Cowork, Codex, and AI agents.
+- id: gamedev-skills/awesome-gamedev-agent-skills
+  name: awesome-gamedev-agent-skills
+  description: 67 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser,
+    PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the
+    format
+  description_full: 67 game-dev skills for AI coding agents — Godot, Unity, Unreal,
+    Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent
+    Skills (the format Anthropic launched as Claude Skills), with a router that loads
+    the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex,
+    Copilot, Gemini CLI and more.
   category: development
   score: 56
   tags:
-  - manager
-  - product
+  - agent
+  - awesome
+  - cli
+  - gamedev
   - skills
   source: community-repos
-  install_url: https://github.com/deanpeters/Product-Manager-Skills/tree/main
-  stars: 6875
+  install_url: https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main
+  stars: 905
   installs: 0
   platforms:
   - claude_code
   - kiro
   - codex
   - universal
-  license: NOASSERTION
-  zh_keywords: 产品 商品 开发 Claude Code Kiro Codex 通用
+  license: Apache-2.0
+  zh_keywords: 智能体 Agent AI代理 开发 Claude Code Kiro Codex 通用
 - id: github/awesome-copilot/doublecheck
   name: doublecheck
   description: Three-layer verification pipeline for AI output. Extracts verifiable
@@ -15069,7 +15075,7 @@ skills:
   - doublecheck
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/doublecheck
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15092,7 +15098,7 @@ skills:
   - eyeball
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/eyeball
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15118,7 +15124,7 @@ skills:
   - repo
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/make-repo-contribution
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15144,7 +15150,7 @@ skills:
   - tm7
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/tm7-threat-model
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15167,7 +15173,7 @@ skills:
   - webapp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/webapp-testing
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15257,7 +15263,7 @@ skills:
   - swiftui
   source: community-repos
   install_url: https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main
-  stars: 3503
+  stars: 3508
   installs: 0
   platforms:
   - claude_code
@@ -15282,7 +15288,7 @@ skills:
   - store
   source: community-repos
   install_url: https://github.com/rudrankriyam/app-store-connect-cli-skills/tree/main
-  stars: 1014
+  stars: 1019
   installs: 0
   platforms:
   - claude_code
@@ -15291,35 +15297,29 @@ skills:
   - universal
   license: MIT
   zh_keywords: 应用 App 应用程序 开发 Claude Code Kiro Codex 通用
-- id: gamedev-skills/awesome-gamedev-agent-skills
-  name: awesome-gamedev-agent-skills
-  description: 67 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser,
-    PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the
-    format
-  description_full: 67 game-dev skills for AI coding agents — Godot, Unity, Unreal,
-    Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent
-    Skills (the format Anthropic launched as Claude Skills), with a router that loads
-    the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex,
-    Copilot, Gemini CLI and more.
+- id: deanpeters/Product-Manager-Skills
+  name: product-manager-skills
+  description: Product Management skills framework built on battle-tested methods
+    for Claude Code, Cowork, Codex, and AI agents.
+  description_full: Product Management skills framework built on battle-tested methods
+    for Claude Code, Cowork, Codex, and AI agents.
   category: development
   score: 55
   tags:
-  - agent
-  - awesome
-  - cli
-  - gamedev
+  - manager
+  - product
   - skills
   source: community-repos
-  install_url: https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main
-  stars: 885
+  install_url: https://github.com/deanpeters/Product-Manager-Skills/tree/main
+  stars: 6893
   installs: 0
   platforms:
   - claude_code
   - kiro
   - codex
   - universal
-  license: Apache-2.0
-  zh_keywords: 智能体 Agent AI代理 开发 Claude Code Kiro Codex 通用
+  license: NOASSERTION
+  zh_keywords: 产品 商品 开发 Claude Code Kiro Codex 通用
 - *id012
 - id: bytedance/deer-flow/web-design-guidelines
   name: web-design-guidelines
@@ -15337,7 +15337,7 @@ skills:
   - web
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/web-design-guidelines
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -15379,7 +15379,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/veniceai/skills/tree/main
-  stars: 139
+  stars: 141
   installs: 0
   platforms:
   - claude_code
@@ -15429,7 +15429,7 @@ skills:
   - github
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/acreadiness-assess
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15454,7 +15454,7 @@ skills:
   - selector
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-role-selector
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15479,7 +15479,7 @@ skills:
   - usage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/copilot-usage-metrics
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15504,7 +15504,7 @@ skills:
   - manipulation
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/image-manipulation-image-magick
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15533,7 +15533,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/microsoft-code-reference
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15555,7 +15555,7 @@ skills:
   - premium
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/premium-frontend-ui
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -15619,7 +15619,7 @@ skills:
   - developer
   source: voltagent-awesome
   install_url: https://github.com/angular/skills
-  stars: 637
+  stars: 639
   installs: 0
   platforms:
   - claude_code
@@ -15653,7 +15653,7 @@ skills:
   - streaming
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-messaging-and-streaming
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -15684,7 +15684,7 @@ skills:
   - networking
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-networking
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -15705,7 +15705,7 @@ skills:
   - terraform
   source: community-repos
   install_url: https://github.com/antonbabenko/terraform-skill/tree/master
-  stars: 2332
+  stars: 2333
   installs: 0
   platforms:
   - claude_code
@@ -15714,33 +15714,6 @@ skills:
   - universal
   license: NOASSERTION
   zh_keywords: Terraform 基础设施 IaC DevOps Claude Code Kiro Codex 通用
-- id: seb1n/awesome-ai-agent-skills
-  name: awesome-ai-agent-skills
-  description: '103 ready-to-use AI agent skills for Claude Code, OpenAI Codex, Gemini
-    CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible tools.
-    Complete '
-  description_full: 103 ready-to-use AI agent skills for Claude Code, OpenAI Codex,
-    Gemini CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible
-    tools. Complete SKILL.md workflows—not a link directory.
-  category: development
-  score: 53
-  tags:
-  - agent
-  - awesome
-  - cli
-  - github
-  - skills
-  source: community-repos
-  install_url: https://github.com/seb1n/awesome-ai-agent-skills/tree/main
-  stars: 176
-  installs: 0
-  platforms:
-  - claude_code
-  - kiro
-  - codex
-  - universal
-  license: MIT
-  zh_keywords: 人工智能 AI 机器学习 智能体 Agent AI代理 github 代码托管 开发 Claude Code Kiro Codex 通用
 - id: arpitg1304/robotics-agent-skills
   name: robotics-agent-skills
   description: Agent skills that make AI coding assistants write production-grade
@@ -15861,7 +15834,7 @@ skills:
   - blocks
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-blocks
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -15889,7 +15862,7 @@ skills:
   - signing
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/signing-in-to-aws
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -15920,7 +15893,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-program-design
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -15944,7 +15917,7 @@ skills:
   - troubleshooting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-efs
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -15969,7 +15942,7 @@ skills:
   - troubleshooting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-s3-files
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -16001,7 +15974,7 @@ skills:
   - querying
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-cloudwatch
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -16031,7 +16004,7 @@ skills:
   - querying
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-s3
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -16060,7 +16033,7 @@ skills:
   - sagemaker
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-sagemaker-catalog
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -16088,7 +16061,7 @@ skills:
   - review
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/academic-paper-review
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -16115,7 +16088,7 @@ skills:
   - documentation
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/code-documentation
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -16143,7 +16116,7 @@ skills:
   - consulting
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/consulting-analysis
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -16168,7 +16141,7 @@ skills:
   - research
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/deep-research
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -16194,7 +16167,7 @@ skills:
   - newsletter
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/newsletter-generation
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -16216,7 +16189,7 @@ skills:
   - skill
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/publish-candidate
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -16240,7 +16213,7 @@ skills:
   - surprise
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/surprise-me
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -16267,7 +16240,7 @@ skills:
   - instructions
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/acreadiness-generate-instructions
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16292,7 +16265,7 @@ skills:
   - policy
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/acreadiness-policy
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16331,7 +16304,7 @@ skills:
   - langchain
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/agent-governance
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16372,7 +16345,7 @@ skills:
   - owasp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/agent-owasp-compliance
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16409,7 +16382,7 @@ skills:
   - supply
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/agent-supply-chain
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16447,7 +16420,7 @@ skills:
   - llm
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/agentic-eval
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16473,7 +16446,7 @@ skills:
   - safety
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ai-prompt-engineering-safety-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16497,7 +16470,7 @@ skills:
   - ready
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ai-ready
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16519,7 +16492,7 @@ skills:
   - reviewer
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/apple-appstore-reviewer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16545,7 +16518,7 @@ skills:
   - generator
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/architecture-blueprint-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16569,7 +16542,7 @@ skills:
   - this
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/automate-this
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16594,7 +16567,7 @@ skills:
   - setup
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aws-cdk-python-setup
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16618,7 +16591,7 @@ skills:
   - investigation
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aws-cloudwatch-investigation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16643,7 +16616,7 @@ skills:
   - optimize
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aws-cost-optimize
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16666,7 +16639,7 @@ skills:
   - resource
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aws-resource-health-diagnose
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16690,7 +16663,7 @@ skills:
   - resource
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aws-resource-query
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16714,7 +16687,7 @@ skills:
   - well
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aws-well-architected-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16737,7 +16710,7 @@ skills:
   - optimize
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/az-cost-optimize
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16760,7 +16733,7 @@ skills:
   - resource
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-resource-health-diagnose
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16788,7 +16761,7 @@ skills:
   - web
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-static-web-apps
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16812,7 +16785,7 @@ skills:
   - well
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/azure-well-architected-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16833,7 +16806,7 @@ skills:
   - read
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/bench-read
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16856,7 +16829,7 @@ skills:
   - python
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/bigquery-pipeline-audit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16879,7 +16852,7 @@ skills:
   - prompt
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/boost-prompt
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16902,7 +16875,7 @@ skills:
   - epic
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/breakdown-epic-pm
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16925,7 +16898,7 @@ skills:
   - plan
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/breakdown-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16947,7 +16920,7 @@ skills:
   - test
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/breakdown-test
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -16969,7 +16942,7 @@ skills:
   - reproduction
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/bug-reproduction-brief
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17001,7 +16974,7 @@ skills:
   - react
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/code-exemplars-blueprint-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17029,7 +17002,7 @@ skills:
   - memory
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/codebase-memory-mcp
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17055,7 +17028,7 @@ skills:
   - tutorial
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/comment-code-generate-a-tutorial
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17078,7 +17051,7 @@ skills:
   - conventional
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/conventional-branch
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17102,7 +17075,7 @@ skills:
   - conventional
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/conventional-commit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17125,7 +17098,7 @@ skills:
   - plaintext
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/convert-plaintext-to-md
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17152,7 +17125,7 @@ skills:
   - quickstart
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/copilot-cli-quickstart
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17179,7 +17152,7 @@ skills:
   - instructions
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/copilot-instructions-blueprint-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17206,7 +17179,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/copilot-sdk
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17230,7 +17203,7 @@ skills:
   - spaces
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/copilot-spaces
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17255,7 +17228,7 @@ skills:
   - datamodeling
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/cosmosdb-datamodeling
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17279,7 +17252,7 @@ skills:
   - workflow
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-github-action-workflow-specification
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17301,7 +17274,7 @@ skills:
   - plan
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-implementation-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17322,7 +17295,7 @@ skills:
   - llms
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-llms
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17344,7 +17317,7 @@ skills:
   - technical
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-technical-spike
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17371,7 +17344,7 @@ skills:
   - postgres
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/creating-oracle-to-postgres-master-migration-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17401,7 +17374,7 @@ skills:
   - tests
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/creating-oracle-to-postgres-migration-integration-tests
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17425,7 +17398,7 @@ skills:
   - prep
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/daily-prep
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17448,7 +17421,7 @@ skills:
   - declarative
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/declarative-agents
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17472,7 +17445,7 @@ skills:
   - next
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/desk-journal
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17496,7 +17469,7 @@ skills:
   - open
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/desk-open
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17520,7 +17493,7 @@ skills:
   - rollout
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/devops-rollout-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17542,7 +17515,7 @@ skills:
   - diagnose
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/diagnose
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17565,7 +17538,7 @@ skills:
   - writer
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/documentation-writer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17589,7 +17562,7 @@ skills:
   - dash
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/em-dash
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17614,7 +17587,7 @@ skills:
   - email
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/email-drafter
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17639,7 +17612,7 @@ skills:
   - user
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/entra-agent-user
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17664,7 +17637,7 @@ skills:
   - ready
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/exam-ready
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17687,7 +17660,7 @@ skills:
   - first
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/first-ask
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17720,7 +17693,7 @@ skills:
   - power
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-governance
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17749,7 +17722,7 @@ skills:
   - power
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/flowstudio-power-automate-monitoring
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17779,7 +17752,7 @@ skills:
   - structure
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/folder-structure-blueprint-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17811,7 +17784,7 @@ skills:
   - sync
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/foundry-agent-sync
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17834,7 +17807,7 @@ skills:
   - side
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-anitta
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17857,7 +17830,7 @@ skills:
   - side
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-quinn
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17883,7 +17856,7 @@ skills:
   - vega
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-vega
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17906,7 +17879,7 @@ skills:
   - wiggins
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/from-the-other-side-wiggins
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17932,7 +17905,7 @@ skills:
   - kubernetes
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gem-devops-guidelines
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17954,7 +17927,7 @@ skills:
   - specs
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gen-specs-as-issues
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -17982,7 +17955,7 @@ skills:
   - instructions
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/generate-custom-instructions-from-codebase
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18008,7 +17981,7 @@ skills:
   - pdf
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/gh-attach
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18031,7 +18004,7 @@ skills:
   - git
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/git-flow-branch-creator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18055,7 +18028,7 @@ skills:
   - upgrade
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/github-actions-runtime-upgrade-conventions
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18079,7 +18052,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/go-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18103,7 +18076,7 @@ skills:
   - harness
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/harness-engineering
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18126,7 +18099,7 @@ skills:
   - image
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/image-annotations
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18156,7 +18129,7 @@ skills:
   - terraform
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/import-infrastructure-as-code
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18181,7 +18154,7 @@ skills:
   - postmortem
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/incident-postmortem
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18210,7 +18183,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/integrate-context-matic
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18237,7 +18210,7 @@ skills:
   - support
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-add-graalvm-native-image-support
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18261,7 +18234,7 @@ skills:
   - java
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-helidon
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18286,7 +18259,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18308,7 +18281,7 @@ skills:
   - typescript
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/javascript-typescript-jest
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18331,7 +18304,7 @@ skills:
   - migration
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/javax-to-jakarta-migration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18357,7 +18330,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/kotlin-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18385,7 +18358,7 @@ skills:
   - page
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/landing-page-conversion-audit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18408,7 +18381,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-cli
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18432,7 +18405,7 @@ skills:
   - studio
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-copilot-studio-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18477,7 +18450,7 @@ skills:
   - security
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-implementation-security-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18501,7 +18474,7 @@ skills:
   - release
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-release-qa
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18545,7 +18518,7 @@ skills:
   - security
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-security-audit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18568,7 +18541,7 @@ skills:
   - minutes
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/meeting-minutes
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18591,7 +18564,7 @@ skills:
   - merger
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/memory-merger
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18618,7 +18591,7 @@ skills:
   - microsoft
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/microsoft-docs
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18647,7 +18620,7 @@ skills:
   - postgres
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/migrating-oracle-to-postgres-data-access-code
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18676,7 +18649,7 @@ skills:
   - stored
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/migrating-oracle-to-postgres-stored-procedures
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18701,7 +18674,7 @@ skills:
   - nuget
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/nuget-manager
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18732,7 +18705,7 @@ skills:
   - onboard
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/onboard-context-matic
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18759,7 +18732,7 @@ skills:
   - writer
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/performance-review-writer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18783,7 +18756,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/php-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18813,7 +18786,7 @@ skills:
   - testing
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/planning-oracle-to-postgres-migration-integration-testing
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18838,7 +18811,7 @@ skills:
   - review
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/postgresql-code-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18862,7 +18835,7 @@ skills:
   - postgresql
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/postgresql-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18884,7 +18857,7 @@ skills:
   - power
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/power-bi-dax-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18907,7 +18880,7 @@ skills:
   - review
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/power-bi-model-design-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18931,7 +18904,7 @@ skills:
   - troubleshooting
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/power-bi-performance-troubleshooting
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18956,7 +18929,7 @@ skills:
   - report
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/power-bi-report-design-consultation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -18980,7 +18953,7 @@ skills:
   - suite
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/power-platform-mcp-connector-suite
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19004,7 +18977,7 @@ skills:
   - screenshots
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/pr-screenshots
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19034,7 +19007,7 @@ skills:
   - workflow
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/project-workflow-analysis-blueprint-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19067,7 +19040,7 @@ skills:
   - prompt
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/prompt-optimizer
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19093,7 +19066,7 @@ skills:
   - qdrant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-deployment-options
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19119,7 +19092,7 @@ skills:
   - qdrant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-model-migration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19144,7 +19117,7 @@ skills:
   - qdrant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-monitoring/debugging
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19170,7 +19143,7 @@ skills:
   - setup
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-monitoring/setup
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19197,7 +19170,7 @@ skills:
   - qdrant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization/indexing-performance-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19224,7 +19197,7 @@ skills:
   - usage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization/memory-usage-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19250,7 +19223,7 @@ skills:
   - speed
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-performance-optimization/search-speed-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19274,7 +19247,7 @@ skills:
   - qdrant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/minimize-latency
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19299,7 +19272,7 @@ skills:
   - scaling
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/horizontal-scaling
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19325,7 +19298,7 @@ skills:
   - window
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/sliding-time-window
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19350,7 +19323,7 @@ skills:
   - tenant
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/tenant-scaling
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19376,7 +19349,7 @@ skills:
   - vertical
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-data-volume/vertical-scaling
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19400,7 +19373,7 @@ skills:
   - scaling
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-qps
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19425,7 +19398,7 @@ skills:
   - volume
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-scaling/scaling-query-volume
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19452,7 +19425,7 @@ skills:
   - search
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality/diagnosis
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19480,7 +19453,7 @@ skills:
   - strategies
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-search-quality/search-strategies
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19502,7 +19475,7 @@ skills:
   - version
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-version-upgrade
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19527,7 +19500,7 @@ skills:
   - quasi
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/quasi-coder
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19552,7 +19525,7 @@ skills:
   - test
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/react19-test-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19579,7 +19552,7 @@ skills:
   - readme
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/readme-blueprint-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19602,7 +19575,7 @@ skills:
   - refactor
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/refactor-method-complexity-reduce
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19626,7 +19599,7 @@ skills:
   - refactor
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/refactor-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19652,7 +19625,7 @@ skills:
   - remember
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/remember-interactive-programming
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19674,7 +19647,7 @@ skills:
   - remember
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/remember
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19698,7 +19671,7 @@ skills:
   - roundup
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/roundup
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19722,7 +19695,7 @@ skills:
   - ruff
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ruff-recursive-fix
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19746,7 +19719,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/rust-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19773,7 +19746,7 @@ skills:
   - salesforce
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/salesforce-apex-quality
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19800,7 +19773,7 @@ skills:
   - standards
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/salesforce-component-standards
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19827,7 +19800,7 @@ skills:
   - salesforce
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/salesforce-flow-design
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19856,7 +19829,7 @@ skills:
   - test
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/scaffolding-oracle-to-postgres-migration-test-project
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19883,7 +19856,7 @@ skills:
   - test
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/scoutqa-test
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19906,7 +19879,7 @@ skills:
   - screen
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/screen-recording
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19935,7 +19908,7 @@ skills:
   - tracking
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/server-side-conversion-tracking
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19958,7 +19931,7 @@ skills:
   - write
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/signal-write
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -19983,7 +19956,7 @@ skills:
   - snowflake
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/snowflake-semanticview
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20011,7 +19984,7 @@ skills:
   - sponsor
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/sponsor-finder
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20036,7 +20009,7 @@ skills:
   - sql
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/sql-code-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20061,7 +20034,7 @@ skills:
   - sql
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/sql-optimization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20083,7 +20056,7 @@ skills:
   - ssma
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ssma-console
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20109,7 +20082,7 @@ skills:
   - suggest
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/suggest-awesome-github-copilot-agents
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20135,7 +20108,7 @@ skills:
   - suggest
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/suggest-awesome-github-copilot-instructions
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20162,7 +20135,7 @@ skills:
   - suggest
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/suggest-awesome-github-copilot-skills
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20191,7 +20164,7 @@ skills:
   - system
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/system-commandline-cli
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20223,7 +20196,7 @@ skills:
   - technology
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/technology-stack-blueprint-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20247,7 +20220,7 @@ skills:
   - tiny
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/tiny-stepping
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20270,7 +20243,7 @@ skills:
   - tldr
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/tldr-prompt
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20296,7 +20269,7 @@ skills:
   - typescript
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/typescript-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20318,7 +20291,7 @@ skills:
   - typespec
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/typespec-api-operations
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20340,7 +20313,7 @@ skills:
   - typespec
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/typespec-create-agent
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20362,7 +20335,7 @@ skills:
   - screenshots
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ui-screenshots
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20386,7 +20359,7 @@ skills:
   - update
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/update-implementation-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20407,7 +20380,7 @@ skills:
   - update
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/update-llms
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20430,7 +20403,7 @@ skills:
   - update
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/update-specification
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20458,7 +20431,7 @@ skills:
   - verify
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/verify-agent-action
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20482,7 +20455,7 @@ skills:
   - vscode
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/vscode-ext-commands
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20504,7 +20477,7 @@ skills:
   - vscode
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/vscode-ext-localization
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20531,7 +20504,7 @@ skills:
   - winui3
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/winui3-migration-guide
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20556,7 +20529,7 @@ skills:
   - workiq
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/workiq-copilot
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20581,7 +20554,7 @@ skills:
   - workshop
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/workshop-create
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20605,7 +20578,7 @@ skills:
   - write
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/write-coding-standards-from-file
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20632,7 +20605,7 @@ skills:
   - twitter
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/x-twitter-scraper
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -20653,7 +20626,7 @@ skills:
   - feedback
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/act-on-feedback
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20675,7 +20648,7 @@ skills:
   - review
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/code-review
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20698,7 +20671,7 @@ skills:
   - commit
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/commit
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20719,7 +20692,7 @@ skills:
   - draft
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-draft-pr
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20739,7 +20712,7 @@ skills:
   - fix
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/fix-ci
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20762,7 +20735,7 @@ skills:
   - run
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/generate-run-commands
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20782,7 +20755,7 @@ skills:
   - merge
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/merge
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20806,7 +20779,7 @@ skills:
   - upstream
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync-upstream
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20829,7 +20802,7 @@ skills:
   - sync
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20852,7 +20825,7 @@ skills:
   - troubleshoot
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/troubleshoot
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -20876,7 +20849,7 @@ skills:
   - update
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-skills
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -21363,6 +21336,33 @@ skills:
   - universal
   license: ''
   zh_keywords: 其他 Claude Code Kiro 通用
+- id: seb1n/awesome-ai-agent-skills
+  name: awesome-ai-agent-skills
+  description: '103 ready-to-use AI agent skills for Claude Code, OpenAI Codex, Gemini
+    CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible tools.
+    Complete '
+  description_full: 103 ready-to-use AI agent skills for Claude Code, OpenAI Codex,
+    Gemini CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible
+    tools. Complete SKILL.md workflows—not a link directory.
+  category: development
+  score: 51
+  tags:
+  - agent
+  - awesome
+  - cli
+  - github
+  - skills
+  source: community-repos
+  install_url: https://github.com/seb1n/awesome-ai-agent-skills/tree/main
+  stars: 178
+  installs: 0
+  platforms:
+  - claude_code
+  - kiro
+  - codex
+  - universal
+  license: MIT
+  zh_keywords: 人工智能 AI 机器学习 智能体 Agent AI代理 github 代码托管 开发 Claude Code Kiro Codex 通用
 - id: vercel-labs/skills/find-skills
   name: find-skills
   description: Helps users discover and install agent skills when they ask questions
@@ -23738,7 +23738,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/alpacahq/alpaca-skills/tree/main
-  stars: 145
+  stars: 146
   installs: 0
   platforms:
   - claude_code
@@ -24613,7 +24613,7 @@ skills:
   - partial
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/partial-package
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -24634,7 +24634,7 @@ skills:
   - injection
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/prompt-injection
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -24655,7 +24655,7 @@ skills:
   - output
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/zh-output
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -24677,7 +24677,7 @@ skills:
   - educational
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/add-educational-comments
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24699,7 +24699,7 @@ skills:
   - triage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/arch-linux-triage
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24720,7 +24720,7 @@ skills:
   - openapi
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/aspnet-minimal-api-openapi
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24742,7 +24742,7 @@ skills:
   - epic
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/breakdown-epic-arch
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24764,7 +24764,7 @@ skills:
   - implementation
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/breakdown-feature-implementation
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24786,7 +24786,7 @@ skills:
   - prd
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/breakdown-feature-prd
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24808,7 +24808,7 @@ skills:
   - triage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/centos-linux-triage
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24830,7 +24830,7 @@ skills:
   - framework
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/containerize-aspnet-framework
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24851,7 +24851,7 @@ skills:
   - containerize
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/containerize-aspnetcore
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24870,7 +24870,7 @@ skills:
   - map
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/context-map
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24889,7 +24889,7 @@ skills:
   - create
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-agentsmd
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24912,7 +24912,7 @@ skills:
   - record
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-architectural-decision-record
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24937,7 +24937,7 @@ skills:
   - specification
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-github-issue-feature-from-specification
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24963,7 +24963,7 @@ skills:
   - plan
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-github-issues-feature-from-implementation-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -24988,7 +24988,7 @@ skills:
   - unmet
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-github-issues-for-unmet-specification-requirements
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25009,7 +25009,7 @@ skills:
   - specification
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-specification
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25031,7 +25031,7 @@ skills:
   - spring
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-spring-boot-java-project
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25053,7 +25053,7 @@ skills:
   - spring
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-spring-boot-kotlin-project
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25075,7 +25075,7 @@ skills:
   - tldr
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-tldr-page
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25094,7 +25094,7 @@ skills:
   - csharp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/csharp-async
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25115,7 +25115,7 @@ skills:
   - docs
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/csharp-docs
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25136,7 +25136,7 @@ skills:
   - mstest
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/csharp-mstest
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25156,7 +25156,7 @@ skills:
   - nunit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/csharp-nunit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25176,7 +25176,7 @@ skills:
   - tunit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/csharp-tunit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25196,7 +25196,7 @@ skills:
   - xunit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/csharp-xunit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25220,7 +25220,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-advanced-patterns
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25244,7 +25244,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-production-code
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25267,7 +25267,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-quickstart
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25291,7 +25291,7 @@ skills:
   - usecase
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dataverse-python-usecase-builder
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25313,7 +25313,7 @@ skills:
   - triage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/debian-linux-triage
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25333,7 +25333,7 @@ skills:
   - practices
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dotnet-best-practices
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25356,7 +25356,7 @@ skills:
   - review
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dotnet-design-pattern-review
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25377,7 +25377,7 @@ skills:
   - upgrade
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/dotnet-upgrade
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25397,7 +25397,7 @@ skills:
   - editorconfig
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/editorconfig
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25415,7 +25415,7 @@ skills:
   - core
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ef-core
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25437,7 +25437,7 @@ skills:
   - triage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/fedora-linux-triage
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25459,7 +25459,7 @@ skills:
   - prompt
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/finalize-agent-prompt
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25481,7 +25481,7 @@ skills:
   - starter
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/github-copilot-starter
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25502,7 +25502,7 @@ skills:
   - java
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-docs
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25523,7 +25523,7 @@ skills:
   - junit
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-junit
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25544,7 +25544,7 @@ skills:
   - refactoring
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-refactoring-extract-method
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25565,7 +25565,7 @@ skills:
   - remove
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-refactoring-remove-parameter
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25584,7 +25584,7 @@ skills:
   - springboot
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/java-springboot
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25605,7 +25605,7 @@ skills:
   - springboot
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/kotlin-springboot
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25626,7 +25626,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-create-adaptive-cards
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25647,7 +25647,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-create-declarative-agent
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25668,7 +25668,7 @@ skills:
   - mcp
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mcp-deploy-manage-agents
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25687,7 +25687,7 @@ skills:
   - translations
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/mkdocs-translations
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25707,7 +25707,7 @@ skills:
   - stage
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/multi-stage-dockerfile
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25728,7 +25728,7 @@ skills:
   - next
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/next-intl-add-language
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25749,7 +25749,7 @@ skills:
   - openapi
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/openapi-to-application-code
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25771,7 +25771,7 @@ skills:
   - playwright
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/playwright-automation-fill-in-form
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25792,7 +25792,7 @@ skills:
   - website
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/playwright-explore-website
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25814,7 +25814,7 @@ skills:
   - test
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/playwright-generate-test
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25840,7 +25840,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/power-apps-code-app-scaffold
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25861,7 +25861,7 @@ skills:
   - pytest
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/pytest-coverage
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25884,7 +25884,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/python-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25906,7 +25906,7 @@ skills:
   - sdk
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/qdrant-clients-sdk
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25928,7 +25928,7 @@ skills:
   - time
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/repo-story-time
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25951,7 +25951,7 @@ skills:
   - source
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/resx-source-generator-migration
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25971,7 +25971,7 @@ skills:
   - review
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/review-and-refactor
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -25995,7 +25995,7 @@ skills:
   - server
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/ruby-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26017,7 +26017,7 @@ skills:
   - shuffle
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/shuffle-json-data
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26037,7 +26037,7 @@ skills:
   - structured
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/structured-autonomy-generate
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26057,7 +26057,7 @@ skills:
   - structured
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/structured-autonomy-implement
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26081,7 +26081,7 @@ skills:
   - swift
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/swift-mcp-server-generator
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26104,7 +26104,7 @@ skills:
   - typespec
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/typespec-create-api-plugin
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26127,7 +26127,7 @@ skills:
   - update
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/update-avm-modules-in-bicep
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26150,7 +26150,7 @@ skills:
   - update
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/update-markdown-file-index
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -26170,7 +26170,7 @@ skills:
   - what
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/what-context-needed
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -56366,7 +56366,7 @@ skills:
   - create
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-pr
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -56386,7 +56386,7 @@ skills:
   - update
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-pr
-  stars: 191474
+  stars: 191513
   installs: 0
   platforms:
   - claude_code
@@ -57029,7 +57029,7 @@ skills:
   - usage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-swift-usage
-  stars: 2559
+  stars: 2566
   installs: 0
   platforms:
   - claude_code
@@ -74228,7 +74228,7 @@ skills:
   - vague
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/needs-revision
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code
@@ -74247,7 +74247,7 @@ skills:
   - readme
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/create-readme
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -74267,7 +74267,7 @@ skills:
   - structured
   source: github-awesome-copilot
   install_url: https://github.com/github/awesome-copilot/tree/main/skills/structured-autonomy-plan
-  stars: 38754
+  stars: 38797
   installs: 0
   platforms:
   - claude_code
@@ -98307,7 +98307,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/op7418/NanoBanana-PPT-Skills/tree/main/SKILL.md
-  stars: 3239
+  stars: 3240
   installs: 0
   platforms:
   - claude_code
@@ -190415,7 +190415,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/BrianRWagner/ai-marketing-skills/tree/main
-  stars: 409
+  stars: 410
   installs: 0
   platforms:
   - claude_code
@@ -254697,7 +254697,7 @@ skills:
   - example
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/blocked
-  stars: 82007
+  stars: 82109
   installs: 0
   platforms:
   - claude_code

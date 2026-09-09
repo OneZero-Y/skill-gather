@@ -17,13 +17,13 @@
         "source_url": "https://github.com/NVIDIA/skills",
         "source_path": "",
         "install_url": "https://github.com/NVIDIA/skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873457Z",
+        "last_synced": "2026-09-09T08:45:04.649549Z",
         "upstream_commit": "",
         "repo": "nvidia/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3236,
+        "repo_stars": 3244,
         "last_commit_date": "2026-09-08",
         "has_scripts": false,
         "has_references": false,
@@ -62,14 +62,14 @@
         "source_url": "https://github.com/snyk/agent-scan",
         "source_path": "",
         "install_url": "https://github.com/snyk/agent-scan/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873064Z",
+        "last_synced": "2026-09-09T08:45:04.649087Z",
         "upstream_commit": "",
         "repo": "snyk/agent-scan",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3016,
-        "last_commit_date": "2026-09-07",
+        "repo_stars": 3022,
+        "last_commit_date": "2026-09-08",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -108,7 +108,7 @@
         "source_url": "https://github.com/qdrant/skills",
         "source_path": "",
         "install_url": "https://github.com/qdrant/skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873349Z",
+        "last_synced": "2026-09-09T08:45:04.649436Z",
         "upstream_commit": "",
         "repo": "qdrant/skills",
         "alternate_sources": []
@@ -156,14 +156,14 @@
         "source_url": "https://github.com/google/skills",
         "source_path": "",
         "install_url": "https://github.com/google/skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873416Z",
+        "last_synced": "2026-09-09T08:45:04.649508Z",
         "upstream_commit": "",
         "repo": "google/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 19643,
-        "last_commit_date": "2026-09-06",
+        "repo_stars": 19679,
+        "last_commit_date": "2026-09-09",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -200,13 +200,13 @@
         "source_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
         "source_path": "",
         "install_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main",
-        "last_synced": "2026-09-08T08:42:27.874501Z",
+        "last_synced": "2026-09-09T08:45:04.650687Z",
         "upstream_commit": "",
         "repo": "orchestra-research/ai-research-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 12415,
+        "repo_stars": 12463,
         "last_commit_date": "2026-06-16",
         "has_scripts": false,
         "has_references": false,
@@ -245,13 +245,13 @@
         "source_url": "https://github.com/bergside/awesome-design-skills",
         "source_path": "",
         "install_url": "https://github.com/bergside/awesome-design-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873238Z",
+        "last_synced": "2026-09-09T08:45:04.649345Z",
         "upstream_commit": "",
         "repo": "bergside/awesome-design-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2712,
+        "repo_stars": 2722,
         "last_commit_date": "2026-06-28",
         "has_scripts": false,
         "has_references": false,
@@ -291,13 +291,13 @@
         "source_url": "https://github.com/resend/resend-skills",
         "source_path": "",
         "install_url": "https://github.com/resend/resend-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873529Z",
+        "last_synced": "2026-09-09T08:45:04.649629Z",
         "upstream_commit": "",
         "repo": "resend/resend-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 172,
+        "repo_stars": 173,
         "last_commit_date": "2026-09-04",
         "has_scripts": false,
         "has_references": false,
@@ -321,11 +321,11 @@
       "score": 57
     },
     {
-      "skill_id": "deanpeters/Product-Manager-Skills",
+      "skill_id": "gamedev-skills/awesome-gamedev-agent-skills",
       "spec": {
-        "name": "product-manager-skills",
-        "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
-        "license": "NOASSERTION",
+        "name": "awesome-gamedev-agent-skills",
+        "description": "67 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.",
+        "license": "Apache-2.0",
         "compatibility": null,
         "metadata": {},
         "allowed_tools": null
@@ -333,17 +333,17 @@
       "discovery": {
         "source_id": "community-repos",
         "source_type": "github_repo",
-        "source_url": "https://github.com/deanpeters/Product-Manager-Skills",
+        "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
         "source_path": "",
-        "install_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873888Z",
+        "install_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main",
+        "last_synced": "2026-09-09T08:45:04.650360Z",
         "upstream_commit": "",
-        "repo": "deanpeters/product-manager-skills",
+        "repo": "gamedev-skills/awesome-gamedev-agent-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 6875,
-        "last_commit_date": "2026-09-01",
+        "repo_stars": 905,
+        "last_commit_date": "2026-09-08",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -360,8 +360,10 @@
       },
       "category": "development",
       "tags": [
-        "manager",
-        "product",
+        "agent",
+        "awesome",
+        "cli",
+        "gamedev",
         "skills"
       ],
       "score": 56
@@ -382,13 +384,13 @@
         "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
         "source_path": "",
         "install_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873783Z",
+        "last_synced": "2026-09-09T08:45:04.649942Z",
         "upstream_commit": "",
         "repo": "avdlee/swiftui-agent-skill",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3503,
+        "repo_stars": 3508,
         "last_commit_date": "2026-08-12",
         "has_scripts": false,
         "has_references": false,
@@ -428,13 +430,13 @@
         "source_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
         "source_path": "",
         "install_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873837Z",
+        "last_synced": "2026-09-09T08:45:04.649996Z",
         "upstream_commit": "",
         "repo": "rudrankriyam/app-store-connect-cli-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 1014,
+        "repo_stars": 1019,
         "last_commit_date": "2026-09-07",
         "has_scripts": false,
         "has_references": false,
@@ -461,11 +463,11 @@
       "score": 55
     },
     {
-      "skill_id": "gamedev-skills/awesome-gamedev-agent-skills",
+      "skill_id": "deanpeters/Product-Manager-Skills",
       "spec": {
-        "name": "awesome-gamedev-agent-skills",
-        "description": "67 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.",
-        "license": "Apache-2.0",
+        "name": "product-manager-skills",
+        "description": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
+        "license": "NOASSERTION",
         "compatibility": null,
         "metadata": {},
         "allowed_tools": null
@@ -473,17 +475,17 @@
       "discovery": {
         "source_id": "community-repos",
         "source_type": "github_repo",
-        "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "source_url": "https://github.com/deanpeters/Product-Manager-Skills",
         "source_path": "",
-        "install_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.874180Z",
+        "install_url": "https://github.com/deanpeters/Product-Manager-Skills/tree/main",
+        "last_synced": "2026-09-09T08:45:04.650052Z",
         "upstream_commit": "",
-        "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+        "repo": "deanpeters/product-manager-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 885,
-        "last_commit_date": "2026-08-24",
+        "repo_stars": 6893,
+        "last_commit_date": "2026-09-01",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -500,10 +502,8 @@
       },
       "category": "development",
       "tags": [
-        "agent",
-        "awesome",
-        "cli",
-        "gamedev",
+        "manager",
+        "product",
         "skills"
       ],
       "score": 55
@@ -524,7 +524,7 @@
         "source_url": "https://github.com/cypress-io/ai-toolkit",
         "source_path": "",
         "install_url": "https://github.com/cypress-io/ai-toolkit/tree/main",
-        "last_synced": "2026-09-08T08:42:27.872981Z",
+        "last_synced": "2026-09-09T08:45:04.648973Z",
         "upstream_commit": "",
         "repo": "cypress-io/ai-toolkit",
         "alternate_sources": []
@@ -568,13 +568,13 @@
         "source_url": "https://github.com/veniceai/skills",
         "source_path": "",
         "install_url": "https://github.com/veniceai/skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873573Z",
+        "last_synced": "2026-09-09T08:45:04.649673Z",
         "upstream_commit": "",
         "repo": "veniceai/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 139,
+        "repo_stars": 141,
         "last_commit_date": "2026-09-07",
         "has_scripts": false,
         "has_references": false,
@@ -613,7 +613,7 @@
         "source_url": "https://github.com/machina-sports/sports-skills",
         "source_path": "",
         "install_url": "https://github.com/machina-sports/sports-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.874303Z",
+        "last_synced": "2026-09-09T08:45:04.650481Z",
         "upstream_commit": "",
         "repo": "machina-sports/sports-skills",
         "alternate_sources": []
@@ -659,13 +659,13 @@
         "source_url": "https://github.com/antonbabenko/terraform-skill",
         "source_path": "",
         "install_url": "https://github.com/antonbabenko/terraform-skill/tree/master",
-        "last_synced": "2026-09-08T08:42:27.872929Z",
+        "last_synced": "2026-09-09T08:45:04.648901Z",
         "upstream_commit": "",
         "repo": "antonbabenko/terraform-skill",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 2332,
+        "repo_stars": 2333,
         "last_commit_date": "2026-07-03",
         "has_scripts": false,
         "has_references": false,
@@ -689,54 +689,6 @@
       "score": 53
     },
     {
-      "skill_id": "seb1n/awesome-ai-agent-skills",
-      "spec": {
-        "name": "awesome-ai-agent-skills",
-        "description": "103 ready-to-use AI agent skills for Claude Code, OpenAI Codex, Gemini CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible tools. Complete SKILL.md workflows—not a link directory.",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/seb1n/awesome-ai-agent-skills",
-        "source_path": "",
-        "install_url": "https://github.com/seb1n/awesome-ai-agent-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.874094Z",
-        "upstream_commit": "",
-        "repo": "seb1n/awesome-ai-agent-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 176,
-        "last_commit_date": "2026-08-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "agent",
-        "awesome",
-        "cli",
-        "github",
-        "skills"
-      ],
-      "score": 53
-    },
-    {
       "skill_id": "arpitg1304/robotics-agent-skills",
       "spec": {
         "name": "robotics-agent-skills",
@@ -752,7 +704,7 @@
         "source_url": "https://github.com/arpitg1304/robotics-agent-skills",
         "source_path": "",
         "install_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.874363Z",
+        "last_synced": "2026-09-09T08:45:04.650543Z",
         "upstream_commit": "",
         "repo": "arpitg1304/robotics-agent-skills",
         "alternate_sources": []
@@ -783,6 +735,54 @@
       "score": 53
     },
     {
+      "skill_id": "seb1n/awesome-ai-agent-skills",
+      "spec": {
+        "name": "awesome-ai-agent-skills",
+        "description": "103 ready-to-use AI agent skills for Claude Code, OpenAI Codex, Gemini CLI, Cursor, GitHub Copilot, Windsurf, and other Agent Skills-compatible tools. Complete SKILL.md workflows—not a link directory.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/seb1n/awesome-ai-agent-skills",
+        "source_path": "",
+        "install_url": "https://github.com/seb1n/awesome-ai-agent-skills/tree/main",
+        "last_synced": "2026-09-09T08:45:04.650260Z",
+        "upstream_commit": "",
+        "repo": "seb1n/awesome-ai-agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 178,
+        "last_commit_date": "2026-08-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "agent",
+        "awesome",
+        "cli",
+        "github",
+        "skills"
+      ],
+      "score": 51
+    },
+    {
       "skill_id": "alpacahq/alpaca-skills",
       "spec": {
         "name": "alpaca-skills",
@@ -798,14 +798,14 @@
         "source_url": "https://github.com/alpacahq/alpaca-skills",
         "source_path": "",
         "install_url": "https://github.com/alpacahq/alpaca-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873628Z",
+        "last_synced": "2026-09-09T08:45:04.649730Z",
         "upstream_commit": "",
         "repo": "alpacahq/alpaca-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 145,
-        "last_commit_date": "2026-09-02",
+        "repo_stars": 146,
+        "last_commit_date": "2026-09-08",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -844,7 +844,7 @@
         "source_url": "https://github.com/TerminalSkills/skills",
         "source_path": "",
         "install_url": "https://github.com/TerminalSkills/skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.874033Z",
+        "last_synced": "2026-09-09T08:45:04.650198Z",
         "upstream_commit": "",
         "repo": "terminalskills/skills",
         "alternate_sources": []
@@ -889,13 +889,13 @@
         "source_url": "https://github.com/op7418/NanoBanana-PPT-Skills",
         "source_path": "SKILL.md",
         "install_url": "https://github.com/op7418/NanoBanana-PPT-Skills/tree/main/SKILL.md",
-        "last_synced": "2026-09-08T08:42:27.873176Z",
+        "last_synced": "2026-09-09T08:45:04.649244Z",
         "upstream_commit": "",
         "repo": "op7418/nanobanana-ppt-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3239,
+        "repo_stars": 3240,
         "last_commit_date": "2026-01-19",
         "has_scripts": false,
         "has_references": false,
@@ -935,7 +935,7 @@
         "source_url": "https://github.com/ajhcs/healthcare-agents",
         "source_path": "",
         "install_url": "https://github.com/ajhcs/healthcare-agents/tree/main",
-        "last_synced": "2026-09-08T08:42:27.874449Z",
+        "last_synced": "2026-09-09T08:45:04.650634Z",
         "upstream_commit": "",
         "repo": "ajhcs/healthcare-agents",
         "alternate_sources": []
@@ -980,13 +980,13 @@
         "source_url": "https://github.com/BrianRWagner/ai-marketing-skills",
         "source_path": "",
         "install_url": "https://github.com/BrianRWagner/ai-marketing-skills/tree/main",
-        "last_synced": "2026-09-08T08:42:27.873725Z",
+        "last_synced": "2026-09-09T08:45:04.649880Z",
         "upstream_commit": "",
         "repo": "brianrwagner/ai-marketing-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 409,
+        "repo_stars": 410,
         "last_commit_date": "2026-03-19",
         "has_scripts": false,
         "has_references": false,
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-09-08T08:42:28.457941+00:00"
+  "generated_at": "2026-09-09T08:45:05.368622+00:00"
 }
