@@ -1,15 +1,15 @@
-generated_at: '2026-09-09T08:45:06.609474+00:00'
+generated_at: '2026-09-10T08:43:00.765172+00:00'
 total: 11291
 site:
   title: Skill Gather
   description: AI Agent Skill 发现引擎 · 兼容性注册表
 meta:
-  last_synced: '2026-09-09T08:45:05.751295Z'
+  last_synced: '2026-09-10T08:42:59.853843Z'
   sources_count: 15
   changelog:
     added: 0
     removed: 0
-    modified: 599
+    modified: 164
     total_old: 11291
     total_new: 11291
 categories:
@@ -284,7 +284,7 @@ featured:
   - stripe
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/amazon-bedrock
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -310,7 +310,7 @@ featured:
   - visualization
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/chart-visualization
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -359,7 +359,7 @@ featured:
   - mattpocock/skills
   source: voltagent-awesome
   install_url: https://github.com/mattpocock/skills
-  stars: 257295
+  stars: 258206
   installs: 0
   platforms:
   - claude_code
@@ -384,7 +384,7 @@ featured:
   - skills
   source: community-repos
   install_url: https://github.com/NVIDIA/skills/tree/main
-  stars: 3244
+  stars: 3248
   installs: 0
   platforms:
   - claude_code
@@ -3602,7 +3602,7 @@ skills:
   - aws
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-ai-ml
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -3634,7 +3634,7 @@ skills:
   - observability
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-observability
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -3668,7 +3668,7 @@ skills:
   - vue
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/launch-with-aws
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -3880,7 +3880,7 @@ skills:
   - msk
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/managing-amazon-msk
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -3914,7 +3914,7 @@ skills:
   - msk
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/migrate-to-msk
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -3942,7 +3942,7 @@ skills:
   - mysql
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-aurora-mysql
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -3970,7 +3970,7 @@ skills:
   - postgresql
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-aurora-postgresql
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4003,7 +4003,7 @@ skills:
   - rag
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-documentdb
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4035,7 +4035,7 @@ skills:
   - dynamodb
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-dynamodb
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4072,7 +4072,7 @@ skills:
   - terraform
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-elasticache
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4100,7 +4100,7 @@ skills:
   - keyspaces
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/amazon-keyspaces
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4130,7 +4130,7 @@ skills:
   - dsql
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/aurora-dsql
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4158,7 +4158,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-db2
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4190,7 +4190,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-oracle
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4223,7 +4223,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-oss
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4251,7 +4251,7 @@ skills:
   - timestream
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/timestream-influxdb
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4280,7 +4280,7 @@ skills:
   - uploads
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/processing-s3-uploads-with-step-functions
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -4305,7 +4305,7 @@ skills:
   - skill
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-creator
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -7168,7 +7168,7 @@ skills:
   - rest
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/deploying-custom-domain-rest-api
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7194,7 +7194,7 @@ skills:
   - research
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/github-deep-research
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -7217,7 +7217,7 @@ skills:
   - image
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/image-generation
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -7240,7 +7240,7 @@ skills:
   - podcast
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/podcast-generation
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -7266,7 +7266,7 @@ skills:
   - systematic
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/systematic-literature-review
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -7525,7 +7525,7 @@ skills:
   - vercel
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/vercel-deploy-claimable
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -7719,7 +7719,7 @@ skills:
   - aws
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-auth
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7758,7 +7758,7 @@ skills:
   - management
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-billing-and-cost-management
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7786,7 +7786,7 @@ skills:
   - typescript
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-cdk
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7812,7 +7812,7 @@ skills:
   - cloudformation
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-cloudformation
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7845,7 +7845,7 @@ skills:
   - compute
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-compute
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7864,9 +7864,11 @@ skills:
     ECS knowledge, task definitions, Fargate services, ECS Exec, ECS Express Mode
     and ECS Managed Instances. Covers general Elastic Beanstalk knowledge, Elastic
     Beanstalk configuration and platforms supported by Elastic Beanstalk. Covers general
-    ECR knowledge, ECR repository setup and lifecycle policies. Applies when deploying,
-    debugging, or optimizing containers on AWS. Should be used instead of relying
-    on internal knowledge for these services.
+    ECR knowledge, ECR repository setup and lifecycle policies. Includes recommending,
+    enabling, and reading Amazon ECS Action Logs to troubleshoot control-plane failures
+    (deployment rollback/circuit-breaker, task placement, scaling, task replacement).
+    Applies when deploying, debugging, or optimizing containers on AWS. Should be
+    used instead of relying on internal knowledge for these services.
   category: devops
   score: 66
   tags:
@@ -7875,7 +7877,7 @@ skills:
   - kubernetes
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-containers
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7903,7 +7905,7 @@ skills:
   - database
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-database
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7936,7 +7938,7 @@ skills:
   - linear
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-deployment
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -7970,7 +7972,7 @@ skills:
   - terraform
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-iam
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8001,7 +8003,7 @@ skills:
   - security
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-security
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8031,7 +8033,7 @@ skills:
   - serverless
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-serverless
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8064,7 +8066,7 @@ skills:
   - storage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-storage
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8097,7 +8099,7 @@ skills:
   - service
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/amazon-opensearch-service
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8129,7 +8131,7 @@ skills:
   - source
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/connecting-to-data-source
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8164,7 +8166,7 @@ skills:
   - lake
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/ingesting-into-data-lake
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8199,7 +8201,7 @@ skills:
   - redshift
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/redshift-guide
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8229,7 +8231,7 @@ skills:
   - vue
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/migration-and-modernization-skills/aws-transform
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8256,7 +8258,7 @@ skills:
   - braket
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/quantum-computing-skills/amazon-braket
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8287,7 +8289,7 @@ skills:
   - table
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/creating-data-lake-table
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8315,7 +8317,7 @@ skills:
   - deerflow
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/claude-to-deerflow
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -8341,7 +8343,7 @@ skills:
   - xlsx
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/data-analysis
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -8365,7 +8367,7 @@ skills:
   - skills
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/find-skills
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -8390,7 +8392,7 @@ skills:
   - music
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/music-generation
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -8414,7 +8416,7 @@ skills:
   - pptx
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/ppt-generation
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -8435,7 +8437,7 @@ skills:
   - video
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/video-generation
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -8856,7 +8858,7 @@ skills:
   - usage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-js-v3-usage
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8886,7 +8888,7 @@ skills:
   - usage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-python-usage
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8919,7 +8921,7 @@ skills:
   - service
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/developing-applications-on-managed-service-for-apache-flink
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8955,7 +8957,7 @@ skills:
   - streams
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/managing-amazon-kinesis-data-streams
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -8988,7 +8990,7 @@ skills:
   - redshift
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/migrating-to-amazon-redshift
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9021,7 +9023,7 @@ skills:
   - sqlserver
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/rds-sqlserver
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9052,7 +9054,7 @@ skills:
   - image
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/amazon-ec2-image-builder
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9088,7 +9090,7 @@ skills:
   - workspaces
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/end-user-computing-skills/amazon-workspaces-agent-access
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9122,7 +9124,7 @@ skills:
   - voice
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/aws-sms-voice
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9149,7 +9151,7 @@ skills:
   - social
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/aws-social-messaging
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9177,7 +9179,7 @@ skills:
   - schema
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/migration-and-modernization-skills/dms-schema-conversion
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9210,7 +9212,7 @@ skills:
   - cloudfront
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/cloudfront
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9243,7 +9245,7 @@ skills:
   - directconnect
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/directconnect
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9270,7 +9272,7 @@ skills:
   - route53
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/route53
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9303,7 +9305,7 @@ skills:
   - shieldadvanced
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/shieldadvanced
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9335,7 +9337,7 @@ skills:
   - sitetositevpn
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/sitetositevpn
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9367,7 +9369,7 @@ skills:
   - transitgateway
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/transitgateway
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9401,7 +9403,7 @@ skills:
   - waf
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/waf
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9426,7 +9428,7 @@ skills:
   - network
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/aws-network-monitoring
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9458,7 +9460,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/aws-resilience-lifecycle
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9491,7 +9493,7 @@ skills:
   - sdk
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-durable-functions
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9525,7 +9527,7 @@ skills:
   - managed
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-managed-instances
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9558,7 +9560,7 @@ skills:
   - microvms
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-lambda-microvms
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9592,7 +9594,7 @@ skills:
   - step
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/aws-step-functions
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9619,7 +9621,7 @@ skills:
   - securing
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/securing-s3-buckets
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9653,7 +9655,7 @@ skills:
   - redshift
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-redshift
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9690,7 +9692,7 @@ skills:
   - vue
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/web-and-mobile-development/aws-amplify
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -9716,7 +9718,7 @@ skills:
   - bootstrap
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/bootstrap
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -9738,7 +9740,7 @@ skills:
   - skill
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -11027,7 +11029,7 @@ skills:
   - exploring
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/exploring-data-catalog
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11055,7 +11057,7 @@ skills:
   - lake
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/finding-data-lake-assets
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11082,7 +11084,7 @@ skills:
   - querying
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/querying-data-lake
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11111,7 +11113,7 @@ skills:
   - vectors
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/storing-and-querying-vectors
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11715,7 +11717,7 @@ skills:
   - cleanrooms
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/analytics-skills/aws-cleanrooms
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11742,7 +11744,7 @@ skills:
   - instances
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/creating-amazon-aurora-db-cluster-with-instances
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11767,7 +11769,7 @@ skills:
   - rds
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/database-skills/exporting-rds-to-s3
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11796,7 +11798,7 @@ skills:
   - practices
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/launching-ec2-instance-with-best-practices
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11823,7 +11825,7 @@ skills:
   - setting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/ec2-skills/setting-up-ec2-instance-profiles
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11847,7 +11849,7 @@ skills:
   - ses
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/messaging-and-streaming-skills/amazon-ses
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11877,7 +11879,7 @@ skills:
   - vpc
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/configuring-vpc-endpoints-for-private-aws-service-access
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11903,7 +11905,7 @@ skills:
   - vpcs
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/connecting-vpcs-with-peering
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11931,7 +11933,7 @@ skills:
   - vpc
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/creating-production-vpc-multi-az
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11959,7 +11961,7 @@ skills:
   - vpc
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/enabling-lambda-vpc-internet-access
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -11984,7 +11986,7 @@ skills:
   - traffic
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/networking-and-content-delivery-skills/routing-traffic-with-route53-and-cloudfront
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12012,7 +12014,7 @@ skills:
   - setting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/setting-up-cloudtrail-multi-region
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12039,7 +12041,7 @@ skills:
   - setting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/setting-up-cloudwatch-alarm-notifications
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12064,7 +12066,7 @@ skills:
   - troubleshooting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/operations-skills/troubleshooting-application-failures
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12090,7 +12092,7 @@ skills:
   - switch
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/arc-region-switch
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12120,7 +12122,7 @@ skills:
   - setup
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/recovery-controller-setup
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12150,7 +12152,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-failure-mode-assessment
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12180,7 +12182,7 @@ skills:
   - started
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-getting-started
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12208,7 +12210,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-hub-multi-account
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12237,7 +12239,7 @@ skills:
   - using
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/security-and-identity-skills/creating-secrets-using-best-practices
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12264,7 +12266,7 @@ skills:
   - lambda
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/connecting-lambda-to-api-gateway
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12290,7 +12292,7 @@ skills:
   - lambda
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/connecting-lambda-to-dynamodb
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12316,7 +12318,7 @@ skills:
   - stage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/creating-api-gateway-stage
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12343,7 +12345,7 @@ skills:
   - timeouts
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/serverless-skills/debugging-lambda-timeouts
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -12370,7 +12372,7 @@ skills:
   - react
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/frontend-design
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -13714,7 +13716,7 @@ skills:
   - scan
   source: community-repos
   install_url: https://github.com/snyk/agent-scan/tree/main
-  stars: 3022
+  stars: 3028
   installs: 0
   platforms:
   - claude_code
@@ -13741,7 +13743,7 @@ skills:
   - typescript
   source: community-repos
   install_url: https://github.com/qdrant/skills/tree/main
-  stars: 230
+  stars: 231
   installs: 0
   platforms:
   - claude_code
@@ -13761,7 +13763,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/google/skills/tree/main
-  stars: 19679
+  stars: 19727
   installs: 0
   platforms:
   - claude_code
@@ -14092,7 +14094,7 @@ skills:
   - coderabbitai/skills
   source: voltagent-awesome
   install_url: https://github.com/coderabbitai/skills
-  stars: 169
+  stars: 171
   installs: 0
   platforms:
   - claude_code
@@ -14180,7 +14182,7 @@ skills:
   - skills
   source: voltagent-awesome
   install_url: https://github.com/ibelick/ui-skills
-  stars: 8257
+  stars: 8276
   installs: 0
   platforms:
   - claude_code
@@ -14205,7 +14207,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/Orchestra-Research/AI-Research-SKILLs/tree/main
-  stars: 12463
+  stars: 12496
   installs: 0
   platforms:
   - claude_code
@@ -14979,7 +14981,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/bergside/awesome-design-skills/tree/main
-  stars: 2722
+  stars: 2727
   installs: 0
   platforms:
   - claude_code
@@ -15051,7 +15053,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main
-  stars: 905
+  stars: 926
   installs: 0
   platforms:
   - claude_code
@@ -15249,6 +15251,27 @@ skills:
   - universal
   license: MIT
   zh_keywords: 智能体 Agent AI代理 开发 Claude Code Kiro Codex 通用
+- id: cypress-io/ai-toolkit
+  name: ai-toolkit
+  description: Fast, flexible, and open tooling for building intelligent workflows
+    with Cypress.
+  description_full: Fast, flexible, and open tooling for building intelligent workflows
+    with Cypress.
+  category: development
+  score: 55
+  tags:
+  - toolkit
+  source: community-repos
+  install_url: https://github.com/cypress-io/ai-toolkit/tree/main
+  stars: 40
+  installs: 0
+  platforms:
+  - claude_code
+  - kiro
+  - codex
+  - universal
+  license: MIT
+  zh_keywords: 人工智能 AI 机器学习 开发 Claude Code Kiro Codex 通用
 - id: AvdLee/SwiftUI-Agent-Skill
   name: swiftui-agent-skill
   description: Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent
@@ -15288,7 +15311,7 @@ skills:
   - store
   source: community-repos
   install_url: https://github.com/rudrankriyam/app-store-connect-cli-skills/tree/main
-  stars: 1019
+  stars: 1022
   installs: 0
   platforms:
   - claude_code
@@ -15311,7 +15334,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/deanpeters/Product-Manager-Skills/tree/main
-  stars: 6893
+  stars: 6905
   installs: 0
   platforms:
   - claude_code
@@ -15337,7 +15360,7 @@ skills:
   - web
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/web-design-guidelines
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -15345,27 +15368,6 @@ skills:
   - universal
   license: ''
   zh_keywords: 设计 UI设计 视觉 开发 Claude Code Kiro 通用
-- id: cypress-io/ai-toolkit
-  name: ai-toolkit
-  description: Fast, flexible, and open tooling for building intelligent workflows
-    with Cypress.
-  description_full: Fast, flexible, and open tooling for building intelligent workflows
-    with Cypress.
-  category: development
-  score: 54
-  tags:
-  - toolkit
-  source: community-repos
-  install_url: https://github.com/cypress-io/ai-toolkit/tree/main
-  stars: 40
-  installs: 0
-  platforms:
-  - claude_code
-  - kiro
-  - codex
-  - universal
-  license: MIT
-  zh_keywords: 人工智能 AI 机器学习 开发 Claude Code Kiro Codex 通用
 - id: veniceai/skills
   name: skills
   description: Agent Skills for the Venice.ai API. One folder per surface area, each
@@ -15402,7 +15404,7 @@ skills:
   - sports
   source: community-repos
   install_url: https://github.com/machina-sports/sports-skills/tree/main
-  stars: 215
+  stars: 216
   installs: 0
   platforms:
   - claude_code
@@ -15619,7 +15621,7 @@ skills:
   - developer
   source: voltagent-awesome
   install_url: https://github.com/angular/skills
-  stars: 639
+  stars: 642
   installs: 0
   platforms:
   - claude_code
@@ -15653,7 +15655,7 @@ skills:
   - streaming
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-messaging-and-streaming
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -15684,7 +15686,7 @@ skills:
   - networking
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-networking
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -15705,7 +15707,7 @@ skills:
   - terraform
   source: community-repos
   install_url: https://github.com/antonbabenko/terraform-skill/tree/master
-  stars: 2333
+  stars: 2335
   installs: 0
   platforms:
   - claude_code
@@ -15834,7 +15836,7 @@ skills:
   - blocks
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-blocks
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -15862,7 +15864,7 @@ skills:
   - signing
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/signing-in-to-aws
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -15893,7 +15895,7 @@ skills:
   - resilience
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/resilience-skills/resilience-program-design
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -15917,7 +15919,7 @@ skills:
   - troubleshooting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-efs
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -15942,7 +15944,7 @@ skills:
   - troubleshooting
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/storage-skills/troubleshooting-s3-files
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -15974,7 +15976,7 @@ skills:
   - querying
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-cloudwatch
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -16004,7 +16006,7 @@ skills:
   - querying
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-s3
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -16033,7 +16035,7 @@ skills:
   - sagemaker
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/specialized-skills/system-table-skills/querying-aws-sagemaker-catalog
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -16061,7 +16063,7 @@ skills:
   - review
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/academic-paper-review
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -16088,7 +16090,7 @@ skills:
   - documentation
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/code-documentation
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -16116,7 +16118,7 @@ skills:
   - consulting
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/consulting-analysis
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -16141,7 +16143,7 @@ skills:
   - research
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/deep-research
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -16167,7 +16169,7 @@ skills:
   - newsletter
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/newsletter-generation
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -16189,7 +16191,7 @@ skills:
   - skill
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/publish-candidate
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -16213,7 +16215,7 @@ skills:
   - surprise
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/surprise-me
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -20626,7 +20628,7 @@ skills:
   - feedback
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/act-on-feedback
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20648,7 +20650,7 @@ skills:
   - review
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/code-review
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20671,7 +20673,7 @@ skills:
   - commit
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/commit
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20692,7 +20694,7 @@ skills:
   - draft
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-draft-pr
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20712,7 +20714,7 @@ skills:
   - fix
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/fix-ci
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20735,7 +20737,7 @@ skills:
   - run
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/generate-run-commands
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20755,7 +20757,7 @@ skills:
   - merge
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/merge
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20779,7 +20781,7 @@ skills:
   - upstream
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync-upstream
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20802,7 +20804,7 @@ skills:
   - sync
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/sync
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20825,7 +20827,7 @@ skills:
   - troubleshoot
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/troubleshoot
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -20849,7 +20851,7 @@ skills:
   - update
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-skills
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -21354,7 +21356,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/seb1n/awesome-ai-agent-skills/tree/main
-  stars: 178
+  stars: 179
   installs: 0
   platforms:
   - claude_code
@@ -24613,7 +24615,7 @@ skills:
   - partial
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/partial-package
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -24634,7 +24636,7 @@ skills:
   - injection
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/prompt-injection
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -24655,7 +24657,7 @@ skills:
   - output
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/zh-output
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -56366,7 +56368,7 @@ skills:
   - create
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/create-pr
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -56386,7 +56388,7 @@ skills:
   - update
   source: microsoft-vscode-skills
   install_url: https://github.com/microsoft/vscode/tree/main/src/vs/sessions/skills/update-pr
-  stars: 191513
+  stars: 191538
   installs: 0
   platforms:
   - claude_code
@@ -57029,7 +57031,7 @@ skills:
   - usage
   source: aws-agent-toolkit
   install_url: https://github.com/aws/agent-toolkit-for-aws/tree/main/skills/core-skills/aws-sdk-swift-usage
-  stars: 2566
+  stars: 2575
   installs: 0
   platforms:
   - claude_code
@@ -74228,7 +74230,7 @@ skills:
   - vague
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/needs-revision
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
@@ -98307,7 +98309,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/op7418/NanoBanana-PPT-Skills/tree/main/SKILL.md
-  stars: 3240
+  stars: 3242
   installs: 0
   platforms:
   - claude_code
@@ -190415,7 +190417,7 @@ skills:
   - skills
   source: community-repos
   install_url: https://github.com/BrianRWagner/ai-marketing-skills/tree/main
-  stars: 410
+  stars: 413
   installs: 0
   platforms:
   - claude_code
@@ -254697,7 +254699,7 @@ skills:
   - example
   source: bytedance-deerflow
   install_url: https://github.com/bytedance/deer-flow/tree/main/skills/public/skill-reviewer/evals/fixtures/blocked
-  stars: 82109
+  stars: 82181
   installs: 0
   platforms:
   - claude_code
