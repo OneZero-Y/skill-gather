@@ -25,7 +25,7 @@
         ]
       },
       "signals": {
-        "repo_stars": 259198,
+        "repo_stars": 260036,
         "last_commit_date": "2026-09-04",
         "has_scripts": false,
         "has_references": false,
@@ -45,7 +45,7 @@
       "tags": [
         "mattpocock/skills"
       ],
-      "score": 66
+      "score": 64
     },
     {
       "skill_id": "coderabbitai/skills",
@@ -117,7 +117,7 @@
         ]
       },
       "signals": {
-        "repo_stars": 8302,
+        "repo_stars": 8342,
         "last_commit_date": "2026-09-06",
         "has_scripts": false,
         "has_references": false,
@@ -139,53 +139,6 @@
         "skills"
       ],
       "score": 60
-    },
-    {
-      "skill_id": "video-db/skills",
-      "spec": {
-        "name": "video-db-skills",
-        "description": "Realtime and batch video workflows: capture screen/audio, ingest URLs/YouTube/RTSP, transcribe, index, search, generate subtitles, edit timelines, and stream HLS output",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "voltagent-awesome",
-        "source_type": "awesome_list",
-        "source_url": "https://github.com/video-db/skills",
-        "source_path": "",
-        "install_url": "https://github.com/video-db/skills",
-        "last_synced": "2026-09-07T09:02:21.823645Z",
-        "upstream_commit": "",
-        "repo": "video-db/skills",
-        "alternate_sources": [
-          "community-repos"
-        ]
-      },
-      "signals": {
-        "repo_stars": 121,
-        "last_commit_date": "2026-09-07",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 2
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "db/skills",
-        "video"
-      ],
-      "score": 57
     },
     {
       "skill_id": "LambdaTest/agent-skills",
@@ -212,7 +165,7 @@
       },
       "signals": {
         "repo_stars": 367,
-        "last_commit_date": "2026-07-24",
+        "last_commit_date": "2026-09-11",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -232,7 +185,54 @@
         "lambdatest/agent",
         "skills"
       ],
-      "score": 56
+      "score": 59
+    },
+    {
+      "skill_id": "video-db/skills",
+      "spec": {
+        "name": "video-db-skills",
+        "description": "Realtime and batch video workflows: capture screen/audio, ingest URLs/YouTube/RTSP, transcribe, index, search, generate subtitles, edit timelines, and stream HLS output",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "voltagent-awesome",
+        "source_type": "awesome_list",
+        "source_url": "https://github.com/video-db/skills",
+        "source_path": "",
+        "install_url": "https://github.com/video-db/skills",
+        "last_synced": "2026-09-07T09:02:21.823645Z",
+        "upstream_commit": "",
+        "repo": "video-db/skills",
+        "alternate_sources": [
+          "community-repos"
+        ]
+      },
+      "signals": {
+        "repo_stars": 121,
+        "last_commit_date": "2026-09-11",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 2
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "db/skills",
+        "video"
+      ],
+      "score": 57
     },
     {
       "skill_id": "angular/skills",
@@ -258,8 +258,8 @@
         ]
       },
       "signals": {
-        "repo_stars": 644,
-        "last_commit_date": "2026-09-10",
+        "repo_stars": 645,
+        "last_commit_date": "2026-09-11",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -29696,5 +29696,5 @@
     }
   ],
   "total": 646,
-  "generated_at": "2026-09-11T08:41:19.217927+00:00"
+  "generated_at": "2026-09-12T08:26:30.339208+00:00"
 }
