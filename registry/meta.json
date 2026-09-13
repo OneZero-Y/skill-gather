@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-09-12T08:26:30.747157Z",
+  "last_synced": "2026-09-13T09:06:37.050796Z",
   "version": "1",
   "categories": {
-    "document": 879,
-    "development": 4089,
-    "devops": 1265,
-    "data": 674,
-    "creative": 996,
+    "document": 884,
+    "development": 4086,
+    "devops": 1264,
+    "data": 671,
+    "creative": 994,
     "security": 156,
-    "productivity": 1096,
-    "education": 212,
-    "other": 1330,
-    "ecommerce": 71,
-    "content": 525
+    "productivity": 1095,
+    "education": 209,
+    "other": 1332,
+    "ecommerce": 72,
+    "content": 530
   },
   "sources": [
     "anthropics-skills",
@@ -58,17 +58,17 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 388,
-    "21-40": 4224,
-    "41-60": 6161,
+    "0-20": 383,
+    "21-40": 4218,
+    "41-60": 6172,
     "61-80": 404,
     "81-100": 116
   },
   "changelog": {
-    "added": 39,
-    "removed": 38,
-    "modified": 309,
-    "total_old": 11292,
+    "added": 45,
+    "removed": 45,
+    "modified": 75,
+    "total_old": 11293,
     "total_new": 11293
   },
   "source_sync_state": {
@@ -100,7 +100,7 @@
       "fingerprint": "AvdLee/SwiftUI-Agent-Skill:2026-08-12T13:34:21Z|BrianRWagner/ai-marketing-skills:2026-03-19T12:37:28Z|LambdaTest/agent-skills:2026-09-11T17:05:54Z|NVIDIA/skills:2026-09-12T08:14:29Z|Orchestra-Research/AI-Research-SKILLs:2026-06-16T01:36:46Z|TerminalSkills/skills:2026-09-04T19:42:42Z|ajhcs/healthcare-agents:2026-07-19T20:53:19Z|alpacahq/alpaca-skills:2026-09-08T11:27:54Z|angular/skills:2026-09-11T23:09:33Z|antonbabenko/terraform-skill:2026-07-03T05:56:41Z|arpitg1304/robotics-agent-skills:2026-08-12T01:29:38Z|bergside/awesome-design-skills:2026-06-28T10:05:22Z|coderabbitai/skills:2026-09-08T12:46:54Z|cypress-io/ai-toolkit:2026-09-09T20:19:33Z|deanpeters/Product-Manager-Skills:2026-09-01T22:34:38Z|gamedev-skills/awesome-gamedev-agent-skills:2026-09-10T13:36:03Z|google/skills:2026-09-12T01:43:56Z|ibelick/ui-skills:2026-09-06T09:58:58Z|machina-sports/sports-skills:2026-09-07T18:32:10Z|mattpocock/skills:2026-09-04T08:45:43Z|op7418/NanoBanana-PPT-Skills:2026-01-19T03:07:23Z|qdrant/skills:2026-09-11T10:33:03Z|resend/resend-skills:2026-09-11T17:44:12Z|rudrankriyam/app-store-connect-cli-skills:2026-09-07T17:20:29Z|seb1n/awesome-ai-agent-skills:2026-08-09T22:29:16Z|snyk/agent-scan:2026-09-11T09:51:54Z|veniceai/skills:2026-09-07T08:08:28Z|video-db/skills:2026-09-11T12:27:34Z",
       "skill_count": 22,
       "synced_at": "2026-09-12T08:26:30.747131+00:00",
-      "skipped": false
+      "skipped": true
     },
     "voltagent-awesome": {
       "fingerprint": "VoltAgent/awesome-agent-skills@main:8873794bcb26",
@@ -115,16 +115,16 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:148990:1789201384117:tencent-docs",
+      "fingerprint": "skillhub:150081:1789290371764:tencent-docs",
       "skill_count": 5000,
-      "synced_at": "2026-09-12T08:26:30.747131+00:00",
+      "synced_at": "2026-09-13T09:06:37.050770+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
       "fingerprint": "microsoft/vscode@main:a8f49160195d",
       "skill_count": 13,
       "synced_at": "2026-09-12T08:26:30.747131+00:00",
-      "skipped": false
+      "skipped": true
     },
     "aws-agent-toolkit": {
       "fingerprint": "aws/agent-toolkit-for-aws@main:68d9e8541c45",
@@ -166,13 +166,13 @@
       "fingerprint": "bytedance/deer-flow@main:6d5d7bb1d5e8",
       "skill_count": 29,
       "synced_at": "2026-09-12T08:26:30.747131+00:00",
-      "skipped": false
+      "skipped": true
     },
     "scientific-agent-skills": {
       "fingerprint": "K-Dense-AI/scientific-agent-skills@main:c1ed16d97dd6",
       "skill_count": 165,
       "synced_at": "2026-09-12T08:26:30.747131+00:00",
-      "skipped": false
+      "skipped": true
     }
   },
   "quality": {
@@ -186,12 +186,12 @@
       "spread": 72
     },
     "coverage_pct": {
-      "has_description": 96.25,
+      "has_description": 96.3,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 80.1
+      "has_stars": 80.03
     },
     "source_health": {
       "skillhub-cn": {
@@ -210,66 +210,75 @@
       },
       "voltagent-awesome": {
         "skills": 646,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "voltagent-awesome.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "github-awesome-copilot": {
         "skills": 433,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "github-awesome-copilot.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "scientific-agent-skills": {
         "skills": 165,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "scientific-agent-skills.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "aws-agent-toolkit": {
         "skills": 104,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "aws-agent-toolkit.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "openai-skills": {
         "skills": 43,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "openai-skills.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "bytedance-deerflow": {
         "skills": 29,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "bytedance-deerflow.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "langchain-skills": {
         "skills": 22,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "langchain-skills.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "community-repos": {
         "skills": 22,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "community-repos.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "anthropics-skills": {
         "skills": 19,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "anthropics-skills.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "supabase-skills": {
         "skills": 13,
@@ -281,40 +290,41 @@
       },
       "microsoft-vscode-skills": {
         "skills": 13,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "microsoft-vscode-skills.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "vercel-agent-skills": {
         "skills": 9,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "vercel-agent-skills.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       },
       "heilcheng-awesome": {
         "skills": 6,
-        "status": "ok",
+        "status": "degraded",
         "shards": [
           "heilcheng-awesome.json"
-        ]
+        ],
+        "error": "returned 0 entries; kept existing data"
       }
     },
     "dedup": {
-      "input_count": 11299,
+      "input_count": 11293,
       "output_count": 11293,
-      "removed_count": 6,
-      "removed_by_location": 6,
+      "removed_count": 0,
+      "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 35,
-      "dedup_rate_pct": 0.05,
-      "multi_source_skills": 6,
-      "largest_group": 2,
-      "largest_group_key": "github.com/mattpocock/skills",
-      "top_overlapping_source_pairs": {
-        "community-repos+voltagent-awesome": 6
-      }
+      "disambiguated_ids": 32,
+      "dedup_rate_pct": 0.0,
+      "multi_source_skills": 0,
+      "largest_group": 0,
+      "largest_group_key": "",
+      "top_overlapping_source_pairs": {}
     }
   }
 }
