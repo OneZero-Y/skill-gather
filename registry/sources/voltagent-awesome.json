@@ -138,7 +138,7 @@
         "ibelick/ui",
         "skills"
       ],
-      "score": 60
+      "score": 59
     },
     {
       "skill_id": "LambdaTest/agent-skills",
@@ -29696,5 +29696,5 @@
     }
   ],
   "total": 646,
-  "generated_at": "2026-09-13T09:06:36.731423+00:00"
+  "generated_at": "2026-09-14T09:37:56.493903+00:00"
 }
