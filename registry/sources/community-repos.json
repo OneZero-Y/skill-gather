@@ -227,7 +227,7 @@
         "research",
         "skills"
       ],
-      "score": 59
+      "score": 57
     },
     {
       "skill_id": "bergside/awesome-design-skills",
@@ -413,54 +413,6 @@
       "score": 55
     },
     {
-      "skill_id": "rudrankriyam/app-store-connect-cli-skills",
-      "spec": {
-        "name": "app-store-connect-cli-skills",
-        "description": "Skills to automate app store deployed and everything related to it using the asc cli",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
-        "source_path": "",
-        "install_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/tree/main",
-        "last_synced": "2026-09-12T08:26:29.173098Z",
-        "upstream_commit": "",
-        "repo": "rudrankriyam/app-store-connect-cli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1024,
-        "last_commit_date": "2026-09-07",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "app",
-        "cli",
-        "connect",
-        "skills",
-        "store"
-      ],
-      "score": 55
-    },
-    {
       "skill_id": "deanpeters/Product-Manager-Skills",
       "spec": {
         "name": "product-manager-skills",
@@ -505,51 +457,6 @@
         "skills"
       ],
       "score": 55
-    },
-    {
-      "skill_id": "veniceai/skills",
-      "spec": {
-        "name": "skills",
-        "description": "Agent Skills for the Venice.ai API. One folder per surface area, each with a SKILL.md for agent runtimes (Cursor, Claude, Codex, etc.).",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/veniceai/skills",
-        "source_path": "",
-        "install_url": "https://github.com/veniceai/skills/tree/main",
-        "last_synced": "2026-09-12T08:26:29.172786Z",
-        "upstream_commit": "",
-        "repo": "veniceai/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 141,
-        "last_commit_date": "2026-09-07",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "skills"
-      ],
-      "score": 54
     },
     {
       "skill_id": "AvdLee/SwiftUI-Agent-Skill",
@@ -598,6 +505,54 @@
       "score": 54
     },
     {
+      "skill_id": "rudrankriyam/app-store-connect-cli-skills",
+      "spec": {
+        "name": "app-store-connect-cli-skills",
+        "description": "Skills to automate app store deployed and everything related to it using the asc cli",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills",
+        "source_path": "",
+        "install_url": "https://github.com/rudrankriyam/app-store-connect-cli-skills/tree/main",
+        "last_synced": "2026-09-12T08:26:29.173098Z",
+        "upstream_commit": "",
+        "repo": "rudrankriyam/app-store-connect-cli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1024,
+        "last_commit_date": "2026-09-07",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "app",
+        "cli",
+        "connect",
+        "skills",
+        "store"
+      ],
+      "score": 53
+    },
+    {
       "skill_id": "machina-sports/sports-skills",
       "spec": {
         "name": "sports-skills",
@@ -641,7 +596,7 @@
         "skills",
         "sports"
       ],
-      "score": 54
+      "score": 53
     },
     {
       "skill_id": "antonbabenko/terraform-skill",
@@ -687,6 +642,51 @@
         "terraform"
       ],
       "score": 53
+    },
+    {
+      "skill_id": "veniceai/skills",
+      "spec": {
+        "name": "skills",
+        "description": "Agent Skills for the Venice.ai API. One folder per surface area, each with a SKILL.md for agent runtimes (Cursor, Claude, Codex, etc.).",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/veniceai/skills",
+        "source_path": "",
+        "install_url": "https://github.com/veniceai/skills/tree/main",
+        "last_synced": "2026-09-12T08:26:29.172786Z",
+        "upstream_commit": "",
+        "repo": "veniceai/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 141,
+        "last_commit_date": "2026-09-07",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "skills"
+      ],
+      "score": 52
     },
     {
       "skill_id": "arpitg1304/robotics-agent-skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-09-14T09:37:56.515397+00:00"
+  "generated_at": "2026-09-15T09:14:52.321603+00:00"
 }

@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-09-14T09:37:56.895491Z",
+  "last_synced": "2026-09-15T09:14:52.710599Z",
   "version": "1",
   "categories": {
     "document": 891,
     "development": 4086,
-    "devops": 1265,
-    "data": 670,
-    "creative": 993,
+    "devops": 1266,
+    "data": 671,
+    "creative": 992,
     "security": 155,
-    "productivity": 1093,
-    "education": 208,
-    "other": 1332,
+    "productivity": 1095,
+    "education": 206,
+    "other": 1329,
     "ecommerce": 72,
-    "content": 528
+    "content": 530
   },
   "sources": [
     "anthropics-skills",
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 369,
-    "21-40": 4214,
-    "41-60": 6190,
+    "0-20": 363,
+    "21-40": 4207,
+    "41-60": 6203,
     "61-80": 404,
     "81-100": 116
   },
   "changelog": {
-    "added": 47,
-    "removed": 47,
-    "modified": 123,
+    "added": 45,
+    "removed": 45,
+    "modified": 154,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:151840:1789378665432:tencent-docs",
+      "fingerprint": "skillhub:153310:1789463617804:tencent-docs",
       "skill_count": 5000,
-      "synced_at": "2026-09-14T09:37:56.895451+00:00",
+      "synced_at": "2026-09-15T09:14:52.710572+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -178,7 +178,7 @@
   "quality": {
     "total": 11293,
     "score": {
-      "avg": 41.9,
+      "avg": 42.0,
       "min": 15,
       "max": 87,
       "median": 43,
@@ -186,12 +186,12 @@
       "spread": 72
     },
     "coverage_pct": {
-      "has_description": 96.42,
+      "has_description": 96.48,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 79.98
+      "has_stars": 80.02
     },
     "source_health": {
       "skillhub-cn": {
