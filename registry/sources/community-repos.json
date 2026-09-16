@@ -826,7 +826,7 @@
         "api",
         "skills"
       ],
-      "score": 50
+      "score": 49
     },
     {
       "skill_id": "TerminalSkills/skills",
@@ -1007,9 +1007,9 @@
         "marketing",
         "skills"
       ],
-      "score": 38
+      "score": 37
     }
   ],
   "total": 22,
-  "generated_at": "2026-09-15T09:14:52.321603+00:00"
+  "generated_at": "2026-09-16T09:08:08.527935+00:00"
 }
