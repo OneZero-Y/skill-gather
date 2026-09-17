@@ -91892,54 +91892,6 @@
       "score": 45
     },
     {
-      "skill_id": "truongduy2611/app-store-preflight-skills",
-      "spec": {
-        "name": "app-store-preflight-skills",
-        "description": "在提交之前，扫描 iOS/macOS Xcode 项目中常见的 App Store 拒绝模式。在为 App Store 审核准备应用、收到 Apple 的拒绝后，或在审核元数据、订阅、隐私清单、授权或设计合规性时使用。与 asc CLI 集成以进行元数据检查。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/truongduy2611/app-store-preflight-skills",
-        "source_path": "skills/app-store-preflight-skills",
-        "install_url": "https://github.com/truongduy2611/app-store-preflight-skills/tree/main/skills/app-store-preflight-skills",
-        "last_synced": "2026-08-14T02:36:23.552097Z",
-        "upstream_commit": "",
-        "repo": "truongduy2611/app-store-preflight-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1137,
-        "last_commit_date": "2026-03-20",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "app",
-        "cli",
-        "preflight",
-        "skills",
-        "store"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "BankrBot/skills/0xwork",
       "spec": {
         "name": "0xwork",
@@ -120092,6 +120044,54 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "truongduy2611/app-store-preflight-skills",
+      "spec": {
+        "name": "app-store-preflight-skills",
+        "description": "在提交之前，扫描 iOS/macOS Xcode 项目中常见的 App Store 拒绝模式。在为 App Store 审核准备应用、收到 Apple 的拒绝后，或在审核元数据、订阅、隐私清单、授权或设计合规性时使用。与 asc CLI 集成以进行元数据检查。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/truongduy2611/app-store-preflight-skills",
+        "source_path": "skills/app-store-preflight-skills",
+        "install_url": "https://github.com/truongduy2611/app-store-preflight-skills/tree/main/skills/app-store-preflight-skills",
+        "last_synced": "2026-08-14T02:36:23.552097Z",
+        "upstream_commit": "",
+        "repo": "truongduy2611/app-store-preflight-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1137,
+        "last_commit_date": "2026-03-20",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "app",
+        "cli",
+        "preflight",
+        "skills",
+        "store"
+      ],
+      "score": 44
     },
     {
       "skill_id": "hamelsmu/evals-skills/generate-synthetic-data",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-09-16T09:08:08.725493+00:00"
+  "generated_at": "2026-09-17T09:15:57.571438+00:00"
 }

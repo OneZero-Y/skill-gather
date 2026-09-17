@@ -369,50 +369,6 @@
       "score": 56
     },
     {
-      "skill_id": "cypress-io/ai-toolkit",
-      "spec": {
-        "name": "ai-toolkit",
-        "description": "Fast, flexible, and open tooling for building intelligent workflows with Cypress.",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/cypress-io/ai-toolkit",
-        "source_path": "",
-        "install_url": "https://github.com/cypress-io/ai-toolkit/tree/main",
-        "last_synced": "2026-09-12T08:26:29.172195Z",
-        "upstream_commit": "",
-        "repo": "cypress-io/ai-toolkit",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 40,
-        "last_commit_date": "2026-09-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "toolkit"
-      ],
-      "score": 55
-    },
-    {
       "skill_id": "deanpeters/Product-Manager-Skills",
       "spec": {
         "name": "product-manager-skills",
@@ -457,6 +413,50 @@
         "skills"
       ],
       "score": 55
+    },
+    {
+      "skill_id": "cypress-io/ai-toolkit",
+      "spec": {
+        "name": "ai-toolkit",
+        "description": "Fast, flexible, and open tooling for building intelligent workflows with Cypress.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/cypress-io/ai-toolkit",
+        "source_path": "",
+        "install_url": "https://github.com/cypress-io/ai-toolkit/tree/main",
+        "last_synced": "2026-09-12T08:26:29.172195Z",
+        "upstream_commit": "",
+        "repo": "cypress-io/ai-toolkit",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 40,
+        "last_commit_date": "2026-09-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "toolkit"
+      ],
+      "score": 54
     },
     {
       "skill_id": "AvdLee/SwiftUI-Agent-Skill",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-09-16T09:08:08.527935+00:00"
+  "generated_at": "2026-09-17T09:15:57.415184+00:00"
 }
