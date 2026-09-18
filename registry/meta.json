@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-09-17T09:15:57.719977Z",
+  "last_synced": "2026-09-18T08:49:55.238975Z",
   "version": "1",
   "categories": {
-    "document": 899,
-    "development": 4088,
-    "devops": 1266,
-    "data": 675,
-    "creative": 995,
+    "document": 906,
+    "development": 4089,
+    "devops": 1261,
+    "data": 674,
+    "creative": 990,
     "security": 155,
-    "productivity": 1094,
-    "education": 202,
-    "other": 1322,
+    "productivity": 1093,
+    "education": 203,
+    "other": 1318,
     "ecommerce": 73,
-    "content": 524
+    "content": 531
   },
   "sources": [
     "anthropics-skills",
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 342,
-    "21-40": 4175,
-    "41-60": 6257,
+    "0-20": 326,
+    "21-40": 4180,
+    "41-60": 6268,
     "61-80": 403,
     "81-100": 116
   },
   "changelog": {
-    "added": 33,
-    "removed": 33,
-    "modified": 120,
+    "added": 44,
+    "removed": 44,
+    "modified": 130,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:154657:1789636328969:tencent-docs",
+      "fingerprint": "skillhub:156550:1789721381627:dev-expert",
       "skill_count": 5000,
-      "synced_at": "2026-09-17T09:15:57.719949+00:00",
+      "synced_at": "2026-09-18T08:49:55.238955+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -186,12 +186,12 @@
       "spread": 72
     },
     "coverage_pct": {
-      "has_description": 96.66,
+      "has_description": 96.79,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 79.91
+      "has_stars": 80.03
     },
     "source_health": {
       "skillhub-cn": {

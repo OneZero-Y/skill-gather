@@ -93284,1102 +93284,6 @@
       "score": 45
     },
     {
-      "skill_id": "ZhangHanDong/rust-skills/domain-cloud-native",
-      "spec": {
-        "name": "domain-cloud-native",
-        "description": "用于构建云原生应用。关键词：kubernetes, k8s, docker, container, grpc, tonic, microservice, service mesh, observability, tracing, metrics, health check, cloud, deployment, 云原生, 微服务, 容器\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/domain-cloud-native",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-cloud-native",
-        "last_synced": "2026-08-14T02:36:23.556893Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "cloud",
-        "docker",
-        "domain",
-        "kubernetes",
-        "native"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/domain-embedded",
-      "spec": {
-        "name": "domain-embedded",
-        "description": "用于开发嵌入式/no_std Rust 时。关键词：embedded, no_std, microcontroller, MCU, ARM, RISC-V, bare metal, firmware, HAL, PAC, RTIC, embassy, interrupt, DMA, peripheral, GPIO, SPI, I2C, UART, embedded-hal, cortex-m, esp32, stm32, nrf, 嵌入式, 单片机, 固件, 裸机\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/domain-embedded",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-embedded",
-        "last_synced": "2026-08-14T02:36:23.556960Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "domain",
-        "embedded",
-        "rust"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/domain-fintech",
-      "spec": {
-        "name": "domain-fintech",
-        "description": "用于构建金融科技应用。关键词：fintech, trading, decimal, currency, financial, money, transaction, ledger, payment, exchange rate, precision, rounding, accounting, 金融, 交易系统, 货币, 支付\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/domain-fintech",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-fintech",
-        "last_synced": "2026-08-14T02:36:23.557054Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "domain",
-        "fintech"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/domain-iot",
-      "spec": {
-        "name": "domain-iot",
-        "description": "用于构建 IoT 应用。关键词：IoT, Internet of Things, 传感器, MQTT, device, 边缘计算, telemetry, actuator, 智能家居, gateway, protocol, 物联网, 传感器, 边缘计算, 智能家居\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/domain-iot",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-iot",
-        "last_synced": "2026-08-14T02:36:23.557118Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "domain",
-        "iot"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/domain-ml",
-      "spec": {
-        "name": "domain-ml",
-        "description": "用于在 Rust 中构建 ML/AI 应用。关键词：机器学习, 人工智能, 模型, inference, 神经网络, 深度学习, training, prediction, ndarray, tch-rs, burn, candle, 机器学习, 人工智能, 模型推理\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/domain-ml",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-ml",
-        "last_synced": "2026-08-14T02:36:23.557172Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "domain",
-        "rust"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/domain-web",
-      "spec": {
-        "name": "domain-web",
-        "description": "用于构建网络服务。关键词：web server, HTTP, REST API, GraphQL, WebSocket, axum, actix, warp, rocket, tower, hyper, reqwest, middleware, router, handler, extractor, state management, authentication, authorization, JWT, session, cookie, CORS, rate limiting, web开发, HTTP服务, API设计, 中间件, 路由\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/domain-web",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-web",
-        "last_synced": "2026-08-14T02:36:23.557225Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "domain",
-        "web"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m01-ownership",
-      "spec": {
-        "name": "m01-ownership",
-        "description": "严重：用于所有权/借用/生命周期问题。触发：E0382、E0597、E0506、E0507、E0515、E0716、E0106、value moved、borrowed value does not live long enough、cannot move out of、use of moved value、所有权、借用、生命周期、'a、'static、move、clone、Copy。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m01-ownership",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m01-ownership",
-        "last_synced": "2026-08-14T02:36:23.557300Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "m01",
-        "ownership"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m02-resource",
-      "spec": {
-        "name": "m02-resource",
-        "description": "CRITICAL: 用于智能指针和资源管理。触发词：Box, Rc, Arc, Weak, RefCell, Cell, smart pointer, heap allocation, reference counting, RAII, Drop, should I use Box or Rc, when to use Arc vs Rc, 智能指针, 引用计数, 堆分配\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m02-resource",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m02-resource",
-        "last_synced": "2026-08-14T02:36:23.557366Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "m02",
-        "resource"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m03-mutability",
-      "spec": {
-        "name": "m03-mutability",
-        "description": "CRITICAL: 用于可变性问题。触发器：E0596, E0499, E0502, cannot borrow as mutable, already borrowed as immutable, mut, &mut, interior mutability, Cell, RefCell, Mutex, RwLock, 可变性, 内部可变性, 借用冲突\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m03-mutability",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m03-mutability",
-        "last_synced": "2026-08-14T02:36:23.557426Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "m03",
-        "mutability"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m04-zero-cost",
-      "spec": {
-        "name": "m04-zero-cost",
-        "description": "CRITICAL: 用于泛型、特征、零成本抽象。触发：E0277, E0308, E0599, generic, trait, impl, dyn, where, monomorphization, static dispatch, dynamic dispatch, impl Trait, trait bound not satisfied, 泛型, 特征, 零成本抽象, 单态化\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m04-zero-cost",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m04-zero-cost",
-        "last_synced": "2026-08-14T02:36:23.557489Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "cost",
-        "m04",
-        "zero"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m05-type-driven",
-      "spec": {
-        "name": "m05-type-driven",
-        "description": "CRITICAL: 用于类型驱动设计。触发器：type state, PhantomData, newtype, marker trait, builder pattern, make invalid states unrepresentable, compile-time validation, sealed trait, ZST, 类型状态, 新类型模式, 类型驱动设计\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m05-type-driven",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m05-type-driven",
-        "last_synced": "2026-08-14T02:36:23.557551Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "driven",
-        "m05",
-        "type"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m06-error-handling",
-      "spec": {
-        "name": "m06-error-handling",
-        "description": "CRITICAL: 用于错误处理。触发条件：Result, Option, Error, ?, unwrap, expect, panic, anyhow, thiserror, 什么时候用 panic vs return Result, 自定义错误, 错误传播, 错误处理, Result 用法, 什么时候用 panic\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m06-error-handling",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m06-error-handling",
-        "last_synced": "2026-08-14T02:36:23.557615Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "error",
-        "handling",
-        "m06"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m07-concurrency",
-      "spec": {
-        "name": "m07-concurrency",
-        "description": "CRITICAL: 用于并发/异步。触发器：E0277 Send Sync, cannot be sent between threads, thread, spawn, channel, mpsc, Mutex, RwLock, Atomic, async, await, Future, tokio, deadlock, race condition, 并发, 线程, 异步, 死锁\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m07-concurrency",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m07-concurrency",
-        "last_synced": "2026-08-14T02:36:23.557681Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "concurrency",
-        "m07"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m09-domain",
-      "spec": {
-        "name": "m09-domain",
-        "description": "CRITICAL: 用于领域建模。触发词：domain model, DDD, 领域驱动设计, entity, value object, aggregate, repository pattern, business rules, validation, invariant, 领域模型, 领域驱动设计, 业务规则\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m09-domain",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m09-domain",
-        "last_synced": "2026-08-14T02:36:23.557743Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "domain",
-        "m09"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m10-performance",
-      "spec": {
-        "name": "m10-performance",
-        "description": "CRITICAL: 用于性能优化。触发词：performance, optimization, benchmark, profiling, flamegraph, criterion, slow, fast, allocation, cache, SIMD, make it faster, 性能优化, 基准测试\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m10-performance",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m10-performance",
-        "last_synced": "2026-08-14T02:36:23.557801Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "m10",
-        "performance"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m11-ecosystem",
-      "spec": {
-        "name": "m11-ecosystem",
-        "description": "用于集成 crate 或生态系统问题时。关键词：E0425, E0433, E0603, crate, cargo, dependency, feature flag, workspace, 使用哪个 crate, 使用外部 C 库, 创建 Python 扩展, PyO3, wasm, WebAssembly, bindgen, cbindgen, napi-rs, cannot find, private, crate 推荐, 最佳 crate, Cargo.toml, features, crate 推荐, 依赖管理, 特性标志, 工作空间, Python 绑定\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m11-ecosystem",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m11-ecosystem",
-        "last_synced": "2026-08-14T02:36:23.557859Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "ecosystem",
-        "m11",
-        "python"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m12-lifecycle",
-      "spec": {
-        "name": "m12-lifecycle",
-        "description": "用于设计资源生命周期。关键词：RAII, Drop, 资源生命周期, 连接池, 惰性初始化, 连接池设计, 资源清理模式, cleanup, scope, OnceCell, Lazy, once_cell, OnceLock, transaction, session management, when is Drop called, cleanup on error, guard pattern, scope guard, 资源生命周期, 连接池, 惰性初始化, 资源清理, RAII 模式\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m12-lifecycle",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m12-lifecycle",
-        "last_synced": "2026-08-14T02:36:23.557935Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "lifecycle",
-        "m12"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m13-domain-error",
-      "spec": {
-        "name": "m13-domain-error",
-        "description": "用于设计领域错误处理。关键词：domain error, 错误分类, 恢复策略, 重试, fallback, domain error hierarchy, user-facing vs internal errors, error code design, 熔断器, 优雅降级, resilience, error context, backoff, retry with backoff, error recovery, transient vs permanent error, 领域错误。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m13-domain-error",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m13-domain-error",
-        "last_synced": "2026-08-14T02:36:23.558005Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "domain",
-        "error",
-        "m13"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m14-mental-model",
-      "spec": {
-        "name": "m14-mental-model",
-        "description": "用于学习 Rust 概念。关键词：心智模型，如何理解所有权，理解 borrow checker，可视化内存布局，类比，误解，解释所有权，为什么 Rust，帮助我理解，对...感到困惑，学习 Rust，像我一样解释，ELI5，...的直觉，来自 Java，来自 Python，心智模型，如何理解所有权，学习 Rust，Rust 入门，为什么 Rust\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m14-mental-model",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m14-mental-model",
-        "last_synced": "2026-08-14T02:36:23.558095Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "m14",
-        "mental",
-        "model",
-        "python",
-        "rust"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/m15-anti-pattern",
-      "spec": {
-        "name": "m15-anti-pattern",
-        "description": "用于审查代码中的反模式。关键词：anti-pattern, common mistake, pitfall, code smell, bad practice, code review, is this an anti-pattern, better way to do this, common mistake to avoid, why is this bad, idiomatic way, beginner mistake, fighting borrow checker, clone everywhere, unwrap in production, should I refactor, 反模式, 常见错误, 代码异味, 最佳实践, 地道写法\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/m15-anti-pattern",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m15-anti-pattern",
-        "last_synced": "2026-08-14T02:36:23.558151Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "anti",
-        "m15",
-        "pattern"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-daily",
-      "spec": {
-        "name": "rust-daily",
-        "description": "CRITICAL: 用于 Rust 新闻和每日/每周/每月报告。触发条件：\nrust news, rust daily, rust weekly, TWIR, rust blog,\nRust 日报, Rust 周报, Rust 新闻, Rust 动态\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-daily",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-daily",
-        "last_synced": "2026-08-14T02:36:23.558385Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "daily",
-        "rust"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-router",
-      "spec": {
-        "name": "rust-router",
-        "description": "CRITICAL: 用于所有 Rust 相关问题，包括错误、设计和编码。最高优先级：比较, 对比, compare, vs, versus, 区别, difference, 最佳实践, best practice, tokio vs, async-std vs, 比较 tokio, 比较 async, Triggers on: Rust, cargo, rustc, crate, Cargo.toml, 意图分析, 问题分析, 语义分析, analyze intent, question analysis, compile error, borrow error, lifetime error, ownership error, type error, trait error, value moved, cannot borrow, does not live long enough, mismatched types, not satisfied, E0382, E0597, E0277, E0308, E0499, E0502, E0596, async, await, Send, Sync, tokio, concurrency, error handling, 编译错误, compile error, 所有权, ownership, 借用, borrow, 生命周期, lifetime, 类型错误, type error, 异步, async, 并发, concurrency, 错误处理, error handling, 问题, problem, question, 怎么用, how to use, 如何, how to, 为什么, why, 什么是, what is, 帮我写, help me write, 实现, implement, 解释, explain\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-router",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-router",
-        "last_synced": "2026-08-14T02:36:23.558590Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "router",
-        "rust"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-skill-creator",
-      "spec": {
-        "name": "rust-skill-creator",
-        "description": "用于为 Rust crates 或 std 库文档创建技能。关键词：创建 rust skill, 创建 crate skill, 创建 std skill, 动态 rust skill, 动态 crate skill, skill for tokio, skill for serde, skill for axum, generate rust skill, rust 技能, crate 技能, 从文档创建skill\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-skill-creator",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-skill-creator",
-        "last_synced": "2026-08-14T02:36:23.558734Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "creator",
-        "rust",
-        "skill"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/unsafe-checker",
-      "spec": {
-        "name": "unsafe-checker",
-        "description": "CRITICAL: 用于不安全 Rust 代码审查和 FFI。触发条件：unsafe, raw pointer, FFI, extern, transmute, *mut, *const, union, #[repr(C)], libc, std::ffi, MaybeUninit, NonNull, SAFETY 注释, soundness, undefined behavior, UB, safe wrapper, memory layout, bindgen, cbindgen, CString, CStr, 安全抽象, 裸指针, 外部函数接口, 内存布局, 不安全代码, FFI 绑定, 未定义行为\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/unsafe-checker",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/unsafe-checker",
-        "last_synced": "2026-08-14T02:36:23.558899Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "checker",
-        "rust",
-        "unsafe"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "MoizIbnYousaf/Ai-Agent-Skills/audit-library-health",
       "spec": {
         "name": "audit-library-health",
@@ -120739,6 +119643,1102 @@
         "web"
       ],
       "score": 44
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/domain-cloud-native",
+      "spec": {
+        "name": "domain-cloud-native",
+        "description": "用于构建云原生应用。关键词：kubernetes, k8s, docker, container, grpc, tonic, microservice, service mesh, observability, tracing, metrics, health check, cloud, deployment, 云原生, 微服务, 容器\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/domain-cloud-native",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-cloud-native",
+        "last_synced": "2026-08-14T02:36:23.556893Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "cloud",
+        "docker",
+        "domain",
+        "kubernetes",
+        "native"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/domain-embedded",
+      "spec": {
+        "name": "domain-embedded",
+        "description": "用于开发嵌入式/no_std Rust 时。关键词：embedded, no_std, microcontroller, MCU, ARM, RISC-V, bare metal, firmware, HAL, PAC, RTIC, embassy, interrupt, DMA, peripheral, GPIO, SPI, I2C, UART, embedded-hal, cortex-m, esp32, stm32, nrf, 嵌入式, 单片机, 固件, 裸机\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/domain-embedded",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-embedded",
+        "last_synced": "2026-08-14T02:36:23.556960Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "domain",
+        "embedded",
+        "rust"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/domain-fintech",
+      "spec": {
+        "name": "domain-fintech",
+        "description": "用于构建金融科技应用。关键词：fintech, trading, decimal, currency, financial, money, transaction, ledger, payment, exchange rate, precision, rounding, accounting, 金融, 交易系统, 货币, 支付\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/domain-fintech",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-fintech",
+        "last_synced": "2026-08-14T02:36:23.557054Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "domain",
+        "fintech"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/domain-iot",
+      "spec": {
+        "name": "domain-iot",
+        "description": "用于构建 IoT 应用。关键词：IoT, Internet of Things, 传感器, MQTT, device, 边缘计算, telemetry, actuator, 智能家居, gateway, protocol, 物联网, 传感器, 边缘计算, 智能家居\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/domain-iot",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-iot",
+        "last_synced": "2026-08-14T02:36:23.557118Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "domain",
+        "iot"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/domain-ml",
+      "spec": {
+        "name": "domain-ml",
+        "description": "用于在 Rust 中构建 ML/AI 应用。关键词：机器学习, 人工智能, 模型, inference, 神经网络, 深度学习, training, prediction, ndarray, tch-rs, burn, candle, 机器学习, 人工智能, 模型推理\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/domain-ml",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-ml",
+        "last_synced": "2026-08-14T02:36:23.557172Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "domain",
+        "rust"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/domain-web",
+      "spec": {
+        "name": "domain-web",
+        "description": "用于构建网络服务。关键词：web server, HTTP, REST API, GraphQL, WebSocket, axum, actix, warp, rocket, tower, hyper, reqwest, middleware, router, handler, extractor, state management, authentication, authorization, JWT, session, cookie, CORS, rate limiting, web开发, HTTP服务, API设计, 中间件, 路由\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/domain-web",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-web",
+        "last_synced": "2026-08-14T02:36:23.557225Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "domain",
+        "web"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m01-ownership",
+      "spec": {
+        "name": "m01-ownership",
+        "description": "严重：用于所有权/借用/生命周期问题。触发：E0382、E0597、E0506、E0507、E0515、E0716、E0106、value moved、borrowed value does not live long enough、cannot move out of、use of moved value、所有权、借用、生命周期、'a、'static、move、clone、Copy。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m01-ownership",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m01-ownership",
+        "last_synced": "2026-08-14T02:36:23.557300Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "m01",
+        "ownership"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m02-resource",
+      "spec": {
+        "name": "m02-resource",
+        "description": "CRITICAL: 用于智能指针和资源管理。触发词：Box, Rc, Arc, Weak, RefCell, Cell, smart pointer, heap allocation, reference counting, RAII, Drop, should I use Box or Rc, when to use Arc vs Rc, 智能指针, 引用计数, 堆分配\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m02-resource",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m02-resource",
+        "last_synced": "2026-08-14T02:36:23.557366Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "m02",
+        "resource"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m03-mutability",
+      "spec": {
+        "name": "m03-mutability",
+        "description": "CRITICAL: 用于可变性问题。触发器：E0596, E0499, E0502, cannot borrow as mutable, already borrowed as immutable, mut, &mut, interior mutability, Cell, RefCell, Mutex, RwLock, 可变性, 内部可变性, 借用冲突\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m03-mutability",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m03-mutability",
+        "last_synced": "2026-08-14T02:36:23.557426Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "m03",
+        "mutability"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m04-zero-cost",
+      "spec": {
+        "name": "m04-zero-cost",
+        "description": "CRITICAL: 用于泛型、特征、零成本抽象。触发：E0277, E0308, E0599, generic, trait, impl, dyn, where, monomorphization, static dispatch, dynamic dispatch, impl Trait, trait bound not satisfied, 泛型, 特征, 零成本抽象, 单态化\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m04-zero-cost",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m04-zero-cost",
+        "last_synced": "2026-08-14T02:36:23.557489Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "cost",
+        "m04",
+        "zero"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m05-type-driven",
+      "spec": {
+        "name": "m05-type-driven",
+        "description": "CRITICAL: 用于类型驱动设计。触发器：type state, PhantomData, newtype, marker trait, builder pattern, make invalid states unrepresentable, compile-time validation, sealed trait, ZST, 类型状态, 新类型模式, 类型驱动设计\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m05-type-driven",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m05-type-driven",
+        "last_synced": "2026-08-14T02:36:23.557551Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "driven",
+        "m05",
+        "type"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m06-error-handling",
+      "spec": {
+        "name": "m06-error-handling",
+        "description": "CRITICAL: 用于错误处理。触发条件：Result, Option, Error, ?, unwrap, expect, panic, anyhow, thiserror, 什么时候用 panic vs return Result, 自定义错误, 错误传播, 错误处理, Result 用法, 什么时候用 panic\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m06-error-handling",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m06-error-handling",
+        "last_synced": "2026-08-14T02:36:23.557615Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "error",
+        "handling",
+        "m06"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m07-concurrency",
+      "spec": {
+        "name": "m07-concurrency",
+        "description": "CRITICAL: 用于并发/异步。触发器：E0277 Send Sync, cannot be sent between threads, thread, spawn, channel, mpsc, Mutex, RwLock, Atomic, async, await, Future, tokio, deadlock, race condition, 并发, 线程, 异步, 死锁\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m07-concurrency",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m07-concurrency",
+        "last_synced": "2026-08-14T02:36:23.557681Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "concurrency",
+        "m07"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m09-domain",
+      "spec": {
+        "name": "m09-domain",
+        "description": "CRITICAL: 用于领域建模。触发词：domain model, DDD, 领域驱动设计, entity, value object, aggregate, repository pattern, business rules, validation, invariant, 领域模型, 领域驱动设计, 业务规则\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m09-domain",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m09-domain",
+        "last_synced": "2026-08-14T02:36:23.557743Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "domain",
+        "m09"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m10-performance",
+      "spec": {
+        "name": "m10-performance",
+        "description": "CRITICAL: 用于性能优化。触发词：performance, optimization, benchmark, profiling, flamegraph, criterion, slow, fast, allocation, cache, SIMD, make it faster, 性能优化, 基准测试\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m10-performance",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m10-performance",
+        "last_synced": "2026-08-14T02:36:23.557801Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "m10",
+        "performance"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m11-ecosystem",
+      "spec": {
+        "name": "m11-ecosystem",
+        "description": "用于集成 crate 或生态系统问题时。关键词：E0425, E0433, E0603, crate, cargo, dependency, feature flag, workspace, 使用哪个 crate, 使用外部 C 库, 创建 Python 扩展, PyO3, wasm, WebAssembly, bindgen, cbindgen, napi-rs, cannot find, private, crate 推荐, 最佳 crate, Cargo.toml, features, crate 推荐, 依赖管理, 特性标志, 工作空间, Python 绑定\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m11-ecosystem",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m11-ecosystem",
+        "last_synced": "2026-08-14T02:36:23.557859Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "ecosystem",
+        "m11",
+        "python"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m12-lifecycle",
+      "spec": {
+        "name": "m12-lifecycle",
+        "description": "用于设计资源生命周期。关键词：RAII, Drop, 资源生命周期, 连接池, 惰性初始化, 连接池设计, 资源清理模式, cleanup, scope, OnceCell, Lazy, once_cell, OnceLock, transaction, session management, when is Drop called, cleanup on error, guard pattern, scope guard, 资源生命周期, 连接池, 惰性初始化, 资源清理, RAII 模式\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m12-lifecycle",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m12-lifecycle",
+        "last_synced": "2026-08-14T02:36:23.557935Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "lifecycle",
+        "m12"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m13-domain-error",
+      "spec": {
+        "name": "m13-domain-error",
+        "description": "用于设计领域错误处理。关键词：domain error, 错误分类, 恢复策略, 重试, fallback, domain error hierarchy, user-facing vs internal errors, error code design, 熔断器, 优雅降级, resilience, error context, backoff, retry with backoff, error recovery, transient vs permanent error, 领域错误。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m13-domain-error",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m13-domain-error",
+        "last_synced": "2026-08-14T02:36:23.558005Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "domain",
+        "error",
+        "m13"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m14-mental-model",
+      "spec": {
+        "name": "m14-mental-model",
+        "description": "用于学习 Rust 概念。关键词：心智模型，如何理解所有权，理解 borrow checker，可视化内存布局，类比，误解，解释所有权，为什么 Rust，帮助我理解，对...感到困惑，学习 Rust，像我一样解释，ELI5，...的直觉，来自 Java，来自 Python，心智模型，如何理解所有权，学习 Rust，Rust 入门，为什么 Rust\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m14-mental-model",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m14-mental-model",
+        "last_synced": "2026-08-14T02:36:23.558095Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "m14",
+        "mental",
+        "model",
+        "python",
+        "rust"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/m15-anti-pattern",
+      "spec": {
+        "name": "m15-anti-pattern",
+        "description": "用于审查代码中的反模式。关键词：anti-pattern, common mistake, pitfall, code smell, bad practice, code review, is this an anti-pattern, better way to do this, common mistake to avoid, why is this bad, idiomatic way, beginner mistake, fighting borrow checker, clone everywhere, unwrap in production, should I refactor, 反模式, 常见错误, 代码异味, 最佳实践, 地道写法\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/m15-anti-pattern",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/m15-anti-pattern",
+        "last_synced": "2026-08-14T02:36:23.558151Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "anti",
+        "m15",
+        "pattern"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-daily",
+      "spec": {
+        "name": "rust-daily",
+        "description": "CRITICAL: 用于 Rust 新闻和每日/每周/每月报告。触发条件：\nrust news, rust daily, rust weekly, TWIR, rust blog,\nRust 日报, Rust 周报, Rust 新闻, Rust 动态\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-daily",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-daily",
+        "last_synced": "2026-08-14T02:36:23.558385Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "daily",
+        "rust"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-router",
+      "spec": {
+        "name": "rust-router",
+        "description": "CRITICAL: 用于所有 Rust 相关问题，包括错误、设计和编码。最高优先级：比较, 对比, compare, vs, versus, 区别, difference, 最佳实践, best practice, tokio vs, async-std vs, 比较 tokio, 比较 async, Triggers on: Rust, cargo, rustc, crate, Cargo.toml, 意图分析, 问题分析, 语义分析, analyze intent, question analysis, compile error, borrow error, lifetime error, ownership error, type error, trait error, value moved, cannot borrow, does not live long enough, mismatched types, not satisfied, E0382, E0597, E0277, E0308, E0499, E0502, E0596, async, await, Send, Sync, tokio, concurrency, error handling, 编译错误, compile error, 所有权, ownership, 借用, borrow, 生命周期, lifetime, 类型错误, type error, 异步, async, 并发, concurrency, 错误处理, error handling, 问题, problem, question, 怎么用, how to use, 如何, how to, 为什么, why, 什么是, what is, 帮我写, help me write, 实现, implement, 解释, explain\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-router",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-router",
+        "last_synced": "2026-08-14T02:36:23.558590Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "router",
+        "rust"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-skill-creator",
+      "spec": {
+        "name": "rust-skill-creator",
+        "description": "用于为 Rust crates 或 std 库文档创建技能。关键词：创建 rust skill, 创建 crate skill, 创建 std skill, 动态 rust skill, 动态 crate skill, skill for tokio, skill for serde, skill for axum, generate rust skill, rust 技能, crate 技能, 从文档创建skill\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-skill-creator",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-skill-creator",
+        "last_synced": "2026-08-14T02:36:23.558734Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "creator",
+        "rust",
+        "skill"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/unsafe-checker",
+      "spec": {
+        "name": "unsafe-checker",
+        "description": "CRITICAL: 用于不安全 Rust 代码审查和 FFI。触发条件：unsafe, raw pointer, FFI, extern, transmute, *mut, *const, union, #[repr(C)], libc, std::ffi, MaybeUninit, NonNull, SAFETY 注释, soundness, undefined behavior, UB, safe wrapper, memory layout, bindgen, cbindgen, CString, CStr, 安全抽象, 裸指针, 外部函数接口, 内存布局, 不安全代码, FFI 绑定, 未定义行为\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/unsafe-checker",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/unsafe-checker",
+        "last_synced": "2026-08-14T02:36:23.558899Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "checker",
+        "rust",
+        "unsafe"
+      ],
+      "score": 43
     },
     {
       "skill_id": "numman-ali/n-skills/dev-browser",
@@ -204615,418 +204615,6 @@
       "score": 42
     },
     {
-      "skill_id": "ZhangHanDong/rust-skills/domain-cli",
-      "spec": {
-        "name": "domain-cli",
-        "description": "用于构建 CLI 工具。关键词：CLI、命令行、终端应用、clap、structopt、参数解析、子命令、交互式、TUI、ratatui、crossterm、indicatif、进度条、彩色输出、shell 补全、配置文件、环境变量\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/domain-cli",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-cli",
-        "last_synced": "2026-08-14T02:36:23.556840Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "domain"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/meta-cognition-parallel",
-      "spec": {
-        "name": "meta-cognition-parallel",
-        "description": "实验性功能：三层并行元认知分析。触发词：/meta-parallel, 三层分析, parallel analysis, 并行元认知\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/meta-cognition-parallel",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/meta-cognition-parallel",
-        "last_synced": "2026-08-14T02:36:23.558239Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "cognition",
-        "meta",
-        "parallel"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-call-graph",
-      "spec": {
-        "name": "rust-call-graph",
-        "description": "使用 LSP 可视化 Rust 函数调用图。触发条件：/call-graph, call hierarchy, who calls, what calls, 调用图, 调用关系, 谁调用了, 调用了谁\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-call-graph",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-call-graph",
-        "last_synced": "2026-08-14T02:36:23.558286Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "call",
-        "graph",
-        "rust"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-code-navigator",
-      "spec": {
-        "name": "rust-code-navigator",
-        "description": "使用 LSP 导航 Rust 代码。触发条件：/navigate，go to definition，find references，where is defined，跳转定义，查找引用，定义在哪，谁用了这个\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-code-navigator",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-code-navigator",
-        "last_synced": "2026-08-14T02:36:23.558333Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "code",
-        "navigator",
-        "rust"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-deps-visualizer",
-      "spec": {
-        "name": "rust-deps-visualizer",
-        "description": "以 ASCII 艺术形式可视化 Rust 项目依赖项。触发条件：/deps-viz，dependency graph，show dependencies，visualize deps，依赖图，依赖可视化，显示依赖\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-deps-visualizer",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-deps-visualizer",
-        "last_synced": "2026-08-14T02:36:23.558443Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "deps",
-        "rust",
-        "visualizer"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-learner",
-      "spec": {
-        "name": "rust-learner",
-        "description": "用于询问 Rust 版本或 crate 信息。关键词：最新版本, 版本号, 稳定版, 最新, 哪个版本, crate 信息, 文档, 依赖, Rust 版本, 新特性, 有什么特性\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-learner",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-learner",
-        "last_synced": "2026-08-14T02:36:23.558494Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "learner",
-        "rust"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-refactor-helper",
-      "spec": {
-        "name": "rust-refactor-helper",
-        "description": "使用 LSP 分析的安全 Rust 重构。触发条件：/refactor, rename symbol, move function, extract, 重构, 重命名, 提取函数, 安全重构\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-refactor-helper",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-refactor-helper",
-        "last_synced": "2026-08-14T02:36:23.558542Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "helper",
-        "refactor",
-        "rust"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-symbol-analyzer",
-      "spec": {
-        "name": "rust-symbol-analyzer",
-        "description": "使用 LSP 符号分析 Rust 项目结构。触发条件：/symbols, 项目结构, 列出所有, 有哪些struct, 符号分析, 项目结构, 列出所有, 有哪些struct\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-symbol-analyzer",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-symbol-analyzer",
-        "last_synced": "2026-08-14T02:36:23.558802Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "analyzer",
-        "rust",
-        "symbol"
-      ],
-      "score": 42
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/rust-trait-explorer",
-      "spec": {
-        "name": "rust-trait-explorer",
-        "description": "使用 LSP 探索 Rust trait 实现。触发条件：/trait-impl，查找实现，谁实现了，trait 实现，谁实现了，实现了哪些 trait\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/rust-trait-explorer",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-trait-explorer",
-        "last_synced": "2026-08-14T02:36:23.558848Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "explorer",
-        "rust",
-        "trait"
-      ],
-      "score": 42
-    },
-    {
       "skill_id": "pinchbench/skills/pinchbench-benchmark-skill",
       "spec": {
         "name": "pinchbench-benchmark-skill",
@@ -209512,6 +209100,418 @@
       "category": "other",
       "tags": [],
       "score": 41
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/domain-cli",
+      "spec": {
+        "name": "domain-cli",
+        "description": "用于构建 CLI 工具。关键词：CLI、命令行、终端应用、clap、structopt、参数解析、子命令、交互式、TUI、ratatui、crossterm、indicatif、进度条、彩色输出、shell 补全、配置文件、环境变量\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/domain-cli",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/domain-cli",
+        "last_synced": "2026-08-14T02:36:23.556840Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "domain"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/meta-cognition-parallel",
+      "spec": {
+        "name": "meta-cognition-parallel",
+        "description": "实验性功能：三层并行元认知分析。触发词：/meta-parallel, 三层分析, parallel analysis, 并行元认知\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/meta-cognition-parallel",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/meta-cognition-parallel",
+        "last_synced": "2026-08-14T02:36:23.558239Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "cognition",
+        "meta",
+        "parallel"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-call-graph",
+      "spec": {
+        "name": "rust-call-graph",
+        "description": "使用 LSP 可视化 Rust 函数调用图。触发条件：/call-graph, call hierarchy, who calls, what calls, 调用图, 调用关系, 谁调用了, 调用了谁\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-call-graph",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-call-graph",
+        "last_synced": "2026-08-14T02:36:23.558286Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "call",
+        "graph",
+        "rust"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-code-navigator",
+      "spec": {
+        "name": "rust-code-navigator",
+        "description": "使用 LSP 导航 Rust 代码。触发条件：/navigate，go to definition，find references，where is defined，跳转定义，查找引用，定义在哪，谁用了这个\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-code-navigator",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-code-navigator",
+        "last_synced": "2026-08-14T02:36:23.558333Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "code",
+        "navigator",
+        "rust"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-deps-visualizer",
+      "spec": {
+        "name": "rust-deps-visualizer",
+        "description": "以 ASCII 艺术形式可视化 Rust 项目依赖项。触发条件：/deps-viz，dependency graph，show dependencies，visualize deps，依赖图，依赖可视化，显示依赖\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-deps-visualizer",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-deps-visualizer",
+        "last_synced": "2026-08-14T02:36:23.558443Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "deps",
+        "rust",
+        "visualizer"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-learner",
+      "spec": {
+        "name": "rust-learner",
+        "description": "用于询问 Rust 版本或 crate 信息。关键词：最新版本, 版本号, 稳定版, 最新, 哪个版本, crate 信息, 文档, 依赖, Rust 版本, 新特性, 有什么特性\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-learner",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-learner",
+        "last_synced": "2026-08-14T02:36:23.558494Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "learner",
+        "rust"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-refactor-helper",
+      "spec": {
+        "name": "rust-refactor-helper",
+        "description": "使用 LSP 分析的安全 Rust 重构。触发条件：/refactor, rename symbol, move function, extract, 重构, 重命名, 提取函数, 安全重构\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-refactor-helper",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-refactor-helper",
+        "last_synced": "2026-08-14T02:36:23.558542Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "helper",
+        "refactor",
+        "rust"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-symbol-analyzer",
+      "spec": {
+        "name": "rust-symbol-analyzer",
+        "description": "使用 LSP 符号分析 Rust 项目结构。触发条件：/symbols, 项目结构, 列出所有, 有哪些struct, 符号分析, 项目结构, 列出所有, 有哪些struct\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-symbol-analyzer",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-symbol-analyzer",
+        "last_synced": "2026-08-14T02:36:23.558802Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "analyzer",
+        "rust",
+        "symbol"
+      ],
+      "score": 40
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/rust-trait-explorer",
+      "spec": {
+        "name": "rust-trait-explorer",
+        "description": "使用 LSP 探索 Rust trait 实现。触发条件：/trait-impl，查找实现，谁实现了，trait 实现，谁实现了，实现了哪些 trait\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/rust-trait-explorer",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/rust-trait-explorer",
+        "last_synced": "2026-08-14T02:36:23.558848Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "explorer",
+        "rust",
+        "trait"
+      ],
+      "score": 40
     },
     {
       "skill_id": "hamelsmu/evals-skills/build-review-interface",
@@ -217116,190 +217116,6 @@
       "score": 39
     },
     {
-      "skill_id": "ZhangHanDong/rust-skills/core-actionbook",
-      "spec": {
-        "name": "core-actionbook",
-        "description": "名称：core-actionbook\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/core-actionbook",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-actionbook",
-        "last_synced": "2026-08-14T02:36:23.556635Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "actionbook",
-        "core"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/core-agent-browser",
-      "spec": {
-        "name": "core-agent-browser",
-        "description": "名称：core-agent-browser\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/core-agent-browser",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-agent-browser",
-        "last_synced": "2026-08-14T02:36:23.556676Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "agent",
-        "browser",
-        "core"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/core-dynamic-skills",
-      "spec": {
-        "name": "core-dynamic-skills",
-        "description": "名称：core-dynamic-skills\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/core-dynamic-skills",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-dynamic-skills",
-        "last_synced": "2026-08-14T02:36:23.556716Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "core",
-        "dynamic",
-        "skills"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "ZhangHanDong/rust-skills/core-fix-skill-docs",
-      "spec": {
-        "name": "core-fix-skill-docs",
-        "description": "名称：core-fix-skill-docs\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ZhangHanDong/rust-skills",
-        "source_path": "skills/core-fix-skill-docs",
-        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-fix-skill-docs",
-        "last_synced": "2026-08-14T02:36:23.556759Z",
-        "upstream_commit": "",
-        "repo": "zhanghandong/rust-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1094,
-        "last_commit_date": "2026-03-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "core",
-        "docs",
-        "fix",
-        "skill"
-      ],
-      "score": 39
-    },
-    {
       "skill_id": "skillcreatorai/Ai-Agent-Skills/job-application",
       "spec": {
         "name": "job-application",
@@ -217844,6 +217660,190 @@
         "skill"
       ],
       "score": 38
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/core-actionbook",
+      "spec": {
+        "name": "core-actionbook",
+        "description": "名称：core-actionbook\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/core-actionbook",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-actionbook",
+        "last_synced": "2026-08-14T02:36:23.556635Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "actionbook",
+        "core"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/core-agent-browser",
+      "spec": {
+        "name": "core-agent-browser",
+        "description": "名称：core-agent-browser\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/core-agent-browser",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-agent-browser",
+        "last_synced": "2026-08-14T02:36:23.556676Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "agent",
+        "browser",
+        "core"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/core-dynamic-skills",
+      "spec": {
+        "name": "core-dynamic-skills",
+        "description": "名称：core-dynamic-skills\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/core-dynamic-skills",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-dynamic-skills",
+        "last_synced": "2026-08-14T02:36:23.556716Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "core",
+        "dynamic",
+        "skills"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "ZhangHanDong/rust-skills/core-fix-skill-docs",
+      "spec": {
+        "name": "core-fix-skill-docs",
+        "description": "名称：core-fix-skill-docs\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ZhangHanDong/rust-skills",
+        "source_path": "skills/core-fix-skill-docs",
+        "install_url": "https://github.com/ZhangHanDong/rust-skills/tree/main/skills/core-fix-skill-docs",
+        "last_synced": "2026-08-14T02:36:23.556759Z",
+        "upstream_commit": "",
+        "repo": "zhanghandong/rust-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1094,
+        "last_commit_date": "2026-03-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "core",
+        "docs",
+        "fix",
+        "skill"
+      ],
+      "score": 37
     },
     {
       "skill_id": "bear2u/my-skills/card-news-generator",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-09-17T09:15:57.571438+00:00"
+  "generated_at": "2026-09-18T08:49:55.118029+00:00"
 }
