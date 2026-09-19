@@ -47,10 +47,10 @@
       "score": 64
     },
     {
-      "skill_id": "snyk/agent-scan",
+      "skill_id": "google/skills~f71235",
       "spec": {
-        "name": "agent-scan",
-        "description": "Security scanner for AI agents, MCP servers and agent skills.",
+        "name": "skills",
+        "description": "Agent Skills for Google products and technologies",
         "license": "Apache-2.0",
         "compatibility": null,
         "metadata": {},
@@ -59,17 +59,17 @@
       "discovery": {
         "source_id": "community-repos",
         "source_type": "github_repo",
-        "source_url": "https://github.com/snyk/agent-scan",
+        "source_url": "https://github.com/google/skills",
         "source_path": "",
-        "install_url": "https://github.com/snyk/agent-scan/tree/main",
-        "last_synced": "2026-09-12T08:26:29.172284Z",
+        "install_url": "https://github.com/google/skills/tree/main",
+        "last_synced": "2026-09-12T08:26:29.172612Z",
         "upstream_commit": "",
-        "repo": "snyk/agent-scan",
+        "repo": "google/skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 3034,
-        "last_commit_date": "2026-09-11",
+        "repo_stars": 19808,
+        "last_commit_date": "2026-09-12",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -84,11 +84,9 @@
         "codex": true,
         "universal": true
       },
-      "category": "security",
+      "category": "development",
       "tags": [
-        "agent",
-        "mcp",
-        "scan"
+        "skills"
       ],
       "score": 61
     },
@@ -138,13 +136,13 @@
         "skills",
         "typescript"
       ],
-      "score": 61
+      "score": 60
     },
     {
-      "skill_id": "google/skills~f71235",
+      "skill_id": "snyk/agent-scan",
       "spec": {
-        "name": "skills",
-        "description": "Agent Skills for Google products and technologies",
+        "name": "agent-scan",
+        "description": "Security scanner for AI agents, MCP servers and agent skills.",
         "license": "Apache-2.0",
         "compatibility": null,
         "metadata": {},
@@ -153,17 +151,17 @@
       "discovery": {
         "source_id": "community-repos",
         "source_type": "github_repo",
-        "source_url": "https://github.com/google/skills",
+        "source_url": "https://github.com/snyk/agent-scan",
         "source_path": "",
-        "install_url": "https://github.com/google/skills/tree/main",
-        "last_synced": "2026-09-12T08:26:29.172612Z",
+        "install_url": "https://github.com/snyk/agent-scan/tree/main",
+        "last_synced": "2026-09-12T08:26:29.172284Z",
         "upstream_commit": "",
-        "repo": "google/skills",
+        "repo": "snyk/agent-scan",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 19808,
-        "last_commit_date": "2026-09-12",
+        "repo_stars": 3034,
+        "last_commit_date": "2026-09-11",
         "has_scripts": false,
         "has_references": false,
         "file_count": 0,
@@ -178,11 +176,13 @@
         "codex": true,
         "universal": true
       },
-      "category": "development",
+      "category": "security",
       "tags": [
-        "skills"
+        "agent",
+        "mcp",
+        "scan"
       ],
-      "score": 61
+      "score": 59
     },
     {
       "skill_id": "Orchestra-Research/AI-Research-SKILLs",
@@ -318,7 +318,7 @@
         "resend",
         "skills"
       ],
-      "score": 57
+      "score": 56
     },
     {
       "skill_id": "gamedev-skills/awesome-gamedev-agent-skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-09-18T08:49:54.994224+00:00"
+  "generated_at": "2026-09-19T08:36:15.394115+00:00"
 }

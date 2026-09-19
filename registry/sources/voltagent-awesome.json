@@ -185,7 +185,7 @@
         "lambdatest/agent",
         "skills"
       ],
-      "score": 59
+      "score": 57
     },
     {
       "skill_id": "video-db/skills",
@@ -232,7 +232,7 @@
         "db/skills",
         "video"
       ],
-      "score": 57
+      "score": 56
     },
     {
       "skill_id": "angular/skills",
@@ -280,7 +280,7 @@
         "angular/angular",
         "developer"
       ],
-      "score": 54
+      "score": 53
     },
     {
       "skill_id": "NVIDIA/skills~6d5b7d",
@@ -29696,5 +29696,5 @@
     }
   ],
   "total": 646,
-  "generated_at": "2026-09-18T08:49:54.980652+00:00"
+  "generated_at": "2026-09-19T08:36:15.373116+00:00"
 }

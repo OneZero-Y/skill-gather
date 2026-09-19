@@ -91306,592 +91306,6 @@
       "score": 45
     },
     {
-      "skill_id": "Eronred/aso-skills/ab-test-store-listing",
-      "spec": {
-        "name": "ab-test-store-listing",
-        "description": "当用户想要对 App Store 产品页面元素进行 A/B 测试以提高转化率时，可以使用此工具。也适用于用户提及 “A/B 测试”、“产品页面优化”、“测试我的屏幕截图”、“测试我的图标”、“转化率优化”、“CPP” 或 “custom product pages” 的情况。有关屏幕截图设计，请参阅 screenshot-optimization。有关元数据优化，请参阅 metadata-optimization。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/ab-test-store-listing",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/ab-test-store-listing",
-        "last_synced": "2026-08-14T02:36:23.551304Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "listing",
-        "store",
-        "test"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/app-analytics",
-      "spec": {
-        "name": "app-analytics",
-        "description": "当用户想要设置、解读或改进他们的应用分析和追踪时，可以使用此工具。同样，当用户提到 \"analytics\"（分析）、\"tracking\"（追踪）、\"metrics\"（指标）、\"KPIs\"、\"App Store Connect analytics\"（应用商店连接分析）、\"install tracking\"（安装追踪）、\"funnel\"（漏斗）、\"attribution\"（归因）或 \"how is my app performing\"（我的应用表现如何）时，也可以使用此工具。关于 A/B 测试，请参阅 ab-test-store-listing。关于留存指标，请参阅 retention-optimization。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/app-analytics",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-analytics",
-        "last_synced": "2026-08-14T02:36:23.551366Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "analytics",
-        "app"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/app-launch",
-      "spec": {
-        "name": "app-launch",
-        "description": "当用户想要为新的应用程序或重大更新制定发布策略时，可以使用。也适用于用户提到“app launch”、“launch plan”、“launch checklist”、“pre-launch”、“launch day”或“how to launch my app”的情况。有关发布后持续的 ASO，请参阅 aso-audit。有关发布期间的付费推广，请参阅 ua-campaign。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/app-launch",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-launch",
-        "last_synced": "2026-08-14T02:36:23.551438Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "security",
-      "tags": [
-        "app",
-        "launch"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/app-marketing-context",
-      "spec": {
-        "name": "app-marketing-context",
-        "description": "当用户想要创建或更新他们的 app marketing context 文档时使用。当用户提到 \"app context\"、\"marketing brief\"、\"app positioning\"，或者当开始任何 ASO 或 app marketing 项目时，也使用此技能。这是基础技能 —— 所有其他技能首先检查此上下文。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/app-marketing-context",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-marketing-context",
-        "last_synced": "2026-08-14T02:36:23.551500Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "content",
-      "tags": [
-        "app",
-        "context",
-        "marketing"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/app-store-featured",
-      "spec": {
-        "name": "app-store-featured",
-        "description": "当用户想要在 App Store 上获得推荐或了解编辑流程时，可以使用。此外，当用户提到“获得推荐”、“App Store 编辑”、“每日App”、“Today 标签”、“Apple 推荐”或“如何让 Apple 推荐我的应用”时，也可以使用。有关发布策略，请参阅 app-launch。有关 ASO 优化，请参阅 aso-audit。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/app-store-featured",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-store-featured",
-        "last_synced": "2026-08-14T02:36:23.551553Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "security",
-      "tags": [
-        "app",
-        "featured",
-        "store"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/aso-audit",
-      "spec": {
-        "name": "aso-audit",
-        "description": "当用户需要完整的 ASO 健康审计，审查他们的 App Store 列表质量，或者诊断他们的应用未获得排名的原因时使用。此外，当用户提到“ASO 审计”、“ASO 评分”、“为什么我没有排名”、“列表审查”或“优化我的应用商店页面”时也使用。有关特定关键词的研究，请参阅 keyword-research。有关元数据编写，请参阅 metadata-optimization。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/aso-audit",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/aso-audit",
-        "last_synced": "2026-08-14T02:36:23.551609Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "aso",
-        "audit"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/localization",
-      "spec": {
-        "name": "localization",
-        "description": "当用户想要将其 App Store 列表针对国际市场进行本地化时，可以使用此功能。也适用于用户提及“localization（本地化）”、“translate my app（翻译我的应用）”、“international markets（国际市场）”、“expand to new countries（扩展到新国家）”、“localize metadata（本地化元数据）”或“which countries should I target（我应该以哪些国家为目标）”的情况。有关特定市场的关键词研究，请参阅 keyword-research。有关元数据编写，请参阅 metadata-optimization。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/localization",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/localization",
-        "last_synced": "2026-08-14T02:36:23.551670Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "localization"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/metadata-optimization",
-      "spec": {
-        "name": "metadata-optimization",
-        "description": "当用户想要优化 App Store 元数据时——标题、副标题、关键词字段或描述。也适用于当用户提到“优化我的标题”、“ASO metadata”、“keyword field”、“character limits”、“app description”或“撰写我的副标题”时。对于关键词挖掘，请参阅 keyword-research。对于完整的 ASO 审核，请参阅 aso-audit。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/metadata-optimization",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/metadata-optimization",
-        "last_synced": "2026-08-14T02:36:23.551740Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "metadata",
-        "optimization"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/monetization-strategy",
-      "spec": {
-        "name": "monetization-strategy",
-        "description": "当用户想要设计或优化其应用的变现方式时——定价、付费墙、订阅或应用内购买。同样，当用户提到“定价”、“付费墙”、“订阅”、“IAP”、“如何变现”、“收入优化”、“免费试用”或“转化为付费”时，也使用此功能。关于留存影响，请参阅 retention-optimization。关于竞争性定价，请参阅 competitor-analysis。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/monetization-strategy",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/monetization-strategy",
-        "last_synced": "2026-08-14T02:36:23.551802Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "monetization",
-        "strategy"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/retention-optimization",
-      "spec": {
-        "name": "retention-optimization",
-        "description": "当用户想要减少客户流失、提高用户参与度或增加终身价值时，可以使用此功能。此外，当用户提到“保留”、“流失”、“用户离开”、“参与度”、“DAU/MAU”、“用户激活”或“为什么用户正在卸载”时，也可以使用此功能。对于特定于新手引导的问题，请参阅 app-launch。对于货币化，请参阅 monetization-strategy。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/retention-optimization",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/retention-optimization",
-        "last_synced": "2026-08-14T02:36:23.551854Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "optimization",
-        "retention"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/review-management",
-      "spec": {
-        "name": "review-management",
-        "description": "当用户想要分析、回复或改进他们的应用评价和评分时使用。当用户提到“评价”、“评分”、“差评”、“如何获得更多评价”、“评价回复”或“我的评分正在下降”时，也可以使用。对于更广泛的 ASO 审计，请参阅 aso-audit。对于导致差评的留存问题，请参阅 retention-optimization。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/review-management",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/review-management",
-        "last_synced": "2026-08-14T02:36:23.551906Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "security",
-      "tags": [
-        "management",
-        "review"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/screenshot-optimization",
-      "spec": {
-        "name": "screenshot-optimization",
-        "description": "当用户想要设计、优化或评估 App Store 截图和预览视频时，可以使用此工具。也适用于用户提到“截图”、“App 预览”、“产品页面设计”、“截图设计”、“创意素材”或“我的截图应该展示什么”时。关于 A/B 测试截图，请参考 ab-test-store-listing。关于完整的 ASO 审核，请参考 aso-audit。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/screenshot-optimization",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/screenshot-optimization",
-        "last_synced": "2026-08-14T02:36:23.551958Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "optimization",
-        "screenshot"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "Eronred/aso-skills/ua-campaign",
-      "spec": {
-        "name": "ua-campaign",
-        "description": "当用户想要计划或优化付费用户获取活动时使用。当用户提到 \"Apple Search Ads\"、\"user acquisition\"、\"paid ads\"、\"UA\"、\"ad campaign\"、\"install campaign\"、\"Facebook ads for apps\"、\"TikTok ads\" 或 \"cost per install\" 时，也使用此工具。对于自然增长，请参考 aso-audit。对于特定于发布的用户获取，请参考 app-launch。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Eronred/aso-skills",
-        "source_path": "skills/ua-campaign",
-        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/ua-campaign",
-        "last_synced": "2026-08-14T02:36:23.552011Z",
-        "upstream_commit": "",
-        "repo": "eronred/aso-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1161,
-        "last_commit_date": "2026-03-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "campaign"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "BankrBot/skills/0xwork",
       "spec": {
         "name": "0xwork",
@@ -118948,6 +118362,592 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "Eronred/aso-skills/ab-test-store-listing",
+      "spec": {
+        "name": "ab-test-store-listing",
+        "description": "当用户想要对 App Store 产品页面元素进行 A/B 测试以提高转化率时，可以使用此工具。也适用于用户提及 “A/B 测试”、“产品页面优化”、“测试我的屏幕截图”、“测试我的图标”、“转化率优化”、“CPP” 或 “custom product pages” 的情况。有关屏幕截图设计，请参阅 screenshot-optimization。有关元数据优化，请参阅 metadata-optimization。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/ab-test-store-listing",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/ab-test-store-listing",
+        "last_synced": "2026-08-14T02:36:23.551304Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "listing",
+        "store",
+        "test"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/app-analytics",
+      "spec": {
+        "name": "app-analytics",
+        "description": "当用户想要设置、解读或改进他们的应用分析和追踪时，可以使用此工具。同样，当用户提到 \"analytics\"（分析）、\"tracking\"（追踪）、\"metrics\"（指标）、\"KPIs\"、\"App Store Connect analytics\"（应用商店连接分析）、\"install tracking\"（安装追踪）、\"funnel\"（漏斗）、\"attribution\"（归因）或 \"how is my app performing\"（我的应用表现如何）时，也可以使用此工具。关于 A/B 测试，请参阅 ab-test-store-listing。关于留存指标，请参阅 retention-optimization。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/app-analytics",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-analytics",
+        "last_synced": "2026-08-14T02:36:23.551366Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "analytics",
+        "app"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/app-launch",
+      "spec": {
+        "name": "app-launch",
+        "description": "当用户想要为新的应用程序或重大更新制定发布策略时，可以使用。也适用于用户提到“app launch”、“launch plan”、“launch checklist”、“pre-launch”、“launch day”或“how to launch my app”的情况。有关发布后持续的 ASO，请参阅 aso-audit。有关发布期间的付费推广，请参阅 ua-campaign。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/app-launch",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-launch",
+        "last_synced": "2026-08-14T02:36:23.551438Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "app",
+        "launch"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/app-marketing-context",
+      "spec": {
+        "name": "app-marketing-context",
+        "description": "当用户想要创建或更新他们的 app marketing context 文档时使用。当用户提到 \"app context\"、\"marketing brief\"、\"app positioning\"，或者当开始任何 ASO 或 app marketing 项目时，也使用此技能。这是基础技能 —— 所有其他技能首先检查此上下文。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/app-marketing-context",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-marketing-context",
+        "last_synced": "2026-08-14T02:36:23.551500Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "app",
+        "context",
+        "marketing"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/app-store-featured",
+      "spec": {
+        "name": "app-store-featured",
+        "description": "当用户想要在 App Store 上获得推荐或了解编辑流程时，可以使用。此外，当用户提到“获得推荐”、“App Store 编辑”、“每日App”、“Today 标签”、“Apple 推荐”或“如何让 Apple 推荐我的应用”时，也可以使用。有关发布策略，请参阅 app-launch。有关 ASO 优化，请参阅 aso-audit。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/app-store-featured",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/app-store-featured",
+        "last_synced": "2026-08-14T02:36:23.551553Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "app",
+        "featured",
+        "store"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/aso-audit",
+      "spec": {
+        "name": "aso-audit",
+        "description": "当用户需要完整的 ASO 健康审计，审查他们的 App Store 列表质量，或者诊断他们的应用未获得排名的原因时使用。此外，当用户提到“ASO 审计”、“ASO 评分”、“为什么我没有排名”、“列表审查”或“优化我的应用商店页面”时也使用。有关特定关键词的研究，请参阅 keyword-research。有关元数据编写，请参阅 metadata-optimization。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/aso-audit",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/aso-audit",
+        "last_synced": "2026-08-14T02:36:23.551609Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "aso",
+        "audit"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/localization",
+      "spec": {
+        "name": "localization",
+        "description": "当用户想要将其 App Store 列表针对国际市场进行本地化时，可以使用此功能。也适用于用户提及“localization（本地化）”、“translate my app（翻译我的应用）”、“international markets（国际市场）”、“expand to new countries（扩展到新国家）”、“localize metadata（本地化元数据）”或“which countries should I target（我应该以哪些国家为目标）”的情况。有关特定市场的关键词研究，请参阅 keyword-research。有关元数据编写，请参阅 metadata-optimization。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/localization",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/localization",
+        "last_synced": "2026-08-14T02:36:23.551670Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "localization"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/metadata-optimization",
+      "spec": {
+        "name": "metadata-optimization",
+        "description": "当用户想要优化 App Store 元数据时——标题、副标题、关键词字段或描述。也适用于当用户提到“优化我的标题”、“ASO metadata”、“keyword field”、“character limits”、“app description”或“撰写我的副标题”时。对于关键词挖掘，请参阅 keyword-research。对于完整的 ASO 审核，请参阅 aso-audit。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/metadata-optimization",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/metadata-optimization",
+        "last_synced": "2026-08-14T02:36:23.551740Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "metadata",
+        "optimization"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/monetization-strategy",
+      "spec": {
+        "name": "monetization-strategy",
+        "description": "当用户想要设计或优化其应用的变现方式时——定价、付费墙、订阅或应用内购买。同样，当用户提到“定价”、“付费墙”、“订阅”、“IAP”、“如何变现”、“收入优化”、“免费试用”或“转化为付费”时，也使用此功能。关于留存影响，请参阅 retention-optimization。关于竞争性定价，请参阅 competitor-analysis。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/monetization-strategy",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/monetization-strategy",
+        "last_synced": "2026-08-14T02:36:23.551802Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "monetization",
+        "strategy"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/retention-optimization",
+      "spec": {
+        "name": "retention-optimization",
+        "description": "当用户想要减少客户流失、提高用户参与度或增加终身价值时，可以使用此功能。此外，当用户提到“保留”、“流失”、“用户离开”、“参与度”、“DAU/MAU”、“用户激活”或“为什么用户正在卸载”时，也可以使用此功能。对于特定于新手引导的问题，请参阅 app-launch。对于货币化，请参阅 monetization-strategy。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/retention-optimization",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/retention-optimization",
+        "last_synced": "2026-08-14T02:36:23.551854Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "optimization",
+        "retention"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/review-management",
+      "spec": {
+        "name": "review-management",
+        "description": "当用户想要分析、回复或改进他们的应用评价和评分时使用。当用户提到“评价”、“评分”、“差评”、“如何获得更多评价”、“评价回复”或“我的评分正在下降”时，也可以使用。对于更广泛的 ASO 审计，请参阅 aso-audit。对于导致差评的留存问题，请参阅 retention-optimization。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/review-management",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/review-management",
+        "last_synced": "2026-08-14T02:36:23.551906Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "management",
+        "review"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/screenshot-optimization",
+      "spec": {
+        "name": "screenshot-optimization",
+        "description": "当用户想要设计、优化或评估 App Store 截图和预览视频时，可以使用此工具。也适用于用户提到“截图”、“App 预览”、“产品页面设计”、“截图设计”、“创意素材”或“我的截图应该展示什么”时。关于 A/B 测试截图，请参考 ab-test-store-listing。关于完整的 ASO 审核，请参考 aso-audit。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/screenshot-optimization",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/screenshot-optimization",
+        "last_synced": "2026-08-14T02:36:23.551958Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "optimization",
+        "screenshot"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "Eronred/aso-skills/ua-campaign",
+      "spec": {
+        "name": "ua-campaign",
+        "description": "当用户想要计划或优化付费用户获取活动时使用。当用户提到 \"Apple Search Ads\"、\"user acquisition\"、\"paid ads\"、\"UA\"、\"ad campaign\"、\"install campaign\"、\"Facebook ads for apps\"、\"TikTok ads\" 或 \"cost per install\" 时，也使用此工具。对于自然增长，请参考 aso-audit。对于特定于发布的用户获取，请参考 app-launch。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Eronred/aso-skills",
+        "source_path": "skills/ua-campaign",
+        "install_url": "https://github.com/Eronred/aso-skills/tree/main/skills/ua-campaign",
+        "last_synced": "2026-08-14T02:36:23.552011Z",
+        "upstream_commit": "",
+        "repo": "eronred/aso-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1161,
+        "last_commit_date": "2026-03-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "campaign"
+      ],
+      "score": 44
     },
     {
       "skill_id": "truongduy2611/app-store-preflight-skills",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-09-18T08:49:55.118029+00:00"
+  "generated_at": "2026-09-19T08:36:15.593926+00:00"
 }
