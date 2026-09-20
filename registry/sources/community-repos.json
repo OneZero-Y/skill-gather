@@ -44,51 +44,7 @@
         "rag",
         "skills"
       ],
-      "score": 64
-    },
-    {
-      "skill_id": "google/skills~f71235",
-      "spec": {
-        "name": "skills",
-        "description": "Agent Skills for Google products and technologies",
-        "license": "Apache-2.0",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/google/skills",
-        "source_path": "",
-        "install_url": "https://github.com/google/skills/tree/main",
-        "last_synced": "2026-09-12T08:26:29.172612Z",
-        "upstream_commit": "",
-        "repo": "google/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 19808,
-        "last_commit_date": "2026-09-12",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "skills"
-      ],
-      "score": 61
+      "score": 63
     },
     {
       "skill_id": "qdrant/skills",
@@ -137,6 +93,50 @@
         "typescript"
       ],
       "score": 60
+    },
+    {
+      "skill_id": "google/skills~f71235",
+      "spec": {
+        "name": "skills",
+        "description": "Agent Skills for Google products and technologies",
+        "license": "Apache-2.0",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/google/skills",
+        "source_path": "",
+        "install_url": "https://github.com/google/skills/tree/main",
+        "last_synced": "2026-09-12T08:26:29.172612Z",
+        "upstream_commit": "",
+        "repo": "google/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 19808,
+        "last_commit_date": "2026-09-12",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "skills"
+      ],
+      "score": 59
     },
     {
       "skill_id": "snyk/agent-scan",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-09-19T08:36:15.394115+00:00"
+  "generated_at": "2026-09-20T09:07:09.499200+00:00"
 }
