@@ -75161,141 +75161,6 @@
       "score": 47
     },
     {
-      "skill_id": "google-labs-code/stitch-skills/shadcn-ui",
-      "spec": {
-        "name": "shadcn-ui",
-        "description": "Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/google-labs-code/stitch-skills",
-        "source_path": "skills/shadcn-ui",
-        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/shadcn-ui",
-        "last_synced": "2026-08-14T02:36:23.496587Z",
-        "upstream_commit": "",
-        "repo": "google-labs-code/stitch-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 5155,
-        "last_commit_date": "2026-03-27",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "shadcn"
-      ],
-      "score": 47
-    },
-    {
-      "skill_id": "google-labs-code/stitch-skills/stitch-design",
-      "spec": {
-        "name": "stitch-design",
-        "description": "Unified entry point for Stitch design work. Handles prompt enhancement (UI/UX keywords, atmosphere), design system synthesis (.stitch/DESIGN.md), and high-fidelity screen generation/editing via Stitch MCP.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/google-labs-code/stitch-skills",
-        "source_path": "skills/stitch-design",
-        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/stitch-design",
-        "last_synced": "2026-08-14T02:36:23.496643Z",
-        "upstream_commit": "",
-        "repo": "google-labs-code/stitch-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 5155,
-        "last_commit_date": "2026-03-27",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "design",
-        "mcp",
-        "stitch"
-      ],
-      "score": 47
-    },
-    {
-      "skill_id": "google-labs-code/stitch-skills/taste-design",
-      "spec": {
-        "name": "taste-design",
-        "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/google-labs-code/stitch-skills",
-        "source_path": "skills/taste-design",
-        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/taste-design",
-        "last_synced": "2026-08-14T02:36:23.496712Z",
-        "upstream_commit": "",
-        "repo": "google-labs-code/stitch-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 5155,
-        "last_commit_date": "2026-03-27",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "design",
-        "taste"
-      ],
-      "score": 47
-    },
-    {
       "skill_id": "trailofbits/skills/audit-augmentation",
       "spec": {
         "name": "audit-augmentation",
@@ -88311,6 +88176,141 @@
         "using"
       ],
       "score": 46
+    },
+    {
+      "skill_id": "google-labs-code/stitch-skills/shadcn-ui",
+      "spec": {
+        "name": "shadcn-ui",
+        "description": "Expert guidance for integrating and building applications with shadcn/ui components, including component discovery, installation, customization, and best practices.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/google-labs-code/stitch-skills",
+        "source_path": "skills/shadcn-ui",
+        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/shadcn-ui",
+        "last_synced": "2026-08-14T02:36:23.496587Z",
+        "upstream_commit": "",
+        "repo": "google-labs-code/stitch-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 5155,
+        "last_commit_date": "2026-03-27",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "shadcn"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "google-labs-code/stitch-skills/stitch-design",
+      "spec": {
+        "name": "stitch-design",
+        "description": "Unified entry point for Stitch design work. Handles prompt enhancement (UI/UX keywords, atmosphere), design system synthesis (.stitch/DESIGN.md), and high-fidelity screen generation/editing via Stitch MCP.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/google-labs-code/stitch-skills",
+        "source_path": "skills/stitch-design",
+        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/stitch-design",
+        "last_synced": "2026-08-14T02:36:23.496643Z",
+        "upstream_commit": "",
+        "repo": "google-labs-code/stitch-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 5155,
+        "last_commit_date": "2026-03-27",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "design",
+        "mcp",
+        "stitch"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "google-labs-code/stitch-skills/taste-design",
+      "spec": {
+        "name": "taste-design",
+        "description": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/google-labs-code/stitch-skills",
+        "source_path": "skills/taste-design",
+        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/taste-design",
+        "last_synced": "2026-08-14T02:36:23.496712Z",
+        "upstream_commit": "",
+        "repo": "google-labs-code/stitch-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 5155,
+        "last_commit_date": "2026-03-27",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "design",
+        "taste"
+      ],
+      "score": 45
     },
     {
       "skill_id": "libukai/awesome-agent-skills/mcp-config",
@@ -187821,51 +187821,6 @@
       "score": 43
     },
     {
-      "skill_id": "google-labs-code/stitch-skills/react-components",
-      "spec": {
-        "name": "react-components",
-        "description": "将 Stitch 设计转换为模块化的 Vite 和 React 组件，使用系统级网络和基于 AST 的验证。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/google-labs-code/stitch-skills",
-        "source_path": "skills/react:components",
-        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/react:components",
-        "last_synced": "2026-08-14T02:36:23.496541Z",
-        "upstream_commit": "",
-        "repo": "google-labs-code/stitch-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 5155,
-        "last_commit_date": "2026-03-27",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "components",
-        "react"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "trailofbits/skills/address-sanitizer",
       "spec": {
         "name": "address-sanitizer",
@@ -208552,6 +208507,51 @@
       "score": 42
     },
     {
+      "skill_id": "google-labs-code/stitch-skills/react-components",
+      "spec": {
+        "name": "react-components",
+        "description": "将 Stitch 设计转换为模块化的 Vite 和 React 组件，使用系统级网络和基于 AST 的验证。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/google-labs-code/stitch-skills",
+        "source_path": "skills/react:components",
+        "install_url": "https://github.com/google-labs-code/stitch-skills/tree/main/skills/react:components",
+        "last_synced": "2026-08-14T02:36:23.496541Z",
+        "upstream_commit": "",
+        "repo": "google-labs-code/stitch-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 5155,
+        "last_commit_date": "2026-03-27",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "components",
+        "react"
+      ],
+      "score": 41
+    },
+    {
       "skill_id": "vuejs-ai/skills/vue-jsx-best-practices",
       "spec": {
         "name": "vue-jsx-best-practices",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-09-23T09:07:57.608437+00:00"
+  "generated_at": "2026-09-24T09:02:56.953046+00:00"
 }
