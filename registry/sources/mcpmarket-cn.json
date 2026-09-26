@@ -81065,190 +81065,6 @@
       "score": 47
     },
     {
-      "skill_id": "Dimillian/Skills/bug-hunt-swarm",
-      "spec": {
-        "name": "bug-hunt-swarm",
-        "description": "Parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplained failures. Use when the user asks to investigate a bug, find the root cause, trace a regression, understand why something broke, or wants a ranked diagnosis with the fastest proof path without making code edits.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Dimillian/Skills",
-        "source_path": "skills/bug-hunt-swarm",
-        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/bug-hunt-swarm",
-        "last_synced": "2026-08-14T02:36:23.524132Z",
-        "upstream_commit": "",
-        "repo": "dimillian/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 3427,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "bug",
-        "hunt",
-        "swarm"
-      ],
-      "score": 47
-    },
-    {
-      "skill_id": "Dimillian/Skills/gh-issue-fix-flow",
-      "spec": {
-        "name": "gh-issue-fix-flow",
-        "description": "使用 gh、本地代码更改、构建/测试和 git push 的端到端 GitHub issue 修复工作流程。当被要求获取 issue 编号，通过 gh 检查 issue，实施修复，运行 XcodeBuildMCP 构建/测试，提交带有 closing message 的 commit，并推送时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Dimillian/Skills",
-        "source_path": "skills/gh-issue-fix-flow",
-        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/gh-issue-fix-flow",
-        "last_synced": "2026-08-14T02:36:23.524221Z",
-        "upstream_commit": "",
-        "repo": "dimillian/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 3427,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "fix",
-        "flow",
-        "github",
-        "issue"
-      ],
-      "score": 47
-    },
-    {
-      "skill_id": "Dimillian/Skills/review-and-simplify-changes",
-      "spec": {
-        "name": "review-and-simplify-changes",
-        "description": "Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes. Use when the user asks to \"simplify code\", \"review changed code\", \"check for code reuse\", \"review code quality\", \"review efficiency\", \"simplify changes\", \"clean up code\", \"refactor changes\", or \"run simplify\".",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Dimillian/Skills",
-        "source_path": "skills/review-and-simplify-changes",
-        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/review-and-simplify-changes",
-        "last_synced": "2026-08-14T02:36:23.524276Z",
-        "upstream_commit": "",
-        "repo": "dimillian/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 3427,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "changes",
-        "review",
-        "simplify"
-      ],
-      "score": 47
-    },
-    {
-      "skill_id": "Dimillian/Skills/review-swarm",
-      "spec": {
-        "name": "review-swarm",
-        "description": "Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, security or privacy risks, performance or reliability issues, and contract or test coverage gaps. Use when the user asks for a review swarm, parallel review, diff review, regression review, security review, or wants high-signal issues plus a prioritized fix path without editing files.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Dimillian/Skills",
-        "source_path": "skills/review-swarm",
-        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/review-swarm",
-        "last_synced": "2026-08-14T02:36:23.524366Z",
-        "upstream_commit": "",
-        "repo": "dimillian/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 3427,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "review",
-        "swarm"
-      ],
-      "score": 47
-    },
-    {
       "skill_id": "sickn33/antigravity-awesome-skills/ai-md",
       "spec": {
         "name": "ai-md",
@@ -85302,98 +85118,6 @@
       "score": 46
     },
     {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-sentiment",
-      "spec": {
-        "name": "alphaear-sentiment",
-        "description": "## 分析财经文本情感\n\n使用FinBERT或LLM进行财经文本情感分析。当用户需要确定财经文本市场的情感（积极/消极/中立）和分数时，可以使用此功能。<br>\n\n## 功能描述\n\n此功能旨在帮助用户分析财经文本的情感倾向，并提供相应的情感评分。通过使用FinBERT或LLM模型，我们可以准确地识别文本中的情感信息，并为用户提供有价值的参考。<br>\n\n## 应用场景\n\n*   财经新闻情感分析\n*   金融市场趋势预测\n*   投资者情绪分析\n*   财经文本分类\n\n## 技术支持\n\n*   FinBERT：一种专门为财经文本设计的BERT模型变体，用于情感分析和文本分类任务。\n*   LLM：一种大型语言模型，可用于各种自然语言处理任务，包括情感分析和文本生成。\n\n## 使用方法\n\n1.  输入财经文本\n2.  选择FinBERT或LLM模型\n3.  运行情感分析\n4.  获取情感评分和分类结果",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-sentiment",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-sentiment",
-        "last_synced": "2026-08-14T02:36:23.540492Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "alphaear",
-        "llm",
-        "sentiment"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-signal-tracker",
-      "spec": {
-        "name": "alphaear-signal-tracker",
-        "description": "根据新的金融市场信息，跟踪金融投资信号的演变和更新逻辑。在监控金融信号并确定其是否加强、减弱或被证伪时使用。\n\n或者，如果需要保留HTML标签（假设原文是Markdown格式）：\n<p>根据新的金融市场信息，跟踪金融投资信号的演变和更新逻辑。在监控金融信号并确定其是否加强、减弱或被证伪时使用。</p>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-signal-tracker",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-signal-tracker",
-        "last_synced": "2026-08-14T02:36:23.540561Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "alphaear",
-        "signal",
-        "tracker"
-      ],
-      "score": 46
-    },
-    {
       "skill_id": "apify/agent-skills/apify-generate-output-schema",
       "spec": {
         "name": "apify-generate-output-schema",
@@ -88176,6 +87900,190 @@
         "using"
       ],
       "score": 46
+    },
+    {
+      "skill_id": "Dimillian/Skills/bug-hunt-swarm",
+      "spec": {
+        "name": "bug-hunt-swarm",
+        "description": "Parallel read-only multi-agent root-cause investigation for bugs, regressions, crashes, flaky behavior, or unexplained failures. Use when the user asks to investigate a bug, find the root cause, trace a regression, understand why something broke, or wants a ranked diagnosis with the fastest proof path without making code edits.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Dimillian/Skills",
+        "source_path": "skills/bug-hunt-swarm",
+        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/bug-hunt-swarm",
+        "last_synced": "2026-08-14T02:36:23.524132Z",
+        "upstream_commit": "",
+        "repo": "dimillian/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 3427,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "bug",
+        "hunt",
+        "swarm"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "Dimillian/Skills/gh-issue-fix-flow",
+      "spec": {
+        "name": "gh-issue-fix-flow",
+        "description": "使用 gh、本地代码更改、构建/测试和 git push 的端到端 GitHub issue 修复工作流程。当被要求获取 issue 编号，通过 gh 检查 issue，实施修复，运行 XcodeBuildMCP 构建/测试，提交带有 closing message 的 commit，并推送时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Dimillian/Skills",
+        "source_path": "skills/gh-issue-fix-flow",
+        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/gh-issue-fix-flow",
+        "last_synced": "2026-08-14T02:36:23.524221Z",
+        "upstream_commit": "",
+        "repo": "dimillian/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 3427,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "fix",
+        "flow",
+        "github",
+        "issue"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "Dimillian/Skills/review-and-simplify-changes",
+      "spec": {
+        "name": "review-and-simplify-changes",
+        "description": "Review a git diff or explicit file scope for reuse, code quality, efficiency, clarity, and standards issues, then optionally apply safe Codex-driven fixes. Use when the user asks to \"simplify code\", \"review changed code\", \"check for code reuse\", \"review code quality\", \"review efficiency\", \"simplify changes\", \"clean up code\", \"refactor changes\", or \"run simplify\".",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Dimillian/Skills",
+        "source_path": "skills/review-and-simplify-changes",
+        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/review-and-simplify-changes",
+        "last_synced": "2026-08-14T02:36:23.524276Z",
+        "upstream_commit": "",
+        "repo": "dimillian/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 3427,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "changes",
+        "review",
+        "simplify"
+      ],
+      "score": 45
+    },
+    {
+      "skill_id": "Dimillian/Skills/review-swarm",
+      "spec": {
+        "name": "review-swarm",
+        "description": "Parallel read-only multi-agent review of a current git diff or explicit file scope to find behavioral regressions, security or privacy risks, performance or reliability issues, and contract or test coverage gaps. Use when the user asks for a review swarm, parallel review, diff review, regression review, security review, or wants high-signal issues plus a prioritized fix path without editing files.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Dimillian/Skills",
+        "source_path": "skills/review-swarm",
+        "install_url": "https://github.com/Dimillian/Skills/tree/main/skills/review-swarm",
+        "last_synced": "2026-08-14T02:36:23.524366Z",
+        "upstream_commit": "",
+        "repo": "dimillian/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 3427,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "review",
+        "swarm"
+      ],
+      "score": 45
     },
     {
       "skill_id": "google-labs-code/stitch-skills/shadcn-ui",
@@ -118269,6 +118177,98 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-sentiment",
+      "spec": {
+        "name": "alphaear-sentiment",
+        "description": "## 分析财经文本情感\n\n使用FinBERT或LLM进行财经文本情感分析。当用户需要确定财经文本市场的情感（积极/消极/中立）和分数时，可以使用此功能。<br>\n\n## 功能描述\n\n此功能旨在帮助用户分析财经文本的情感倾向，并提供相应的情感评分。通过使用FinBERT或LLM模型，我们可以准确地识别文本中的情感信息，并为用户提供有价值的参考。<br>\n\n## 应用场景\n\n*   财经新闻情感分析\n*   金融市场趋势预测\n*   投资者情绪分析\n*   财经文本分类\n\n## 技术支持\n\n*   FinBERT：一种专门为财经文本设计的BERT模型变体，用于情感分析和文本分类任务。\n*   LLM：一种大型语言模型，可用于各种自然语言处理任务，包括情感分析和文本生成。\n\n## 使用方法\n\n1.  输入财经文本\n2.  选择FinBERT或LLM模型\n3.  运行情感分析\n4.  获取情感评分和分类结果",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-sentiment",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-sentiment",
+        "last_synced": "2026-08-14T02:36:23.540492Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "alphaear",
+        "llm",
+        "sentiment"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-signal-tracker",
+      "spec": {
+        "name": "alphaear-signal-tracker",
+        "description": "根据新的金融市场信息，跟踪金融投资信号的演变和更新逻辑。在监控金融信号并确定其是否加强、减弱或被证伪时使用。\n\n或者，如果需要保留HTML标签（假设原文是Markdown格式）：\n<p>根据新的金融市场信息，跟踪金融投资信号的演变和更新逻辑。在监控金融信号并确定其是否加强、减弱或被证伪时使用。</p>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-signal-tracker",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-signal-tracker",
+        "last_synced": "2026-08-14T02:36:23.540561Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "alphaear",
+        "signal",
+        "tracker"
+      ],
+      "score": 44
     },
     {
       "skill_id": "vuejs-ai/skills/create-adaptable-composable",
@@ -202069,324 +202069,6 @@
       "score": 43
     },
     {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-deepear-lite",
-      "spec": {
-        "name": "alphaear-deepear-lite",
-        "description": "从 DeepEar Lite 获取最新的金融信号和传输链分析。当用户需要立即了解金融市场趋势、股票表现因素以及 DeepEar Lite 仪表盘中的推理时使用。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-deepear-lite",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-deepear-lite",
-        "last_synced": "2026-08-14T02:36:23.540233Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "alphaear",
-        "deepear",
-        "lite"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-logic-visualizer",
-      "spec": {
-        "name": "alphaear-logic-visualizer",
-        "description": "创建可视化金融逻辑图（例如：Draw.io XML），以解释复杂的金融传输链或金融逻辑流程。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-logic-visualizer",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-logic-visualizer",
-        "last_synced": "2026-08-14T02:36:23.540281Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "alphaear",
-        "logic",
-        "visualizer"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-news",
-      "spec": {
-        "name": "alphaear-news",
-        "description": "抓取热点财经新闻、统一趋势、预测金融市场数据。在用户需要实时财经新闻、多个财经来源（微博、知乎、华尔街见闻等）的趋势报告或Polymarket金融市场预测数据时使用。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-news",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-news",
-        "last_synced": "2026-08-14T02:36:23.540325Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "alphaear",
-        "news"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-predictor",
-      "spec": {
-        "name": "alphaear-predictor",
-        "description": "<div>使用 Kronos 进行市场预测。当用户需要金融市场时间序列预测或基于新闻的金融市场调整时使用。</div>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-predictor",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-predictor",
-        "last_synced": "2026-08-14T02:36:23.540368Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "alphaear",
-        "predictor"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-reporter",
-      "spec": {
-        "name": "alphaear-reporter",
-        "description": "计划、撰写和编辑专业的财务报告；生成财务图表配置。当需要将财务分析浓缩为结构化输出时使用。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-reporter",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-reporter",
-        "last_synced": "2026-08-14T02:36:23.540410Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "alphaear",
-        "reporter"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-search",
-      "spec": {
-        "name": "alphaear-search",
-        "description": "执行财经网络搜索和本地语境搜索。当用户需要从网络（例如百度）获取一般财经信息或从本地文档存储（RAG）检索财经信息时使用。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-search",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-search",
-        "last_synced": "2026-08-14T02:36:23.540451Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "alphaear",
-        "rag",
-        "search"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "RKiding/Awesome-finance-skills/alphaear-stock",
-      "spec": {
-        "name": "alphaear-stock",
-        "description": "搜索A股/港股/美股财经股票代码并获取股票价格历史记录。在用户询问财经股票代码、近期价格变化或特定公司财经股票信息时使用。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
-        "source_path": "skills/alphaear-stock",
-        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-stock",
-        "last_synced": "2026-08-14T02:36:23.540612Z",
-        "upstream_commit": "",
-        "repo": "rkiding/awesome-finance-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2036,
-        "last_commit_date": "2026-03-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "alphaear",
-        "stock"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "sickn33/antigravity-awesome-skills/game-art",
       "spec": {
         "name": "game-art",
@@ -208505,6 +208187,324 @@
         "stripe"
       ],
       "score": 42
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-deepear-lite",
+      "spec": {
+        "name": "alphaear-deepear-lite",
+        "description": "从 DeepEar Lite 获取最新的金融信号和传输链分析。当用户需要立即了解金融市场趋势、股票表现因素以及 DeepEar Lite 仪表盘中的推理时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-deepear-lite",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-deepear-lite",
+        "last_synced": "2026-08-14T02:36:23.540233Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "alphaear",
+        "deepear",
+        "lite"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-logic-visualizer",
+      "spec": {
+        "name": "alphaear-logic-visualizer",
+        "description": "创建可视化金融逻辑图（例如：Draw.io XML），以解释复杂的金融传输链或金融逻辑流程。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-logic-visualizer",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-logic-visualizer",
+        "last_synced": "2026-08-14T02:36:23.540281Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "alphaear",
+        "logic",
+        "visualizer"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-news",
+      "spec": {
+        "name": "alphaear-news",
+        "description": "抓取热点财经新闻、统一趋势、预测金融市场数据。在用户需要实时财经新闻、多个财经来源（微博、知乎、华尔街见闻等）的趋势报告或Polymarket金融市场预测数据时使用。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-news",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-news",
+        "last_synced": "2026-08-14T02:36:23.540325Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "alphaear",
+        "news"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-predictor",
+      "spec": {
+        "name": "alphaear-predictor",
+        "description": "<div>使用 Kronos 进行市场预测。当用户需要金融市场时间序列预测或基于新闻的金融市场调整时使用。</div>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-predictor",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-predictor",
+        "last_synced": "2026-08-14T02:36:23.540368Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "alphaear",
+        "predictor"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-reporter",
+      "spec": {
+        "name": "alphaear-reporter",
+        "description": "计划、撰写和编辑专业的财务报告；生成财务图表配置。当需要将财务分析浓缩为结构化输出时使用。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-reporter",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-reporter",
+        "last_synced": "2026-08-14T02:36:23.540410Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "alphaear",
+        "reporter"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-search",
+      "spec": {
+        "name": "alphaear-search",
+        "description": "执行财经网络搜索和本地语境搜索。当用户需要从网络（例如百度）获取一般财经信息或从本地文档存储（RAG）检索财经信息时使用。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-search",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-search",
+        "last_synced": "2026-08-14T02:36:23.540451Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "alphaear",
+        "rag",
+        "search"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "RKiding/Awesome-finance-skills/alphaear-stock",
+      "spec": {
+        "name": "alphaear-stock",
+        "description": "搜索A股/港股/美股财经股票代码并获取股票价格历史记录。在用户询问财经股票代码、近期价格变化或特定公司财经股票信息时使用。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/RKiding/Awesome-finance-skills",
+        "source_path": "skills/alphaear-stock",
+        "install_url": "https://github.com/RKiding/Awesome-finance-skills/tree/main/skills/alphaear-stock",
+        "last_synced": "2026-08-14T02:36:23.540612Z",
+        "upstream_commit": "",
+        "repo": "rkiding/awesome-finance-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2036,
+        "last_commit_date": "2026-03-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "alphaear",
+        "stock"
+      ],
+      "score": 41
     },
     {
       "skill_id": "google-labs-code/stitch-skills/react-components",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-09-25T09:26:00.860573+00:00"
+  "generated_at": "2026-09-26T09:11:51.919809+00:00"
 }
