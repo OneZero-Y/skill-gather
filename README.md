@@ -464,9 +464,9 @@ MIT
 |---|---|
 | **Total Skills** | 11293 |
 | **Data Sources** | 15 |
-| **Last Synced** | 2026-09-27 09:51 UTC |
+| **Last Synced** | 2026-09-28 10:39 UTC |
 
-**By Category** (top 5): development `4118` · other `1305` · devops `1242` · productivity `1085` · creative `992`
+**By Category** (top 5): development `4117` · other `1304` · devops `1241` · productivity `1086` · creative `987`
 
 **Platform Compatibility**: Claude Code `11288` · Kiro `11269` · Codex `10512` · Claude.ai `21` · Universal `11282`
 
@@ -487,6 +487,6 @@ MIT
   - `vercel-agent-skills`
   - `voltagent-awesome`
 
-> Last sync changes: +53 added / -53 removed / ~102 modified
+> Last sync changes: +51 added / -51 removed / ~142 modified
 
 <!-- REGISTRY-STATS-END -->
