@@ -202474,52 +202474,6 @@
       "score": 42
     },
     {
-      "skill_id": "comeonzhj/Auto-Redbook-Skills/xhs-note-creator",
-      "spec": {
-        "name": "xhs-note-creator",
-        "description": "小红书笔记素材创作技能。当用户需要创建小红书笔记素材时使用这个技能。技能包含：根据用户的需求和提供的资料，撰写小红书笔记内容（标题+正文），生成图片卡片（封面+正文卡片），以及发布小红书笔记。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/comeonzhj/Auto-Redbook-Skills",
-        "source_path": "skills/xhs-note-creator",
-        "install_url": "https://github.com/comeonzhj/Auto-Redbook-Skills/tree/main/skills/xhs-note-creator",
-        "last_synced": "2026-08-14T02:36:23.542078Z",
-        "upstream_commit": "",
-        "repo": "comeonzhj/auto-redbook-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1703,
-        "last_commit_date": "2026-04-01",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "creator",
-        "note",
-        "xhs"
-      ],
-      "score": 42
-    },
-    {
       "skill_id": "Ceeon/videocut-skills/videocut",
       "spec": {
         "name": "videocut",
@@ -208187,6 +208141,52 @@
         "stripe"
       ],
       "score": 42
+    },
+    {
+      "skill_id": "comeonzhj/Auto-Redbook-Skills/xhs-note-creator",
+      "spec": {
+        "name": "xhs-note-creator",
+        "description": "小红书笔记素材创作技能。当用户需要创建小红书笔记素材时使用这个技能。技能包含：根据用户的需求和提供的资料，撰写小红书笔记内容（标题+正文），生成图片卡片（封面+正文卡片），以及发布小红书笔记。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/comeonzhj/Auto-Redbook-Skills",
+        "source_path": "skills/xhs-note-creator",
+        "install_url": "https://github.com/comeonzhj/Auto-Redbook-Skills/tree/main/skills/xhs-note-creator",
+        "last_synced": "2026-08-14T02:36:23.542078Z",
+        "upstream_commit": "",
+        "repo": "comeonzhj/auto-redbook-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1703,
+        "last_commit_date": "2026-04-01",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "creator",
+        "note",
+        "xhs"
+      ],
+      "score": 41
     },
     {
       "skill_id": "RKiding/Awesome-finance-skills/alphaear-deepear-lite",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-09-28T10:39:36.557007+00:00"
+  "generated_at": "2026-09-29T10:27:00.924175+00:00"
 }
