@@ -84337,787 +84337,6 @@
       "score": 46
     },
     {
-      "skill_id": "mrgoonie/claudekit-skills/aesthetic",
-      "spec": {
-        "name": "aesthetic",
-        "description": "创建遵循成熟设计原则的精美界面。适用于构建UI/UX、分析来自灵感网站的设计、使用ai-multimodal生成设计图像、实现视觉层次结构和色彩理论、添加微交互或创建设计文档。包括使用chrome-devtools和ai-multimodal捕获和分析灵感屏幕截图的工作流程、迭代设计图像生成直到满足审美标准，以及涵盖 BEAUTIFUL（审美原则）、RIGHT（功能/可访问性）、SATISFYING（微交互）和 PEAK（故事讲述）阶段的综合设计系统指南。与chrome-devtools、ai-multimodal、媒体处理、ui-styling和web-frameworks技能集成。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/aesthetic",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/aesthetic",
-        "last_synced": "2026-08-14T02:36:23.538402Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "aesthetic"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/ai-multimodal",
-      "spec": {
-        "name": "ai-multimodal",
-        "description": "使用 Google Gemini API 处理和生成多媒体内容。功能包括分析音频文件（带时间戳的转录、摘要、语音理解、音乐/声音分析，最长 9.5 小时），理解图像（字幕、对象检测、OCR、视觉问答、分割），处理视频（场景检测、问答、时间分析、YouTube URL，最长 6 小时），从文档中提取（PDF 表格、表单、图表、示意图、多页），生成图像（文本到图像、编辑、合成、优化）。适用于处理音频/视频文件、分析图像或屏幕截图、处理 PDF 文档、从媒体中提取结构化数据、从文本提示创建图像或实施多模态 AI 功能。支持多个模型（Gemini 2.5/2.0），上下文窗口最多 2M tokens。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/ai-multimodal",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/ai-multimodal",
-        "last_synced": "2026-08-14T02:36:23.538470Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "multimodal",
-        "pdf"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/backend-development",
-      "spec": {
-        "name": "backend-development",
-        "description": "使用现代技术（Node.js、Python、Go、Rust）、框架（NestJS、FastAPI、Django）、数据库（PostgreSQL、MongoDB、Redis）、API（REST、GraphQL、gRPC）、身份验证（OAuth 2.1、JWT）、测试策略、安全最佳实践（OWASP Top 10）、性能优化、可扩展性模式（微服务、缓存、分片）和 DevOps 实践（Docker、Kubernetes、CI/CD）构建强大的后端系统，以及监控。适用于设计 API、实施身份验证、优化数据库查询、设置 CI/CD 管道、处理安全漏洞、构建微服务或开发可用于生产的后端系统。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/backend-development",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/backend-development",
-        "last_synced": "2026-08-14T02:36:23.538538Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "backend",
-        "development",
-        "docker",
-        "kubernetes",
-        "python",
-        "rust"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/better-auth",
-      "spec": {
-        "name": "better-auth",
-        "description": "使用 Better Auth（一个与框架无关的 TypeScript 身份验证框架）实现身份验证和授权。功能包括带验证的电子邮件/密码身份验证、OAuth 提供程序（Google、GitHub、Discord 等）、双因素身份验证（TOTP、SMS）、通行密钥/WebAuthn 支持、会话管理、基于角色的访问控制（RBAC）、速率限制和数据库适配器。在向应用程序添加身份验证、实施 OAuth 流程、设置 2FA/MFA、管理用户会话、配置授权规则或为 Web 应用程序构建安全身份验证系统时使用。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/better-auth",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/better-auth",
-        "last_synced": "2026-08-14T02:36:23.538612Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "auth",
-        "better",
-        "github",
-        "typescript"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/bunny",
-      "spec": {
-        "name": "bunny",
-        "description": "Integrate Bunny.net services (CDN, Storage, Stream, DNS, Edge Scripting, Shield, Magic Containers, Optimizer, Database). Use when building with Bunny.net APIs, deploying to Bunny CDN, uploading files to Edge Storage, managing video streaming, configuring DNS zones, writing edge scripts, setting up WAF/DDoS protection, deploying containers, or optimizing images. Triggers on \"bunny\", \"bunnycdn\", \"b-cdn\", \"pull zone\", \"edge storage\", \"bunny stream\".",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/bunny",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/bunny",
-        "last_synced": "2026-08-14T02:36:23.538670Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "bunny"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/code-review",
-      "spec": {
-        "name": "code-review",
-        "description": "用于接收代码审查反馈（尤其是不清楚或技术上存在疑问时），在完成任务或需要审查的主要功能后才能继续进行，或者在提出任何完成/成功声明之前使用。涵盖三种实践——以技术严谨性接收反馈，而不是表面上的同意；通过代码审查员子代理请求审查；以及在任何状态声明之前需要证据的验证门。对于子代理驱动的开发、拉取请求和防止虚假完成声明至关重要。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/code-review",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/code-review",
-        "last_synced": "2026-08-14T02:36:23.538822Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "code",
-        "review"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/context-engineering",
-      "spec": {
-        "name": "context-engineering",
-        "description": "掌握 AI 代理系统的情境工程。在设计代理架构、调试情境故障、优化令牌使用、实施记忆系统、构建多代理协调、评估代理性能或开发 LLM 驱动的管道时使用。涵盖情境基础知识、退化模式、优化技术（压缩、屏蔽、缓存）、压缩策略、记忆架构、多代理模式、LLM-as-Judge 评估、工具设计和项目开发。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/context-engineering",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/context-engineering",
-        "last_synced": "2026-08-14T02:36:23.538909Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "context",
-        "engineering",
-        "llm"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/databases",
-      "spec": {
-        "name": "databases",
-        "description": "使用 MongoDB（文档数据库、BSON 文档、聚合管道、Atlas 云）和 PostgreSQL（关系数据库、SQL 查询、psql CLI、pgAdmin）。在设计数据库模式、编写查询和聚合、优化索引以提高性能、执行数据库迁移、配置复制和分片、实施备份和恢复策略、管理数据库用户和权限、分析查询性能或管理生产数据库时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/databases",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/databases",
-        "last_synced": "2026-08-14T02:36:23.538956Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "databases"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/devops",
-      "spec": {
-        "name": "devops",
-        "description": "部署到 Cloudflare (Workers, R2, D1)、Docker、GCP (Cloud Run, GKE)、Kubernetes (kubectl, Helm)。用于 serverless、容器、CI/CD、GitOps、安全审计。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/devops",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/devops",
-        "last_synced": "2026-08-14T02:36:23.539118Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "devops",
-        "docker",
-        "gcp",
-        "kubernetes"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/docs-seeker",
-      "spec": {
-        "name": "docs-seeker",
-        "description": "使用llms.txt标准、通过Repomix进行的GitHub仓库搜索以及并行探索，在互联网上搜索技术文档。当用户需要以下内容时使用：(1) 库/框架的最新文档，(2) llms.txt格式的文档，(3) GitHub仓库分析，(4) 没有直接llms.txt支持的文档，(5) 并行处理的多个文档来源。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/docs-seeker",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/docs-seeker",
-        "last_synced": "2026-08-14T02:36:23.539175Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "docs",
-        "seeker"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/mcp-management",
-      "spec": {
-        "name": "mcp-management",
-        "description": "管理模型上下文协议（MCP）服务器 - 发现、分析和执行来自已配置 MCP 服务器的工具/提示/资源。在以下情况下使用：使用 MCP 集成、需要发现可用的 MCP 功能、为特定任务筛选 MCP 工具、以编程方式执行 MCP 工具、访问 MCP 提示/资源或实现 MCP 客户端功能。支持智能工具选择、多服务器管理和上下文高效的功能发现。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/mcp-management",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/mcp-management",
-        "last_synced": "2026-08-14T02:36:23.539318Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "management",
-        "mcp"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/media-processing",
-      "spec": {
-        "name": "media-processing",
-        "description": "使用 FFmpeg（视频/音频编码、转换、流媒体、过滤、硬件加速）和 ImageMagick（图像处理、格式转换、批量处理、特效、合成）处理多媒体文件。适用于转换媒体格式、使用特定编解码器（H.264、H.265、VP9）编码视频、调整图像大小/裁剪图像、从视频中提取音频、应用滤镜和特效、优化文件大小、创建流媒体清单（HLS/DASH）、生成缩略图、批量处理图像、创建合成图像或实施媒体处理管道。支持 100 多种格式、硬件加速（NVENC、QSV）和复杂滤镜图。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/media-processing",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/media-processing",
-        "last_synced": "2026-08-14T02:36:23.539371Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "media",
-        "processing"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/mermaidjs-v11",
-      "spec": {
-        "name": "mermaidjs-v11",
-        "description": "使用 Mermaid.js v11 语法创建图表和可视化效果。用于生成流程图、时序图、类图、状态图、ER 图、甘特图、用户旅程、时间线、架构图或 24 种以上的图表类型。支持 JavaScript API 集成、CLI 渲染为 SVG/PNG/PDF、主题、配置和辅助功能。对于文档、技术图、项目规划、系统架构和可视化通信至关重要。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/mermaidjs-v11",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/mermaidjs-v11",
-        "last_synced": "2026-08-14T02:36:23.539425Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "cli",
-        "javascript",
-        "mermaidjs",
-        "pdf",
-        "v11"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/repomix",
-      "spec": {
-        "name": "repomix",
-        "description": "使用 Repomix 将整个代码仓库打包成单个对 AI 友好的文件。功能包括使用可自定义的包含/排除模式打包代码库，生成多种输出格式（XML、Markdown、纯文本），保留文件结构和上下文，通过令牌计数进行 AI 消耗优化，按文件类型和目录进行过滤，添加自定义标头和摘要。适用于为 AI 分析打包代码库、为 LLM 上下文创建存储库快照、分析第三方库、准备安全审计、生成文档上下文或评估不熟悉的代码库。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/repomix",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/repomix",
-        "last_synced": "2026-08-14T02:36:23.539557Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "llm",
-        "repomix"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/shopify",
-      "spec": {
-        "name": "shopify",
-        "description": "使用 GraphQL/REST APIs、Shopify CLI、Polaris UI 组件和 Liquid 模板构建 Shopify 应用程序、扩展程序和主题。功能包括使用 OAuth 身份验证进行应用程序开发、用于自定义结账流程的结账 UI 扩展、用于仪表板集成的管理 UI 扩展、用于零售的 POS 扩展、使用 Liquid 进行主题开发、Webhook 管理、账单 API 集成、产品/订单/客户管理。在构建 Shopify 应用程序、实施结账自定义、创建管理界面、开发主题、集成支付处理、通过 API 管理商店数据或扩展 Shopify 功能时使用。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/shopify",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/shopify",
-        "last_synced": "2026-08-14T02:36:23.539737Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "cli",
-        "shopify"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/ui-styling",
-      "spec": {
-        "name": "ui-styling",
-        "description": "使用 shadcn/ui 组件（构建于 Radix UI + Tailwind 之上）、Tailwind CSS 实用优先样式和基于画布的可视化设计，创建美观且易于访问的用户界面。适用于构建用户界面、实施设计系统、创建响应式布局、添加可访问的组件（对话框、下拉菜单、表单、表格）、自定义主题和颜色、实施暗黑模式、生成可视化设计和海报或在应用程序中建立一致的样式模式时。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/ui-styling",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/ui-styling",
-        "last_synced": "2026-08-14T02:36:23.539917Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "styling"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/web-frameworks",
-      "spec": {
-        "name": "web-frameworks",
-        "description": "使用 Next.js（App Router、Server Components、RSC、PPR、SSR、SSG、ISR）、Turborepo（monorepo 管理、任务管道、远程缓存、并行执行）和 RemixIcon（3100 多个带轮廓/填充样式的 SVG 图标）构建现代全栈 Web 应用程序。在创建 React 应用程序、实现服务器端渲染、设置包含多个包的 monorepo、优化构建性能和缓存策略、添加图标库、管理共享依赖项或使用 TypeScript 全栈项目时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/web-frameworks",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/web-frameworks",
-        "last_synced": "2026-08-14T02:36:23.540073Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "frameworks",
-        "next",
-        "react",
-        "typescript",
-        "web"
-      ],
-      "score": 46
-    },
-    {
       "skill_id": "apify/agent-skills/apify-generate-output-schema",
       "spec": {
         "name": "apify-generate-output-schema",
@@ -118177,6 +117396,787 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/aesthetic",
+      "spec": {
+        "name": "aesthetic",
+        "description": "创建遵循成熟设计原则的精美界面。适用于构建UI/UX、分析来自灵感网站的设计、使用ai-multimodal生成设计图像、实现视觉层次结构和色彩理论、添加微交互或创建设计文档。包括使用chrome-devtools和ai-multimodal捕获和分析灵感屏幕截图的工作流程、迭代设计图像生成直到满足审美标准，以及涵盖 BEAUTIFUL（审美原则）、RIGHT（功能/可访问性）、SATISFYING（微交互）和 PEAK（故事讲述）阶段的综合设计系统指南。与chrome-devtools、ai-multimodal、媒体处理、ui-styling和web-frameworks技能集成。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/aesthetic",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/aesthetic",
+        "last_synced": "2026-08-14T02:36:23.538402Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "aesthetic"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/ai-multimodal",
+      "spec": {
+        "name": "ai-multimodal",
+        "description": "使用 Google Gemini API 处理和生成多媒体内容。功能包括分析音频文件（带时间戳的转录、摘要、语音理解、音乐/声音分析，最长 9.5 小时），理解图像（字幕、对象检测、OCR、视觉问答、分割），处理视频（场景检测、问答、时间分析、YouTube URL，最长 6 小时），从文档中提取（PDF 表格、表单、图表、示意图、多页），生成图像（文本到图像、编辑、合成、优化）。适用于处理音频/视频文件、分析图像或屏幕截图、处理 PDF 文档、从媒体中提取结构化数据、从文本提示创建图像或实施多模态 AI 功能。支持多个模型（Gemini 2.5/2.0），上下文窗口最多 2M tokens。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/ai-multimodal",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/ai-multimodal",
+        "last_synced": "2026-08-14T02:36:23.538470Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "multimodal",
+        "pdf"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/backend-development",
+      "spec": {
+        "name": "backend-development",
+        "description": "使用现代技术（Node.js、Python、Go、Rust）、框架（NestJS、FastAPI、Django）、数据库（PostgreSQL、MongoDB、Redis）、API（REST、GraphQL、gRPC）、身份验证（OAuth 2.1、JWT）、测试策略、安全最佳实践（OWASP Top 10）、性能优化、可扩展性模式（微服务、缓存、分片）和 DevOps 实践（Docker、Kubernetes、CI/CD）构建强大的后端系统，以及监控。适用于设计 API、实施身份验证、优化数据库查询、设置 CI/CD 管道、处理安全漏洞、构建微服务或开发可用于生产的后端系统。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/backend-development",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/backend-development",
+        "last_synced": "2026-08-14T02:36:23.538538Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "backend",
+        "development",
+        "docker",
+        "kubernetes",
+        "python",
+        "rust"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/better-auth",
+      "spec": {
+        "name": "better-auth",
+        "description": "使用 Better Auth（一个与框架无关的 TypeScript 身份验证框架）实现身份验证和授权。功能包括带验证的电子邮件/密码身份验证、OAuth 提供程序（Google、GitHub、Discord 等）、双因素身份验证（TOTP、SMS）、通行密钥/WebAuthn 支持、会话管理、基于角色的访问控制（RBAC）、速率限制和数据库适配器。在向应用程序添加身份验证、实施 OAuth 流程、设置 2FA/MFA、管理用户会话、配置授权规则或为 Web 应用程序构建安全身份验证系统时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/better-auth",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/better-auth",
+        "last_synced": "2026-08-14T02:36:23.538612Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "auth",
+        "better",
+        "github",
+        "typescript"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/bunny",
+      "spec": {
+        "name": "bunny",
+        "description": "Integrate Bunny.net services (CDN, Storage, Stream, DNS, Edge Scripting, Shield, Magic Containers, Optimizer, Database). Use when building with Bunny.net APIs, deploying to Bunny CDN, uploading files to Edge Storage, managing video streaming, configuring DNS zones, writing edge scripts, setting up WAF/DDoS protection, deploying containers, or optimizing images. Triggers on \"bunny\", \"bunnycdn\", \"b-cdn\", \"pull zone\", \"edge storage\", \"bunny stream\".",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/bunny",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/bunny",
+        "last_synced": "2026-08-14T02:36:23.538670Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "bunny"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/code-review",
+      "spec": {
+        "name": "code-review",
+        "description": "用于接收代码审查反馈（尤其是不清楚或技术上存在疑问时），在完成任务或需要审查的主要功能后才能继续进行，或者在提出任何完成/成功声明之前使用。涵盖三种实践——以技术严谨性接收反馈，而不是表面上的同意；通过代码审查员子代理请求审查；以及在任何状态声明之前需要证据的验证门。对于子代理驱动的开发、拉取请求和防止虚假完成声明至关重要。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/code-review",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/code-review",
+        "last_synced": "2026-08-14T02:36:23.538822Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "code",
+        "review"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/context-engineering",
+      "spec": {
+        "name": "context-engineering",
+        "description": "掌握 AI 代理系统的情境工程。在设计代理架构、调试情境故障、优化令牌使用、实施记忆系统、构建多代理协调、评估代理性能或开发 LLM 驱动的管道时使用。涵盖情境基础知识、退化模式、优化技术（压缩、屏蔽、缓存）、压缩策略、记忆架构、多代理模式、LLM-as-Judge 评估、工具设计和项目开发。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/context-engineering",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/context-engineering",
+        "last_synced": "2026-08-14T02:36:23.538909Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "context",
+        "engineering",
+        "llm"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/databases",
+      "spec": {
+        "name": "databases",
+        "description": "使用 MongoDB（文档数据库、BSON 文档、聚合管道、Atlas 云）和 PostgreSQL（关系数据库、SQL 查询、psql CLI、pgAdmin）。在设计数据库模式、编写查询和聚合、优化索引以提高性能、执行数据库迁移、配置复制和分片、实施备份和恢复策略、管理数据库用户和权限、分析查询性能或管理生产数据库时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/databases",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/databases",
+        "last_synced": "2026-08-14T02:36:23.538956Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "databases"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/devops",
+      "spec": {
+        "name": "devops",
+        "description": "部署到 Cloudflare (Workers, R2, D1)、Docker、GCP (Cloud Run, GKE)、Kubernetes (kubectl, Helm)。用于 serverless、容器、CI/CD、GitOps、安全审计。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/devops",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/devops",
+        "last_synced": "2026-08-14T02:36:23.539118Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "devops",
+        "docker",
+        "gcp",
+        "kubernetes"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/docs-seeker",
+      "spec": {
+        "name": "docs-seeker",
+        "description": "使用llms.txt标准、通过Repomix进行的GitHub仓库搜索以及并行探索，在互联网上搜索技术文档。当用户需要以下内容时使用：(1) 库/框架的最新文档，(2) llms.txt格式的文档，(3) GitHub仓库分析，(4) 没有直接llms.txt支持的文档，(5) 并行处理的多个文档来源。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/docs-seeker",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/docs-seeker",
+        "last_synced": "2026-08-14T02:36:23.539175Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "docs",
+        "seeker"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/mcp-management",
+      "spec": {
+        "name": "mcp-management",
+        "description": "管理模型上下文协议（MCP）服务器 - 发现、分析和执行来自已配置 MCP 服务器的工具/提示/资源。在以下情况下使用：使用 MCP 集成、需要发现可用的 MCP 功能、为特定任务筛选 MCP 工具、以编程方式执行 MCP 工具、访问 MCP 提示/资源或实现 MCP 客户端功能。支持智能工具选择、多服务器管理和上下文高效的功能发现。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/mcp-management",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/mcp-management",
+        "last_synced": "2026-08-14T02:36:23.539318Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "management",
+        "mcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/media-processing",
+      "spec": {
+        "name": "media-processing",
+        "description": "使用 FFmpeg（视频/音频编码、转换、流媒体、过滤、硬件加速）和 ImageMagick（图像处理、格式转换、批量处理、特效、合成）处理多媒体文件。适用于转换媒体格式、使用特定编解码器（H.264、H.265、VP9）编码视频、调整图像大小/裁剪图像、从视频中提取音频、应用滤镜和特效、优化文件大小、创建流媒体清单（HLS/DASH）、生成缩略图、批量处理图像、创建合成图像或实施媒体处理管道。支持 100 多种格式、硬件加速（NVENC、QSV）和复杂滤镜图。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/media-processing",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/media-processing",
+        "last_synced": "2026-08-14T02:36:23.539371Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "media",
+        "processing"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/mermaidjs-v11",
+      "spec": {
+        "name": "mermaidjs-v11",
+        "description": "使用 Mermaid.js v11 语法创建图表和可视化效果。用于生成流程图、时序图、类图、状态图、ER 图、甘特图、用户旅程、时间线、架构图或 24 种以上的图表类型。支持 JavaScript API 集成、CLI 渲染为 SVG/PNG/PDF、主题、配置和辅助功能。对于文档、技术图、项目规划、系统架构和可视化通信至关重要。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/mermaidjs-v11",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/mermaidjs-v11",
+        "last_synced": "2026-08-14T02:36:23.539425Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "cli",
+        "javascript",
+        "mermaidjs",
+        "pdf",
+        "v11"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/repomix",
+      "spec": {
+        "name": "repomix",
+        "description": "使用 Repomix 将整个代码仓库打包成单个对 AI 友好的文件。功能包括使用可自定义的包含/排除模式打包代码库，生成多种输出格式（XML、Markdown、纯文本），保留文件结构和上下文，通过令牌计数进行 AI 消耗优化，按文件类型和目录进行过滤，添加自定义标头和摘要。适用于为 AI 分析打包代码库、为 LLM 上下文创建存储库快照、分析第三方库、准备安全审计、生成文档上下文或评估不熟悉的代码库。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/repomix",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/repomix",
+        "last_synced": "2026-08-14T02:36:23.539557Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "llm",
+        "repomix"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/shopify",
+      "spec": {
+        "name": "shopify",
+        "description": "使用 GraphQL/REST APIs、Shopify CLI、Polaris UI 组件和 Liquid 模板构建 Shopify 应用程序、扩展程序和主题。功能包括使用 OAuth 身份验证进行应用程序开发、用于自定义结账流程的结账 UI 扩展、用于仪表板集成的管理 UI 扩展、用于零售的 POS 扩展、使用 Liquid 进行主题开发、Webhook 管理、账单 API 集成、产品/订单/客户管理。在构建 Shopify 应用程序、实施结账自定义、创建管理界面、开发主题、集成支付处理、通过 API 管理商店数据或扩展 Shopify 功能时使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/shopify",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/shopify",
+        "last_synced": "2026-08-14T02:36:23.539737Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "cli",
+        "shopify"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/ui-styling",
+      "spec": {
+        "name": "ui-styling",
+        "description": "使用 shadcn/ui 组件（构建于 Radix UI + Tailwind 之上）、Tailwind CSS 实用优先样式和基于画布的可视化设计，创建美观且易于访问的用户界面。适用于构建用户界面、实施设计系统、创建响应式布局、添加可访问的组件（对话框、下拉菜单、表单、表格）、自定义主题和颜色、实施暗黑模式、生成可视化设计和海报或在应用程序中建立一致的样式模式时。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/ui-styling",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/ui-styling",
+        "last_synced": "2026-08-14T02:36:23.539917Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "styling"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/web-frameworks",
+      "spec": {
+        "name": "web-frameworks",
+        "description": "使用 Next.js（App Router、Server Components、RSC、PPR、SSR、SSG、ISR）、Turborepo（monorepo 管理、任务管道、远程缓存、并行执行）和 RemixIcon（3100 多个带轮廓/填充样式的 SVG 图标）构建现代全栈 Web 应用程序。在创建 React 应用程序、实现服务器端渲染、设置包含多个包的 monorepo、优化构建性能和缓存策略、添加图标库、管理共享依赖项或使用 TypeScript 全栈项目时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/web-frameworks",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/web-frameworks",
+        "last_synced": "2026-08-14T02:36:23.540073Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "frameworks",
+        "next",
+        "react",
+        "typescript",
+        "web"
+      ],
+      "score": 44
     },
     {
       "skill_id": "RKiding/Awesome-finance-skills/alphaear-sentiment",
@@ -201662,413 +201662,6 @@
       "score": 43
     },
     {
-      "skill_id": "mrgoonie/claudekit-skills/claude-code-expert",
-      "spec": {
-        "name": "claude-code-expert",
-        "description": "Claude Code 是 Anthropic 的代理编码工具，它存在于终端中，可以帮助更快地将想法转化为代码。它结合了自主规划、执行和验证，并通过 s 实现可扩展性",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Claude Code Expert",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Claude Code Expert",
-        "last_synced": "2026-08-14T02:36:23.538771Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "claude",
-        "code",
-        "expert"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/collision-zone-thinking",
-      "spec": {
-        "name": "collision-zone-thinking",
-        "description": "将不相关的概念放在一起，以发现涌现的属性 - “如果我们像对待 Y 一样对待 X 会怎么样？”\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Collision-Zone Thinking",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Collision-Zone Thinking",
-        "last_synced": "2026-08-14T02:36:23.538867Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "collision",
-        "thinking",
-        "zone"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/debugging",
-      "spec": {
-        "name": "debugging",
-        "description": "用于查找和修复错误的系统化调试框架 - 包括根本原因分析、深度防御验证和验证协议\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/debugging",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/debugging",
-        "last_synced": "2026-08-14T02:36:23.539020Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "debugging"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/google-adk-python-skill",
-      "spec": {
-        "name": "google-adk-python-skill",
-        "description": "你是一位 Google 的 Agent Development Kit (ADK) Python 专家指导 - 这是一个开源的、代码优先的工具包，用于构建、评估和部署 AI 代理。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Google ADK Python Skill",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Google ADK Python Skill",
-        "last_synced": "2026-08-14T02:36:23.539228Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "adk",
-        "google",
-        "python",
-        "skill"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/scale-game",
-      "spec": {
-        "name": "scale-game",
-        "description": "在极端情况下进行测试（放大 1000 倍/缩小 1000 倍，瞬间/持续一年），以揭示隐藏在正常规模下的基本真相。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Scale Game",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Scale Game",
-        "last_synced": "2026-08-14T02:36:23.539649Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "game",
-        "scale"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/sequential-thinking",
-      "spec": {
-        "name": "sequential-thinking",
-        "description": "用于复杂问题需要系统性的、逐步的推理，并具备修改想法、分支到替代方法或动态调整范围的能力时。非常适合多阶段分析、设计规划、问题分解或初始范围不明确的任务。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/sequential-thinking",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/sequential-thinking",
-        "last_synced": "2026-08-14T02:36:23.539694Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "sequential",
-        "thinking"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/simplification-cascades",
-      "spec": {
-        "name": "simplification-cascades",
-        "description": "找到一个可以消除多个组件的洞察力——“如果这是真的，我们就不需要 X、Y 或 Z”。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Simplification Cascades",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Simplification Cascades",
-        "last_synced": "2026-08-14T02:36:23.539795Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "cascades",
-        "simplification"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/threejs",
-      "spec": {
-        "name": "threejs",
-        "description": "使用 Three.js (WebGL/WebGPU) 构建 3D Web 应用程序。用于 3D 场景、动画、自定义着色器、PBR 材质、VR/XR 体验、游戏、数据可视化、产品配置器。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/threejs",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/threejs",
-        "last_synced": "2026-08-14T02:36:23.539876Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "threejs"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/web-testing",
-      "spec": {
-        "name": "web-testing",
-        "description": "使用 Playwright、Vitest、k6 进行 Web 测试。E2E/单元/集成/负载/安全/视觉/a11y 测试。用于测试自动化、不稳定性、Core Web Vitals、移动手势、跨浏览器。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/web-testing",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/web-testing",
-        "last_synced": "2026-08-14T02:36:23.540138Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "testing",
-        "web"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "sickn33/antigravity-awesome-skills/game-art",
       "spec": {
         "name": "game-art",
@@ -208141,6 +207734,413 @@
         "stripe"
       ],
       "score": 42
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/claude-code-expert",
+      "spec": {
+        "name": "claude-code-expert",
+        "description": "Claude Code 是 Anthropic 的代理编码工具，它存在于终端中，可以帮助更快地将想法转化为代码。它结合了自主规划、执行和验证，并通过 s 实现可扩展性",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Claude Code Expert",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Claude Code Expert",
+        "last_synced": "2026-08-14T02:36:23.538771Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "claude",
+        "code",
+        "expert"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/collision-zone-thinking",
+      "spec": {
+        "name": "collision-zone-thinking",
+        "description": "将不相关的概念放在一起，以发现涌现的属性 - “如果我们像对待 Y 一样对待 X 会怎么样？”\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Collision-Zone Thinking",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Collision-Zone Thinking",
+        "last_synced": "2026-08-14T02:36:23.538867Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "collision",
+        "thinking",
+        "zone"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/debugging",
+      "spec": {
+        "name": "debugging",
+        "description": "用于查找和修复错误的系统化调试框架 - 包括根本原因分析、深度防御验证和验证协议\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/debugging",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/debugging",
+        "last_synced": "2026-08-14T02:36:23.539020Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "debugging"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/google-adk-python-skill",
+      "spec": {
+        "name": "google-adk-python-skill",
+        "description": "你是一位 Google 的 Agent Development Kit (ADK) Python 专家指导 - 这是一个开源的、代码优先的工具包，用于构建、评估和部署 AI 代理。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Google ADK Python Skill",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Google ADK Python Skill",
+        "last_synced": "2026-08-14T02:36:23.539228Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "adk",
+        "google",
+        "python",
+        "skill"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/scale-game",
+      "spec": {
+        "name": "scale-game",
+        "description": "在极端情况下进行测试（放大 1000 倍/缩小 1000 倍，瞬间/持续一年），以揭示隐藏在正常规模下的基本真相。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Scale Game",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Scale Game",
+        "last_synced": "2026-08-14T02:36:23.539649Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "game",
+        "scale"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/sequential-thinking",
+      "spec": {
+        "name": "sequential-thinking",
+        "description": "用于复杂问题需要系统性的、逐步的推理，并具备修改想法、分支到替代方法或动态调整范围的能力时。非常适合多阶段分析、设计规划、问题分解或初始范围不明确的任务。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/sequential-thinking",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/sequential-thinking",
+        "last_synced": "2026-08-14T02:36:23.539694Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "sequential",
+        "thinking"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/simplification-cascades",
+      "spec": {
+        "name": "simplification-cascades",
+        "description": "找到一个可以消除多个组件的洞察力——“如果这是真的，我们就不需要 X、Y 或 Z”。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Simplification Cascades",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Simplification Cascades",
+        "last_synced": "2026-08-14T02:36:23.539795Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "cascades",
+        "simplification"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/threejs",
+      "spec": {
+        "name": "threejs",
+        "description": "使用 Three.js (WebGL/WebGPU) 构建 3D Web 应用程序。用于 3D 场景、动画、自定义着色器、PBR 材质、VR/XR 体验、游戏、数据可视化、产品配置器。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/threejs",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/threejs",
+        "last_synced": "2026-08-14T02:36:23.539876Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "threejs"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/web-testing",
+      "spec": {
+        "name": "web-testing",
+        "description": "使用 Playwright、Vitest、k6 进行 Web 测试。E2E/单元/集成/负载/安全/视觉/a11y 测试。用于测试自动化、不稳定性、Core Web Vitals、移动手势、跨浏览器。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/web-testing",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/web-testing",
+        "last_synced": "2026-08-14T02:36:23.540138Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "testing",
+        "web"
+      ],
+      "score": 41
     },
     {
       "skill_id": "comeonzhj/Auto-Redbook-Skills/xhs-note-creator",
@@ -214252,373 +214252,6 @@
       "score": 40
     },
     {
-      "skill_id": "mrgoonie/claudekit-skills/defense-in-depth-validation",
-      "spec": {
-        "name": "defense-in-depth-validation",
-        "description": "在数据经过的每一层进行验证，使错误成为不可能。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Defense-in-Depth Validation",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Defense-in-Depth Validation",
-        "last_synced": "2026-08-14T02:36:23.539078Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "defense",
-        "depth",
-        "validation"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/inversion-exercise",
-      "spec": {
-        "name": "inversion-exercise",
-        "description": "反转核心假设以揭示隐藏的约束和替代方法 - “如果相反的情况是真的呢？”\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Inversion Exercise",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Inversion Exercise",
-        "last_synced": "2026-08-14T02:36:23.539276Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "exercise",
-        "inversion"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/meta-pattern-recognition",
-      "spec": {
-        "name": "meta-pattern-recognition",
-        "description": "发现出现在 3 个以上域中的模式，以找到通用原则\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Meta-Pattern Recognition",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Meta-Pattern Recognition",
-        "last_synced": "2026-08-14T02:36:23.539477Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "meta",
-        "pattern",
-        "recognition"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/problem-solving",
-      "spec": {
-        "name": "problem-solving",
-        "description": "用于突破瓶颈的创造性问题解决技巧 - 包括碰撞区思维、反演、模式识别和简化。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/problem-solving",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/problem-solving",
-        "last_synced": "2026-08-14T02:36:23.539519Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "problem",
-        "solving"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/root-cause-tracing",
-      "spec": {
-        "name": "root-cause-tracing",
-        "description": "系统地通过调用堆栈向后追踪错误，以找到原始触发器\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Root Cause Tracing",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Root Cause Tracing",
-        "last_synced": "2026-08-14T02:36:23.539608Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "cause",
-        "root",
-        "tracing"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/systematic-debugging",
-      "spec": {
-        "name": "systematic-debugging",
-        "description": "四阶段调试框架，确保在尝试修复之前进行根本原因调查。永远不要直接给出解决方案。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Systematic Debugging",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Systematic Debugging",
-        "last_synced": "2026-08-14T02:36:23.539836Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "debugging",
-        "systematic"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/verification-before-completion",
-      "spec": {
-        "name": "verification-before-completion",
-        "description": "运行验证命令并在声明成功之前确认输出\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/Verification Before Completion",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Verification Before Completion",
-        "last_synced": "2026-08-14T02:36:23.539971Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "before",
-        "completion",
-        "verification"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "mrgoonie/claudekit-skills/when-stuck---problem-solving-dispatch",
-      "spec": {
-        "name": "when-stuck---problem-solving-dispatch",
-        "description": "根据你的问题选择合适的解决技巧\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mrgoonie/claudekit-skills",
-        "source_path": "skills/When Stuck - Problem-Solving Dispatch",
-        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/When Stuck - Problem-Solving Dispatch",
-        "last_synced": "2026-08-14T02:36:23.540191Z",
-        "upstream_commit": "",
-        "repo": "mrgoonie/claudekit-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2049,
-        "last_commit_date": "2026-04-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "dispatch",
-        "problem",
-        "solving",
-        "stuck",
-        "when"
-      ],
-      "score": 40
-    },
-    {
       "skill_id": "daymade/claude-code-skills/fact-checker",
       "spec": {
         "name": "fact-checker",
@@ -217613,6 +217246,373 @@
       "score": 39
     },
     {
+      "skill_id": "mrgoonie/claudekit-skills/defense-in-depth-validation",
+      "spec": {
+        "name": "defense-in-depth-validation",
+        "description": "在数据经过的每一层进行验证，使错误成为不可能。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Defense-in-Depth Validation",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Defense-in-Depth Validation",
+        "last_synced": "2026-08-14T02:36:23.539078Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "defense",
+        "depth",
+        "validation"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/inversion-exercise",
+      "spec": {
+        "name": "inversion-exercise",
+        "description": "反转核心假设以揭示隐藏的约束和替代方法 - “如果相反的情况是真的呢？”\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Inversion Exercise",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Inversion Exercise",
+        "last_synced": "2026-08-14T02:36:23.539276Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "exercise",
+        "inversion"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/meta-pattern-recognition",
+      "spec": {
+        "name": "meta-pattern-recognition",
+        "description": "发现出现在 3 个以上域中的模式，以找到通用原则\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Meta-Pattern Recognition",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Meta-Pattern Recognition",
+        "last_synced": "2026-08-14T02:36:23.539477Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "meta",
+        "pattern",
+        "recognition"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/problem-solving",
+      "spec": {
+        "name": "problem-solving",
+        "description": "用于突破瓶颈的创造性问题解决技巧 - 包括碰撞区思维、反演、模式识别和简化。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/problem-solving",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/problem-solving",
+        "last_synced": "2026-08-14T02:36:23.539519Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "problem",
+        "solving"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/root-cause-tracing",
+      "spec": {
+        "name": "root-cause-tracing",
+        "description": "系统地通过调用堆栈向后追踪错误，以找到原始触发器\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Root Cause Tracing",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Root Cause Tracing",
+        "last_synced": "2026-08-14T02:36:23.539608Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "cause",
+        "root",
+        "tracing"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/systematic-debugging",
+      "spec": {
+        "name": "systematic-debugging",
+        "description": "四阶段调试框架，确保在尝试修复之前进行根本原因调查。永远不要直接给出解决方案。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Systematic Debugging",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Systematic Debugging",
+        "last_synced": "2026-08-14T02:36:23.539836Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "debugging",
+        "systematic"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/verification-before-completion",
+      "spec": {
+        "name": "verification-before-completion",
+        "description": "运行验证命令并在声明成功之前确认输出\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/Verification Before Completion",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/Verification Before Completion",
+        "last_synced": "2026-08-14T02:36:23.539971Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "before",
+        "completion",
+        "verification"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "mrgoonie/claudekit-skills/when-stuck---problem-solving-dispatch",
+      "spec": {
+        "name": "when-stuck---problem-solving-dispatch",
+        "description": "根据你的问题选择合适的解决技巧\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mrgoonie/claudekit-skills",
+        "source_path": "skills/When Stuck - Problem-Solving Dispatch",
+        "install_url": "https://github.com/mrgoonie/claudekit-skills/tree/main/skills/When Stuck - Problem-Solving Dispatch",
+        "last_synced": "2026-08-14T02:36:23.540191Z",
+        "upstream_commit": "",
+        "repo": "mrgoonie/claudekit-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2049,
+        "last_commit_date": "2026-04-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "dispatch",
+        "problem",
+        "solving",
+        "stuck",
+        "when"
+      ],
+      "score": 38
+    },
+    {
       "skill_id": "op7418/NanoBanana-PPT-Skills/ppt-generator-pro---claude-code-skill",
       "spec": {
         "name": "ppt-generator-pro---claude-code-skill",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-09-30T10:19:29.141138+00:00"
+  "generated_at": "2026-10-01T10:45:36.145814+00:00"
 }
