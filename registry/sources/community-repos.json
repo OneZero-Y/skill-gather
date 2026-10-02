@@ -412,7 +412,7 @@
         "product",
         "skills"
       ],
-      "score": 55
+      "score": 54
     },
     {
       "skill_id": "cypress-io/ai-toolkit",
@@ -599,51 +599,6 @@
       "score": 53
     },
     {
-      "skill_id": "antonbabenko/terraform-skill",
-      "spec": {
-        "name": "terraform-skill",
-        "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
-        "license": "NOASSERTION",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/antonbabenko/terraform-skill",
-        "source_path": "",
-        "install_url": "https://github.com/antonbabenko/terraform-skill/tree/master",
-        "last_synced": "2026-09-12T08:26:29.172129Z",
-        "upstream_commit": "",
-        "repo": "antonbabenko/terraform-skill",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2338,
-        "last_commit_date": "2026-07-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "skill",
-        "terraform"
-      ],
-      "score": 53
-    },
-    {
       "skill_id": "veniceai/skills",
       "spec": {
         "name": "skills",
@@ -733,6 +688,51 @@
         "skills"
       ],
       "score": 52
+    },
+    {
+      "skill_id": "antonbabenko/terraform-skill",
+      "spec": {
+        "name": "terraform-skill",
+        "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
+        "license": "NOASSERTION",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/antonbabenko/terraform-skill",
+        "source_path": "",
+        "install_url": "https://github.com/antonbabenko/terraform-skill/tree/master",
+        "last_synced": "2026-09-12T08:26:29.172129Z",
+        "upstream_commit": "",
+        "repo": "antonbabenko/terraform-skill",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2338,
+        "last_commit_date": "2026-07-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "skill",
+        "terraform"
+      ],
+      "score": 51
     },
     {
       "skill_id": "seb1n/awesome-ai-agent-skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-10-01T10:45:35.939261+00:00"
+  "generated_at": "2026-10-02T10:20:46.664683+00:00"
 }
