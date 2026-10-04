@@ -127405,233 +127405,6 @@
       "score": 43
     },
     {
-      "skill_id": "rookie-ricardo/erduo-skills/ak-rss-digest",
-      "spec": {
-        "name": "ak-rss-digest",
-        "description": "Curate a Chinese reading digest from a fixed bundle of RSS and Atom feeds, with a strong preference for AI agent thinking, frontier AI commentary, deep interviews, and non-boring high-signal essays. Use when Codex needs to pull the latest week's posts by default, or a specific day's posts when explicitly requested, summarize them, score each article on a 10-point scale, and output only the posts scoring above 7 in a concise Chinese daily-brief style.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
-        "source_path": "skills/ak-rss-digest",
-        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/ak-rss-digest",
-        "last_synced": "2026-08-14T02:36:23.573544Z",
-        "upstream_commit": "",
-        "repo": "rookie-ricardo/erduo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 872,
-        "last_commit_date": "2026-04-06",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "digest",
-        "rss"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "rookie-ricardo/erduo-skills/gemini-watermark-remover",
-      "spec": {
-        "name": "gemini-watermark-remover",
-        "description": "Remove the visible Gemini AI watermark from images using reverse alpha blending. Use when asked to strip Gemini watermarks, batch-process Gemini images, or build/modify a CLI script that removes the bottom-right Gemini watermark without HTML or server-side components.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
-        "source_path": "skills/gemini-watermark-remover",
-        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/gemini-watermark-remover",
-        "last_synced": "2026-08-14T02:36:23.573647Z",
-        "upstream_commit": "",
-        "repo": "rookie-ricardo/erduo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 872,
-        "last_commit_date": "2026-04-06",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "gemini",
-        "remover",
-        "watermark"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "rookie-ricardo/erduo-skills/transcript-polisher",
-      "spec": {
-        "name": "transcript-polisher",
-        "description": "将语音转录文本（访谈、演讲、播客、会议）精修为可读性更高的文章段落。当用户提到\"字幕精修\"、\"transcript polish\"、\"润色字幕\"、\"把视频字幕整理成文章\"、\"访谈文字整理\"、处理访谈记录、转录文本优化、语音转文字整理、或者需要将大段对话/演讲文本整理成可读文章时触发。适用于单人演说或多人对谈的转录文本整理，要求保留原句原词、拒绝高度概括。即使用户只是说\"帮我整理一下这段文字\"并附上了明显的口语化文本，也应该触发此技能。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
-        "source_path": "skills/transcript-polisher",
-        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/transcript-polisher",
-        "last_synced": "2026-08-14T02:36:23.573764Z",
-        "upstream_commit": "",
-        "repo": "rookie-ricardo/erduo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 872,
-        "last_commit_date": "2026-04-06",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "polisher",
-        "transcript"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "rookie-ricardo/erduo-skills/translate-polisher",
-      "spec": {
-        "name": "translate-polisher",
-        "description": "高质量文章翻译技能，采用\"分析→初译→审校→终稿\"四步精翻工作流。仅支持中文↔英文、中文↔日文翻译。当用户明确提出\"翻译\"、\"translate\"、\"精翻\"、\"翻訳\"、\"翻译文章\"、\"translate to Chinese/English/Japanese\"、\"改成中文\"、\"改成英文\"、\"改成日文\"、\"翻成中文\"、\"翻成日文\"、\"翻成英文\"、\"英译中\"、\"中译英\"、\"中译日\"、\"日译中\"、\"日本語に翻訳\"、\"中国語に翻訳\"、\"英語に翻訳\"、\"これを翻訳して\"、\"put this in Chinese\"、\"put this in English\"、\"put this in Japanese\"、\"convert to Chinese\"、\"convert to English\"、\"convert to Japanese\"、\"帮我翻一下\"、\"本地化\"、\"localize\"、\"这篇文章翻译一下\"，或给出 URL/文件/正文并明确要求输出目标语言成稿时触发。不用于仅做摘要、解释、理解或整理的请求。若输入是 URL，优先使用 `curl -L` 请求 `r.jina.ai` 抓取正文 Markdown；抓取失败或正文不完整时必须直接停止并要求用户自行提供正文。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
-        "source_path": "skills/translate-polisher",
-        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/translate-polisher",
-        "last_synced": "2026-08-14T02:36:23.573824Z",
-        "upstream_commit": "",
-        "repo": "rookie-ricardo/erduo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 872,
-        "last_commit_date": "2026-04-06",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "polisher",
-        "translate"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "rookie-ricardo/erduo-skills/web-to-markdown",
-      "spec": {
-        "name": "web-to-markdown",
-        "description": "Convert a web URL into cleaned Markdown with deterministic routing. Use when Codex needs to read article-like content from links and should apply source-aware fetch strategies: default to r.jina.ai for general pages (including X/Twitter), use defuddle.md for YouTube links, and use browser-impersonated extraction for WeChat/Zhihu/Feishu pages with Mozilla Readability cleanup.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
-        "source_path": "skills/web-to-markdown",
-        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/web-to-markdown",
-        "last_synced": "2026-08-14T02:36:23.573919Z",
-        "upstream_commit": "",
-        "repo": "rookie-ricardo/erduo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 872,
-        "last_commit_date": "2026-04-06",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "markdown",
-        "web"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-autofix",
       "spec": {
         "name": "qiaomu-opencli-autofix",
@@ -207736,6 +207509,233 @@
       "score": 42
     },
     {
+      "skill_id": "rookie-ricardo/erduo-skills/ak-rss-digest",
+      "spec": {
+        "name": "ak-rss-digest",
+        "description": "Curate a Chinese reading digest from a fixed bundle of RSS and Atom feeds, with a strong preference for AI agent thinking, frontier AI commentary, deep interviews, and non-boring high-signal essays. Use when Codex needs to pull the latest week's posts by default, or a specific day's posts when explicitly requested, summarize them, score each article on a 10-point scale, and output only the posts scoring above 7 in a concise Chinese daily-brief style.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
+        "source_path": "skills/ak-rss-digest",
+        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/ak-rss-digest",
+        "last_synced": "2026-08-14T02:36:23.573544Z",
+        "upstream_commit": "",
+        "repo": "rookie-ricardo/erduo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 872,
+        "last_commit_date": "2026-04-06",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "digest",
+        "rss"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "rookie-ricardo/erduo-skills/gemini-watermark-remover",
+      "spec": {
+        "name": "gemini-watermark-remover",
+        "description": "Remove the visible Gemini AI watermark from images using reverse alpha blending. Use when asked to strip Gemini watermarks, batch-process Gemini images, or build/modify a CLI script that removes the bottom-right Gemini watermark without HTML or server-side components.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
+        "source_path": "skills/gemini-watermark-remover",
+        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/gemini-watermark-remover",
+        "last_synced": "2026-08-14T02:36:23.573647Z",
+        "upstream_commit": "",
+        "repo": "rookie-ricardo/erduo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 872,
+        "last_commit_date": "2026-04-06",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "gemini",
+        "remover",
+        "watermark"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "rookie-ricardo/erduo-skills/transcript-polisher",
+      "spec": {
+        "name": "transcript-polisher",
+        "description": "将语音转录文本（访谈、演讲、播客、会议）精修为可读性更高的文章段落。当用户提到\"字幕精修\"、\"transcript polish\"、\"润色字幕\"、\"把视频字幕整理成文章\"、\"访谈文字整理\"、处理访谈记录、转录文本优化、语音转文字整理、或者需要将大段对话/演讲文本整理成可读文章时触发。适用于单人演说或多人对谈的转录文本整理，要求保留原句原词、拒绝高度概括。即使用户只是说\"帮我整理一下这段文字\"并附上了明显的口语化文本，也应该触发此技能。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
+        "source_path": "skills/transcript-polisher",
+        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/transcript-polisher",
+        "last_synced": "2026-08-14T02:36:23.573764Z",
+        "upstream_commit": "",
+        "repo": "rookie-ricardo/erduo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 872,
+        "last_commit_date": "2026-04-06",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "polisher",
+        "transcript"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "rookie-ricardo/erduo-skills/translate-polisher",
+      "spec": {
+        "name": "translate-polisher",
+        "description": "高质量文章翻译技能，采用\"分析→初译→审校→终稿\"四步精翻工作流。仅支持中文↔英文、中文↔日文翻译。当用户明确提出\"翻译\"、\"translate\"、\"精翻\"、\"翻訳\"、\"翻译文章\"、\"translate to Chinese/English/Japanese\"、\"改成中文\"、\"改成英文\"、\"改成日文\"、\"翻成中文\"、\"翻成日文\"、\"翻成英文\"、\"英译中\"、\"中译英\"、\"中译日\"、\"日译中\"、\"日本語に翻訳\"、\"中国語に翻訳\"、\"英語に翻訳\"、\"これを翻訳して\"、\"put this in Chinese\"、\"put this in English\"、\"put this in Japanese\"、\"convert to Chinese\"、\"convert to English\"、\"convert to Japanese\"、\"帮我翻一下\"、\"本地化\"、\"localize\"、\"这篇文章翻译一下\"，或给出 URL/文件/正文并明确要求输出目标语言成稿时触发。不用于仅做摘要、解释、理解或整理的请求。若输入是 URL，优先使用 `curl -L` 请求 `r.jina.ai` 抓取正文 Markdown；抓取失败或正文不完整时必须直接停止并要求用户自行提供正文。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
+        "source_path": "skills/translate-polisher",
+        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/translate-polisher",
+        "last_synced": "2026-08-14T02:36:23.573824Z",
+        "upstream_commit": "",
+        "repo": "rookie-ricardo/erduo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 872,
+        "last_commit_date": "2026-04-06",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "polisher",
+        "translate"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "rookie-ricardo/erduo-skills/web-to-markdown",
+      "spec": {
+        "name": "web-to-markdown",
+        "description": "Convert a web URL into cleaned Markdown with deterministic routing. Use when Codex needs to read article-like content from links and should apply source-aware fetch strategies: default to r.jina.ai for general pages (including X/Twitter), use defuddle.md for YouTube links, and use browser-impersonated extraction for WeChat/Zhihu/Feishu pages with Mozilla Readability cleanup.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rookie-ricardo/erduo-skills",
+        "source_path": "skills/web-to-markdown",
+        "install_url": "https://github.com/rookie-ricardo/erduo-skills/tree/main/skills/web-to-markdown",
+        "last_synced": "2026-08-14T02:36:23.573919Z",
+        "upstream_commit": "",
+        "repo": "rookie-ricardo/erduo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 872,
+        "last_commit_date": "2026-04-06",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "markdown",
+        "web"
+      ],
+      "score": 41
+    },
+    {
       "skill_id": "mrgoonie/claudekit-skills/claude-code-expert",
       "spec": {
         "name": "claude-code-expert",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-03T09:42:33.250619+00:00"
+  "generated_at": "2026-10-04T10:26:28.226361+00:00"
 }
