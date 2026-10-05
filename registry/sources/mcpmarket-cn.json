@@ -201840,50 +201840,6 @@
       "score": 42
     },
     {
-      "skill_id": "Ceeon/videocut-skills/videocut",
-      "spec": {
-        "name": "videocut",
-        "description": "执行视频剪辑。根据确认的删除任务执行FFmpeg剪辑，循环直到零口误，生成字幕。触发词：执行剪辑、开始剪、确认剪辑\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Ceeon/videocut-skills",
-        "source_path": "skills/videocut:剪辑",
-        "install_url": "https://github.com/Ceeon/videocut-skills/tree/main/skills/videocut:剪辑",
-        "last_synced": "2026-08-14T02:36:23.542412Z",
-        "upstream_commit": "",
-        "repo": "ceeon/videocut-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1515,
-        "last_commit_date": "2026-04-07",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "videocut"
-      ],
-      "score": 42
-    },
-    {
       "skill_id": "samber/cc-skills-golang/golang-code-style",
       "spec": {
         "name": "golang-code-style",
@@ -209100,6 +209056,50 @@
       "category": "other",
       "tags": [],
       "score": 41
+    },
+    {
+      "skill_id": "Ceeon/videocut-skills/videocut",
+      "spec": {
+        "name": "videocut",
+        "description": "执行视频剪辑。根据确认的删除任务执行FFmpeg剪辑，循环直到零口误，生成字幕。触发词：执行剪辑、开始剪、确认剪辑\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Ceeon/videocut-skills",
+        "source_path": "skills/videocut:剪辑",
+        "install_url": "https://github.com/Ceeon/videocut-skills/tree/main/skills/videocut:剪辑",
+        "last_synced": "2026-08-14T02:36:23.542412Z",
+        "upstream_commit": "",
+        "repo": "ceeon/videocut-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1515,
+        "last_commit_date": "2026-04-07",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "videocut"
+      ],
+      "score": 40
     },
     {
       "skill_id": "ZhangHanDong/rust-skills/domain-cli",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-04T10:26:28.226361+00:00"
+  "generated_at": "2026-10-05T11:13:34.098865+00:00"
 }
