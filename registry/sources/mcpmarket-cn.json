@@ -127405,242 +127405,6 @@
       "score": 43
     },
     {
-      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-autofix",
-      "spec": {
-        "name": "qiaomu-opencli-autofix",
-        "description": "Automatically fix broken OpenCLI adapters when commands fail. Load this skill when an opencli command fails — it guides you through diagnosing the failure via OPENCLI_DIAGNOSTIC, patching the adapter, and retrying. Works with any AI agent.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
-        "source_path": "skills/qiaomu-opencli-autofix",
-        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-autofix",
-        "last_synced": "2026-08-14T02:36:23.574008Z",
-        "upstream_commit": "",
-        "repo": "joeseesun/qiaomu-opencli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 850,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "autofix",
-        "opencli",
-        "qiaomu"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-browser",
-      "spec": {
-        "name": "qiaomu-opencli-browser",
-        "description": "Make websites accessible for AI agents. Navigate, click, type, extract, wait — using Chrome with existing login sessions. No LLM API key needed.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
-        "source_path": "skills/qiaomu-opencli-browser",
-        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-browser",
-        "last_synced": "2026-08-14T02:36:23.574108Z",
-        "upstream_commit": "",
-        "repo": "joeseesun/qiaomu-opencli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 850,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "browser",
-        "llm",
-        "opencli",
-        "qiaomu"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-explorer",
-      "spec": {
-        "name": "qiaomu-opencli-explorer",
-        "description": "Use when creating a new OpenCLI adapter from scratch, adding support for a new website or platform, exploring a site's API endpoints via browser DevTools, or when a user asks to automatically generate a CLI for a website (e.g. \"帮我生成 xxx.com 的 cli\"). Covers automated generation, API discovery workflow, authentication strategy selection, TS adapter writing, and testing.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
-        "source_path": "skills/qiaomu-opencli-explorer",
-        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-explorer",
-        "last_synced": "2026-08-14T02:36:23.574174Z",
-        "upstream_commit": "",
-        "repo": "joeseesun/qiaomu-opencli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 850,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "cli",
-        "explorer",
-        "opencli",
-        "qiaomu"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-oneshot",
-      "spec": {
-        "name": "qiaomu-opencli-oneshot",
-        "description": "Use when quickly generating a single OpenCLI command from a specific URL and goal description. 4-step process — open page, capture API, write TS adapter, test. For full site exploration, use opencli-explorer instead.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
-        "source_path": "skills/qiaomu-opencli-oneshot",
-        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-oneshot",
-        "last_synced": "2026-08-14T02:36:23.574294Z",
-        "upstream_commit": "",
-        "repo": "joeseesun/qiaomu-opencli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 850,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "oneshot",
-        "opencli",
-        "qiaomu"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-usage",
-      "spec": {
-        "name": "qiaomu-opencli-usage",
-        "description": "Use when running OpenCLI commands to interact with websites (Bilibili, Twitter, Reddit, Xiaohongshu, etc.), desktop apps (Cursor, Notion), or public APIs (HackerNews, arXiv). Covers installation, command reference, and output formats for 79+ adapters.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
-        "source_path": "skills/qiaomu-opencli-usage",
-        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-usage",
-        "last_synced": "2026-08-14T02:36:23.574383Z",
-        "upstream_commit": "",
-        "repo": "joeseesun/qiaomu-opencli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 850,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "notion",
-        "opencli",
-        "qiaomu",
-        "usage"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "ReScienceLab/opc-skills/add-new-opc-skill",
       "spec": {
         "name": "add-new-opc-skill",
@@ -207465,6 +207229,242 @@
       "score": 42
     },
     {
+      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-autofix",
+      "spec": {
+        "name": "qiaomu-opencli-autofix",
+        "description": "Automatically fix broken OpenCLI adapters when commands fail. Load this skill when an opencli command fails — it guides you through diagnosing the failure via OPENCLI_DIAGNOSTIC, patching the adapter, and retrying. Works with any AI agent.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
+        "source_path": "skills/qiaomu-opencli-autofix",
+        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-autofix",
+        "last_synced": "2026-08-14T02:36:23.574008Z",
+        "upstream_commit": "",
+        "repo": "joeseesun/qiaomu-opencli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 850,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "autofix",
+        "opencli",
+        "qiaomu"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-browser",
+      "spec": {
+        "name": "qiaomu-opencli-browser",
+        "description": "Make websites accessible for AI agents. Navigate, click, type, extract, wait — using Chrome with existing login sessions. No LLM API key needed.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
+        "source_path": "skills/qiaomu-opencli-browser",
+        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-browser",
+        "last_synced": "2026-08-14T02:36:23.574108Z",
+        "upstream_commit": "",
+        "repo": "joeseesun/qiaomu-opencli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 850,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "browser",
+        "llm",
+        "opencli",
+        "qiaomu"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-explorer",
+      "spec": {
+        "name": "qiaomu-opencli-explorer",
+        "description": "Use when creating a new OpenCLI adapter from scratch, adding support for a new website or platform, exploring a site's API endpoints via browser DevTools, or when a user asks to automatically generate a CLI for a website (e.g. \"帮我生成 xxx.com 的 cli\"). Covers automated generation, API discovery workflow, authentication strategy selection, TS adapter writing, and testing.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
+        "source_path": "skills/qiaomu-opencli-explorer",
+        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-explorer",
+        "last_synced": "2026-08-14T02:36:23.574174Z",
+        "upstream_commit": "",
+        "repo": "joeseesun/qiaomu-opencli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 850,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "cli",
+        "explorer",
+        "opencli",
+        "qiaomu"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-oneshot",
+      "spec": {
+        "name": "qiaomu-opencli-oneshot",
+        "description": "Use when quickly generating a single OpenCLI command from a specific URL and goal description. 4-step process — open page, capture API, write TS adapter, test. For full site exploration, use opencli-explorer instead.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
+        "source_path": "skills/qiaomu-opencli-oneshot",
+        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-oneshot",
+        "last_synced": "2026-08-14T02:36:23.574294Z",
+        "upstream_commit": "",
+        "repo": "joeseesun/qiaomu-opencli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 850,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "oneshot",
+        "opencli",
+        "qiaomu"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-usage",
+      "spec": {
+        "name": "qiaomu-opencli-usage",
+        "description": "Use when running OpenCLI commands to interact with websites (Bilibili, Twitter, Reddit, Xiaohongshu, etc.), desktop apps (Cursor, Notion), or public APIs (HackerNews, arXiv). Covers installation, command reference, and output formats for 79+ adapters.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
+        "source_path": "skills/qiaomu-opencli-usage",
+        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-opencli-usage",
+        "last_synced": "2026-08-14T02:36:23.574383Z",
+        "upstream_commit": "",
+        "repo": "joeseesun/qiaomu-opencli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 850,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "notion",
+        "opencli",
+        "qiaomu",
+        "usage"
+      ],
+      "score": 41
+    },
+    {
       "skill_id": "rookie-ricardo/erduo-skills/ak-rss-digest",
       "spec": {
         "name": "ak-rss-digest",
@@ -209648,51 +209648,6 @@
       "tags": [
         "evaluate",
         "rag"
-      ],
-      "score": 40
-    },
-    {
-      "skill_id": "pexoai/pexo-skills/seedance-prompter",
-      "spec": {
-        "name": "seedance-prompter",
-        "description": "Seedance 2.0 的专家提示工程。当用户想要生成具有多模态资产（图像、视频、音频）的视频并需要尽可能最好的提示时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/pexoai/pexo-skills",
-        "source_path": "skills/seedance-prompter",
-        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/seedance-prompter",
-        "last_synced": "2026-08-14T02:36:23.575603Z",
-        "upstream_commit": "",
-        "repo": "pexoai/pexo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 837,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "prompter",
-        "seedance"
       ],
       "score": 40
     },
@@ -215386,189 +215341,6 @@
       "score": 39
     },
     {
-      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-smart-search",
-      "spec": {
-        "name": "qiaomu-smart-search",
-        "description": "基于 opencli 命令的智能搜索路由器。当用户想要搜索、查询、查找或研究信息时，尤其是涉及指定网站、社交媒体、技术资料、新闻、购物、旅游、求职、金融或中文内容时，务必使用此 skill",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
-        "source_path": "skills/qiaomu-smart-search",
-        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-smart-search",
-        "last_synced": "2026-08-14T02:36:23.574456Z",
-        "upstream_commit": "",
-        "repo": "joeseesun/qiaomu-opencli-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 850,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "qiaomu",
-        "search",
-        "smart"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "pexoai/pexo-skills/audiomind",
-      "spec": {
-        "name": "audiomind",
-        "description": "厌倦了同时处理多个音频 API 吗？此技能使您可以通过一个命令访问 TTS、音乐生成、音效和声音克隆。当您想要生成任何音频而无需管理多个 API 密钥时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/pexoai/pexo-skills",
-        "source_path": "skills/AudioMind",
-        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/AudioMind",
-        "last_synced": "2026-08-14T02:36:23.575647Z",
-        "upstream_commit": "",
-        "repo": "pexoai/pexo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 837,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "audiomind"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "pexoai/pexo-skills/kling-studio",
-      "spec": {
-        "name": "kling-studio",
-        "description": "功能齐全的 Kling 3.0 Omni 视频生成技能。涵盖文本到视频、图像到视频、视频编辑（基础模式）、视频参考（特征模式）、多镜头生成和音频同步视频。包括验证的 API 约束规则和提示工程指南。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/pexoai/pexo-skills",
-        "source_path": "skills/kling-studio",
-        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/kling-studio",
-        "last_synced": "2026-08-14T02:36:23.575689Z",
-        "upstream_commit": "",
-        "repo": "pexoai/pexo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 837,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "kling",
-        "studio"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "pexoai/pexo-skills/video-overlay",
-      "spec": {
-        "name": "video-overlay",
-        "description": "为视频添加专业的包装和动态图形。当用户要求向视频添加片头、片尾、字幕、转场、水印或下三分之一时使用。支持多种样式和自定义选项，无需 API 密钥。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/pexoai/pexo-skills",
-        "source_path": "skills/video-overlay",
-        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/video-overlay",
-        "last_synced": "2026-08-14T02:36:23.575738Z",
-        "upstream_commit": "",
-        "repo": "pexoai/pexo-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 837,
-        "last_commit_date": "2026-04-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "overlay",
-        "video"
-      ],
-      "score": 39
-    },
-    {
       "skill_id": "ReScienceLab/opc-skills/banner-creator",
       "spec": {
         "name": "banner-creator",
@@ -217246,6 +217018,51 @@
       "score": 39
     },
     {
+      "skill_id": "pexoai/pexo-skills/seedance-prompter",
+      "spec": {
+        "name": "seedance-prompter",
+        "description": "Seedance 2.0 的专家提示工程。当用户想要生成具有多模态资产（图像、视频、音频）的视频并需要尽可能最好的提示时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/pexoai/pexo-skills",
+        "source_path": "skills/seedance-prompter",
+        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/seedance-prompter",
+        "last_synced": "2026-08-14T02:36:23.575603Z",
+        "upstream_commit": "",
+        "repo": "pexoai/pexo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 837,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "prompter",
+        "seedance"
+      ],
+      "score": 38
+    },
+    {
       "skill_id": "mrgoonie/claudekit-skills/defense-in-depth-validation",
       "spec": {
         "name": "defense-in-depth-validation",
@@ -217660,6 +217477,189 @@
         "skill"
       ],
       "score": 38
+    },
+    {
+      "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-smart-search",
+      "spec": {
+        "name": "qiaomu-smart-search",
+        "description": "基于 opencli 命令的智能搜索路由器。当用户想要搜索、查询、查找或研究信息时，尤其是涉及指定网站、社交媒体、技术资料、新闻、购物、旅游、求职、金融或中文内容时，务必使用此 skill",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/joeseesun/qiaomu-opencli-skills",
+        "source_path": "skills/qiaomu-smart-search",
+        "install_url": "https://github.com/joeseesun/qiaomu-opencli-skills/tree/main/skills/qiaomu-smart-search",
+        "last_synced": "2026-08-14T02:36:23.574456Z",
+        "upstream_commit": "",
+        "repo": "joeseesun/qiaomu-opencli-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 850,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "qiaomu",
+        "search",
+        "smart"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "pexoai/pexo-skills/audiomind",
+      "spec": {
+        "name": "audiomind",
+        "description": "厌倦了同时处理多个音频 API 吗？此技能使您可以通过一个命令访问 TTS、音乐生成、音效和声音克隆。当您想要生成任何音频而无需管理多个 API 密钥时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/pexoai/pexo-skills",
+        "source_path": "skills/AudioMind",
+        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/AudioMind",
+        "last_synced": "2026-08-14T02:36:23.575647Z",
+        "upstream_commit": "",
+        "repo": "pexoai/pexo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 837,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "audiomind"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "pexoai/pexo-skills/kling-studio",
+      "spec": {
+        "name": "kling-studio",
+        "description": "功能齐全的 Kling 3.0 Omni 视频生成技能。涵盖文本到视频、图像到视频、视频编辑（基础模式）、视频参考（特征模式）、多镜头生成和音频同步视频。包括验证的 API 约束规则和提示工程指南。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/pexoai/pexo-skills",
+        "source_path": "skills/kling-studio",
+        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/kling-studio",
+        "last_synced": "2026-08-14T02:36:23.575689Z",
+        "upstream_commit": "",
+        "repo": "pexoai/pexo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 837,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "kling",
+        "studio"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "pexoai/pexo-skills/video-overlay",
+      "spec": {
+        "name": "video-overlay",
+        "description": "为视频添加专业的包装和动态图形。当用户要求向视频添加片头、片尾、字幕、转场、水印或下三分之一时使用。支持多种样式和自定义选项，无需 API 密钥。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/pexoai/pexo-skills",
+        "source_path": "skills/video-overlay",
+        "install_url": "https://github.com/pexoai/pexo-skills/tree/main/skills/video-overlay",
+        "last_synced": "2026-08-14T02:36:23.575738Z",
+        "upstream_commit": "",
+        "repo": "pexoai/pexo-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 837,
+        "last_commit_date": "2026-04-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "overlay",
+        "video"
+      ],
+      "score": 37
     },
     {
       "skill_id": "ZhangHanDong/rust-skills/core-actionbook",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-06T11:03:42.147001+00:00"
+  "generated_at": "2026-10-07T10:53:21.000521+00:00"
 }
