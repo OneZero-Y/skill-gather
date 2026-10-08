@@ -1,18 +1,18 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-10-07T10:53:21.163498Z",
+  "last_synced": "2026-10-08T11:10:32.709904Z",
   "version": "1",
   "categories": {
-    "document": 952,
-    "development": 4118,
-    "devops": 1213,
+    "document": 950,
+    "development": 4114,
+    "devops": 1215,
     "data": 671,
-    "creative": 989,
+    "creative": 986,
     "security": 155,
     "productivity": 1079,
     "education": 185,
-    "other": 1313,
+    "other": 1320,
     "ecommerce": 91,
     "content": 527
   },
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 88,
-    "21-40": 3787,
-    "41-60": 6902,
+    "0-20": 82,
+    "21-40": 3752,
+    "41-60": 6943,
     "61-80": 400,
     "81-100": 116
   },
   "changelog": {
-    "added": 42,
-    "removed": 42,
-    "modified": 74,
+    "added": 52,
+    "removed": 52,
+    "modified": 104,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:181373:1791370380673:dev-expert",
+      "fingerprint": "skillhub:186773:1791457776049:dev-expert",
       "skill_count": 5000,
-      "synced_at": "2026-10-07T10:53:21.163471+00:00",
+      "synced_at": "2026-10-08T11:10:32.709876+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -186,12 +186,12 @@
       "spread": 70
     },
     "coverage_pct": {
-      "has_description": 98.71,
+      "has_description": 98.72,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 79.78
+      "has_stars": 79.83
     },
     "source_health": {
       "skillhub-cn": {
@@ -319,7 +319,7 @@
       "removed_count": 0,
       "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 78,
+      "disambiguated_ids": 81,
       "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
       "largest_group": 0,

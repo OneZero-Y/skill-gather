@@ -92146,229 +92146,6 @@
       "score": 45
     },
     {
-      "skill_id": "rjs/shaping-skills/breadboard-analysis",
-      "spec": {
-        "name": "breadboard-analysis",
-        "description": "Reflect on a breadboard by syncing it to the implementation, then finding and fixing design smells. Works on existing breadboards built with the `/breadboarding` skill.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rjs/shaping-skills",
-        "source_path": "skills/Breadboard Analysis",
-        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/Breadboard Analysis",
-        "last_synced": "2026-08-14T02:36:23.560314Z",
-        "upstream_commit": "",
-        "repo": "rjs/shaping-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1031,
-        "last_commit_date": "2026-04-10",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "analysis",
-        "breadboard"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "rjs/shaping-skills/breadboarding",
-      "spec": {
-        "name": "breadboarding",
-        "description": "Transform a workflow description into affordance tables showing UI and Code affordances with their wiring. Use to map existing systems or design new ones from shaped parts.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rjs/shaping-skills",
-        "source_path": "skills/breadboarding",
-        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/breadboarding",
-        "last_synced": "2026-08-14T02:36:23.560374Z",
-        "upstream_commit": "",
-        "repo": "rjs/shaping-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1031,
-        "last_commit_date": "2026-04-10",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "breadboarding"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "rjs/shaping-skills/framing-doc",
-      "spec": {
-        "name": "framing-doc",
-        "description": "Create a framing document from conversation transcripts. Use when the user has transcripts (VTT, call notes, etc.) and wants to produce a frame that captures the problem worth solving and why it was chosen over alternatives.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rjs/shaping-skills",
-        "source_path": "skills/framing-doc",
-        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/framing-doc",
-        "last_synced": "2026-08-14T02:36:23.560430Z",
-        "upstream_commit": "",
-        "repo": "rjs/shaping-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1031,
-        "last_commit_date": "2026-04-10",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "doc",
-        "framing"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "rjs/shaping-skills/kickoff-doc",
-      "spec": {
-        "name": "kickoff-doc",
-        "description": "Turn a shaped project kickoff transcript into a reference document for the builder. Use when the user has a transcript (VTT, etc.) from a kickoff call and wants to produce a document that captures what was shaped and agreed.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rjs/shaping-skills",
-        "source_path": "skills/kickoff-doc",
-        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/kickoff-doc",
-        "last_synced": "2026-08-14T02:36:23.560499Z",
-        "upstream_commit": "",
-        "repo": "rjs/shaping-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1031,
-        "last_commit_date": "2026-04-10",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "doc",
-        "kickoff"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "rjs/shaping-skills/shaping",
-      "spec": {
-        "name": "shaping",
-        "description": "Use this methodology when collaboratively shaping a solution with the user - iterating on problem definition (requirements) and solution options (shapes).",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/rjs/shaping-skills",
-        "source_path": "skills/shaping",
-        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/shaping",
-        "last_synced": "2026-08-14T02:36:23.560564Z",
-        "upstream_commit": "",
-        "repo": "rjs/shaping-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1031,
-        "last_commit_date": "2026-04-10",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "shaping"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "axtonliu/axton-obsidian-visual-skills/excalidraw-diagram",
       "spec": {
         "name": "excalidraw-diagram",
@@ -119643,6 +119420,229 @@
         "web"
       ],
       "score": 44
+    },
+    {
+      "skill_id": "rjs/shaping-skills/breadboard-analysis",
+      "spec": {
+        "name": "breadboard-analysis",
+        "description": "Reflect on a breadboard by syncing it to the implementation, then finding and fixing design smells. Works on existing breadboards built with the `/breadboarding` skill.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rjs/shaping-skills",
+        "source_path": "skills/Breadboard Analysis",
+        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/Breadboard Analysis",
+        "last_synced": "2026-08-14T02:36:23.560314Z",
+        "upstream_commit": "",
+        "repo": "rjs/shaping-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1031,
+        "last_commit_date": "2026-04-10",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "analysis",
+        "breadboard"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "rjs/shaping-skills/breadboarding",
+      "spec": {
+        "name": "breadboarding",
+        "description": "Transform a workflow description into affordance tables showing UI and Code affordances with their wiring. Use to map existing systems or design new ones from shaped parts.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rjs/shaping-skills",
+        "source_path": "skills/breadboarding",
+        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/breadboarding",
+        "last_synced": "2026-08-14T02:36:23.560374Z",
+        "upstream_commit": "",
+        "repo": "rjs/shaping-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1031,
+        "last_commit_date": "2026-04-10",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "breadboarding"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "rjs/shaping-skills/framing-doc",
+      "spec": {
+        "name": "framing-doc",
+        "description": "Create a framing document from conversation transcripts. Use when the user has transcripts (VTT, call notes, etc.) and wants to produce a frame that captures the problem worth solving and why it was chosen over alternatives.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rjs/shaping-skills",
+        "source_path": "skills/framing-doc",
+        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/framing-doc",
+        "last_synced": "2026-08-14T02:36:23.560430Z",
+        "upstream_commit": "",
+        "repo": "rjs/shaping-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1031,
+        "last_commit_date": "2026-04-10",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "doc",
+        "framing"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "rjs/shaping-skills/kickoff-doc",
+      "spec": {
+        "name": "kickoff-doc",
+        "description": "Turn a shaped project kickoff transcript into a reference document for the builder. Use when the user has a transcript (VTT, etc.) from a kickoff call and wants to produce a document that captures what was shaped and agreed.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rjs/shaping-skills",
+        "source_path": "skills/kickoff-doc",
+        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/kickoff-doc",
+        "last_synced": "2026-08-14T02:36:23.560499Z",
+        "upstream_commit": "",
+        "repo": "rjs/shaping-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1031,
+        "last_commit_date": "2026-04-10",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "doc",
+        "kickoff"
+      ],
+      "score": 43
+    },
+    {
+      "skill_id": "rjs/shaping-skills/shaping",
+      "spec": {
+        "name": "shaping",
+        "description": "Use this methodology when collaboratively shaping a solution with the user - iterating on problem definition (requirements) and solution options (shapes).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/rjs/shaping-skills",
+        "source_path": "skills/shaping",
+        "install_url": "https://github.com/rjs/shaping-skills/tree/main/skills/shaping",
+        "last_synced": "2026-08-14T02:36:23.560564Z",
+        "upstream_commit": "",
+        "repo": "rjs/shaping-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1031,
+        "last_commit_date": "2026-04-10",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "shaping"
+      ],
+      "score": 43
     },
     {
       "skill_id": "ZhangHanDong/rust-skills/domain-cloud-native",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-07T10:53:21.000521+00:00"
+  "generated_at": "2026-10-08T11:10:32.528110+00:00"
 }
