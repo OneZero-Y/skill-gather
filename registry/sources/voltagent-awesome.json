@@ -91,7 +91,7 @@
       "tags": [
         "coderabbitai/skills"
       ],
-      "score": 60
+      "score": 58
     },
     {
       "skill_id": "ibelick/ui-skills",
@@ -29696,5 +29696,5 @@
     }
   ],
   "total": 646,
-  "generated_at": "2026-10-08T11:10:32.311270+00:00"
+  "generated_at": "2026-10-09T11:10:05.779623+00:00"
 }

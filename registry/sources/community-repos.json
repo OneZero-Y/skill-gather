@@ -826,7 +826,7 @@
         "api",
         "skills"
       ],
-      "score": 49
+      "score": 47
     },
     {
       "skill_id": "TerminalSkills/skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-10-08T11:10:32.332454+00:00"
+  "generated_at": "2026-10-09T11:10:05.796149+00:00"
 }
