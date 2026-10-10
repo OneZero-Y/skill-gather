@@ -415,50 +415,6 @@
       "score": 54
     },
     {
-      "skill_id": "cypress-io/ai-toolkit",
-      "spec": {
-        "name": "ai-toolkit",
-        "description": "Fast, flexible, and open tooling for building intelligent workflows with Cypress.",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/cypress-io/ai-toolkit",
-        "source_path": "",
-        "install_url": "https://github.com/cypress-io/ai-toolkit/tree/main",
-        "last_synced": "2026-09-12T08:26:29.172195Z",
-        "upstream_commit": "",
-        "repo": "cypress-io/ai-toolkit",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 40,
-        "last_commit_date": "2026-09-09",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "toolkit"
-      ],
-      "score": 54
-    },
-    {
       "skill_id": "AvdLee/SwiftUI-Agent-Skill",
       "spec": {
         "name": "swiftui-agent-skill",
@@ -503,6 +459,50 @@
         "swiftui"
       ],
       "score": 54
+    },
+    {
+      "skill_id": "cypress-io/ai-toolkit",
+      "spec": {
+        "name": "ai-toolkit",
+        "description": "Fast, flexible, and open tooling for building intelligent workflows with Cypress.",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/cypress-io/ai-toolkit",
+        "source_path": "",
+        "install_url": "https://github.com/cypress-io/ai-toolkit/tree/main",
+        "last_synced": "2026-09-12T08:26:29.172195Z",
+        "upstream_commit": "",
+        "repo": "cypress-io/ai-toolkit",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 40,
+        "last_commit_date": "2026-09-09",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "toolkit"
+      ],
+      "score": 53
     },
     {
       "skill_id": "rudrankriyam/app-store-connect-cli-skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-10-09T11:10:05.796149+00:00"
+  "generated_at": "2026-10-10T10:27:10.045564+00:00"
 }
