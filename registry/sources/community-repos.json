@@ -321,54 +321,6 @@
       "score": 55
     },
     {
-      "skill_id": "gamedev-skills/awesome-gamedev-agent-skills",
-      "spec": {
-        "name": "awesome-gamedev-agent-skills",
-        "description": "73 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.",
-        "license": "Apache-2.0",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
-        "source_path": "",
-        "install_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main",
-        "last_synced": "2026-09-12T08:26:29.173466Z",
-        "upstream_commit": "",
-        "repo": "gamedev-skills/awesome-gamedev-agent-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 962,
-        "last_commit_date": "2026-09-10",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "agent",
-        "awesome",
-        "cli",
-        "gamedev",
-        "skills"
-      ],
-      "score": 55
-    },
-    {
       "skill_id": "deanpeters/Product-Manager-Skills",
       "spec": {
         "name": "product-manager-skills",
@@ -459,6 +411,54 @@
         "swiftui"
       ],
       "score": 54
+    },
+    {
+      "skill_id": "gamedev-skills/awesome-gamedev-agent-skills",
+      "spec": {
+        "name": "awesome-gamedev-agent-skills",
+        "description": "73 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.",
+        "license": "Apache-2.0",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills",
+        "source_path": "",
+        "install_url": "https://github.com/gamedev-skills/awesome-gamedev-agent-skills/tree/main",
+        "last_synced": "2026-09-12T08:26:29.173466Z",
+        "upstream_commit": "",
+        "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 962,
+        "last_commit_date": "2026-09-10",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "agent",
+        "awesome",
+        "cli",
+        "gamedev",
+        "skills"
+      ],
+      "score": 53
     },
     {
       "skill_id": "cypress-io/ai-toolkit",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-10-10T10:27:10.045564+00:00"
+  "generated_at": "2026-10-11T10:38:59.949419+00:00"
 }
