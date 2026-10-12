@@ -48822,97 +48822,6 @@
       "score": 49
     },
     {
-      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/latent-briefing",
-      "spec": {
-        "name": "latent-briefing",
-        "description": "This skill should be used when the user asks to \"share memory between agents\", \"KV cache compaction for multi-agent\", \"orchestrator worker context\", \"latent briefing\", \"reduce worker tokens\", \"cross-agent memory without summarization\", or discusses Attention Matching compaction, recursive language models with workers, or token explosion in hierarchical agents.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-        "source_path": "skills/latent-briefing",
-        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/latent-briefing",
-        "last_synced": "2026-08-14T02:36:23.329857Z",
-        "upstream_commit": "",
-        "repo": "muratcankoylan/agent-skills-for-context-engineering",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 15407,
-        "last_commit_date": "2026-04-14",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "briefing",
-        "latent"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/reasoning-trace-optimizer",
-      "spec": {
-        "name": "reasoning-trace-optimizer",
-        "description": "通过分析推理轨迹来调试和优化 AI 代理。在“debug agent（调试代理）”、“optimize prompt（优化提示）”、“analyze reasoning（分析推理）”、“why did the agent fail（为什么代理失败）”、“improve agent performance（提高代理性能）”上激活，或者在诊断代理失败和上下文退化时激活。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-        "source_path": "skills/reasoning-trace-optimizer",
-        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/reasoning-trace-optimizer",
-        "last_synced": "2026-08-14T02:36:23.329938Z",
-        "upstream_commit": "",
-        "repo": "muratcankoylan/agent-skills-for-context-engineering",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 15407,
-        "last_commit_date": "2026-04-14",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "optimizer",
-        "reasoning",
-        "trace"
-      ],
-      "score": 49
-    },
-    {
       "skill_id": "alirezarezvani/claude-skills/a11y-audit",
       "spec": {
         "name": "a11y-audit",
@@ -55711,6 +55620,97 @@
         "unit"
       ],
       "score": 48
+    },
+    {
+      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/latent-briefing",
+      "spec": {
+        "name": "latent-briefing",
+        "description": "This skill should be used when the user asks to \"share memory between agents\", \"KV cache compaction for multi-agent\", \"orchestrator worker context\", \"latent briefing\", \"reduce worker tokens\", \"cross-agent memory without summarization\", or discusses Attention Matching compaction, recursive language models with workers, or token explosion in hierarchical agents.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "source_path": "skills/latent-briefing",
+        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/latent-briefing",
+        "last_synced": "2026-08-14T02:36:23.329857Z",
+        "upstream_commit": "",
+        "repo": "muratcankoylan/agent-skills-for-context-engineering",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 15407,
+        "last_commit_date": "2026-04-14",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "briefing",
+        "latent"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/reasoning-trace-optimizer",
+      "spec": {
+        "name": "reasoning-trace-optimizer",
+        "description": "通过分析推理轨迹来调试和优化 AI 代理。在“debug agent（调试代理）”、“optimize prompt（优化提示）”、“analyze reasoning（分析推理）”、“why did the agent fail（为什么代理失败）”、“improve agent performance（提高代理性能）”上激活，或者在诊断代理失败和上下文退化时激活。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "source_path": "skills/reasoning-trace-optimizer",
+        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/reasoning-trace-optimizer",
+        "last_synced": "2026-08-14T02:36:23.329938Z",
+        "upstream_commit": "",
+        "repo": "muratcankoylan/agent-skills-for-context-engineering",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 15407,
+        "last_commit_date": "2026-04-14",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "optimizer",
+        "reasoning",
+        "trace"
+      ],
+      "score": 47
     },
     {
       "skill_id": "Jeffallan/claude-skills/kotlin-specialist",
@@ -113519,188 +113519,6 @@
       "score": 45
     },
     {
-      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/book-sft-pipeline",
-      "spec": {
-        "name": "book-sft-pipeline",
-        "description": "当用户要求“在书籍上进行微调”、“创建 SFT 数据集”、“训练风格模型”、“提取 ePub 文本”，或者提到风格迁移、LoRA 训练、书籍分割或作者声音复制时，应使用此技能。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-        "source_path": "skills/book-sft-pipeline",
-        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/book-sft-pipeline",
-        "last_synced": "2026-08-14T02:36:23.329672Z",
-        "upstream_commit": "",
-        "repo": "muratcankoylan/agent-skills-for-context-engineering",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 15407,
-        "last_commit_date": "2026-04-14",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "book",
-        "pipeline",
-        "sft"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/context-engineering-collection",
-      "spec": {
-        "name": "context-engineering-collection",
-        "description": "用于上下文工程、多代理架构和生产代理系统的 Agent Skills 的综合集合。在构建、优化或调试需要有效上下文管理的代理系统时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-        "source_path": "skills/context-engineering-collection",
-        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-engineering-collection",
-        "last_synced": "2026-08-14T02:36:23.329764Z",
-        "upstream_commit": "",
-        "repo": "muratcankoylan/agent-skills-for-context-engineering",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 15407,
-        "last_commit_date": "2026-04-14",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "collection",
-        "context",
-        "engineering"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/digital-brain",
-      "spec": {
-        "name": "digital-brain",
-        "description": "此技能应该在用户要求“写帖子”、“检查我的声音”、“查找联系人”、“准备会议”、“每周回顾”、“追踪目标”，或者提到个人品牌、内容创作、人脉管理或声音一致性时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-        "source_path": "skills/digital-brain",
-        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/digital-brain",
-        "last_synced": "2026-08-14T02:36:23.329813Z",
-        "upstream_commit": "",
-        "repo": "muratcankoylan/agent-skills-for-context-engineering",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 15407,
-        "last_commit_date": "2026-04-14",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "brain",
-        "digital"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/skill-template",
-      "spec": {
-        "name": "skill-template",
-        "description": "用于创建新的 Agent Skills 的模板，用于上下文工程。在向集合中添加新技能时，请使用此模板。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-        "source_path": "skills/skill-template",
-        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/skill-template",
-        "last_synced": "2026-08-14T02:36:23.329997Z",
-        "upstream_commit": "",
-        "repo": "muratcankoylan/agent-skills-for-context-engineering",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 15407,
-        "last_commit_date": "2026-04-14",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "skill",
-        "template"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "alirezarezvani/claude-skills/focused-fix",
       "spec": {
         "name": "focused-fix",
@@ -117173,6 +116991,188 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/book-sft-pipeline",
+      "spec": {
+        "name": "book-sft-pipeline",
+        "description": "当用户要求“在书籍上进行微调”、“创建 SFT 数据集”、“训练风格模型”、“提取 ePub 文本”，或者提到风格迁移、LoRA 训练、书籍分割或作者声音复制时，应使用此技能。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "source_path": "skills/book-sft-pipeline",
+        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/book-sft-pipeline",
+        "last_synced": "2026-08-14T02:36:23.329672Z",
+        "upstream_commit": "",
+        "repo": "muratcankoylan/agent-skills-for-context-engineering",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 15407,
+        "last_commit_date": "2026-04-14",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "book",
+        "pipeline",
+        "sft"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/context-engineering-collection",
+      "spec": {
+        "name": "context-engineering-collection",
+        "description": "用于上下文工程、多代理架构和生产代理系统的 Agent Skills 的综合集合。在构建、优化或调试需要有效上下文管理的代理系统时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "source_path": "skills/context-engineering-collection",
+        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/context-engineering-collection",
+        "last_synced": "2026-08-14T02:36:23.329764Z",
+        "upstream_commit": "",
+        "repo": "muratcankoylan/agent-skills-for-context-engineering",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 15407,
+        "last_commit_date": "2026-04-14",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "collection",
+        "context",
+        "engineering"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/digital-brain",
+      "spec": {
+        "name": "digital-brain",
+        "description": "此技能应该在用户要求“写帖子”、“检查我的声音”、“查找联系人”、“准备会议”、“每周回顾”、“追踪目标”，或者提到个人品牌、内容创作、人脉管理或声音一致性时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "source_path": "skills/digital-brain",
+        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/digital-brain",
+        "last_synced": "2026-08-14T02:36:23.329813Z",
+        "upstream_commit": "",
+        "repo": "muratcankoylan/agent-skills-for-context-engineering",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 15407,
+        "last_commit_date": "2026-04-14",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "brain",
+        "digital"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/skill-template",
+      "spec": {
+        "name": "skill-template",
+        "description": "用于创建新的 Agent Skills 的模板，用于上下文工程。在向集合中添加新技能时，请使用此模板。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "source_path": "skills/skill-template",
+        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/skill-template",
+        "last_synced": "2026-08-14T02:36:23.329997Z",
+        "upstream_commit": "",
+        "repo": "muratcankoylan/agent-skills-for-context-engineering",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 15407,
+        "last_commit_date": "2026-04-14",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "skill",
+        "template"
+      ],
+      "score": 44
     },
     {
       "skill_id": "mrgoonie/claudekit-skills/aesthetic",
@@ -206152,52 +206152,6 @@
       "score": 42
     },
     {
-      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/comprehensive-research-agent",
-      "spec": {
-        "name": "comprehensive-research-agent",
-        "description": "确保在涉及多个工具调用的研究任务中，进行彻底的验证、错误恢复和透明的推理。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
-        "source_path": "skills/comprehensive-research-agent",
-        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/comprehensive-research-agent",
-        "last_synced": "2026-08-14T02:36:23.329725Z",
-        "upstream_commit": "",
-        "repo": "muratcankoylan/agent-skills-for-context-engineering",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 15407,
-        "last_commit_date": "2026-04-14",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "agent",
-        "comprehensive",
-        "research"
-      ],
-      "score": 42
-    },
-    {
       "skill_id": "alirezarezvani/claude-skills/financial-health",
       "spec": {
         "name": "financial-health",
@@ -207227,6 +207181,52 @@
         "stripe"
       ],
       "score": 42
+    },
+    {
+      "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/comprehensive-research-agent",
+      "spec": {
+        "name": "comprehensive-research-agent",
+        "description": "确保在涉及多个工具调用的研究任务中，进行彻底的验证、错误恢复和透明的推理。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering",
+        "source_path": "skills/comprehensive-research-agent",
+        "install_url": "https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering/tree/main/skills/comprehensive-research-agent",
+        "last_synced": "2026-08-14T02:36:23.329725Z",
+        "upstream_commit": "",
+        "repo": "muratcankoylan/agent-skills-for-context-engineering",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 15407,
+        "last_commit_date": "2026-04-14",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "agent",
+        "comprehensive",
+        "research"
+      ],
+      "score": 41
     },
     {
       "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-opencli-autofix",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-11T10:39:00.073338+00:00"
+  "generated_at": "2026-10-12T11:42:38.836453+00:00"
 }
