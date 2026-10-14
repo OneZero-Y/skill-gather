@@ -125608,1573 +125608,6 @@
       "score": 43
     },
     {
-      "skill_id": "Aaronontheweb/dotnet-skills/akka-hosting-actor-patterns",
-      "spec": {
-        "name": "akka-hosting-actor-patterns",
-        "description": "Patterns for building entity actors with Akka.Hosting - GenericChildPerEntityParent, message extractors, cluster sharding abstraction, akka-reminders, and ITimeProvider. Supports both local testing and clustered production modes.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/akka-hosting-actor-patterns",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-hosting-actor-patterns",
-        "last_synced": "2026-08-14T02:36:23.570526Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "actor",
-        "akka",
-        "hosting",
-        "patterns"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-aspire-configuration",
-      "spec": {
-        "name": "akka-net-aspire-configuration",
-        "description": "Configure Akka.NET with .NET Aspire for local development and production deployments. Covers actor system setup, clustering, persistence, Akka.Management integration, and Aspire orchestration patterns.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/akka-net-aspire-configuration",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-aspire-configuration",
-        "last_synced": "2026-08-14T02:36:23.570601Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "akka",
-        "aspire",
-        "configuration",
-        "net"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-best-practices",
-      "spec": {
-        "name": "akka-net-best-practices",
-        "description": "Critical Akka.NET best practices including EventStream vs DistributedPubSub, supervision strategies, error handling, Props vs DependencyResolver, work distribution patterns, and cluster/local mode abstractions for testability.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/akka-net-best-practices",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-best-practices",
-        "last_synced": "2026-08-14T02:36:23.570667Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "akka",
-        "best",
-        "net",
-        "practices"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-management",
-      "spec": {
-        "name": "akka-net-management",
-        "description": "Akka.Management for cluster bootstrapping, service discovery (Kubernetes, Azure, Config), health checks, and dynamic cluster formation without static seed nodes.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/akka-net-management",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-management",
-        "last_synced": "2026-08-14T02:36:23.570738Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "akka",
-        "azure",
-        "kubernetes",
-        "management",
-        "net"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-testing-patterns",
-      "spec": {
-        "name": "akka-net-testing-patterns",
-        "description": "Write unit and integration tests for Akka.NET actors using modern Akka.Hosting.TestKit patterns. Covers dependency injection, TestProbes, persistence testing, and actor interaction verification. Includes guidance on when to use traditional TestKit.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/akka-net-testing-patterns",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-testing-patterns",
-        "last_synced": "2026-08-14T02:36:23.570843Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "akka",
-        "net",
-        "patterns",
-        "testing"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/api-design",
-      "spec": {
-        "name": "api-design",
-        "description": "Design stable, compatible public APIs using extend-only design principles. Manage API compatibility, wire compatibility, and versioning for NuGet packages and distributed systems.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/api-design",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/api-design",
-        "last_synced": "2026-08-14T02:36:23.570920Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "design"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/aspire-configuration",
-      "spec": {
-        "name": "aspire-configuration",
-        "description": "Configure Aspire AppHost to emit explicit app config via environment variables; keep app code free of Aspire clients and service discovery.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/aspire-configuration",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/aspire-configuration",
-        "last_synced": "2026-08-14T02:36:23.570979Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "aspire",
-        "configuration"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/aspire-integration-testing",
-      "spec": {
-        "name": "aspire-integration-testing",
-        "description": "Write integration tests using .NET Aspire's testing facilities with xUnit. Covers test fixtures, distributed application setup, endpoint discovery, and patterns for testing ASP.NET Core apps with real dependencies.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/aspire-integration-testing",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/aspire-integration-testing",
-        "last_synced": "2026-08-14T02:36:23.571054Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "aspire",
-        "integration",
-        "testing"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/aspire-service-defaults",
-      "spec": {
-        "name": "aspire-service-defaults",
-        "description": "Create a shared ServiceDefaults project for Aspire applications. Centralizes OpenTelemetry, health checks, resilience, and service discovery configuration across all services.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/aspire-service-defaults",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/aspire-service-defaults",
-        "last_synced": "2026-08-14T02:36:23.571131Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "aspire",
-        "defaults",
-        "service"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/crap-analysis",
-      "spec": {
-        "name": "crap-analysis",
-        "description": "Analyze code coverage and CRAP (Change Risk Anti-Patterns) scores to identify high-risk code. Use OpenCover format with ReportGenerator for Risk Hotspots showing cyclomatic complexity and untested code paths.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/crap-analysis",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/crap-analysis",
-        "last_synced": "2026-08-14T02:36:23.571197Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "analysis",
-        "crap"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/csharp-concurrency-patterns",
-      "spec": {
-        "name": "csharp-concurrency-patterns",
-        "description": "Choosing the right concurrency abstraction in .NET - from async/await for I/O to Channels for producer/consumer to Akka.NET for stateful entity management. Avoid locks and manual synchronization unless absolutely necessary.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/csharp-concurrency-patterns",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/csharp-concurrency-patterns",
-        "last_synced": "2026-08-14T02:36:23.571264Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "productivity",
-      "tags": [
-        "concurrency",
-        "csharp",
-        "patterns"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/database-performance",
-      "spec": {
-        "name": "database-performance",
-        "description": "Database access patterns for performance. Separate read/write models, avoid N+1 queries, use AsNoTracking, apply row limits, and never do application-side joins. Works with EF Core and Dapper.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/database-performance",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/database-performance",
-        "last_synced": "2026-08-14T02:36:23.571335Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "database",
-        "performance"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/dependency-injection-patterns",
-      "spec": {
-        "name": "dependency-injection-patterns",
-        "description": "Organize DI registrations using IServiceCollection extension methods. Group related services into composable Add* methods for clean Program.cs and reusable configuration in tests.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/dependency-injection-patterns",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dependency-injection-patterns",
-        "last_synced": "2026-08-14T02:36:23.571398Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "dependency",
-        "injection",
-        "patterns"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-devcert-trust",
-      "spec": {
-        "name": "dotnet-devcert-trust",
-        "description": "Diagnose and fix .NET HTTPS dev certificate trust issues on Linux. Covers the full certificate lifecycle from generation to system CA bundle inclusion, with distro-specific guidance for Ubuntu, Fedora, Arch, and WSL2.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/dotnet-devcert-trust",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-devcert-trust",
-        "last_synced": "2026-08-14T02:36:23.571462Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "devcert",
-        "dotnet",
-        "trust"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-local-tools",
-      "spec": {
-        "name": "dotnet-local-tools",
-        "description": "Managing local .NET tools with dotnet-tools.json for consistent tooling across development environments and CI/CD pipelines.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/dotnet-local-tools",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-local-tools",
-        "last_synced": "2026-08-14T02:36:23.571529Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "dotnet",
-        "local",
-        "tools"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-project-structure",
-      "spec": {
-        "name": "dotnet-project-structure",
-        "description": "Modern .NET project structure including .slnx solution format, Directory.Build.props, central package management, SourceLink, version management with RELEASE_NOTES.md, and SDK pinning with global.json.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/dotnet-project-structure",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-project-structure",
-        "last_synced": "2026-08-14T02:36:23.571587Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "dotnet",
-        "project",
-        "sdk",
-        "structure"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-slopwatch",
-      "spec": {
-        "name": "dotnet-slopwatch",
-        "description": "Use Slopwatch to detect LLM reward hacking in .NET code changes. Run after every code modification to catch disabled tests, suppressed warnings, empty catch blocks, and other shortcuts that mask real problems.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/dotnet-slopwatch",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-slopwatch",
-        "last_synced": "2026-08-14T02:36:23.571649Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "dotnet",
-        "llm",
-        "slopwatch"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/efcore-patterns",
-      "spec": {
-        "name": "efcore-patterns",
-        "description": "Entity Framework Core best practices including NoTracking by default, query splitting for navigation collections, migration management, dedicated migration services, and common pitfalls to avoid.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/efcore-patterns",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/efcore-patterns",
-        "last_synced": "2026-08-14T02:36:23.571714Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "efcore",
-        "patterns"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/ilspy-decompile",
-      "spec": {
-        "name": "ilspy-decompile",
-        "description": "Understand implementation details of .NET code by decompiling assemblies. Use when you want to see how a .NET API works internally, inspect NuGet package source, view framework implementation, or understand compiled .NET binaries.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/ilspy-decompile",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/ilspy-decompile",
-        "last_synced": "2026-08-14T02:36:23.571836Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "decompile",
-        "ilspy"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/mailpit-integration",
-      "spec": {
-        "name": "mailpit-integration",
-        "description": "Test email sending locally using Mailpit with .NET Aspire. Captures all outgoing emails without sending them. View rendered HTML, inspect headers, and verify delivery in integration tests.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/mailpit-integration",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/mailpit-integration",
-        "last_synced": "2026-08-14T02:36:23.571905Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "integration",
-        "mailpit"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/marketplace-publishing",
-      "spec": {
-        "name": "marketplace-publishing",
-        "description": "Workflow for publishing skills and agents to the dotnet-skills Claude Code marketplace. Covers adding new content, updating plugin.json, validation, and release tagging.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/marketplace-publishing",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/marketplace-publishing",
-        "last_synced": "2026-08-14T02:36:23.571970Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "content",
-      "tags": [
-        "marketplace",
-        "publishing"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/microsoft-extensions-configuration",
-      "spec": {
-        "name": "microsoft-extensions-configuration",
-        "description": "Microsoft.Extensions.Options patterns including IValidateOptions, strongly-typed settings, validation on startup, and the Options pattern for clean configuration management.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/microsoft-extensions-configuration",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/microsoft-extensions-configuration",
-        "last_synced": "2026-08-14T02:36:23.572047Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "configuration",
-        "extensions",
-        "microsoft"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/mjml-email-templates",
-      "spec": {
-        "name": "mjml-email-templates",
-        "description": "Build responsive email templates using MJML markup language. Compiles to cross-client HTML that works in Outlook, Gmail, and Apple Mail. Includes template renderer, layout patterns, and variable substitution.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/mjml-email-templates",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/mjml-email-templates",
-        "last_synced": "2026-08-14T02:36:23.572113Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "email",
-        "mjml",
-        "templates"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/modern-csharp-coding-standards",
-      "spec": {
-        "name": "modern-csharp-coding-standards",
-        "description": "Write modern, high-performance C# code using records, pattern matching, value objects, async/await, Span<T>/Memory<T>, and best-practice API design patterns. Emphasizes functional-style programming with C# 12+ features.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/modern-csharp-coding-standards",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/modern-csharp-coding-standards",
-        "last_synced": "2026-08-14T02:36:23.572180Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "coding",
-        "csharp",
-        "modern",
-        "standards"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/opentelemetry-net-instrumentation",
-      "spec": {
-        "name": "opentelemetry-net-instrumentation",
-        "description": "Provides guidance for implementing OpenTelemetry instrumentation in .NET codebases, covering tracing (Activities/Spans), metrics, naming conventions, error handling, performance, and API design best practices.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/OpenTelemetry-NET-Instrumentation",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/OpenTelemetry-NET-Instrumentation",
-        "last_synced": "2026-08-14T02:36:23.572250Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "instrumentation",
-        "net",
-        "opentelemetry"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/package-management",
-      "spec": {
-        "name": "package-management",
-        "description": "Manage NuGet packages using Central Package Management (CPM) and dotnet CLI commands. Never edit XML directly - use dotnet add/remove/list commands. Use shared version variables for related packages.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/package-management",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/package-management",
-        "last_synced": "2026-08-14T02:36:23.572322Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "management",
-        "package"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/playwright-blazor-testing",
-      "spec": {
-        "name": "playwright-blazor-testing",
-        "description": "Write UI tests for Blazor applications (Server or WebAssembly) using Playwright. Covers navigation, interaction, authentication, selectors, and common Blazor-specific patterns.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/playwright-blazor-testing",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/playwright-blazor-testing",
-        "last_synced": "2026-08-14T02:36:23.572390Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "blazor",
-        "playwright",
-        "testing"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/playwright-ci-caching",
-      "spec": {
-        "name": "playwright-ci-caching",
-        "description": "Cache Playwright browser binaries in CI/CD pipelines (GitHub Actions, Azure DevOps) to avoid 1-2 minute download overhead on every build.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/playwright-ci-caching",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/playwright-ci-caching",
-        "last_synced": "2026-08-14T02:36:23.572449Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "azure",
-        "caching",
-        "github",
-        "playwright"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/serialization",
-      "spec": {
-        "name": "serialization",
-        "description": "Choose the right serialization format for .NET applications. Prefer schema-based formats (Protobuf, MessagePack) over reflection-based (Newtonsoft.Json). Use System.Text.Json with AOT source generators for JSON scenarios.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/serialization",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/serialization",
-        "last_synced": "2026-08-14T02:36:23.572505Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "serialization"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/skills-index-snippets",
-      "spec": {
-        "name": "skills-index-snippets",
-        "description": "Create and maintain AGENTS.md / CLAUDE.md snippet indexes that route tasks to the correct dotnet-skills skills and agents (including compressed Vercel-style indexes).",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/skills-index-snippets",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/skills-index-snippets",
-        "last_synced": "2026-08-14T02:36:23.572575Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "index",
-        "skills",
-        "snippets"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/snapshot-testing",
-      "spec": {
-        "name": "snapshot-testing",
-        "description": "Use Verify for snapshot testing in .NET. Approve API surfaces, HTTP responses, rendered emails, and serialized outputs. Detect unintended changes through human-reviewed baseline files.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/snapshot-testing",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/snapshot-testing",
-        "last_synced": "2026-08-14T02:36:23.572636Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "snapshot",
-        "testing"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/testcontainers-integration-tests",
-      "spec": {
-        "name": "testcontainers-integration-tests",
-        "description": "Write integration tests using TestContainers for .NET with xUnit. Covers infrastructure testing with real databases, message queues, and caches in Docker containers instead of mocks.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/testcontainers-integration-tests",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/testcontainers-integration-tests",
-        "last_synced": "2026-08-14T02:36:23.572699Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "docker",
-        "integration",
-        "testcontainers",
-        "tests"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/type-design-performance",
-      "spec": {
-        "name": "type-design-performance",
-        "description": "Design .NET types for performance. Seal classes, use readonly structs, prefer static pure functions, avoid premature enumeration, and choose the right collection types.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/type-design-performance",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/type-design-performance",
-        "last_synced": "2026-08-14T02:36:23.572766Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "design",
-        "performance",
-        "type"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "Aaronontheweb/dotnet-skills/verify-email-snapshots",
-      "spec": {
-        "name": "verify-email-snapshots",
-        "description": "Snapshot test email templates using Verify to catch regressions. Validates rendered HTML output matches approved baseline. Works with MJML templates and any email renderer.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
-        "source_path": "skills/verify-email-snapshots",
-        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/verify-email-snapshots",
-        "last_synced": "2026-08-14T02:36:23.572829Z",
-        "upstream_commit": "",
-        "repo": "aaronontheweb/dotnet-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 899,
-        "last_commit_date": "2026-04-16",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "email",
-        "snapshots",
-        "verify"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "P4nda0s/reverse-skills/rev-dex-dumper",
       "spec": {
         "name": "rev-dex-dumper",
@@ -207183,6 +205616,1573 @@
       "score": 42
     },
     {
+      "skill_id": "Aaronontheweb/dotnet-skills/akka-hosting-actor-patterns",
+      "spec": {
+        "name": "akka-hosting-actor-patterns",
+        "description": "Patterns for building entity actors with Akka.Hosting - GenericChildPerEntityParent, message extractors, cluster sharding abstraction, akka-reminders, and ITimeProvider. Supports both local testing and clustered production modes.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/akka-hosting-actor-patterns",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-hosting-actor-patterns",
+        "last_synced": "2026-08-14T02:36:23.570526Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "actor",
+        "akka",
+        "hosting",
+        "patterns"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-aspire-configuration",
+      "spec": {
+        "name": "akka-net-aspire-configuration",
+        "description": "Configure Akka.NET with .NET Aspire for local development and production deployments. Covers actor system setup, clustering, persistence, Akka.Management integration, and Aspire orchestration patterns.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/akka-net-aspire-configuration",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-aspire-configuration",
+        "last_synced": "2026-08-14T02:36:23.570601Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "akka",
+        "aspire",
+        "configuration",
+        "net"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-best-practices",
+      "spec": {
+        "name": "akka-net-best-practices",
+        "description": "Critical Akka.NET best practices including EventStream vs DistributedPubSub, supervision strategies, error handling, Props vs DependencyResolver, work distribution patterns, and cluster/local mode abstractions for testability.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/akka-net-best-practices",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-best-practices",
+        "last_synced": "2026-08-14T02:36:23.570667Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "akka",
+        "best",
+        "net",
+        "practices"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-management",
+      "spec": {
+        "name": "akka-net-management",
+        "description": "Akka.Management for cluster bootstrapping, service discovery (Kubernetes, Azure, Config), health checks, and dynamic cluster formation without static seed nodes.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/akka-net-management",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-management",
+        "last_synced": "2026-08-14T02:36:23.570738Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "akka",
+        "azure",
+        "kubernetes",
+        "management",
+        "net"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/akka-net-testing-patterns",
+      "spec": {
+        "name": "akka-net-testing-patterns",
+        "description": "Write unit and integration tests for Akka.NET actors using modern Akka.Hosting.TestKit patterns. Covers dependency injection, TestProbes, persistence testing, and actor interaction verification. Includes guidance on when to use traditional TestKit.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/akka-net-testing-patterns",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/akka-net-testing-patterns",
+        "last_synced": "2026-08-14T02:36:23.570843Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "akka",
+        "net",
+        "patterns",
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/api-design",
+      "spec": {
+        "name": "api-design",
+        "description": "Design stable, compatible public APIs using extend-only design principles. Manage API compatibility, wire compatibility, and versioning for NuGet packages and distributed systems.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/api-design",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/api-design",
+        "last_synced": "2026-08-14T02:36:23.570920Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "design"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/aspire-configuration",
+      "spec": {
+        "name": "aspire-configuration",
+        "description": "Configure Aspire AppHost to emit explicit app config via environment variables; keep app code free of Aspire clients and service discovery.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/aspire-configuration",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/aspire-configuration",
+        "last_synced": "2026-08-14T02:36:23.570979Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "aspire",
+        "configuration"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/aspire-integration-testing",
+      "spec": {
+        "name": "aspire-integration-testing",
+        "description": "Write integration tests using .NET Aspire's testing facilities with xUnit. Covers test fixtures, distributed application setup, endpoint discovery, and patterns for testing ASP.NET Core apps with real dependencies.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/aspire-integration-testing",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/aspire-integration-testing",
+        "last_synced": "2026-08-14T02:36:23.571054Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "aspire",
+        "integration",
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/aspire-service-defaults",
+      "spec": {
+        "name": "aspire-service-defaults",
+        "description": "Create a shared ServiceDefaults project for Aspire applications. Centralizes OpenTelemetry, health checks, resilience, and service discovery configuration across all services.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/aspire-service-defaults",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/aspire-service-defaults",
+        "last_synced": "2026-08-14T02:36:23.571131Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "aspire",
+        "defaults",
+        "service"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/crap-analysis",
+      "spec": {
+        "name": "crap-analysis",
+        "description": "Analyze code coverage and CRAP (Change Risk Anti-Patterns) scores to identify high-risk code. Use OpenCover format with ReportGenerator for Risk Hotspots showing cyclomatic complexity and untested code paths.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/crap-analysis",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/crap-analysis",
+        "last_synced": "2026-08-14T02:36:23.571197Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "analysis",
+        "crap"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/csharp-concurrency-patterns",
+      "spec": {
+        "name": "csharp-concurrency-patterns",
+        "description": "Choosing the right concurrency abstraction in .NET - from async/await for I/O to Channels for producer/consumer to Akka.NET for stateful entity management. Avoid locks and manual synchronization unless absolutely necessary.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/csharp-concurrency-patterns",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/csharp-concurrency-patterns",
+        "last_synced": "2026-08-14T02:36:23.571264Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "productivity",
+      "tags": [
+        "concurrency",
+        "csharp",
+        "patterns"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/database-performance",
+      "spec": {
+        "name": "database-performance",
+        "description": "Database access patterns for performance. Separate read/write models, avoid N+1 queries, use AsNoTracking, apply row limits, and never do application-side joins. Works with EF Core and Dapper.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/database-performance",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/database-performance",
+        "last_synced": "2026-08-14T02:36:23.571335Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "database",
+        "performance"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/dependency-injection-patterns",
+      "spec": {
+        "name": "dependency-injection-patterns",
+        "description": "Organize DI registrations using IServiceCollection extension methods. Group related services into composable Add* methods for clean Program.cs and reusable configuration in tests.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/dependency-injection-patterns",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dependency-injection-patterns",
+        "last_synced": "2026-08-14T02:36:23.571398Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "dependency",
+        "injection",
+        "patterns"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-devcert-trust",
+      "spec": {
+        "name": "dotnet-devcert-trust",
+        "description": "Diagnose and fix .NET HTTPS dev certificate trust issues on Linux. Covers the full certificate lifecycle from generation to system CA bundle inclusion, with distro-specific guidance for Ubuntu, Fedora, Arch, and WSL2.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/dotnet-devcert-trust",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-devcert-trust",
+        "last_synced": "2026-08-14T02:36:23.571462Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "devcert",
+        "dotnet",
+        "trust"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-local-tools",
+      "spec": {
+        "name": "dotnet-local-tools",
+        "description": "Managing local .NET tools with dotnet-tools.json for consistent tooling across development environments and CI/CD pipelines.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/dotnet-local-tools",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-local-tools",
+        "last_synced": "2026-08-14T02:36:23.571529Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "dotnet",
+        "local",
+        "tools"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-project-structure",
+      "spec": {
+        "name": "dotnet-project-structure",
+        "description": "Modern .NET project structure including .slnx solution format, Directory.Build.props, central package management, SourceLink, version management with RELEASE_NOTES.md, and SDK pinning with global.json.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/dotnet-project-structure",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-project-structure",
+        "last_synced": "2026-08-14T02:36:23.571587Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "dotnet",
+        "project",
+        "sdk",
+        "structure"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/dotnet-slopwatch",
+      "spec": {
+        "name": "dotnet-slopwatch",
+        "description": "Use Slopwatch to detect LLM reward hacking in .NET code changes. Run after every code modification to catch disabled tests, suppressed warnings, empty catch blocks, and other shortcuts that mask real problems.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/dotnet-slopwatch",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/dotnet-slopwatch",
+        "last_synced": "2026-08-14T02:36:23.571649Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "dotnet",
+        "llm",
+        "slopwatch"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/efcore-patterns",
+      "spec": {
+        "name": "efcore-patterns",
+        "description": "Entity Framework Core best practices including NoTracking by default, query splitting for navigation collections, migration management, dedicated migration services, and common pitfalls to avoid.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/efcore-patterns",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/efcore-patterns",
+        "last_synced": "2026-08-14T02:36:23.571714Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "efcore",
+        "patterns"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/ilspy-decompile",
+      "spec": {
+        "name": "ilspy-decompile",
+        "description": "Understand implementation details of .NET code by decompiling assemblies. Use when you want to see how a .NET API works internally, inspect NuGet package source, view framework implementation, or understand compiled .NET binaries.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/ilspy-decompile",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/ilspy-decompile",
+        "last_synced": "2026-08-14T02:36:23.571836Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "decompile",
+        "ilspy"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/mailpit-integration",
+      "spec": {
+        "name": "mailpit-integration",
+        "description": "Test email sending locally using Mailpit with .NET Aspire. Captures all outgoing emails without sending them. View rendered HTML, inspect headers, and verify delivery in integration tests.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/mailpit-integration",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/mailpit-integration",
+        "last_synced": "2026-08-14T02:36:23.571905Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "integration",
+        "mailpit"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/marketplace-publishing",
+      "spec": {
+        "name": "marketplace-publishing",
+        "description": "Workflow for publishing skills and agents to the dotnet-skills Claude Code marketplace. Covers adding new content, updating plugin.json, validation, and release tagging.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/marketplace-publishing",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/marketplace-publishing",
+        "last_synced": "2026-08-14T02:36:23.571970Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "marketplace",
+        "publishing"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/microsoft-extensions-configuration",
+      "spec": {
+        "name": "microsoft-extensions-configuration",
+        "description": "Microsoft.Extensions.Options patterns including IValidateOptions, strongly-typed settings, validation on startup, and the Options pattern for clean configuration management.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/microsoft-extensions-configuration",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/microsoft-extensions-configuration",
+        "last_synced": "2026-08-14T02:36:23.572047Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "configuration",
+        "extensions",
+        "microsoft"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/mjml-email-templates",
+      "spec": {
+        "name": "mjml-email-templates",
+        "description": "Build responsive email templates using MJML markup language. Compiles to cross-client HTML that works in Outlook, Gmail, and Apple Mail. Includes template renderer, layout patterns, and variable substitution.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/mjml-email-templates",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/mjml-email-templates",
+        "last_synced": "2026-08-14T02:36:23.572113Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "email",
+        "mjml",
+        "templates"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/modern-csharp-coding-standards",
+      "spec": {
+        "name": "modern-csharp-coding-standards",
+        "description": "Write modern, high-performance C# code using records, pattern matching, value objects, async/await, Span<T>/Memory<T>, and best-practice API design patterns. Emphasizes functional-style programming with C# 12+ features.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/modern-csharp-coding-standards",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/modern-csharp-coding-standards",
+        "last_synced": "2026-08-14T02:36:23.572180Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "coding",
+        "csharp",
+        "modern",
+        "standards"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/opentelemetry-net-instrumentation",
+      "spec": {
+        "name": "opentelemetry-net-instrumentation",
+        "description": "Provides guidance for implementing OpenTelemetry instrumentation in .NET codebases, covering tracing (Activities/Spans), metrics, naming conventions, error handling, performance, and API design best practices.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/OpenTelemetry-NET-Instrumentation",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/OpenTelemetry-NET-Instrumentation",
+        "last_synced": "2026-08-14T02:36:23.572250Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "instrumentation",
+        "net",
+        "opentelemetry"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/package-management",
+      "spec": {
+        "name": "package-management",
+        "description": "Manage NuGet packages using Central Package Management (CPM) and dotnet CLI commands. Never edit XML directly - use dotnet add/remove/list commands. Use shared version variables for related packages.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/package-management",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/package-management",
+        "last_synced": "2026-08-14T02:36:23.572322Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "management",
+        "package"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/playwright-blazor-testing",
+      "spec": {
+        "name": "playwright-blazor-testing",
+        "description": "Write UI tests for Blazor applications (Server or WebAssembly) using Playwright. Covers navigation, interaction, authentication, selectors, and common Blazor-specific patterns.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/playwright-blazor-testing",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/playwright-blazor-testing",
+        "last_synced": "2026-08-14T02:36:23.572390Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "blazor",
+        "playwright",
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/playwright-ci-caching",
+      "spec": {
+        "name": "playwright-ci-caching",
+        "description": "Cache Playwright browser binaries in CI/CD pipelines (GitHub Actions, Azure DevOps) to avoid 1-2 minute download overhead on every build.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/playwright-ci-caching",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/playwright-ci-caching",
+        "last_synced": "2026-08-14T02:36:23.572449Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "azure",
+        "caching",
+        "github",
+        "playwright"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/serialization",
+      "spec": {
+        "name": "serialization",
+        "description": "Choose the right serialization format for .NET applications. Prefer schema-based formats (Protobuf, MessagePack) over reflection-based (Newtonsoft.Json). Use System.Text.Json with AOT source generators for JSON scenarios.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/serialization",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/serialization",
+        "last_synced": "2026-08-14T02:36:23.572505Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "serialization"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/skills-index-snippets",
+      "spec": {
+        "name": "skills-index-snippets",
+        "description": "Create and maintain AGENTS.md / CLAUDE.md snippet indexes that route tasks to the correct dotnet-skills skills and agents (including compressed Vercel-style indexes).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/skills-index-snippets",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/skills-index-snippets",
+        "last_synced": "2026-08-14T02:36:23.572575Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "index",
+        "skills",
+        "snippets"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/snapshot-testing",
+      "spec": {
+        "name": "snapshot-testing",
+        "description": "Use Verify for snapshot testing in .NET. Approve API surfaces, HTTP responses, rendered emails, and serialized outputs. Detect unintended changes through human-reviewed baseline files.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/snapshot-testing",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/snapshot-testing",
+        "last_synced": "2026-08-14T02:36:23.572636Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "snapshot",
+        "testing"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/testcontainers-integration-tests",
+      "spec": {
+        "name": "testcontainers-integration-tests",
+        "description": "Write integration tests using TestContainers for .NET with xUnit. Covers infrastructure testing with real databases, message queues, and caches in Docker containers instead of mocks.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/testcontainers-integration-tests",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/testcontainers-integration-tests",
+        "last_synced": "2026-08-14T02:36:23.572699Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "docker",
+        "integration",
+        "testcontainers",
+        "tests"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/type-design-performance",
+      "spec": {
+        "name": "type-design-performance",
+        "description": "Design .NET types for performance. Seal classes, use readonly structs, prefer static pure functions, avoid premature enumeration, and choose the right collection types.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/type-design-performance",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/type-design-performance",
+        "last_synced": "2026-08-14T02:36:23.572766Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "design",
+        "performance",
+        "type"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "Aaronontheweb/dotnet-skills/verify-email-snapshots",
+      "spec": {
+        "name": "verify-email-snapshots",
+        "description": "Snapshot test email templates using Verify to catch regressions. Validates rendered HTML output matches approved baseline. Works with MJML templates and any email renderer.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Aaronontheweb/dotnet-skills",
+        "source_path": "skills/verify-email-snapshots",
+        "install_url": "https://github.com/Aaronontheweb/dotnet-skills/tree/main/skills/verify-email-snapshots",
+        "last_synced": "2026-08-14T02:36:23.572829Z",
+        "upstream_commit": "",
+        "repo": "aaronontheweb/dotnet-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 899,
+        "last_commit_date": "2026-04-16",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "email",
+        "snapshots",
+        "verify"
+      ],
+      "score": 41
+    },
+    {
       "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/comprehensive-research-agent",
       "spec": {
         "name": "comprehensive-research-agent",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-13T11:28:37.163392+00:00"
+  "generated_at": "2026-10-14T09:20:03.575570+00:00"
 }
