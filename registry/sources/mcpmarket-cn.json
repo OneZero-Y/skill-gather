@@ -84522,376 +84522,6 @@
       "score": 46
     },
     {
-      "skill_id": "mcollina/skills/fastify-best-practices",
-      "spec": {
-        "name": "fastify-best-practices",
-        "description": "Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. Use when building, configuring, or debugging a Fastify application — including defining routes, implementing plugins, setting up JSON Schema validation, handling errors, optimising performance, managing authentication, configuring CORS and security headers, integrating databases, working with WebSockets, and deploying to production. Covers the full Fastify request lifecycle (hooks, serialization, logging with Pino) and TypeScript integration via strip types. Trigger terms: Fastify, Node.js server, REST API, API routes, backend framework, fastify.config, server.ts, app.ts.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/fastify-best-practices",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/fastify-best-practices",
-        "last_synced": "2026-08-14T02:36:23.541151Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "best",
-        "fastify",
-        "javascript",
-        "practices",
-        "typescript"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mcollina/skills/linting-neostandard-eslint9",
-      "spec": {
-        "name": "linting-neostandard-eslint9",
-        "description": "Configures ESLint v9 flat config and neostandard for JavaScript and TypeScript projects, including migrating from legacy `.eslintrc*` files or the `standard` package. Use when you need to set up or fix linting with `eslint.config.js` or `eslint.config.mjs`, troubleshoot lint errors, configure neostandard rules, migrate from `.eslintrc` to flat config, or integrate linting into CI pipelines and pre-commit hooks.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/linting-neostandard-eslint9",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/linting-neostandard-eslint9",
-        "last_synced": "2026-08-14T02:36:23.541288Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "eslint9",
-        "javascript",
-        "linting",
-        "neostandard",
-        "typescript"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mcollina/skills/node",
-      "spec": {
-        "name": "node",
-        "description": "Provides domain-specific best practices for Node.js development with TypeScript, covering type stripping, async patterns, error handling, streams, modules, testing, performance, caching, logging, and more. Use when setting up Node.js projects with native TypeScript support, configuring type stripping (--experimental-strip-types), writing Node 22+ TypeScript without a build step, or when the user mentions 'native TypeScript in Node', 'strip types', 'Node 22 TypeScript', '.ts files without compilation', 'ts-node alternative', or needs guidance on error handling, graceful shutdown, flaky tests, profiling, or environment configuration in Node.js. Helps configure tsconfig.json for type stripping, set up package.json scripts, handle module resolution and import extensions, and apply robust patterns across the full Node.js stack.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/node",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/node",
-        "last_synced": "2026-08-14T02:36:23.541387Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "node",
-        "typescript"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mcollina/skills/nodejs-core",
-      "spec": {
-        "name": "nodejs-core",
-        "description": "Debugs native module crashes, optimizes V8 performance, configures node-gyp builds, writes N-API/node-addon-api bindings, and diagnoses libuv event loop issues in Node.js. Use when working with C++ addons, native modules, binding.gyp, node-gyp errors, segfaults, memory leaks in native code, V8 optimization/deoptimization, libuv thread pool tuning, N-API or NAN bindings, build system failures, or any Node.js internals below the JavaScript layer.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/nodejs-core",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/nodejs-core",
-        "last_synced": "2026-08-14T02:36:23.541538Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "core",
-        "javascript",
-        "nodejs"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mcollina/skills/oauth",
-      "spec": {
-        "name": "oauth",
-        "description": "Implements OAuth 2.0/2.1 authorization flows in Fastify applications — configures authorization code with PKCE, client credentials, device flow, refresh token rotation, JWT validation, and token introspection/revocation endpoints. Use when setting up authentication, authorization, login flows, access tokens, API security, or securing Fastify routes with OAuth; also applies when troubleshooting token validation errors, mismatched redirect URIs, CSRF issues, scope problems, or RFC 6749/6750/7636/8252/8628 compliance questions.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/oauth",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/oauth",
-        "last_synced": "2026-08-14T02:36:23.541633Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "oauth"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mcollina/skills/octocat",
-      "spec": {
-        "name": "octocat",
-        "description": "Use this skill whenever the prompt contains any `github.com` URL, even if the user only pastes a link and gives no GitHub-specific keywords. Handles git and GitHub operations using the gh CLI. Triggers include any GitHub link to an issue, pull request, commit, compare page, Actions run, release, discussion, or repository. Covers creating and reviewing PRs, watching CI checks, interactive rebasing, branch cleanup, submodule management, and repository archaeology with git log/blame/bisect.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/octocat",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/octocat",
-        "last_synced": "2026-08-14T02:36:23.541748Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "github",
-        "octocat"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mcollina/skills/snipgrapher",
-      "spec": {
-        "name": "snipgrapher",
-        "description": "Configures and uses snipgrapher to generate polished code snippet images, including syntax-highlighted PNGs, SVGs, and WebP exports with custom themes, profiles, and styling options. Use when the user wants to create code screenshots, turn code into shareable images, generate pretty code snippets for docs or social posts, produce syntax-highlighted images from source files, or explicitly mentions snipgrapher. Supports single-file renders, batch jobs, watch mode, and reusable named profiles via the snipgrapher CLI or npx.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/snipgrapher",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/snipgrapher",
-        "last_synced": "2026-08-14T02:36:23.541852Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "snipgrapher"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "mcollina/skills/typescript-magician",
-      "spec": {
-        "name": "typescript-magician",
-        "description": "Designs complex generic types, refactors `any` types to strict alternatives, creates type guards and utility types, and resolves TypeScript compiler errors. Use when the user asks about TypeScript (TS) types, generics, type inference, type guards, removing `any` types, strict typing, type errors, `infer`, `extends`, conditional types, mapped types, template literal types, branded/opaque types, or utility types like `Partial`, `Record`, `ReturnType`, and `Awaited`.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/mcollina/skills",
-        "source_path": "skills/typescript-magician",
-        "install_url": "https://github.com/mcollina/skills/tree/main/skills/typescript-magician",
-        "last_synced": "2026-08-14T02:36:23.541956Z",
-        "upstream_commit": "",
-        "repo": "mcollina/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1763,
-        "last_commit_date": "2026-04-17",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "magician",
-        "typescript"
-      ],
-      "score": 46
-    },
-    {
       "skill_id": "samber/cc-skills-golang/golang-benchmark",
       "spec": {
         "name": "golang-benchmark",
@@ -116991,6 +116621,376 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "mcollina/skills/fastify-best-practices",
+      "spec": {
+        "name": "fastify-best-practices",
+        "description": "Guides development of Fastify Node.js backend servers and REST APIs using TypeScript or JavaScript. Use when building, configuring, or debugging a Fastify application — including defining routes, implementing plugins, setting up JSON Schema validation, handling errors, optimising performance, managing authentication, configuring CORS and security headers, integrating databases, working with WebSockets, and deploying to production. Covers the full Fastify request lifecycle (hooks, serialization, logging with Pino) and TypeScript integration via strip types. Trigger terms: Fastify, Node.js server, REST API, API routes, backend framework, fastify.config, server.ts, app.ts.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/fastify-best-practices",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/fastify-best-practices",
+        "last_synced": "2026-08-14T02:36:23.541151Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "best",
+        "fastify",
+        "javascript",
+        "practices",
+        "typescript"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mcollina/skills/linting-neostandard-eslint9",
+      "spec": {
+        "name": "linting-neostandard-eslint9",
+        "description": "Configures ESLint v9 flat config and neostandard for JavaScript and TypeScript projects, including migrating from legacy `.eslintrc*` files or the `standard` package. Use when you need to set up or fix linting with `eslint.config.js` or `eslint.config.mjs`, troubleshoot lint errors, configure neostandard rules, migrate from `.eslintrc` to flat config, or integrate linting into CI pipelines and pre-commit hooks.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/linting-neostandard-eslint9",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/linting-neostandard-eslint9",
+        "last_synced": "2026-08-14T02:36:23.541288Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "eslint9",
+        "javascript",
+        "linting",
+        "neostandard",
+        "typescript"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mcollina/skills/node",
+      "spec": {
+        "name": "node",
+        "description": "Provides domain-specific best practices for Node.js development with TypeScript, covering type stripping, async patterns, error handling, streams, modules, testing, performance, caching, logging, and more. Use when setting up Node.js projects with native TypeScript support, configuring type stripping (--experimental-strip-types), writing Node 22+ TypeScript without a build step, or when the user mentions 'native TypeScript in Node', 'strip types', 'Node 22 TypeScript', '.ts files without compilation', 'ts-node alternative', or needs guidance on error handling, graceful shutdown, flaky tests, profiling, or environment configuration in Node.js. Helps configure tsconfig.json for type stripping, set up package.json scripts, handle module resolution and import extensions, and apply robust patterns across the full Node.js stack.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/node",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/node",
+        "last_synced": "2026-08-14T02:36:23.541387Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "node",
+        "typescript"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mcollina/skills/nodejs-core",
+      "spec": {
+        "name": "nodejs-core",
+        "description": "Debugs native module crashes, optimizes V8 performance, configures node-gyp builds, writes N-API/node-addon-api bindings, and diagnoses libuv event loop issues in Node.js. Use when working with C++ addons, native modules, binding.gyp, node-gyp errors, segfaults, memory leaks in native code, V8 optimization/deoptimization, libuv thread pool tuning, N-API or NAN bindings, build system failures, or any Node.js internals below the JavaScript layer.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/nodejs-core",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/nodejs-core",
+        "last_synced": "2026-08-14T02:36:23.541538Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "core",
+        "javascript",
+        "nodejs"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mcollina/skills/oauth",
+      "spec": {
+        "name": "oauth",
+        "description": "Implements OAuth 2.0/2.1 authorization flows in Fastify applications — configures authorization code with PKCE, client credentials, device flow, refresh token rotation, JWT validation, and token introspection/revocation endpoints. Use when setting up authentication, authorization, login flows, access tokens, API security, or securing Fastify routes with OAuth; also applies when troubleshooting token validation errors, mismatched redirect URIs, CSRF issues, scope problems, or RFC 6749/6750/7636/8252/8628 compliance questions.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/oauth",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/oauth",
+        "last_synced": "2026-08-14T02:36:23.541633Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "oauth"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mcollina/skills/octocat",
+      "spec": {
+        "name": "octocat",
+        "description": "Use this skill whenever the prompt contains any `github.com` URL, even if the user only pastes a link and gives no GitHub-specific keywords. Handles git and GitHub operations using the gh CLI. Triggers include any GitHub link to an issue, pull request, commit, compare page, Actions run, release, discussion, or repository. Covers creating and reviewing PRs, watching CI checks, interactive rebasing, branch cleanup, submodule management, and repository archaeology with git log/blame/bisect.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/octocat",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/octocat",
+        "last_synced": "2026-08-14T02:36:23.541748Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "github",
+        "octocat"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mcollina/skills/snipgrapher",
+      "spec": {
+        "name": "snipgrapher",
+        "description": "Configures and uses snipgrapher to generate polished code snippet images, including syntax-highlighted PNGs, SVGs, and WebP exports with custom themes, profiles, and styling options. Use when the user wants to create code screenshots, turn code into shareable images, generate pretty code snippets for docs or social posts, produce syntax-highlighted images from source files, or explicitly mentions snipgrapher. Supports single-file renders, batch jobs, watch mode, and reusable named profiles via the snipgrapher CLI or npx.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/snipgrapher",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/snipgrapher",
+        "last_synced": "2026-08-14T02:36:23.541852Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "snipgrapher"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "mcollina/skills/typescript-magician",
+      "spec": {
+        "name": "typescript-magician",
+        "description": "Designs complex generic types, refactors `any` types to strict alternatives, creates type guards and utility types, and resolves TypeScript compiler errors. Use when the user asks about TypeScript (TS) types, generics, type inference, type guards, removing `any` types, strict typing, type errors, `infer`, `extends`, conditional types, mapped types, template literal types, branded/opaque types, or utility types like `Partial`, `Record`, `ReturnType`, and `Awaited`.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/mcollina/skills",
+        "source_path": "skills/typescript-magician",
+        "install_url": "https://github.com/mcollina/skills/tree/main/skills/typescript-magician",
+        "last_synced": "2026-08-14T02:36:23.541956Z",
+        "upstream_commit": "",
+        "repo": "mcollina/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1763,
+        "last_commit_date": "2026-04-17",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "magician",
+        "typescript"
+      ],
+      "score": 44
     },
     {
       "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/book-sft-pipeline",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-14T09:20:03.575570+00:00"
+  "generated_at": "2026-10-15T08:55:44.153165+00:00"
 }
