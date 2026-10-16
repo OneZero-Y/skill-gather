@@ -1,20 +1,20 @@
 {
-  "total_skills": 11292,
+  "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-10-15T08:55:44.344780Z",
+  "last_synced": "2026-10-16T08:48:06.603171Z",
   "version": "1",
   "categories": {
-    "document": 971,
-    "development": 4094,
-    "devops": 1211,
+    "document": 979,
+    "development": 4089,
+    "devops": 1206,
     "data": 673,
-    "creative": 989,
-    "security": 155,
-    "productivity": 1073,
-    "education": 193,
-    "other": 1328,
+    "creative": 990,
+    "security": 154,
+    "productivity": 1072,
+    "education": 196,
+    "other": 1326,
     "ecommerce": 87,
-    "content": 518
+    "content": 521
   },
   "sources": [
     "anthropics-skills",
@@ -45,31 +45,31 @@
     "supabase-skills": 13,
     "voltagent-awesome": 646,
     "community-repos": 22,
-    "skillhub-cn": 4999,
+    "skillhub-cn": 5000,
     "microsoft-vscode-skills": 13,
     "mcpmarket-cn": 4769,
     "heilcheng-awesome": 6
   },
   "platform_counts": {
-    "claude_code": 11287,
+    "claude_code": 11288,
     "claude_ai": 21,
-    "kiro": 11268,
-    "codex": 10511,
-    "universal": 11281
+    "kiro": 11269,
+    "codex": 10512,
+    "universal": 11282
   },
   "score_distribution": {
-    "0-20": 45,
-    "21-40": 3530,
-    "41-60": 7201,
+    "0-20": 40,
+    "21-40": 3482,
+    "41-60": 7255,
     "61-80": 400,
     "81-100": 116
   },
   "changelog": {
-    "added": 46,
-    "removed": 47,
-    "modified": 182,
-    "total_old": 11293,
-    "total_new": 11292
+    "added": 47,
+    "removed": 46,
+    "modified": 184,
+    "total_old": 11292,
+    "total_new": 11293
   },
   "source_sync_state": {
     "mcpmarket-cn": {
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:195391:1792054535394:dev-god",
-      "skill_count": 4999,
-      "synced_at": "2026-10-15T08:55:44.344750+00:00",
+      "fingerprint": "skillhub:196799:1792140465715:dev-god",
+      "skill_count": 5000,
+      "synced_at": "2026-10-16T08:48:06.603145+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -176,7 +176,7 @@
     }
   },
   "quality": {
-    "total": 11292,
+    "total": 11293,
     "score": {
       "avg": 43.4,
       "min": 18,
@@ -186,16 +186,16 @@
       "spread": 69
     },
     "coverage_pct": {
-      "has_description": 98.98,
+      "has_description": 99.03,
       "has_license": 2.57,
-      "traceable_to_repo": 55.73,
+      "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
-      "has_install_count": 44.58,
-      "has_stars": 79.93
+      "has_install_count": 44.59,
+      "has_stars": 80.01
     },
     "source_health": {
       "skillhub-cn": {
-        "skills": 4999,
+        "skills": 5000,
         "status": "ok",
         "shards": [
           "skillhub-cn.json"
@@ -315,15 +315,15 @@
     },
     "dedup": {
       "input_count": 11293,
-      "output_count": 11292,
-      "removed_count": 1,
-      "removed_by_location": 1,
+      "output_count": 11293,
+      "removed_count": 0,
+      "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 117,
-      "dedup_rate_pct": 0.01,
+      "disambiguated_ids": 118,
+      "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
-      "largest_group": 2,
-      "largest_group_key": "api.skillhub.cn/indiv-xiaozhi/xiaozhi-learning-dna",
+      "largest_group": 0,
+      "largest_group_key": "",
       "top_overlapping_source_pairs": {}
     }
   }
