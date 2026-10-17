@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-10-16T08:48:06.603171Z",
+  "last_synced": "2026-10-17T08:18:24.844873Z",
   "version": "1",
   "categories": {
-    "document": 979,
-    "development": 4089,
-    "devops": 1206,
+    "document": 976,
+    "development": 4082,
+    "devops": 1210,
     "data": 673,
-    "creative": 990,
-    "security": 154,
-    "productivity": 1072,
-    "education": 196,
-    "other": 1326,
-    "ecommerce": 87,
-    "content": 521
+    "creative": 994,
+    "security": 155,
+    "productivity": 1073,
+    "education": 195,
+    "other": 1322,
+    "ecommerce": 88,
+    "content": 525
   },
   "sources": [
     "anthropics-skills",
@@ -58,17 +58,17 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 40,
-    "21-40": 3482,
-    "41-60": 7255,
+    "0-20": 39,
+    "21-40": 3446,
+    "41-60": 7292,
     "61-80": 400,
     "81-100": 116
   },
   "changelog": {
-    "added": 47,
-    "removed": 46,
-    "modified": 184,
-    "total_old": 11292,
+    "added": 58,
+    "removed": 58,
+    "modified": 70,
+    "total_old": 11293,
     "total_new": 11293
   },
   "source_sync_state": {
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:196799:1792140465715:dev-god",
+      "fingerprint": "skillhub:197625:1792225077145:dev-expert-pro",
       "skill_count": 5000,
-      "synced_at": "2026-10-16T08:48:06.603145+00:00",
+      "synced_at": "2026-10-17T08:18:24.844843+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -186,7 +186,7 @@
       "spread": 69
     },
     "coverage_pct": {
-      "has_description": 99.03,
+      "has_description": 99.07,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
@@ -319,7 +319,7 @@
       "removed_count": 0,
       "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 118,
+      "disambiguated_ids": 119,
       "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
       "largest_group": 0,
