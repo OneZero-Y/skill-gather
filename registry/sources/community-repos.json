@@ -962,7 +962,7 @@
         "agents",
         "healthcare"
       ],
-      "score": 44
+      "score": 42
     },
     {
       "skill_id": "BrianRWagner/ai-marketing-skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-10-17T08:18:24.461780+00:00"
+  "generated_at": "2026-10-18T08:37:06.370282+00:00"
 }

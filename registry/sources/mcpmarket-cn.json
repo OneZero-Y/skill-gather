@@ -3781,52 +3781,6 @@
       "score": 49
     },
     {
-      "skill_id": "forrestchang/andrej-karpathy-skills/karpathy-guidelines",
-      "spec": {
-        "name": "karpathy-guidelines",
-        "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
-        "source_path": "skills/karpathy-guidelines",
-        "install_url": "https://github.com/forrestchang/andrej-karpathy-skills/tree/main/skills/karpathy-guidelines",
-        "last_synced": "2026-08-14T02:36:23.223698Z",
-        "upstream_commit": "",
-        "repo": "forrestchang/andrej-karpathy-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 108698,
-        "last_commit_date": "2026-04-20",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "guidelines",
-        "karpathy",
-        "llm"
-      ],
-      "score": 49
-    },
-    {
       "skill_id": "ComposioHQ/awesome-claude-skills/langsmith-fetch",
       "spec": {
         "name": "langsmith-fetch",
@@ -55620,6 +55574,52 @@
         "unit"
       ],
       "score": 48
+    },
+    {
+      "skill_id": "forrestchang/andrej-karpathy-skills/karpathy-guidelines",
+      "spec": {
+        "name": "karpathy-guidelines",
+        "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, surface assumptions, and define verifiable success criteria.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/forrestchang/andrej-karpathy-skills",
+        "source_path": "skills/karpathy-guidelines",
+        "install_url": "https://github.com/forrestchang/andrej-karpathy-skills/tree/main/skills/karpathy-guidelines",
+        "last_synced": "2026-08-14T02:36:23.223698Z",
+        "upstream_commit": "",
+        "repo": "forrestchang/andrej-karpathy-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 108698,
+        "last_commit_date": "2026-04-20",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "guidelines",
+        "karpathy",
+        "llm"
+      ],
+      "score": 47
     },
     {
       "skill_id": "muratcankoylan/Agent-Skills-for-Context-Engineering/latent-briefing",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-17T08:18:24.658313+00:00"
+  "generated_at": "2026-10-18T08:37:06.567462+00:00"
 }
