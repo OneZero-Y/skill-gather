@@ -125608,236 +125608,6 @@
       "score": 43
     },
     {
-      "skill_id": "P4nda0s/reverse-skills/rev-dex-dumper",
-      "spec": {
-        "name": "rev-dex-dumper",
-        "description": "Dump DEX files from a running Android app for unpacking/deobfuscation. Activate when the user wants to unpack an Android APK, dump DEX from memory, extract decrypted DEX files, or defeat class-loading packing.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/P4nda0s/reverse-skills",
-        "source_path": "skills/rev-dex-dumper",
-        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-dex-dumper",
-        "last_synced": "2026-08-14T02:36:23.572890Z",
-        "upstream_commit": "",
-        "repo": "p4nda0s/reverse-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 877,
-        "last_commit_date": "2026-04-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "dex",
-        "dumper",
-        "rev"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "P4nda0s/reverse-skills/rev-frida",
-      "spec": {
-        "name": "rev-frida",
-        "description": "Generate Frida hook scripts using modern Frida API. Activate when the user wants to write Frida scripts, hook functions at runtime, trace calls or arguments or return values, intercept native or ObjC or Java methods, dump memory or exports, or handle native module load timing for Android and other targets.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/P4nda0s/reverse-skills",
-        "source_path": "skills/rev-frida",
-        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-frida",
-        "last_synced": "2026-08-14T02:36:23.572956Z",
-        "upstream_commit": "",
-        "repo": "p4nda0s/reverse-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 877,
-        "last_commit_date": "2026-04-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "frida",
-        "rev"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "P4nda0s/reverse-skills/rev-idapython",
-      "spec": {
-        "name": "rev-idapython",
-        "description": "IDAPython and IDALib script reference for reverse engineering. Activate when the user needs to write IDAPython scripts in IDA, use IDALib for headless analysis, operate on IDB databases, debug with IDA, manipulate memory/registers, traverse functions/blocks/instructions, work with Hex-Rays decompiler API, handle obfuscation, or batch-process binaries.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/P4nda0s/reverse-skills",
-        "source_path": "skills/rev-idapython",
-        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-idapython",
-        "last_synced": "2026-08-14T02:36:23.573072Z",
-        "upstream_commit": "",
-        "repo": "p4nda0s/reverse-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 877,
-        "last_commit_date": "2026-04-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "idapython",
-        "rev"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "P4nda0s/reverse-skills/rev-u3d-dump",
-      "spec": {
-        "name": "rev-u3d-dump",
-        "description": "Dump Unity IL2CPP symbols from iOS/Android builds. Extract method names, addresses, and type info from IL2CPP binaries and global-metadata.dat, then generate IDA/Ghidra import scripts.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/P4nda0s/reverse-skills",
-        "source_path": "skills/rev-u3d-dump",
-        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-u3d-dump",
-        "last_synced": "2026-08-14T02:36:23.573400Z",
-        "upstream_commit": "",
-        "repo": "p4nda0s/reverse-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 877,
-        "last_commit_date": "2026-04-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "dump",
-        "rev",
-        "u3d"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "P4nda0s/reverse-skills/rev-unicorn-debug",
-      "spec": {
-        "name": "rev-unicorn-debug",
-        "description": "Debug and emulate specific code fragments or functions using the Unicorn engine. Activate when the user wants to emulate a function with Unicorn, trace binary execution without running the full program, decrypt or decode data by emulating the algorithm, or bypass environment dependencies (JNI, syscalls, libc) during emulation.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/P4nda0s/reverse-skills",
-        "source_path": "skills/rev-unicorn-debug",
-        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-unicorn-debug",
-        "last_synced": "2026-08-14T02:36:23.573460Z",
-        "upstream_commit": "",
-        "repo": "p4nda0s/reverse-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 877,
-        "last_commit_date": "2026-04-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "debug",
-        "rev",
-        "unicorn"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "ReScienceLab/opc-skills/add-new-opc-skill",
       "spec": {
         "name": "add-new-opc-skill",
@@ -205616,6 +205386,236 @@
       "score": 42
     },
     {
+      "skill_id": "P4nda0s/reverse-skills/rev-dex-dumper",
+      "spec": {
+        "name": "rev-dex-dumper",
+        "description": "Dump DEX files from a running Android app for unpacking/deobfuscation. Activate when the user wants to unpack an Android APK, dump DEX from memory, extract decrypted DEX files, or defeat class-loading packing.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/P4nda0s/reverse-skills",
+        "source_path": "skills/rev-dex-dumper",
+        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-dex-dumper",
+        "last_synced": "2026-08-14T02:36:23.572890Z",
+        "upstream_commit": "",
+        "repo": "p4nda0s/reverse-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 877,
+        "last_commit_date": "2026-04-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "dex",
+        "dumper",
+        "rev"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "P4nda0s/reverse-skills/rev-frida",
+      "spec": {
+        "name": "rev-frida",
+        "description": "Generate Frida hook scripts using modern Frida API. Activate when the user wants to write Frida scripts, hook functions at runtime, trace calls or arguments or return values, intercept native or ObjC or Java methods, dump memory or exports, or handle native module load timing for Android and other targets.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/P4nda0s/reverse-skills",
+        "source_path": "skills/rev-frida",
+        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-frida",
+        "last_synced": "2026-08-14T02:36:23.572956Z",
+        "upstream_commit": "",
+        "repo": "p4nda0s/reverse-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 877,
+        "last_commit_date": "2026-04-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "frida",
+        "rev"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "P4nda0s/reverse-skills/rev-idapython",
+      "spec": {
+        "name": "rev-idapython",
+        "description": "IDAPython and IDALib script reference for reverse engineering. Activate when the user needs to write IDAPython scripts in IDA, use IDALib for headless analysis, operate on IDB databases, debug with IDA, manipulate memory/registers, traverse functions/blocks/instructions, work with Hex-Rays decompiler API, handle obfuscation, or batch-process binaries.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/P4nda0s/reverse-skills",
+        "source_path": "skills/rev-idapython",
+        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-idapython",
+        "last_synced": "2026-08-14T02:36:23.573072Z",
+        "upstream_commit": "",
+        "repo": "p4nda0s/reverse-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 877,
+        "last_commit_date": "2026-04-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "idapython",
+        "rev"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "P4nda0s/reverse-skills/rev-u3d-dump",
+      "spec": {
+        "name": "rev-u3d-dump",
+        "description": "Dump Unity IL2CPP symbols from iOS/Android builds. Extract method names, addresses, and type info from IL2CPP binaries and global-metadata.dat, then generate IDA/Ghidra import scripts.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/P4nda0s/reverse-skills",
+        "source_path": "skills/rev-u3d-dump",
+        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-u3d-dump",
+        "last_synced": "2026-08-14T02:36:23.573400Z",
+        "upstream_commit": "",
+        "repo": "p4nda0s/reverse-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 877,
+        "last_commit_date": "2026-04-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "dump",
+        "rev",
+        "u3d"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "P4nda0s/reverse-skills/rev-unicorn-debug",
+      "spec": {
+        "name": "rev-unicorn-debug",
+        "description": "Debug and emulate specific code fragments or functions using the Unicorn engine. Activate when the user wants to emulate a function with Unicorn, trace binary execution without running the full program, decrypt or decode data by emulating the algorithm, or bypass environment dependencies (JNI, syscalls, libc) during emulation.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/P4nda0s/reverse-skills",
+        "source_path": "skills/rev-unicorn-debug",
+        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-unicorn-debug",
+        "last_synced": "2026-08-14T02:36:23.573460Z",
+        "upstream_commit": "",
+        "repo": "p4nda0s/reverse-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 877,
+        "last_commit_date": "2026-04-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "debug",
+        "rev",
+        "unicorn"
+      ],
+      "score": 41
+    },
+    {
       "skill_id": "Aaronontheweb/dotnet-skills/akka-hosting-actor-patterns",
       "spec": {
         "name": "akka-hosting-actor-patterns",
@@ -215251,96 +215251,6 @@
       "score": 39
     },
     {
-      "skill_id": "P4nda0s/reverse-skills/rev-struct",
-      "spec": {
-        "name": "rev-struct",
-        "description": "Reconstruct data structures by analyzing memory access patterns across functions",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/P4nda0s/reverse-skills",
-        "source_path": "skills/rev-struct",
-        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-struct",
-        "last_synced": "2026-08-14T02:36:23.573196Z",
-        "upstream_commit": "",
-        "repo": "p4nda0s/reverse-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 877,
-        "last_commit_date": "2026-04-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "rev",
-        "struct"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "P4nda0s/reverse-skills/rev-symbol",
-      "spec": {
-        "name": "rev-symbol",
-        "description": "Restore function symbols by analyzing code patterns, strings, constants, and cross-references",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/P4nda0s/reverse-skills",
-        "source_path": "skills/rev-symbol",
-        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-symbol",
-        "last_synced": "2026-08-14T02:36:23.573305Z",
-        "upstream_commit": "",
-        "repo": "p4nda0s/reverse-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 877,
-        "last_commit_date": "2026-04-21",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "rev",
-        "symbol"
-      ],
-      "score": 39
-    },
-    {
       "skill_id": "ReScienceLab/opc-skills/banner-creator",
       "spec": {
         "name": "banner-creator",
@@ -217479,6 +217389,96 @@
       "score": 38
     },
     {
+      "skill_id": "P4nda0s/reverse-skills/rev-struct",
+      "spec": {
+        "name": "rev-struct",
+        "description": "Reconstruct data structures by analyzing memory access patterns across functions",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/P4nda0s/reverse-skills",
+        "source_path": "skills/rev-struct",
+        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-struct",
+        "last_synced": "2026-08-14T02:36:23.573196Z",
+        "upstream_commit": "",
+        "repo": "p4nda0s/reverse-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 877,
+        "last_commit_date": "2026-04-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "rev",
+        "struct"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "P4nda0s/reverse-skills/rev-symbol",
+      "spec": {
+        "name": "rev-symbol",
+        "description": "Restore function symbols by analyzing code patterns, strings, constants, and cross-references",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/P4nda0s/reverse-skills",
+        "source_path": "skills/rev-symbol",
+        "install_url": "https://github.com/P4nda0s/reverse-skills/tree/main/skills/rev-symbol",
+        "last_synced": "2026-08-14T02:36:23.573305Z",
+        "upstream_commit": "",
+        "repo": "p4nda0s/reverse-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 877,
+        "last_commit_date": "2026-04-21",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "rev",
+        "symbol"
+      ],
+      "score": 37
+    },
+    {
       "skill_id": "joeseesun/qiaomu-opencli-skills/qiaomu-smart-search",
       "spec": {
         "name": "qiaomu-smart-search",
@@ -219227,6 +219227,51 @@
       "score": 36
     },
     {
+      "skill_id": "ReScienceLab/opc-skills/skill-name",
+      "spec": {
+        "name": "skill-name",
+        "description": "清晰地描述这项技能的作用以及何时使用它\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/ReScienceLab/opc-skills",
+        "source_path": "skills/skill-name",
+        "install_url": "https://github.com/ReScienceLab/opc-skills/tree/main/skills/skill-name",
+        "last_synced": "2026-08-14T02:36:23.576261Z",
+        "upstream_commit": "",
+        "repo": "resciencelab/opc-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 831,
+        "last_commit_date": "2026-05-03",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "name",
+        "skill"
+      ],
+      "score": 36
+    },
+    {
       "skill_id": "P4nda0s/reverse-skills/rev-struct---structure-recovery",
       "spec": {
         "name": "rev-struct---structure-recovery",
@@ -219271,7 +219316,7 @@
         "struct",
         "structure"
       ],
-      "score": 36
+      "score": 34
     },
     {
       "skill_id": "P4nda0s/reverse-skills/rev-symbol---symbol-recovery",
@@ -219317,52 +219362,7 @@
         "rev",
         "symbol"
       ],
-      "score": 36
-    },
-    {
-      "skill_id": "ReScienceLab/opc-skills/skill-name",
-      "spec": {
-        "name": "skill-name",
-        "description": "清晰地描述这项技能的作用以及何时使用它\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/ReScienceLab/opc-skills",
-        "source_path": "skills/skill-name",
-        "install_url": "https://github.com/ReScienceLab/opc-skills/tree/main/skills/skill-name",
-        "last_synced": "2026-08-14T02:36:23.576261Z",
-        "upstream_commit": "",
-        "repo": "resciencelab/opc-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 831,
-        "last_commit_date": "2026-05-03",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "name",
-        "skill"
-      ],
-      "score": 36
+      "score": 34
     },
     {
       "skill_id": "wondelai/skills/jobs-to-be-done-framework",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-18T08:37:06.567462+00:00"
+  "generated_at": "2026-10-19T09:39:15.373276+00:00"
 }
