@@ -89925,51 +89925,6 @@
       "score": 45
     },
     {
-      "skill_id": "Prat011/awesome-llm-skills/resemble-detect",
-      "spec": {
-        "name": "resemble-detect",
-        "description": "# 深度伪造检测与媒体安全\n\n## 检测AI生成内容与媒体安全\n\n使用 Resemble AI 进行深度伪造检测和媒体安全：检测 AI 生成的音频、图像、视频和文本，追溯合成来源，应用水印，验证发言人身份，并分析媒体情报。\n\n## 功能特点\n\n* 检测 AI 生成的音频、图像、视频和文本\n* 追溯合成来源\n* 应用水印\n* 验证发言人身份\n* 分析媒体情报\n\n## 使用 Resemble AI\n\n使用 Resemble AI，您可以：\n\n* 检测 AI 生成的内容\n* 确保媒体安全\n* 保护知识产权\n\n## 了解更多\n\n想要了解更多关于 Resemble AI 的信息，请访问我们的官网。\n\n## 相关资源\n\n* <a href=\"https://www.resemble.ai\">Resemble AI官网</a>\n* <a href=\"https://www.resemble.ai/blog\">Resemble AI 博客</a>\n\n## 媒体分析\n\n媒体分析是确保媒体安全的重要步骤。Resemble AI 提供了一系列工具，帮助您分析媒体情报，确保内容的真实性。\n\n## 结论\n\n使用 Resemble AI，您可以确保媒体安全，检测 AI 生成的内容，保护知识产权。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Prat011/awesome-llm-skills",
-        "source_path": "skills/resemble-detect",
-        "install_url": "https://github.com/Prat011/awesome-llm-skills/tree/main/skills/resemble-detect",
-        "last_synced": "2026-08-14T02:36:23.551173Z",
-        "upstream_commit": "",
-        "repo": "prat011/awesome-llm-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1197,
-        "last_commit_date": "2026-04-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "content",
-      "tags": [
-        "detect",
-        "resemble"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "BankrBot/skills/0xwork",
       "spec": {
         "name": "0xwork",
@@ -116621,6 +116576,51 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "Prat011/awesome-llm-skills/resemble-detect",
+      "spec": {
+        "name": "resemble-detect",
+        "description": "# 深度伪造检测与媒体安全\n\n## 检测AI生成内容与媒体安全\n\n使用 Resemble AI 进行深度伪造检测和媒体安全：检测 AI 生成的音频、图像、视频和文本，追溯合成来源，应用水印，验证发言人身份，并分析媒体情报。\n\n## 功能特点\n\n* 检测 AI 生成的音频、图像、视频和文本\n* 追溯合成来源\n* 应用水印\n* 验证发言人身份\n* 分析媒体情报\n\n## 使用 Resemble AI\n\n使用 Resemble AI，您可以：\n\n* 检测 AI 生成的内容\n* 确保媒体安全\n* 保护知识产权\n\n## 了解更多\n\n想要了解更多关于 Resemble AI 的信息，请访问我们的官网。\n\n## 相关资源\n\n* <a href=\"https://www.resemble.ai\">Resemble AI官网</a>\n* <a href=\"https://www.resemble.ai/blog\">Resemble AI 博客</a>\n\n## 媒体分析\n\n媒体分析是确保媒体安全的重要步骤。Resemble AI 提供了一系列工具，帮助您分析媒体情报，确保内容的真实性。\n\n## 结论\n\n使用 Resemble AI，您可以确保媒体安全，检测 AI 生成的内容，保护知识产权。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Prat011/awesome-llm-skills",
+        "source_path": "skills/resemble-detect",
+        "install_url": "https://github.com/Prat011/awesome-llm-skills/tree/main/skills/resemble-detect",
+        "last_synced": "2026-08-14T02:36:23.551173Z",
+        "upstream_commit": "",
+        "repo": "prat011/awesome-llm-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1197,
+        "last_commit_date": "2026-04-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "content",
+      "tags": [
+        "detect",
+        "resemble"
+      ],
+      "score": 44
     },
     {
       "skill_id": "mcollina/skills/fastify-best-practices",
@@ -201128,51 +201128,6 @@
       "score": 42
     },
     {
-      "skill_id": "Prat011/awesome-llm-skills/video-downloader",
-      "spec": {
-        "name": "video-downloader",
-        "description": "从 YouTube 和其他平台下载视频，以供离线观看、编辑或存档。处理各种格式和质量选项。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/Prat011/awesome-llm-skills",
-        "source_path": "skills/video-downloader",
-        "install_url": "https://github.com/Prat011/awesome-llm-skills/tree/main/skills/video-downloader",
-        "last_synced": "2026-08-14T02:36:23.551264Z",
-        "upstream_commit": "",
-        "repo": "prat011/awesome-llm-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1197,
-        "last_commit_date": "2026-04-22",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "downloader",
-        "video"
-      ],
-      "score": 42
-    },
-    {
       "skill_id": "BankrBot/skills/botcoin-miner",
       "spec": {
         "name": "botcoin-miner",
@@ -209056,6 +209011,51 @@
       "category": "other",
       "tags": [],
       "score": 41
+    },
+    {
+      "skill_id": "Prat011/awesome-llm-skills/video-downloader",
+      "spec": {
+        "name": "video-downloader",
+        "description": "从 YouTube 和其他平台下载视频，以供离线观看、编辑或存档。处理各种格式和质量选项。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/Prat011/awesome-llm-skills",
+        "source_path": "skills/video-downloader",
+        "install_url": "https://github.com/Prat011/awesome-llm-skills/tree/main/skills/video-downloader",
+        "last_synced": "2026-08-14T02:36:23.551264Z",
+        "upstream_commit": "",
+        "repo": "prat011/awesome-llm-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1197,
+        "last_commit_date": "2026-04-22",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "downloader",
+        "video"
+      ],
+      "score": 40
     },
     {
       "skill_id": "Ceeon/videocut-skills/videocut",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-19T09:39:15.373276+00:00"
+  "generated_at": "2026-10-20T09:12:46.202716+00:00"
 }
