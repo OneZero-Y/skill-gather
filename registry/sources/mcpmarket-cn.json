@@ -81380,230 +81380,6 @@
       "score": 47
     },
     {
-      "skill_id": "markdown-viewer/skills/cloud",
-      "spec": {
-        "name": "cloud",
-        "description": "使用 PlantUML 语法创建云服务提供商架构图，支持使用官方的 AWS、Azure、GCP 和 Alibaba Cloud 服务图标。适用于多服务云拓扑和迁移蓝图的绘制。\n\n或者，为了完全符合要求，也可以这样输出：\n\n使用 PlantUML 语法创建云提供商架构图，支持使用官方的 AWS、Azure、GCP 和阿里云 服务图标。适用于多服务云拓扑和迁移蓝图的绘制。\n\n但是，**保留技术名词**，因此推荐以下输出：\n\n使用 PlantUML 语法创建云提供商架构图，支持使用官方的 AWS、Azure、GCP 和 Alibaba Cloud 服务图标。适用于多服务云拓扑和迁移蓝图的绘制。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/cloud",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/cloud",
-        "last_synced": "2026-08-14T02:36:23.524824Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "aws",
-        "azure",
-        "cloud",
-        "gcp"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "markdown-viewer/skills/data-analytics",
-      "spec": {
-        "name": "data-analytics",
-        "description": "使用 PlantUML 语法创建数据管道和数据分析架构图，支持数据库和数据分析图标。适用于 ETL 管道、数据湖、实时流处理、数据仓库和商业智能仪表盘设计。<br>\n\n注：此处 PlantUML 为技术名词保留，ETL、数据湖、实时流处理、数据仓库和商业智能仪表盘中的英文也为技术名词保留。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/data-analytics",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/data-analytics",
-        "last_synced": "2026-08-14T02:36:23.524886Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "analytics",
-        "data"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "markdown-viewer/skills/iot",
-      "spec": {
-        "name": "iot",
-        "description": "使用PlantUML语法创建物联网架构图，图中包含设备和传感器图标。适用于智能家居、工业物联网（IIoT）、车队管理、边缘计算和传感器网络布局。<br>\n\n更正后的版本：\n使用PlantUML语法创建物联网架构图，图中包含设备和传感器图标。适用于智能家居、工业物联网、车队管理、边缘计算和传感器网络布局。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/iot",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/iot",
-        "last_synced": "2026-08-14T02:36:23.525079Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "iot"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "markdown-viewer/skills/mindmap",
-      "spec": {
-        "name": "mindmap",
-        "description": "## 使用 PlantUML @startmindmap 语法创建层次思维导图\n\n最佳用于头脑风暴、主题分解、学习笔记和决策树，具备自动放射状布局、左右分支和逐节点样式定制功能。\n\n注：翻译后内容应为：\n## 使用 PlantUML @startmindmap 语法创建层次思维导图\n\n最佳用于头脑风暴、主题分解、学习笔记和决策树，具备自动放射状布局、左右分支和逐节点样式定制功能。\n\n但是根据您的要求，只需要翻译英文部分，所以输出结果如下：\n\n## 使用 PlantUML @startmindmap 语法创建层次思维导图\n\n最佳用于头脑风暴、主题分解、学习笔记和决策树，具备自动放射状布局、左右分支和逐节点样式定制功能。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/mindmap",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/mindmap",
-        "last_synced": "2026-08-14T02:36:23.525128Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "mindmap"
-      ],
-      "score": 46
-    },
-    {
-      "skill_id": "markdown-viewer/skills/uml",
-      "spec": {
-        "name": "uml",
-        "description": "使用PlantUML语法创建UML图表。最适合软件建模 — 类图、序列图、活动图、状态机图、组件图、用例图和部署图，支持简洁的基于文本的符号和自动布局。<br>\n\n或者：\n使用PlantUML语法创建UML图表。非常适合软件建模 — 类图、序列图、活动图、状态机图、组件图、用例图和部署图，支持简洁的基于文本的符号和自动布局。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/uml",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/uml",
-        "last_synced": "2026-08-14T02:36:23.525279Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "uml"
-      ],
-      "score": 46
-    },
-    {
       "skill_id": "tech-leads-club/agent-skills/accessibility",
       "spec": {
         "name": "accessibility",
@@ -116576,6 +116352,230 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "markdown-viewer/skills/cloud",
+      "spec": {
+        "name": "cloud",
+        "description": "使用 PlantUML 语法创建云服务提供商架构图，支持使用官方的 AWS、Azure、GCP 和 Alibaba Cloud 服务图标。适用于多服务云拓扑和迁移蓝图的绘制。\n\n或者，为了完全符合要求，也可以这样输出：\n\n使用 PlantUML 语法创建云提供商架构图，支持使用官方的 AWS、Azure、GCP 和阿里云 服务图标。适用于多服务云拓扑和迁移蓝图的绘制。\n\n但是，**保留技术名词**，因此推荐以下输出：\n\n使用 PlantUML 语法创建云提供商架构图，支持使用官方的 AWS、Azure、GCP 和 Alibaba Cloud 服务图标。适用于多服务云拓扑和迁移蓝图的绘制。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/cloud",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/cloud",
+        "last_synced": "2026-08-14T02:36:23.524824Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "aws",
+        "azure",
+        "cloud",
+        "gcp"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "markdown-viewer/skills/data-analytics",
+      "spec": {
+        "name": "data-analytics",
+        "description": "使用 PlantUML 语法创建数据管道和数据分析架构图，支持数据库和数据分析图标。适用于 ETL 管道、数据湖、实时流处理、数据仓库和商业智能仪表盘设计。<br>\n\n注：此处 PlantUML 为技术名词保留，ETL、数据湖、实时流处理、数据仓库和商业智能仪表盘中的英文也为技术名词保留。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/data-analytics",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/data-analytics",
+        "last_synced": "2026-08-14T02:36:23.524886Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "analytics",
+        "data"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "markdown-viewer/skills/iot",
+      "spec": {
+        "name": "iot",
+        "description": "使用PlantUML语法创建物联网架构图，图中包含设备和传感器图标。适用于智能家居、工业物联网（IIoT）、车队管理、边缘计算和传感器网络布局。<br>\n\n更正后的版本：\n使用PlantUML语法创建物联网架构图，图中包含设备和传感器图标。适用于智能家居、工业物联网、车队管理、边缘计算和传感器网络布局。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/iot",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/iot",
+        "last_synced": "2026-08-14T02:36:23.525079Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "iot"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "markdown-viewer/skills/mindmap",
+      "spec": {
+        "name": "mindmap",
+        "description": "## 使用 PlantUML @startmindmap 语法创建层次思维导图\n\n最佳用于头脑风暴、主题分解、学习笔记和决策树，具备自动放射状布局、左右分支和逐节点样式定制功能。\n\n注：翻译后内容应为：\n## 使用 PlantUML @startmindmap 语法创建层次思维导图\n\n最佳用于头脑风暴、主题分解、学习笔记和决策树，具备自动放射状布局、左右分支和逐节点样式定制功能。\n\n但是根据您的要求，只需要翻译英文部分，所以输出结果如下：\n\n## 使用 PlantUML @startmindmap 语法创建层次思维导图\n\n最佳用于头脑风暴、主题分解、学习笔记和决策树，具备自动放射状布局、左右分支和逐节点样式定制功能。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/mindmap",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/mindmap",
+        "last_synced": "2026-08-14T02:36:23.525128Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "mindmap"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "markdown-viewer/skills/uml",
+      "spec": {
+        "name": "uml",
+        "description": "使用PlantUML语法创建UML图表。最适合软件建模 — 类图、序列图、活动图、状态机图、组件图、用例图和部署图，支持简洁的基于文本的符号和自动布局。<br>\n\n或者：\n使用PlantUML语法创建UML图表。非常适合软件建模 — 类图、序列图、活动图、状态机图、组件图、用例图和部署图，支持简洁的基于文本的符号和自动布局。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/uml",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/uml",
+        "last_synced": "2026-08-14T02:36:23.525279Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "uml"
+      ],
+      "score": 44
     },
     {
       "skill_id": "Prat011/awesome-llm-skills/resemble-detect",
@@ -199006,402 +199006,6 @@
       "score": 43
     },
     {
-      "skill_id": "markdown-viewer/skills/archimate",
-      "spec": {
-        "name": "archimate",
-        "description": "使用 PlantUML 标准库宏创建 ArchiMate 企业架构图。适用于 TOGAF 视图、层级 EA 建模（业务/应用/技术）、动机分析和迁移规划。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/archimate",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/archimate",
-        "last_synced": "2026-08-14T02:36:23.524648Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "archimate"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/bpmn",
-      "spec": {
-        "name": "bpmn",
-        "description": "使用PlantUML语法创建业务流程图，支持BPMN、EIP和精益映射 stencil 图标。适用于工作流自动化、审批流程、基于消息的集成模式和价值流映射。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/bpmn",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/bpmn",
-        "last_synced": "2026-08-14T02:36:23.524736Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "bpmn"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/canvas",
-      "spec": {
-        "name": "canvas",
-        "description": "使用JSON格式创建具有自由定位节点的空间图表。最适合需要精确控制x/y坐标的概念地图、知识图谱和规划面板。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/canvas",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/canvas",
-        "last_synced": "2026-08-14T02:36:23.524784Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "canvas"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/graphviz",
-      "spec": {
-        "name": "graphviz",
-        "description": "使用 DOT 语言创建有向/无向图，自动布局。适用于依赖树、调用图、软件包层次结构和需要细粒度边缘路由的模块关系。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/graphviz",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/graphviz",
-        "last_synced": "2026-08-14T02:36:23.524932Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "graphviz"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/infocard",
-      "spec": {
-        "name": "infocard",
-        "description": "使用 HTML/CSS 在 Markdown 中创建类似编辑文章的信息卡。最适合用于知识总结、数据亮点、活动公告和具有杂志质量的排版的单主题内容卡。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/infocard",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/infocard",
-        "last_synced": "2026-08-14T02:36:23.524971Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "infocard"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/infographic",
-      "spec": {
-        "name": "infographic",
-        "description": "使用基于模板的语法创建信息图表，支持空格分隔的键值对（不支持YAML）。适用于快速创建具有视觉冲击力的KPI仪表盘、时间线、路线图、SWOT分析、漏斗图、对比图和组织结构图等。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/infographic",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/infographic",
-        "last_synced": "2026-08-14T02:36:23.525015Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "infographic"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/network",
-      "spec": {
-        "name": "network",
-        "description": "使用 PlantUML 语法和 mxgraph 设备图标（思科、Citrix 等）创建网络拓扑图。适用于局域网/广域网布局、数据中心互连和物理/逻辑网络设计。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/network",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/network",
-        "last_synced": "2026-08-14T02:36:23.525194Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "network"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/security",
-      "spec": {
-        "name": "security",
-        "description": "使用 PlantUML 语法创建安全架构图，图中包含身份、加密、防火墙和合规性图标。适用于 IAM 流程、零信任模型、加密管道和威胁检测架构。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/security",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/security",
-        "last_synced": "2026-08-14T02:36:23.525238Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "security",
-      "tags": [
-        "security"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "markdown-viewer/skills/vega",
-      "spec": {
-        "name": "vega",
-        "description": "使用Vega-Lite（声明式）和Vega（编程式）创建数据驱动的图表。最适合数字数据的统计可视化——条形图、折线图、散点图、热力图、面积图、雷达图和词云。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/markdown-viewer/skills",
-        "source_path": "skills/vega",
-        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/vega",
-        "last_synced": "2026-08-14T02:36:23.525327Z",
-        "upstream_commit": "",
-        "repo": "markdown-viewer/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 2359,
-        "last_commit_date": "2026-04-23",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "vega"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "sickn33/antigravity-awesome-skills/game-art",
       "spec": {
         "name": "game-art",
@@ -205339,6 +204943,402 @@
         "stripe"
       ],
       "score": 42
+    },
+    {
+      "skill_id": "markdown-viewer/skills/archimate",
+      "spec": {
+        "name": "archimate",
+        "description": "使用 PlantUML 标准库宏创建 ArchiMate 企业架构图。适用于 TOGAF 视图、层级 EA 建模（业务/应用/技术）、动机分析和迁移规划。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/archimate",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/archimate",
+        "last_synced": "2026-08-14T02:36:23.524648Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "archimate"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/bpmn",
+      "spec": {
+        "name": "bpmn",
+        "description": "使用PlantUML语法创建业务流程图，支持BPMN、EIP和精益映射 stencil 图标。适用于工作流自动化、审批流程、基于消息的集成模式和价值流映射。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/bpmn",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/bpmn",
+        "last_synced": "2026-08-14T02:36:23.524736Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "bpmn"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/canvas",
+      "spec": {
+        "name": "canvas",
+        "description": "使用JSON格式创建具有自由定位节点的空间图表。最适合需要精确控制x/y坐标的概念地图、知识图谱和规划面板。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/canvas",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/canvas",
+        "last_synced": "2026-08-14T02:36:23.524784Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "canvas"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/graphviz",
+      "spec": {
+        "name": "graphviz",
+        "description": "使用 DOT 语言创建有向/无向图，自动布局。适用于依赖树、调用图、软件包层次结构和需要细粒度边缘路由的模块关系。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/graphviz",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/graphviz",
+        "last_synced": "2026-08-14T02:36:23.524932Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "graphviz"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/infocard",
+      "spec": {
+        "name": "infocard",
+        "description": "使用 HTML/CSS 在 Markdown 中创建类似编辑文章的信息卡。最适合用于知识总结、数据亮点、活动公告和具有杂志质量的排版的单主题内容卡。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/infocard",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/infocard",
+        "last_synced": "2026-08-14T02:36:23.524971Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "infocard"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/infographic",
+      "spec": {
+        "name": "infographic",
+        "description": "使用基于模板的语法创建信息图表，支持空格分隔的键值对（不支持YAML）。适用于快速创建具有视觉冲击力的KPI仪表盘、时间线、路线图、SWOT分析、漏斗图、对比图和组织结构图等。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/infographic",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/infographic",
+        "last_synced": "2026-08-14T02:36:23.525015Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "infographic"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/network",
+      "spec": {
+        "name": "network",
+        "description": "使用 PlantUML 语法和 mxgraph 设备图标（思科、Citrix 等）创建网络拓扑图。适用于局域网/广域网布局、数据中心互连和物理/逻辑网络设计。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/network",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/network",
+        "last_synced": "2026-08-14T02:36:23.525194Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "network"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/security",
+      "spec": {
+        "name": "security",
+        "description": "使用 PlantUML 语法创建安全架构图，图中包含身份、加密、防火墙和合规性图标。适用于 IAM 流程、零信任模型、加密管道和威胁检测架构。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/security",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/security",
+        "last_synced": "2026-08-14T02:36:23.525238Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "security",
+      "tags": [
+        "security"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "markdown-viewer/skills/vega",
+      "spec": {
+        "name": "vega",
+        "description": "使用Vega-Lite（声明式）和Vega（编程式）创建数据驱动的图表。最适合数字数据的统计可视化——条形图、折线图、散点图、热力图、面积图、雷达图和词云。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/markdown-viewer/skills",
+        "source_path": "skills/vega",
+        "install_url": "https://github.com/markdown-viewer/skills/tree/main/skills/vega",
+        "last_synced": "2026-08-14T02:36:23.525327Z",
+        "upstream_commit": "",
+        "repo": "markdown-viewer/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 2359,
+        "last_commit_date": "2026-04-23",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "vega"
+      ],
+      "score": 41
     },
     {
       "skill_id": "P4nda0s/reverse-skills/rev-dex-dumper",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-20T09:12:46.202716+00:00"
+  "generated_at": "2026-10-21T09:10:18.016651+00:00"
 }
