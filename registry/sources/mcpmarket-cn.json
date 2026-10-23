@@ -48320,462 +48320,6 @@
       "score": 49
     },
     {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-comic",
-      "spec": {
-        "name": "baoyu-comic",
-        "description": "知识漫画创作者，支持多种风格（Logicomix/Ligne Claire、Ohmsha 漫画指南）。创作具有详细面板布局和连续图像生成的原创教育漫画。当用户要求创建“知识漫画”、“教育漫画”、“传记漫画”、“教程漫画”或“Logicomix 风格漫画”时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-comic",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-comic",
-        "last_synced": "2026-08-14T02:36:23.328125Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "baoyu",
-        "comic"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-diagram",
-      "spec": {
-        "name": "baoyu-diagram",
-        "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-diagram",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-diagram",
-        "last_synced": "2026-08-14T02:36:23.328369Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "baoyu",
-        "diagram"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-format-markdown",
-      "spec": {
-        "name": "baoyu-format-markdown",
-        "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-format-markdown",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-format-markdown",
-        "last_synced": "2026-08-14T02:36:23.328508Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "baoyu",
-        "format",
-        "markdown"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-image-cards",
-      "spec": {
-        "name": "baoyu-image-cards",
-        "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", or wants social media infographic series.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-image-cards",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-cards",
-        "last_synced": "2026-08-14T02:36:23.328578Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "baoyu",
-        "cards",
-        "image"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-imagine",
-      "spec": {
-        "name": "baoyu-imagine",
-        "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-imagine",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-imagine",
-        "last_synced": "2026-08-14T02:36:23.328704Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "azure",
-        "baoyu",
-        "imagine"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-markdown-to-html",
-      "spec": {
-        "name": "baoyu-markdown-to-html",
-        "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-markdown-to-html",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html",
-        "last_synced": "2026-08-14T02:36:23.328880Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "baoyu",
-        "html",
-        "markdown"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-post-to-weibo",
-      "spec": {
-        "name": "baoyu-post-to-weibo",
-        "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-post-to-weibo",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-weibo",
-        "last_synced": "2026-08-14T02:36:23.329013Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "baoyu",
-        "post",
-        "weibo"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-translate",
-      "spec": {
-        "name": "baoyu-translate",
-        "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-translate",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-translate",
-        "last_synced": "2026-08-14T02:36:23.329204Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "baoyu",
-        "translate"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-youtube-transcript",
-      "spec": {
-        "name": "baoyu-youtube-transcript",
-        "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-youtube-transcript",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-youtube-transcript",
-        "last_synced": "2026-08-14T02:36:23.329425Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "baoyu",
-        "transcript",
-        "youtube"
-      ],
-      "score": 49
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/release-skills",
-      "spec": {
-        "name": "release-skills",
-        "description": "baoyu-skills 插件的发布工作流程。当用户说“release”、“发布”、“push”、“推送”、“new version”、“新版本”、“bump version”、“更新版本”，或者想要将更改发布到远程时使用。分析自上次标签以来的更改，更新 CHANGELOG（EN/CN），更新 marketplace.json 版本，提交并创建版本标签。在任何包含未提交技能更改的 git push 之前**必须**使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/release-skills",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/release-skills",
-        "last_synced": "2026-08-14T02:36:23.329534Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "release",
-        "skills"
-      ],
-      "score": 49
-    },
-    {
       "skill_id": "alirezarezvani/claude-skills/a11y-audit",
       "spec": {
         "name": "a11y-audit",
@@ -55574,6 +55118,462 @@
         "unit"
       ],
       "score": 48
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-comic",
+      "spec": {
+        "name": "baoyu-comic",
+        "description": "知识漫画创作者，支持多种风格（Logicomix/Ligne Claire、Ohmsha 漫画指南）。创作具有详细面板布局和连续图像生成的原创教育漫画。当用户要求创建“知识漫画”、“教育漫画”、“传记漫画”、“教程漫画”或“Logicomix 风格漫画”时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-comic",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-comic",
+        "last_synced": "2026-08-14T02:36:23.328125Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "baoyu",
+        "comic"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-diagram",
+      "spec": {
+        "name": "baoyu-diagram",
+        "description": "Create professional, dark-themed SVG diagrams of any type — architecture diagrams, flowcharts, sequence diagrams, structural diagrams, mind maps, timelines, illustrative/conceptual diagrams, and more. Use this skill whenever the user asks for any kind of technical or conceptual diagram, visualization of a system, process flow, data flow, component relationship, network topology, decision tree, org chart, state machine, or any visual representation of structure/logic/process. Also trigger when the user says \"画个图\" \"画一个架构图\" \"diagram\" \"flowchart\" \"sequence diagram\" \"draw me a ...\" or uploads content and asks to visualize it. Output is always a standalone .svg file.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-diagram",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-diagram",
+        "last_synced": "2026-08-14T02:36:23.328369Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "baoyu",
+        "diagram"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-format-markdown",
+      "spec": {
+        "name": "baoyu-format-markdown",
+        "description": "Formats plain text or markdown files with frontmatter, titles, summaries, headings, bold, lists, and code blocks. Use when user asks to \"format markdown\", \"beautify article\", \"add formatting\", or improve article layout. Outputs to {filename}-formatted.md.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-format-markdown",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-format-markdown",
+        "last_synced": "2026-08-14T02:36:23.328508Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "baoyu",
+        "format",
+        "markdown"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-image-cards",
+      "spec": {
+        "name": "baoyu-image-cards",
+        "description": "Generates infographic image card series with 12 visual styles, 8 layouts, and 3 color palettes. Breaks content into 1-10 cartoon-style image cards optimized for social media engagement. Use when user mentions \"小红书图片\", \"小红书种草\", \"小绿书\", \"微信图文\", \"微信贴图\", \"image cards\", \"图片卡片\", or wants social media infographic series.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-image-cards",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-cards",
+        "last_synced": "2026-08-14T02:36:23.328578Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "baoyu",
+        "cards",
+        "image"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-imagine",
+      "spec": {
+        "name": "baoyu-imagine",
+        "description": "AI image generation with OpenAI GPT Image 2, Azure OpenAI, Google, OpenRouter, DashScope, Z.AI GLM-Image, MiniMax, Jimeng, Seedream and Replicate APIs. Supports text-to-image, reference images, aspect ratios, and batch generation from saved prompt files. Sequential by default; use batch parallel generation when the user already has multiple prompts or wants stable multi-image throughput. Use when user asks to generate, create, or draw images.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-imagine",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-imagine",
+        "last_synced": "2026-08-14T02:36:23.328704Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "azure",
+        "baoyu",
+        "imagine"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-markdown-to-html",
+      "spec": {
+        "name": "baoyu-markdown-to-html",
+        "description": "Converts Markdown to styled HTML with WeChat-compatible themes. Supports code highlighting, math, PlantUML, footnotes, alerts, infographics, and optional bottom citations for external links. Use when user asks for \"markdown to html\", \"convert md to html\", \"md 转 html\", \"微信外链转底部引用\", or needs styled HTML output from markdown.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-markdown-to-html",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html",
+        "last_synced": "2026-08-14T02:36:23.328880Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "baoyu",
+        "html",
+        "markdown"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-post-to-weibo",
+      "spec": {
+        "name": "baoyu-post-to-weibo",
+        "description": "Posts content to Weibo (微博). Supports regular posts with text, images, and videos, and headline articles (头条文章) with Markdown input via Chrome CDP. Use when user asks to \"post to Weibo\", \"发微博\", \"发布微博\", \"publish to Weibo\", \"share on Weibo\", \"写微博\", or \"微博头条文章\".",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-post-to-weibo",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-weibo",
+        "last_synced": "2026-08-14T02:36:23.329013Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "baoyu",
+        "post",
+        "weibo"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-translate",
+      "spec": {
+        "name": "baoyu-translate",
+        "description": "Translates articles and documents between languages with three modes - quick (direct), normal (analyze then translate), and refined (analyze, translate, review, polish). Supports custom glossaries and terminology consistency via EXTEND.md. Use when user asks to \"translate\", \"翻译\", \"精翻\", \"translate article\", \"translate to Chinese/English\", \"改成中文\", \"改成英文\", \"convert to Chinese\", \"localize\", \"本地化\", or needs any document translation. Also triggers for \"refined translation\", \"精细翻译\", \"proofread translation\", \"快速翻译\", \"快翻\", \"这篇文章翻译一下\", or when a URL or file is provided with translation intent.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-translate",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-translate",
+        "last_synced": "2026-08-14T02:36:23.329204Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "baoyu",
+        "translate"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-youtube-transcript",
+      "spec": {
+        "name": "baoyu-youtube-transcript",
+        "description": "Downloads YouTube video transcripts/subtitles and cover images by URL or video ID. Supports multiple languages, translation, chapters, and speaker identification. Caches raw data for fast re-formatting. Use when user asks to \"get YouTube transcript\", \"download subtitles\", \"get captions\", \"YouTube字幕\", \"YouTube封面\", \"视频封面\", \"video thumbnail\", \"video cover image\", or provides a YouTube URL and wants the transcript/subtitle text or cover image extracted.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-youtube-transcript",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-youtube-transcript",
+        "last_synced": "2026-08-14T02:36:23.329425Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "baoyu",
+        "transcript",
+        "youtube"
+      ],
+      "score": 47
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/release-skills",
+      "spec": {
+        "name": "release-skills",
+        "description": "baoyu-skills 插件的发布工作流程。当用户说“release”、“发布”、“push”、“推送”、“new version”、“新版本”、“bump version”、“更新版本”，或者想要将更改发布到远程时使用。分析自上次标签以来的更改，更新 CHANGELOG（EN/CN），更新 marketplace.json 版本，提交并创建版本标签。在任何包含未提交技能更改的 git push 之前**必须**使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/release-skills",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/release-skills",
+        "last_synced": "2026-08-14T02:36:23.329534Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "release",
+        "skills"
+      ],
+      "score": 47
     },
     {
       "skill_id": "forrestchang/andrej-karpathy-skills/karpathy-guidelines",
@@ -112372,514 +112372,6 @@
       "score": 45
     },
     {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-article-illustrator",
-      "spec": {
-        "name": "baoyu-article-illustrator",
-        "description": "智能文章插图技巧。分析文章内容并在需要视觉辅助的位置生成插图，并提供多种样式选项。当用户要求“为文章添加插图”、“为文章生成图像”或“为文章配图”时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-article-illustrator",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator",
-        "last_synced": "2026-08-14T02:36:23.328072Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "article",
-        "baoyu",
-        "illustrator"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-compress-image",
-      "spec": {
-        "name": "baoyu-compress-image",
-        "description": "跨平台图像压缩技术。默认将图像转换为 WebP 格式，并支持 PNG 转 PNG。使用系统工具（sips、cwebp、ImageMagick），并以 Sharp 作为备用方案。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-compress-image",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image",
-        "last_synced": "2026-08-14T02:36:23.328185Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "baoyu",
-        "compress",
-        "image"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-cover-image",
-      "spec": {
-        "name": "baoyu-cover-image",
-        "description": "为文章生成精美的封面图片。分析内容并创建具有多种样式选项的引人注目的手绘风格封面图片。当用户要求“生成封面图片”、“创建文章封面”或“为文章制作封面”时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-cover-image",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image",
-        "last_synced": "2026-08-14T02:36:23.328232Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "baoyu",
-        "cover",
-        "image"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-danger-gemini-web",
-      "spec": {
-        "name": "baoyu-danger-gemini-web",
-        "description": "使用 Gemini Web 的图像生成技能。通过 Google Gemini 从文本提示生成图像。还支持文本生成。用作封面图像、小红书图像、文章插画家等其他技能的图像生成后端。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-danger-gemini-web",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-gemini-web",
-        "last_synced": "2026-08-14T02:36:23.328276Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "baoyu",
-        "danger",
-        "gemini",
-        "web"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-danger-x-to-markdown",
-      "spec": {
-        "name": "baoyu-danger-x-to-markdown",
-        "description": "将 X (Twitter) 推文或文章 URL 转换为 markdown 格式。使用逆向工程的 X API（私有）。使用前需要用户同意。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-danger-x-to-markdown",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-x-to-markdown",
-        "last_synced": "2026-08-14T02:36:23.328322Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "baoyu",
-        "danger",
-        "markdown"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-image-gen",
-      "spec": {
-        "name": "baoyu-image-gen",
-        "description": "基于 AI SDK 的图像生成，使用官方 OpenAI 和 Google API。支持文本到图像、参考图像、宽高比和质量预设。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-image-gen",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-gen",
-        "last_synced": "2026-08-14T02:36:23.328660Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "baoyu",
-        "gen",
-        "image",
-        "sdk"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-infographic",
-      "spec": {
-        "name": "baoyu-infographic",
-        "description": "使用 20 种布局类型和 17 种视觉样式生成专业的信息图。分析内容，推荐布局×样式组合，并生成可用于出版的信息图。当用户要求创建“信息图”、“信息图”或“视觉摘要”时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-infographic",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic",
-        "last_synced": "2026-08-14T02:36:23.328802Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "baoyu",
-        "infographic"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-post-to-x",
-      "spec": {
-        "name": "baoyu-post-to-x",
-        "description": "将内容和文章发布到 X (Twitter)。支持带有图像/视频的常规帖子和 X Articles（长篇 Markdown）。使用带有 CDP 的真实 Chrome 浏览器来绕过反自动化。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-post-to-x",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-x",
-        "last_synced": "2026-08-14T02:36:23.329108Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "baoyu",
-        "post"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-slide-deck",
-      "spec": {
-        "name": "baoyu-slide-deck",
-        "description": "从内容生成专业的幻灯片演示文稿图像。创建包含样式说明的综合大纲，然后生成单独的幻灯片图像。当用户要求“创建幻灯片”、“制作演示文稿”、“生成演示文稿”或“幻灯片演示文稿”时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-slide-deck",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-slide-deck",
-        "last_synced": "2026-08-14T02:36:23.329163Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "baoyu",
-        "deck",
-        "slide"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-url-to-markdown",
-      "spec": {
-        "name": "baoyu-url-to-markdown",
-        "description": "使用 Chrome CDP 获取任何 URL 并转换为 markdown。支持两种模式 - 页面加载时自动捕获，或等待用户信号（对于需要登录的页面）。当用户想要将网页另存为 markdown 时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-url-to-markdown",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown",
-        "last_synced": "2026-08-14T02:36:23.329327Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "baoyu",
-        "markdown",
-        "url"
-      ],
-      "score": 45
-    },
-    {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-xhs-images",
-      "spec": {
-        "name": "baoyu-xhs-images",
-        "description": "小红书（Little Red Book）信息图系列生成器，具有多种样式选项。将内容分解为 1-10 个卡通风格的信息图。当用户要求创建“小红书图片”、“XHS images”或“RedNote infographics”时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-xhs-images",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images",
-        "last_synced": "2026-08-14T02:36:23.329375Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "baoyu",
-        "images",
-        "xhs"
-      ],
-      "score": 45
-    },
-    {
       "skill_id": "alirezarezvani/claude-skills/focused-fix",
       "spec": {
         "name": "focused-fix",
@@ -116352,6 +115844,514 @@
         "plan"
       ],
       "score": 45
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-article-illustrator",
+      "spec": {
+        "name": "baoyu-article-illustrator",
+        "description": "智能文章插图技巧。分析文章内容并在需要视觉辅助的位置生成插图，并提供多种样式选项。当用户要求“为文章添加插图”、“为文章生成图像”或“为文章配图”时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-article-illustrator",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator",
+        "last_synced": "2026-08-14T02:36:23.328072Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "article",
+        "baoyu",
+        "illustrator"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-compress-image",
+      "spec": {
+        "name": "baoyu-compress-image",
+        "description": "跨平台图像压缩技术。默认将图像转换为 WebP 格式，并支持 PNG 转 PNG。使用系统工具（sips、cwebp、ImageMagick），并以 Sharp 作为备用方案。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-compress-image",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image",
+        "last_synced": "2026-08-14T02:36:23.328185Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "baoyu",
+        "compress",
+        "image"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-cover-image",
+      "spec": {
+        "name": "baoyu-cover-image",
+        "description": "为文章生成精美的封面图片。分析内容并创建具有多种样式选项的引人注目的手绘风格封面图片。当用户要求“生成封面图片”、“创建文章封面”或“为文章制作封面”时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-cover-image",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image",
+        "last_synced": "2026-08-14T02:36:23.328232Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "baoyu",
+        "cover",
+        "image"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-danger-gemini-web",
+      "spec": {
+        "name": "baoyu-danger-gemini-web",
+        "description": "使用 Gemini Web 的图像生成技能。通过 Google Gemini 从文本提示生成图像。还支持文本生成。用作封面图像、小红书图像、文章插画家等其他技能的图像生成后端。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-danger-gemini-web",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-gemini-web",
+        "last_synced": "2026-08-14T02:36:23.328276Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "baoyu",
+        "danger",
+        "gemini",
+        "web"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-danger-x-to-markdown",
+      "spec": {
+        "name": "baoyu-danger-x-to-markdown",
+        "description": "将 X (Twitter) 推文或文章 URL 转换为 markdown 格式。使用逆向工程的 X API（私有）。使用前需要用户同意。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-danger-x-to-markdown",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-x-to-markdown",
+        "last_synced": "2026-08-14T02:36:23.328322Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "baoyu",
+        "danger",
+        "markdown"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-image-gen",
+      "spec": {
+        "name": "baoyu-image-gen",
+        "description": "基于 AI SDK 的图像生成，使用官方 OpenAI 和 Google API。支持文本到图像、参考图像、宽高比和质量预设。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-image-gen",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-gen",
+        "last_synced": "2026-08-14T02:36:23.328660Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "baoyu",
+        "gen",
+        "image",
+        "sdk"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-infographic",
+      "spec": {
+        "name": "baoyu-infographic",
+        "description": "使用 20 种布局类型和 17 种视觉样式生成专业的信息图。分析内容，推荐布局×样式组合，并生成可用于出版的信息图。当用户要求创建“信息图”、“信息图”或“视觉摘要”时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-infographic",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic",
+        "last_synced": "2026-08-14T02:36:23.328802Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "baoyu",
+        "infographic"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-post-to-x",
+      "spec": {
+        "name": "baoyu-post-to-x",
+        "description": "将内容和文章发布到 X (Twitter)。支持带有图像/视频的常规帖子和 X Articles（长篇 Markdown）。使用带有 CDP 的真实 Chrome 浏览器来绕过反自动化。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-post-to-x",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-x",
+        "last_synced": "2026-08-14T02:36:23.329108Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "baoyu",
+        "post"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-slide-deck",
+      "spec": {
+        "name": "baoyu-slide-deck",
+        "description": "从内容生成专业的幻灯片演示文稿图像。创建包含样式说明的综合大纲，然后生成单独的幻灯片图像。当用户要求“创建幻灯片”、“制作演示文稿”、“生成演示文稿”或“幻灯片演示文稿”时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-slide-deck",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-slide-deck",
+        "last_synced": "2026-08-14T02:36:23.329163Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "baoyu",
+        "deck",
+        "slide"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-url-to-markdown",
+      "spec": {
+        "name": "baoyu-url-to-markdown",
+        "description": "使用 Chrome CDP 获取任何 URL 并转换为 markdown。支持两种模式 - 页面加载时自动捕获，或等待用户信号（对于需要登录的页面）。当用户想要将网页另存为 markdown 时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-url-to-markdown",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown",
+        "last_synced": "2026-08-14T02:36:23.329327Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "baoyu",
+        "markdown",
+        "url"
+      ],
+      "score": 44
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-xhs-images",
+      "spec": {
+        "name": "baoyu-xhs-images",
+        "description": "小红书（Little Red Book）信息图系列生成器，具有多种样式选项。将内容分解为 1-10 个卡通风格的信息图。当用户要求创建“小红书图片”、“XHS images”或“RedNote infographics”时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-xhs-images",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images",
+        "last_synced": "2026-08-14T02:36:23.329375Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "baoyu",
+        "images",
+        "xhs"
+      ],
+      "score": 44
     },
     {
       "skill_id": "markdown-viewer/skills/cloud",
@@ -203868,52 +203868,6 @@
       "score": 42
     },
     {
-      "skill_id": "JimLiu/baoyu-skills/baoyu-post-to-wechat",
-      "spec": {
-        "name": "baoyu-post-to-wechat",
-        "description": "发布内容到微信公众号。支持文章发布和图文发布。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/JimLiu/baoyu-skills",
-        "source_path": "skills/baoyu-post-to-wechat",
-        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-wechat",
-        "last_synced": "2026-08-14T02:36:23.328975Z",
-        "upstream_commit": "",
-        "repo": "jimliu/baoyu-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 16989,
-        "last_commit_date": "2026-04-25",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "baoyu",
-        "post",
-        "wechat"
-      ],
-      "score": 42
-    },
-    {
       "skill_id": "alirezarezvani/claude-skills/financial-health",
       "spec": {
         "name": "financial-health",
@@ -204943,6 +204897,52 @@
         "stripe"
       ],
       "score": 42
+    },
+    {
+      "skill_id": "JimLiu/baoyu-skills/baoyu-post-to-wechat",
+      "spec": {
+        "name": "baoyu-post-to-wechat",
+        "description": "发布内容到微信公众号。支持文章发布和图文发布。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/JimLiu/baoyu-skills",
+        "source_path": "skills/baoyu-post-to-wechat",
+        "install_url": "https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-wechat",
+        "last_synced": "2026-08-14T02:36:23.328975Z",
+        "upstream_commit": "",
+        "repo": "jimliu/baoyu-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 16989,
+        "last_commit_date": "2026-04-25",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "baoyu",
+        "post",
+        "wechat"
+      ],
+      "score": 41
     },
     {
       "skill_id": "markdown-viewer/skills/archimate",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-22T09:12:34.301774+00:00"
+  "generated_at": "2026-10-23T09:09:23.911976+00:00"
 }
