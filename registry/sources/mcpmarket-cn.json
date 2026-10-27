@@ -54980,51 +54980,6 @@
       "score": 48
     },
     {
-      "skill_id": "vercel-labs/agent-skills/vercel-deploy",
-      "spec": {
-        "name": "vercel-deploy",
-        "description": "将应用程序和网站部署到 Vercel。当用户请求部署操作（例如“部署我的应用程序”、“将其部署到生产环境”、“创建预览部署”、“部署并提供链接”或“将其发布”）时，请使用此技能。无需身份验证 - 返回预览 URL 和可声明的部署链接。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/vercel-labs/agent-skills",
-        "source_path": "skills/vercel-deploy",
-        "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-deploy",
-        "last_synced": "2026-08-14T02:36:23.314915Z",
-        "upstream_commit": "",
-        "repo": "vercel-labs/agent-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 26074,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 1,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "deploy",
-        "vercel"
-      ],
-      "score": 48
-    },
-    {
       "skill_id": "openai/skills/codex-readiness-integration-test",
       "spec": {
         "name": "codex-readiness-integration-test",
@@ -57680,51 +57635,6 @@
         "mcp",
         "research",
         "review"
-      ],
-      "score": 47
-    },
-    {
-      "skill_id": "KKKKhazix/Khazix-Skills/github-to-skills",
-      "spec": {
-        "name": "github-to-skills",
-        "description": "用于将 GitHub 仓库转换为专用 AI 技能的自动化工厂。当用户提供 GitHub URL 并希望从中“打包”、“包装”或“创建技能”时，请使用此技能。它会自动获取仓库详细信息、最新提交哈希，并生成具有增强元数据的标准化技能结构，适用于生命周期管理。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/KKKKhazix/Khazix-Skills",
-        "source_path": "skills/github-to-skills",
-        "install_url": "https://github.com/KKKKhazix/Khazix-Skills/tree/main/skills/github-to-skills",
-        "last_synced": "2026-08-14T02:36:23.412366Z",
-        "upstream_commit": "",
-        "repo": "kkkkhazix/khazix-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 7875,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "github",
-        "skills"
       ],
       "score": 47
     },
@@ -63948,6 +63858,51 @@
       "score": 47
     },
     {
+      "skill_id": "vercel-labs/agent-skills/vercel-deploy",
+      "spec": {
+        "name": "vercel-deploy",
+        "description": "将应用程序和网站部署到 Vercel。当用户请求部署操作（例如“部署我的应用程序”、“将其部署到生产环境”、“创建预览部署”、“部署并提供链接”或“将其发布”）时，请使用此技能。无需身份验证 - 返回预览 URL 和可声明的部署链接。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/vercel-labs/agent-skills",
+        "source_path": "skills/vercel-deploy",
+        "install_url": "https://github.com/vercel-labs/agent-skills/tree/main/skills/vercel-deploy",
+        "last_synced": "2026-08-14T02:36:23.314915Z",
+        "upstream_commit": "",
+        "repo": "vercel-labs/agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 26074,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 1,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "deploy",
+        "vercel"
+      ],
+      "score": 46
+    },
+    {
       "skill_id": "expo/skills/eas-update-insights",
       "spec": {
         "name": "eas-update-insights",
@@ -65588,6 +65543,51 @@
         "using"
       ],
       "score": 46
+    },
+    {
+      "skill_id": "KKKKhazix/Khazix-Skills/github-to-skills",
+      "spec": {
+        "name": "github-to-skills",
+        "description": "用于将 GitHub 仓库转换为专用 AI 技能的自动化工厂。当用户提供 GitHub URL 并希望从中“打包”、“包装”或“创建技能”时，请使用此技能。它会自动获取仓库详细信息、最新提交哈希，并生成具有增强元数据的标准化技能结构，适用于生命周期管理。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/KKKKhazix/Khazix-Skills",
+        "source_path": "skills/github-to-skills",
+        "install_url": "https://github.com/KKKKhazix/Khazix-Skills/tree/main/skills/github-to-skills",
+        "last_synced": "2026-08-14T02:36:23.412366Z",
+        "upstream_commit": "",
+        "repo": "kkkkhazix/khazix-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 7875,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "github",
+        "skills"
+      ],
+      "score": 45
     },
     {
       "skill_id": "Orchestra-Research/AI-Research-SKILLs/academic-plotting",
@@ -120922,1842 +120922,6 @@
       "score": 43
     },
     {
-      "skill_id": "daymade/claude-code-skills/asr-transcribe-to-text",
-      "spec": {
-        "name": "asr-transcribe-to-text",
-        "description": "使用 Qwen3-ASR 将音频和视频文件转录为文本。支持两种模式 — 在 macOS Apple Silicon 上进行本地 MLX 推理（无需 API 密钥，15-27 倍实时速度）和通过 vLLM/OpenAI 兼容端点的远程 API。自动检测平台并推荐最佳路径。当用户想要转录录音、将音频/视频转换为文本、进行语音转文本时，或提及 ASR、Qwen ASR、转录、语音转文字、录音转文字时触发。此外，会议录音、讲座、采访、播客、屏幕录制或任何用户希望转换为文本的音频/视频文件也会触发。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/asr-transcribe-to-text",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/asr-transcribe-to-text",
-        "last_synced": "2026-08-14T02:36:23.560959Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "asr",
-        "text",
-        "transcribe"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/capture-screen",
-      "spec": {
-        "name": "capture-screen",
-        "description": "在 macOS 上以编程方式捕获截图。使用 Swift 的 CGWindowListCopyWindowInfo 查找窗口 ID，通过 AppleScript 控制应用程序窗口（缩放、滚动、选择），并使用 screencapture 捕获截图。适用于自动化截图、为文档捕获应用程序窗口或构建多镜头视觉工作流。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/capture-screen",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/capture-screen",
-        "last_synced": "2026-08-14T02:36:23.561024Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "capture",
-        "screen"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/claude-code-history-files-finder",
-      "spec": {
-        "name": "claude-code-history-files-finder",
-        "description": "从 Claude Code 会话历史文件中查找和恢复内容。当搜索已删除文件、跟踪会话中的更改、分析对话历史记录或从以前的 Claude 交互中恢复代码时，应使用此技能。触发词包括提及“会话历史”、“恢复已删除”、“在历史中查找”、“以前的对话”或“.claude/projects”。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/claude-code-history-files-finder",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/claude-code-history-files-finder",
-        "last_synced": "2026-08-14T02:36:23.561107Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "claude",
-        "code",
-        "files",
-        "finder",
-        "history"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/claude-md-progressive-disclosurer",
-      "spec": {
-        "name": "claude-md-progressive-disclosurer",
-        "description": "通过应用渐进式呈现原则来优化用户 CLAUDE.md 文件。当用户想要减少 CLAUDE.md 的臃肿程度、将详细内容移至引用、将可重用模式提取到技能中或提高上下文效率时，应使用此技能。触发词包括“优化 CLAUDE.md”、“减少 CLAUDE.md 大小”、“应用渐进式呈现”或关于 CLAUDE.md 太长的抱怨。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/claude-md-progressive-disclosurer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/claude-md-progressive-disclosurer",
-        "last_synced": "2026-08-14T02:36:23.561166Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "claude",
-        "disclosurer",
-        "progressive"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/claude-skills-troubleshooting",
-      "spec": {
-        "name": "claude-skills-troubleshooting",
-        "description": "诊断并解决 Claude Code 插件和技能问题。当插件已安装但未显示在可用技能列表中，技能未按预期激活，或者在 `settings.json` 中排除 `enabledPlugins` 配置故障时，应使用此技能。触发词包括“插件无法工作”、“技能未显示”、“已安装但已禁用”或“`enabledPlugins`”问题。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/claude-skills-troubleshooting",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/claude-skills-troubleshooting",
-        "last_synced": "2026-08-14T02:36:23.561222Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "claude",
-        "skills",
-        "troubleshooting"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/cli-demo-generator",
-      "spec": {
-        "name": "cli-demo-generator",
-        "description": "使用VHS终端记录功能生成专业的CLI动画演示GIF。处理磁带文件的创建、带有隐藏设置的自我引导演示、输出噪音过滤、后处理加速和帧级验证。当用户想要创建终端演示、将CLI工作流程记录为GIF、生成动画文档、为README文件构建演示磁带或需要直观展示任何命令行工具时使用。也可以在“记录终端”、“VHS磁带”、“演示GIF”、“动画CLI”或任何需要直观演示shell命令的请求时触发。\n\n``` \n<div> \n<p> 使用VHS终端记录功能生成专业的CLI动画演示GIF。处理磁带文件的创建、带有隐藏设置的自我引导演示、输出噪音过滤、后处理加速和帧级验证。当用户想要创建终端演示、将CLI工作流程记录为GIF、生成动画文档、为README文件构建演示磁带或需要直观展示任何命令行工具时使用。也可以在“记录终端”、“VHS磁带”、“演示GIF”、“动画CLI”或任何需要直观演示shell命令的请求时触发。</p>\n</div>\n```",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/cli-demo-generator",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/cli-demo-generator",
-        "last_synced": "2026-08-14T02:36:23.561274Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "cli",
-        "demo",
-        "generator"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/cloudflare-troubleshooting",
-      "spec": {
-        "name": "cloudflare-troubleshooting",
-        "description": "使用 API 驱动的证据收集来调查和解决 Cloudflare 配置问题。用于排除 ERR_TOO_MANY_REDIRECTS、SSL 错误、DNS 问题或任何与 Cloudflare 相关的问题。专注于使用 Cloudflare API 进行系统调查，以检查实际配置，而不是进行假设。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/cloudflare-troubleshooting",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/cloudflare-troubleshooting",
-        "last_synced": "2026-08-14T02:36:23.561343Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "devops",
-      "tags": [
-        "api",
-        "cloudflare",
-        "troubleshooting"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/competitors-analysis",
-      "spec": {
-        "name": "competitors-analysis",
-        "description": "## 分析竞争对手仓库\n\n以证据为基础的方法分析竞争对手仓库。在跟踪竞争对手、创建竞争对手档案或生成竞争分析时使用。<br>\n**关键** - 所有分析必须基于实际克隆的代码，绝不能基于假设。<br>\n触发词包括“分析竞争对手”、“添加竞争对手”、“竞争分析”或“竞品分析”。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/competitors-analysis",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/competitors-analysis",
-        "last_synced": "2026-08-14T02:36:23.561405Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "analysis",
-        "competitors"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/continue-claude-work",
-      "spec": {
-        "name": "continue-claude-work",
-        "description": "从本地 `.claude` 会话产物中恢复可操作上下文，并在不运行 `claude --resume` 的情况下继续中断的工作。当用户提供 Claude 会话 ID、要求从本地历史记录继续之前的工作、或希望在恢复实施前检查 `.claude` 文件时，应使用此技能。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/continue-claude-work",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/continue-claude-work",
-        "last_synced": "2026-08-14T02:36:23.561447Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "claude",
-        "continue",
-        "work"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/debugging-network-issues",
-      "spec": {
-        "name": "debugging-network-issues",
-        "description": "证据的网络、流媒体和协议层故障调查。在调试连接重置（ECONNRESET、HTTP/2 RST_STREAM、INTERNAL_ERROR）、SSE 或长轮询 stall、固定时间连接断开、CDN/代理/CGNAT 空闲超时或任何症状与明显原因不符的事件时使用。采用证伪优先的方法 — 分层隔离实验以确定负责的网络层、环境门控运行时检测以进行非侵入性观察，以及反向审查代理团队以挑战单一原因假设。在以下情况下强烈触发：“套接字意外关闭”、“流中断”、“ECONNRESET”、“HTTP/2 INTERNAL_ERROR”、“N 秒后失败”、“有时有效，有时无效”、“上游沉默 X 秒”，或调查人员可能在获得证据之前草率下结论的任何场景。推广到任何多层系统调查中，假设优先思考是故障模式。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/debugging-network-issues",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/debugging-network-issues",
-        "last_synced": "2026-08-14T02:36:23.561500Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "debugging",
-        "issues",
-        "network"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/developing-ios-apps",
-      "spec": {
-        "name": "developing-ios-apps",
-        "description": "使用XcodeGen、SwiftUI和SPM开发iOS/macOS应用程序。处理Apple Developer签名、公证和CI/CD流水线。在以下情况下触发：XcodeGen项目.yml、SPM依赖问题、设备部署、代码签名错误（错误-25294、钥匙链不匹配、临时回退、EMFILE、公证凭证冲突、continueOnError）、相机/AVFoundation调试、iOS版本兼容性、“库未加载 @rpath”、Electron @electron/osx-sign/@electron/notarize 配置、notarytool、条件中的GitHub Actions机密，或证书/配置问题。适用于构建iOS/macOS应用、解决Xcode构建失败、部署到真实设备或配置CI/CD签名流水线。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/developing-ios-apps",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/developing-ios-apps",
-        "last_synced": "2026-08-14T02:36:23.561574Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "apps",
-        "developing",
-        "ios"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/doc-to-markdown",
-      "spec": {
-        "name": "doc-to-markdown",
-        "description": "将 DOCX/PDF/PPTX 转换为高质量的 Markdown，并进行自动后期处理。修复 pandoc 网格表格、简单表格、图像路径、CJK 粗体间距、属性噪音和代码块。在 Docling、MarkItDown、Pandoc raw 和 Mammoth 中以最佳性能（7.6/10）为基准。触发关键词包括“转换文档”、“docx 转 markdown”、“解析 word”、“doc 转 markdown”、“解析 word”、“转换文档”。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/doc-to-markdown",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/doc-to-markdown",
-        "last_synced": "2026-08-14T02:36:23.561650Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "doc",
-        "markdown",
-        "pdf",
-        "pptx"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/docs-cleaner",
-      "spec": {
-        "name": "docs-cleaner",
-        "description": "整合冗余文档，同时保留所有有价值的内容。当用户想要清理文档膨胀、合并冗余文档、减少文档蔓延或整合多个涵盖相同主题的文件时，应使用此技能。触发条件包括“清理文档”、“整合文档”、“文档文件过多”、“合并这些文档”，或者当文档在多个涵盖类似主题的文件中超过 500 行时。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/docs-cleaner",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/docs-cleaner",
-        "last_synced": "2026-08-14T02:36:23.561712Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "cleaner",
-        "docs"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/douban-skill",
-      "spec": {
-        "name": "douban-skill",
-        "description": "以下是翻译后的内容：\n\n导出并同步豆瓣的书籍、电影、音乐、游戏收藏到本地CSV文件，通过Frodo API。支持完整导出（所有历史记录）和RSS增量同步（最近的项目）。适用于用户想要导出豆瓣的阅读、观看、聆听、游戏历史记录，备份豆瓣数据，设置增量同步，或提及豆瓣收藏时。触发关键词：豆瓣，读书记录，观影记录，书影音，导出豆瓣，导出，备份，同步，收藏。\n\n以下是按照Markdown格式和要求保留HTML标签的输出：\n\n导出并同步豆瓣的书籍、电影、音乐、游戏收藏到本地CSV文件，通过Frodo API。支持完整导出（所有历史记录）和RSS增量同步（最近的项目）。适用于用户想要导出豆瓣的阅读、观看、聆听、游戏历史记录，备份豆瓣数据，设置增量同步，或提及豆瓣收藏时。<br>\n触发关键词：豆瓣，读书记录，观影记录，书影音，导出豆瓣，导出，备份，同步，收藏。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/douban-skill",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/douban-skill",
-        "last_synced": "2026-08-14T02:36:23.561758Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "douban",
-        "skill"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/excel-automation",
-      "spec": {
-        "name": "excel-automation",
-        "description": "在 macOS 上创建、解析和控制 Excel 文件。使用 openpyxl 进行专业格式化，使用标准库 zipfile+xml 解析复杂的 xlsm 文件，用于投资银行财务模型，并通过 AppleScript 控制 Excel 窗口。可用于创建格式化的 Excel 报告，解析 openpyxl 无法处理的财务模型，或在 macOS 上自动化 Excel。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/excel-automation",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/excel-automation",
-        "last_synced": "2026-08-14T02:36:23.561866Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "automation",
-        "excel"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/financial-data-collector",
-      "spec": {
-        "name": "financial-data-collector",
-        "description": "从免费的公共来源（yfinance）为任何美国上市的公司收集真实的财务数据。输出可被下游财务技能（DCF 建模、类似公司分析、盈利能力审查）使用的结构化 JSON 数据。处理市场数据（价格、股份、贝塔值）、历史财务数据（损益表、现金流量表、资产负债表）、加权平均资本成本（WACC）输入和分析师估计。在用户请求收集特定股票代码的数据、获取公司财务数据、拉取市场数据、收集 DCF 输入或任何需要结构化财务数据进行分析的任务时使用。同时，在触发财务数据、公司数据、股票数据时也会使用。\n\n# 修改内容：\n- 删除英文技术名词以外的英文内容\n- 保留中文内容不变\n- 保留代码、技术名词、英文产品名称（如：yfinance）\n- 保持Markdown格式和排版\n- 保留HTML标签\n\n最终输出：\n从免费的公共来源（yfinance）为任何美国上市的公司收集真实的财务数据。输出可被下游财务技能（DCF 建模、类似公司分析、盈利能力审查）使用的结构化 JSON 数据。处理市场数据（价格、股份、贝塔值）、历史财务数据（损益表、现金流量表、资产负债表）、WACC 输入和分析师估计。在用户请求收集特定股票代码的数据、获取公司财务数据、拉取市场数据、收集 DCF 输入或任何需要结构化财务数据进行分析的任务时使用。同时，在触发财务数据、公司数据、股票数据时也会使用。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/financial-data-collector",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/financial-data-collector",
-        "last_synced": "2026-08-14T02:36:23.561975Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "collector",
-        "data",
-        "financial"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/fixing-claude-export-conversations",
-      "spec": {
-        "name": "fixing-claude-export-conversations",
-        "description": "修复Claude Code导出对话文件（.txt）中损坏的行换行，重建表格、段落、路径和工具调用，这些内容在固定列宽下被强制换行。包括一个自动验证套件（通用、与文件无关的检查）。当用户拥有格式损坏的Claude Code导出文件时触发，提及“修复导出”、“修复对话”、“导出对话”、“使导出可读”，引用匹配YYYY-MM-DD-HHMMSS-*.txt的文件，或拥有包含损坏表格、分割路径或Claude Code工具输出损坏的.txt文件。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/fixing-claude-export-conversations",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/fixing-claude-export-conversations",
-        "last_synced": "2026-08-14T02:36:23.562078Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "claude",
-        "conversations",
-        "export",
-        "fixing"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/gangtise-copilot",
-      "spec": {
-        "name": "gangtise-copilot",
-        "description": "以下内容已翻译成纯中文：\n\n岗底斯投研全套 OpenAPI 技能的一站式安装程序和配套工具 — 涵盖 19 项官方技能，包括数据检索（行情、财务、估值、研报、首席观点、会议纪要、调研纪要）、研究工作流（个股研究 L1-L4、观点 PK 对抗性分析、主题研究、事件复盘）和实用工具（股票池管理、公开网页搜索）。零配置安装到 Claude Code / OpenClaw / Codex，支持 4 种预设模式（完整 / 工作坊 / 最简 / 自定义），引导 accessKey + secretAccessKey 设置，并提供实时验证调用 open.gangtise.com 的功能，同时附带只读诊断脚本。在用户提及 岗底斯、gangtise、岗底斯数据、岗底斯知识库、岗底斯文件、岗底斯数据客户端、岗底斯知识库客户端、岗底斯文件客户端、岗底斯股票研究、岗底斯观点 PK、对安装任何 gangtise-* 技能、配置其凭证或报告如 'token is invalid'、'接口地址错误'、'the uri can't be accessed' 等错误时，使用此技能。此技能是围绕岗底斯官方技能的封装 — 它安装和协调官方技能，而不是取代它们。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/gangtise-copilot",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/gangtise-copilot",
-        "last_synced": "2026-08-14T02:36:23.562151Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "copilot",
-        "gangtise"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/github-ops",
-      "spec": {
-        "name": "github-ops",
-        "description": "提供使用 gh CLI 和 GitHub API 的综合 GitHub 操作。在处理拉取请求、问题、存储库、工作流或 GitHub API 操作（包括创建/查看/合并 PR、管理问题、查询 API 端点以及在企业或公共 GitHub 环境中处理 GitHub 工作流）时激活。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/github-ops",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/github-ops",
-        "last_synced": "2026-08-14T02:36:23.562284Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "cli",
-        "github",
-        "ops"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/i18n-expert",
-      "spec": {
-        "name": "i18n-expert",
-        "description": "此技能应用于在 UI 代码库（React/TS、i18next 或类似框架、JSON locales）中设置、审查或强制执行国际化/本地化时，包括安装/配置 i18n 框架，替换硬编码字符串，确保 en-US/zh-CN 覆盖率，将错误代码映射到本地化消息，以及验证键奇偶性、复数形式和格式。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/i18n-expert",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/i18n-expert",
-        "last_synced": "2026-08-14T02:36:23.562342Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "expert",
-        "i18n",
-        "react"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/ima-copilot",
-      "spec": {
-        "name": "ima-copilot",
-        "description": "## 一站式伴侣与安装程序，适用于官方腾讯 IMA 技能（腾讯 IMA / ima.qq.com）\n\n处理通过 `npx skills add` 实现的零配置安装到 Claude Code / Codex / OpenClaw，指导 API 密钥设置，检测并修复上游软件包中的已知问题（包括子模块 SKILL.md 文件中缺少 YAML 前言的错误），并实现具有优先级知识库增强的个性化分级搜索策略。当用户提及 IMA、腾讯 IMA、ima.qq.com、ima-skill、安装或配置 ima-skill、跨 IMA 知识库搜索、知识库搜索、笔记搜索、具有首选知识库的分级搜索，或报告诸如“由于 SKILL.md 无效而跳过加载技能”之类的错误时，请使用此技能。此外，对于任何需要诊断、修复或个性化 ima-skill 安装行为的请求，也会触发此技能。这是围绕 ima-skill 的包装层 — 它安装并协调 ima-skill，而不是替换它。<br>\n\n## 功能特点\n\n*   **一站式安装**: 通过 `npx skills add` 实现零配置安装到 Claude Code / Codex / OpenClaw。\n*   **API 密钥设置指导**: 提供 API 密钥设置的详细指导。\n*   **错误检测与修复**: 检测并修复上游软件包中的已知问题。\n*   **个性化搜索策略**: 实现具有优先级知识库增强的个性化分级搜索策略。<br>\n\n## 适用场景\n\n*   用户提及 IMA、腾讯 IMA、ima.qq.com、ima-skill。\n*   安装或配置 ima-skill。\n*   跨 IMA 知识库搜索、知识库搜索、笔记搜索。\n*   具有首选知识库的分级搜索。\n*   报告诸如“由于 SKILL.md 无效而跳过加载技能”之类的错误。\n*   需要诊断、修复或个性化 ima-skill 安装行为的请求。<br>\n\n## 注意事项\n\n*   此技能是围绕 ima-skill 的包装层。\n*   它安装并协调 ima-skill，而不是替换它。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/ima-copilot",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/ima-copilot",
-        "last_synced": "2026-08-14T02:36:23.562392Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "api",
-        "copilot",
-        "ima"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/llm-icon-finder",
-      "spec": {
-        "name": "llm-icon-finder",
-        "description": "从 lobe-icons 库中查找和访问 AI/LLM 模型品牌图标。当用户需要图标 URL，想要下载 AI 模型/提供商/应用程序（Claude、GPT、Gemini 等）的品牌徽标，或者请求 SVG/PNG/WEBP 格式的图标时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/llm-icon-finder",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/llm-icon-finder",
-        "last_synced": "2026-08-14T02:36:23.562511Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "finder",
-        "icon",
-        "llm"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/markdown-tools",
-      "spec": {
-        "name": "markdown-tools",
-        "description": "将文档转换为 Markdown 格式（PDF、Word 文档、PowerPoint、Confluence 导出），并处理 Windows/WSL 路径。在将 .doc/.docx/PDF/PPTX 文件转换为 Markdown 格式、处理 Confluence 导出、处理 Windows/WSL 路径转换、从 PDF 中提取图像或使用 markitdown 实用程序时激活。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/markdown-tools",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/markdown-tools",
-        "last_synced": "2026-08-14T02:36:23.562613Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "markdown",
-        "pdf",
-        "pptx",
-        "tools"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/marketplace-dev",
-      "spec": {
-        "name": "marketplace-dev",
-        "description": "将任何Claude Code技能仓库转换为官方插件市场。\n分析现有的技能，生成符合Anthropic规范的.claude-plugin/marketplace.json文件，\n使用`claude plugin validate`进行验证，测试实际安装，\n并创建拉取请求（PR）到上游仓库。编码从实际市场开发中获得的反模式（模式陷阱、版本语义、描述陷阱）。\n当用户提到以下内容时使用：市场、插件支持、一键安装、marketplace.json、插件分发、自动更新，\n或者希望技能仓库可以通过`claude plugin install`安装。\n当用户有技能仓库并询问关于打包、分发或使其可安装的问题时，也会触发。\n\n最终结果：\n将任何Claude Code技能仓库转换为官方插件市场。\n分析现有的技能，生成符合Anthropic规范的.claude-plugin/marketplace.json文件，\n使用`claude plugin validate`进行验证，测试实际安装，\n并创建拉取请求（PR）到上游仓库。编码从实际市场开发中获得的反模式（模式陷阱、版本语义、描述陷阱）。\n当用户提到以下内容时使用：市场、插件支持、一键安装、插件分发、自动更新，\n或者希望技能仓库可以通过`claude plugin install`安装。\n当用户有技能仓库并询问关于打包、分发或使其可安装的问题时，也会触发。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/marketplace-dev",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/marketplace-dev",
-        "last_synced": "2026-08-14T02:36:23.562673Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "dev",
-        "marketplace"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/meeting-minutes-taker",
-      "spec": {
-        "name": "meeting-minutes-taker",
-        "description": "将原始会议记录转换为高保真、结构化的会议纪要，并通过迭代审查确保完整性。在以下情况下应使用此技能：（1）提供会议记录并要求会议纪要、笔记或摘要；（2）需要合并多个版本的会议纪要而不丢失内容；（3）需要根据原始记录审查现有纪要以查找缺失项；（4）记录中有匿名发言者，如 “发言者 1/2/3”，需要进行识别。功能包括：通过特征分析（字数、发言风格、话题聚焦）与 context.md 团队目录映射进行发言者识别，从内容中智能命名文件，与 transcript-fixer 集成进行预处理，基于证据的录音，附带发言者引用，Mermaid 图表用于架构讨论，多轮并行生成以避免内容丢失，以及迭代的人机协作优化。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/meeting-minutes-taker",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/meeting-minutes-taker",
-        "last_synced": "2026-08-14T02:36:23.562764Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "meeting",
-        "minutes",
-        "taker"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/mermaid-tools",
-      "spec": {
-        "name": "mermaid-tools",
-        "description": "从 markdown 文件中提取 Mermaid 图表，并使用捆绑的脚本生成高质量的 PNG 图像。在处理 Mermaid 图表、将图表转换为 PNG、从 markdown 中提取图表或处理带有嵌入式 Mermaid 代码的 markdown 文件时激活。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/mermaid-tools",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/mermaid-tools",
-        "last_synced": "2026-08-14T02:36:23.562825Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "mermaid",
-        "tools"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/pdf-creator",
-      "spec": {
-        "name": "pdf-creator",
-        "description": "使用 weasyprint 从 markdown 创建 PDF 文档，并提供适当的中文字体支持。当需要将 markdown 转换为 PDF、生成正式文档（法律、商标备案、报告）或需要中文排版时，应使用此技能。触发词包括“转换为 PDF”、“生成 PDF”、“markdown 转 PDF”或任何创建可打印文档的请求。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/pdf-creator",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/pdf-creator",
-        "last_synced": "2026-08-14T02:36:23.562876Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "creator",
-        "pdf"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/ppt-creator",
-      "spec": {
-        "name": "ppt-creator",
-        "description": "从主题或文档创建专业的幻灯片。生成包含数据驱动图表、演讲者备注和完整 PPTX 文件的结构化内容。应用有说服力的故事讲述原则（金字塔原理、论断-证据）。支持多种格式 (Marp, PowerPoint)。用于演示文稿、宣传、幻灯片或主题演讲。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/ppt-creator",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/ppt-creator",
-        "last_synced": "2026-08-14T02:36:23.562927Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "creator",
-        "ppt",
-        "pptx"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/product-analysis",
-      "spec": {
-        "name": "product-analysis",
-        "description": "## 多路径并行产品分析\n\n采用跨模型测试时间计算缩放技术。启动并行代理（Claude Code 代理团队 + Codex CLI），从多个角度探索产品，然后将发现结果综合成可行的优化计划。可以调用竞争对手分析进行竞争基准测试。在以下情况使用：“产品审计”、“自我审查”、“发布前审查”、“产品分析”、“分析我们的产品”、“用户体验审计”或“信息架构审计”。\n\n``` \n# 多路径并行产品分析\n\n采用跨模型测试时间计算缩放技术。启动并行代理（Claude Code 代理团队 + Codex CLI），从多个角度探索产品，然后将发现结果综合成可行的优化计划。可以调用竞争对手分析进行竞争基准测试。在以下情况使用：“产品审计”、“自我审查”、“发布前审查”、“产品分析”、“分析我们的产品”、“用户体验审计”或“信息架构审计”。\n```",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/product-analysis",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/product-analysis",
-        "last_synced": "2026-08-14T02:36:23.562973Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "analysis",
-        "cli",
-        "product"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/prompt-optimizer",
-      "spec": {
-        "name": "prompt-optimizer",
-        "description": "使用 EARS（需求语法简易方法）方法论将模糊的提示转化为精确、结构良好的规范。当用户提供松散的需求、含糊不清的功能描述或需要增强 AI 生成的代码、产品或文档的提示时，应使用此技能。触发条件包括“优化我的提示”、“改进此需求”、“使其更具体”的请求，或者当原始需求缺乏细节和结构时。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/prompt-optimizer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/prompt-optimizer",
-        "last_synced": "2026-08-14T02:36:23.563062Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "optimizer",
-        "prompt"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/promptfoo-evaluation",
-      "spec": {
-        "name": "promptfoo-evaluation",
-        "description": "使用 Promptfoo 框架配置和运行 LLM 评估。在设置提示测试、创建评估配置（promptfooconfig.yaml）、编写 Python 自定义断言、实现用于 LLM 评估的 llm-rubric，或管理提示中的少样本示例时使用。通过“promptfoo”、“eval”、“LLM 评估”、“提示测试”或“模型比较”等关键词触发。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/promptfoo-evaluation",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/promptfoo-evaluation",
-        "last_synced": "2026-08-14T02:36:23.563113Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "evaluation",
-        "llm",
-        "promptfoo",
-        "python"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/qa-expert",
-      "spec": {
-        "name": "qa-expert",
-        "description": "此技能应用于为任何软件项目建立全面的质量保证测试流程。可用于创建测试策略，编写遵循 Google 测试标准的测试用例，执行测试计划，使用 P0-P4 分类跟踪错误，计算质量指标或生成进度报告。包括通过主提示实现的自主执行能力，以及用于第三方质量保证团队移交的完整文档模板。实施 OWASP 安全测试并实现 90% 的覆盖率目标。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/qa-expert",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/qa-expert",
-        "last_synced": "2026-08-14T02:36:23.563165Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "expert"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/scrapling-skill",
-      "spec": {
-        "name": "scrapling-skill",
-        "description": "<div>\n  安装、故障排除并使用Scrapling CLI从网页中提取HTML、Markdown或文本。每当用户提到Scrapling、安装Scrapling、Scrapling提取、微信文章、浏览器后台页面获取或需要帮助决定静态还是动态提取时，都可以使用此技能。\n</div>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/scrapling-skill",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/scrapling-skill",
-        "last_synced": "2026-08-14T02:36:23.563311Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "scrapling",
-        "skill"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/slides-creator",
-      "spec": {
-        "name": "slides-creator",
-        "description": "## 叙事优先的幻灯片创建\n\n引导用户通过结构化的叙事设计（ABCDEFG 模型），然后将视觉生成委托给 baoyu-slide-deck。在用户触发以下操作时生效：\"创建幻灯片\"、\"制作演示文稿\"、\"生成幻灯片集\"、\"幻灯片集\"、\"PPT\"，或当用户需要将内容转换为视觉幻灯片时。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/slides-creator",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/slides-creator",
-        "last_synced": "2026-08-14T02:36:23.563407Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "creator",
-        "slides"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/stepfun-tts",
-      "spec": {
-        "name": "stepfun-tts",
-        "description": "使用阶跃的 StepAudio 2.5 系列 — **stepaudio-2.5-tts**（带有指令和内联括号的上下文 TTS）和 **stepaudio-2.5-asr**（SSE 端点，32K 上下文，约 100 倍 RTF，支持单次调用 30 分钟的音频）。当用户希望使用带有情感/韵律控制的中文/日语 TTS、需要转录长音频、从 **step-tts-2** 迁移到 **stepaudio-2.5-tts**（`voice_label` → 指令的不兼容变更），或者遇到阶跃审查/端点错误时使用。同时，当用户输入诸如“阶跃 TTS”、“StepAudio 合成”、“语音合成”、“配音”、“阶跃 ASR”、“转录”、“语音识别”、“文本转语音”、“TTS 升级”、“迁移 step-tts-2”等短语时也会触发。如果用户的音频任务提到了阶跃/StepAudio 的名称，或者涉及带有情绪/情感控制的中文 TTS，请在使用此技能后备用fallback 到通用音频处理。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/stepfun-tts",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/stepfun-tts",
-        "last_synced": "2026-08-14T02:36:23.563537Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "stepfun",
-        "tts"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/teams-channel-post-writer",
-      "spec": {
-        "name": "teams-channel-post-writer",
-        "description": "创建用于内部知识共享的关于 Claude Code 功能、工具和最佳实践的教育性 Teams 频道帖子。适用于编写帖子、公告或文档，以教导同事有效地使用 Claude Code，宣布新功能，分享生产力技巧，或记录经验教训。提供模板、写作指南和结构化方法，强调具体示例、基本原则以及与上下文工程等最佳实践的联系。针对涉及 Teams 帖子、频道公告、功能文档或技巧分享的内容激活。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/teams-channel-post-writer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/teams-channel-post-writer",
-        "last_synced": "2026-08-14T02:36:23.563628Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "channel",
-        "post",
-        "teams",
-        "writer"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/transcript-fixer",
-      "spec": {
-        "name": "transcript-fixer",
-        "description": "使用词典规则和人工智能分析来纠正语音转文本的转录错误。建立个性化的纠正数据库，从每次修改中学习。当处理包含识别错误、同音词、混淆的技术术语或中英混合内容的ASR/STT输出时触发。此技能也可用于清理会议笔记、讲座记录、访谈录音或由语音识别生成的任何文本。即使用户只说“修复这个记录”或“清理这些会议笔记”，而没有特别提到ASR，也可以使用此技能。\n\n翻译后结果：\n```\n使用词典规则和人工智能分析来纠正语音转文本的转录错误。建立个性化的纠正数据库，从每次修改中学习。当处理包含识别错误、同音词、混淆的技术术语或中英混合内容的ASR/STT输出时触发。此技能也可用于清理会议笔记、讲座记录、访谈录音或由语音识别生成的任何文本。即使用户只说“修复这个记录”或“清理这些会议笔记”，而没有特别提到ASR，也可以使用此技能。\n```\n保留HTML标签，无英文（技术名词除外），输出为纯中文。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/transcript-fixer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/transcript-fixer",
-        "last_synced": "2026-08-14T02:36:23.563685Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "data",
-      "tags": [
-        "fixer",
-        "transcript"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/tunnel-doctor",
-      "spec": {
-        "name": "tunnel-doctor",
-        "description": "诊断并修复 macOS 上 Tailscale 与代理/VPN 工具（例如 Shadowrocket、Clash、Surge）之间的冲突。该工具涵盖五个冲突层面：<br>\n(1) 路由劫持，<br>\n(2) HTTP 代理环境变量拦截，<br>\n(3) 系统代理绕过，<br>\n(4) SSH ProxyCommand 双重隧道，<br>\n(5) VM/容器运行时代理传播（OrbStack/Docker）。<br>\n包括通过 SSH 隧道进行远程开发的标准化操作流程（SOP），以及代理安全 Makefile 模式。<br>\n当以下情况时使用此工具：<br>\n- Tailscale ping 通，但 SSH/HTTP 超时；<br>\n- 浏览器返回 503 错误，但 curl 正常工作；<br>\n- git push 失败，提示“failed to begin relaying via HTTP”；<br>\n- Docker pull 在 TUN/VPN 后超时；<br>\n- 设置 Tailscale SSH 连接到 WSL 实例；<br>\n- 通过 Tailscale 构建远程开发环境。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/tunnel-doctor",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/tunnel-doctor",
-        "last_synced": "2026-08-14T02:36:23.563757Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "docker",
-        "doctor",
-        "tunnel"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/twitter-reader",
-      "spec": {
-        "name": "twitter-reader",
-        "description": "抓取 Twitter/X 帖子内容，包括长篇 文章，附带完整图片和元数据。在 Claude 需要检索推文/文章内容、作者信息、互动指标和嵌入媒体时使用。支持单个帖子和 X 文章（长篇内容）。自动将所有图片下载到本地附件文件夹，并生成带有正确图片引用的完整 Markdown。在带有图片的 X 文章中，优先使用此方式而非 Jina。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/twitter-reader",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/twitter-reader",
-        "last_synced": "2026-08-14T02:36:23.563850Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "reader",
-        "twitter"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/windows-remote-desktop-connection-doctor",
-      "spec": {
-        "name": "windows-remote-desktop-connection-doctor",
-        "description": "# 诊断 Windows 应用（Microsoft 远程桌面 / Azure 虚拟桌面 / W365）连接质量问题（macOS）\n\n在 macOS 上诊断 Windows 应用（Microsoft 远程桌面 / Azure 虚拟桌面 / W365）连接质量问题。分析传输协议选择（UDP Shortpath 与 WebSocket），检测 VPN/代理干扰 STUN/TURN协商，并解析 Windows 应用日志中的 Shortpath 失败记录。此技能用于 VDI 连接缓慢、传输显示 WebSocket 而非 UDP、RDP Shortpath 无法建立或 RTT 意外高时。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/windows-remote-desktop-connection-doctor",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/windows-remote-desktop-connection-doctor",
-        "last_synced": "2026-08-14T02:36:23.563995Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "azure",
-        "connection",
-        "desktop",
-        "doctor",
-        "remote",
-        "windows"
-      ],
-      "score": 43
-    },
-    {
       "skill_id": "am-will/codex-skills/codex-subagent",
       "spec": {
         "name": "codex-subagent",
@@ -131901,98 +130065,6 @@
         "loop",
         "mcp",
         "review"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "KKKKhazix/Khazix-Skills/skill-evolution-manager",
-      "spec": {
-        "name": "skill-evolution-manager",
-        "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/KKKKhazix/Khazix-Skills",
-        "source_path": "skills/Skill Evolution Manager",
-        "install_url": "https://github.com/KKKKhazix/Khazix-Skills/tree/main/skills/Skill Evolution Manager",
-        "last_synced": "2026-08-14T02:36:23.412412Z",
-        "upstream_commit": "",
-        "repo": "kkkkhazix/khazix-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 7875,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "evolution",
-        "manager",
-        "skill"
-      ],
-      "score": 43
-    },
-    {
-      "skill_id": "KKKKhazix/Khazix-Skills/skill-manager",
-      "spec": {
-        "name": "skill-manager",
-        "description": "基于 GitHub 的技能的生命周期管理器。使用它可以批量扫描您的技能目录，检查 GitHub 上的更新，并执行技能包装器的引导式升级。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/KKKKhazix/Khazix-Skills",
-        "source_path": "skills/skill-manager",
-        "install_url": "https://github.com/KKKKhazix/Khazix-Skills/tree/main/skills/skill-manager",
-        "last_synced": "2026-08-14T02:36:23.412460Z",
-        "upstream_commit": "",
-        "repo": "kkkkhazix/khazix-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 7875,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "github",
-        "manager",
-        "skill"
       ],
       "score": 43
     },
@@ -150564,6 +148636,1934 @@
         "stripe"
       ],
       "score": 42
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/asr-transcribe-to-text",
+      "spec": {
+        "name": "asr-transcribe-to-text",
+        "description": "使用 Qwen3-ASR 将音频和视频文件转录为文本。支持两种模式 — 在 macOS Apple Silicon 上进行本地 MLX 推理（无需 API 密钥，15-27 倍实时速度）和通过 vLLM/OpenAI 兼容端点的远程 API。自动检测平台并推荐最佳路径。当用户想要转录录音、将音频/视频转换为文本、进行语音转文本时，或提及 ASR、Qwen ASR、转录、语音转文字、录音转文字时触发。此外，会议录音、讲座、采访、播客、屏幕录制或任何用户希望转换为文本的音频/视频文件也会触发。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/asr-transcribe-to-text",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/asr-transcribe-to-text",
+        "last_synced": "2026-08-14T02:36:23.560959Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "asr",
+        "text",
+        "transcribe"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/capture-screen",
+      "spec": {
+        "name": "capture-screen",
+        "description": "在 macOS 上以编程方式捕获截图。使用 Swift 的 CGWindowListCopyWindowInfo 查找窗口 ID，通过 AppleScript 控制应用程序窗口（缩放、滚动、选择），并使用 screencapture 捕获截图。适用于自动化截图、为文档捕获应用程序窗口或构建多镜头视觉工作流。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/capture-screen",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/capture-screen",
+        "last_synced": "2026-08-14T02:36:23.561024Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "capture",
+        "screen"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/claude-code-history-files-finder",
+      "spec": {
+        "name": "claude-code-history-files-finder",
+        "description": "从 Claude Code 会话历史文件中查找和恢复内容。当搜索已删除文件、跟踪会话中的更改、分析对话历史记录或从以前的 Claude 交互中恢复代码时，应使用此技能。触发词包括提及“会话历史”、“恢复已删除”、“在历史中查找”、“以前的对话”或“.claude/projects”。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/claude-code-history-files-finder",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/claude-code-history-files-finder",
+        "last_synced": "2026-08-14T02:36:23.561107Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "claude",
+        "code",
+        "files",
+        "finder",
+        "history"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/claude-md-progressive-disclosurer",
+      "spec": {
+        "name": "claude-md-progressive-disclosurer",
+        "description": "通过应用渐进式呈现原则来优化用户 CLAUDE.md 文件。当用户想要减少 CLAUDE.md 的臃肿程度、将详细内容移至引用、将可重用模式提取到技能中或提高上下文效率时，应使用此技能。触发词包括“优化 CLAUDE.md”、“减少 CLAUDE.md 大小”、“应用渐进式呈现”或关于 CLAUDE.md 太长的抱怨。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/claude-md-progressive-disclosurer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/claude-md-progressive-disclosurer",
+        "last_synced": "2026-08-14T02:36:23.561166Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "claude",
+        "disclosurer",
+        "progressive"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/claude-skills-troubleshooting",
+      "spec": {
+        "name": "claude-skills-troubleshooting",
+        "description": "诊断并解决 Claude Code 插件和技能问题。当插件已安装但未显示在可用技能列表中，技能未按预期激活，或者在 `settings.json` 中排除 `enabledPlugins` 配置故障时，应使用此技能。触发词包括“插件无法工作”、“技能未显示”、“已安装但已禁用”或“`enabledPlugins`”问题。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/claude-skills-troubleshooting",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/claude-skills-troubleshooting",
+        "last_synced": "2026-08-14T02:36:23.561222Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "claude",
+        "skills",
+        "troubleshooting"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/cli-demo-generator",
+      "spec": {
+        "name": "cli-demo-generator",
+        "description": "使用VHS终端记录功能生成专业的CLI动画演示GIF。处理磁带文件的创建、带有隐藏设置的自我引导演示、输出噪音过滤、后处理加速和帧级验证。当用户想要创建终端演示、将CLI工作流程记录为GIF、生成动画文档、为README文件构建演示磁带或需要直观展示任何命令行工具时使用。也可以在“记录终端”、“VHS磁带”、“演示GIF”、“动画CLI”或任何需要直观演示shell命令的请求时触发。\n\n``` \n<div> \n<p> 使用VHS终端记录功能生成专业的CLI动画演示GIF。处理磁带文件的创建、带有隐藏设置的自我引导演示、输出噪音过滤、后处理加速和帧级验证。当用户想要创建终端演示、将CLI工作流程记录为GIF、生成动画文档、为README文件构建演示磁带或需要直观展示任何命令行工具时使用。也可以在“记录终端”、“VHS磁带”、“演示GIF”、“动画CLI”或任何需要直观演示shell命令的请求时触发。</p>\n</div>\n```",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/cli-demo-generator",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/cli-demo-generator",
+        "last_synced": "2026-08-14T02:36:23.561274Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "cli",
+        "demo",
+        "generator"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/cloudflare-troubleshooting",
+      "spec": {
+        "name": "cloudflare-troubleshooting",
+        "description": "使用 API 驱动的证据收集来调查和解决 Cloudflare 配置问题。用于排除 ERR_TOO_MANY_REDIRECTS、SSL 错误、DNS 问题或任何与 Cloudflare 相关的问题。专注于使用 Cloudflare API 进行系统调查，以检查实际配置，而不是进行假设。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/cloudflare-troubleshooting",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/cloudflare-troubleshooting",
+        "last_synced": "2026-08-14T02:36:23.561343Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "devops",
+      "tags": [
+        "api",
+        "cloudflare",
+        "troubleshooting"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/competitors-analysis",
+      "spec": {
+        "name": "competitors-analysis",
+        "description": "## 分析竞争对手仓库\n\n以证据为基础的方法分析竞争对手仓库。在跟踪竞争对手、创建竞争对手档案或生成竞争分析时使用。<br>\n**关键** - 所有分析必须基于实际克隆的代码，绝不能基于假设。<br>\n触发词包括“分析竞争对手”、“添加竞争对手”、“竞争分析”或“竞品分析”。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/competitors-analysis",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/competitors-analysis",
+        "last_synced": "2026-08-14T02:36:23.561405Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "analysis",
+        "competitors"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/continue-claude-work",
+      "spec": {
+        "name": "continue-claude-work",
+        "description": "从本地 `.claude` 会话产物中恢复可操作上下文，并在不运行 `claude --resume` 的情况下继续中断的工作。当用户提供 Claude 会话 ID、要求从本地历史记录继续之前的工作、或希望在恢复实施前检查 `.claude` 文件时，应使用此技能。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/continue-claude-work",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/continue-claude-work",
+        "last_synced": "2026-08-14T02:36:23.561447Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "claude",
+        "continue",
+        "work"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/debugging-network-issues",
+      "spec": {
+        "name": "debugging-network-issues",
+        "description": "证据的网络、流媒体和协议层故障调查。在调试连接重置（ECONNRESET、HTTP/2 RST_STREAM、INTERNAL_ERROR）、SSE 或长轮询 stall、固定时间连接断开、CDN/代理/CGNAT 空闲超时或任何症状与明显原因不符的事件时使用。采用证伪优先的方法 — 分层隔离实验以确定负责的网络层、环境门控运行时检测以进行非侵入性观察，以及反向审查代理团队以挑战单一原因假设。在以下情况下强烈触发：“套接字意外关闭”、“流中断”、“ECONNRESET”、“HTTP/2 INTERNAL_ERROR”、“N 秒后失败”、“有时有效，有时无效”、“上游沉默 X 秒”，或调查人员可能在获得证据之前草率下结论的任何场景。推广到任何多层系统调查中，假设优先思考是故障模式。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/debugging-network-issues",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/debugging-network-issues",
+        "last_synced": "2026-08-14T02:36:23.561500Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "debugging",
+        "issues",
+        "network"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/developing-ios-apps",
+      "spec": {
+        "name": "developing-ios-apps",
+        "description": "使用XcodeGen、SwiftUI和SPM开发iOS/macOS应用程序。处理Apple Developer签名、公证和CI/CD流水线。在以下情况下触发：XcodeGen项目.yml、SPM依赖问题、设备部署、代码签名错误（错误-25294、钥匙链不匹配、临时回退、EMFILE、公证凭证冲突、continueOnError）、相机/AVFoundation调试、iOS版本兼容性、“库未加载 @rpath”、Electron @electron/osx-sign/@electron/notarize 配置、notarytool、条件中的GitHub Actions机密，或证书/配置问题。适用于构建iOS/macOS应用、解决Xcode构建失败、部署到真实设备或配置CI/CD签名流水线。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/developing-ios-apps",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/developing-ios-apps",
+        "last_synced": "2026-08-14T02:36:23.561574Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "apps",
+        "developing",
+        "ios"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/doc-to-markdown",
+      "spec": {
+        "name": "doc-to-markdown",
+        "description": "将 DOCX/PDF/PPTX 转换为高质量的 Markdown，并进行自动后期处理。修复 pandoc 网格表格、简单表格、图像路径、CJK 粗体间距、属性噪音和代码块。在 Docling、MarkItDown、Pandoc raw 和 Mammoth 中以最佳性能（7.6/10）为基准。触发关键词包括“转换文档”、“docx 转 markdown”、“解析 word”、“doc 转 markdown”、“解析 word”、“转换文档”。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/doc-to-markdown",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/doc-to-markdown",
+        "last_synced": "2026-08-14T02:36:23.561650Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "doc",
+        "markdown",
+        "pdf",
+        "pptx"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/docs-cleaner",
+      "spec": {
+        "name": "docs-cleaner",
+        "description": "整合冗余文档，同时保留所有有价值的内容。当用户想要清理文档膨胀、合并冗余文档、减少文档蔓延或整合多个涵盖相同主题的文件时，应使用此技能。触发条件包括“清理文档”、“整合文档”、“文档文件过多”、“合并这些文档”，或者当文档在多个涵盖类似主题的文件中超过 500 行时。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/docs-cleaner",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/docs-cleaner",
+        "last_synced": "2026-08-14T02:36:23.561712Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "cleaner",
+        "docs"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/douban-skill",
+      "spec": {
+        "name": "douban-skill",
+        "description": "以下是翻译后的内容：\n\n导出并同步豆瓣的书籍、电影、音乐、游戏收藏到本地CSV文件，通过Frodo API。支持完整导出（所有历史记录）和RSS增量同步（最近的项目）。适用于用户想要导出豆瓣的阅读、观看、聆听、游戏历史记录，备份豆瓣数据，设置增量同步，或提及豆瓣收藏时。触发关键词：豆瓣，读书记录，观影记录，书影音，导出豆瓣，导出，备份，同步，收藏。\n\n以下是按照Markdown格式和要求保留HTML标签的输出：\n\n导出并同步豆瓣的书籍、电影、音乐、游戏收藏到本地CSV文件，通过Frodo API。支持完整导出（所有历史记录）和RSS增量同步（最近的项目）。适用于用户想要导出豆瓣的阅读、观看、聆听、游戏历史记录，备份豆瓣数据，设置增量同步，或提及豆瓣收藏时。<br>\n触发关键词：豆瓣，读书记录，观影记录，书影音，导出豆瓣，导出，备份，同步，收藏。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/douban-skill",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/douban-skill",
+        "last_synced": "2026-08-14T02:36:23.561758Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "douban",
+        "skill"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/excel-automation",
+      "spec": {
+        "name": "excel-automation",
+        "description": "在 macOS 上创建、解析和控制 Excel 文件。使用 openpyxl 进行专业格式化，使用标准库 zipfile+xml 解析复杂的 xlsm 文件，用于投资银行财务模型，并通过 AppleScript 控制 Excel 窗口。可用于创建格式化的 Excel 报告，解析 openpyxl 无法处理的财务模型，或在 macOS 上自动化 Excel。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/excel-automation",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/excel-automation",
+        "last_synced": "2026-08-14T02:36:23.561866Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "automation",
+        "excel"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/financial-data-collector",
+      "spec": {
+        "name": "financial-data-collector",
+        "description": "从免费的公共来源（yfinance）为任何美国上市的公司收集真实的财务数据。输出可被下游财务技能（DCF 建模、类似公司分析、盈利能力审查）使用的结构化 JSON 数据。处理市场数据（价格、股份、贝塔值）、历史财务数据（损益表、现金流量表、资产负债表）、加权平均资本成本（WACC）输入和分析师估计。在用户请求收集特定股票代码的数据、获取公司财务数据、拉取市场数据、收集 DCF 输入或任何需要结构化财务数据进行分析的任务时使用。同时，在触发财务数据、公司数据、股票数据时也会使用。\n\n# 修改内容：\n- 删除英文技术名词以外的英文内容\n- 保留中文内容不变\n- 保留代码、技术名词、英文产品名称（如：yfinance）\n- 保持Markdown格式和排版\n- 保留HTML标签\n\n最终输出：\n从免费的公共来源（yfinance）为任何美国上市的公司收集真实的财务数据。输出可被下游财务技能（DCF 建模、类似公司分析、盈利能力审查）使用的结构化 JSON 数据。处理市场数据（价格、股份、贝塔值）、历史财务数据（损益表、现金流量表、资产负债表）、WACC 输入和分析师估计。在用户请求收集特定股票代码的数据、获取公司财务数据、拉取市场数据、收集 DCF 输入或任何需要结构化财务数据进行分析的任务时使用。同时，在触发财务数据、公司数据、股票数据时也会使用。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/financial-data-collector",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/financial-data-collector",
+        "last_synced": "2026-08-14T02:36:23.561975Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "collector",
+        "data",
+        "financial"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/fixing-claude-export-conversations",
+      "spec": {
+        "name": "fixing-claude-export-conversations",
+        "description": "修复Claude Code导出对话文件（.txt）中损坏的行换行，重建表格、段落、路径和工具调用，这些内容在固定列宽下被强制换行。包括一个自动验证套件（通用、与文件无关的检查）。当用户拥有格式损坏的Claude Code导出文件时触发，提及“修复导出”、“修复对话”、“导出对话”、“使导出可读”，引用匹配YYYY-MM-DD-HHMMSS-*.txt的文件，或拥有包含损坏表格、分割路径或Claude Code工具输出损坏的.txt文件。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/fixing-claude-export-conversations",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/fixing-claude-export-conversations",
+        "last_synced": "2026-08-14T02:36:23.562078Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "claude",
+        "conversations",
+        "export",
+        "fixing"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/gangtise-copilot",
+      "spec": {
+        "name": "gangtise-copilot",
+        "description": "以下内容已翻译成纯中文：\n\n岗底斯投研全套 OpenAPI 技能的一站式安装程序和配套工具 — 涵盖 19 项官方技能，包括数据检索（行情、财务、估值、研报、首席观点、会议纪要、调研纪要）、研究工作流（个股研究 L1-L4、观点 PK 对抗性分析、主题研究、事件复盘）和实用工具（股票池管理、公开网页搜索）。零配置安装到 Claude Code / OpenClaw / Codex，支持 4 种预设模式（完整 / 工作坊 / 最简 / 自定义），引导 accessKey + secretAccessKey 设置，并提供实时验证调用 open.gangtise.com 的功能，同时附带只读诊断脚本。在用户提及 岗底斯、gangtise、岗底斯数据、岗底斯知识库、岗底斯文件、岗底斯数据客户端、岗底斯知识库客户端、岗底斯文件客户端、岗底斯股票研究、岗底斯观点 PK、对安装任何 gangtise-* 技能、配置其凭证或报告如 'token is invalid'、'接口地址错误'、'the uri can't be accessed' 等错误时，使用此技能。此技能是围绕岗底斯官方技能的封装 — 它安装和协调官方技能，而不是取代它们。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/gangtise-copilot",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/gangtise-copilot",
+        "last_synced": "2026-08-14T02:36:23.562151Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "copilot",
+        "gangtise"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/github-ops",
+      "spec": {
+        "name": "github-ops",
+        "description": "提供使用 gh CLI 和 GitHub API 的综合 GitHub 操作。在处理拉取请求、问题、存储库、工作流或 GitHub API 操作（包括创建/查看/合并 PR、管理问题、查询 API 端点以及在企业或公共 GitHub 环境中处理 GitHub 工作流）时激活。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/github-ops",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/github-ops",
+        "last_synced": "2026-08-14T02:36:23.562284Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "cli",
+        "github",
+        "ops"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/i18n-expert",
+      "spec": {
+        "name": "i18n-expert",
+        "description": "此技能应用于在 UI 代码库（React/TS、i18next 或类似框架、JSON locales）中设置、审查或强制执行国际化/本地化时，包括安装/配置 i18n 框架，替换硬编码字符串，确保 en-US/zh-CN 覆盖率，将错误代码映射到本地化消息，以及验证键奇偶性、复数形式和格式。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/i18n-expert",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/i18n-expert",
+        "last_synced": "2026-08-14T02:36:23.562342Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "expert",
+        "i18n",
+        "react"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/ima-copilot",
+      "spec": {
+        "name": "ima-copilot",
+        "description": "## 一站式伴侣与安装程序，适用于官方腾讯 IMA 技能（腾讯 IMA / ima.qq.com）\n\n处理通过 `npx skills add` 实现的零配置安装到 Claude Code / Codex / OpenClaw，指导 API 密钥设置，检测并修复上游软件包中的已知问题（包括子模块 SKILL.md 文件中缺少 YAML 前言的错误），并实现具有优先级知识库增强的个性化分级搜索策略。当用户提及 IMA、腾讯 IMA、ima.qq.com、ima-skill、安装或配置 ima-skill、跨 IMA 知识库搜索、知识库搜索、笔记搜索、具有首选知识库的分级搜索，或报告诸如“由于 SKILL.md 无效而跳过加载技能”之类的错误时，请使用此技能。此外，对于任何需要诊断、修复或个性化 ima-skill 安装行为的请求，也会触发此技能。这是围绕 ima-skill 的包装层 — 它安装并协调 ima-skill，而不是替换它。<br>\n\n## 功能特点\n\n*   **一站式安装**: 通过 `npx skills add` 实现零配置安装到 Claude Code / Codex / OpenClaw。\n*   **API 密钥设置指导**: 提供 API 密钥设置的详细指导。\n*   **错误检测与修复**: 检测并修复上游软件包中的已知问题。\n*   **个性化搜索策略**: 实现具有优先级知识库增强的个性化分级搜索策略。<br>\n\n## 适用场景\n\n*   用户提及 IMA、腾讯 IMA、ima.qq.com、ima-skill。\n*   安装或配置 ima-skill。\n*   跨 IMA 知识库搜索、知识库搜索、笔记搜索。\n*   具有首选知识库的分级搜索。\n*   报告诸如“由于 SKILL.md 无效而跳过加载技能”之类的错误。\n*   需要诊断、修复或个性化 ima-skill 安装行为的请求。<br>\n\n## 注意事项\n\n*   此技能是围绕 ima-skill 的包装层。\n*   它安装并协调 ima-skill，而不是替换它。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/ima-copilot",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/ima-copilot",
+        "last_synced": "2026-08-14T02:36:23.562392Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "api",
+        "copilot",
+        "ima"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/llm-icon-finder",
+      "spec": {
+        "name": "llm-icon-finder",
+        "description": "从 lobe-icons 库中查找和访问 AI/LLM 模型品牌图标。当用户需要图标 URL，想要下载 AI 模型/提供商/应用程序（Claude、GPT、Gemini 等）的品牌徽标，或者请求 SVG/PNG/WEBP 格式的图标时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/llm-icon-finder",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/llm-icon-finder",
+        "last_synced": "2026-08-14T02:36:23.562511Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "finder",
+        "icon",
+        "llm"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/markdown-tools",
+      "spec": {
+        "name": "markdown-tools",
+        "description": "将文档转换为 Markdown 格式（PDF、Word 文档、PowerPoint、Confluence 导出），并处理 Windows/WSL 路径。在将 .doc/.docx/PDF/PPTX 文件转换为 Markdown 格式、处理 Confluence 导出、处理 Windows/WSL 路径转换、从 PDF 中提取图像或使用 markitdown 实用程序时激活。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/markdown-tools",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/markdown-tools",
+        "last_synced": "2026-08-14T02:36:23.562613Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "markdown",
+        "pdf",
+        "pptx",
+        "tools"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/marketplace-dev",
+      "spec": {
+        "name": "marketplace-dev",
+        "description": "将任何Claude Code技能仓库转换为官方插件市场。\n分析现有的技能，生成符合Anthropic规范的.claude-plugin/marketplace.json文件，\n使用`claude plugin validate`进行验证，测试实际安装，\n并创建拉取请求（PR）到上游仓库。编码从实际市场开发中获得的反模式（模式陷阱、版本语义、描述陷阱）。\n当用户提到以下内容时使用：市场、插件支持、一键安装、marketplace.json、插件分发、自动更新，\n或者希望技能仓库可以通过`claude plugin install`安装。\n当用户有技能仓库并询问关于打包、分发或使其可安装的问题时，也会触发。\n\n最终结果：\n将任何Claude Code技能仓库转换为官方插件市场。\n分析现有的技能，生成符合Anthropic规范的.claude-plugin/marketplace.json文件，\n使用`claude plugin validate`进行验证，测试实际安装，\n并创建拉取请求（PR）到上游仓库。编码从实际市场开发中获得的反模式（模式陷阱、版本语义、描述陷阱）。\n当用户提到以下内容时使用：市场、插件支持、一键安装、插件分发、自动更新，\n或者希望技能仓库可以通过`claude plugin install`安装。\n当用户有技能仓库并询问关于打包、分发或使其可安装的问题时，也会触发。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/marketplace-dev",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/marketplace-dev",
+        "last_synced": "2026-08-14T02:36:23.562673Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "dev",
+        "marketplace"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/meeting-minutes-taker",
+      "spec": {
+        "name": "meeting-minutes-taker",
+        "description": "将原始会议记录转换为高保真、结构化的会议纪要，并通过迭代审查确保完整性。在以下情况下应使用此技能：（1）提供会议记录并要求会议纪要、笔记或摘要；（2）需要合并多个版本的会议纪要而不丢失内容；（3）需要根据原始记录审查现有纪要以查找缺失项；（4）记录中有匿名发言者，如 “发言者 1/2/3”，需要进行识别。功能包括：通过特征分析（字数、发言风格、话题聚焦）与 context.md 团队目录映射进行发言者识别，从内容中智能命名文件，与 transcript-fixer 集成进行预处理，基于证据的录音，附带发言者引用，Mermaid 图表用于架构讨论，多轮并行生成以避免内容丢失，以及迭代的人机协作优化。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/meeting-minutes-taker",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/meeting-minutes-taker",
+        "last_synced": "2026-08-14T02:36:23.562764Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "meeting",
+        "minutes",
+        "taker"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/mermaid-tools",
+      "spec": {
+        "name": "mermaid-tools",
+        "description": "从 markdown 文件中提取 Mermaid 图表，并使用捆绑的脚本生成高质量的 PNG 图像。在处理 Mermaid 图表、将图表转换为 PNG、从 markdown 中提取图表或处理带有嵌入式 Mermaid 代码的 markdown 文件时激活。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/mermaid-tools",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/mermaid-tools",
+        "last_synced": "2026-08-14T02:36:23.562825Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "mermaid",
+        "tools"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/pdf-creator",
+      "spec": {
+        "name": "pdf-creator",
+        "description": "使用 weasyprint 从 markdown 创建 PDF 文档，并提供适当的中文字体支持。当需要将 markdown 转换为 PDF、生成正式文档（法律、商标备案、报告）或需要中文排版时，应使用此技能。触发词包括“转换为 PDF”、“生成 PDF”、“markdown 转 PDF”或任何创建可打印文档的请求。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/pdf-creator",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/pdf-creator",
+        "last_synced": "2026-08-14T02:36:23.562876Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "creator",
+        "pdf"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/ppt-creator",
+      "spec": {
+        "name": "ppt-creator",
+        "description": "从主题或文档创建专业的幻灯片。生成包含数据驱动图表、演讲者备注和完整 PPTX 文件的结构化内容。应用有说服力的故事讲述原则（金字塔原理、论断-证据）。支持多种格式 (Marp, PowerPoint)。用于演示文稿、宣传、幻灯片或主题演讲。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/ppt-creator",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/ppt-creator",
+        "last_synced": "2026-08-14T02:36:23.562927Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "creator",
+        "ppt",
+        "pptx"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/product-analysis",
+      "spec": {
+        "name": "product-analysis",
+        "description": "## 多路径并行产品分析\n\n采用跨模型测试时间计算缩放技术。启动并行代理（Claude Code 代理团队 + Codex CLI），从多个角度探索产品，然后将发现结果综合成可行的优化计划。可以调用竞争对手分析进行竞争基准测试。在以下情况使用：“产品审计”、“自我审查”、“发布前审查”、“产品分析”、“分析我们的产品”、“用户体验审计”或“信息架构审计”。\n\n``` \n# 多路径并行产品分析\n\n采用跨模型测试时间计算缩放技术。启动并行代理（Claude Code 代理团队 + Codex CLI），从多个角度探索产品，然后将发现结果综合成可行的优化计划。可以调用竞争对手分析进行竞争基准测试。在以下情况使用：“产品审计”、“自我审查”、“发布前审查”、“产品分析”、“分析我们的产品”、“用户体验审计”或“信息架构审计”。\n```",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/product-analysis",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/product-analysis",
+        "last_synced": "2026-08-14T02:36:23.562973Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "analysis",
+        "cli",
+        "product"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/prompt-optimizer",
+      "spec": {
+        "name": "prompt-optimizer",
+        "description": "使用 EARS（需求语法简易方法）方法论将模糊的提示转化为精确、结构良好的规范。当用户提供松散的需求、含糊不清的功能描述或需要增强 AI 生成的代码、产品或文档的提示时，应使用此技能。触发条件包括“优化我的提示”、“改进此需求”、“使其更具体”的请求，或者当原始需求缺乏细节和结构时。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/prompt-optimizer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/prompt-optimizer",
+        "last_synced": "2026-08-14T02:36:23.563062Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "optimizer",
+        "prompt"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/promptfoo-evaluation",
+      "spec": {
+        "name": "promptfoo-evaluation",
+        "description": "使用 Promptfoo 框架配置和运行 LLM 评估。在设置提示测试、创建评估配置（promptfooconfig.yaml）、编写 Python 自定义断言、实现用于 LLM 评估的 llm-rubric，或管理提示中的少样本示例时使用。通过“promptfoo”、“eval”、“LLM 评估”、“提示测试”或“模型比较”等关键词触发。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/promptfoo-evaluation",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/promptfoo-evaluation",
+        "last_synced": "2026-08-14T02:36:23.563113Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "evaluation",
+        "llm",
+        "promptfoo",
+        "python"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/qa-expert",
+      "spec": {
+        "name": "qa-expert",
+        "description": "此技能应用于为任何软件项目建立全面的质量保证测试流程。可用于创建测试策略，编写遵循 Google 测试标准的测试用例，执行测试计划，使用 P0-P4 分类跟踪错误，计算质量指标或生成进度报告。包括通过主提示实现的自主执行能力，以及用于第三方质量保证团队移交的完整文档模板。实施 OWASP 安全测试并实现 90% 的覆盖率目标。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/qa-expert",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/qa-expert",
+        "last_synced": "2026-08-14T02:36:23.563165Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "expert"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/scrapling-skill",
+      "spec": {
+        "name": "scrapling-skill",
+        "description": "<div>\n  安装、故障排除并使用Scrapling CLI从网页中提取HTML、Markdown或文本。每当用户提到Scrapling、安装Scrapling、Scrapling提取、微信文章、浏览器后台页面获取或需要帮助决定静态还是动态提取时，都可以使用此技能。\n</div>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/scrapling-skill",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/scrapling-skill",
+        "last_synced": "2026-08-14T02:36:23.563311Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "scrapling",
+        "skill"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/slides-creator",
+      "spec": {
+        "name": "slides-creator",
+        "description": "## 叙事优先的幻灯片创建\n\n引导用户通过结构化的叙事设计（ABCDEFG 模型），然后将视觉生成委托给 baoyu-slide-deck。在用户触发以下操作时生效：\"创建幻灯片\"、\"制作演示文稿\"、\"生成幻灯片集\"、\"幻灯片集\"、\"PPT\"，或当用户需要将内容转换为视觉幻灯片时。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/slides-creator",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/slides-creator",
+        "last_synced": "2026-08-14T02:36:23.563407Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "creator",
+        "slides"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/stepfun-tts",
+      "spec": {
+        "name": "stepfun-tts",
+        "description": "使用阶跃的 StepAudio 2.5 系列 — **stepaudio-2.5-tts**（带有指令和内联括号的上下文 TTS）和 **stepaudio-2.5-asr**（SSE 端点，32K 上下文，约 100 倍 RTF，支持单次调用 30 分钟的音频）。当用户希望使用带有情感/韵律控制的中文/日语 TTS、需要转录长音频、从 **step-tts-2** 迁移到 **stepaudio-2.5-tts**（`voice_label` → 指令的不兼容变更），或者遇到阶跃审查/端点错误时使用。同时，当用户输入诸如“阶跃 TTS”、“StepAudio 合成”、“语音合成”、“配音”、“阶跃 ASR”、“转录”、“语音识别”、“文本转语音”、“TTS 升级”、“迁移 step-tts-2”等短语时也会触发。如果用户的音频任务提到了阶跃/StepAudio 的名称，或者涉及带有情绪/情感控制的中文 TTS，请在使用此技能后备用fallback 到通用音频处理。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/stepfun-tts",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/stepfun-tts",
+        "last_synced": "2026-08-14T02:36:23.563537Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "stepfun",
+        "tts"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/teams-channel-post-writer",
+      "spec": {
+        "name": "teams-channel-post-writer",
+        "description": "创建用于内部知识共享的关于 Claude Code 功能、工具和最佳实践的教育性 Teams 频道帖子。适用于编写帖子、公告或文档，以教导同事有效地使用 Claude Code，宣布新功能，分享生产力技巧，或记录经验教训。提供模板、写作指南和结构化方法，强调具体示例、基本原则以及与上下文工程等最佳实践的联系。针对涉及 Teams 帖子、频道公告、功能文档或技巧分享的内容激活。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/teams-channel-post-writer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/teams-channel-post-writer",
+        "last_synced": "2026-08-14T02:36:23.563628Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "channel",
+        "post",
+        "teams",
+        "writer"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/transcript-fixer",
+      "spec": {
+        "name": "transcript-fixer",
+        "description": "使用词典规则和人工智能分析来纠正语音转文本的转录错误。建立个性化的纠正数据库，从每次修改中学习。当处理包含识别错误、同音词、混淆的技术术语或中英混合内容的ASR/STT输出时触发。此技能也可用于清理会议笔记、讲座记录、访谈录音或由语音识别生成的任何文本。即使用户只说“修复这个记录”或“清理这些会议笔记”，而没有特别提到ASR，也可以使用此技能。\n\n翻译后结果：\n```\n使用词典规则和人工智能分析来纠正语音转文本的转录错误。建立个性化的纠正数据库，从每次修改中学习。当处理包含识别错误、同音词、混淆的技术术语或中英混合内容的ASR/STT输出时触发。此技能也可用于清理会议笔记、讲座记录、访谈录音或由语音识别生成的任何文本。即使用户只说“修复这个记录”或“清理这些会议笔记”，而没有特别提到ASR，也可以使用此技能。\n```\n保留HTML标签，无英文（技术名词除外），输出为纯中文。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/transcript-fixer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/transcript-fixer",
+        "last_synced": "2026-08-14T02:36:23.563685Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "data",
+      "tags": [
+        "fixer",
+        "transcript"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/tunnel-doctor",
+      "spec": {
+        "name": "tunnel-doctor",
+        "description": "诊断并修复 macOS 上 Tailscale 与代理/VPN 工具（例如 Shadowrocket、Clash、Surge）之间的冲突。该工具涵盖五个冲突层面：<br>\n(1) 路由劫持，<br>\n(2) HTTP 代理环境变量拦截，<br>\n(3) 系统代理绕过，<br>\n(4) SSH ProxyCommand 双重隧道，<br>\n(5) VM/容器运行时代理传播（OrbStack/Docker）。<br>\n包括通过 SSH 隧道进行远程开发的标准化操作流程（SOP），以及代理安全 Makefile 模式。<br>\n当以下情况时使用此工具：<br>\n- Tailscale ping 通，但 SSH/HTTP 超时；<br>\n- 浏览器返回 503 错误，但 curl 正常工作；<br>\n- git push 失败，提示“failed to begin relaying via HTTP”；<br>\n- Docker pull 在 TUN/VPN 后超时；<br>\n- 设置 Tailscale SSH 连接到 WSL 实例；<br>\n- 通过 Tailscale 构建远程开发环境。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/tunnel-doctor",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/tunnel-doctor",
+        "last_synced": "2026-08-14T02:36:23.563757Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "docker",
+        "doctor",
+        "tunnel"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/twitter-reader",
+      "spec": {
+        "name": "twitter-reader",
+        "description": "抓取 Twitter/X 帖子内容，包括长篇 文章，附带完整图片和元数据。在 Claude 需要检索推文/文章内容、作者信息、互动指标和嵌入媒体时使用。支持单个帖子和 X 文章（长篇内容）。自动将所有图片下载到本地附件文件夹，并生成带有正确图片引用的完整 Markdown。在带有图片的 X 文章中，优先使用此方式而非 Jina。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/twitter-reader",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/twitter-reader",
+        "last_synced": "2026-08-14T02:36:23.563850Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "reader",
+        "twitter"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/windows-remote-desktop-connection-doctor",
+      "spec": {
+        "name": "windows-remote-desktop-connection-doctor",
+        "description": "# 诊断 Windows 应用（Microsoft 远程桌面 / Azure 虚拟桌面 / W365）连接质量问题（macOS）\n\n在 macOS 上诊断 Windows 应用（Microsoft 远程桌面 / Azure 虚拟桌面 / W365）连接质量问题。分析传输协议选择（UDP Shortpath 与 WebSocket），检测 VPN/代理干扰 STUN/TURN协商，并解析 Windows 应用日志中的 Shortpath 失败记录。此技能用于 VDI 连接缓慢、传输显示 WebSocket 而非 UDP、RDP Shortpath 无法建立或 RTT 意外高时。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/windows-remote-desktop-connection-doctor",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/windows-remote-desktop-connection-doctor",
+        "last_synced": "2026-08-14T02:36:23.563995Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "azure",
+        "connection",
+        "desktop",
+        "doctor",
+        "remote",
+        "windows"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "KKKKhazix/Khazix-Skills/skill-evolution-manager",
+      "spec": {
+        "name": "skill-evolution-manager",
+        "description": "专门用于在对话结束时，根据用户反馈和对话内容总结优化并迭代现有 Skills 的核心工具。它通过吸取对话中的“精华”（如成功的解决方案、失败的教训、特定的代码规范）来持续演进 Skills 库。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/KKKKhazix/Khazix-Skills",
+        "source_path": "skills/Skill Evolution Manager",
+        "install_url": "https://github.com/KKKKhazix/Khazix-Skills/tree/main/skills/Skill Evolution Manager",
+        "last_synced": "2026-08-14T02:36:23.412412Z",
+        "upstream_commit": "",
+        "repo": "kkkkhazix/khazix-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 7875,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "evolution",
+        "manager",
+        "skill"
+      ],
+      "score": 41
+    },
+    {
+      "skill_id": "KKKKhazix/Khazix-Skills/skill-manager",
+      "spec": {
+        "name": "skill-manager",
+        "description": "基于 GitHub 的技能的生命周期管理器。使用它可以批量扫描您的技能目录，检查 GitHub 上的更新，并执行技能包装器的引导式升级。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/KKKKhazix/Khazix-Skills",
+        "source_path": "skills/skill-manager",
+        "install_url": "https://github.com/KKKKhazix/Khazix-Skills/tree/main/skills/skill-manager",
+        "last_synced": "2026-08-14T02:36:23.412460Z",
+        "upstream_commit": "",
+        "repo": "kkkkhazix/khazix-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 7875,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "github",
+        "manager",
+        "skill"
+      ],
+      "score": 41
     },
     {
       "skill_id": "binance/binance-skills-hub/crypto-market-rank",
@@ -213970,411 +213970,6 @@
       "score": 40
     },
     {
-      "skill_id": "daymade/claude-code-skills/fact-checker",
-      "spec": {
-        "name": "fact-checker",
-        "description": "网络搜索和官方来源验证文档中的事实主张，然后在用户确认后提出更正。用户要求核实事实、验证信息、确认主张、检查准确性或更新文档中过时的信息时使用此功能。支持 AI 模型规格、技术文档、统计数据和一般事实陈述。<",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/fact-checker",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/fact-checker",
-        "last_synced": "2026-08-14T02:36:23.561927Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "checker",
-        "fact"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/github-contributor",
-      "spec": {
-        "name": "github-contributor",
-        "description": "成为有效GitHub贡献者的战略指南。涵盖机会发现、项目选择、高质量PR创建和声誉建设。当您希望为开源项目做出贡献、建立GitHub存在感或学习贡献最佳实践时，请使用此指南。<br>\n\n注：此处`GitHub`为技术名词，故不做翻译。",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/github-contributor",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/github-contributor",
-        "last_synced": "2026-08-14T02:36:23.562240Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "contributor",
-        "github"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/macos-cleaner",
-      "spec": {
-        "name": "macos-cleaner",
-        "description": "通过智能清理建议，分析和 reclaim macOS 磁盘空间。此技能用于用户报告磁盘空间问题、需要清理 Mac 或想要了解存储空间的占用情况。专注于安全的、交互式的分析，在删除任何文件之前需要用户确认。<br>",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/macos-cleaner",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/macos-cleaner",
-        "last_synced": "2026-08-14T02:36:23.562563Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "cleaner",
-        "macos"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/repomix-safe-mixer",
-      "spec": {
-        "name": "repomix-safe-mixer",
-        "description": "使用 repomix 安全地打包代码库，通过自动检测和删除打包前的硬编码凭据。在为分发打包代码、创建参考包或用户提到关于使用 repomix 分享代码的安全性问题时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/repomix-safe-mixer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/repomix-safe-mixer",
-        "last_synced": "2026-08-14T02:36:23.563217Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "mixer",
-        "repomix",
-        "safe"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/repomix-unmixer",
-      "spec": {
-        "name": "repomix-unmixer",
-        "description": "从 repomix 打包的存储库中提取文件，从 XML/Markdown/JSON 格式恢复原始目录结构。当用户需要解混 repomix 文件、提取打包的存储库、从 repomix 输出恢复文件结构或反转 repomix 打包过程时激活。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/repomix-unmixer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/repomix-unmixer",
-        "last_synced": "2026-08-14T02:36:23.563263Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "document",
-      "tags": [
-        "repomix",
-        "unmixer"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/skill-reviewer",
-      "spec": {
-        "name": "skill-reviewer",
-        "description": "根据官方最佳实践，审查并改进 Claude 代码技能。支持三种模式 - 自我审查（验证您自己的技能）、外部审查（评估他人的技能）和自动 PR（fork、改进、提交）。在检查技能质量、审查技能存储库或为开源技能贡献改进时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/skill-reviewer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/skill-reviewer",
-        "last_synced": "2026-08-14T02:36:23.563362Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "other",
-      "tags": [
-        "reviewer",
-        "skill"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/statusline-generator",
-      "spec": {
-        "name": "statusline-generator",
-        "description": "配置和自定义 Claude Code 状态行，具有多行布局、通过 ccusage 进行成本跟踪、git 状态指示器和可自定义的颜色。激活用于状态行设置、安装、配置、自定义、颜色更改、成本显示、git 状态集成或解决状态行问题。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/statusline-generator",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/statusline-generator",
-        "last_synced": "2026-08-14T02:36:23.563457Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "generator",
-        "statusline"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/ui-designer",
-      "spec": {
-        "name": "ui-designer",
-        "description": "从参考 UI 图像中提取设计系统，并生成可直接实现的 UI 设计提示。当用户提供 UI 截图/模型，并且想要创建一致的设计、生成设计系统或构建与参考美学相匹配的 MVP UI 时使用。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/ui-designer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/ui-designer",
-        "last_synced": "2026-08-14T02:36:23.563906Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "designer"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "daymade/claude-code-skills/video-comparer",
-      "spec": {
-        "name": "video-comparer",
-        "description": "此技能应用于比较两个视频，以分析压缩结果或质量差异。生成包含质量指标（PSNR、SSIM）和逐帧视觉比较的交互式 HTML 报告。当用户提到“比较视频”、“视频质量”、“压缩分析”、“压缩前后”或请求压缩视频的质量评估时触发。\n",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/daymade/claude-code-skills",
-        "source_path": "skills/video-comparer",
-        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/video-comparer",
-        "last_synced": "2026-08-14T02:36:23.563951Z",
-        "upstream_commit": "",
-        "repo": "daymade/claude-code-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 974,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "comparer",
-        "video"
-      ],
-      "score": 39
-    },
-    {
       "skill_id": "am-will/codex-skills/parallel",
       "spec": {
         "name": "parallel",
@@ -216102,101 +215697,6 @@
       "score": 39
     },
     {
-      "skill_id": "fancyai-official/skills/product-animation-video",
-      "spec": {
-        "name": "product-animation-video",
-        "description": "<!-- Copyright 2026 FancyAI -->",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/fancyai-official/skills",
-        "source_path": "skills/Product Animation Video | 产品动画视频",
-        "install_url": "https://github.com/fancyai-official/skills/tree/main/skills/Product Animation Video | 产品动画视频",
-        "last_synced": "2026-08-14T02:36:23.560179Z",
-        "upstream_commit": "",
-        "repo": "fancyai-official/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1039,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "animation",
-        "product",
-        "video"
-      ],
-      "score": 39
-    },
-    {
-      "skill_id": "fancyai-official/skills/small-appliance-commercial-hero-image-generation",
-      "spec": {
-        "name": "small-appliance-commercial-hero-image-generation",
-        "description": "<!-- Copyright 2026 FancyAI -->",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "mcpmarket-cn",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/fancyai-official/skills",
-        "source_path": "skills/Small-appliance commercial hero image generation",
-        "install_url": "https://github.com/fancyai-official/skills/tree/main/skills/Small-appliance commercial hero image generation",
-        "last_synced": "2026-08-14T02:36:23.560223Z",
-        "upstream_commit": "",
-        "repo": "fancyai-official/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 1039,
-        "last_commit_date": "2026-04-29",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "creative",
-      "tags": [
-        "appliance",
-        "commercial",
-        "generation",
-        "hero",
-        "image",
-        "small"
-      ],
-      "score": 39
-    },
-    {
       "skill_id": "sickn33/antigravity-awesome-skills/build",
       "spec": {
         "name": "build",
@@ -216510,10 +216010,10 @@
       "score": 39
     },
     {
-      "skill_id": "fancyai-official/skills/酒水饮料商业大片拍摄大师",
+      "skill_id": "daymade/claude-code-skills/fact-checker",
       "spec": {
-        "name": "酒水饮料商业大片拍摄大师",
-        "description": "<!-- Copyright 2026 FancyAI -->",
+        "name": "fact-checker",
+        "description": "网络搜索和官方来源验证文档中的事实主张，然后在用户确认后提出更正。用户要求核实事实、验证信息、确认主张、检查准确性或更新文档中过时的信息时使用此功能。支持 AI 模型规格、技术文档、统计数据和一般事实陈述。<",
         "license": null,
         "compatibility": null,
         "metadata": {},
@@ -216522,16 +216022,16 @@
       "discovery": {
         "source_id": "mcpmarket-cn",
         "source_type": "github_repo",
-        "source_url": "https://github.com/fancyai-official/skills",
-        "source_path": "skills/酒水饮料商业大片拍摄大师",
-        "install_url": "https://github.com/fancyai-official/skills/tree/main/skills/酒水饮料商业大片拍摄大师",
-        "last_synced": "2026-08-14T02:36:23.560268Z",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/fact-checker",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/fact-checker",
+        "last_synced": "2026-08-14T02:36:23.561927Z",
         "upstream_commit": "",
-        "repo": "fancyai-official/skills",
+        "repo": "daymade/claude-code-skills",
         "alternate_sources": []
       },
       "signals": {
-        "repo_stars": 1039,
+        "repo_stars": 974,
         "last_commit_date": "2026-04-29",
         "has_scripts": false,
         "has_references": false,
@@ -216549,9 +216049,370 @@
       },
       "category": "other",
       "tags": [
-        "酒水饮料商业大片拍摄大师"
+        "checker",
+        "fact"
       ],
-      "score": 39
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/github-contributor",
+      "spec": {
+        "name": "github-contributor",
+        "description": "成为有效GitHub贡献者的战略指南。涵盖机会发现、项目选择、高质量PR创建和声誉建设。当您希望为开源项目做出贡献、建立GitHub存在感或学习贡献最佳实践时，请使用此指南。<br>\n\n注：此处`GitHub`为技术名词，故不做翻译。",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/github-contributor",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/github-contributor",
+        "last_synced": "2026-08-14T02:36:23.562240Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "contributor",
+        "github"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/macos-cleaner",
+      "spec": {
+        "name": "macos-cleaner",
+        "description": "通过智能清理建议，分析和 reclaim macOS 磁盘空间。此技能用于用户报告磁盘空间问题、需要清理 Mac 或想要了解存储空间的占用情况。专注于安全的、交互式的分析，在删除任何文件之前需要用户确认。<br>",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/macos-cleaner",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/macos-cleaner",
+        "last_synced": "2026-08-14T02:36:23.562563Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "cleaner",
+        "macos"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/repomix-safe-mixer",
+      "spec": {
+        "name": "repomix-safe-mixer",
+        "description": "使用 repomix 安全地打包代码库，通过自动检测和删除打包前的硬编码凭据。在为分发打包代码、创建参考包或用户提到关于使用 repomix 分享代码的安全性问题时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/repomix-safe-mixer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/repomix-safe-mixer",
+        "last_synced": "2026-08-14T02:36:23.563217Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "mixer",
+        "repomix",
+        "safe"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/repomix-unmixer",
+      "spec": {
+        "name": "repomix-unmixer",
+        "description": "从 repomix 打包的存储库中提取文件，从 XML/Markdown/JSON 格式恢复原始目录结构。当用户需要解混 repomix 文件、提取打包的存储库、从 repomix 输出恢复文件结构或反转 repomix 打包过程时激活。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/repomix-unmixer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/repomix-unmixer",
+        "last_synced": "2026-08-14T02:36:23.563263Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "document",
+      "tags": [
+        "repomix",
+        "unmixer"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/skill-reviewer",
+      "spec": {
+        "name": "skill-reviewer",
+        "description": "根据官方最佳实践，审查并改进 Claude 代码技能。支持三种模式 - 自我审查（验证您自己的技能）、外部审查（评估他人的技能）和自动 PR（fork、改进、提交）。在检查技能质量、审查技能存储库或为开源技能贡献改进时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/skill-reviewer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/skill-reviewer",
+        "last_synced": "2026-08-14T02:36:23.563362Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "reviewer",
+        "skill"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/statusline-generator",
+      "spec": {
+        "name": "statusline-generator",
+        "description": "配置和自定义 Claude Code 状态行，具有多行布局、通过 ccusage 进行成本跟踪、git 状态指示器和可自定义的颜色。激活用于状态行设置、安装、配置、自定义、颜色更改、成本显示、git 状态集成或解决状态行问题。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/statusline-generator",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/statusline-generator",
+        "last_synced": "2026-08-14T02:36:23.563457Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "generator",
+        "statusline"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/ui-designer",
+      "spec": {
+        "name": "ui-designer",
+        "description": "从参考 UI 图像中提取设计系统，并生成可直接实现的 UI 设计提示。当用户提供 UI 截图/模型，并且想要创建一致的设计、生成设计系统或构建与参考美学相匹配的 MVP UI 时使用。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/ui-designer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/ui-designer",
+        "last_synced": "2026-08-14T02:36:23.563906Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "designer"
+      ],
+      "score": 38
+    },
+    {
+      "skill_id": "daymade/claude-code-skills/video-comparer",
+      "spec": {
+        "name": "video-comparer",
+        "description": "此技能应用于比较两个视频，以分析压缩结果或质量差异。生成包含质量指标（PSNR、SSIM）和逐帧视觉比较的交互式 HTML 报告。当用户提到“比较视频”、“视频质量”、“压缩分析”、“压缩前后”或请求压缩视频的质量评估时触发。\n",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/daymade/claude-code-skills",
+        "source_path": "skills/video-comparer",
+        "install_url": "https://github.com/daymade/claude-code-skills/tree/main/skills/video-comparer",
+        "last_synced": "2026-08-14T02:36:23.563951Z",
+        "upstream_commit": "",
+        "repo": "daymade/claude-code-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 974,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "comparer",
+        "video"
+      ],
+      "score": 38
     },
     {
       "skill_id": "zechenzhangAGI/AI-research-SKILLs/ray-data---scalable-ml-data-processing",
@@ -217250,6 +217111,101 @@
         "skill"
       ],
       "score": 38
+    },
+    {
+      "skill_id": "fancyai-official/skills/product-animation-video",
+      "spec": {
+        "name": "product-animation-video",
+        "description": "<!-- Copyright 2026 FancyAI -->",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/fancyai-official/skills",
+        "source_path": "skills/Product Animation Video | 产品动画视频",
+        "install_url": "https://github.com/fancyai-official/skills/tree/main/skills/Product Animation Video | 产品动画视频",
+        "last_synced": "2026-08-14T02:36:23.560179Z",
+        "upstream_commit": "",
+        "repo": "fancyai-official/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1039,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "animation",
+        "product",
+        "video"
+      ],
+      "score": 37
+    },
+    {
+      "skill_id": "fancyai-official/skills/small-appliance-commercial-hero-image-generation",
+      "spec": {
+        "name": "small-appliance-commercial-hero-image-generation",
+        "description": "<!-- Copyright 2026 FancyAI -->",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/fancyai-official/skills",
+        "source_path": "skills/Small-appliance commercial hero image generation",
+        "install_url": "https://github.com/fancyai-official/skills/tree/main/skills/Small-appliance commercial hero image generation",
+        "last_synced": "2026-08-14T02:36:23.560223Z",
+        "upstream_commit": "",
+        "repo": "fancyai-official/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1039,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "creative",
+      "tags": [
+        "appliance",
+        "commercial",
+        "generation",
+        "hero",
+        "image",
+        "small"
+      ],
+      "score": 37
     },
     {
       "skill_id": "binance/binance-skills-hub/query-token-audit",
@@ -218577,6 +218533,50 @@
       "score": 37
     },
     {
+      "skill_id": "fancyai-official/skills/酒水饮料商业大片拍摄大师",
+      "spec": {
+        "name": "酒水饮料商业大片拍摄大师",
+        "description": "<!-- Copyright 2026 FancyAI -->",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "mcpmarket-cn",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/fancyai-official/skills",
+        "source_path": "skills/酒水饮料商业大片拍摄大师",
+        "install_url": "https://github.com/fancyai-official/skills/tree/main/skills/酒水饮料商业大片拍摄大师",
+        "last_synced": "2026-08-14T02:36:23.560268Z",
+        "upstream_commit": "",
+        "repo": "fancyai-official/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 1039,
+        "last_commit_date": "2026-04-29",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "other",
+      "tags": [
+        "酒水饮料商业大片拍摄大师"
+      ],
+      "score": 37
+    },
+    {
       "skill_id": "bear2u/my-skills/메타-프롬프트-생성기",
       "spec": {
         "name": "메타-프롬프트-생성기",
@@ -219412,5 +219412,5 @@
     }
   ],
   "total": 4769,
-  "generated_at": "2026-10-26T09:48:25.597640+00:00"
+  "generated_at": "2026-10-27T09:39:19.113478+00:00"
 }
