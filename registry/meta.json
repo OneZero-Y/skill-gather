@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-10-27T09:39:19.228742Z",
+  "last_synced": "2026-10-28T10:23:25.269995Z",
   "version": "1",
   "categories": {
     "document": 977,
-    "development": 4085,
-    "devops": 1157,
-    "data": 680,
-    "creative": 1020,
+    "development": 4095,
+    "devops": 1151,
+    "data": 677,
+    "creative": 1022,
     "security": 156,
-    "productivity": 1069,
+    "productivity": 1068,
     "education": 204,
-    "other": 1338,
-    "ecommerce": 85,
-    "content": 522
+    "other": 1339,
+    "ecommerce": 86,
+    "content": 518
   },
   "sources": [
     "anthropics-skills",
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 28,
-    "21-40": 3131,
-    "41-60": 7618,
+    "0-20": 27,
+    "21-40": 3098,
+    "41-60": 7652,
     "61-80": 400,
     "81-100": 116
   },
   "changelog": {
-    "added": 35,
-    "removed": 35,
-    "modified": 221,
+    "added": 31,
+    "removed": 31,
+    "modified": 153,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:208324:1793093926161:dev-god",
+      "fingerprint": "skillhub:209626:1793182951021:dev-god",
       "skill_count": 5000,
-      "synced_at": "2026-10-27T09:39:19.228717+00:00",
+      "synced_at": "2026-10-28T10:23:25.269963+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -178,7 +178,7 @@
   "quality": {
     "total": 11293,
     "score": {
-      "avg": 43.4,
+      "avg": 43.3,
       "min": 18,
       "max": 87,
       "median": 42,
@@ -186,12 +186,12 @@
       "spread": 69
     },
     "coverage_pct": {
-      "has_description": 99.18,
+      "has_description": 99.19,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 80.24
+      "has_stars": 80.34
     },
     "source_health": {
       "skillhub-cn": {
@@ -319,7 +319,7 @@
       "removed_count": 0,
       "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 159,
+      "disambiguated_ids": 163,
       "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
       "largest_group": 0,
