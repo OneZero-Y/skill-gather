@@ -48,7 +48,7 @@
         "mcp",
         "sdk"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/figma-code-connect-components",
@@ -97,7 +97,7 @@
         "connect",
         "figma"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/figma-create-design-system-rules",
@@ -148,7 +148,7 @@
         "rules",
         "system"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/figma-generate-library",
@@ -197,7 +197,7 @@
         "generate",
         "library"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/hatch-pet",
@@ -244,7 +244,7 @@
         "hatch",
         "pet"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/jupyter-notebook",
@@ -291,7 +291,7 @@
         "jupyter",
         "notebook"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/openai-docs",
@@ -339,7 +339,7 @@
         "mcp",
         "openai"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/playwright",
@@ -386,7 +386,7 @@
         "cli",
         "playwright"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/security-ownership-map",
@@ -434,7 +434,7 @@
         "ownership",
         "security"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/speech",
@@ -482,7 +482,7 @@
         "cli",
         "speech"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/transcribe",
@@ -528,7 +528,7 @@
       "tags": [
         "transcribe"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/imagegen",
@@ -574,7 +574,7 @@
       "tags": [
         "imagegen"
       ],
-      "score": 81
+      "score": 79
     },
     {
       "skill_id": "openai/skills/plugin-creator",
@@ -621,55 +621,7 @@
         "creator",
         "plugin"
       ],
-      "score": 81
-    },
-    {
-      "skill_id": "openai/skills/migrate-to-codex",
-      "spec": {
-        "name": "migrate-to-codex",
-        "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
-        "license": null,
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "openai-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/openai/skills",
-        "source_path": "skills/.curated/migrate-to-codex",
-        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
-        "last_synced": "2026-08-14T03:15:42.179689Z",
-        "upstream_commit": "49f948faa925",
-        "repo": "openai/skills",
-        "alternate_sources": [
-          "mcpmarket-cn"
-        ]
-      },
-      "signals": {
-        "repo_stars": 24921,
-        "last_commit_date": "2026-05-01",
-        "has_scripts": true,
-        "has_references": true,
-        "file_count": 24,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 2
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "codex",
-        "mcp",
-        "migrate"
-      ],
-      "score": 77
+      "score": 79
     },
     {
       "skill_id": "openai/skills/skill-creator",
@@ -717,6 +669,54 @@
         "skill"
       ],
       "score": 76
+    },
+    {
+      "skill_id": "openai/skills/migrate-to-codex",
+      "spec": {
+        "name": "migrate-to-codex",
+        "description": "Migrate supported instruction files, skills, agents, and MCP config into Codex project and global files.",
+        "license": null,
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.curated/migrate-to-codex",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.curated/migrate-to-codex",
+        "last_synced": "2026-08-14T03:15:42.179689Z",
+        "upstream_commit": "49f948faa925",
+        "repo": "openai/skills",
+        "alternate_sources": [
+          "mcpmarket-cn"
+        ]
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": "2026-05-01",
+        "has_scripts": true,
+        "has_references": true,
+        "file_count": 24,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 2
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "codex",
+        "mcp",
+        "migrate"
+      ],
+      "score": 75
     },
     {
       "skill_id": "openai/skills/gh-address-comments",
@@ -767,7 +767,7 @@
         "comments",
         "github"
       ],
-      "score": 75
+      "score": 73
     },
     {
       "skill_id": "openai/skills/gh-fix-ci",
@@ -814,7 +814,7 @@
         "fix",
         "github"
       ],
-      "score": 74
+      "score": 72
     },
     {
       "skill_id": "openai/skills/screenshot",
@@ -860,7 +860,7 @@
       "tags": [
         "screenshot"
       ],
-      "score": 74
+      "score": 72
     },
     {
       "skill_id": "openai/skills/notion-meeting-intelligence",
@@ -910,7 +910,7 @@
         "meeting",
         "notion"
       ],
-      "score": 73
+      "score": 71
     },
     {
       "skill_id": "openai/skills/notion-knowledge-capture",
@@ -960,7 +960,7 @@
         "knowledge",
         "notion"
       ],
-      "score": 72
+      "score": 70
     },
     {
       "skill_id": "openai/skills/notion-research-documentation",
@@ -1010,7 +1010,7 @@
         "notion",
         "research"
       ],
-      "score": 72
+      "score": 70
     },
     {
       "skill_id": "openai/skills/notion-spec-to-implementation",
@@ -1060,7 +1060,55 @@
         "notion",
         "spec"
       ],
-      "score": 72
+      "score": 70
+    },
+    {
+      "skill_id": "openai/skills/skill-installer",
+      "spec": {
+        "name": "skill-installer",
+        "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
+        "license": null,
+        "compatibility": null,
+        "metadata": {
+          "short-description": "Install curated skills from openai/skills or other repos"
+        },
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "openai-skills",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/openai/skills",
+        "source_path": "skills/.system/skill-installer",
+        "install_url": "https://github.com/openai/skills/tree/main/skills/.system/skill-installer",
+        "last_synced": "2026-08-14T03:15:42.181424Z",
+        "upstream_commit": "49f948faa925",
+        "repo": "openai/skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 24921,
+        "last_commit_date": null,
+        "has_scripts": true,
+        "has_references": false,
+        "file_count": 11,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": false,
+        "claude_ai": false,
+        "kiro": false,
+        "codex": true,
+        "universal": false
+      },
+      "category": "development",
+      "tags": [
+        "github",
+        "installer",
+        "skill"
+      ],
+      "score": 70
     },
     {
       "skill_id": "openai/skills/aspnet-core",
@@ -1107,7 +1155,7 @@
         "aspnet",
         "core"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/cli-creator",
@@ -1156,7 +1204,7 @@
         "creator",
         "sdk"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/cloudflare-deploy",
@@ -1203,7 +1251,7 @@
         "cloudflare",
         "deploy"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/figma-use",
@@ -1250,7 +1298,7 @@
         "figma",
         "javascript"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/figma",
@@ -1297,7 +1345,7 @@
         "figma",
         "mcp"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/netlify-deploy",
@@ -1345,7 +1393,7 @@
         "deploy",
         "netlify"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/render-deploy",
@@ -1392,7 +1440,7 @@
         "deploy",
         "render"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/security-best-practices",
@@ -1443,7 +1491,7 @@
         "security",
         "typescript"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/security-threat-model",
@@ -1491,7 +1539,7 @@
         "security",
         "threat"
       ],
-      "score": 71
+      "score": 69
     },
     {
       "skill_id": "openai/skills/winui-app",
@@ -1539,55 +1587,7 @@
         "sdk",
         "winui"
       ],
-      "score": 71
-    },
-    {
-      "skill_id": "openai/skills/skill-installer",
-      "spec": {
-        "name": "skill-installer",
-        "description": "Install Codex skills into $CODEX_HOME/skills from a curated list or a GitHub repo path. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",
-        "license": null,
-        "compatibility": null,
-        "metadata": {
-          "short-description": "Install curated skills from openai/skills or other repos"
-        },
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "openai-skills",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/openai/skills",
-        "source_path": "skills/.system/skill-installer",
-        "install_url": "https://github.com/openai/skills/tree/main/skills/.system/skill-installer",
-        "last_synced": "2026-08-14T03:15:42.181424Z",
-        "upstream_commit": "49f948faa925",
-        "repo": "openai/skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 24921,
-        "last_commit_date": null,
-        "has_scripts": true,
-        "has_references": false,
-        "file_count": 11,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": false,
-        "claude_ai": false,
-        "kiro": false,
-        "codex": true,
-        "universal": false
-      },
-      "category": "development",
-      "tags": [
-        "github",
-        "installer",
-        "skill"
-      ],
-      "score": 70
+      "score": 69
     },
     {
       "skill_id": "openai/skills/vercel-deploy",
@@ -1680,7 +1680,7 @@
       "tags": [
         "linear"
       ],
-      "score": 65
+      "score": 63
     },
     {
       "skill_id": "openai/skills/figma-create-new-file",
@@ -1729,7 +1729,7 @@
         "file",
         "new"
       ],
-      "score": 64
+      "score": 62
     },
     {
       "skill_id": "openai/skills/figma-generate-design",
@@ -1777,7 +1777,7 @@
         "figma",
         "generate"
       ],
-      "score": 64
+      "score": 62
     },
     {
       "skill_id": "openai/skills/figma-implement-design",
@@ -1825,7 +1825,7 @@
         "figma",
         "implement"
       ],
-      "score": 64
+      "score": 62
     },
     {
       "skill_id": "openai/skills/sentry",
@@ -1872,7 +1872,7 @@
         "cli",
         "sentry"
       ],
-      "score": 64
+      "score": 62
     },
     {
       "skill_id": "openai/skills/yeet",
@@ -1920,7 +1920,7 @@
         "github",
         "yeet"
       ],
-      "score": 64
+      "score": 62
     },
     {
       "skill_id": "openai/skills/playwright-interactive",
@@ -1967,7 +1967,7 @@
         "interactive",
         "playwright"
       ],
-      "score": 60
+      "score": 58
     },
     {
       "skill_id": "openai/skills/pdf",
@@ -2061,5 +2061,5 @@
     }
   ],
   "total": 43,
-  "generated_at": "2026-10-28T10:23:24.798881+00:00"
+  "generated_at": "2026-10-29T10:44:18.975379+00:00"
 }
