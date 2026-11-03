@@ -1,18 +1,18 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-11-02T12:02:43.599072Z",
+  "last_synced": "2026-11-03T11:40:42.955500Z",
   "version": "1",
   "categories": {
-    "document": 978,
-    "development": 4097,
+    "document": 982,
+    "development": 4100,
     "devops": 1134,
     "data": 676,
-    "creative": 1049,
+    "creative": 1048,
     "security": 158,
-    "productivity": 1066,
+    "productivity": 1065,
     "education": 208,
-    "other": 1317,
+    "other": 1312,
     "ecommerce": 88,
     "content": 522
   },
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 21,
-    "21-40": 2944,
-    "41-60": 7812,
+    "0-20": 20,
+    "21-40": 2914,
+    "41-60": 7843,
     "61-80": 413,
     "81-100": 103
   },
   "changelog": {
-    "added": 30,
-    "removed": 30,
-    "modified": 119,
+    "added": 35,
+    "removed": 35,
+    "modified": 134,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:214830:1793620911226:dev-god",
+      "fingerprint": "skillhub:216216:1793706013500:dev-god",
       "skill_count": 5000,
-      "synced_at": "2026-11-02T12:02:43.599048+00:00",
+      "synced_at": "2026-11-03T11:40:42.955469+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -186,12 +186,12 @@
       "spread": 67
     },
     "coverage_pct": {
-      "has_description": 99.24,
+      "has_description": 99.27,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 80.56
+      "has_stars": 80.6
     },
     "source_health": {
       "skillhub-cn": {
@@ -319,7 +319,7 @@
       "removed_count": 0,
       "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 189,
+      "disambiguated_ids": 190,
       "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
       "largest_group": 0,
