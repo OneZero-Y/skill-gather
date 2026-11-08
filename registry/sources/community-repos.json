@@ -780,7 +780,7 @@
         "github",
         "skills"
       ],
-      "score": 51
+      "score": 49
     },
     {
       "skill_id": "alpacahq/alpaca-skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-11-07T10:54:49.375966+00:00"
+  "generated_at": "2026-11-08T11:04:57.553836+00:00"
 }
