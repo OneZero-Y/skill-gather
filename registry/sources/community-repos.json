@@ -367,52 +367,6 @@
       "score": 54
     },
     {
-      "skill_id": "AvdLee/SwiftUI-Agent-Skill",
-      "spec": {
-        "name": "swiftui-agent-skill",
-        "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
-        "license": "MIT",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
-        "source_path": "",
-        "install_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main",
-        "last_synced": "2026-09-12T08:26:29.173042Z",
-        "upstream_commit": "",
-        "repo": "avdlee/swiftui-agent-skill",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 3519,
-        "last_commit_date": "2026-08-12",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "agent",
-        "skill",
-        "swiftui"
-      ],
-      "score": 54
-    },
-    {
       "skill_id": "gamedev-skills/awesome-gamedev-agent-skills",
       "spec": {
         "name": "awesome-gamedev-agent-skills",
@@ -505,6 +459,52 @@
       "score": 53
     },
     {
+      "skill_id": "AvdLee/SwiftUI-Agent-Skill",
+      "spec": {
+        "name": "swiftui-agent-skill",
+        "description": "Add expert SwiftUI Best Practices guidance to your AI coding tool (Agent Skills open format).",
+        "license": "MIT",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+        "source_path": "",
+        "install_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill/tree/main",
+        "last_synced": "2026-09-12T08:26:29.173042Z",
+        "upstream_commit": "",
+        "repo": "avdlee/swiftui-agent-skill",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 3519,
+        "last_commit_date": "2026-08-12",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "agent",
+        "skill",
+        "swiftui"
+      ],
+      "score": 52
+    },
+    {
       "skill_id": "rudrankriyam/app-store-connect-cli-skills",
       "spec": {
         "name": "app-store-connect-cli-skills",
@@ -549,52 +549,6 @@
         "connect",
         "skills",
         "store"
-      ],
-      "score": 52
-    },
-    {
-      "skill_id": "arpitg1304/robotics-agent-skills",
-      "spec": {
-        "name": "robotics-agent-skills",
-        "description": "Agent skills that make AI coding assistants write production-grade robotics software. ROS1, ROS2, design patterns, SOLID principles, and testing — for Claude Code, Cursor, Copilot, and any SKILL.md-compatible agent.",
-        "license": "Apache-2.0",
-        "compatibility": null,
-        "metadata": {},
-        "allowed_tools": null
-      },
-      "discovery": {
-        "source_id": "community-repos",
-        "source_type": "github_repo",
-        "source_url": "https://github.com/arpitg1304/robotics-agent-skills",
-        "source_path": "",
-        "install_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/main",
-        "last_synced": "2026-09-12T08:26:29.173641Z",
-        "upstream_commit": "",
-        "repo": "arpitg1304/robotics-agent-skills",
-        "alternate_sources": []
-      },
-      "signals": {
-        "repo_stars": 357,
-        "last_commit_date": "2026-08-12",
-        "has_scripts": false,
-        "has_references": false,
-        "file_count": 0,
-        "open_issues": null,
-        "install_count": 0,
-        "source_count": 1
-      },
-      "platform": {
-        "claude_code": true,
-        "claude_ai": false,
-        "kiro": true,
-        "codex": true,
-        "universal": true
-      },
-      "category": "development",
-      "tags": [
-        "agent",
-        "robotics",
-        "skills"
       ],
       "score": 52
     },
@@ -733,6 +687,52 @@
         "terraform"
       ],
       "score": 51
+    },
+    {
+      "skill_id": "arpitg1304/robotics-agent-skills",
+      "spec": {
+        "name": "robotics-agent-skills",
+        "description": "Agent skills that make AI coding assistants write production-grade robotics software. ROS1, ROS2, design patterns, SOLID principles, and testing — for Claude Code, Cursor, Copilot, and any SKILL.md-compatible agent.",
+        "license": "Apache-2.0",
+        "compatibility": null,
+        "metadata": {},
+        "allowed_tools": null
+      },
+      "discovery": {
+        "source_id": "community-repos",
+        "source_type": "github_repo",
+        "source_url": "https://github.com/arpitg1304/robotics-agent-skills",
+        "source_path": "",
+        "install_url": "https://github.com/arpitg1304/robotics-agent-skills/tree/main",
+        "last_synced": "2026-09-12T08:26:29.173641Z",
+        "upstream_commit": "",
+        "repo": "arpitg1304/robotics-agent-skills",
+        "alternate_sources": []
+      },
+      "signals": {
+        "repo_stars": 357,
+        "last_commit_date": "2026-08-12",
+        "has_scripts": false,
+        "has_references": false,
+        "file_count": 0,
+        "open_issues": null,
+        "install_count": 0,
+        "source_count": 1
+      },
+      "platform": {
+        "claude_code": true,
+        "claude_ai": false,
+        "kiro": true,
+        "codex": true,
+        "universal": true
+      },
+      "category": "development",
+      "tags": [
+        "agent",
+        "robotics",
+        "skills"
+      ],
+      "score": 50
     },
     {
       "skill_id": "seb1n/awesome-ai-agent-skills",
@@ -1011,5 +1011,5 @@
     }
   ],
   "total": 22,
-  "generated_at": "2026-11-10T12:12:30.429605+00:00"
+  "generated_at": "2026-11-11T11:42:46.091625+00:00"
 }
