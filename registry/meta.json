@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-11-13T11:54:52.697970Z",
+  "last_synced": "2026-11-14T11:14:42.515556Z",
   "version": "1",
   "categories": {
-    "document": 966,
-    "development": 4100,
-    "devops": 1134,
-    "data": 692,
-    "creative": 1049,
-    "security": 159,
-    "productivity": 1082,
+    "document": 962,
+    "development": 4112,
+    "devops": 1122,
+    "data": 711,
+    "creative": 1047,
+    "security": 158,
+    "productivity": 1080,
     "education": 203,
-    "other": 1302,
-    "ecommerce": 87,
-    "content": 519
+    "other": 1291,
+    "ecommerce": 93,
+    "content": 514
   },
   "sources": [
     "anthropics-skills",
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 18,
-    "21-40": 2726,
-    "41-60": 8033,
+    "0-20": 17,
+    "21-40": 2710,
+    "41-60": 8050,
     "61-80": 413,
     "81-100": 103
   },
   "changelog": {
-    "added": 36,
-    "removed": 36,
-    "modified": 94,
+    "added": 82,
+    "removed": 82,
+    "modified": 38,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:228541:1794570787081:dev-god",
+      "fingerprint": "skillhub:225960:1794654782933:dev-god",
       "skill_count": 5000,
-      "synced_at": "2026-11-13T11:54:52.697943+00:00",
+      "synced_at": "2026-11-14T11:14:42.515530+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -191,7 +191,7 @@
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 80.16
+      "has_stars": 79.96
     },
     "source_health": {
       "skillhub-cn": {
@@ -319,7 +319,7 @@
       "removed_count": 0,
       "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 213,
+      "disambiguated_ids": 212,
       "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
       "largest_group": 0,
