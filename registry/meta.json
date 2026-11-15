@@ -1,19 +1,19 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-11-14T11:14:42.515556Z",
+  "last_synced": "2026-11-15T11:47:16.191503Z",
   "version": "1",
   "categories": {
-    "document": 962,
-    "development": 4112,
-    "devops": 1122,
-    "data": 711,
+    "document": 961,
+    "development": 4127,
+    "devops": 1108,
+    "data": 714,
     "creative": 1047,
     "security": 158,
     "productivity": 1080,
-    "education": 203,
-    "other": 1291,
-    "ecommerce": 93,
+    "education": 202,
+    "other": 1288,
+    "ecommerce": 94,
     "content": 514
   },
   "sources": [
@@ -59,15 +59,15 @@
   },
   "score_distribution": {
     "0-20": 17,
-    "21-40": 2710,
-    "41-60": 8050,
+    "21-40": 2699,
+    "41-60": 8061,
     "61-80": 413,
     "81-100": 103
   },
   "changelog": {
-    "added": 82,
-    "removed": 82,
-    "modified": 38,
+    "added": 41,
+    "removed": 41,
+    "modified": 63,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:225960:1794654782933:dev-god",
+      "fingerprint": "skillhub:226789:1794743204142:dev-god",
       "skill_count": 5000,
-      "synced_at": "2026-11-14T11:14:42.515530+00:00",
+      "synced_at": "2026-11-15T11:47:16.191479+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -178,7 +178,7 @@
   "quality": {
     "total": 11293,
     "score": {
-      "avg": 43.3,
+      "avg": 43.4,
       "min": 20,
       "max": 87,
       "median": 42,
@@ -186,12 +186,12 @@
       "spread": 67
     },
     "coverage_pct": {
-      "has_description": 99.32,
+      "has_description": 99.33,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 79.96
+      "has_stars": 79.83
     },
     "source_health": {
       "skillhub-cn": {
@@ -319,7 +319,7 @@
       "removed_count": 0,
       "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 212,
+      "disambiguated_ids": 214,
       "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
       "largest_group": 0,
