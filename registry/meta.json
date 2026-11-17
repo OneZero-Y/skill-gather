@@ -1,17 +1,17 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-11-16T12:29:02.691352Z",
+  "last_synced": "2026-11-17T12:50:05.371767Z",
   "version": "1",
   "categories": {
-    "document": 964,
-    "development": 4139,
-    "devops": 1102,
-    "data": 711,
-    "creative": 1048,
+    "document": 963,
+    "development": 4145,
+    "devops": 1096,
+    "data": 713,
+    "creative": 1049,
     "security": 158,
-    "productivity": 1081,
-    "education": 199,
+    "productivity": 1080,
+    "education": 198,
     "other": 1284,
     "ecommerce": 94,
     "content": 513
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 15,
-    "21-40": 2612,
-    "41-60": 8150,
+    "0-20": 14,
+    "21-40": 2587,
+    "41-60": 8176,
     "61-80": 413,
     "81-100": 103
   },
   "changelog": {
-    "added": 26,
-    "removed": 26,
-    "modified": 143,
+    "added": 35,
+    "removed": 35,
+    "modified": 133,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:228531:1794832092295:dev-god",
+      "fingerprint": "skillhub:229796:1794919703239:dev-god",
       "skill_count": 5000,
-      "synced_at": "2026-11-16T12:29:02.691325+00:00",
+      "synced_at": "2026-11-17T12:50:05.371746+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -186,12 +186,12 @@
       "spread": 67
     },
     "coverage_pct": {
-      "has_description": 99.35,
+      "has_description": 99.36,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 79.83
+      "has_stars": 79.81
     },
     "source_health": {
       "skillhub-cn": {
@@ -319,7 +319,7 @@
       "removed_count": 0,
       "removed_by_location": 0,
       "removed_by_content": 0,
-      "disambiguated_ids": 215,
+      "disambiguated_ids": 216,
       "dedup_rate_pct": 0.0,
       "multi_source_skills": 0,
       "largest_group": 0,
