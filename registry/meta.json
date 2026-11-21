@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-11-20T12:32:44.951596Z",
+  "last_synced": "2026-11-21T12:11:25.371896Z",
   "version": "1",
   "categories": {
-    "document": 894,
-    "development": 4518,
-    "devops": 1063,
-    "data": 688,
-    "creative": 986,
-    "security": 157,
-    "productivity": 1064,
-    "education": 180,
-    "other": 1189,
-    "ecommerce": 91,
-    "content": 463
+    "document": 885,
+    "development": 4587,
+    "devops": 1065,
+    "data": 681,
+    "creative": 970,
+    "security": 156,
+    "productivity": 1061,
+    "education": 175,
+    "other": 1170,
+    "ecommerce": 90,
+    "content": 453
   },
   "sources": [
     "anthropics-skills",
@@ -58,16 +58,16 @@
     "universal": 11282
   },
   "score_distribution": {
-    "0-20": 8,
-    "21-40": 2574,
-    "41-60": 8195,
+    "0-20": 5,
+    "21-40": 2407,
+    "41-60": 8365,
     "61-80": 413,
     "81-100": 103
   },
   "changelog": {
-    "added": 394,
-    "removed": 394,
-    "modified": 167,
+    "added": 128,
+    "removed": 128,
+    "modified": 71,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:233041:1795177928762:dev-god",
+      "fingerprint": "skillhub:233653:1795263081250:dev-god",
       "skill_count": 5000,
-      "synced_at": "2026-11-20T12:32:44.951558+00:00",
+      "synced_at": "2026-11-21T12:11:25.371869+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -186,12 +186,12 @@
       "spread": 67
     },
     "coverage_pct": {
-      "has_description": 99.49,
+      "has_description": 99.5,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 77.39
+      "has_stars": 76.84
     },
     "source_health": {
       "skillhub-cn": {
