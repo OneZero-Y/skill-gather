@@ -1,20 +1,20 @@
 {
-  "total_skills": 11293,
+  "total_skills": 11292,
   "sources_count": 15,
-  "last_synced": "2026-11-22T12:19:35.008121Z",
+  "last_synced": "2026-11-23T14:06:16.697072Z",
   "version": "1",
   "categories": {
-    "document": 884,
-    "development": 4627,
-    "devops": 1067,
-    "data": 678,
-    "creative": 954,
-    "security": 155,
-    "productivity": 1061,
-    "education": 170,
-    "other": 1161,
+    "document": 830,
+    "development": 4859,
+    "devops": 1056,
+    "data": 664,
+    "creative": 907,
+    "security": 150,
+    "productivity": 1054,
+    "education": 156,
+    "other": 1108,
     "ecommerce": 89,
-    "content": 447
+    "content": 419
   },
   "sources": [
     "anthropics-skills",
@@ -45,31 +45,31 @@
     "supabase-skills": 13,
     "voltagent-awesome": 646,
     "community-repos": 22,
-    "skillhub-cn": 5000,
+    "skillhub-cn": 4999,
     "microsoft-vscode-skills": 13,
     "mcpmarket-cn": 4769,
     "heilcheng-awesome": 6
   },
   "platform_counts": {
-    "claude_code": 11288,
+    "claude_code": 11287,
     "claude_ai": 21,
-    "kiro": 11269,
-    "codex": 10512,
-    "universal": 11282
+    "kiro": 11268,
+    "codex": 10511,
+    "universal": 11281
   },
   "score_distribution": {
-    "0-20": 4,
-    "21-40": 2089,
-    "41-60": 8684,
+    "0-20": 1,
+    "21-40": 1839,
+    "41-60": 8936,
     "61-80": 413,
     "81-100": 103
   },
   "changelog": {
-    "added": 81,
-    "removed": 81,
-    "modified": 73,
+    "added": 325,
+    "removed": 326,
+    "modified": 126,
     "total_old": 11293,
-    "total_new": 11293
+    "total_new": 11292
   },
   "source_sync_state": {
     "mcpmarket-cn": {
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:234336:1795349936896:dev-god",
-      "skill_count": 5000,
-      "synced_at": "2026-11-22T12:19:35.008087+00:00",
+      "fingerprint": "skillhub:236017:1795442744783:dev-god",
+      "skill_count": 4999,
+      "synced_at": "2026-11-23T14:06:16.697034+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -176,9 +176,9 @@
     }
   },
   "quality": {
-    "total": 11293,
+    "total": 11292,
     "score": {
-      "avg": 43.6,
+      "avg": 43.7,
       "min": 20,
       "max": 87,
       "median": 42,
@@ -186,16 +186,16 @@
       "spread": 67
     },
     "coverage_pct": {
-      "has_description": 99.51,
+      "has_description": 99.55,
       "has_license": 2.57,
-      "traceable_to_repo": 55.72,
+      "traceable_to_repo": 55.73,
       "confirmed_by_multiple_sources": 0.39,
-      "has_install_count": 44.59,
-      "has_stars": 76.49
+      "has_install_count": 44.58,
+      "has_stars": 74.81
     },
     "source_health": {
       "skillhub-cn": {
-        "skills": 5000,
+        "skills": 4999,
         "status": "ok",
         "shards": [
           "skillhub-cn.json"
@@ -315,15 +315,15 @@
     },
     "dedup": {
       "input_count": 11293,
-      "output_count": 11293,
-      "removed_count": 0,
-      "removed_by_location": 0,
+      "output_count": 11292,
+      "removed_count": 1,
+      "removed_by_location": 1,
       "removed_by_content": 0,
-      "disambiguated_ids": 201,
-      "dedup_rate_pct": 0.0,
+      "disambiguated_ids": 198,
+      "dedup_rate_pct": 0.01,
       "multi_source_skills": 0,
-      "largest_group": 0,
-      "largest_group_key": "",
+      "largest_group": 2,
+      "largest_group_key": "api.skillhub.cn/org-mbvufw6y/window-guardrail-tender-opportunity-radar",
       "top_overlapping_source_pairs": {}
     }
   }
