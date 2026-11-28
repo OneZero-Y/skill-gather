@@ -1,20 +1,20 @@
 {
   "total_skills": 11293,
   "sources_count": 15,
-  "last_synced": "2026-11-27T13:31:46.229332Z",
+  "last_synced": "2026-11-28T12:44:56.524850Z",
   "version": "1",
   "categories": {
-    "document": 818,
-    "development": 4930,
-    "devops": 1053,
-    "data": 659,
-    "creative": 899,
-    "security": 146,
-    "productivity": 1053,
-    "education": 150,
-    "other": 1088,
-    "ecommerce": 89,
-    "content": 408
+    "document": 797,
+    "development": 4996,
+    "devops": 1050,
+    "data": 650,
+    "creative": 892,
+    "security": 145,
+    "productivity": 1047,
+    "education": 143,
+    "other": 1072,
+    "ecommerce": 90,
+    "content": 411
   },
   "sources": [
     "anthropics-skills",
@@ -59,15 +59,15 @@
   },
   "score_distribution": {
     "0-20": 0,
-    "21-40": 1712,
-    "41-60": 9065,
+    "21-40": 1677,
+    "41-60": 9100,
     "61-80": 413,
     "81-100": 103
   },
   "changelog": {
-    "added": 55,
-    "removed": 55,
-    "modified": 174,
+    "added": 142,
+    "removed": 142,
+    "modified": 45,
     "total_old": 11293,
     "total_new": 11293
   },
@@ -115,9 +115,9 @@
       "skipped": true
     },
     "skillhub-cn": {
-      "fingerprint": "skillhub:242948:1795786176471:dev-god",
+      "fingerprint": "skillhub:244667:1795869731539:dev-god",
       "skill_count": 5000,
-      "synced_at": "2026-11-27T13:31:46.229298+00:00",
+      "synced_at": "2026-11-28T12:44:56.524819+00:00",
       "skipped": false
     },
     "microsoft-vscode-skills": {
@@ -178,7 +178,7 @@
   "quality": {
     "total": 11293,
     "score": {
-      "avg": 43.9,
+      "avg": 44.0,
       "min": 21,
       "max": 87,
       "median": 44,
@@ -186,12 +186,12 @@
       "spread": 66
     },
     "coverage_pct": {
-      "has_description": 99.59,
+      "has_description": 99.62,
       "has_license": 2.57,
       "traceable_to_repo": 55.72,
       "confirmed_by_multiple_sources": 0.39,
       "has_install_count": 44.59,
-      "has_stars": 74.29
+      "has_stars": 73.61
     },
     "source_health": {
       "skillhub-cn": {
